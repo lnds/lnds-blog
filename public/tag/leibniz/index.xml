@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leibniz on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/leibniz/</link>
+    <description>Recent content in Leibniz on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 18 May 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/leibniz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Todo es software</title>
+      <link>http://localhost:1313/blog/lnds/2012/05/18/todo-es-software/</link>
+      <pubDate>Fri, 18 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/05/18/todo-es-software/</guid>
+      <description>&lt;p&gt;Como &lt;a href=&#34;http://localhost:1313/blog/2010/06/leibniz-y-la-simplicidad-de-las-leyes-de-la-naturaleza.html&#34;&gt;vimos&lt;/a&gt;&#xA;Leibniz plantea que la naturaleza ha de obedecer leyes simples, bellas y&#xA;elegantes, es decir, leyes comprensibles, sino la ciencia no es posible.&#xA;El problema filosófico es saber qué entendemos por leyes simples, ¿la&#xA;simplicidad de las ecuaciones que las describen? y ¿qué pasa con todo el&#xA;conocimiento previo que hay que tener para comprender esas ecuaciones?&lt;/p&gt;&#xA;&lt;p&gt;Gregory Chaitin propone una respuesta desde el punto de vista de la&#xA;&lt;a href=&#34;http://es.wikipedia.org/wiki/Teor%C3%ADa_algor%C3%ADtmica_de_la_informaci%C3%B3n&#34;&gt;Teoría Algoritmica de la Información&lt;/a&gt; (TAI).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leibniz y la simplicidad de las leyes de la naturaleza</title>
+      <link>http://localhost:1313/blog/lnds/2010/06/03/leibniz-y-la-simplicidad-de-las-leyes-de-la-naturaleza/</link>
+      <pubDate>Thu, 03 Jun 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/06/03/leibniz-y-la-simplicidad-de-las-leyes-de-la-naturaleza/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Leibniz.jpg&#34; alt=&#34;Leibniz.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Sans les mathématiques on ne pénètre point au fond de la philosophie.&#xA;Sans la philosophie on ne pénètre point au fond des mathématiques.&lt;br&gt;&#xA;Sans les deux on ne pénètre au fond de rien.&lt;/em&gt;&lt;br&gt;&#xA;&amp;ndash; Leibniz&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;(Sin las matemáticas no podemos penetrar en profundidad en la filosofía.&#xA;Sin la filosofía no podemos penetrar en profundidad en las matemáticas.&#xA;Sin ambas no podemos penetrar profundamente en nada.)&lt;/p&gt;&#xA;&lt;p&gt;Guiados por el matemático &lt;a href=&#34;http://es.wikipedia.org/wiki/Gregory_Chaitin&#34;&gt;Gregory Chaitin&lt;/a&gt;, nos&#xA;aventuraremos en las ideas de complejidad gran filósofo y matemático&#xA;&lt;a href=&#34;https://es.wikipedia.org/wiki/Gottfried_Leibniz&#34;&gt;Gotfried Leibniz&lt;/a&gt;. Este&#xA;artículo está basado en la charla de Chaitin titulada &amp;ldquo;&lt;a href=&#34;http://www.cs.auckland.ac.nz/~chaitin/apa.html&#34;&gt;Leibniz, Complexity and Incompleteness&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un programa para enseñar matemáticas</title>
+      <link>http://localhost:1313/blog/lnds/2009/02/01/un-programa-para-ense%C3%B1ar-matematicas/</link>
+      <pubDate>Sun, 01 Feb 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/02/01/un-programa-para-ense%C3%B1ar-matematicas/</guid>
+      <description>&lt;p&gt;Una vez mi amigo &lt;a href=&#34;http://www.newtenberg.com/560/article-68138.html&#34;&gt;Pepe Flores&lt;/a&gt; dijo &amp;ldquo;los&#xA;periodistas son científicos natos que vieron cortadas sus alas en las&#xA;matemáticas del 5to básico&amp;rdquo; (*), esta es una frase que merece una&#xA;reflexión más profunda, porque realmente hay que preguntarse que es lo&#xA;que pasa que en quinto básico se pierden tantos talentos, desviándose&#xA;hacia el lado oscuro :wink:.&lt;/p&gt;&#xA;&lt;p&gt;Fuera de bromas, parece que algo pasa en nuestra educación que mucha&#xA;gente queda espantada con las matemáticas de por vida, estoy de acuerdo&#xA;con Pepe, y he escuchado a otros decir, que el quinto básico es un punto&#xA;crítico. Lo que es una lástima, porque las matemáticas son una parte&#xA;importante de nuestra cultura.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

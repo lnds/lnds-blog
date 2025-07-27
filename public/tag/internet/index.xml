@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/internet/</link>
+    <description>Recent content in Internet on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 27 Apr 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Web no es internet y otras breves notas históricas</title>
+      <link>http://localhost:1313/blog/lnds/2014/04/27/la-web-no-es-internet-y-otras-breves-notas-historicas/</link>
+      <pubDate>Sun, 27 Apr 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2014/04/27/la-web-no-es-internet-y-otras-breves-notas-historicas/</guid>
+      <description>&lt;p&gt;Mirando en Twitter como algunas personas recuerdan su experiencia con la&#xA;web a propósito del &amp;ldquo;cumpleaños 25&amp;rdquo; de esta, me propuse aclarar un par&#xA;de cosas.&lt;/p&gt;&#xA;&lt;p&gt;Primero, mucha gente, incluidas algunas personas que deberían saberlo&#xA;mejor sobretodo por el cargo que ejercen, confunden la World Wide Web&#xA;con Internet.&lt;/p&gt;&#xA;&lt;p&gt;Internet es mucho más antigua que la Web. Internet es un conjunto de&#xA;redes interconectadas que se caracterizan por usar el protocolo TCP/IP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Carta de Derecho para los Usuarios de Redes Sociales</title>
+      <link>http://localhost:1313/blog/lnds/2011/11/23/carta-de-derecho-para-los-usuarios-de-redes-sociales/</link>
+      <pubDate>Wed, 23 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/11/23/carta-de-derecho-para-los-usuarios-de-redes-sociales/</guid>
+      <description>&lt;p&gt;En marzo de este año, y a raíz de los incidentes de Google y Facebook a&#xA;fines del año pasado, que mostraban como estas compañías, y&#xA;probablemente muchas más, no respetan la privacidad de sus usuarios, un&#xA;grupo de panelistas de la conferencia &lt;a href=&#34;http://sxsw.com/&#34;&gt;SXSW&lt;/a&gt; en&#xA;Estados Unidos redactaron un documento que denominaron &lt;a href=&#34;http://schedule.sxsw.com/events/event_IAP7315&#34;&gt;Social Network&#xA;Users&amp;rsquo; Bill of Rights&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Por cierto, esta carta no ha tenido mucha difusión, que yo sepa, pero es&#xA;interesante, e importante. Creo que los usuarios de redes sociales&#xA;deberíamos fomentar la creación de un documento como este, que tenga un&#xA;real peso legal, ¿no les parece?, les dejo la traducción de este&#xA;documento y espero sus opiniones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vint Cerf</title>
+      <link>http://localhost:1313/blog/lnds/2011/11/21/vint-cerf/</link>
+      <pubDate>Mon, 21 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/11/21/vint-cerf/</guid>
+      <description>&lt;p&gt;En 1963 Joseph Licklider escribió su famoso memorandum, ¿lo recuerdan?&#xA;¿no? bueno, la historia la conté en &lt;a href=&#34;http://localhost:1313/blog/2011/01/el-memorandum.html&#34;&gt;este post&lt;/a&gt;. Su idea era&#xA;crear la &amp;ldquo;red intergaláctica de computadoras&amp;rdquo;, el era el hombre del&#xA;sueño. Leonard Kleinrock, el chico que quería un condensador para&#xA;construir la radio que salía en la contratapa del comic Superman&#xA;(&lt;a href=&#34;http://localhost:1313/blog/2008/04/todo-por-un-condensador-variable.html&#34;&gt;la historia está aquí&lt;/a&gt;),&#xA;nos dió la teoría matemática para poder construir una red basada en&#xA;packet switching, el fue el hombre de la teoría. Después Lawrence&#xA;Roberts dirigió al equipo que construyó ARPANET, la red predecesora de&#xA;internet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Popups y pagos por internet en Chile</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/23/popups-y-pagos-por-internet-en-chile/</link>
+      <pubDate>Wed, 23 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/23/popups-y-pagos-por-internet-en-chile/</guid>
+      <description>&lt;p&gt;Debe haber una razón, pero tecnicamente no la veo, por la cual la&#xA;integración de pagos en los sitios chilenos se hace con popups. No sé&#xA;quien tuvo la idea, pero es muy mala. En muchos sitios de pago hay que&#xA;re configurar el browser para que admita las ventanas emergentes del&#xA;sitio.&lt;/p&gt;&#xA;&lt;p&gt;¿Por qué se siguen usando popups?, no sólo para pagos, sino que también&#xA;dar &amp;ldquo;avisos importantes&amp;rdquo; a los usuarios, ¿por qué siguen usando&#xA;popups, si ya la mayoría de los navegadores modernos bloquean esto&#xA;artefactos?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diálogos anacrónicos</title>
+      <link>http://localhost:1313/blog/lnds/2011/01/23/dialogos-anacronicos/</link>
+      <pubDate>Sun, 23 Jan 2011 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/01/23/dialogos-anacronicos/</guid>
+      <description>&lt;p&gt;Hoy  en el diario El País sale publicado este &lt;a href=&#34;http://www.elpais.com/articulo/portada/Dialogo/politeista/elpepuculbab/20110122elpbabpor_9/Tes&#34;&gt;diálogo politeista&lt;/a&gt;,&#xA;entre Umberto Eco y Javier Marías. Debe haber sido un encuentro&#xA;fascinante, entre estos dos viejos pensadores. Hablar de internet era&#xA;inevitable:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Eco1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Umberto Eco.&lt;/strong&gt; Internet es la vuelta de Gutenberg. Si McLuhan estuviera vivo&#xA;tendría que cambiar sus teorías. Con Internet es una civilización&#xA;alfabética. Escribirán mal, leerán deprisa, pero si no saben el&#xA;abecedario se quedan fuera. Los padres de hoy veían la televisión, no&#xA;leían, pero sus hijos tienen que leer en Internet, y rápidamente. Es&#xA;un fenómeno nuevo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Memorándum</title>
+      <link>http://localhost:1313/blog/lnds/2011/01/03/el-memorandum/</link>
+      <pubDate>Mon, 03 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/01/03/el-memorandum/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Washington D.C. 23 de Abril de 1963&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Memorandum&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Para: Los Miembros y Afiliados de La Red Intergaláctica de&#xA;Computadores De: J. C. R. Licklider&lt;br&gt;&#xA;Asunto: Tópicos para Discusión en la Próxima Reunión&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Así empezaba uno de los documentos más interesantes, y problablemente&#xA;muy influyente, en la historia de la tecnología, el famoso &lt;a href=&#34;http://www.kurzweilai.net/memorandum-for-members-and-affiliates-of-the-intergalactic-computer-network&#34;&gt;Memorandum a los miembros de la red intergaláctica de computadores&lt;/a&gt;,&#xA;de Joseph Carl Robnett Licklider.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;licklider.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cuando leí este memorándum(1) me encontré con un caso de uso que&#xA;describe la necesidad de sistemas operativos distribuidos, de definir&#xA;&amp;ldquo;lenguajes&amp;rdquo; que permitan la interoperabilidad entre sistemas diversos,&#xA;RPC, ejecución remota de procesos, la descripción de una arquitectura&#xA;orientada a servicios, integración entre múltiples lenguajes de&#xA;programación (un programa en Fortran puede invocar rutinas escritas en&#xA;Algol que se encuentran disponibles en otra máquina en algún punto de la&#xA;red), la descripción de las máquinas virtuales (en el sentido de la JVM,&#xA;o el CLR de .Net), bibliotecas de carga dinámica en tiempo de ejecución&#xA;(DLLs, .so), ¡el concepto de MashUp!, el concepto de  la computación en&#xA;la nube (es transparente para el usuario en que nodo de la red se ejcuta&#xA;una tarea) y un sinfín de otros elementos, algunos que recién estamos&#xA;desarrollando. Por favor léanlo, &lt;a href=&#34;http://www.kurzweilai.net/memorandum-for-members-and-affiliates-of-the-intergalactic-computer-network&#34;&gt;acá está&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wikileaks y el triunfo de los ideales de internet</title>
+      <link>http://localhost:1313/blog/lnds/2010/12/07/wikileaks-y-el-triunfo-de-los-ideales-de-internet/</link>
+      <pubDate>Tue, 07 Dec 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/12/07/wikileaks-y-el-triunfo-de-los-ideales-de-internet/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;barack_obama.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Mientras más libre fluye la información, más fuerte se vuelve la&#xA;sociedad,&#xA;porqueciudadanos&#xA;de todos los países del mundo pueden empujar a sus gobiernos a que&#xA;rindan cuentas. Ellos pueden comenzar a pensar por si mismos.&amp;rdquo;&#xA;[...] Puedo decirles que en EEUU, el hecho de tener una internet&#xA;libre, o acceso sin restricciones a internet, es una fuente de fuerza,&#xA;y creo que debe ser fomentada.&amp;quot;&#xA;&amp;ndash; Barack Obama en &lt;a href=&#34;http://forum.bodybuilding.com/archive/index.php/t-120390411.html&#34;&gt;un discurso en China&lt;/a&gt; (&lt;a href=&#34;http://www.youtube.com/watch?v=J9zytXNgKMs&#34;&gt;video&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actividades ilegales</title>
+      <link>http://localhost:1313/blog/lnds/2010/12/04/actividades-ilegales/</link>
+      <pubDate>Sat, 04 Dec 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/12/04/actividades-ilegales/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Logotipo_de_Wikileaks.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Aunque Wikileaks funciona desde 2006, los eventos recientes correspondientes a&#xA;la filtración de mensajes diplomáticos desde las embajadas&#xA;norteamericanas, le han significado no sólo una mayor publicidad, sino&#xA;que una mayor cantidad de problemas técnicos, y una seria amenaza para&#xA;la viabilidad del proyecto.&lt;/p&gt;&#xA;&lt;p&gt;Hay tres aspectos de la infraestructura que sostiene Wikileaks cuyas&#xA;vulnerabilidades se veían venir y que voy a analizar, para tratar de&#xA;entender cómo pudo esta organización de hackers experimentados pudo&#xA;ponerse en esta posición riesgosa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El zombi como dispositivo</title>
+      <link>http://localhost:1313/blog/lnds/2010/11/14/el-zombi-como-dispositivo/</link>
+      <pubDate>Sun, 14 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/11/14/el-zombi-como-dispositivo/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;En 2006 nadie en Chile conocía facebook, muy pocos usaban internet,&#xA;en 2008 explotó, en menos de dos años la mayoría se conectó a la red&#xA;social. La capacidad tecnológica para crear un mundo de zombis está&#xA;instalada. Miles de horas de conexión nos pueden llevar al nuevo tipo&#xA;de zombi, el zombi gadget, el zombi dispositivo, conectado al&#xA;computador permanentemente, el zombi que cree que participa de algo&#xA;importante,  pero en realidad está sólo para alimentar a los&#xA;servidores que hacen minería de datos con su comportamiento, para ser&#xA;redirigido a  &lt;a href=&#34;http://www.cadaunadas.net/2010/10/3-anos-la-membrana-de-google.html&#34;&gt;consumir nuevos productos.&lt;/a&gt;&amp;rdquo;&#xA;(&lt;a href=&#34;https://www.akarru.com/blog/2010/11/14/un-mundo-de-zombis/&#34;&gt;un mundo de zombis, en akarrú&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El auto aprendizaje, según Isaac Asimov</title>
+      <link>http://localhost:1313/blog/lnds/2010/09/19/el-auto-aprendizaje-segun-isaac-asimov/</link>
+      <pubDate>Sun, 19 Sep 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/09/19/el-auto-aprendizaje-segun-isaac-asimov/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=lCcbooSvHxU&#34;&gt;&lt;/a&gt;Asimov, en una entrevista,&#xA;alrededor del año 1988:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/lCcbooSvHxU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;http://eduardoe.tumblr.com/post/996707114/maticandia-chulini-isaac-asimov-me-lee-la&#34;&gt;vía&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Como lágrimas en la lluvia</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/31/como-lagrimas-en-la-lluvia/</link>
+      <pubDate>Sat, 31 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/31/como-lagrimas-en-la-lluvia/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;All those&amp;hellip; moments will be lost in time like tears in rain.&amp;rdquo; &amp;ndash; Roy Batty, Blade Runner&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Recientemente un artículo mío fue enlazado , pero no directamente, sino&#xA;que usando un link generado por el servicio bit.ly, un &amp;ldquo;acortador de&#xA;urls&amp;rdquo;.  He hablado antes del &lt;a href=&#34;http://localhost:1313/blog/2009/04/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando.html&#34;&gt;problema con estos&#xA;servicios&lt;/a&gt;(*),&#xA;ahora, reflexionando me he dado cuenta que estos acortadores de urls&#xA;están introduciendo un &lt;em&gt;problema  bibliográfico&lt;/em&gt;, que no es menor.&lt;/p&gt;&#xA;&lt;p&gt;Es natural que se usen los &amp;ldquo;url shorters&amp;rdquo; en twitter dada la&#xA;restricción de 140 caracteres por mensaje, eso está muy bien en ese&#xA;contexto, pero es inadecuado usar un enlace corto en artículo en un&#xA;blog. Twitter es un servicio en tiempo real, está pensado para sostener&#xA;conversaciones efímeras, pero un post o artículo en un blog es algo que&#xA;dura mucho más tiempo, y por lo tanto lo correcto es que en estos texto&#xA;se coloque el enlace directo y completo, no el resultado intermedio&#xA;proporcionado por bit.ly, tinyurl u otro servicio similar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El problema de tinyurl y otros servicios similares (reciclando)</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/31/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/</link>
+      <pubDate>Sat, 31 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/31/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/</guid>
+      <description>&lt;p&gt;Curiosamente hace poco en una lista en que participo pedí que usaran&#xA;TinyUrl, olvidando lo que escribí hace un tiempo sobre lo problemas de&#xA;este servicio, un tema que &lt;a href=&#34;http://adactio.com/journal/1566&#34;&gt;ha resurgido en estos días&lt;/a&gt; y que se puede constituir en un&#xA;problema de seguridad serio. Aca vá, reciclado, y con alguna mejoras,&#xA;&lt;a href=&#34;http://localhost:1313/2007/12/el-problema-de-tinyurl-y-otros-servicios.html&#34;&gt;mi post del 27 de diciembre de 2007&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;El problema de tinyurl y otros servicios similares&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este post estaba en borrador, y ahora lo completé como respuesta a una&#xA;pregunta de &lt;a href=&#34;http://twitter.com/Francotirador&#34;&gt;FT via twitter&lt;/a&gt;,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet en Chile ante la contingencia</title>
+      <link>http://localhost:1313/blog/lnds/2010/03/11/internet-en-chile-ante-la-contingencia/</link>
+      <pubDate>Thu, 11 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/03/11/internet-en-chile-ante-la-contingencia/</guid>
+      <description>&lt;p&gt;Los principios de diseño de los protocolos de internet asumen que la&#xA;infraestructura de red es inherentemente no confiable, y dinámica en&#xA;términos de disponibilidad y nodos. Para poder reducir la complejidad de&#xA;la red, la inteligencia se deja en las puntas (&lt;a href=&#34;http://localhost:1313/2008/06/un-mundo-de-extremos.html&#34;&gt;la red es un mundo de&#xA;extremos&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;El protocolo IP no garantiza una calidad de servicio, ofrece el &amp;ldquo;mejor&#xA;esfuerzo&amp;rdquo; por entregar la información. Y funciona bastante bien,&#xA;gracias al concepto de packet switching, la idea de Leonard Kleinrock&#xA;(&lt;a href=&#34;http://localhost:1313/2008/04/todo-por-un-condensador-variable.html&#34;&gt;el niñito de 6 años que quería comprar un condensador&#xA;variable&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El estado de la internet</title>
+      <link>http://localhost:1313/blog/lnds/2010/03/09/el-estado-de-la-internet/</link>
+      <pubDate>Tue, 09 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/03/09/el-estado-de-la-internet/</guid>
+      <description>&lt;p&gt;Interesante video con el que me encontré a través del blog de&#xA;&lt;a href=&#34;http://www.usando.info/blog/2010/03/un-ano-complejo-un-ano-de-oportunidades.html&#34;&gt;J.C. Camus&lt;/a&gt;,&#xA;sobre el estado de Internet:&lt;/p&gt;&#xA;&lt;p&gt;Nota: recuerden que los norteamericanos, a diferencia del resto del&#xA;mundo civilizado, tienen &lt;a href=&#34;http://xkcd.com/558/&#34;&gt;la mala costumbre de llamar billón a los mil&#xA;millones&lt;/a&gt;, y trillón al billón, sí, es un lio,&#xA;pero si el video fuera en notación científica no creo que se simplifique&#xA;más la cosa, en fin. Igual son cifras muy impresionantes, y nadie es&#xA;capaz de imaginaras adecuadamente, así que impresiónense:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Principio de Robustez</title>
+      <link>http://localhost:1313/blog/lnds/2008/09/15/el-principio-de-robustez/</link>
+      <pubDate>Mon, 15 Sep 2008 21:59:27 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/09/15/el-principio-de-robustez/</guid>
+      <description>&lt;p&gt;En 1981 se publica uno de los documentos más importantes de la internet, el famoso RFC 793, que define el protocolo TCP, que es el principal protocolo de internet, y que es la base de la mayoría de los protocolos usados en la red.&lt;/p&gt;&#xA;&lt;p&gt;En este documento Jon Postel escribe, lo que ha llegado a conocerse como el Principio de Robustez, o la Ley de Postel:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Las implementaciones TCP deben seguir un principio genera del robustez: ser conservador en lo que haces, ser liberal en lo que aceptas de otros.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Anatomía de la Web</title>
+      <link>http://localhost:1313/blog/lnds/2008/08/17/la-anatomia-de-la-web/</link>
+      <pubDate>Sun, 17 Aug 2008 23:27:42 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/08/17/la-anatomia-de-la-web/</guid>
+      <description>&lt;p&gt;Continúo con mi lectura del libro &lt;a href=&#34;http://www.ciw.cl/libroWeb-NV.pdf&#34;&gt;Cómo Funciona la Web&lt;/a&gt;, publicado por el &lt;a href=&#34;http://www.ciw.cl/&#34;&gt;Centro de Investigación de la Web&lt;/a&gt; de la Universidad de Chile.&lt;/p&gt;&#xA;&lt;p&gt;Esta vez me voy a concentrar en la parte del libro escrita por Ricardo Baeza, &amp;ldquo;La Anatomía de la Web&amp;rdquo;, un capítulo muy bueno, con mucha información y estadísticas interesantes, sobretodo cuando describe la estructura de la web chilena.&lt;/p&gt;&#xA;&lt;p&gt;Aunque hay algunos errores menores en el capítulo, como por ejemplo, se define un terabyte como un billón de megabytes (en realidad un terabyte es un billón de bytes), los resultados expuestos son muy interesantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un Mundo de Extremos</title>
+      <link>http://localhost:1313/blog/lnds/2008/06/30/un-mundo-de-extremos/</link>
+      <pubDate>Mon, 30 Jun 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/06/30/un-mundo-de-extremos/</guid>
+      <description>&lt;p&gt;Parece que no aprendemos nada y se sigue insistiendo en tratar de&#xA;controlar la internet, como si la fuera una cosa que se puede poseer.&lt;/p&gt;&#xA;&lt;p&gt;Quizás es bueno recordar lo que nos dijieron hace unos años atrás&#xA;&lt;a href=&#34;http://blogs.law.harvard.edu/doc/&#34;&gt;Sears&lt;/a&gt; y&#xA;&lt;a href=&#34;http://www.evident.com/&#34;&gt;Weinberger&lt;/a&gt;, con respecto a Internet:&lt;/p&gt;&#xA;&lt;p&gt;Internet no puede ser poseída, ni siquiera por las empresas a través de&#xA;cuyos &amp;ldquo;caños&amp;rdquo; fluye, porque es &lt;em&gt;*unacuerdo, no una cosa. Internet no&#xA;sólo está en el dominio público, sino que es &lt;strong&gt;un&lt;/strong&gt; dominio público.&lt;/em&gt;*&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Todo por un condensador variable</title>
+      <link>http://localhost:1313/blog/lnds/2008/01/18/todo-por-un-condensador-variable/</link>
+      <pubDate>Fri, 18 Jan 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/01/18/todo-por-un-condensador-variable/</guid>
+      <description>&lt;p&gt;Esta fotografía corresponde a Leonard Kleinrock, al lado del IMP1,&#xA;Interface Message Processor, uno de los nodos de packet switching usados&#xA;en ARPANET, la antecesora de Internet.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;imp1-thumb-200x257.gif&#34; alt=&#34;imp1.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La historia cuenta que el pequeño Len Kleinrock recibió un ejemplar&#xA;del comic de Superman, en el cual encuentra las instrucciones para&#xA;construir una &amp;ldquo;radio de cristal&amp;rdquo;. Todo lo que necesitaba el niño era&#xA;una hoja de afeitar usada de su papá, una poco de grafito (de lapiz),&#xA;un rollo de papel higiénico vació, alambre, todos lo cual ya estaba en&#xA;su casa. Incluso pudo conseguir unos viejos audífonos, pero faltaba un&#xA;&amp;ldquo;condensador variable&amp;rdquo;. Para conseguirlo convenció a su madre de&#xA;viajar al centro de Manhattan a una tienda de radio y electrónica.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El problema de tinyurl y otros servicios similares</title>
+      <link>http://localhost:1313/blog/lnds/2007/12/27/el-problema-de-tinyurl-y-otros-servicios-similares/</link>
+      <pubDate>Thu, 27 Dec 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/12/27/el-problema-de-tinyurl-y-otros-servicios-similares/</guid>
+      <description>&lt;p&gt;Este post estaba en borrador, y ahora lo completé como respuesta a una&#xA;pregunta de &lt;a href=&#34;http://twitter.com/Francotirador&#34;&gt;FT via twitter&lt;/a&gt;,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Si algún día &lt;a href=&#34;http://www.tinyurl.com/&#34;&gt;TinyURL&lt;/a&gt; o&#xA;&lt;a href=&#34;http://www.dev.cl/&#34;&gt;Dev.cl&lt;/a&gt; dejan de prestar servicio... ¿mueren&#xA;todas las URLs cortas creadas?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La respuesta corta es Sí.&lt;/p&gt;&#xA;&lt;p&gt;Incidentalmente, cuando traté de acortar la url de este post dev.cl me&#xA;devolvio la url &lt;a href=&#34;http://dev.cl/&#34;&gt;http://dev.cl/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ahora la respuesta entretenida:&lt;/p&gt;&#xA;&lt;p&gt;Aunque las urls cortas tienen varias aplicaciones y ventajas, incluso&#xA;sirven para &lt;a href=&#34;http://localhost:1313/2006/12/wpeg_el_mejor_algoritmo_de_compresion.html&#34;&gt;comprimir imágenes&lt;/a&gt;&#xA;:wink: la verdad es que hay varios problemas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lol Catz</title>
+      <link>http://localhost:1313/blog/lnds/2007/08/26/lol-cats/</link>
+      <pubDate>Sun, 26 Aug 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/08/26/lol-cats/</guid>
+      <description>&lt;p&gt;Eric Nakagawa se encontraba sin trabajo, cuando en enero pasado se&#xA;encontró con esta fotografía, con un extraño texto lleno de faltas&#xA;ortgráficas y gramaticales:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;lolcat1.gif&#34; alt=&#34;lolcat1.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Con un amigo formaron el sitio &lt;a href=&#34;http://replay.web.archive.org/20071017000912/http://icanhascheezburger.com/&#34;&gt;I Can Has Cheesburger&lt;/a&gt;,&#xA;algo así como &amp;ldquo;puedo tener mi hamburguesa con queso?&amp;rdquo;. Al tiempo&#xA;empezó a tener visitas, y el fenómeno de los lolcats empezó, y el&#xA;Nakagawa empezó su nuevo trabajo.&lt;/p&gt;&#xA;&lt;p&gt;Hoy su sitio tiene más de 200.000 visitas diarias, y los ingresos por&#xA;concepto de publicidad &amp;ldquo;alcanzan para pagar todas mis facturas&amp;rdquo;,&#xA;declara el ex programador.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>10 años de independencia del ciber espacio</title>
+      <link>http://localhost:1313/blog/lnds/2006/02/08/10-anos-de-independencia-del-ciber-espacio/</link>
+      <pubDate>Wed, 08 Feb 2006 12:43:29 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/02/08/10-anos-de-independencia-del-ciber-espacio/</guid>
+      <description>&lt;h2 id=&#34;declaración-de-independencia-del-ciberespacio&#34;&gt;Declaración de Independencia del Ciberespacio&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Gobiernos del Mundo Industrial, desgastados gigantes de carne y acero: vengo del Ciberespacio, el nuevo hogar de la Mente. En nombre del futuro os pido que nos dejéis en paz en el pasado. No sois bienvenidos entre nosotros. No tenéis ninguna soberanía sobre el lugar donde nos reunimos.No hemos elegido ningún gobierno, ni pretendemos tenerlo, así que me dirijo a vosotros sin más autoridad que aquélla con la que la libertad siempre habla. Declaro al espacio social global que estamos construyendo independiente por naturaleza de las tiranías que estáis buscando imponernos. No tenéis ningún derecho moral a gobernarnos, ni teneéis ningún método para someternos que debamos temer verdaderamente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La internet está matando a los periódicos</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/01/la-internet-esta-matando-a-los-periodicos/</link>
+      <pubDate>Tue, 01 Nov 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/01/la-internet-esta-matando-a-los-periodicos/</guid>
+      <description>&lt;p&gt;Media Daily News &lt;a href=&#34;https://web.archive.org/web/20080419063530/http://publications.mediapost.com/index.cfm?fuseaction=Articles.showArticleHomePage&amp;amp;art_aid=35690&#34;&gt;reporta&lt;/a&gt;&#xA;que el 2005 será considerado como uno de los peores años para los&#xA;periódicos en la historia, y el 2006 no se ve prometedor. El contenido&#xA;en linea continua generando mas lectores y dinero de avisaje, aunque&#xA;solo representa el 5% del total de los ingresos de los periódicos.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://web.archive.org/web/20080419063530/http://slashdot.org/article.pl?sid=05/10/31/2247225&amp;amp;from=rss&#34;&gt;Debate en Slashdot&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>¿Google, es bueno o malo?</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/23/google-es-bueno-o-malo/</link>
+      <pubDate>Tue, 23 Aug 2005 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/23/google-es-bueno-o-malo/</guid>
+      <description>&lt;p&gt;La imagen muestra como la percepción de que google es malo aumento con&#xA;el momento en que Google lanzo su&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/IPO&#34;&gt;IPO&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.realmeme.com/Main/evilindex/index.jsp&#34;&gt;&lt;img src=&#34;https://www.realmeme.com/Main/evilindex/corporations/googleDejanews.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;El análisis de &lt;a href=&#34;http://es.wikipedia.org/wiki/Meme&#34;&gt;Memes&lt;/a&gt;, usado en&#xA;&lt;a href=&#34;http://www.realmeme.com/Main/miner.jsp&#34;&gt;Realmeme&lt;/a&gt;, me parece&#xA;interesante, hace unos años atrás&#xA;&lt;a href=&#34;http://groups.google.com/group/google.public.web-apis/search?group=google.public.web-apis&amp;amp;q=eduardo+diaz&amp;amp;qt_g=1&#34;&gt;escribí algunos programas&lt;/a&gt;&#xA;que usaban la &lt;a href=&#34;http://www.google.com/apis/&#34;&gt;API de Google&lt;/a&gt; para calcular&#xA;popularidad entre memes, pero no se me había ocurrido graficar en el&#xA;tiempo. Veré si se puede hacer, y dentro del tiempo que me quede prometo&#xA;remozar el programa y dejarlo a disposición de los interesados.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Democratización de la internet?</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/23/democratizacion-de-la-internet/</link>
+      <pubDate>Tue, 23 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/23/democratizacion-de-la-internet/</guid>
+      <description>&lt;p&gt;Hace mucho tiempo, cuando la tierra no se enfriaba, podíamos colocar&#xA;nuestros propios servidores, conectarlos a la red y estabamos publicando&#xA;nuestros contenidos en internet, podía ser un gopher, un ftp, un BBS, o&#xA;un newsgroup.&lt;/p&gt;&#xA;&lt;p&gt;Berners Lee nos regaló la web, y los innovadores lo hecharon todo a&#xA;perder, reventó la burbuja y quedamos todos mojados :)&lt;/p&gt;&#xA;&lt;p&gt;Cita del blog de Flores:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Moore, además, es autor del libro The Death of Competition, que trata&#xA;sobre estrategias de negocios, y señala que los blogs y los RSS&#xA;permiten que se haga realidad &amp;ldquo;la democratización de los servicios en&#xA;internet&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La expansión de la brecha digital 2</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/20/la-expansion-de-la-brecha-digital-2/</link>
+      <pubDate>Sat, 20 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/20/la-expansion-de-la-brecha-digital-2/</guid>
+      <description>&lt;p&gt;La ley de la expansión de la brecha digital es la siguiente:&lt;/p&gt;&#xA;&lt;p&gt;Vt = H x Dt&lt;/p&gt;&#xA;&lt;p&gt;Donde Vt es la velocidad en que se expande la brecha, H es una constante&#xA;(a determinar) y Dt es el tamaño de la brecha.&lt;/p&gt;&#xA;&lt;p&gt;No lo tomen muy en serio, solo estoy abusando de la ley de hubble,&#xA;aplicándola como un medio de resaltar el hecho que cada vez la brecha se&#xA;hace mayor, con el tiempo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La expansión de la brecha digital 1</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/20/la-expansion-de-la-brecha-digital-1/</link>
+      <pubDate>Sat, 20 Aug 2005 10:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/20/la-expansion-de-la-brecha-digital-1/</guid>
+      <description>&lt;p&gt;La famosa &lt;a href=&#34;http://en.wikipedia.org/wiki/Hubble&#39;s_law&#34;&gt;Ley de Hubble&lt;/a&gt;,&#xA;plantea que la velocidad a la que se alejan las galaxias entre sí es&#xA;proporcional a su distancia.&lt;/p&gt;&#xA;&lt;p&gt;Algo parecido, pasa con la denominada &lt;a href=&#34;http://www.brechadigital.org/&#34;&gt;brecha digital&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Voy a razonar con algunos ejemplos simples.&lt;/p&gt;&#xA;&lt;p&gt;Actualmente se está popularizando el uso de ring tones para teléfonos&#xA;celulares, (el valor de un ring tone va entre 1 hasta 3 dolares en&#xA;promedio y quizás más si es polifónico). La mayoría de la gente está&#xA;pasando del antiguo celular, sin posibilidad de cambiar el ringtone, a&#xA;comprar celulares con ringtones monofónicos, pero los más privilegiados&#xA;tienen acceso a teléfonos con ringtones polifónicos. Y algunos de&#xA;nosotros &amp;quot;más afortunados&amp;quot; aún, podemos colocar el MP3 de nuestro&#xA;artista favorito, en vez de musiquitas sintetizadas en MIDI.&lt;br&gt;&#xA;Mientras que algunos podemos tener acceso a celulares con memoria MMC de&#xA;128 Mb, y podemos descargar y transmitir MP3s via bluetooth a nuestros&#xA;teléfonos, teléfono, o gracias adaptadores USB podemos usar el MMC como&#xA;un disco removible, sin pagarle a los operadores un sólo peso por ese&#xA;concepto (nos afilan por otro lado, claro está).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No comprometas la seguridad de tu sitio</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/10/no-comprometas-la-seguridad-de-tu-sitio/</link>
+      <pubDate>Wed, 10 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/10/no-comprometas-la-seguridad-de-tu-sitio/</guid>
+      <description>&lt;p&gt;Esta imagen es real, de un sitio muy visitado por los desarrolladores&#xA;java a nivel internacional:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.lnds.net/archives/badlogin.JPG&#34; alt=&#34;badlogin.JPG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;No sólo eso, cuando le pedí que me enviara la clave me envió la&#xA;original.&lt;/p&gt;&#xA;&lt;p&gt;Principios de Seguridad básico:&lt;/p&gt;&#xA;&lt;p&gt;1.- Nunca de pistas, si el nombre de usuario está mal, o la clave está&#xA;mal, entregue el mismo mensaje de error. En este caso no hay que ser&#xA;demasiado amistoso, porque se compromete la seguridad del sitio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El costo de un dominio en Latino América</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/09/el-costo-de-un-dominio-en-latino-america/</link>
+      <pubDate>Tue, 09 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/09/el-costo-de-un-dominio-en-latino-america/</guid>
+      <description>&lt;p&gt;Contrastese con lo que te puede costar un dominio, .com, .net, .org,&#xA;.us, .info, que puede llegar a US$ 3.95!!&lt;/p&gt;&#xA;&lt;p&gt;Costos por TLD, por 1 año.&lt;br&gt;&#xA;.ar, Argentina: No Disponible .bo, Bolivia: US$ 35 .br, Brasil, US$ 14&#xA;.cl, Chile: US$ 17,5 (debes inscribir 2 años la primera vez .ec,&#xA;Ecuador, US$ 35, para ecuatorianos, US$ 50 para extranjeros .mx,&#xA;México, US$ 35 .ni, Nicaragua, US$ 50 .pe, Perú: US$ 35 .py,&#xA;Paraguay: US$ 28 .uy, Uruguay, US$ 25&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

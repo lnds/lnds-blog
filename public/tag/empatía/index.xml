@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Empatía on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/empat%C3%ADa/</link>
+    <description>Recent content in Empatía on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 30 Aug 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/empat%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empatía y el desktop linux</title>
+      <link>http://localhost:1313/blog/lnds/2012/08/30/empatia-y-el-desktop-linux/</link>
+      <pubDate>Thu, 30 Aug 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/08/30/empatia-y-el-desktop-linux/</guid>
+      <description>&lt;p&gt;Al responder la pregunta sobre &lt;a href=&#34;http://tirania.org/blog/archive/2012/Aug-29.html&#34;&gt;¿qué mató al desktop de Linux?&lt;/a&gt; Miguel de&#xA;Icaza propone dos dimensiones: (a) las cosas cambian muy rápidamente,&#xA;quebrando tanto el software abierto como el propietario, (b)&#xA;incompatibilidad entre las distintas distribuciones de Linux.&lt;/p&gt;&#xA;&lt;p&gt;La afirmación de Miguel de Icaza es tramposa, porque da por muerto algo&#xA;que algunos cuestionan si alguna vez estuvo vivo, o para otros todavía&#xA;no es un tema zanjado. Pero la verdad es que muchos desarrolladores que&#xA;operaban con Linux como escritorio se han cambiado a Mac OSX. ¿Por qué?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

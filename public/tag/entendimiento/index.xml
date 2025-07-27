@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entendimiento on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/entendimiento/</link>
+    <description>Recent content in Entendimiento on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 25 Mar 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/entendimiento/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La gran barrera</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/25/la-gran-barrera/</link>
+      <pubDate>Fri, 25 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/25/la-gran-barrera/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La barrera más grande hacia el éxito es el temor a fallar.&#xA;Si no fallas es porque ni siquiera has intentado hacer algo.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;fallar2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprende a programar</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/21/aprende-a-programar/</link>
+      <pubDate>Mon, 21 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/21/aprende-a-programar/</guid>
+      <description>&lt;p&gt;Hace un tiempo un comentarista habitual de este blog me preguntó ¿cuáles&#xA;serían los conocimientos fundamentales que debe tener un buen&#xA;progrmador?, para responder a esa pregunta decidí crear un blog. Partí&#xA;por lo básico, enseñando a programar, a los interesados les dejo la&#xA;dirección de mi curso de programación: &lt;a href=&#34;http://www.programando.org/blog/aprende-a-programar/&#34;&gt;aprende a programar&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entender</title>
+      <link>http://localhost:1313/blog/lnds/2011/02/20/entender/</link>
+      <pubDate>Sun, 20 Feb 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/02/20/entender/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;VonNeuman1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;In mathematics, you don&amp;rsquo;t understand things. You just get used to&#xA;them.&amp;rdquo; (En matemáticas no entiendes las cosas. Acabas acostumbrándote&#xA;a ellas).&lt;br&gt;&#xA;&amp;ndash; John von Neumann&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;(algo que también podría aplicar para ciertos aspectos de la vida)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formular un proyecto</title>
+      <link>http://localhost:1313/blog/lnds/2010/10/19/formular-un-proyecto/</link>
+      <pubDate>Tue, 19 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/10/19/formular-un-proyecto/</guid>
+      <description>&lt;p&gt;En esencia, formular un proyecto es plantearse tres preguntas básicas:&#xA;¿Qué?, ¿Para Qué? y ¿Cómo?&lt;/p&gt;&#xA;&lt;p&gt;El problema es que mucha gente, muy inteligente, se concentra en el&#xA;cómo, porque confían en sus capacidades probablemente, y minimizan u&#xA;olvidan las dos primeras preguntas.&lt;/p&gt;&#xA;&lt;p&gt;La inteligencia es el pariente pobre del entendimiento.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pero con todo, fallamos</title>
+      <link>http://localhost:1313/blog/lnds/2010/10/17/pero-con-todo-fallamos/</link>
+      <pubDate>Sun, 17 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/10/17/pero-con-todo-fallamos/</guid>
+      <description>&lt;p&gt;Entre tanto festejo por el rescate de los 33 mineros de Atacama, se me&#xA;viene a la mente una imagen histórica. Cuando un general romano vencedor&#xA;ingresaba a Roma, triunfante dirigiendo el desfile de la victoria, en su&#xA;carro le acompañaba un esclavo leal, que sostenía frente a su cabeza una&#xA;corona de laureles, y le recitaba al oido continuamente: &lt;em&gt;&amp;ldquo;Mira tras&#xA;de tí. Recuerda que sólo eres un mortal&amp;rdquo;&lt;/em&gt; (Respice pos te! Hominem te&#xA; memento!) [1]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflexiones</title>
+      <link>http://localhost:1313/blog/lnds/2010/10/17/reflexiones/</link>
+      <pubDate>Sun, 17 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/10/17/reflexiones/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El primer sistema de patentes para proteger la propiedad de las&#xA;invenciones fue creado, hace casi cuatro siglos, por Sir Francis&#xA;Bacon. A Bacon le gustaba decir: «El conocimiento es poder», y desde&#xA;entonces se supo que no le faltaba razón. La ciencia universal poco&#xA;tiene de universal; está objetivamente confinada trás los límites de&#xA;las naciones avanzadas. América Latina no aplica en su propio&#xA;beneficio los resultados de la investigación científica, &lt;em&gt;por la&#xA;sencilla razón de que no tiene ninguna y en consecuencia se condena a&#xA;padecer la tecnología de los poderosos, que castiga y desplaza a las&#xA;materias primas naturales. América Latina ha sido hasta ahora incapaz&#xA;de crear una tecnología propia para sustentar y defender su propio&#xA;desarrollo.&lt;/em&gt; El mero trasplante de la tecnología de los paises&#xA;adelantados no sólo implica la subordinación cultural y, en&#xA;definitiva, también la subordinación económica, sino que, además,&#xA;después de cuatro siglos y medio de experiencia en la multiplicación&#xA;de los oasis de modernismo importado en medio de los desiertos del&#xA;atraso y de la ignorancia, bien puede afirmarse que tampoco resuelve&#xA;ninguno de los problemas del subdesarrollo... Es en el norte, por&#xA;supuesto, donde se diseñan los modelos electrónicos y se crean los&#xA;lenguajes de programación que América Latina importa&amp;rdquo; &lt;br&gt;&#xA;&amp;ndash; Eduardo Galeano, &lt;em&gt;Las venas abiertas de América Latina&lt;/em&gt;, 1971, págs. 406-407&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entendimiento</title>
+      <link>http://localhost:1313/blog/lnds/2010/05/20/entendimiento/</link>
+      <pubDate>Thu, 20 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/05/20/entendimiento/</guid>
+      <description>&lt;p&gt;A ver si con esto queda más claro &lt;a href=&#34;http://localhost:1313/2010/05/inteligencia-educacion-y-entendimiento.html&#34;&gt;la tensión entre entendimiento e&#xA;inteligencia&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;manualidades.jpg&#34; alt=&#34;manualidades.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.dosisdiarias.com/2010/05/2010-05-21.html&#34;&gt;Vía el genial Alberto Montt.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Lo importante es alcanzar el entendimiento antes de que sea demasiado&#xA;tarde.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inteligencia, educación y entendimiento</title>
+      <link>http://localhost:1313/blog/lnds/2010/05/20/inteligencia-educacion-y-entendimiento/</link>
+      <pubDate>Thu, 20 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/05/20/inteligencia-educacion-y-entendimiento/</guid>
+      <description>&lt;p&gt;Si le preguntan a cualquier persona por qué tenemos verano e invierno,&#xA;es probable(*) que les responda, completamente convencido, que esto se&#xA;produce porque la tierra tiene una órbita elíptica y durante el verano&#xA;se encuentra más cerca del sol y en invierno se encuentra más lejos del&#xA;sol. Lo peor, es que, probablemente, ¡así se lo enseñaron en la escuela!&lt;/p&gt;&#xA;&lt;p&gt;Si eso ocurre, pídanle a esa persona que explique entonces por qué en un&#xA;hemisferio están en invierno y al mismo tiempo, en el otro hemisferio,&#xA;están en verano. ¡&lt;strong&gt;TILT!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El arte de no leer</title>
+      <link>http://localhost:1313/blog/lnds/2009/09/05/el-arte-de-no-leer/</link>
+      <pubDate>Sat, 05 Sep 2009 22:39:46 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/09/05/el-arte-de-no-leer/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Para leer lo bueno es necesario no leer lo malo, por que la vida es corta y el tiempo y las fuerzas limitadas.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Por eso es muy importante conocer el arte de no leer. Consiste en no leer lo que preocupa momentáneamente al gran público, como libelos políticos y eclesiásticos, novelas, poesías, etc., algunos de los cuales alcanzan varias ediciones&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Arthur Schoppenahuer&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>No Se Asusten</title>
+      <link>http://localhost:1313/blog/lnds/2008/08/20/no-se-asusten/</link>
+      <pubDate>Wed, 20 Aug 2008 22:48:49 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/08/20/no-se-asusten/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;La Guía del Autoestopista Galáctico ha superado a la Enciclopedia Galáctica como la fuente estándar de todo el conocimiento y sabiduría, por dos importantes razones. Primero, es ligeramente más barata, y luego,grabada en la portada con simpáticas letras grandes, ostenta la leyenda: NO SE ASUSTE.&lt;br&gt;&#xA;&amp;ndash; La Guía del Autoestopista Galáctico, Douglas Adams&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El problema con la exportación de cerdos a Corea es un tema delicado, en esto, el senador Girardi tiene razón, el gobierno debe invertir en un sistema de control propio para medir la cantidad de dioxinas en nuestros alimentos, que exportamos. Pero no tanto porque esta sea una amenaza real, sino porque hay estándares internacionales que afectan nuestras exportaciones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tecnópatas</title>
+      <link>http://localhost:1313/blog/lnds/2007/12/11/tecnopatas/</link>
+      <pubDate>Tue, 11 Dec 2007 18:41:07 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/12/11/tecnopatas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Micah_Sanders&#34;&gt;Micah Sanders&lt;/a&gt; tiene un poder extraordinario, Micah Sanders es un &lt;strong&gt;tecnópata&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;En el mundo de los super heroes &lt;a href=&#34;http://en.wikipedia.org/wiki/Technopath#Technopathy&#34;&gt;la tecnopatía&lt;/a&gt; corresponde a:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La habilidad de manipular la tecnología. Se manifiesta como una forma especial de manipulación eléctrica, que permite una interacción física con las máquinas, o alguna forma especial de percepción extra sensorial que permite una interfaz mental con las computadoras.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;micah-sanders.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Para los que no se han enterado aún, Micah Sanders es uno de los personajes de las serie de televisión &lt;a href=&#34;http://www.nbc.com/Heroes/&#34;&gt;Heroes&lt;/a&gt;. Para que se hagan una idea, Micah es capaz de reconfigurar su celular para convertirlo en un mecanismo de rastreo tipo GPS y usarlo para encontrar a una persona en peligro (siempre que ésta también tenga un celular).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versiones y variaciones</title>
+      <link>http://localhost:1313/blog/lnds/2005/10/30/versiones-y-variaciones-2/</link>
+      <pubDate>Sun, 30 Oct 2005 16:26:34 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/10/30/versiones-y-variaciones-2/</guid>
+      <description>&lt;p&gt;Probablemente el concepto de la Web 2.0, no sea más que una movida para crear una nueva burbuja. Carlota Perez nos dice que estos fenomenos no solo no son nuevos, sino que positivos. Al menos para los que estan interesados en levantar capital semilla, el&lt;a href=&#34;http://www.carlotaperez.org/Articulos/TRFC-TOCeng.htm&#34;&gt;artículo&lt;/a&gt; de la investigadora de Harvard pueda ser una buena guía.&lt;/p&gt;&#xA;&lt;p&gt;De todas maneras hay cosas que están cambiando en la web, y en ese sentido si que podemos hablar de una &lt;a href=&#34;http://www.lnds.net/2005/10/web_20_y_las_nuevas_generacion.html&#34;&gt;web 2.0&lt;/a&gt;. Al menos el nombre tiene esa designación a las que hemos acostumbrado a los usuarios, y que los ingenieros comerciales convirtieron en herramienta de marketing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

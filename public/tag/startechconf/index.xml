@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startechconf on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/startechconf/</link>
+    <description>Recent content in Startechconf on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 26 Oct 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/startechconf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>StartechConf 2013</title>
+      <link>http://localhost:1313/blog/lnds/2013/10/26/startechconf-2013/</link>
+      <pubDate>Sat, 26 Oct 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/10/26/startechconf-2013/</guid>
+      <description>&lt;p&gt;Este año participé en la StartechConf 2013, un verdadero honor para mi,&#xA;tengo que decir. No sólo tuve oportunidad de hacer mi presentación, sino&#xA;que pude conocer a varias personas con las que he compartido en mi&#xA;timeline en twitter, conocer a nuevos amigos y compartir con los&#xA;charlistas, como por ejemplo el &amp;ldquo;Sensei Jano Gonzalez&amp;rdquo;(&lt;a href=&#34;https://twitter.com/janogonzalez&#34;&gt;@janogonzalez&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;senseijano.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La verdad es que me sentí muy contento estos dos días de la conferencia,&#xA;lo pasé muy bien y agradezco a los organizadores por permitirme&#xA;participar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Energía</title>
+      <link>http://localhost:1313/blog/lnds/2013/09/29/energia/</link>
+      <pubDate>Sun, 29 Sep 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/09/29/energia/</guid>
+      <description>&lt;p&gt;Hace unos días conversaba con un proveedor de servicios de datacenters&#xA;acá en Chile, me comentaba que lamentablemente no es posible tener&#xA;datacenters certificados&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Data_center#Data_center_tiers&#34;&gt;Tier-4&lt;/a&gt; en&#xA;nuestro país. La razón, en términos simples, porque contamos con sólo&#xA;una &amp;ldquo;carretera eléctrica&amp;rdquo; que suministra energía a los centros de&#xA;cómputo. Para alcanzar el máximo nivel de certificación de los&#xA;datacenters, la energía debe venir de dos fuentes independientes una de&#xA;la otra.&lt;/p&gt;&#xA;&lt;p&gt;Todos percibimos la frágilidad de nuestra infraestructura energética, es&#xA;cosa de recordar los eventos post terremoto, y el gran corte de&#xA;electricidad que afectó a gran parte del país pocos meses después del&#xA;terremoto de 2010.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>StartechConf 2011</title>
+      <link>http://localhost:1313/blog/lnds/2011/11/06/startechconf-2011/</link>
+      <pubDate>Sun, 06 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/11/06/startechconf-2011/</guid>
+      <description>&lt;p&gt;Quedé muy contento por asistir a la &lt;a href=&#34;http://www.startechconf.com/&#34;&gt;StartechConf 2011&lt;/a&gt;. Tengo que felicitar a su equipo&#xA;organizador.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/lnds/2011/11/06/startechconf-2011/startechconf.jpg&#34;&#xA;    alt=&#34;con @stefsull y @garazi&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;con @stefsull y @garazi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Fueron 2 jornadas muy intensas con charlas de gran calidad, los&#xA;invitados eran de primer nivel. Estamos hablando de expositores&#xA;conocidisimos en el ámbito de las conferencias de desarrollo a nivel&#xA;mundial.&lt;/p&gt;&#xA;&lt;p&gt;Creo que todos los asistentes aprendimos mucho. Algunos de ustedes&#xA;queridos lectores (los que estén usando browsers modernos), notarán que&#xA;algo de CSS3 aprendí, después de las excelentes charlas de la pareja&#xA;formada por &lt;a href=&#34;http://www.w3conversions.com/&#34;&gt;Stephanie Sullivan Rewis&lt;/a&gt;&#xA;(&lt;a href=&#34;https://twitter.com/#!/stefsull&#34;&gt;@stefsull&lt;/a&gt; en twitter) y su esposo&#xA;Greg Rewis (&lt;a href=&#34;https://twitter.com/#!/garazi&#34;&gt;@garazi&lt;/a&gt; en twitter).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

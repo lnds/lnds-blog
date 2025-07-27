@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genética on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/gen%C3%A9tica/</link>
+    <description>Recent content in Genética on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 30 Jul 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/gen%C3%A9tica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Los panqueques de Bill Gates</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/30/los-panqueques-de-bill-gates/</link>
+      <pubDate>Fri, 30 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/30/los-panqueques-de-bill-gates/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento&#34;&gt;problema de ordenar&lt;/a&gt; es uno&#xA;de los temas básicos en  la formación de todo programador. Pero quizás&#xA;este  conocido problema encierre la clave para entender como funciona la&#xA;evolución de la vida. ¿Cómo? Esa es una historia que involucra nada&#xA;menos que Bill Gates, pero antes de contarla repasemos este clásico&#xA;problema informático.&lt;/p&gt;&#xA;&lt;p&gt;¿Cómo ordenamos una serie de datos? Esta es una tarea tán básica, que la&#xA;damos casi por sentada, incluso viene incluida en nuestros lenguajes,&#xA;sistemas operativos, o incorporada como función estándar en todo&#xA;programa  de planillas de cálculos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las patas de las salamandras</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/21/las-patas-de-las-salamandras/</link>
+      <pubDate>Mon, 21 Nov 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/21/las-patas-de-las-salamandras/</guid>
+      <description>&lt;p&gt;Mi abuela materna, recientemente fallecida, padecía&#xA;de &lt;a href=&#34;https://es.wikipedia.org/wiki/Alzheimer&#34;&gt;Alzheimer&lt;/a&gt;. Cuando yo supe&#xA;que ella lo tenía me preocupé porque asumí que era un condición&#xA;genética, y por lo tanto, tendría una posibilidad de padecer lo mismo.&#xA;Con el cáncer me pasó lo mismo, pues mi padre y abuela paterna murieron&#xA;cerca de los 40 de esta enfermedad. Ahora sé que estadísticamente hay un&#xA;1 por ciento de probabilidades de que  llegue a desarrollar el cáncer,&#xA;pero además sé que el tipo de cáncer en cuestión&#xA;es tratable actualmente, y tiene muy bien pronóstico si se diagnostica a&#xA;tiempo, entonces debo controlar mi salud con cierta periodicidad, lo&#xA;malo es que el examen es bastante desagradable. Pero en el caso del&#xA;Alzheimer la probabilidad no es clara. La verdad es que las hijas de mi&#xA;abuela tienen una probabilidad de 50% de desarrollar alzheimer, pero&#xA;deben poseer además ciertas mutaciones a nivel del los cromosomas 1, 14,&#xA;y 21. En mi caso y de mis hermanos las posibilidades bajan a un 25%.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eficiencia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/eficiencia/</link>
+    <description>Recent content in Eficiencia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 05 Apr 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/eficiencia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La paradoja de la eficiencia energética</title>
+      <link>http://localhost:1313/blog/lnds/2011/04/05/la-paradoja-de-la-eficiencia-energetica/</link>
+      <pubDate>Tue, 05 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/04/05/la-paradoja-de-la-eficiencia-energetica/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;William_Stanley_Jevons.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En 1865 el economista inglés William Stanley Jevons observó que las mejoras&#xA;tecnológicas que incrementaban la eficiencia en el uso del carbón llevó&#xA;al aumento en el consumo de este mineral. Jevons argumentó que,&#xA;contrario a la intuición común, las mejoras tecnológicas no provocarían&#xA;una reducción del consumo de combustible.&lt;/p&gt;&#xA;&lt;p&gt;La &lt;strong&gt;paradoja de Jevon&lt;/strong&gt;s, o el &lt;strong&gt;efecto Jevons&lt;/strong&gt;,  dice que, en la&#xA;medida que se perfecciona la tecnología que aumenta la eficiencia del&#xA;uso de un recurso, lo más probable es que aumente el consumo de dicho&#xA;recurso, en vez de disminuir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Falsa eficiencia</title>
+      <link>http://localhost:1313/blog/lnds/2009/12/30/falsa-eficiencia/</link>
+      <pubDate>Wed, 30 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/12/30/falsa-eficiencia/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;No hay nada más inútil como el hacer eficientemente algo que no&#xA;debería haber sido hecho.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;There is nothing so useless as doing efficiently that which should&#xA;not be done at all&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Peter Drucker&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>

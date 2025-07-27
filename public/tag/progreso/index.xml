@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Progreso on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/progreso/</link>
+    <description>Recent content in Progreso on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 28 May 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/progreso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otra forma de verlo</title>
+      <link>http://localhost:1313/blog/lnds/2011/05/28/el-tiempo-no-es-oro/</link>
+      <pubDate>Sat, 28 May 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/05/28/el-tiempo-no-es-oro/</guid>
+      <description>&lt;p&gt;Les propongo esta reflexión de Hans Rosling, otra perspectiva al&#xA;problema energético:&lt;/p&gt;&#xA;&lt;p&gt;&lt;div style=&#34;max-width:854px&#34;&gt;&#xA;    &lt;div style=&#34;position:relative;height:0;padding-bottom:56.25%&#34;&gt;&#xA;        &lt;iframe src=&#34;https://embed.ted.com/talks/hans_rosling_the_magic_washing_machine&#34; &#xA;        width=&#34;854&#34; height=&#34;480&#34; style=&#34;position:absolute;left:0;top:0;width:100%;height:100%&#34; &#xA;        frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt;&#xA;        &lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;br&gt;&#xA;(En &lt;a href=&#34;http://www.ted.com/talks/lang/spa/hans_rosling_and_the_magic_washing_machine.html&#34;&gt;este enlace&lt;/a&gt;&#xA;pueden ver el video con subtítulos)&lt;/p&gt;&#xA;&lt;p&gt;Progreso creo que le llamaban...&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

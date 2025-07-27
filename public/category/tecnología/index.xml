@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tecnología on La Naturaleza del Software</title>
+    <link>http://localhost:1313/category/tecnolog%C3%ADa/</link>
+    <description>Recent content in Tecnología on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 04 Nov 2021 12:01:26 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/tecnolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FOMO</title>
+      <link>http://localhost:1313/blog/lnds/2021/11/04/fomo/</link>
+      <pubDate>Thu, 04 Nov 2021 12:01:26 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2021/11/04/fomo/</guid>
+      <description>&lt;h2 id=&#34;el-mundo-libre-de-ia-de-dune&#34;&gt;El mundo libre de IA de Dune&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Aprendimos una cosa negativa de las computadoras, que la configuración de las pautas pertenece a los humanos, no a las máquinas&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Finalmente, los humanos se convirtieron en poco más que robots sin decisiones, sin comprender su existencia natural.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Citas tomadas de &amp;ldquo;Leyendas de Dune: la Jihad Butleriana&amp;rdquo;, por Brian Herbert y Kevin J. Anderson&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Es una interesante coincidencia temporal el estreno de la nueva versión cinematográfica de Dune y el lanzamiento del Metaverse por parte de Facebook (o Meta).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Cuál es el objetivo de Google Chrome OS?</title>
+      <link>http://localhost:1313/blog/lnds/2009/07/08/cual-es-el-objetivo-de-google-chrome-os/</link>
+      <pubDate>Wed, 08 Jul 2009 22:09:17 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/07/08/cual-es-el-objetivo-de-google-chrome-os/</guid>
+      <description>&lt;p&gt;El anuncio de &lt;a href=&#34;http://googleblog.blogspot.com/2009/07/introducing-google-chrome-os.html&#34;&gt;Google Chrome OS&lt;/a&gt; más que un &lt;a href=&#34;http://www.techcrunch.com/2009/07/07/google-drops-a-nuclear-bomb-on-microsoft-and-its-made-of-chrome/&#34;&gt;ataque directo a Microsoft&lt;/a&gt;, es la primera etapa de una estrategia, que si sale bien, puede ser la amenaza más seria que ha enfrentado Redmond hasta ahora.&lt;/p&gt;&#xA;&lt;p&gt;Aunque, según declaran en sus &lt;a href=&#34;http://chrome.blogspot.com/2009/07/google-chrome-os-faq.html&#34;&gt;FAQs&lt;/a&gt;, el primer mercado que Google Chrome OS será el de los netbooks, la verdad es que el desarrollo de este mercado le permitirá adquirir el momentum suficiente para emprender la conquista de un mercado más interesante, el de los PC corporativos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sistema distribuido</title>
+      <link>http://localhost:1313/blog/lnds/2009/07/07/sistema-distribuido/</link>
+      <pubDate>Tue, 07 Jul 2009 16:30:36 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/07/07/sistema-distribuido/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Un sistema distribuido es aquel en el cual la falla de un computador, que no tenías idea que existía, provoca que tu computador quede inutilizado&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; &lt;a href=&#34;http://lamport.org/&#34;&gt;Leslie Lamport&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La cultura es la tecnología</title>
+      <link>http://localhost:1313/blog/lnds/2009/06/26/la-cultura-es-la-tecnologia/</link>
+      <pubDate>Fri, 26 Jun 2009 20:53:34 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/06/26/la-cultura-es-la-tecnologia/</guid>
+      <description>&lt;p&gt;La cultura (C), en un instante dado t, es la integral de la tecnología (T) aplicada a la sociedad (S):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;LaCultura.png&#34; alt=&#34;LaCultura.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Con todo respeto, pero esta ecuación, es la que &lt;a href=&#34;http://www.kk.org/newrules/blog/2009/06/technology-has-become-our-cult.php&#34;&gt;no entiende Kevin Kelly&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Gracias a @cadaunante tenemos l&lt;a href=&#34;http://abbagliati.blogspot.com/2009/06/la-tecnologia-se-ha-convertido-en.html&#34;&gt;a traducción de lo que dice Kelly&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La tecnología se ha convertido en nuestra cultura&amp;hellip;&#xA;&amp;hellip;nuestra tecnología cultural.&lt;/p&gt;&#xA;&lt;p&gt;La tecnología ya no está más fuera, no es más un extraño, ya no está en la periferia. Está en el centro de nuestra vidas. &amp;ldquo;La tecnología es la fogata alrededor de la cual nos reunimos&amp;rdquo;, dice la artista Laurie Anderson. Durante muchas décadas, la presencia de alta tecnología fue marginal. De repente, en un abrir y cerrar de ojos, está en todas partes y es de importancia fundamental.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proyecto natal: Realidad Artificial III</title>
+      <link>http://localhost:1313/blog/lnds/2009/06/10/proyecto-natal-realidad-artificial-iii/</link>
+      <pubDate>Wed, 10 Jun 2009 22:51:32 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/06/10/proyecto-natal-realidad-artificial-iii/</guid>
+      <description>&lt;p&gt;Hace mil años atrás vi una demo de realidad aumentada, en que una joven interactuaba con un perro en una pantalla. De hecho, tengo un libro de 1990 que se llama &lt;strong&gt;Artificial Reality II,&lt;/strong&gt; escrito por &lt;a href=&#34;http://en.wikipedia.org/wiki/Myron_W._Krueger&#34;&gt;Myron W. Krueger&lt;/a&gt;, quién acuñó el término para denominar a la experiencia inmersiva en un ambiente interactivo (para diferenciarlo de la realidad virtual).&lt;/p&gt;&#xA;&lt;p&gt;En ese libro se ven y explican como funcionan cosas como estas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El manejo informático de la identidad</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1/</link>
+      <pubDate>Thu, 14 May 2009 13:59:45 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1/</guid>
+      <description>&lt;p&gt;El manejo de la identidad en la red es un tema que he abordado en este espacio, pero que me parece necesario y urgente retomar, dada ciertas coyunturas que se están dando. Es por esto que voy a iniciar una serie de artículos sobre el problema del manejo de la identidad, y parto con este artículo &lt;a href=&#34;http://localhost:1313/2007/07/los-meta-sistemas-de-identidad.html&#34;&gt;reciclado de julio de 2007&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien se conecta y a que se conecta.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El valor de StarTrek</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/07/el-valor-de-startrek/</link>
+      <pubDate>Thu, 07 May 2009 21:38:30 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/07/el-valor-de-startrek/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Whoopi_Goldberg&#34;&gt;Whoopi Goldberg&lt;/a&gt;, cuenta que se sentía identificada con el personaje de Uhura de la serie Star Trek, ella recuerda haberle dicho a su familia: &lt;em&gt;&amp;quot;¡acabo de ver a una mujer negra en televisión, y no era una sirvienta!&amp;quot;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;uhura.jpg&#34; alt=&#34;uhura.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nichelle Nichols, la actriz que interpretaba a Uhura había decidido abandonar la serie después de la primera temporada, pero fue el propio Martin Luther King que le pidió que no lo hiciera, porque ella representaba un modelo positivo  a seguir para las mujeres negras. La misma NASA le pidió que participara en campañas para motivar a afroamericanos a unirse a esta institución.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los riesgos de la nube</title>
+      <link>http://localhost:1313/blog/lnds/2009/02/24/los-riesgos-de-la-nube/</link>
+      <pubDate>Tue, 24 Feb 2009 17:29:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/02/24/los-riesgos-de-la-nube/</guid>
+      <description>&lt;p&gt;En su &lt;a href=&#34;http://localhost:1313/2009/02/cloud-computing-de-acuerdo-a-berkeley-ra.html&#34;&gt;estudio sobre la economía de la nube&lt;/a&gt; los investigadores de Berkeley no olvidan de mencionar a Richard Stallman, quien considera la computación en la nube como una trampa para el usuario:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s stupidity. It&amp;rsquo;s worse than stupidity: it&amp;rsquo;s a marketing hype campaign. Somebody is saying this is inevitable &amp;ndash; and whenever you hear somebody saying that, it&amp;rsquo;s very likely to be a set of businesses campaigning to make it true.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El programador y el calentamiento global</title>
+      <link>http://localhost:1313/blog/lnds/2009/01/11/el-programador-y-el-calentamiento-global/</link>
+      <pubDate>Sun, 11 Jan 2009 15:21:41 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/01/11/el-programador-y-el-calentamiento-global/</guid>
+      <description>&lt;p&gt;A través de &lt;a href=&#34;http://luisramirez.cl/blog/?p=2049&#34;&gt;una nota de Luis Ramirez&lt;/a&gt; llego a este &lt;a href=&#34;http://technology.timesonline.co.uk/tol/news/tech_and_web/article5489134.ece&#34;&gt;artículo&lt;/a&gt;, en que se muestra el impacto en uso de energía, y por ende en el calentamiento global, de Google, y otras empresas TI.&lt;/p&gt;&#xA;&lt;p&gt;Se estima que una búsqueda en Google consume la mitad de lo que consume hervir una tetera con agua. O que mantener un Avatar en Second Life, de acuerdo al cálculo de Nicholas Carr, cuesta 1,752 kilowatt hora de electricida al año, es decir, el consumo medio de un brasileño.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Y si las inteligencias artificiales ya estuvieran surgiendo?</title>
+      <link>http://localhost:1313/blog/lnds/2008/12/30/y-si-las-inteligencias-artificiales-ya-estuvieran-surgiendo/</link>
+      <pubDate>Tue, 30 Dec 2008 19:13:47 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/12/30/y-si-las-inteligencias-artificiales-ya-estuvieran-surgiendo/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Para un botmaster capacitado, todo el mundo es un Test de Turing.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Soy aficionado a la ciencia ficción, pero debo confesar que nunca había leido una historia de &lt;a href=&#34;http://en.wikipedia.org/wiki/Cory_Doctorow&#34;&gt;Cory Doctorow&lt;/a&gt;,&lt;br&gt;&#xA;creo que en este campo&#x9;me he quedado atrás, y no pasé de &lt;a href=&#34;http://www.dansimmons.com/&#34;&gt;Dan Simmons&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cory-doctorow.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Aunque Doctorow no es un total desconocido para mí, no he leido mucho de él en realidad, algo sé de su aporte al debate sobre propiedad intelectual, su participación en xkcd (sobretodo en la &lt;a href=&#34;http://xkcd.com/239/&#34;&gt;239&lt;/a&gt;), pero la principal referencia para mi de este autor es su rol de editor y creador de &lt;a href=&#34;http://boingboing.net/&#34;&gt;Boing Boing&lt;/a&gt;, un blog, que es tan entretenido, que llega a abrumar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Es la nube el nuevo computador?</title>
+      <link>http://localhost:1313/blog/lnds/2008/11/06/es-la-nube-el-nuevo-computador/</link>
+      <pubDate>Thu, 06 Nov 2008 19:12:55 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/11/06/es-la-nube-el-nuevo-computador/</guid>
+      <description>&lt;p&gt;¿Qué nos permite hacer la nube que no podíamos hacer antes?&lt;/p&gt;&#xA;&lt;p&gt;Nicholas Carr &lt;a href=&#34;http://www.roughtype.com/archives/2008/11/the_new_economi.php&#34;&gt;se pregunta&lt;/a&gt; si no estaremos perdiendo algo en este &lt;a href=&#34;http://localhost:1313/2008/10/el_debate_sobre_negocio_del_cloud_comput.html&#34;&gt;debate sobre el negocio del cloud computing&lt;/a&gt;, y el ejemplo que pone es muy bueno:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A fines del 2007, el New York Times tenía el siguiente desafío, querían dejar disponible en la red su archivo completo de artículos, 11 millones en total, desde 1851 hasta 1992. Ya habían digitalizado todos los artículos, produciendo un total de 4 terabytes en imágenes, en formato TIFF. Pero este no es un formato adecuado para publicar en linea, además que algunos artículos podían estar compuesto por muchos &lt;strong&gt;archivos&lt;/strong&gt; TIFF. El periódico necesitaba convertir la pila de imágenes TIFF a formato PDF, más apto para la web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web 2.0 y Cloud Computing</title>
+      <link>http://localhost:1313/blog/lnds/2008/11/02/web-2-0-y-cloud-computing/</link>
+      <pubDate>Sun, 02 Nov 2008 19:58:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/11/02/web-2-0-y-cloud-computing/</guid>
+      <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Podemos considerar a &lt;a href=&#34;http://radar.oreilly.com/tim/&#34;&gt;Tim O&amp;rsquo;Reilly&lt;/a&gt; una autoridad en Cloud Computing. Su análisis &lt;a href=&#34;http://radar.oreilly.com/2008/07/open-source-and-cloud-computing.html&#34;&gt;sobre opensource y cloud computing&lt;/a&gt; es muy interesante, porque, de cierto modo, anticipa un contra argumento a los temores de Macleod:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A pesar de todas las posibilidades de bloqueo (lock-in) que vemos en la Web 2.0 y en la computación en nube (cloud computing), creo que los beneficios de la apertura e interoperabilidad finalmente prevalecerán, y veremos un sistema formado por programas cooperando que no son de propiedad de la misma empresa, una plataforma de Internet, que, al igual que Linux en la arquitectura de los PC,es ensamblada a partir de la labor de miles de personas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El potencial del Cloud Computing</title>
+      <link>http://localhost:1313/blog/lnds/2008/10/31/el-potencial-del-cloud-computing/</link>
+      <pubDate>Fri, 31 Oct 2008 17:21:52 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/10/31/el-potencial-del-cloud-computing/</guid>
+      <description>&lt;p&gt;En el futuro no necesitaremos que todos los programas y datos residan en nuestros computadores, estarán flotando en una vasta e interconectada nébula de servidores y bases de datos y serán accesibles a través de la Intenet.&lt;/p&gt;&#xA;&lt;p&gt;Lo ideal es que esa nube de servidores esté dispersa entre una multitud de proveedores, que sean indistinguibles unos de otros. Lo ideal es que seamos capaces de elegir quien se hará cargo de la administración de nuestra infraestructura. Lo ideal es tener la libertad de elegir al o los proveedores del servicio de cloud computing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Que es la nube?</title>
+      <link>http://localhost:1313/blog/lnds/2008/10/29/que-es-la-nube/</link>
+      <pubDate>Wed, 29 Oct 2008 23:15:22 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/10/29/que-es-la-nube/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.williamgibsonbooks.com/&#34;&gt;William Gibson&lt;/a&gt;, el famoso escritor de ciencia ficción, autor de Neuromante, y del concepto de ciberespacio, &lt;a href=&#34;http://www.thestandard.com/article/0,1902,5466,00.html?page=0%2C1&#34;&gt;lo ha expresado bastante bien&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La nubes son &lt;a href=&#34;http://www.rae2.es/numinoso&#34;&gt;numinosas&lt;/a&gt;, pero su principal utilidad reside en su vaguedad, tal como ciberespacio, una palabra que también es útil por su vaguedad&amp;rdquo;. &amp;ldquo;Talvez&amp;rdquo;, agrega, &amp;ldquo;la gente está evocando los balones que expresan pensamientos en las historietas&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Mañana continuamos explorando &lt;a href=&#34;http://localhost:1313/2008/10/el_debate_sobre_negocio_del_cloud_comput.html&#34;&gt;el debate sobre el Cloud Computing&lt;/a&gt;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El debate sobre negocio del Cloud Computing (I)</title>
+      <link>http://localhost:1313/blog/lnds/2008/10/27/el-debate-sobre-negocio-del-cloud-computing-i/</link>
+      <pubDate>Mon, 27 Oct 2008 21:43:34 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/10/27/el-debate-sobre-negocio-del-cloud-computing-i/</guid>
+      <description>&lt;p&gt;Acá hay un interesante debate sobre el futuro la industria del software. ¿Qué pasará con el negocio del &lt;a href=&#34;http://es.wikipedia.org/wiki/Computaci%C3%B3n_en_nube&#34;&gt;Cloud Computing&lt;/a&gt;?&lt;/p&gt;&#xA;&lt;p&gt;Todo parte con &lt;a href=&#34;http://www.gapingvoid.com/Moveable_Type/archives/004638.html&#34;&gt;un apunte de Hugh Macleod&lt;/a&gt;, quien se plantea una pregunta muy válida, si este negocio del cloud computing prospera, y todos se vuelven locos y empiezan a alojar sus aplicaciones en la nube, ¿no existe la posibilidad de que surja un monopolio, y de este la empresa más grande que jamás haya existido? ¡Una empresa que dejaría a Google y Microsoft como enanos!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Quién se anima a comprar el TLD .chile?</title>
+      <link>http://localhost:1313/blog/lnds/2008/06/27/quien-se-anima-a-comprar-el-tld-chile/</link>
+      <pubDate>Fri, 27 Jun 2008 22:26:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/06/27/quien-se-anima-a-comprar-el-tld-chile/</guid>
+      <description>&lt;p&gt;Como &lt;a href=&#34;http://www.links.org/?p=341&#34;&gt;dice Ben Laurie&lt;/a&gt;, la más inútiles de las organizaciones, ICANN, ha creado una nueva manera de seguir haciendo plata, una nueva vaquita lechera, al permitir inscribir miles de nuevos TLDs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;la-más-grande-expansión-de-internet-en-40-años&#34;&gt;&lt;strong&gt;La Más Grande Expansión de Internet en 40 Años&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Linda cuña para el &lt;a href=&#34;http://www.icann.org/en/announcements/announcement-4-26jun08-en.htm&#34;&gt;comunicado de prensa&lt;/a&gt; de la &lt;a href=&#34;http://www.icann.org/&#34;&gt;ICANN&lt;/a&gt;, que va a ser copiado literalmente por los periodistas borregos, que no entienden de tecnología y son incapaces de investigar un poco más allá, porque la verdad es que la internet no se expande un milímetro con esta medida, sólo los profundos bolsillos de ICANN (y de los que sean suficientemente astutos para comprar un TLD).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desarrollando en las nubes</title>
+      <link>http://localhost:1313/blog/lnds/2008/05/07/desarrollando-en-las-nubes/</link>
+      <pubDate>Wed, 07 May 2008 22:18:45 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/05/07/desarrollando-en-las-nubes/</guid>
+      <description>&lt;p&gt;Ayer me llegó la cuenta para usar los servicios de la Google App Engine, tengo un par de ideas para desarrollar, pero por ahora vamos a investigar, observar, &lt;a href=&#34;http://gallir.wordpress.com/2008/05/07/panelr-we-will-rock-you-or-not/&#34;&gt;aprender de otros&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Estoy construyendo un prototipo, pero va a tomar tiempo, lamentablemente sólo le puedo dedicar mi tiempo libre, y está bastante escaso. Si les interesa integrarse al proyecto, por favor escribanme, o dejenme un comentario, la idea es preparar alguna aplicación Web 2.0 de nicho, social, por supuesto.&lt;br&gt;&#xA;Requisitos: saber python, o tener habilidades de diseño gráfico (o tener mucho dinero para invertir ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Realidad Aumentada</title>
+      <link>http://localhost:1313/blog/lnds/2008/04/09/realidad-aumentada/</link>
+      <pubDate>Wed, 09 Apr 2008 21:24:27 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/04/09/realidad-aumentada/</guid>
+      <description>&lt;p&gt;&amp;ldquo;La Realidad aumentada consiste en un conjunto de dispositivos que añaden información virtual a la información física ya existente. Esta es la principal diferencia con la realidad virtual, puesto que no sustituye la realidad física, sino que sobreimprime los datos informáticos al mundo real.&amp;rdquo; (&lt;a href=&#34;http://en.wikipedia.org/wiki/Augmented_reality&#34;&gt;según Wikipedia&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Ayer les mostré el desarrollo de &lt;a href=&#34;http://www.gled.cl/&#34;&gt;GLED&lt;/a&gt;, y su producto &lt;a href=&#34;http://www.gled.cl/iveo.php&#34;&gt;IVEO&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Pero, ¿para qué puede servir esto de la realidad aumentada? (aparte de los juegos, claro).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IVEO: Realidad aumentada (desde Valparaiso)</title>
+      <link>http://localhost:1313/blog/lnds/2008/04/09/iveo-realidad-aumentada-desde-valparaiso/</link>
+      <pubDate>Wed, 09 Apr 2008 00:15:39 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/04/09/iveo-realidad-aumentada-desde-valparaiso/</guid>
+      <description>&lt;p&gt;Después de leer la &lt;a href=&#34;http://www.mouse.cl/detail.asp?story=2008%2F04%2F08%2F17%2F36%2F44&#34;&gt;nota sobre un concurso&lt;/a&gt; organizado por la USM y Microsoft (lo que explica varias cosas ;), descubrí este interesante proyecto. Se trata de &lt;a href=&#34;http://www.gled.cl/iveo.php&#34;&gt;IVEO&lt;/a&gt;, una aplicación de realidad aumentada, les invito a ver este video para que entiendan de que se trata esto:&lt;/p&gt;&#xA;&lt;p&gt;Este es el primer producto de la empresa &lt;a href=&#34;http://www.gled.cl/&#34;&gt;GLED&lt;/a&gt;, formada por jóvenes estudiantes de ingeniería informática de la&lt;a href=&#34;http://www.usm.cl/&#34;&gt;Universidad Federico Santa María&lt;/a&gt;. Un trabajo muy interesante. Ah, pueden &lt;a href=&#34;http://www.gled.cl/iveo/iveo-1.01b-win32.exe&#34;&gt;bajar el software&lt;/a&gt; y las &lt;a href=&#34;http://www.gled.cl/iveo/Album.pdf&#34;&gt;láminas&lt;/a&gt; para probarlo, desde el sitio de GLED.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡Cinco cortes!</title>
+      <link>http://localhost:1313/blog/lnds/2008/02/08/cinco-cortes/</link>
+      <pubDate>Fri, 08 Feb 2008 16:25:57 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/02/08/cinco-cortes/</guid>
+      <description>&lt;p&gt;Cinco cortes a los cables submarinos en Asia, ¿no será mucho?&lt;br&gt;&#xA;¿Cual es la probabilidad de que eso pase?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Más del 90% del tráfico mundial de datos viaja a través de los cables submarinos, frente al tráfico que absorben los satélites, menos de un 10%.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Fuente: &lt;a href=&#34;http://www.elmundo.es/navegante/2008/02/07/tecnologia/1202374126.html?a=c82d9f26dfe60133084d973fde3ee6fb&amp;amp;t=1202401324&#34;&gt;El Mundo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Qué decían de los gallegos?</title>
+      <link>http://localhost:1313/blog/lnds/2008/01/17/que-decian-de-los-gallegos/</link>
+      <pubDate>Thu, 17 Jan 2008 13:37:19 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/01/17/que-decian-de-los-gallegos/</guid>
+      <description>&lt;p&gt;Resulta que tomando &lt;a href=&#34;http://localhost:1313/2007/12/la_magia_de_innovar.html&#34;&gt;las ideas de Johny Chung Lee&lt;/a&gt; un grupo de &lt;a href=&#34;http://centros.edu.xunta.es/ceipdepalmeira/rato_pizarra.htm&#34;&gt;profesores gallegos construyeron una pizarra electrónica&lt;/a&gt;usando un control remoto de una WII y un proyector. Tal como se muestra en el video:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-R0cms89gJs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Las instrucciones para lograr esto &lt;a href=&#34;http://centros.edu.xunta.es/ceipdepalmeira/rato_pizarra.htm&#34;&gt;están acá&lt;/a&gt; (en gallego).&lt;/p&gt;&#xA;&lt;p&gt;Esto me parece que es bastante más barato que cualquier tecnología similar disponible en el mercado.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Efecto Red</title>
+      <link>http://localhost:1313/blog/lnds/2008/01/15/bob_metcalfe_es_uno_de/</link>
+      <pubDate>Tue, 15 Jan 2008 14:36:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/01/15/bob_metcalfe_es_uno_de/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ibiblio.org/pioneers/metcalfe.html&#34;&gt;Bob Metcalfe&lt;/a&gt; es uno de mis emprendedores favoritos,y me parece que sus ideas sobre cómo emprender negocios de tecnología son de las mejores que he leido.&#xA;Metcalfe es uno de los creadores de &lt;a href=&#34;http://portal.acm.org/citation.cfm?id=358015&#34;&gt;Ethernet&lt;/a&gt;, la tecnología usada en las redes de área local. Si tu computador está conectado mediante un cable a la red lo hace usando una tarjeta Ethernet, así de importante es este caballero.&lt;/p&gt;&#xA;&lt;p&gt;Ethernet, también conocido como IEE 802.3, es el estándar que prevaleció al final de los 80 como la manera de conectar computadores a una LAN, hoy pocos se acuerdan de &lt;a href=&#34;http://en.wikipedia.org/wiki/Token_ring&#34;&gt;Token Ring&lt;/a&gt;, por ejemplo, a pesar de lo ingenioso de sus diseño.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>http://localhost:1313/blog/lnds/2008/01/14/latex/</link>
+      <pubDate>Mon, 14 Jan 2008 21:23:10 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/01/14/latex/</guid>
+      <description>&lt;p&gt;A mi me parece divertido que la gente reclame contra microsoft desde un &lt;a href=&#34;http://www.elfrancotirador.cl/2008/01/14/ooxml-en-chile-la-delgada-linea-roja/#comment-56552&#34;&gt;PC con Windows XP&lt;/a&gt;, si linux les resuelve todos los problemas, ¿por qué no lo instalan?&lt;/p&gt;&#xA;&lt;p&gt;Hay mucho de pose con respecto al tema del software libre, y también mucha ignorancia cuando se habla de tecnología.&lt;/p&gt;&#xA;&lt;p&gt;Un ejemplo reciente de estos argumentos llenos de ignorancia es aquel que propone LaTeX como alternativa al formatoOOXML.&lt;/p&gt;&#xA;&lt;p&gt;Bien, como fan de &lt;a href=&#34;http://sunburn.stanford.edu/~knuth/&#34;&gt;Knuth&lt;/a&gt;, y también de &lt;a href=&#34;http://research.microsoft.com/users/lamport/&#34;&gt;Leslie Lamport&lt;/a&gt; (sobretodo por su trabajo en computación distribuida), me siento con un cierto deber de explicar uno poco de que se trata esto de LaTeX, y por qué no es una alternativa a OOXML, y de paso ver si se aprovechamos de aportar algo de &amp;ldquo;cultura&amp;rdquo; al debate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La magia de innovar</title>
+      <link>http://localhost:1313/blog/lnds/2007/12/24/la-magia-de-innovar/</link>
+      <pubDate>Mon, 24 Dec 2007 08:15:42 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/12/24/la-magia-de-innovar/</guid>
+      <description>&lt;p&gt;Les quiero presentar un par de innovaciones del investigador &lt;a href=&#34;http://www.cs.cmu.edu/~johnny/&#34;&gt;Johnny Chung Lee&lt;/a&gt;, postulante a doctorado en la Universidad de Carnegie Mellon.&lt;/p&gt;&#xA;&lt;p&gt;La primera innovación la descubrí a través de un post en&lt;br&gt;&#xA;&lt;a href=&#34;http://www.botonturbo.com/quien-dijo-que-la-wii-no-es-next-gen-ps3-is-so-last-week&#34;&gt;Botón Turbo.&lt;/a&gt;. Lamentablemente en ese blog no entendieron muy bien que es lo que sucede, así que permitanme explicarlo, antes de presentarles el video.&lt;/p&gt;&#xA;&lt;p&gt;En este caso Chung Lee escribe un programa en C# y utiliza el control de la Wii como dispositivo de entrada conectado a su Laptop, corriendo Windows. En &lt;strong&gt;ningún momento ha escrito código que se ejecute en la consola de Nintendo&lt;/strong&gt;, todo ocurre en el laptop, y lo que se usa es el WiiMote. La característica principal de esta innovación es que utiliza el control de la Wii al revés, mueve el sensor infrarrojo en vez del WiiMote.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ANDROID y el teléfono de Google</title>
+      <link>http://localhost:1313/blog/lnds/2007/11/05/android-y-el-telefono-de-google/</link>
+      <pubDate>Mon, 05 Nov 2007 16:45:29 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/11/05/android-y-el-telefono-de-google/</guid>
+      <description>&lt;p&gt;Google no sacará un teléfono celular.&lt;/p&gt;&#xA;&lt;p&gt;Nop, Google no haría algo tan prosaico como los ancianos de Apple.&lt;/p&gt;&#xA;&lt;p&gt;Como son más inteligentes e innovadores que cualquiera, prefirieron crear una plataforma de telefoniía celular abierta:&lt;a href=&#34;http://www.openhandsetalliance.com/android_overview.html&#34;&gt;ANDROID&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Además, para asegurar el éxito comercial de este modelo crearon una alianza con otras empresas muy influyentes en el negocio de telefonía celular (gigantes como NTT Docomo, Telefonica, Motorola, LG, Samsung, Sprint Nextel, Intel, Qualcomm, China Mobile, etc). Nace la &lt;a href=&#34;http://www.openhandsetalliance.com/oha_members.html&#34;&gt;Open Handset Alliance&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las Leyes de la Identidad 1</title>
+      <link>http://localhost:1313/blog/lnds/2007/04/01/las-leyes-de-la-identidad-1/</link>
+      <pubDate>Sun, 01 Apr 2007 09:58:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/04/01/las-leyes-de-la-identidad-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cameron-orange.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace unas semanas atrás me puse en contacto con &lt;a href=&#34;http://www.identityblog.com/?page_id=360&#34;&gt;Kim Cameron&lt;/a&gt; con el fin de que me autorizara la traducción de sus &lt;a href=&#34;http://www.identityblog.com/?page_id=354&#34;&gt;Leyes de la Identidad&lt;/a&gt;. Para los que no dominan el tema, el trabajo de Kim ha sido investigar los problemas del manejo de la identidad en internet. Cito:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien y a que te estas conectando. Estos límita lo que podemos hacer y nos expone a peligros crecientes. Si no hacemos nada enfrentaremos rápidamente una proliferación de episodios de robo y fraudes que acumulativamente erosionarán la confianza pública en Internet.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simples formas de evitar el SPAM</title>
+      <link>http://localhost:1313/blog/lnds/2006/06/18/simples-formas-de-evitar-el-spam/</link>
+      <pubDate>Sun, 18 Jun 2006 22:09:57 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/06/18/simples-formas-de-evitar-el-spam/</guid>
+      <description>&lt;p&gt;Cómo mi hermano se queja del SPAM que recibe, decidí escribir estos breves consejos para lidiar con la plaga de nuestros tiempos, el &lt;a href=&#34;http://replay.web.archive.org/20071016191444/http://es.wikipedia.org/wiki/Spam&#34;&gt;SPAM&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;no-uses-el-email&#34;&gt;No uses el email.&lt;/h2&gt;&#xA;&lt;p&gt;Esta es la clásica solución que yo llamo NO LEVANTE EL BRAZO. Esto viene por esa historia del paciente que le dice al doctor:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Doctor me duele el brazo cuando lo levanto. - Entonces no levante el brazo, le responde el doctor.&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La verdad, es que si usaramos otros sistemas de correo electrónico no tendríamos estos problemas, pero la historia no siempre es progreso, y la solución de correo que se usa en internet actualmente está basada en un sistema que se basaba en la confianza entre los usuarios. Cuando se crearon protocolos como SMTP o POP nadie pensaba mucho en que se usaría la Internet en forma comercial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wifi en Chile, creció en un 120% el 2005</title>
+      <link>http://localhost:1313/blog/lnds/2006/02/14/wifi_en_chile_crecio_en_un_120_el_2005/</link>
+      <pubDate>Tue, 14 Feb 2006 19:54:27 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/02/14/wifi_en_chile_crecio_en_un_120_el_2005/</guid>
+      <description>&lt;p&gt;Un crecimiento de 120% registraron durante 2005 los lugares públicos de conexión a Internet o hotspots en Chile, alcanzado a 678 puntos de conexión en todo el territorio nacional, de acuerdo al mapa Wi-Fi que elabora el &lt;a href=&#34;https://web.archive.org/web/20080410015144/http://www.ccs.cl/html/informe_economico.htm&#34;&gt;Centro de Estudios de Economía Digital de la Cámara de Comercio de Santiago (CCS)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;accesos-públicos-a-wi-fi-llegan-a-los-678-puntos&#34;&gt;Accesos Públicos a Wi-Fi Llegan a los 678 Puntos&lt;/h2&gt;&#xA;&lt;p&gt;Fuente: &lt;a href=&#34;https://web.archive.org/web/20080410015144/http://www.ccs.cl/html/informe_economico.htm&#34;&gt;Cámara de Comercio de Santiago&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Revisar el correo desde un café, chequear la reserva del hotel desde el aeropuerto o el terminal de buses, sentarse a trabajar con el computador en una estación de metro, un parque o el patio de la universidad, es una práctica cada vez más común en nuestro país.&#xA;De acuerdo al mapa Wi-Fi que elabora el Centro de Estudios de Economía Digital de la CCS, el número de hotspots públicos registrados en Chile alcanzó a 678 el 20051, de los cuales el 49% se ubican en la Región Metropolitana e “iluminan” el 0,13% de la superficie capitalina.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No pesquen</title>
+      <link>http://localhost:1313/blog/lnds/2006/02/02/no-pesquen/</link>
+      <pubDate>Thu, 02 Feb 2006 21:26:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/02/02/no-pesquen/</guid>
+      <description>&lt;p&gt;Dicen que Facundo Cabral alguna vez dijo:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;en general la gente es buena,&#xA;hay algunos boludos,&#xA;pero la mayoría de la gente es buena&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La verdad es que ya expliqué que blogmemes y meneame tienen filosofías de diseño distintas.&lt;/p&gt;&#xA;&lt;p&gt;En menéame existe votación positiva y negativa.&#xA;En blogmemes sólo votación positiva.&lt;/p&gt;&#xA;&lt;p&gt;En menéame existe karma.&#xA;En blogmemes libre albedrío :)&lt;/p&gt;&#xA;&lt;p&gt;En la comunidad de meneame se ve con malos ojos el autobombo.&#xA;Yo no lo veo con malos ojos, pero no se que opinará la comunidad de blogmemes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El nuevo ícono estándar</title>
+      <link>http://localhost:1313/blog/lnds/2006/01/13/el-nuevo-icono-estandar/</link>
+      <pubDate>Fri, 13 Jan 2006 08:54:24 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/01/13/el-nuevo-icono-estandar/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;logo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Trabajando con las APIs de Feedburner: &lt;a href=&#34;http://web.archive.org/web/20090426080926/http://www.feedburner.com/fb/a/developers&#34;&gt;http://www.feedburner.com/fb/a/developers&lt;/a&gt; descubrí que el ícono que usa firefox se ha convertido en &lt;a href=&#34;http://web.archive.org/web/20090426080926/http://feedicons.com/&#34;&gt;un estándar&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esto es bueno, porque ahora todos sabremos donde se encuentran los feeds.&#xA;Aprovecho de darles un regalo, si quieren que este icono cool aparezca en la barra de firefox deben agregar&#xA;este código:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;link rel=&amp;#34;alternate&amp;#34; type=&amp;#34;application/rss+xml&amp;#34; title=&amp;#34;RSS 2.0&amp;#34; href=&amp;#34;{#url_feeds#}&amp;#34; /&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;donde deben reemplazar {#url_feed#} por la dirección de donde proviene vuestro feed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Singularity el nuevo sistema operativo de Microsoft</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/03/singularity-el-nuevo-sistema-operativo-de-microsoft/</link>
+      <pubDate>Thu, 03 Nov 2005 12:00:56 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/03/singularity-el-nuevo-sistema-operativo-de-microsoft/</guid>
+      <description>&lt;p&gt;Microsoft Research ha publicado los detalles de su nuevo sistema operativo bajo desarrollo, llamado Singularity (Singularidad), diseñado desde lo básico y usando C# como lenguaje de implementación, el enfasis está en la estabilidad más que en el desempeño.&lt;/p&gt;&#xA;&lt;p&gt;Dos observaciones, es bueno que se preocupen de la estabilidad del sistema operativo, aunque no hay que negar que los S.O. de Microsoft están más estables de lo que eran, la mala fama se la ganaron, pero se nota que hay un esfuerzo conciente por preocuparse de la seguridad y la calidad.&#xA;La segunda observación es que el nombre es muy malo, por lo menos a mi me recuerda a un agujero negro.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firefox monstruo devorador de memoria</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/03/firefox_monstrui_devorador_de/</link>
+      <pubDate>Thu, 03 Nov 2005 10:06:57 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/03/firefox_monstrui_devorador_de/</guid>
+      <description>&lt;p&gt;Firefox consume mucha mas memoria que internet explorer, en mi caso IE consume unso 25 MB cuando lo inicio apuntando a este sitio, mientras que Firefox unos 37 MB, es casi constante. Tengo que decir que en mi caso ambos browsers tienen casi la misma cantidad de plugins, incluso IE tiene mas barras y addons que Firefox.&lt;/p&gt;&#xA;&lt;p&gt;Pero lo peor es que te puede pasar lo que le pasó a Red Guy tras navegar por 2 días con Firefox, miren esta imagen del uso de memoria en su caso. Firefox no libera memoria. Esperemos que mejore con el tiempo, ya me estoy desilusionando.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows Live Beta</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/01/windows-live-beta/</link>
+      <pubDate>Tue, 01 Nov 2005 20:30:25 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/01/windows-live-beta/</guid>
+      <description>&lt;p&gt;Cuando Netscape saco su browser y Microsoft no le ponia mucha atención a la internet, repentinamente Bill Gates dio un golpe de timón y adiós Netscape.&lt;/p&gt;&#xA;&lt;p&gt;Aunque creo que &lt;a href=&#34;http://localhost:1313/2005/10/el_camino_de_google.html&#34;&gt;Microsoft no entiende a Google&lt;/a&gt;, no hay que menospreciar lo que pueda pasar con &lt;a href=&#34;http://www.live.com/&#34;&gt;Windows Live Beta&lt;/a&gt;, no en vano Microsoft controla millones de PC de escritorios.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El primer Nano Carro</title>
+      <link>http://localhost:1313/blog/lnds/2005/10/21/el-primer-nano-carro/</link>
+      <pubDate>Fri, 21 Oct 2005 13:25:51 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/10/21/el-primer-nano-carro/</guid>
+      <description>&lt;p&gt;Científicos de la universidad de Rice desarrollaron el primer &lt;a href=&#34;http://www.rice.edu/media/nanocar.html&#34;&gt;NanoCarro del mundo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;NanoCartriangle.jpg&#34; alt=&#34;Nano Carro&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El vehículo tiene un ancho de unos 3-4 nanometros. En contraste, un cabellos humano tiene un diametro de 80.000 nanometros.&lt;/p&gt;&#xA;&lt;p&gt;El carro consiste en una molécula que contiene el chasis con los ejes y ruedas esféricas de carbono puro. Un artículo completo será publicado proximamente en la revista especializada &lt;a href=&#34;http://pubs.acs.org/journals/nalefd/&#34;&gt;Nano Letters&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La idea de los investigadores es emular estructuras similares existentes en biología, como la hemoglobina que transporta el oxigenos a través del torrente sanguineo hacia las células.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Latencia, un factor olvidado</title>
+      <link>http://localhost:1313/blog/lnds/2005/10/01/latencia-un-factor-olvidado/</link>
+      <pubDate>Sat, 01 Oct 2005 17:28:53 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/10/01/latencia-un-factor-olvidado/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;No sé lo que quiero, ¡pero lo quiero ya!&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Luca Prodan, Sumo&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Cuando medimos el desempeño de una aplicación Web, el aspecto técnico que más afecta a la percepción de usuario es la &lt;strong&gt;Latencia&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Parafraseando el epígrafe, el usuario no sabe lo que quiere, pero quiere que se le entregue con prontitud.&lt;/p&gt;&#xA;&lt;p&gt;Para entender los conceptos de evaluación de desempeño vamo a definir las siguientes variables:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ancho de Banda: Cantidad de datos que pueden ser enviados por la red en un segundo.&lt;/li&gt;&#xA;&lt;li&gt;Throughput: Cantidad de trabajo que puede realizar el servidor en un periodo de tiempo.&lt;/li&gt;&#xA;&lt;li&gt;Contención: Competencia por los recursos, se da cuando tenemos más de 1 cliente accediendo al servidor.&lt;/li&gt;&#xA;&lt;li&gt;Latencia: tiempo para realizar una operación simple asumiendo que no hay contención [1]. Tiempo de respuesta efectivo medido por parte del cliente&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;La latencia es función del ancho de banda, y el throughput, sin considerar la contención:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una interfaz Flash para Google Earth y MS Virtual Earth</title>
+      <link>http://localhost:1313/blog/lnds/2005/09/29/una-interfaz-flash-para-google-earth-y-ms-virtual-earth/</link>
+      <pubDate>Thu, 29 Sep 2005 20:30:57 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/09/29/una-interfaz-flash-para-google-earth-y-ms-virtual-earth/</guid>
+      <description>&lt;p&gt;Impresionante: &lt;a href=&#34;http://www.flashearth.com/&#34;&gt;http://www.flashearth.com/&lt;/a&gt;, el autor es un gran &lt;a href=&#34;http://www.neave.com/blog/2005_08/flash_earth.php&#34;&gt;desarrollador flash&lt;/a&gt;.&lt;br&gt;&#xA;Parece que aún tiene problemas en Linux, pero están trabajando para que funcione con el plugin de flash para linux (ojalá).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

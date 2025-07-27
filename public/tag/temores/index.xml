@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Temores on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/temores/</link>
+    <description>Recent content in Temores on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 20 Aug 2008 22:48:49 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/temores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Se Asusten</title>
+      <link>http://localhost:1313/blog/lnds/2008/08/20/no-se-asusten/</link>
+      <pubDate>Wed, 20 Aug 2008 22:48:49 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/08/20/no-se-asusten/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;La Guía del Autoestopista Galáctico ha superado a la Enciclopedia Galáctica como la fuente estándar de todo el conocimiento y sabiduría, por dos importantes razones. Primero, es ligeramente más barata, y luego,grabada en la portada con simpáticas letras grandes, ostenta la leyenda: NO SE ASUSTE.&lt;br&gt;&#xA;&amp;ndash; La Guía del Autoestopista Galáctico, Douglas Adams&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El problema con la exportación de cerdos a Corea es un tema delicado, en esto, el senador Girardi tiene razón, el gobierno debe invertir en un sistema de control propio para medir la cantidad de dioxinas en nuestros alimentos, que exportamos. Pero no tanto porque esta sea una amenaza real, sino porque hay estándares internacionales que afectan nuestras exportaciones.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

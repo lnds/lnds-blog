@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identidad Digital on La Naturaleza del Software</title>
+    <link>http://localhost:1313/category/identidad-digital/</link>
+    <description>Recent content in Identidad Digital on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 14 May 2009 13:59:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/identidad-digital/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El manejo informático de la identidad</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1/</link>
+      <pubDate>Thu, 14 May 2009 13:59:45 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1/</guid>
+      <description>&lt;p&gt;El manejo de la identidad en la red es un tema que he abordado en este espacio, pero que me parece necesario y urgente retomar, dada ciertas coyunturas que se están dando. Es por esto que voy a iniciar una serie de artículos sobre el problema del manejo de la identidad, y parto con este artículo &lt;a href=&#34;http://localhost:1313/2007/07/los-meta-sistemas-de-identidad.html&#34;&gt;reciclado de julio de 2007&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien se conecta y a que se conecta.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inscripción Electoral Automática, y la protección de nuestra identidad digital</title>
+      <link>http://localhost:1313/blog/lnds/2008/05/15/inscripcion-electoral-automatica-y-la-proteccion-de-nuestra-identidad-digital/</link>
+      <pubDate>Thu, 15 May 2008 20:07:11 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/05/15/inscripcion-electoral-automatica-y-la-proteccion-de-nuestra-identidad-digital/</guid>
+      <description>&lt;p&gt;Escuché en la radio que la UDI se opone a la inscripción electoral automática, y al voto voluntario. Por supuesto el gobierno critica esta actitud.&lt;/p&gt;&#xA;&lt;p&gt;Personalmente, estoy de acuerdo con la inscripción electoral automática. Si a los 18 años te inscriben automáticamente para realizar el servicio militar, ¿por qué no se hace lo mismo con el derecho a voto?&lt;/p&gt;&#xA;&lt;p&gt;Ahora bien, yo creo que debe la votación debe ser voluntaria. Votar es un derecho, y uno debe tener libertad de elegir si ejerce ese derecho o no.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Barbie como un validador de Identidad</title>
+      <link>http://localhost:1313/blog/lnds/2007/11/07/barbie-como-un-validador-de-identidad/</link>
+      <pubDate>Wed, 07 Nov 2007 09:30:13 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/11/07/barbie-como-un-validador-de-identidad/</guid>
+      <description>&lt;p&gt;Acá va una solución para padres aprensivos. Pero también es un ejemplo interesante de cómo autenticar identidades de las contrapartes (pero eso es más técnico).&lt;/p&gt;&#xA;&lt;p&gt;Matel para su mundo virtual gratuito para preadolescentes: &lt;a href=&#34;http://www.barbiegirls.com/&#34;&gt;barbiegirls.com&lt;/a&gt; ha desarrollado un mecanismo de autenticación utilizando uno de sus juguetes.&lt;/p&gt;&#xA;&lt;p&gt;El sitio permite a las niñas &amp;ldquo;chatear&amp;rdquo; con sus amigas a través del Secret B Chat, pero con la restricción de que sólo permite que las niñas conversen con amigas que ellas realmente conocen (en el mundo real se entiende).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los meta sistemas de identidad</title>
+      <link>http://localhost:1313/blog/lnds/2007/07/25/los-meta-sistemas-de-identidad/</link>
+      <pubDate>Wed, 25 Jul 2007 08:25:55 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/07/25/los-meta-sistemas-de-identidad/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;ID_Theft.jpg&#34; alt=&#34;&#34;&gt;]&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien se conecta y a que se conecta.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Dado que la capacidad de identificar a las personas no está construida en la internet todo aquel que ofrece un servicio en internet tiene que resolver el problema del manejo de la identidad e alguna manera. A medida que la web crece la necesidad de identificar se hace más necesaria, y siempre nos topamos con distintos tipos de verificación de identidad, cada uno creado y adaptado a distintas necesidades. Millones de personas han aprendido a aceptar que cualquier cosa que un sitio web les pida es la &amp;ldquo;forma normal&amp;rdquo; de conducir los negocios en línea. Han sido entrenados para ingresar sus nombres, claves secretas e información de identificación personal en cuanto formulario de entrada que se les presenta en pantalla.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las Leyes de la Identidad 2</title>
+      <link>http://localhost:1313/blog/lnds/2007/04/04/las-leyes-de-la-identidad-2/</link>
+      <pubDate>Wed, 04 Apr 2007 19:18:55 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/04/04/las-leyes-de-la-identidad-2/</guid>
+      <description>&lt;h2 id=&#34;el-problema&#34;&gt;El Problema&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien se conecta y a que se conecta.&amp;rdquo;&lt;/p&gt;&#xA;&lt;h3 id=&#34;el-trabajo-de-parchar&#34;&gt;El trabajo de parchar&lt;/h3&gt;&#xA;&lt;p&gt;Dado que la capacidad de identificar a las personas no está construida en la internet todo aquel que ofrece un servicio en internet tiene que resolver el problema de alguna manera. Podemos decir que la capa de identidad que le falta a internet constituye una amalgama de parches que resuelven el problemas de controlar la identidad de las personas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las Leyes de la Identidad 1</title>
+      <link>http://localhost:1313/blog/lnds/2007/04/01/las-leyes-de-la-identidad-1/</link>
+      <pubDate>Sun, 01 Apr 2007 09:58:48 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/04/01/las-leyes-de-la-identidad-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;cameron-orange.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace unas semanas atrás me puse en contacto con &lt;a href=&#34;http://www.identityblog.com/?page_id=360&#34;&gt;Kim Cameron&lt;/a&gt; con el fin de que me autorizara la traducción de sus &lt;a href=&#34;http://www.identityblog.com/?page_id=354&#34;&gt;Leyes de la Identidad&lt;/a&gt;. Para los que no dominan el tema, el trabajo de Kim ha sido investigar los problemas del manejo de la identidad en internet. Cito:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien y a que te estas conectando. Estos límita lo que podemos hacer y nos expone a peligros crecientes. Si no hacemos nada enfrentaremos rápidamente una proliferación de episodios de robo y fraudes que acumulativamente erosionarán la confianza pública en Internet.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

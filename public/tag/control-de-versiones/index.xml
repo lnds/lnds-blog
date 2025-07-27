@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Control De Versiones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/control-de-versiones/</link>
+    <description>Recent content in Control De Versiones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 11 Jul 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/control-de-versiones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control de Versiones Distribuido</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/11/control-de-versiones-distribuido/</link>
+      <pubDate>Sun, 11 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/11/control-de-versiones-distribuido/</guid>
+      <description>&lt;p&gt;Mi anterior apunte sobre contol de versiones tuvo buena aceptación, y&#xA;recibí comentarios de gente que no es desarrolladora de software, lo que&#xA;es bueno. Insisto en que el control de versiones es una herramienta que&#xA;tiene aplicaciones fuera del mundo de la programación.&lt;/p&gt;&#xA;&lt;p&gt;Pero la vez anterior hablamos de sistemas centralizados, como&#xA;&lt;a href=&#34;https://subversion.apache.org/&#34;&gt;Subversion&lt;/a&gt; (SVN) o&#xA;&lt;a href=&#34;https://www.nongnu.org/cvs&#34;&gt;CVS&lt;/a&gt;, los más populares. Pero esta vez les&#xA;quiero invitar a que prueben los sistemas de control distribuidos, o&#xA;DCVS por sus siglas en inglés.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sistemas de Control de Versiones</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/05/sistemas-de-control-de-versiones/</link>
+      <pubDate>Mon, 05 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/05/sistemas-de-control-de-versiones/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://commons.wikipedia.org/wiki/File:Subversion_project_visualization.svg&#34;&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Subversion_project_visualization.svg/300px-Subversion_project_visualization.svg.png&#34; alt=&#34;Subversion project visualization&#xA;image.&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Image via &lt;a href=&#34;https://commons.wikipedia.org/wiki/File:Subversion_project_visualization.svg&#34;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;¿Usaron alguna vez&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Source_Code_Control_System&#34;&gt;SCCS&lt;/a&gt;? ¿No?&#xA;¿Que tal &lt;a href=&#34;http://en.wikipedia.org/wiki/Revision_Control_System&#34;&gt;RCS&lt;/a&gt;?&#xA;¿Tampoco? Bah, son ustedes muy jóvenes. Pero, usan un&#xA;&lt;a href=&#34;http://es.wikipedia.org/wiki/Control_de_versiones&#34;&gt;sistema de control de versiones&lt;/a&gt;, ¿verdad?&lt;/p&gt;&#xA;&lt;p&gt;Hoy es raro que un desarrollador no use un sistema de control de&#xA;versiones como &lt;a href=&#34;http://www.nongnu.org/cvs&#34;&gt;CVS&lt;/a&gt; o&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Subversion_%28software%29&#34;&gt;Subversion&lt;/a&gt;&#xA;(conocido también como SVN).&lt;/p&gt;&#xA;&lt;p&gt;Lo que no me explico es ¡por qué no lo usa todo el mundo!&lt;/p&gt;&#xA;&lt;p&gt;Verán, mucha gente escribe un archivo word,&#xA;&lt;em&gt;&amp;ldquo;aburrido&lt;/em&gt;informe&lt;em&gt;para&lt;/em&gt;el&lt;em&gt;auditor.doc&amp;rdquo;&lt;/em&gt;, empiezan a trabajar en este,&#xA;si son astutos, y tienen experiencia, antes de realizar una modificación&#xA;hacen una copia y empiezan a trabajar en&#xA;&lt;em&gt;&amp;ldquo;aburrido&lt;/em&gt;informe&lt;em&gt;para&lt;/em&gt;el&lt;em&gt;auditor-version-2.doc&amp;rdquo;&lt;/em&gt;, y después en&#xA;&amp;ldquo;&lt;em&gt;aburrido&lt;/em&gt;informe&lt;em&gt;para&lt;/em&gt;el&lt;em&gt;auditor-version-3.doc&amp;rdquo;&lt;/em&gt; y sigue la cosa, y&#xA;la carepta se llena de archivos como &lt;em&gt;&amp;ldquo;informe&lt;/em&gt;auditor&lt;em&gt;4.doc&amp;rdquo;,&#xA;informe-auditor-final.doc&amp;quot;,&#xA;&amp;ldquo;informe-para-el-auditor-revisado-por-mi-jefe.doc&amp;rdquo;,&#xA;&amp;ldquo;informe-ups-me-equivoqué-en-losplazos.doc&amp;rdquo;&lt;/em&gt; y así, la carpeta de&#xA;trabajo es un desastre, si es que usan carpeta, y no lo tienen&#xA;desparramado en el escritorio (los lectores de LNDS no hacen eso, por&#xA;supuesto).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Industria on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/industria/</link>
+    <description>Recent content in Industria on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 04 Jul 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/industria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecciones del mundo de la moda</title>
+      <link>http://localhost:1313/blog/lnds/2010/07/04/lecciones-del-mundo-de-la-moda/</link>
+      <pubDate>Sun, 04 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/07/04/lecciones-del-mundo-de-la-moda/</guid>
+      <description>&lt;p&gt;El gráfico de más abajo muestra las ventas, en miles de millones de&#xA;dolares, para el 2007 en diversas industrias, la principal diferencia es&#xA;el grado de protección a la propiedad intelectual entre ellas. A la&#xA;izquierda están las que tienen muy baja, o casi ninguna protección a la&#xA;propiedad intelectual, y a la derecha las industrias con alto grado de&#xA;protección a la propiedad intelectual:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ventas-ip.png&#34; alt=&#34;ventas-ip.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La gráfica es parte de la presentación que Johanna Blakley dió en&#xA;&lt;a href=&#34;http://stevens.usc.edu/TEDxUSC&#34;&gt;TEDxUSC&lt;/a&gt; este año.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

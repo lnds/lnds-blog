@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nanotecnologia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/nanotecnologia/</link>
+    <description>Recent content in Nanotecnologia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 21 Oct 2005 13:25:51 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/nanotecnologia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El primer Nano Carro</title>
+      <link>http://localhost:1313/blog/lnds/2005/10/21/el-primer-nano-carro/</link>
+      <pubDate>Fri, 21 Oct 2005 13:25:51 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/10/21/el-primer-nano-carro/</guid>
+      <description>&lt;p&gt;Científicos de la universidad de Rice desarrollaron el primer &lt;a href=&#34;http://www.rice.edu/media/nanocar.html&#34;&gt;NanoCarro del mundo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;NanoCartriangle.jpg&#34; alt=&#34;Nano Carro&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El vehículo tiene un ancho de unos 3-4 nanometros. En contraste, un cabellos humano tiene un diametro de 80.000 nanometros.&lt;/p&gt;&#xA;&lt;p&gt;El carro consiste en una molécula que contiene el chasis con los ejes y ruedas esféricas de carbono puro. Un artículo completo será publicado proximamente en la revista especializada &lt;a href=&#34;http://pubs.acs.org/journals/nalefd/&#34;&gt;Nano Letters&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La idea de los investigadores es emular estructuras similares existentes en biología, como la hemoglobina que transporta el oxigenos a través del torrente sanguineo hacia las células.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

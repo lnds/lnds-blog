@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Números Primos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/n%C3%BAmeros-primos/</link>
+    <description>Recent content in Números Primos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 31 Aug 2008 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/n%C3%BAmeros-primos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mersenne, divertimento dominical para Nerds</title>
+      <link>http://localhost:1313/blog/lnds/2008/08/31/mersenne-divertimento-dominical-para-nerds/</link>
+      <pubDate>Sun, 31 Aug 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/08/31/mersenne-divertimento-dominical-para-nerds/</guid>
+      <description>&lt;p&gt;Los Nerds hemos estado desde siempre. En la antiguedad tenemos varios,&#xA;como &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/e/euclides.htm&#34;&gt;Euclides&lt;/a&gt;,&#xA;quien en vez de acompañar a sus amigos a dar unas vueltas por el Faro&#xA;(el lugar de moda de Alejandría), prefería quedarse resolviendo teoremas&#xA;geométricos.&lt;/p&gt;&#xA;&lt;p&gt;O &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/a/arquimedes.htm&#34;&gt;Arquímides&lt;/a&gt;,&#xA;un geek que se puso a correr desnudo por las calles gritando &lt;strong&gt;Eureka&lt;/strong&gt;!&#xA;cuando descubrió el principio que permitía flotar a los trirremes (claro&#xA;que el principio para hundirlos ya había sido descubierto por los&#xA;romanos).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

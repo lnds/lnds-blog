@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ogú on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/og%C3%BA/</link>
+    <description>Recent content in Ogú on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 01 Mar 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/og%C3%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fake it till you make it</title>
+      <link>http://localhost:1313/blog/lnds/2017/03/01/fake-it-till-you-make-it/</link>
+      <pubDate>Wed, 01 Mar 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2017/03/01/fake-it-till-you-make-it/</guid>
+      <description>&lt;p&gt;Aunque la frase en inglés,&#xA;&lt;a href=&#34;//en.wikipedia.org/wiki/Fake_it_&#39;til_you_make_it&#34;&gt;&amp;ldquo;fake it &#39;til you make it&amp;rdquo;,&lt;/a&gt; se usa como un&#xA;término asociado con la autoayuda, voy a hacer una interpretación más&#xA;literal de para explicar lo que acabo de hacer.&lt;/p&gt;&#xA;&lt;p&gt;Hace unos 5 año atrás declaré en este blog mis intenciones de construir&#xA;un nuevo lenguaje de programación. De hecho el repositorio Github del&#xA;mismo tiene más tiempo. &lt;/p&gt;&#xA;&lt;p&gt;Llamé a este lenguaje Ogú, como referencia al personaje creado por&#xA;&lt;a href=&#34;//es.wikipedia.org/wiki/Themo_Lobos&#34;&gt;Themo Lobos&lt;/a&gt;, el simpático&#xA;cavernícola amigo de Mampato. También les&#xA;&lt;a href=&#34;http://localhost:1313/blog/lnds/2012/07/25/gracias-themo&#34;&gt;conté&lt;/a&gt; cómo conocí a la&#xA;hija del ilustrador para conseguir permiso para usar una imagen de Ogú&#xA;como mascota del proyecto. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gracias Themo</title>
+      <link>http://localhost:1313/blog/lnds/2012/07/25/gracias-themo/</link>
+      <pubDate>Wed, 25 Jul 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/07/25/gracias-themo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Ogu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace algunos meses conocí a Ada, la hija de Themo Lobos el gran caricaturista&#xA;chileno. Nos juntamos un mediodía en la cafetería de una universidad&#xA;donde ella imparte clases. La razón de nuestro encuentro era solicitar&#xA;el permiso para usar la imagen de Ógu, como mascota para un proyecto&#xA;opensource que quería iniciar.&lt;/p&gt;&#xA;&lt;p&gt;Nunca conocí a Themo, lo más cercano que pude estar con él fue este&#xA;contacto con Ada. La generosidad de Themo me sorprendió, entendió&#xA;perfectamente la idea del proyecto y me &amp;ldquo;regaló&amp;rdquo; uno de sus&#xA;&amp;ldquo;monitos&amp;rdquo; para ser usado como el primer logo de&#xA;&lt;a href=&#34;https://www.ogu-lang.org/&#34;&gt;Ogu&lt;/a&gt;, ese lenguaje de programación que estoy&#xA;desarrollando (si algunos de ustedes se anima a ayudarme, lo podemos&#xA;terminar pronto).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simplejizando</title>
+      <link>http://localhost:1313/blog/lnds/2011/12/20/simplejizando/</link>
+      <pubDate>Tue, 20 Dec 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/12/20/simplejizando/</guid>
+      <description>&lt;p&gt;Una de las ventajas de publicar Ogu en esta etapa es que me permite&#xA;confrontar mi diseño con los lectores y potenciales usuarios. He&#xA;recibido comentarios en el blog y en privado que me han permitido&#xA;enriquecer y determinar algunos problemas en la sintaxis.&lt;/p&gt;&#xA;&lt;p&gt;El principal problema reside en la ambigüedad de las declaraciones, la&#xA;gramática hasta ahora permitía el uso opcional de las palabras&#xA;reservadas &#39;def&#39;, &#39;var&#39; y &#39;val&#39;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El sistema de tipos de Ogu (1)</title>
+      <link>http://localhost:1313/blog/lnds/2011/12/17/el-sistema-de-tipos-de-ogu-1/</link>
+      <pubDate>Sat, 17 Dec 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/12/17/el-sistema-de-tipos-de-ogu-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;typesystem.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es momento de analizar más detalles del&#xA;&lt;a href=&#34;http://localhost:1313/blog/2011/12/compiladores.html&#34;&gt;lenguaje de programación Ogu&lt;/a&gt;, vamos a partir&#xA;por su sistema de tipos, este artículo es una introducción al tema.&lt;/p&gt;&#xA;&lt;p&gt;Ogu es un lenguaje con declaración de tipos estáticos, aunque implementa&#xA;inferencia de tipos. Veamos algunos ejemplos:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;i : Int = 0&#xA;&#xA;j := i // j es de tipo Int&#xA;&#xA;s : String = &amp;quot;un string&amp;quot;&#xA;&#xA;t := s&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Ogu tiene &amp;ldquo;sacarina sintáctica&amp;rdquo; para soportar tuplas&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

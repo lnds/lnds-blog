@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Roles y Funciones | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2013/07/30/roles-y-funciones/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Roles y Funciones">
+  <meta property="og:description" content="Esta es una de mis fotografías favoritas, una bastante famosa, que muestra a los trabajadores que construían el edificio RCA en el Rockefeller Center, disfrutando su almuerzo en una de las vigas de este edificio.
+Hay muchas fotos similares de aquella época, que muestran a estos obreros constructores trabajando despreocupadamente entre las vigas de estas enormes estructuras de acero, sin ninguno de los implementos de seguridad habituales de nuestros tiempos.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-07-30T08:25:11-03:00">
+    <meta property="article:modified_time" content="2013-07-30T08:25:11-03:00">
+    <meta property="article:tag" content="Roles">
+    <meta property="article:tag" content="Arquitectura">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Roles y Funciones">
+  <meta name="twitter:description" content="Esta es una de mis fotografías favoritas, una bastante famosa, que muestra a los trabajadores que construían el edificio RCA en el Rockefeller Center, disfrutando su almuerzo en una de las vigas de este edificio.
+Hay muchas fotos similares de aquella época, que muestran a estos obreros constructores trabajando despreocupadamente entre las vigas de estas enormes estructuras de acero, sin ninguno de los implementos de seguridad habituales de nuestros tiempos.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Roles y Funciones</h1><time class="dim" datetime="2013-07-30T08:25:11-03:00">July 30, 2013</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/roles/">#roles</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/arquitectura/">#arquitectura</a>
+      </div></ol></div>
+  <section class="page-section"><p>Esta es una de mis fotografías favoritas, una bastante famosa, que
+muestra a los trabajadores que construían el edificio RCA en el
+Rockefeller Center, disfrutando su almuerzo en una de las vigas de este
+edificio.</p>
+<p><img src="lunch.png" alt=""></p>
+<p>Hay muchas fotos similares de aquella época, que muestran a estos
+obreros constructores trabajando despreocupadamente entre las vigas de
+estas enormes estructuras de acero, sin ninguno de los implementos de
+seguridad habituales de nuestros tiempos.</p>
+<p>Es por eso que nos llama la atención. Se dice que este fue un montaje
+publicitario de aquella época por parte del Rockefeller Center. De todas
+maneras, no dejan de ser fotos impresionantes. Los trabajadores
+realmente estaban allí, y la foto se tomó a esas alturas.</p>
+<p>Se dice que dada la situación económica de esos años de depresión, los
+obreros estaban dispuestos a asumir estos trabajos sin ningún tipo de
+seguridad personal. Esto es algo que ya no toleraríamos.</p>
+<p>Lo otro que me llama la atención de esta fotografía es la disposición de
+los trabajadores dentro de la estructura. Es una imagen literal de lo
+que hablaremos sobre la disposición de actividades dentro de la
+estructura de una arquitectura de soluciones de software.</p>
+<p>¿Quién está a cargo de qué? De eso es lo que nos preocuparemos en este
+post que es complementario
+<a href="/2013/06/estructura.html">al anterior sobre estructura</a>.</p>
+<p>Recordemos el modelo de Hoff de las cuatro &quot;estructuras&quot; que cimentan
+una arquitectura de aplicaciones moderna:</p>
+<p><img src="modelo_de_hoff.png" alt=""></p>
+<p>En cada una de las capas de este modelo tenemos que existen uno o más
+roles que se deben cumplir, los que deben ser ejecutados por distintos
+profesionales TI.</p>
+<p>Las operaciones en TI se han especializado y la mejor forma de
+visualizar el ámbito de cada una en la actualidad es, en mi opinión,
+mediante el siguiente diagrama, que es el Hoff, pero con los roles y
+funciones dibujados al lado de cada capa.</p>
+<p><img src="hoff-roles.png" alt=""></p>
+<p>En concordancia con cada capa hay roles y funciones adecuadas, hay
+algunos que se mueven en más de una capa, por ejemplo, en mi visión
+personal, un buen programador conoce de todas las capas, pero es
+frecuente que el programador sea visto como alguien que se concentra en
+la apliestructura.</p>
+<p>El rol de arquitecto, como <a href="/blog/2013/06/utilidad-belleza-firmeza.html">&ldquo;jefe constructor&quot;</a>
+es disponer al equipo a lo largo de estas capas, relacionarse con cada
+profesional a cargo de cada capa, o de aspectos específicos de una. Por
+ejemplo, es labor del arquitecto asegurarse de que el ingeniero de
+seguridad aplique las reglas adecuadas en los firewalls, o instruir al
+DBA de que mantenga actualizado el diccionario de datos de las distintas
+aplicaciones. El arquitecto, en mi visión, tiene la misión de supervisar
+el correcto funcionamiento de cada una de las cuatro estructuras sobre
+las que se soporta la aplicación o sistema. Para esto delega la
+ejecución de tareas específicas de cada capa al profesional o
+profesionales especializados en cada estructura.</p>
+<p>Es por esto que la imagen de la fotografía me parece una representación
+literal de esta idea, pues tal como en la imagen de los obreros sobre la
+viga, debemos imaginar que cada una de las 4 estructuras son planos que
+sostienen nuestra aplicación, y en cada uno de estos planos encontramos
+a los profesionales que se desenvuelven en estos, ejecutando su labor,
+coordinadamente, en distintos instantes de tiempo.</p>
+<p>Esto es realmente muy sencillo de expresar, pero aunque no lo parezca,
+en muchas ocasiones no es entendido por los administradores, o los
+arquitectos. La separación de funciones es útil, y permite deslindar
+responsabilidades. Esto permite dar robustez. Lo importante es que debe
+haber un diálogo entre los participantes de cada capa, todo esto guiado,
+y orquestado por el arquitecto.</p>
+<p>Es el arquitecto el encargado de garantizar la armonía entre estas
+cuatro capas. El debe ayudar a generar el diálogo entre los miembros del
+equipo que operan en los distintos niveles. La disposición en este
+diagrama tampoco implica de que haya actividades más importantes que
+otras, o que deba procederse en la construcción de abajo hacia arriba, o
+a la inversa. Este es un diagrama para entender que existen cuatro vigas
+fundamentales que deben ser atendidas apropiadamente. Es imposible
+separarlas una de otras. El software no sirve sin hardware, no hay
+información sin infraestructura que la soporte. Si no hay acceso de
+redes no podemos llegar a nuestros datos, etc. Todo está relacionado y
+conectado. Es por eso que es complejo gestionar una arquitectura moderna
+de aplicaciones. Este modelo nos permite conceptualizar y organizar la
+forma en que desarrollaremos nuestro proyecto.</p>
+<p>Hoy en día pensar en que una aplicación se construye y se deja operando
+es demasiado simplista, el paso a producción es simplemente el primer
+paso de muchos. Una aplicación moderna es cambiante, porque en realidad
+ya no ofrecemos soluciones empaquetadas, que es lo que implica de cierta
+manera lo que sugiere la palabra aplicación. Hoy en día estamos de lleno
+en la era de los servicios, de información, de procesamiento, de
+descubrimiento, etc. Los equipos están en permanente movimiento
+sosteniendo los servicios. La apliestructura está al servicio de la
+infraestructura que es la que define los procesos y los requerimientos
+de información.</p>
+<p>Así que no debe considerarse que una arquitectura de software, o mejor,
+una arquitectura de software como servicio, es algo estático. Esos
+tiempos ya pasaron, el cambio permanente de la arquitectura es lo que
+debemos considerar. Lo que tenemos que diseñar son arquitecturas
+dinámicas, o mejor aún patrones, o reglas, que permitan evolucionar de
+forma compleja, respondiendo a los cambios del entorno de negocios del
+servicio. Algo sobre lo que hablaremos más adelante.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>918 words</span>
+    <span>5 - 6 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2013/07/30/roles-y-funciones/hoff-roles.png">hoff-roles.png</a></li><li><a href="http://localhost:1313/blog/lnds/2013/07/30/roles-y-funciones/lunch.png">lunch.png</a></li><li><a href="http://localhost:1313/blog/lnds/2013/07/30/roles-y-funciones/modelo_de_hoff.png">modelo_de_hoff.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2013/06/09/estructura/">Estructura</a></li><li><a href="/blog/lnds/2013/06/08/utilidad-belleza-y-firmeza/">Utilidad, Belleza y Firmeza</a></li><li><a href="/blog/lnds/2013/05/12/forma-y-funcion/">Forma y Función</a></li><li><a href="/blog/lnds/2013/04/28/definir-el-problema/">Definir El Problema</a></li><li><a href="/blog/lnds/2013/02/15/el-camino-de-la-innovacion/">El camino de la innovación</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

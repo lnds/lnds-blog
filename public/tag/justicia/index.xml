@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justicia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/justicia/</link>
+    <description>Recent content in Justicia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 20 Jun 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/justicia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo legítimo</title>
+      <link>http://localhost:1313/blog/lnds/2011/06/20/lo-legitimo/</link>
+      <pubDate>Mon, 20 Jun 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/06/20/lo-legitimo/</guid>
+      <description>&lt;p&gt;¿Qué es legítimo? ¿Qué es lo correcto? ¿Lo moralmente aceptable? ¿Cuál&#xA;es el comportamiento que cómo sociedad toleraremos?&lt;/p&gt;&#xA;&lt;p&gt;Por cierto, a nadie se le ocurriría insinuar que si una mujer es violada&#xA;debe casarse con el hombre que abusó de ella, eso nos parecería&#xA;repugnante, y sin embargo hay sociedades que han establecido que:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Cuando algún hombre halle a una joven virgen que no ha sido&#xA;desposada, y la tome y tenga relaciones sexuales con ella, y fueran&#xA;descubiertos, entonces el hombre que cometa este acto  dará al padre&#xA;de la joven una suma de dinero, y ella será su mujer.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

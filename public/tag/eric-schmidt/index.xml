@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Schmidt on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/eric-schmidt/</link>
+    <description>Recent content in Eric Schmidt on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 06 Dec 2005 14:33:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/eric-schmidt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La reglas de oro de la administración en Google</title>
+      <link>http://localhost:1313/blog/lnds/2005/12/06/la-reglas-de-oro-de-la-administracion-en-google/</link>
+      <pubDate>Tue, 06 Dec 2005 14:33:46 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/12/06/la-reglas-de-oro-de-la-administracion-en-google/</guid>
+      <description>&lt;p&gt;En un &lt;a href=&#34;http://www.msnbc.msn.com/id/10296177/site/newsweek/&#34;&gt;reciente artículo en Newsweek&lt;/a&gt; Eric Schmidt,CEO de Google escribe sobre las directrices usadas por esta compañia para su administración. Fuertemente inspirados por las ideas de Peter Drucker, la principal preocupación de Google está en sus Knowledge workers.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;En Google pensamos que el gurú de los negocios Peter Drucker entendió bien cómo administrar la nueva generación de &amp;ldquo;Trabajadores del Conocimiento&amp;rdquo;. Después de todo, Drucker inventó este término en 1959. El decía que los trabajadores del conocimiento creen que se les paga por ser efectivos, no por trabajar de 9 a 5, y que los negocios más inteligente deberán alejar todo aquello que entorpezca el camino de sus trabajadores. Aquellos que tengan éxito en atraer a los mejores aseguran el &amp;ldquo;factor más grande de ventaja competitiva por los próximos 25 años.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

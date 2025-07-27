@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Fin de la Agilidad (VIII) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2019/04/21/el-fin-de-la-agilidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El Fin de la Agilidad (VIII)">
+  <meta property="og:description" content="Parte 8: Heavy Metal (Para escuchar la banda sonora de este post haz click aquí)
+Thunder, thunder, thunder, thunder
+I was caught
+In the middle of a railroad track
+— AC/DC
+Recuerdo que una vez mi mujer, me pidió que hablara con nuestro hijo acerca de la música que estaba escuchando. Al parecer ella había visto a Matías viendo un video de Slipknot, y bueno, no creo que haya tenido imágenes agradables y debe haber quedado algo">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-04-21T08:25:11-03:00">
+    <meta property="article:modified_time" content="2019-04-21T08:25:11-03:00">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="Familia">
+    <meta property="article:tag" content="Redes">
+    <meta property="article:tag" content="Estimación">
+    <meta property="article:tag" content="Ingeniería De Software">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2019/04/21/el-fin-de-la-agilidad/featured.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2019/04/21/el-fin-de-la-agilidad/featured.jpg">
+  <meta name="twitter:title" content="El Fin de la Agilidad (VIII)">
+  <meta name="twitter:description" content="Parte 8: Heavy Metal (Para escuchar la banda sonora de este post haz click aquí)
+Thunder, thunder, thunder, thunder
+I was caught
+In the middle of a railroad track
+— AC/DC
+Recuerdo que una vez mi mujer, me pidió que hablara con nuestro hijo acerca de la música que estaba escuchando. Al parecer ella había visto a Matías viendo un video de Slipknot, y bueno, no creo que haya tenido imágenes agradables y debe haber quedado algo">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El Fin de la Agilidad (VIII)</h1><time class="dim" datetime="2019-04-21T08:25:11-03:00">April 21, 2019</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/familia/">#familia</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/redes/">#redes</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/estimaci%C3%B3n/">#estimación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/ingenier%C3%ADa-de-software/">#ingeniería de software</a>
+      </div></ol></div>
+  <section class="page-section"><h2 id="parte-8-heavy-metal">Parte 8: Heavy Metal</h2>
+<p>(Para escuchar la banda sonora de este post <a href="https://open.spotify.com/user/ediazlnds/playlist/5FN9MuRoTJNhUjaWaDM7z8?si=fNYA6s7ZS7y0Oc3HSVB55g">haz click
+aquí</a>)</p>
+<blockquote>
+<p>Thunder, thunder, thunder, thunder<br>
+I was caught<br>
+In the middle of a railroad track<br>
+&mdash; AC/DC</p></blockquote>
+<p>Recuerdo que una vez mi mujer, me pidió que hablara con nuestro hijo
+acerca de la música que estaba escuchando. Al parecer ella había visto a
+Matías viendo un video de <a href="https://slipknot1.com/">Slipknot</a>, y bueno,
+no creo que haya tenido imágenes agradables y debe haber quedado algo</p>
+<p>Como soy un convencido de la relevancia de la tercera ley de
+Newton[1] en la crianza de los hijos,  compartí tiempo con Matías
+conociendo sus gustos musicales y conversando sobre diversas bandas de
+metal. Escuchamos algunos temas clásicos de Iron Maiden, Black Sabbath,
+pasamos por el funk metal, Smashing Pumpkins, Metallica, por supuesto, y
+revisamos algunas bandas contemporáneas, que le gustaban a él, como
+Körn, System of a Down, y por supuesto Slipknot. La verdad es que es muy
+difícil no admirar la técnica de Joey Jordison, pero no podía decirle
+eso a mi esposa ;-)</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/1653e4ea-6487-11e9-8e69-21c4c306beae-aa9f18b7" alt="Slipknot"></p>
+<p>Creo que escuchar música <a href="https://es.wikipedia.org/wiki/Nu_metal">aggro</a>
+no necesariamente es algo malo. Los adolescentes tienen luchas internas,
+y sufren problemas, en su escuela tienen conflictos con otros chicos de
+su edad,  peleas, bullying, incluso incomprensión de sus padres, y 
+canalizan su ira de cierta forma en la música que escuchan. Creo que más
+que criticar su ropa, sus gustos musicales, debemos acompañarlos y
+escucharlos más. Algo que nos cuesta aprender, por supuesto. Olvidamos
+que pasamos por esa misma etapa en nuestro camino a la madurez. Pero no
+se trata de esto este post, así que retomemos la historia donde la
+dejamos.</p>
+<h2 id="redes">Redes</h2>
+<blockquote>
+<p>We fought him hard we fought him well<br>
+Out on the plains we gave him hell<br>
+&ndash; Iron Maiden</p></blockquote>
+<p>En agosto de 2007 estaba sin trabajo. Desde el primer momento empecé la
+búsqueda de trabajo. Envié emails a todos mis conocidos. Tenía desde
+años una relación comercial con Don Enrique Rodriguez, mi primer mentor.
+Lo conocí cuando yo estudiaba ingeniería, fue el primer trabajo que
+tuve. En esos años desarrollé una serie de sistemas de ventas para su
+ferretería localizada en Buin. Pasé varios veranos trabajando con él
+perfeccionando el sistema y dándole mantención. Fue un ingreso
+permanente por varios años, incluso cuando desarrollaba mi carrera
+profesional. Posteriormente él fue adquiriendo diversos locales y
+utilizó el mismo software. Llegó a ser presidente de
+<a href="https://www.chilemat.cl/chilemat/inicio.aspx">ChileMat</a>, una red de
+ferreteros a nivel nacional, y entre las iniciativas que impulsó fue la
+actualización tecnológica de las ferreterías de la nueva cadena. Se armó
+un equipo de programadores que empezaron a desarrollar software para la
+cadena y para los locales, basados en los sistemas que yo había escrito
+a fines de los ochenta. Yo los asesoré en esto por varios años, capacité
+a los programadores, lo ayudé en el diseño y arquitectura. Varios
+sábados viajaba a Buin a trabajar con Enrique en estos proyectos. Fue en
+uno de esos viajes que <a href="/blog/lnds/2019/04/14/el-fin-de-la-agilidad">tuve el accidente que les comenté en la parte siete</a>.</p>
+<p>Después de renunciar a BioKey hablé con Enrique y le pedí su apoyo.
+Junto a esto empecé a explorar diversas ideas. Una fue la de formar mi
+propia empresa y dedicarme por completo a desarrollar software,
+confiando en que Enrique podría ser mi principal cliente. También
+conversé con otros amigos, tuve varias entrevistas y un par de ofertas.</p>
+<p>Algo que siempre recomiendo a los jóvenes profesionales es que trabajen
+en armar sus redes. Compartir con otros profesionales es esencial, y en
+momentos de crisis es cuando más se nota. Como dice Enrique, <em>&ldquo;más vale
+tener amigos que plata&rdquo;</em>, y tiene toda la razón.</p>
+<p>Estuve sin trabajo exactamente veinte días. Finalmente conversé con
+Ubaldo, quizás lo recuerden porque
+<a href="/blog/lnds/2019/03/18/el-fin-de-la-agilidad">en la segunda parte de esta serie hablé de nuestro viaje a Borland</a>.</p>
+<p>A él y su socio, les interesaba mi experiencia en biometría, puesto que
+se venían algunas licitaciones importantes donde estos conocimientos
+serían valiosos. También me apoyó contactándome con un abogado, que me
+ayudó a negociar los términos de mi salida de BioKey y me dio consejos
+legales al respecto. Otra cosa que me dijo Ubaldo es que quería
+incorporar más canas a su equipo. Así que decidí aceptar su oferta.</p>
+<h2 id="heavy-metal-poisoning">Heavy Metal Poisoning</h2>
+<blockquote>
+<p>That heavy metal (heavy metal) is poisoning<br>
+It's a music wasteland, that destroys the young (yeah!) <br>
+&ndash; Styx</p></blockquote>
+<p>Algunos han definido el heavy metal como una de las mayores sub especies
+del Hard rock, con menos síncopa, menos blues, más &ldquo;showmanship&rdquo; y por
+supuesto más fuerza bruta[2]. Algunos dicen que los antecedentes del
+género se encuentran en la música de la triada sagrada: Led Zepellin,
+Black Sabbath y Deep Purple. Pero quizás su cúspide, de lo que
+llamaremos heavy metal clásico, está en la mitad final de los setenta y
+principios de los ochentas, con bandas como Judas Priest, Motohead, Iron
+Maiden, Deff Leppard, Van Halen y AC/DC.</p>
+<p>El heavy metal dio origen a una cantidad enorme de sub ramas, como el
+Death Metal, el Trash Metal, el Black Metal, el Power Metal, el Glamm
+Metal, el Aggro Metal (en donde algunos colocan a Slipknot), etc.</p>
+<p>Ubaldo es un gran fan del metal, y de sus géneros más alternativos, y
+hasta el día de hoy mantenemos &ldquo;amistosas&rdquo; discusiones sobre el valor de
+la música que él escucha, y aunque no he podido convencerlo que mejore
+sus gustos musicales, hay cierta intersección en nuestros gustos,
+principalmente en el heavy metal más clásico.</p>
+<h2 id="un-año-intenso">Un año intenso</h2>
+<blockquote>
+<p>Run to the hill<br>
+Run for your lives<br>
+&mdash; Iron Maiden</p></blockquote>
+<p>Entré a trabajar a EXE en septiembre de 2007, estuve un año en esa
+empresa y la verdad es que fue bien intenso. En ese tiempo actuaba de
+gerente de operaciones Eric, un amigo de años, que aportaba más canas
+que yo :D. En esos meses compartimos junto varios almuerzos charlando de
+meta matemáticas, filosofía y ciencia ficción. Tengo un gran aprecio por
+él, un docente por sobre todas las cosas, pero un gran amigo y mejor
+consejero.</p>
+<p>Hice algunas cosas nuevas trabajando allá, participé por primera vez
+en una certificación ISO. También en una auditoría informática a una
+gran empresa concesionaria, un trabajo en donde aprendí de tecnologías
+que no me imaginaba, y en especial sobre como organizar una auditoría,
+algo que me sería muy útil años después. Ayudé a organizar el equipo que
+estaba a cargo del desarrollo de un producto propio de la empresa.
+Aporté con algunas lineas de código en el desarrollo de ese producto. Y
+también participé en varios otros proyectos. También fui parte de un
+equipo que se armó entre varias empresas para participar de una gran
+licitación a nivel nacional. Como podrán ver, fue un año bien movido.</p>
+<p>En las empresas que desarrollan proyectos de software que siempre hay
+mucho qué hacer. El problema, en mi opinión, es la fuerte competencia y
+la realidad incómoda que el cliente no siempre tiene bien claro lo que
+quiere y cuenta con un presupuesto que suele no estar alineado con su
+verdadera necesidad.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/abe218d8-6485-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<h2 id="el-problema-de-estimar">El problema de estimar</h2>
+<p>Estimar cuánto costará construir, en tiempo y esfuerzo, es un arte. Y es
+la principal razón del éxito o fracaso de las empresas que desarrollan
+software.</p>
+<p>Hay estudios en el campo de la ingeniería de software que dicen que al
+principio del ciclo de vida de un proyecto, antes de la recolección de
+requisitos, se estima con un nivel de incertidumbre de factor cuatro.
+Esto quiere decir, que una vez ejecutado el proyecto, el esfuerzo actual
+o alcance real del proyecto puede ser hasta 4 veces o 1/4 de la primera
+estimación.</p>
+<p>Esto es lo que llamamos incertidumbre de estimación. En general esta
+incertidumbre va disminuyendo a través del curso y ejecución del
+proyecto, aunque este hecho no está garantizado.</p>
+<p>Esto se refleja en este diagrama:</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/e63f32b9-6485-11e9-8e69-21c4c306beae-aa9f18b7"
+    alt="El Cono de la Incertidumbre"><figcaption>
+      <p>El Cono de la Incertidumbre</p>
+    </figcaption>
+</figure>
+
+<p>Esto es lo que se conoce como el cono de la incertidumbre.</p>
+<p>El eje vertical refleja el grado de sobre estimación o sub estimación
+del alcance el proyecto. El eje horizontal muestra las etapas del
+proyecto. Podrán ver que un diseño detallado de las especificaciones es
+la única manera de reducir la incerteza. Pero el gran problema es que
+pocas veces nos dan tiempo para hacer ese diseño detallado. Debemos
+estimar en base a la intuición o juicio experto. Pero en el lado
+izquierdo del diagrama vemos que ocurren tres fenómenos:</p>
+<h3 id="uno-los-ejecutivos-sub-estiman-el-tiempo-y-esfuerzo-de-un-proyecto">Uno: Los ejecutivos sub estiman el tiempo y esfuerzo de un proyecto.</h3>
+<p>Esto se conoce como el exprimidor de Parkinson, en relación a la llamada
+<a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Ley de Parkinson</a>, que
+dice que el &ldquo;trabajo se expande para ocupar todo el tiempo disponible
+para su completitud&rdquo;. Entonces, los ejecutivos aplican el opuesto, o
+<em>Exprimidor de Parkinson</em>, tratan de reducir el tiempo para aumentar la
+productividad de sus equipos o de los proveedores.</p>
+<p>La Ley de Parkinson se da por nuestra naturaleza humana. Si te dan todo
+el tiempo del mundo para realizar un trabajo, entonces tenderás a
+relajarte un poco, dado que no hay urgencia. También puede ocurrir que
+empieces a agrandar la tarea, más de lo que necesita ser, buscando
+incrementar la complejidad con el fin de llenar todo el tiempo
+disponible.</p>
+<p>Por otro lado, si te dan menos tiempo para realizar la tarea tu
+aproximación será con un mayor sentido de urgencia. Reducirás el trabajo
+a lo esencial y concentrarás toda tu energía para lograr sacar el
+trabajo dentro del plazo que te han dado. Eso es el exprimidor de
+Parkinson, y los ejecutivos tenderán a ocuparlo.</p>
+<h3 id="dos-los-ingenieros-también-subestiman">Dos: Los ingenieros también subestiman.</h3>
+<p>Los que ejecutan la tarea también subestiman su esfuerzo. Pero a
+diferencia de los ejecutivos, que tienen una motivación clara, lo que
+ocurre con los ingenieros es el exceso de confianza. En este caso
+estamos ante la presencia de la <a href="https://en.wikipedia.org/wiki/Hofstadter%27s_law">Ley de Hoftstadter</a>, la que
+dice que <em>&ldquo;siempre tomará más tiempo del que esperas, aún cuando tomes
+en cuenta la Ley de Hoftstadter&rdquo;</em>.</p>
+<p>Hay un fenómeno relacionado, que se conoce como la
+<a href="https://en.wikipedia.org/wiki/Planning_fallacy">Falacia de la Planificación</a>. Un
+fenómeno observado por Kahneman y Tversky en 1979. Lo que actúa en este
+caso es lo que se conoce como sesgo de optimismo, el que nos hace creer
+que es poco probable que experimentemos un evento negativo. Ocurre que
+los ingenieros tienden a desestimar, o ignorar otros fenómenos externos
+al proyecto, los que pueden poner en peligro la ejecución del mismo.
+Desde la posibilidad de enfermarse, hasta el hecho de estar usando una
+biblioteca de software que no es compatible con el ambiente productivo
+del cliente. El &ldquo;overhead&rdquo;, suele ser ignorado por los ingenieros.</p>
+<h3 id="tres-los-directores-de-proyectos-estiman-mejor">Tres: los directores de proyectos estiman mejor</h3>
+<p>Esto depende de la experiencia de los directores de proyectos, por
+supuesto. Con el tiempo, los jefes de proyecto saben y conocen una gran
+variedad de impedimentos que surgen en los proyectos. Un buen gestor  es
+aquel que está muy consciente de los riesgos del proyecto. Finalmente,
+gestionar un proyecto es gestionar los riesgos del mismo. Esto, sumado a
+un registro histórico y estadístico puede llevar a mejores estimaciones.</p>
+<p>La clave, en mi opinión, es que debes contar con buenos jefes de
+proyectos en tu equipo, esos que sepan cuestionar las estimaciones tanto
+de los ejecutivos como de los desarrolladores.</p>
+<p>Muchas empresas de desarrollo de software en Chile, según mi
+experiencia, se concentran en contratar buenos programadores, pero
+descuidan la selección de los jefes de proyectos. Además creo que hay
+una muy mala formación de gestores de proyecto. En mi opinión, muchos
+son sólo tomadores de pedidos, y no se encargan de lo realmente
+importante, que es lograr que las cosas pasen. No anticipan riesgos, no
+motivan a los equipos, no informan ni escalan los problemas, tampoco
+transmiten sentido de urgencia. Hay algunos que sólo se dedican a
+complacer a ejecutivos, clientes y desarrolladores, no quieren quedar
+mal con nadie. No se exigen, ni exigen. Además cuentan con malas
+habilidades negociadoras. Terminan aceptando cosas sin consultar con sus
+equipos, y un largo etcétera, en el que no quiero ahondar porque sino me
+va a dar rabia.</p>
+<p>Así que acá un consejo a mis amigos que tienen empresas de desarrollo de
+software, por favor, elijan buenos jefes de proyecto. Formen buenos
+jefes de proyectos, contraten a los mejores jefes de proyecto. Sean
+conscientes de que serán víctimas de la Ley de Parkinson, de la
+Hoftstatder, o caerán en la falacia de la estimación. El mejor antídoto
+que he visto para eso es contar con buenos gestores de proyectos.</p>
+<h2 id="encuentros-inesperados">Encuentros inesperados</h2>
+<blockquote>
+<p>I think of all the education that I missed<br>
+But then my homework was never quite like this <br>
+&ndash; Van Halen</p></blockquote>
+<p>Aquel año laboral fue muy intenso, como ya les dije. Hice casi de todo,
+incluso actuar como agente comercial. Fue en una visita a un potencial
+cliente, una empresa que tenía sus oficinas en el edificio de la Cámara
+Chilena de la Construcción, que me encontré con Jorge Rojas, mi ex jefe
+de la CCS. El trabajaba en Habitat en ese tiempo. Conversamos un rato,
+le conté en dónde estaba y él me contó de los desafíos de su nuevo
+trabajo.</p>
+<p>A la semana siguiente tenía que volver al mismo edificio, esta vez para
+realizar una demostración a ese cliente, una empresa que yo apenas
+conocía, cuyo nombre era Previred. En el ascensor me encontré con
+Esteban, otro ex colega de la CCS, me saludó y me dijo que justo quería
+hablar conmigo, me entregó su tarjeta y me dijo que lo llamara. Pero esa
+historia la contaré en la siguiente parte.</p>
+<p>El hecho es que esos encuentros abrieron la posibilidad para ingresar a
+mi actual trabajo, del que hablaré en los últimos capítulos de esta
+serie. En septiembre de 2008 me preparaba para empezar de nuevo. Hablé
+con Ubaldo, y nos despedimos en buenos términos, le agradecí su apoyo y
+oportunidad, él también me agradeció mi trabajo en conjunto y me deseo
+mucho éxito. Volvería a vestir traje y corbata, pero el futuro se veía
+desafiante, y realmente lo fue...</p>
+<h3 id="notas">Notas</h3>
+<p>[1] Toda acción genera una reacción de igual intensidad en el sentido
+contrario. </p>
+<p>[2] Según este artículo de New York
+Times  <a href="https://www.nytimes.com/1988/07/10/magazine/heavy-metal-weighty-words.html?pagewanted=all">https://www.nytimes.com/1988/07/10/magazine/heavy-metal-weighty-words.html?pagewanted=all</a></p>
+<p>La primera parte de esta serie se encuentra
+acá: <a href="/blog/lnds/2019/03/17/el-fin-de-la-agilidad">https://www.lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad</a></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2355 words</span>
+    <span>13 - 17 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/el-fin-de-la-agilidad">el fin de la agilidad</a></span></small>
+      </div></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#parte-8-heavy-metal">Parte 8: Heavy Metal</a></li>
+    <li><a href="#redes">Redes</a></li>
+    <li><a href="#heavy-metal-poisoning">Heavy Metal Poisoning</a></li>
+    <li><a href="#un-año-intenso">Un año intenso</a></li>
+    <li><a href="#el-problema-de-estimar">El problema de estimar</a>
+      <ul>
+        <li><a href="#uno-los-ejecutivos-sub-estiman-el-tiempo-y-esfuerzo-de-un-proyecto">Uno: Los ejecutivos sub estiman el tiempo y esfuerzo de un proyecto.</a></li>
+        <li><a href="#dos-los-ingenieros-también-subestiman">Dos: Los ingenieros también subestiman.</a></li>
+        <li><a href="#tres-los-directores-de-proyectos-estiman-mejor">Tres: los directores de proyectos estiman mejor</a></li>
+      </ul>
+    </li>
+    <li><a href="#encuentros-inesperados">Encuentros inesperados</a>
+      <ul>
+        <li><a href="#notas">Notas</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2019/04/21/el-fin-de-la-agilidad/featured.jpg">featured.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2019/03/23/el-fin-de-la-agilidad/">El Fin de la Agilidad (IV)</a></li><li><a href="/blog/lnds/2019/03/31/el-fin-de-la-agilidad/">El Fin de la Agilidad (V)</a></li><li><a href="/blog/lnds/2019/03/19/el-fin-de-la-agilidad/">El Fin de la Agilidad (III)</a></li><li><a href="/blog/lnds/2011/11/12/comprension-de-lectura/">Comprensión de Lectura</a></li><li><a href="/blog/lnds/2019/04/14/el-fin-de-la-agilidad/">El Fin de la Agilidad (VII)</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

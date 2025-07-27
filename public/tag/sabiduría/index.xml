@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sabiduría on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/sabidur%C3%ADa/</link>
+    <description>Recent content in Sabiduría on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 22 Aug 2010 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/sabidur%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuándo estás seguro que sabes</title>
+      <link>http://localhost:1313/blog/lnds/2010/08/22/cuando-est%C3%A1s-seguro-que-sabes/</link>
+      <pubDate>Sun, 22 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/08/22/cuando-est%C3%A1s-seguro-que-sabes/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tu piensas que sabes cuando aprendes, y estás más seguro cuando&#xA;puedes escribir, aún más cuando enseñas, pero estás cierto cuando&#xA;puedes programar.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Alan Perlis, &lt;a href=&#34;http://localhost:1313/blog/2008/02/epigramas-de-la-programacion.html&#34;&gt;epigrama 116&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

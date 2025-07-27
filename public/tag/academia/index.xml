@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/academia/</link>
+    <description>Recent content in Academia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 01 Aug 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/academia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Academia</title>
+      <link>http://localhost:1313/blog/lnds/2009/08/01/la-academia/</link>
+      <pubDate>Sat, 01 Aug 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/08/01/la-academia/</guid>
+      <description>&lt;p&gt;En  la tercera parte de &lt;a href=&#34;http://es.wikisource.org/wiki/Los_viajes_de_Gulliver&#34;&gt;los Viajes de&#xA;Gulliver&lt;/a&gt;&#xA;&amp;ldquo;&lt;em&gt;Un viaje a Laputa, Balnibarbi, Luggnagg, Glubbdubdrib y el Japón&lt;/em&gt;.&amp;rdquo;,&#xA;Johnatan Swift describe la extraordinaria isla flotante de Laputa y el&#xA;continente de Balnibarbi, que se encuentra sometido a su dominio.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gulliver-travels.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En la isla flotante vivía la clase gobernante, nobles que pasaban&#xA;abstraidos en especulaciones matemáticas o musicales. Aburrido, y&#xA;despreciado por los habitantes de Laputa, Gulliver decide bajar a&#xA;conocer el continente de Balnibarbi, y su metrópolis, Lagado, guiado por&#xA;el señor Munodi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

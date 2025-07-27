@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Arquitectura y Orquestación | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2017/12/10/arquitectura-y-orquestacion/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Arquitectura y Orquestación">
+  <meta property="og:description" content="En su extraordinario, y muy entretenido libro, “How Music Works”1, David Byrne, se pregunta en uno de sus capítulo, sobre el rol de la arquitectura en la forma que adquiere la música. O puesto de otra manera, en qué grado la arquitectura del lugar, donde se interpreta la música, influye en la estructura de la misma.
+El escenario de CBGB, el club donde empezó su carrera Talking Heads">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-12-10T08:25:11-03:00">
+    <meta property="article:modified_time" content="2017-12-10T08:25:11-03:00">
+    <meta property="article:tag" content="Arquitectura">
+    <meta property="article:tag" content="Música">
+    <meta property="article:tag" content="Orquestación">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Arquitectura y Orquestación">
+  <meta name="twitter:description" content="En su extraordinario, y muy entretenido libro, “How Music Works”1, David Byrne, se pregunta en uno de sus capítulo, sobre el rol de la arquitectura en la forma que adquiere la música. O puesto de otra manera, en qué grado la arquitectura del lugar, donde se interpreta la música, influye en la estructura de la misma.
+El escenario de CBGB, el club donde empezó su carrera Talking Heads">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Arquitectura y Orquestación</h1><time class="dim" datetime="2017-12-10T08:25:11-03:00">December 10, 2017</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/arquitectura/">#arquitectura</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/m%C3%BAsica/">#música</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/orquestaci%C3%B3n/">#orquestación</a>
+      </div></ol></div>
+  <section class="page-section"><p>En su extraordinario, y muy entretenido libro, &ldquo;How Music Works&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,
+David Byrne, se pregunta en uno de sus capítulo, sobre el rol de la
+arquitectura en la forma que adquiere la música. O puesto de otra
+manera, en qué grado la arquitectura del lugar, donde se interpreta la
+música, influye en la estructura de la misma.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/dae07887-de0b-11e7-a030-2b5831f8ecb5-aa9f18b7"
+    alt="El escenario de CBGB, el club donde empezó su carrera Talking Heads"><figcaption>
+      <p>El escenario de CBGB, el club donde empezó su carrera Talking Heads</p>
+    </figcaption>
+</figure>
+
+<p>Lo que escribe en aquel capítulo lo expuso en una charla TED:
+<a href="https://www.ted.com/talks/david_byrne_how_architecture_helped_music_evolve#t-934161">https://www.ted.com/talks/david_byrne_how_architecture_helped_music_evolve#t-934161</a></p>
+<p>Este es el video de la misma:</p>
+<div style="max-width:854px">
+    <div style="position:relative;height:0;padding-bottom:56.25%">
+        <iframe src="https://embed.ted.com/talks/david_byrne_how_architecture_helped_music_evolve" 
+        width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" 
+        frameborder="0" scrolling="no" allowfullscreen>
+        </iframe>
+    </div>
+</div>
+<p>Todo esto es muy interesante, puesto que en el último tiempo he estado
+trabajando en una arquitectura de apoyo para orquestar un proceso.</p>
+<p>Fue entonces que recordé esta reflexión de Byrne. No es lo mismo
+escribir canciones punk para CBGB, que componer un aria que se escuchará
+en la Scala de Milán, o un coral como El Mesías de Handël que será
+escuchado en una gran catedral.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/14d5fa28-de10-11e7-a030-2b5831f8ecb5-aa9f18b7"
+    alt="La arquitectura de la Scala de Milán es adecuada para una ópera, la reverberancia propia del edificio permite proyectar adecuadamente la voz."><figcaption>
+      <p>La arquitectura de la Scala de Milán es adecuada para una ópera, la reverberancia propia del edificio permite proyectar adecuadamente la voz.</p>
+    </figcaption>
+</figure>
+
+<p>Lo mismo pasa con las arquitecturas de software, deben estar en función
+del proceso o servicio que se orquestará sobre estas.</p>
+<p>Pero ocurre que muchos arquitectos de software que son perezosos,
+replican, o repiten, las mismas arquitecturas, que les funcionaron en un
+momento, en distintos contextos, para todas sus soluciones. Lo que
+produce esto son sistemas con serios problemas de mantención o
+desempeño.</p>
+<p>Cómo aún no puedo hablarles de la arquitectura en la que estoy
+trabajando, les voy a dar un ejemplo, ya clásico a estas alturas:
+Twitter.</p>
+<p>Twitter fue construido como una aplicación Ruby on Rails estándar. La
+arquitectura era esta<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/3d900b39-de11-11e7-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Esta es la estructura más común en la web, casi todos los frameworks
+comunes implementan esta arquitectura de tres o más capas.</p>
+<p>El hecho que esta arquitectura haya funcionado tan bien en el pasado, no
+es garantía de que siga funcionando hoy en día. El problema es que no
+escala muy bien. Es como si fueramos una banda punk tocando en CBGB y
+ante el gran éxito nos piden tocar repentinamente en un gran estadio,
+¿qué es lo que haremos?</p>
+<p>En el caso de Twitter, la popularidad en 2008 los llevó a esto:</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/dfc72f4b-de12-11e7-a030-2b5831f8ecb5-aa9f18b7"
+    alt="La famosa Fail Whale, una forma simpática de pedir perdón por las fallas de la infraestructura."><figcaption>
+      <p>La famosa Fail Whale, una forma simpática de pedir perdón por las fallas de la infraestructura.</p>
+    </figcaption>
+</figure>
+
+<p>Al menos Twitter usó el humor para contener el problema. Pero, ¿qué
+pasaría con nuestra pequeña banda punk si nos piden ir a tocar a un gran
+estadio? La solución es obvia, pongamos más amplificadores y quizás
+agreguemos algo de teclado. Eso es lo que hizo Twitter en 2008:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/60bc7d8c-de13-11e7-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>¡Poner más amplificadores! Eso nos sacará del paso, pero no sonará
+adecuadamente, porque la música fue escrita para un ambiente ruidoso,
+cerrado y pequeño, pero quizás esos sintetizadores ayuden, ¿verdad?</p>
+<p>Twitter hizo lo que el 99% de los arquitectos novatos hacen, escalar
+horizontalmente. El problema es que en 2008, al hacer estos cambios, los
+desarrolladores de Twitter no visualizaron esto:</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/aa43947d-de13-11e7-a030-2b5831f8ecb5-aa9f18b7"
+    alt="El crecimiento de Twitter"><figcaption>
+      <p>El crecimiento de Twitter</p>
+    </figcaption>
+</figure>
+
+<p>Lo correcto en este caso es reconocer el nuevo entorno. Hay bandas, como
+U2 o Cold Play, que saben escribir música muy adecuada para los
+estadios. En estos escenarios se trata más de una experiencia social,
+más que musical, lo adecuado es una música más wagneriana, por eso que
+el rock funciona bien en estadios, no así el funk, o el rythm and blues.
+Lo adecuado para los estadios son himnos, que todos corean, baladas a
+media velocidad, como las describe Byrne.</p>
+<p>Entonces, ¿cómo debemos orquestar nuestras arquitecturas en un escenario
+como el que enfrentaba Twitter?</p>
+<p>Veamos algunos números:</p>
+<blockquote>
+<p>Con 150 millones de usuarios activos, se recibían 400 millones de
+tweets al día, eso es 4.600 tweets por segundo, con un máximo de
+150.000 tweets por segundo aproximadamente. Al mismo tiempo se
+recibiían 300 mill consultas del timeline de usuario por segundo y
+unas 6 mil consultas de búsquedas personalizadas.</p></blockquote>
+<p>Con estos datos, ¿qué es lo que debemos optimizar primero?</p>
+<p>Claramente, el equivalente al nuevo tipo de baladas que debemos
+componer, en el caso de Twitter es cómo manejar la construcción de los
+timelines. Y la arquitectura de Twitter se ajustó a esta realidad.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/55ef91ae-de16-11e7-a030-2b5831f8ecb5-aa9f18b7"
+    alt="La arquitectura de Twitter para gestionar los timelines"><figcaption>
+      <p>La arquitectura de Twitter para gestionar los timelines</p>
+    </figcaption>
+</figure>
+
+<p>Entonces, al revés de lo que identificó David Byrne con la música,
+pareciera que en el software la arquitectura es la que está al servicio
+de la orquestación.</p>
+<p>Al menos así lo veo yo. Hay que ver qué es lo que necesitamos orquestar,
+una vez definida nuestra orquestación, debemos construir una
+arquitectura que la apoye, y no al revés. ¿Qué opinan ustedes?</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>David Byrne, <a href="http://amzn.to/2BsQNvo">&ldquo;How Music Works&rdquo;</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Chris Aniszczyk, &ldquo;Evolution of the Twitter Stack&rdquo;,
+<a href="https://www.slideshare.net/caniszczyk/twitter-opensourcestacklinuxcon2013">https://www.slideshare.net/caniszczyk/twitter-opensourcestacklinuxcon2013</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>778 words</span>
+    <span>5 - 6 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2013/07/30/roles-y-funciones/">Roles y Funciones</a></li><li><a href="/blog/lnds/2013/06/09/estructura/">Estructura</a></li><li><a href="/blog/lnds/2013/06/08/utilidad-belleza-y-firmeza/">Utilidad, Belleza y Firmeza</a></li><li><a href="/blog/lnds/2013/05/12/forma-y-funcion/">Forma y Función</a></li><li><a href="/blog/lnds/2013/04/28/definir-el-problema/">Definir El Problema</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

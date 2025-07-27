@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logística on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/log%C3%ADstica/</link>
+    <description>Recent content in Logística on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 04 Aug 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/log%C3%ADstica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medir y Reaccionar</title>
+      <link>http://localhost:1313/blog/lnds/2011/08/04/medir-y-reaccionar/</link>
+      <pubDate>Thu, 04 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/08/04/medir-y-reaccionar/</guid>
+      <description>&lt;p&gt;Medir y reaccionar, básicamente esa es la estrategia de la famosa cadena&#xA;de tiendas de moda Zara. Más que tratar de predecir lo que la gente&#xA;vestirá la próxima semana, en Zara simplemente aceptan que no tienen&#xA;idea. La estrategia es observar en distintas ciudades que es lo que la&#xA;gente está vistiendo y a partir de eso generar una serie de ideas que&#xA;podría funcionar. Preparan algunas muestras de ropa se envían a las&#xA;tiendas y se observa qué se vende y qué no, los que no se venden se&#xA;desechan, se mantiene poco inventario, y los productos exitosos se&#xA;empiezan a producir en masa y se distribuyen rápidamente a toda la&#xA;cadena (gracias a una espectacular&#xA;&lt;a href=&#34;http://hbswk.hbs.edu/archive/4652.html&#34;&gt;logística&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

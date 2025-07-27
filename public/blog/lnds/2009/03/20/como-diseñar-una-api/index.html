@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cómo diseñar una API | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Cómo diseñar una API">
+  <meta property="og:description" content="OK, hemos hablado de las APIs, sobre lo que no son, pero no mucho sobre lo qué son realmente, y que importancia tienen en el desarrollo de software.
+Y para que no digan que sólo nos dedicamos a criticar, vamos a aportar con algunas ideas sobre como escribir una API.
+Antes de seguir, debo decir que para mi, las interfaces REST, o las API en el contexto de la Web 2.0, es decir, las APIcque permiten hacer Mashups, por ejemplo, no son estrictamente una API, pero esta distinción es más bien semántica.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2009-03-20T18:25:11-03:00">
+    <meta property="article:modified_time" content="2009-03-20T18:25:11-03:00">
+    <meta property="article:tag" content="Api">
+    <meta property="article:tag" content="Diseño">
+    <meta property="article:tag" content="Rest">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cómo diseñar una API">
+  <meta name="twitter:description" content="OK, hemos hablado de las APIs, sobre lo que no son, pero no mucho sobre lo qué son realmente, y que importancia tienen en el desarrollo de software.
+Y para que no digan que sólo nos dedicamos a criticar, vamos a aportar con algunas ideas sobre como escribir una API.
+Antes de seguir, debo decir que para mi, las interfaces REST, o las API en el contexto de la Web 2.0, es decir, las APIcque permiten hacer Mashups, por ejemplo, no son estrictamente una API, pero esta distinción es más bien semántica.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Cómo diseñar una API</h1><time class="dim" datetime="2009-03-20T18:25:11-03:00">March 20, 2009</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/api/">#api</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/dise%C3%B1o/">#diseño</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/rest/">#rest</a>
+      </div></ol></div>
+  <section class="page-section"><p>OK, hemos hablado de las APIs, sobre <a href="/2009/03/de-que-estamos-hablando.html">lo que no son</a>, pero no
+mucho sobre lo qué son realmente, y que importancia tienen en el
+desarrollo de software.</p>
+<p>Y para que no digan que sólo nos dedicamos a criticar, vamos a aportar
+con algunas ideas sobre como escribir una API.</p>
+<p><img src="restfullapi.jpg" alt="restfullapi.jpg"></p>
+<p>Antes de seguir, debo decir que para mi, las interfaces REST, o las API
+en el contexto de la Web 2.0, es decir, las APIcque permiten hacer
+Mashups, por ejemplo, no son estrictamente una API, pero esta distinción
+es más bien semántica.</p>
+<p>Pero, eso no importa mucho. Lo que sigue sirve para las APIs más
+tradicionales, y también para las APIs púbicas en el contexto de
+aplicaciones en la nube.</p>
+<p>La GUI es para el usuario, la API es para el programador.</p>
+<p>Tal como nos preocupamos de la interfaz de usuario, cuando diseñamos una
+aplicación, de modo que esta sea &ldquo;usable&rdquo;, del mismo modo, si queremos
+que este sistema pueda expandir su funcionalidad, por parte de terceros,
+o si queremos que estos tengan acceso a sus servicios, entonces debemos
+proveer de una Interfaz para los programadores, también.</p>
+<p>Si usted se dedica a ese esotérico arte del feng shui de la arquitectura
+de información, creo que va a entender la importancia del punto
+anterior. Una buena interfaz de usuario, es aquella que le facilita la
+interacción con el sistema al usuario. Del mismo modo, una buena API, es
+aquella que le facilita la labor al programador.</p>
+<p>Entonces cuando diseñamos una API tenemos que ponernos desde la
+perspectiva del programador. De la persona que quiere usar nuestra API
+para extender las funcionalidades de nuestra aplicación, o quiere
+aprovechar los servicios de nuestra aplicación, pero para integrarlos en
+su propia aplicación o servicio.</p>
+<p><img src="feng-shui.jpg" alt="feng-shui.jpg"></p>
+<p>¿Cuáles son los principios de diseño de una buena API?</p>
+<p>La referencia, obligada en estos tiempos, es <a href="http://lcsd05.cs.tamu.edu/slides/keynote.pdf">esta presentación de
+Joshua Bloch</a>, ingeniero de Google, quien nos presenta muy buenos principios de diseño de
+interfaces de programación.</p>
+<p>Lo que sigue es más o menos un resumen de su charla, con algo de mi
+cosecha.</p>
+<p>¿Estás seguro que quieres diseñar una API?</p>
+<p>Antes de empezar, hay que tener en cuenta que es muy importante diseñar
+bien nuestras APIs, por lo siguiente:</p>
+<ul>
+<li>Las APIs terminan siendo uno de los activos más importantes para la
+compañía.</li>
+<li>Los clientes invertirán fuertemente ya sea comprando tu API,
+escribiendo código para esta y aprendiéndo a usarla.</li>
+<li>Con el tiempo, el costo de dejar de usar una API se puede volver
+prohibitivo.</li>
+<li>Las APIs exitosas capturan clientes</li>
+<li>Una mala API resulta en una sobrecarga del área de soporte externo</li>
+<li>Las APIs públicas son para siempre, así que tienes sólo una
+oportunidad de hacerlas bien.</li>
+<li>Las APIs terminan convirtiéndose en uno de los grandes pasivos de la
+compañía.</li>
+</ul>
+<p>No es que quiera asustarlos, publicar una API es una decisión que debe
+ser bien pensada.</p>
+<p><img src="286689_vb_api_calls.jpg" alt="286689_vb_api_calls.jpg"></p>
+<p>Las características de una buena API</p>
+<p>Bloch resume muy bien las característica de una buena API:</p>
+<ul>
+<li>Debe ser fácil de aprender</li>
+<li>Debe ser fácil de usar, incluso sin documentación</li>
+<li>Debe ser dificil usarla mal</li>
+<li>El código que la use debe ser fácil de leer y mantener</li>
+<li>Debe ser suficientemente poderosa para satisfacer los requerimientos</li>
+<li>Fácil de extender</li>
+<li>Apropiada para la audiencia</li>
+</ul>
+<p>El proceso de diseñar una API</p>
+<p>¿Cómo procedemos a diseñar una API?</p>
+<p><img src="geeks2.jpg" alt="geeks2.jpg"></p>
+<p>Primero, como siempre, hay que capturar los requerimientos, siempre con
+un alto grado de excepticismo ;). Recuerda, que siempre pueden haber
+mejores soluciones. Acá es importante elaborar buenos casos de uso.</p>
+<p>Segundo, escribir una especificación, ojalá muy breve, una página es lo
+ideal. Es bueno mostrar esta especificación al máximo posible de
+personas. Mantener una especificación corta permite modificarla
+fácilmente, tras el feedback de las personas que revisan tu
+especificación. Es importante ir ganando confianza con la
+especificación, y en este punto es bueno escribir algo de código, que
+use la API, desarrollar casos de prueba, es importante ser lo más ágil
+en este punto.</p>
+<p>Tercero, hay que tener las expectativas claras. No se puede agradar a
+todo el mundo, y por lo mismo, tienes que aceptar que es muy probable
+que tu API termine desagradando a todo el mundo igualmente. Es seguro
+que vas a cometer errores, sólo los años terminarán borrando estos
+errores, así que debes pensar que tu API evolucionará.</p>
+<p>Principios generales de una buena API</p>
+<ol>
+<li>Una API debería hacer una cosa, y hacerla bien. La funcionalidad de
+una API debe ser fácil de explicar.</li>
+<li>Una API debe ser lo más pequeña posible, pero no demasiado</li>
+<li>La implementación no debería impactar a una API. Los detalles de
+implementación confunden al usuario de una API, y por supuesto
+impiden la libertad de cambiar la implementación. Hay que tener
+cuidado de sobre especificar el comportamiento de los métodos de una
+API. Todo parámetro que se fije para sintonizar el desempeño de una
+API es sospechoso.</li>
+<li>Minimizar la accesibilidad de todo, que es otra forma de plantear el
+viejo principio de ocultamiento de la información. Recuerden a
+Parnas, alta cohesión, pero bajo acoplamiento.</li>
+<li>Los nombres importan, la API es un pequeño lenguaje. Los nombres
+deben ser, en gran medida, auto explicativos. Es importante ser
+coherente, las mismas palabras deben ser usadas en toda la API.</li>
+<li>La documentación es importante. Como dice Parnas, la reutilización
+requiere de un buen diseño una buena documentación.</li>
+<li>Considere las consecuencias en el desempeño de las decisiones de
+diseño de una API. Un buen diseño, normalmente coincide con un buen
+desempeño.</li>
+<li>Las APIs deben coexistir pacificamente con la plataforma. Es bueno
+obedecer las convenciones de nombres de la plataforma. También es
+recomendable imitar las convenciones de los lenguajes en que
+implementamos la API (con la excepción de PHP, por supuesto).</li>
+</ol>
+<p><img src="morse_3.jpg" alt="morse_3.jpg"></p>
+<p>Otros aspectos a considerar:</p>
+<ul>
+<li>No violar el principio del mínimo estupor. El usuario de una API no
+debe quedar sorprendido por el comportamiento de esta.</li>
+<li>Falla rápido. Ya <a href="/2008/07/deten-el-reloj-aplasta-el-bicho.html">hemos hablado de esto</a>,
+las malas noticias es mejor decirlas pronto, es decir, hay que
+reportar los errores tan pronto ocurran.</li>
+<li>Cuidado con sobrecargar. Hay que tener cuidado cuando sobrecargamos
+el nombre de un método, sobretodo, hay que evitar las ambiguedades.</li>
+<li>Si no eres programador, pide ayuda a un programador para diseñar una
+API pública. Recuerda que las APIs son interfaces para ellos, y no
+se diseñan igual que las interfaces de usuario.</li>
+<li>El diseño de API no debe ser un trabajo de una sóla persona, aunque
+escribir las especificaciones, y las ideas pueden ser de una
+persona, es bueno que te asesores por terceros, y que pruebes con
+una amplia base de usuarios.</li>
+</ul>
+<p><img src="soa.jpg" alt="soa.jpg"></p>
+<p>Los chistes gráficos son cortesía de <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1094 words</span>
+    <span>6 - 8 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/286689_vb_api_calls.jpg">286689_vb_api_calls.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/feng-shui.jpg">feng-shui.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/geeks2.jpg">geeks2.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/morse_3.jpg">morse_3.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/restfullapi.jpg">restfullapi.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/soa.jpg">soa.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2009/03/20/una-api-no-es-codigo-abierto/">Una API no es código abierto</a></li><li><a href="/blog/lnds/2008/03/20/dios-no-quiere-estandares/">Dios no quiere estándares</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

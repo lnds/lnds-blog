@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sofware Libre on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/sofware-libre/</link>
+    <description>Recent content in Sofware Libre on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 16 May 2008 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/sofware-libre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Luciano Bello encuentra falla de seguridad en sistema operativo Debian (Ubuntu)</title>
+      <link>http://localhost:1313/blog/lnds/2008/05/16/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu/</link>
+      <pubDate>Fri, 16 May 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/05/16/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;lbello.jpg&#34; alt=&#34;lbello.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ahora que capté su atención estimado lector, le cuento que no se trata del&#xA;Luciano Bello de la foto, quien, a pesar de sus intentos de poner cara&#xA;de inteligente, no creo que se dedique a la informática.&lt;/p&gt;&#xA;&lt;p&gt;No, el &lt;a href=&#34;http://lbello.livejournal.com/&#34;&gt;Luciano Bello&lt;/a&gt; en cuestión es un&#xA;hacker argentino, quien se tomó el tiempo de leer el código de la&#xA;implementación Open SSL de Debian, y encontrar un &#xA;&lt;a href=&#34;http://www.debian.org/security/2008/dsa-1571&#34;&gt;fallo bastante serio&lt;/a&gt; (&lt;a href=&#34;http://www.debian.org/es&#34;&gt;Debian&lt;/a&gt; la&#xA;base de la distribución &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;) y otros.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

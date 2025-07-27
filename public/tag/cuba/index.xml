@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuba on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/cuba/</link>
+    <description>Recent content in Cuba on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 02 Sep 2005 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/cuba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuba los mejores en informática</title>
+      <link>http://localhost:1313/blog/lnds/2005/09/02/cuba-los-mejores-en-informatica/</link>
+      <pubDate>Fri, 02 Sep 2005 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/09/02/cuba-los-mejores-en-informatica/</guid>
+      <description>&lt;p&gt;La &lt;a href=&#34;http://www.ioinformatics.org/&#34;&gt;IOI&lt;/a&gt; se celebró en Polonia este año&#xA;(Chile por supuesto no participó).&lt;/p&gt;&#xA;&lt;p&gt;Si alguién ve al presidente Lagos, digale que ministro de educación&#xA;merece un tirón de orejas más :)&lt;/p&gt;&#xA;&lt;p&gt;En todo caso, me parece más valioso armar un buen equipo a la IOI de&#xA;2006 (que será en Merida (la blanca Merida), Yucatán), que aprender&#xA;mandarín, que la campaña MPPCPDV (con todo mi respeto, y siendo yo un&#xA;partidario de esta), o expresar odio contra internet explorer...&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

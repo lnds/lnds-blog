@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proof of Work on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/proof-of-work/</link>
+    <description>Recent content in Proof of Work on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 17 Mar 2018 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/proof-of-work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We work the black seam together</title>
+      <link>http://localhost:1313/blog/lnds/2018/03/17/we-work-the-black-seam-together/</link>
+      <pubDate>Sat, 17 Mar 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2018/03/17/we-work-the-black-seam-together/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This place has changed for good&lt;br&gt;&#xA;Your economic theory said it would&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Escribo esto con algo de lata. Porque tengo que explicar la parte que&#xA;para mi representa lo más decepcionante del blockchain, o al menos en la&#xA;implementación original que viene con el BitCoin, la famosa prueba de&#xA;trabajo.&lt;/p&gt;&#xA;&lt;p&gt;Además sucede que ya me aburre el tema, pues veo que más que un análisis&#xA;serio de las restricciones y ventajas de una tecnología interesante, lo&#xA;que hay es un fanatismo que trata de usar blockchain en todo y de las&#xA;formas más ridículas posibles, Así que terminemos este trago amargo de&#xA;una vez y dejemos de hablar de blockchain en este blog por un buen&#xA;tiempo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

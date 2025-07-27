@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programar on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/programar/</link>
+    <description>Recent content in Programar on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 25 Jan 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/programar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garbage collection</title>
+      <link>http://localhost:1313/blog/lnds/2014/01/25/garbage-collection/</link>
+      <pubDate>Sat, 25 Jan 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2014/01/25/garbage-collection/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Logré el sueño de todo informático, dejar la informática&amp;rdquo;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Me contaron que la anterior frase se la escucharon a un profesional de&#xA;más o menos mi edad, al parecer está muy contento con su actual trabajo&#xA;y algo fastidiado de haber perdido tanto tiempo dedicado a la&#xA;computación.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Quiero reencantarme con la informática :/&amp;rdquo;&lt;/em&gt;, dice el tuit de una joven&#xA;publicado hace un par de días, que apareció por mi timeline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡No somos cocineros!</title>
+      <link>http://localhost:1313/blog/lnds/2013/03/08/no-somos-cocineros/</link>
+      <pubDate>Fri, 08 Mar 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/03/08/no-somos-cocineros/</guid>
+      <description>&lt;p&gt;Este post es largo, quiero decir laaaaargo, porque tiene ambición, y&#xA;pretende decir muchas cosas importantes. Como dice el Chef Antoine de&#xA;New Orleans (citado por Fred Brooks en &lt;a href=&#34;http://amzn.to/zhUwYa&#34;&gt;The Mythical Man Month&lt;/a&gt;):&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La buena cocina toma tiempo. Si le hacemos esperar, es&#xA;para servirle mejor, y complacerle&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Si yo fuera ustedes me buscaría un buen sofá, un momento de tranquilidad&#xA;para leer esto, que en algunos momentos se puede poner bastante denso,&#xA;pero creo que vale la pena. Al menos decidí tomarme el tiempo adecuado&#xA;para escribirlo, con calma, con reflexión, como se debe hacer cuando las&#xA;cosas que hacemos consideramos que son importantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Herramientas</title>
+      <link>http://localhost:1313/blog/lnds/2013/02/22/herramientas/</link>
+      <pubDate>Fri, 22 Feb 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/02/22/herramientas/</guid>
+      <description>&lt;p&gt;Mi padre, como buen electrónico, contaba con muchas herramientas&#xA;interesantes, algunas peligrosas, como descubrimos con mucho dolor mi&#xA;hermano y yo. Otras herramientas eran intrigantes, extrañas, y&#xA;complicadas. Alicates, destornilladores, voltímetros o testers,&#xA;osciloscopios o simples soldadores, placas para montar circuitos, unos&#xA;lentes de aumento con visera y lupa que servían para revisar circuitos,&#xA;o disfrazarse de extraterrestre, pero la mejor, mi favorita era ese&#xA;&amp;ldquo;lanza dardos paralizantes usado en las guerras clónicas del siglo XXV&#xA;en los cerros de Chuquicamata&amp;rdquo;, el &amp;ldquo;des-soldador a pistón&amp;rdquo;. Ahí hay&#xA;una foto lo más parecido que encontré a este maravilloso aparato&#xA;futurista, al menos para un niño de 11 años en 1977 (con esto&#xA;comprenderán ahora &lt;a href=&#34;https://www.akarru.com/blog/2011/08/07/super-8/&#34;&gt;porque me gustó tanto Super 8&lt;/a&gt; )&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Qué deberíamos enseñar a los nuevos desarrolladores?</title>
+      <link>http://localhost:1313/blog/lnds/2012/05/18/que-deberiamos-ensenar-a-los-nuevos-desarrolladores/</link>
+      <pubDate>Fri, 18 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/05/18/que-deberiamos-ensenar-a-los-nuevos-desarrolladores/</guid>
+      <description>&lt;p&gt;La siguiente es mi traducción de un&#xA;&lt;a href=&#34;http://cacm.acm.org/magazines/2010/1/55760-what-should-we-teach-new-software-developers-why/fulltext&#34;&gt;artículo&lt;/a&gt;&#xA;publicado por Bjarne Stroustrup en la Communications of ACM en Enero de&#xA;2010. &lt;a href=&#34;http://www2.research.att.com/~bs/&#34;&gt;Bjarne Stroustrup&lt;/a&gt; es el&#xA;creador del lenguaje C++.&lt;/p&gt;&#xA;&lt;h1 id=&#34;qué-deberíamos-enseñar-a-los-nuevos-desarrolladores-por-qué&#34;&gt;¿Qué deberíamos enseñar a los nuevos desarrolladores? ¿Por qué?&lt;/h1&gt;&#xA;&lt;p&gt;por &lt;strong&gt;Bjarne Stroustrup.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Publicado en Communications of the ACM (&lt;a href=&#34;http://cacm.acm.org/magazines/2010/1/55760-what-should-we-teach-new-software-developers-why/fulltext&#34;&gt;texto original&lt;/a&gt;)&lt;br&gt;&#xA;Vol. 53 No. 1, Pages 40-42&lt;br&gt;&#xA;10.1145/1629175.1629192&lt;/p&gt;&#xA;&lt;p&gt;La ciencia de la computación debe estar en el centro del desarrollo de&#xA;los sistemas de software. Si no está, debemos confiar en la experiencia&#xA;individual y en reglas generales, y terminamos con sistemas menos&#xA;capaces y confiables, desarrollados y mantenidos a costos&#xA;innecesariamente altos. Necesitamos cambios en la educación que permitan&#xA;mejorías de la práctica industrial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprender a programar</title>
+      <link>http://localhost:1313/blog/lnds/2012/05/18/aprender-a-programar/</link>
+      <pubDate>Fri, 18 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/05/18/aprender-a-programar/</guid>
+      <description>&lt;p&gt;De acuerdo a un estudio reciente la ingeniería de software es la carrera&#xA;más rentable y envidiable de 2012:&#xA;&lt;a href=&#34;http://www.informationweek.com/news/global-cio/careers/240000347&#34;&gt;Software Engineering 2012&amp;rsquo;s Top Job&lt;/a&gt;.&#xA;La tasa de empleabilidad para los profesionales TI es la más alta a&#xA;nivel mundial. Y sin embargo...&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivación&#34;&gt;&lt;strong&gt;Motivación&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Escuché hace unos días a una joven estudiante de primer  año de&#xA; ingeniería comentar sobre el curso de introducción a la  computación, y&#xA;la verdad que el comentario no fue alentador, para ella programar no es&#xA;muy entretenido, eso de tener que decirle al computador paso a paso lo&#xA;que tiene que hacer para implementar un algoritmo simple &lt;em&gt;es una&#xA;verdadera lata&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Qué es programar?</title>
+      <link>http://localhost:1313/blog/lnds/2012/05/09/que-es-programar/</link>
+      <pubDate>Wed, 09 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/05/09/que-es-programar/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Si miras al software hoy en día, a través de los lentes de la&#xA;historia de la ingeniería, ciertamente es un tipo de ingeniería,&#xA;pero del tipo de ingeniería que hacía la gente que no conocía el&#xA;concepto del arco.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Mucho software hoy día es en cierta medida como una &lt;a href=&#34;http://www.lnds.net/2008/01/el_misterio_de_las_piramides.html&#34;&gt;pirámide&#xA;egipcia&lt;/a&gt; con&#xA;millones de piedras apiladas una encima de otra, sin integridad&#xA;estructural, construido por fuerza bruta y miles de esclavos.&amp;rdquo; --&#xA;Alan Kay&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡Programa CTM!</title>
+      <link>http://localhost:1313/blog/lnds/2012/04/29/programa-ctm/</link>
+      <pubDate>Sun, 29 Apr 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/04/29/programa-ctm/</guid>
+      <description>&lt;p&gt;Ustedes dirán: &amp;ldquo;Eduardo, seguro que te encanta escribir, esa debe ser&#xA;tu verdadera pasión.&amp;rdquo;. Y la verdad es que no están tan lejos, me gusta&#xA;escribir, y preparar estos posts es una de las actividades más&#xA;divertidas a las que me dedico, pero no, tengo una pasión mayor que&#xA;escribir: programar. Realmente es lo que más me gusta. No creo ser un&#xA;gran programador, pero creo estar sobre la media, y lo mejor es que sigo&#xA;aprendiendo, cada día.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sobre la inteligencia del coyote</title>
+      <link>http://localhost:1313/blog/lnds/2012/04/17/sobre-la-inteligencia-del-coyote/</link>
+      <pubDate>Tue, 17 Apr 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/04/17/sobre-la-inteligencia-del-coyote/</guid>
+      <description>&lt;h2 id=&#34;las-leyes-de-la&#34;&gt;&lt;strong&gt;Las leyes de la &amp;ldquo;Coyótica&amp;rdquo; (Parte I)&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;1) El Correcamino no puede dañar al Coyote, excepto de modo indirecto&#xA;al hacer bip, bip.&lt;br&gt;&#xA;2) Ninguna fuerza externa puede dañar al Coyote, excepto su propia&#xA;ineptitud o la falla de algún producto Acme. Los trenes y camiones son&#xA;excepciones de vez en cuando.&lt;br&gt;&#xA;3) El coyote puede parar en cualquier momento, si es que no fuera un&#xA;fanático.&lt;br&gt;&#xA;(Repita &amp;ldquo;un fanático es alguien que redobla sus esfuerzos cuando ha&#xA;olvidado su objetivo&amp;rdquo; &amp;ndash; &lt;a href=&#34;http://es.wikipedia.org/wiki/George_Santayana&#34;&gt;George&#xA;Santayana&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El mejor editor de texto de todo el mundo mundial</title>
+      <link>http://localhost:1313/blog/lnds/2012/04/05/el-mejor-editor-de-texto-de-todo-el-mundo-mundial/</link>
+      <pubDate>Thu, 05 Apr 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/04/05/el-mejor-editor-de-texto-de-todo-el-mundo-mundial/</guid>
+      <description>&lt;p&gt;Ayer asistí a ver unas charlas del grupo de &lt;a href=&#34;http://www.meetup.com/dynlangchile/&#34;&gt;lenguajes&#xA;dinámicos&lt;/a&gt;, mi interés principal&#xA;era ver la presentación de mi amigo &lt;a href=&#34;http://aldrin.martoq.cl/&#34;&gt;Aldrin Martoq&lt;/a&gt; y su proyecto (o proyectos), de&#xA;impacto mundial, &lt;a href=&#34;https://github.com/aldrinmartoq/brayatan&#34;&gt;Brayatan&lt;/a&gt;&#xA;&lt;a href=&#34;https://github.com/aldrinmartoq/azikalao-lang&#34;&gt;Azicalao&lt;/a&gt; (pa&#39; las&#xA;nenas).&lt;/p&gt;&#xA;&lt;p&gt;Me gustó mucho el ambiente del meetup y es agradable ver que hay muchos&#xA;hackers que se juntan en nuestro país para compartir conocimiento. La&#xA;mayoría de los asistentes son gente bastante menor que yo, así que hay&#xA;un gap generacional que sospecho es de unos 15 años aproximadamente, lo&#xA;que es muy interesante. No puedo evitar considerar en que estaba yo a la&#xA;edad de los asistentes a estos meetup, es decir, que estaba haciendo yo&#xA;hace quince años. Supongo que tenía esa misma actitud, y estoy seguro&#xA;que si hubieran existido los meetups en esos tiempos habría asistido a&#xA;varios, lo único que teníamos eran las fiestas de #irc, pero esas son&#xA;otras historias que no se pueden contar en horario para todo espectador.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poesía, Caligramas y la Belleza del Código</title>
+      <link>http://localhost:1313/blog/lnds/2011/09/11/poesia-caligramas-y-la-belleza-del-codigo/</link>
+      <pubDate>Sun, 11 Sep 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/09/11/poesia-caligramas-y-la-belleza-del-codigo/</guid>
+      <description>&lt;p&gt;La lectura de un párrafo de texto  requiere un recorrido lineal de&#xA;izquierda a derecha. Esto debido a la conformación de nuestro sistema de&#xA;escritura, si estuvieramos en el oriente medio el sentido sería el&#xA;contrario, de derecha a izquierda. La lectura es lineal, en una&#xA;dimensión. A diferencia de la comunicación oral, por ejemplo, que tiene&#xA;2 ó quizás más dimensiones. Al conversar no sólo usamos el habla, está&#xA;el lenguaje corporal, los gestos que acompañan nuestra expresión, la&#xA;respuesta límbica, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Soberbia</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/28/soberbia/</link>
+      <pubDate>Mon, 28 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/28/soberbia/</guid>
+      <description>&lt;p&gt;La soberbia, una de &lt;a href=&#34;http://localhost:1313/blog/2010/11/las-tres-grandes-virtudes-de-un-programador.html&#34;&gt;las tres virtudes del programador&lt;/a&gt;,&#xA;pero ¿por qué, si esta sociedad considera a la soberbia como un pecado?&lt;/p&gt;&#xA;&lt;p&gt;Hace tiempo escribí en &lt;a href=&#34;https://www.akarru.com&#34;&gt;akarrú&lt;/a&gt; sobre el&#xA;&lt;a href=&#34;https://www.akarru.com/blog/2010/12/11/arete/&#34;&gt;Areté&lt;/a&gt;, el orgullo como lo&#xA;entendían los antiguos, voy a transcribirlo a este blog:&lt;/p&gt;&#xA;&lt;p&gt;Vivimos en una época mediocre, pero siempre ha sido así, ¿no es verdad?&lt;/p&gt;&#xA;&lt;p&gt;Dice Aquiles:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Igual lote consiguen el inactivo y el que batalla con denuedo. La&#xA;misma honra obtienen tanto el cobarde como el valeroso.&lt;br&gt;&#xA;Igual muere el holgazán que el autor de numerosas hazañas.&lt;br&gt;&#xA;Ninguna ventaja me reporta haber padecido dolores en el ánimo&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knuth responde a todas las preguntas</title>
+      <link>http://localhost:1313/blog/lnds/2011/01/21/knuth-responde-a-todas-las-preguntas-2/</link>
+      <pubDate>Fri, 21 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/01/21/knuth-responde-a-todas-las-preguntas-2/</guid>
+      <description>&lt;p&gt;Otro artículo, esta vez es una traducción de una charla de Knuth&#xA;publicada en 2006, por cierto, Knuth fue premiado recientemente en&#xA;España, de acuerdo a &lt;a href=&#34;http://www.elpais.com/articulo/sociedad/hombre/habla/maquinas/elpepusoc/20110118elpepusoc_2/Tes&#34;&gt;esta noticia en El Pais&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;knuth-responde-a-todas-las-preguntas&#34;&gt;Knuth responde a todas las preguntas&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;knuth0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Todos tenemos nuestros heroes personales, hombres representativos,&#xA;sobretodo del campo en que nos desarrollamos.&lt;/p&gt;&#xA;&lt;p&gt;Uno de mis más antiguos héroes personales es el profesor y&#xA;programador &lt;a href=&#34;http://web.archive.org/web/20070513053932/http://www-cs-faculty.stanford.edu/~uno/&#34;&gt;Donald&#xA;Knuth&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Autor del famoso &lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming&#34;&gt;Art of Computer Programming&lt;/a&gt;,&#xA;y un gran programador. Creador de&#xA;&lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/METAFONT&#34;&gt;Metafont&lt;/a&gt;&#xA;y&#xA;&lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/TeX&#34;&gt;TeX&lt;/a&gt;,&#xA;usados por miles de científicos hoy en día para publicar sus artículos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las tres grandes virtudes de un programador </title>
+      <link>http://localhost:1313/blog/lnds/2010/11/19/las-tres-grandes-virtudes-de-un-programador/</link>
+      <pubDate>Fri, 19 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/11/19/las-tres-grandes-virtudes-de-un-programador/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Promovemos el desarrollo de las tres grandes virtudes de un&#xA;programador: la pereza, la impaciencia y el orgullo.&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Larry Wall, creador de Perl.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We will encourage you to develop the three great virtues of a&#xA;programmer: laziness, impatience, and hubris.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;¿Por qué la pereza, la impaciencia y el orgullo (o soberbia) pueden ser&#xA;las tres virtudes de un programador?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knuth responde a todas las preguntas</title>
+      <link>http://localhost:1313/blog/lnds/2006/09/23/knuth-responde-a-todas-las-preguntas/</link>
+      <pubDate>Sat, 23 Sep 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/09/23/knuth-responde-a-todas-las-preguntas/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;knuth0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Todos tenemos nuestros heroes personales, hombres representativos,&#xA;sobretodo del campo en que nos desarrollamos.&lt;/p&gt;&#xA;&lt;p&gt;Uno de mis más antiguos héroes personales es el profesor y&#xA;programador &lt;a href=&#34;http://web.archive.org/web/20070513053932/http://www-cs-faculty.stanford.edu/~uno/&#34;&gt;Donald&#xA;Knuth&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Autor del famoso &lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming&#34;&gt;Art of Computer Programming&lt;/a&gt;,&#xA;y un gran programador. Creador de&#xA;&lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/METAFONT&#34;&gt;Metafont&lt;/a&gt;&#xA;y&#xA;&lt;a href=&#34;http://web.archive.org/web/20070513053932/http://en.wikipedia.org/wiki/TeX&#34;&gt;TeX&lt;/a&gt;,&#xA;usados por miles de científicos hoy en día para publicar sus artículos.&lt;/p&gt;&#xA;&lt;p&gt;Donald Knuth es profesor emérito en la Universidad de Stanford, y&#xA;probablemente el geek más antiguo que existe. Por ejemplo, las versiones&#xA;de Tex se aproximan al número trascendente Pi, por ejemplo, la primera&#xA;versión era la 3, la segunda 3.1, la tercera 3.14, y así sucesivamente.&#xA;Además tiene la costumbre de pagar 2.56 dólares por cada error&#xA;encontrado en sus libros (porque &amp;ldquo;256 centavos es un dolar&#xA;hexadecimal&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Cuantas lineas de código escribes al día?</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/04/cuantas-lineas-de-codigo-escribes-al-dia/</link>
+      <pubDate>Thu, 04 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/04/cuantas-lineas-de-codigo-escribes-al-dia/</guid>
+      <description>&lt;p&gt;Creo que la razón de que muchos proyectos de desarrollo de software se&#xA;producen por la separación entre los arquitectos, los analistas y los&#xA;programadores.&lt;/p&gt;&#xA;&lt;p&gt;Pienso que esta división produce problemas de comunicación, la distancia&#xA;entre el usuario final y el programador es demasiada.&lt;/p&gt;&#xA;&lt;p&gt;Las metodologías ágiles prometen mejorar esto. Creo que la mejor manera&#xA;es tener una jerarquía plana de desarrollo. El viejo Chief Programmer&#xA;Team de Brooks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Distribuir es mejor</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/04/distribuir-es-mejor/</link>
+      <pubDate>Thu, 04 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/04/distribuir-es-mejor/</guid>
+      <description>&lt;p&gt;Distribuir es mejor&lt;/p&gt;&#xA;&lt;p&gt;En mi anterior post:&#xA;&lt;a href=&#34;http://localhost:1313/archives/2005/08/sindicar.html&#34;&gt;Sindicar&lt;/a&gt;,&#xA;planteaba que no existe esta palabra en español, y que por último&#xA;podriamos usar el término Sindicación Web.&lt;/p&gt;&#xA;&lt;p&gt;La respuesta me la dió &lt;a href=&#34;http://www.drupal.org/&#34;&gt;Drupal&lt;/a&gt;, la palabra&#xA;adecuada es &lt;em&gt;DISTRIBUIR&lt;/em&gt;, no hay que inventar neologismos ni aceptar&#xA;anglicismos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sindicar</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/04/sindicar/</link>
+      <pubDate>Thu, 04 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/04/sindicar/</guid>
+      <description>&lt;p&gt;Leyendo el blog de&#xA;&lt;a href=&#34;http://www.fernandoflores.cl/node/523&#34;&gt;Fernando Flores - Abriendo Juegos, Abriendo Mundos&lt;/a&gt; descubrí que le pusieron&#xA;como título &lt;strong&gt;Sindicalizar&lt;/strong&gt; al feed xml.&lt;/p&gt;&#xA;&lt;p&gt;La duda me surgió y consulté en la &lt;a href=&#34;http://www.rae.es/&#34;&gt;RAE&lt;/a&gt; y resulta&#xA;que &lt;em&gt;sindicalizar&lt;/em&gt; no existe en el diccionario!!!.&lt;/p&gt;&#xA;&lt;p&gt;¿Que hacer con este neologismo? sobretodo porque sindicalizar tiene&#xA;otras connotaciones en español (¿o castellano?).&lt;/p&gt;&#xA;&lt;p&gt;Se ve feo en el sitio del señor Flores.&lt;br&gt;&#xA;Así que emprendí una investigación.&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;La palabra &lt;em&gt;sindicar&lt;/em&gt; existe en nuestro idioma, pero tiene los&#xA;siguientes significados:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

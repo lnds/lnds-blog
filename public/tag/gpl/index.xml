@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpl on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/gpl/</link>
+    <description>Recent content in Gpl on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 28 Nov 2006 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/gpl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linus Torvalds y la GPL v3</title>
+      <link>http://localhost:1313/blog/lnds/2006/11/28/linus-torvalds-y-la-gpl-v3/</link>
+      <pubDate>Tue, 28 Nov 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/11/28/linus-torvalds-y-la-gpl-v3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Linus_Torvalds.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace días que tenía esta traducción de la posición de Linus Torvalds sobre&#xA;la GPL V3, y ahora la he completado, así que acá va otro trabajo de&#xA;traducción:El original en inglés está&#xA;en: &lt;a href=&#34;http://web.archive.org/web/20080419070434/http://lkml.org/lkml/2006/9/25/161&#34;&gt;http://lkml.org/lkml/2006/9/25/161&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fecha&lt;/strong&gt;, Lunes 25 Sep 2006 09:50:20 -0700 (PDT) **De &lt;em&gt;*Linus&#xA;Torvalds *&lt;em&gt;Asunto&lt;/em&gt;&lt;/em&gt;: RE: Declaración de Posición frente a GPLv3&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En Lun, 25 Sep 2006, Michiel de Boer escribió&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Yo apoyo el borrador actual de la GPL versión 3 y estoy muy&#xA;decepcionado que no será adoptado como está. En mi opinión, Linux&#xA;tiene el poder y la influencia para mover montañas en la industria del&#xA;software, y no debería esquivar la oportunidad para tomar una&#xA;responsabilidad moral cuando surge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LIBERTAD</title>
+      <link>http://localhost:1313/blog/lnds/2006/02/06/libertad/</link>
+      <pubDate>Mon, 06 Feb 2006 09:42:32 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/02/06/libertad/</guid>
+      <description>&lt;p&gt;Ricardo plantea una &lt;a href=&#34;http://www.ricardodiaz.org/archives/2006/02/libertad_absolu.html&#34;&gt;reflexión sobre la libertad&lt;/a&gt;, a propósito del &lt;a href=&#34;http://www.blogmemes.com/comment.php?meme_id=814&#34;&gt;quilombo entre blogmemes y meneame&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El es filósofo, y este es un tema que ha sido planteado por siglos. ¿Sómos libres los hombres?&lt;/p&gt;&#xA;&lt;p&gt;Esta pregunta es importante, porque define los límites de la ética. Aristóteles se lo pregunta, y dice que somos libres hasta por ahí no más. Algunos más severos, como Spinoza plantean que cómo somos parte de la esencia de Dios la libertad está en asumir su voluntad, o sea que en el fondo no podemos ser libres en el sentido vulgar del término.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

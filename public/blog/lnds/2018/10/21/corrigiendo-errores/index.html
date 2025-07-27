@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Corrigiendo errores | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2018/10/21/corrigiendo-errores/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Corrigiendo errores">
+  <meta property="og:description" content="En España usan la palabra “ordenador”, para referirse a las computadoras, siguiendo la costumbre francesa, que empezó a usar el término “ordinateur” a partir de la década de 1960. Pero el uso de esa palabra es una incoherencia, tal como lo plantea Antonio Vaquero Sanchez en un artículo en el diario El Mundo, de España en 19971:
+¿Qué significa ordinateur? No se debe entrar al trapo de los que defienden el uso de la palabra “ordenador” porque éste realiza “ordenaciones” (operaciones de ordenación). Puede hacer más, muchísimo más, que ordenar elementos ordenables. Admitir esa denominación por esa causa sería como admitir la designación del todo por una parte sólamente. Tampoco es válido el argumento basado en la acepción de “orden” como “instrucción”. Ordinateur viene definido en francés así “... qui émite ordres”. En definitiva, quien da órdenes, no quien las recibe. Por tanto el uso de la palabra “ordenador” es una incorrección semántica. No lo digo yo. Lo dicen los propios franceses. […] La contestación [dada por los franceses ante la incoherencia] fue “le mot n&#39;est pas bon, mais nous n&#39;avons pas trouvé d&#39;autre meilleur” [“La palabra no es buena, pero no hemos encontrado otra mejor”].">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-10-21T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-10-21T08:25:11-03:00">
+    <meta property="article:tag" content="Computador">
+    <meta property="article:tag" content="Computadora">
+    <meta property="article:tag" content="Ordenador">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2018/10/21/corrigiendo-errores/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2018/10/21/corrigiendo-errores/featured.png">
+  <meta name="twitter:title" content="Corrigiendo errores">
+  <meta name="twitter:description" content="En España usan la palabra “ordenador”, para referirse a las computadoras, siguiendo la costumbre francesa, que empezó a usar el término “ordinateur” a partir de la década de 1960. Pero el uso de esa palabra es una incoherencia, tal como lo plantea Antonio Vaquero Sanchez en un artículo en el diario El Mundo, de España en 19971:
+¿Qué significa ordinateur? No se debe entrar al trapo de los que defienden el uso de la palabra “ordenador” porque éste realiza “ordenaciones” (operaciones de ordenación). Puede hacer más, muchísimo más, que ordenar elementos ordenables. Admitir esa denominación por esa causa sería como admitir la designación del todo por una parte sólamente. Tampoco es válido el argumento basado en la acepción de “orden” como “instrucción”. Ordinateur viene definido en francés así “... qui émite ordres”. En definitiva, quien da órdenes, no quien las recibe. Por tanto el uso de la palabra “ordenador” es una incorrección semántica. No lo digo yo. Lo dicen los propios franceses. […] La contestación [dada por los franceses ante la incoherencia] fue “le mot n&#39;est pas bon, mais nous n&#39;avons pas trouvé d&#39;autre meilleur” [“La palabra no es buena, pero no hemos encontrado otra mejor”].">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Corrigiendo errores</h1><time class="dim" datetime="2018-10-21T08:25:11-03:00">October 21, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/computador/">#computador</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/computadora/">#computadora</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/ordenador/">#ordenador</a>
+      </div></ol></div>
+  <section class="page-section"><p>En España usan la palabra &ldquo;ordenador&rdquo;, para referirse a las
+computadoras, siguiendo la costumbre francesa, que empezó a usar el
+término &ldquo;ordinateur&rdquo; a partir de la década de 1960. Pero el uso de esa
+palabra es una incoherencia, tal como lo plantea Antonio Vaquero Sanchez
+en un artículo en el diario El Mundo, de España en 1997<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<blockquote>
+<p>¿Qué significa ordinateur? No se debe entrar al trapo de los que
+defienden el uso de la palabra &ldquo;ordenador&rdquo; porque éste realiza
+&ldquo;ordenaciones&rdquo; (operaciones de ordenación). Puede hacer más,
+muchísimo más, que ordenar elementos ordenables. Admitir esa
+denominación por esa causa sería como admitir la designación del todo
+por una parte sólamente. Tampoco es válido el argumento basado en la
+acepción de &ldquo;orden&rdquo; como &ldquo;instrucción&rdquo;. Ordinateur viene definido
+en francés así &ldquo;... qui émite ordres&rdquo;. En definitiva, quien da
+órdenes, no quien las recibe. Por tanto el uso de la palabra
+&ldquo;ordenador&rdquo; es una incorrección semántica. No lo digo yo. Lo dicen
+los propios franceses. [&hellip;] La contestación [dada por los
+franceses ante la incoherencia] fue &ldquo;le mot n'est pas bon, mais
+nous n'avons pas trouvé d'autre meilleur&rdquo; [&ldquo;La palabra no es
+buena, pero no hemos encontrado otra mejor&rdquo;].</p></blockquote>
+<p>Así que con esta corrección lingüistica, partimos este breve artículo
+sobre corrección de errores.</p>
+<h2 id="qué-hacen-las-computadoras">¿Qué hacen las computadoras?</h2>
+<p>Esperamos de todo sistema de cómputo moderno al menos tres cosas,
+primero que realice cálculos sobre datos que recibe de entrada, lo
+segundo es que pueda almacenar esos datos y por último que sea capaz de
+transmitir datos (al menos entregar los resultados). Imaginen una
+computadora que no pueda almacenar ni transmitir datos, sería
+prácticamente inútil. </p>
+<p>Pero el desafío que esto impone no es menor, porque la data debe
+permanecer exacta. Los datos se almacenan como secuencias de <a href="/blog/lnds/2018/09/23/ceros-y-unos">ceros y
+unos</a> y basta con
+que uno de los millones de bits en la memoria de un computador mute su
+valor de cero a uno o viceversa, para que el resultado de cualquier
+cálculo sea erróneo.</p>
+<p>Los errores en transmisión de datos son frecuentes, pues la
+comunicación se ve afectada por el &ldquo;ruido&rdquo;. Esto lo experimentamos en
+el día a día, en una conversación podemos entender mal una palabra, pues
+estamos conversando con alguien en la vía ´publica y el ruido de fondo
+no nos permite escuchar bien lo que dice nuestro interlocutor, le
+pedimos que repita, o que hable más fuerte, para reducir el
+error.</p>
+<p>Al transmitir datos pasa algo similar, más si se usan medios
+electrónicos. Las distancias también hacen que se pierda energía en el
+trayecto, y es por esto que se usan sistemas repetidores, que vuelven a
+entregar energía para que no se pierda la
+señal.</p>
+<p>Pero al almacenar también pueden haber errores. Cuando anotas el número
+de una persona, para llamarla más tarde, si te equivocas en una cifra, o
+tienes mala letra, como es mi caso, te cuesta entender lo que escribiste
+en esa ocasión, puedes cometer
+errores.</p>
+<p>Este tipo de errores también ocurren en las máquinas. A veces al
+escribir un 1 este queda mal almacenado como 0, produciéndose el error.
+A escala humana cometer errores de almacenamiento no es tanto, pero los
+computadores manejan mucha más información que
+nosotros.</p>
+<p>Consideren un notebook con 500 gigabytes de almacenamiento, una
+configuración bastante habitual hoy en día. Es es el equivalente a 75
+millones de páginas de texto escrito. Si ese sistema tuviera una tasa de
+un error por millón de páginas, entonces tendríamos 75 errores en
+promedio en el dispositivo a plena capacidad. Si descargas un progama
+que pesa unos 100 megabytes, y el computador interpreta mal un byte
+entre un millón, tendrías alrededor de 100 bytes mal interpretados,
+suficiente para que tu programa no funcionara, o se interrumpiera en el
+momento más inesperado.</p>
+<p>Esto quiere decir, que un computador con un 99.9999% de exactitud no es
+suficiente para ser usable. Entonces se necesita un mecanismo que nos
+proteja de estos errores, y por fortuna existe, y es una de las cosas
+más ingeniosas que hemos desarrollado en
+informática.</p>
+<h2 id="el-truco-de-la-repetición">El Truco de la Repetición</h2>
+<p>Supongamos que un computador en tu banco quiere transmitir el balance de
+tu cuenta a través de internet. Imaginemos que el balance de tu cuentas
+es $ 521.375, pero la red no es muy confiable y cada digito tiene un 20
+por ciento
+de probabilidad de ser alterado. Entonces puede llegar $ 529.375 a tu
+computador. No tienes forma de saber si esta cifra es o no correcta.
+Todos los dígitos deberían estar correcto, pero uno más pueden estar
+incorrectos y no tienes modo de saberlo. Pero repitiendo el mensaje
+tienes una buena manera de inferir el verdadero balance. Supongamos que
+pedimos que se envíe cinco veces el balance, y recibimos las siguientes
+respuestas</p>
+<blockquote>
+<p>transmision 1: $ 5 2 9 . 3 7 5<br>
+transmision 2: $ 5 2 1 . 3 7 5<br>
+transmision 3: $ 5 2 1 . 3 1 1<br>
+transmision 4: $ 5 4 4 . 3 7 5<br>
+transmision 5: $ 7 2 1 . 8 7 5</p></blockquote>
+<p>Notemos que algunas transmisiones tienen más de un dígito incorrecto, y
+que hay una transmisión (la número 2) sin ningún error. Pero no sabemos
+cuáles son los errores, ni tampoco que la transmisión 2 es la correcta.
+Pero tomemos carácter por carácter la transmisión y elijamos el más
+frecuente:</p>
+<blockquote>
+<p>transmisión 1: $ 5 2 9 . 3 7 5<br>
+transmisión 2:        $ 5 2 1 . 3 7 5<br>
+transmisión 3:        $ 5 2 1 . 3 1 1<br>
+transmisión 4:        $ 5 4 4 . 3 7 5<br>
+transmisión 5:        $ 7 2 1 . 8 7 5<br>
+dígito más común:       $ 5 2 1 . 3 7 5</p></blockquote>
+<p>Haciendo esto podemos ver que llegamos a un valor que es el más
+probable: $ 521.375, que en este caso coincide con el valor correcto.</p>
+<p>El problema de esto es que en la medida que el canal es más ruidoso
+debemos repetir más veces el mensaje para aumentar la probabilidad de
+adivinar cuál fue el mensaje correcto. El otro problema, es que no hay
+garantía que este mecanismo nos permita encontrar la respuesta
+correcta.</p>
+<h1 id="la-técnica-de-los-tambores-parlantes">La técnica de los tambores parlantes</h1>
+<p>James Gleick en su libro <a href="http://www.amazon.com/gp/product/0375423729/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;tag=lanaturaledel-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399349&amp;creativeASIN=0375423729">The Information: A History, a Theory, a
+Flood</a>,
+nos revela la historia de cómo el resto del mundo llegó a comprender el
+misterio de los tambores parlantes africanos. Aunque muchos exploradores
+y viajeros habían escuchado los tambores sub saharianos, nadie sabía que
+llevaban información, que de hecho hablaban.</p>
+<p>A mediados del siglo XIX ,en una expedición al rio Niger, organizada por
+la &ldquo;Sociedad para la extinción de la esclavitud&rdquo;, el capitán William
+Allen hizo un descubrimiento importante, al ponerle atención a su piloto
+camerunés, a quien llamó Glasgow. Estaban en la cabina de la nave cuando
+el capitán notó que su piloto se encontraba abstraído escuchando los
+tambores. &ldquo;¿No escuchas a mi hijo hablar?&rdquo;, le preguntó Glasgow. Como no
+habían escuchado voces, le preguntaron cómo sabía que su hijo le
+hablaba. &ldquo;El tambor me habla, me dice que salga a la cubierta.&rdquo; El
+asombro fue mayor, y el capitán anotó por primera vez las increíbles
+capacidades de comunicación de estos tambores, que podían transmitir
+mensajes por grandes distancias. Una tecnología que aún no se
+desarrollaba en Europa, la capacidad de enviar mensajes más rápido que
+con mensajeros a caballo.</p>
+<p>Los exploradores y misioneros comenzaron a registrar y transcribir estos
+mensajes.</p>
+<blockquote>
+<p>El anuncio de un nacimiento en Bolenge, una villa en el Congo Belga,
+iba así: *Batoko fala fala, tokema bolo bolo, boseka woliana imaki
+tonkilingonda, ale nda bobila wa fole fole, asokoka l&rsquo;isika koke
+koke.<br>
+*Las esteras están enrolladas, nos sentimos fuertes, una mujer vino
+desde el bosque, ella está en la villa abierta, eso es suficiente para
+su tiempo.<br>
+Un misionero, Roger T. Clarke, transcribió esta llamada a un funeral
+de un pescador:<br>
+*La nkesa laa mpombolo, tofolange benteke biesala, tolanga bonteke
+bolokolo bole nda elinga l&rsquo;enjale baenga, basaki l&rsquo;okala bopele pele.
+Bojende bosalaki lifeta Bolenge wa kala kala, tekendake tokilingonda,
+tekendake beningo la nkaka elinga l&rsquo;enjale. Tolanga bonteke bolokolo
+bole nda elinga l&rsquo;enjale, la nkesa la mpombolo.<br>
+*En la mañana al amanecer, no queremos reunirnos para el trabajo,
+queremos una reunión de juego en el río. Los hombres que viven en
+Bolenge, no vayan al bosque, no vayan a pescar. Queremos una reunión
+de juego en el rio, en la mañana al amanecer.&quot;</p></blockquote>
+<p>John. F. Carrington, un misionero inglés, nacido en 1914, viajo al
+África en 1938 y se estableció de por vida en ese continente. Descubrió
+que los tambores no usaban un sistema de señales, no había código, para
+decirlo en términos modernos, en estas transmisiones. Los tambores
+transmitían poesía, oraciones, incluso chistes. Los tambores
+literalmente se usaban para hablar.</p>
+<p>Carrington aprendió a tocar los tambores, en particular dominaba el
+Kele, un lenguaje de la famila
+<a href="http://en.wikipedia.org/wiki/Bantu_languages">Bantu</a>, del este de
+Zaire. Los nativos decían que en realidad él no era europeo, a pesar de
+su color, Carrington era uno de ellos. Que al morir los dioses habían
+enviado su alma por error a Inglaterra, al cuerpo de un bebé. Pero como
+era africano no pudo evitar volver. Generosamente los aldeanos decían,
+que si a veces sus mensajes por tambor sonaban extraños, era por la
+pobre educación que los blancos le habían dado.</p>
+<p>Carrington se convirtió en una autoridad lingüistica en la estructura de
+las familias de lenguajes africanos. Sus descubrimientos los publicó en
+un libro titulado: &ldquo;The Talkin Drums of Africa&rdquo; (Los Tambores Parlantes
+de África) en 1949.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/5fc01856-d54e-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Para entender el misterio de los tambores parlantes hay que conocer la
+estructura de los lenguajes africanos. Estos son lenguajes tonales,
+donde el sentido está determinado por la subida o bajada del tono al
+pronunciar vocales o consonantes. Nuestra lengua no tiene este tipo de
+cambio de tonalidades, salvo cuando hacemos una pregunta, o exclamación.
+Pronunciamos &ldquo;¿estás feliz?&rdquo; de forma distinta a cuando decimos &ldquo;estás
+feliz&rdquo;, en el caso de la pregunta hay una ligero alzamiento del tono al
+final de la frase. Eso es lo que los lenguajes africanos aplican a todas
+sus vocales y consonantes.</p>
+<p>Por ejemplo, la palabra <em>lisaka,</em> pronunciada con las tres sílabas bajas
+significa <em>charco</em>, cuando se pronuncia subiendo el tono en la última
+sílaba, sin necesariamente cargar la voz o acentuar, significa
+<em>promesa</em>, y pronunciada de otra forma puede significar <em>veneno</em>.</p>
+<p>Carrington observó cuan cómica la confusión puede ser:</p>
+<blockquote>
+<p>alambaka boili [-<em>&ndash;</em> _ _] = el miró la orilla del río<br>
+alambaka boili [&mdash;- _ - _ ] = el hirvió a su suegra</p></blockquote>
+<p>El tambor transmite el tono, pero no la altura, por eso en el lenguaje
+de los tambores se transmiten las consonantes representadas por los
+diversos tonos de los distintos tambores. El problema es que esto
+produce ambigüedades, por ejemplo, dos tonos altos de tambor en Kele,
+pueden ser <em>sango</em>, que significa padre, o <em>songe</em> que significa luna.
+Para evitar esta ambigüedad se introducen palabras adicionales que crean
+una frase que permite identificar la palabra. Por ejemplo, para decir la
+luna se usa la frase &ldquo;<em>songe li tange la manga</em>&rdquo; (&ldquo;la luna se ve abajo
+en la tierra&rdquo;). <strong>Los golpes adicionales proveen contexto.</strong></p>
+<p>Lo que hacen estos sonidos extras es introducir bits adicionales de
+información para corregir y desambiguar el mensaje.
+<strong>La redundancia, aunque ineficiente,
+evita la confusión del mensaje</strong>.</p>
+<h2 id="el-truco-de-la-redundancia">El truco de la redundancia</h2>
+<p>El truco de la repetición sólo envía el mismo mensaje una y otra vez.
+Pero, tal como hemos visto con la historia de los tambores parlantes, lo
+que debemos hacer es agregar algo extra para mejorar la comunicación.
+Este extra es lo que, en términos técnicos, llamamos <strong>redundancia</strong>.</p>
+<p>Si en vez de enviar los dígitos $ 521.375 podríamos enviar el siguiente
+mensaje:</p>
+<blockquote>
+<pre><code>cinco dos uno punto tres siete cinco
+</code></pre></blockquote>
+<p>Supongamos la misma tasa de error, del 20%, entonces algunos caracteres
+serían cambiados por otros, quedando el mensaje así:</p>
+<blockquote>
+<pre><code>kinco dos unp puntf tpes sieme cinpo
+</code></pre></blockquote>
+<p>Aunque es algo difícil de leer, estarán de acuerdo que cualquier que
+sepa leer y sabiendo que estamos hablando de números, podrá interpretar
+el mensaje como que el balance es de $ 521.375.</p>
+<p>Si les digo que &ldquo;sieme&rdquo; representa un dígito en español y que sólo un
+letra ha sido alterada, es casi cierto que me dirán que el número es
+&ldquo;siete&rdquo;, porque no hay otra palabra que alterando una letra nos de un
+número.</p>
+<p>Lo que hemos hecho con esto es crear un código:</p>
+<blockquote>
+<pre><code>1 -&gt; uno
+2 -&gt; dos
+3 -&gt; tres
+4 -&gt; cuatro
+5 -&gt; cinco
+</code></pre></blockquote>
+<p>Y para decodificar ocurre lo siguiente:</p>
+<blockquote>
+<pre><code> cinco -&gt; 5 (parea exacto)
+ cinpo -&gt; 5 (pareo aproximado)
+ unp -&gt; 1 (pareo aproximado)
+</code></pre></blockquote>
+<p>Y eso es lo que hacen los computadores todo el rato, usar estas tablas
+de codificación y redundancia.</p>
+<p>En 1947, Richard Hamming, desarrolló uno de estos códigos, que hoy se
+conoce como el Código de Hamming, mientras trabajaban en Laboratorios
+Bell.</p>
+<p>Como en el computador todo se almacena con ceros y uno, lo que se hace
+con el código de Hamming es agregar redundancia de una manera similar a
+lo que hicimos con las palabras:</p>
+<blockquote>
+<pre><code>0000 -&gt; 0000000
+0001 -&gt; 0001011
+0010 -&gt; 0010111
+0011 -&gt; 0011100
+0100 -&gt; 0100110
+</code></pre></blockquote>
+<p>Entonces al decodificar tenemos:</p>
+<blockquote>
+<pre><code>001011 -&gt; 0010 (pareo exacto)
+0010110 -&gt; 0010 (pareo cercano)
+1011100 -&gt; 0011 (pareo cercano)
+</code></pre></blockquote>
+<p>Este ejemplo corresponde a lo que conoce como el código Hamming (7,4).
+He presentado sólo 5 de 16 posibles combinaciones de 4 bits. No entraré
+en los detalles técnicos de cómo se implementa esto en los computadores,
+pero es esencialmente igual a lo que describí con el ejemplo de los
+número expresados por palabras. Si quieres saber más del código Hamming
+puedes visitar esta página en
+Wikipedia: <a href="https://es.wikipedia.org/wiki/C%C3%B3digo_Hamming"><a href="https://es.wikipedia.org/wiki/C%C3%B3digo_Hamming">https://es.wikipedia.org/wiki/C%C3%B3digo_Hamming</a></a></p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/942e5618-d54e-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Richard Hamming"><figcaption>
+      <p>Richard Hamming</p>
+    </figcaption>
+</figure>
+
+<p>Hay más técnicas para detectar y corregir errores, como el
+<a href="https://es.wikipedia.org/wiki/Suma_de_verificaci%C3%B3n">checksum</a> los
+<a href="https://es.wikipedia.org/wiki/Bit_de_paridad">bits de paridad</a>. Hasta
+el día de hoy se sigue trabajando y mejorando estas técnicas de
+corrección de errores (como con los <a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">low-density
+partity-check</a>,
+o los <a href="https://en.wikipedia.org/wiki/Fountain_code">Fountain Codes</a>).</p>
+<p>Estas técnicas fueron descubiertas y desarrolladas por Hamming y Claude
+Shannon entre 1947 y 1950. El paper de Shannon: &ldquo;The Mathematical
+Theory of Communication&rdquo;, se convirtió en el fundamento para todas
+estas técnicas que son usadas hoy para que tengamos computadores y redes
+confiables. Respecto a este trabajo seminal, Irving Reed, quien también
+desarrolló un código de corrección, expresó: &ldquo;Pocos trabajos de este
+siglo han tenido mayor impacto en la ciencia y la ingeniería. Este
+artículo ha alterado profundamente todos los aspectos de la teoría y
+práctica de la comunicación&rdquo;.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>&ldquo;El uso de la palabra
+Ordenador&rdquo; <a href="https://www.elmundo.es/su-ordenador/SORnumeros/97/SOR066/SOR066tribuna.html">https://www.elmundo.es/su-ordenador/SORnumeros/97/SOR066/SOR066tribuna.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Tomado de &ldquo;Nine Algorithms That Changed The Future&rdquo;, de John
+MacCormick.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2430 words</span>
+    <span>14 - 18 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#qué-hacen-las-computadoras">¿Qué hacen las computadoras?</a></li>
+    <li><a href="#el-truco-de-la-repetición">El Truco de la Repetición</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#el-truco-de-la-redundancia">El truco de la redundancia</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2018/10/21/corrigiendo-errores/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square/">Un almuerzo en Lafayette Square</a></li><li><a href="/blog/lnds/2011/04/17/dos-hombres-y-una-maquina-universal/">Dos hombres y una máquina universal</a></li><li><a href="/blog/lnds/2011/03/01/galeano-sobre-alan-turing/">Galeano sobre Alan Turing</a></li><li><a href="/blog/lnds/2010/06/12/la-maquina-de-turing-explicada-por-el-mismo-turing/">La Máquina de Turing explicada por él mismo Turing</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

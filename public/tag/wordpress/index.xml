@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/wordpress/</link>
+    <description>Recent content in Wordpress on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 16 Jul 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Razones</title>
+      <link>http://localhost:1313/blog/lnds/2014/07/16/razones/</link>
+      <pubDate>Wed, 16 Jul 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2014/07/16/razones/</guid>
+      <description>&lt;p&gt;Después de programar, escribir es una de las cosas que más me gusta&#xA;hacer. Desde hace ocho años que publico el blog&#xA;&amp;ldquo;&lt;a href=&#34;https://www.lnds.net/&#34;&gt;La Naturaleza Del Software&lt;/a&gt;&amp;rdquo;.&#xA;En el último tiempo la frecuencia de&#xA;escritura en ese blog fue bajando, algo que puede parecer bastante&#xA;natural, puesto que escribir blogs no es una actividad muy popular hoy&#xA;en día. Hay grandes &amp;ldquo;bloggers&amp;rdquo; que tienen casi abandonadas sus&#xA;bitácoras.&lt;/p&gt;&#xA;&lt;p&gt;Pero la verdad es que mi caso no sólo tenía relación con la falta de&#xA;motivación, o la escasez de tiempo. El problema tenía que ver con la&#xA;herramienta para publicar posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

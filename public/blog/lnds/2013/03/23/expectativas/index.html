@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Expectativas | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2013/03/23/expectativas/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Expectativas">
+  <meta property="og:description" content="“You’ve got to start with the customer experience and work back toward the technology - not the other way around.”
+Casos de Uso Les cuento lo que pensaba una amiga de los casos de uso. “Esha” es argentina, ¿viste? En una ocasión me contó un típico diálogo con uno de sus programadores: “¡Che! y le pregunto que cómo era posible que una factura tuviera fecha de vencimiento menor a la fecha de emisión, y ¿sabés que me contesta el boludo? ¡Que esa situación no estaba contemplada en el caso de uso! ¡¿Sabés que podés hacer con tus casos de uso?! le contesté…”">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-03-23T08:25:11-03:00">
+    <meta property="article:modified_time" content="2013-03-23T08:25:11-03:00">
+    <meta property="article:tag" content="Análisis">
+    <meta property="article:tag" content="Desarrollo">
+    <meta property="article:tag" content="Casos De Uso">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2013/03/23/expectativas/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2013/03/23/expectativas/featured.png">
+  <meta name="twitter:title" content="Expectativas">
+  <meta name="twitter:description" content="“You’ve got to start with the customer experience and work back toward the technology - not the other way around.”
+Casos de Uso Les cuento lo que pensaba una amiga de los casos de uso. “Esha” es argentina, ¿viste? En una ocasión me contó un típico diálogo con uno de sus programadores: “¡Che! y le pregunto que cómo era posible que una factura tuviera fecha de vencimiento menor a la fecha de emisión, y ¿sabés que me contesta el boludo? ¡Que esa situación no estaba contemplada en el caso de uso! ¡¿Sabés que podés hacer con tus casos de uso?! le contesté…”">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Expectativas</h1><time class="dim" datetime="2013-03-23T08:25:11-03:00">March 23, 2013</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/an%C3%A1lisis/">#análisis</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/desarrollo/">#desarrollo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/casos-de-uso/">#casos de uso</a>
+      </div></ol></div>
+  <section class="page-section"><blockquote>
+<p>&ldquo;You&rsquo;ve got to start with the customer experience and work back
+toward the technology - not the other way around.&rdquo;</p></blockquote>
+<h2 id="casos-de-uso">Casos de Uso</h2>
+<p>Les cuento lo que pensaba una amiga de los casos de uso. &ldquo;Esha&rdquo; es
+argentina, ¿viste? En una ocasión me contó un típico diálogo con uno de
+sus programadores: &ldquo;¡Che! y le pregunto que cómo era posible que una
+factura tuviera fecha de vencimiento menor a la fecha de emisión, y
+¿sabés que me contesta el boludo? ¡Que esa situación no estaba
+contemplada en el caso de uso! ¡¿Sabés que podés hacer con tus casos de
+uso?! le contesté&hellip;&rdquo;</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/026209e4-36fe-11e4-8e2f-8bfe00af0f84-aa9f18b7" alt=""></p>
+<p>:smile:  Suele suceder, con bastante frecuencia en realidad, hasta yo mismo
+en alguna ocasión he usado ese argumento, si no está en el caso de uso,
+entonces no tiene por que estar implementado,
+¿verdad?</p>
+<p>Pues no es así, y ese es el gran problema con la toma de requerimientos.
+Siempre partimos de la base de preguntarle al usuario qué quiere, que
+desea que le &ldquo;construyamos&rdquo;. Cuando en realidad deberíamos tratar de
+comprender que es lo que <strong>espera</strong> del sistema.</p>
+<p>¿Cómo es eso? ¿No son los requerimientos lo que espera el usuario del
+sistema? ¿Y no se refleja eso en los casos de uso?</p>
+<h2 id="qué-quieren-los-usuarios"><strong>¿Qué quieren los usuarios?</strong></h2>
+<blockquote>
+<p>You can't just
+ask customers what they want and then try to give that to them. By the
+time you get it built, they'll want something new. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+&ndash; Steve Jobs</p></blockquote>
+<p>Algo de razón tenía Steve Jobs cuando dijo que cuando le preguntas a
+tus clientes que quieres y tratas de dárselos, en el momento que lo
+hayas construido ya quieren algo nuevo. Es una rueda sin fin en la que
+nos involucramos desarrolladores y usuarios, nunca parecen alinearse las
+expectativas con los resultados. ¿Qué es lo que falla entonces?
+¿Cómo solucionarlo?</p>
+<p>![](https ://d2dspjyoh5c79p.cloudfront.net/4dc5f725-36fe-11e4-8e2f-8bfe00af0f84-aa9f18b7)</p>
+<blockquote>
+<p>Bruce: Eran tantos. Sólo les di lo que querían.<br>
+Dios: Sí. Pero, ¿desde cuando alguien tiene idea de lo que realmente quiere?\</p>
+<p>&ndash; Jim Carrey y Morgan Freeman en &ldquo;Todopoderoso&rdquo;</p></blockquote>
+<p>El enfoque tradicional, la aproximación al desarrollo en cascada, recoge
+los requerimientos y trata de plasmarlos a través de una cadena de
+actividades meticulosamente detallada y documentada: Toma de
+Requerimientos - Análisis Funcional - Análisis No Funcional - Diseño
+General - Diseño de Detalle - Diseño de Arquitectura - Programación -
+Diseño de Pruebas - Pruebas Unitarias - Pruebas de Integración - Pruebas
+de Aceptación de Usuario - Correcciones - Paso a Producción.</p>
+<p>Cuando al fin logramos de pasar a producción ya nadie quiere el sistema,
+y a veces termina siendo descartado. Con el tiempo se convoca un nuevo
+proyecto, o entramos en un eterno ciclo de &ldquo;mantenciones&rdquo;.</p>
+<h2 id="la-respuesta-ágil"><strong>La respuesta ágil</strong></h2>
+<p>Ante esta situación la respuesta del movimiento ágil es privilegiar las
+interacciones entre los individuos, por sobre los procesos y las
+herramientas.</p>
+<p>La propuesta ágil es agnóstica a la tecnología, no es relevante, lo que
+importa es satisfacer el requerimiento. La idea es la siguiente: el
+usuario no tiene claro que desea, nosotros tampoco, así que
+descubrámoslo en el hacer. Construyamos una funcionalidad, e iteremos.
+La cascada desaparece, aparece un molino de agua: recoger
+funcionalidades, priorizarlas e iterar, mejoras sucesivas hasta que
+descubramos juntos lo que se necesita.</p>
+<p>Lo que importa en el manifiesto ágil es el hacer: &ldquo;Working Software&rdquo;.
+Pero ahí parten los problemas, esta solución privilegia el &ldquo;Working
+Software&rdquo;(software funcionando), pero no habla del &ldquo;Usable Software&rdquo;
+(software útil).</p>
+<p>El agilismo es esencialmente reactivo. Propone colaboración con el
+cliente, &ldquo;responder al cambio por sobre seguir un plan&rdquo;. Construimos
+software, el usuario lo prueba, no es lo que esperaba, iteramos
+nuevamente&hellip;.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/82655706-36fe-11e4-8e2f-8bfe00af0f84-aa9f18b7" alt=""></p>
+<p>No es que esté en contra del movimiento ágil, pero después de años de
+intentar adherirme a sus principios, y observando los resultados
+obtenidos, creo que le falta algo. Llevo tiempo reflexionado al respecto
+y creo que he visto algunas de las falencias de esta aproximación, y
+algo de eso es lo que intento explorar en este
+texto.</p>
+<h2 id="requerimientos-vs-expectativas"><strong>Requerimientos vs Expectativas</strong></h2>
+<p>Si se fijan todas la metodologías tienen que ver con cómo plasmar los
+requerimientos del cliente en un producto. En términos simples, todo se
+trata de elaborar una lista de lo que tenemos que hacer y después
+hacerlo. El orden, la forma en que nos aproximamos es la que varía, ya
+sea que ejecutemos las tareas en forma secuencial una tras otra, de
+forma iterativa incremental, o de forma reactiva, como se propone en las
+formas más extremas de agilismo.</p>
+<p>Lo que yo digo es que el problema no está tanto en la forma, sino en el
+fondo. El problema es que todas esta metodologías tratan sobre el manejo
+de los requerimientos, cuando en realidad deberían preocuparse del
+manejo de las expectativas.</p>
+<p>¿Cómo es eso?</p>
+<p>Una expectativa no es un deseo casual, es algo tácito que va más allá de
+los supuestos conscientes, es algo que reside parcialmente en el
+inconsciente del usuario.</p>
+<blockquote>
+<p>&ldquo;Muchos usuarios pueden expresar lo que quieren, algunos pueden
+justificar sus necesidades, y cuando usan tu producto todos pueden
+decirte si este hace lo que ellos esperaban&rdquo; <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p></blockquote>
+<p>En muchos proyectos se elaboran listas de funcionalidad potenciales,
+elegidas y motivadas por la visión de negocios de que es lo que el
+cliente está dispuesto a pagar (o sea, lo que el cliente quiere). Esta
+descripción por si misma no nos dice mucho sobre cómo serán usadas estas
+funciones, o por qué se usarán.</p>
+<p>Una lección que aprendieron los autores del libro <a href="https://amzn.to/11uAEJX">Lean
+Architecture</a> fue la siguiente:</p>
+<blockquote>
+<p>&ldquo;Aprendimos una lección sobre las expectativas de los usuarios a
+partir de un cliente nuestro. El cliente construye sistemas de
+análisis de ruido para todo tipo de artefactos, desde automóviles
+hasta aspiradoras. Algo que aprendimos que sus clientes productores de
+aspiradoras insistían en que una buena aspiradora hace un ruido
+sustancial cuando está trabajando a tope. Para el mercado alemán este
+ruido debe ser un rugido grave, para otros mercados un chillido agudo.
+La meta no es minimizar el ruido, a pesar de que es posible construir
+aspiradoras bastante silenciosas sin reducir su efectividad.&rdquo;</p></blockquote>
+<h2 id="anticipación"><strong>Anticipación</strong></h2>
+<p>Uno de los problemas con la toma de requerimientos es que no es posible
+anticipar todos los escenarios que pueda concebir un usuario. Así que
+debemos profundizar en la percepción del usuario sobre la forma del
+sistema. Esto se conoce como el <strong>modelo cognitivo del usuario final</strong>.</p>
+<p>&ldquo;Los casos de uso capturan las interacciones con el sistema que los
+usuarios finales pueden anticipar. Si los usuarios finales pueden
+anticipar todas las interacciones para todos los valores posibles de
+entrada, entonces la especificación es completa. Esto hace que construir
+el programa sea innecesario porque hemos delineado toda posible
+respuesta a partir de toda posible entrada, y bastaría con revisar la
+respuesta en las especificaciones en vez de ejecutar el programa. Por
+supuesto, esto es absurdo. Los buenos sistemas de software tienen valor
+porque pueden, hasta cierto grado, manejar lo no anticipado.&rdquo;<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Supongamos que nos piden construir un procesador de textos. Un
+requerimiento sería poder mover una tabla dentro del documento. Veamos
+posibles escenarios o casos de uso posibles: mover la tabla de una
+página a otra; mover la tabla justo entre dos párrafos ya existentes; o
+mover la tabla dentro de otra tabla. Las posibilidades son
+interminables. ¿Cómo abordamos eso con el enfoque tradicional de casos
+de uso?</p>
+<p>En vez de eso, es mejor orientar nuestros esfuerzos a definir algo más
+importante: el modelo cognitivo del usuario final. Los usuarios tienen
+modelos en su cabeza de los detalles internos del programa que utilizan.
+Confían que el programa &ldquo;sabe&rdquo; qué es una tabla, un párrafo, una
+figura, etc. El usuario confía en que los programadores han prestado
+atención a la necesidad de que haya un espacio en blanco entre la tabla
+y los párrafos adyacentes. Estos elementos del modelo mental del usuario
+final, aunque sean estáticos, son útiles para poder razonar sobre los
+posibles escenarios que modelamos en los casos de uso.</p>
+<p>En el caso que les relaté al principio, el de mi amiga y sus sistema de
+facturación, la falla está en que el requerimiento no capturó
+adecuadamente el modelo mental del usuario, &ldquo;en una factura la fecha de
+vencimiento no puede ser menor a la fecha de emisión&rdquo;, esto es algo
+evidente, pero por eso mismo es muy raro que vaya a surgir de una toma
+de requerimiento, es algo que suponemos que el desarrollador domina, o
+que al menos ha investigado.</p>
+<p>Este modelo cognitivo debe capturarse dentro de la arquitectura de la
+solución. Si lo capturamos bien, podemos garantizar que podremos
+satisfacer lo que el usuario quiere y necesita, pero de paso haremos
+nuestra solución más resiliente cuando nos pidan implementar un
+escenario razonable pero no anticipado.</p>
+<h2 id="problemas-y-soluciones"><strong>Problemas y Soluciones</strong></h2>
+<p>Jerry Weinberg define problema como &ldquo;la diferencia entre el estado
+actual y un estado deseado&rdquo;. Así que cuando vamos a enfrentar un
+desafío de programación (sea una simple rutina, o un sistema completo),
+debemos empezar por aclarar la noción de qué queremos resolver. Teniendo
+clara esta noción sabremos que significa que algo esté listo (done).</p>
+<blockquote>
+<p>&ldquo;Sin una definición del problema, es difícil saber cuando has
+terminado. Claro, puedes señalar una lista de tareas que has
+completado y que fueron diseñadas inicialmente para acortar la brecha
+entre el estado actual y el estado deseado, pero eso no significa que
+hayas terminado. Los requerimientos emergentes provocan que el paisaje
+se desplace durante el desarrollo, y aún así los caminos mejor
+planeados no te llevan a los destinos mejor concebidos.&rdquo;<sup id="fnref2:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p></blockquote>
+<p>A esto lo llamamos <em>visión</em>. La visión es la brújula que nos guía. ¿Por
+qué estamos haciendo lo que estamos haciendo? Esa es la pregunta
+esencial que debe hacerse el buen ingeniero.</p>
+<p>La visión también ayuda a entender mejor las expectativas del usuario.</p>
+<p>Recientemente leí este tweet:</p>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Insumir mucho tiempo pensando como soportar una carga grande de usuarios sin siquiera haber lanzado el producto, es una pérdida de tiempo.</p>&mdash; Ideas Ágiles (@ideasagiles) <a href="https://twitter.com/ideasagiles/status/313618318844121088?ref_src=twsrc%5Etfw">March 18, 2013</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote>
+<p>Insumir mucho tiempo pensando como soportar una carga grande de usuarios sin
+siquiera haber lanzado el producto, es una pérdida de tiempo.</p></blockquote>
+<p>¿Qué significa esto a la luz de lo que estamos discutiendo? Sin tener
+claro cuál es la visión, puede tener mayor o menor sentido. Claramente
+pesa la visión del hacer y reaccionar del agilismo. Que está bien,
+después de todo lo importante es salir con el producto. Pero, ¿y si el
+cliente, esperaba que el sistema soportara una carga grande de usuarios
+desde el principio?</p>
+<p>El modelo ágil tradicional (Scrum, por ejemplo) privilegia el &ldquo;hacer y
+reaccionar&rdquo;. Hay otra manera de abordarlo (Lean), que privilegia el
+pensar y luego hacer.</p>
+<p>Ese es el modelo que es mejor, en mi opinión. Pero sin llegar al extremo
+de pensar demasiado y no hacer nada. Pasar 3 meses diseñando un sistema
+no lleva a ninguna parte.</p>
+<p>Eso es algo que debemos recuperar, y que parece haberse perdido en el
+agilismo. Pensar, luego hacer, por sobre el hacer y reaccionar. Software
+útil (usable software) más que software funcionando (working software).</p>
+<h2 id="prácticas-perdidas"><strong>Prácticas Perdidas</strong></h2>
+<p>Muchos al abordar metodologías ágiles piensan que se trata de botar todo
+lo &ldquo;desagradable&rdquo;, cosas como arquitectura, documentación, análisis
+funcional, deben quedar fuera. Como si se tratara de traer un Scrum
+Master o algo similar que toque el tambor, y poner a usuarios y
+desarrolladores a iterar juntos hasta sacar algo mínimamente aceptable.
+Después de todo, se trata de &ldquo;individuos e interacciones por sobre
+procesos y herramientas&rdquo;.</p>
+<p>El agilismo tiene la virtud de ser probablemente el primer movimiento en
+el desarrollo de software que introdujo un conjunto maduro de
+disciplinas. Lamentablemente, en el camino mucha experiencia ganada, que
+no estaba en este conjunto de disciplinas se fue perdiendo, o la fuimos
+considerando como irrelevante, y no lo son.</p>
+<p>Hay que recuperar esas prácticas perdidas. ¿Cuáles prácticas? me
+preguntarán, bueno, de eso vamos a hablar en los próximos posts ;-)</p>
+<p><strong>Notas</strong></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.inc.com/magazine/19890401/5602.html">https://www.inc.com/magazine/19890401/5602.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://amzn.to/11uAEJX">Lean Architecture, for Agile Software Development</a>, James Coplien &amp; Gertrud Bjornvig.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1976 words</span>
+    <span>11 - 14 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#casos-de-uso">Casos de Uso</a></li>
+    <li><a href="#qué-quieren-los-usuarios"><strong>¿Qué quieren los usuarios?</strong></a></li>
+    <li><a href="#la-respuesta-ágil"><strong>La respuesta ágil</strong></a></li>
+    <li><a href="#requerimientos-vs-expectativas"><strong>Requerimientos vs Expectativas</strong></a></li>
+    <li><a href="#anticipación"><strong>Anticipación</strong></a></li>
+    <li><a href="#problemas-y-soluciones"><strong>Problemas y Soluciones</strong></a></li>
+    <li><a href="#prácticas-perdidas"><strong>Prácticas Perdidas</strong></a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2013/03/23/expectativas/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2013/01/19/cuatro-cosas-minimas/">Cuatro cosas mínimas</a></li><li><a href="/blog/lnds/2012/12/29/el-mejor-proceso-de-desarrollo-de-software/">El mejor proceso de desarrollo de software</a></li><li><a href="/blog/lnds/2011/07/13/sobre-como-rascarse-una-oreja/">Sobre cómo rascarse una oreja</a></li><li><a href="/blog/lnds/2010/10/09/como-estimar-software/">Cómo estimar software</a></li><li><a href="/blog/lnds/2010/07/11/control-de-versiones-distribuido/">Control de Versiones Distribuido</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

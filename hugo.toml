@@ -5,6 +5,13 @@ theme = 'rusty-typewriter'
 
 ignoreLogs = ['shortcode-x-getremote']
 
+[permalinks]
+posts = "/blog/lnds/:year/:month/:day/:slug"
+event = "/talk/:slug/"
+tags = "/tag/:slug/"
+categories = "/category/:slug/"
+publication_types = "/publication-type/:slug/"
+
 [markup.goldmark.renderer]
 unsafe = true
 

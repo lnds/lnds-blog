@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Fin de la Agilidad (X) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2019/06/16/el-fin-de-la-agilidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El Fin de la Agilidad (X)">
+  <meta property="og:description" content="(para escuchar la banda sonora de este post haz click en este enlace)
+Spirit with a vision
+Is a dream with a mission – Rush
+En febrero de 2011 habíamos pasado a producción uno de los proyectos más ambiciosos abordados por mi equipo hasta ese momento. Cumplimos en los plazos, aunque el sistema técnicamente no estaba terminado. Tal como expliqué antes, si nos comprometemos a una fecha nuestro foco es cumplir con el plazo. La gestión se enfoca a lograr este hito primero, si eso requiere recortar alcance, pues se recorta. Otra medida importante es la gestión de los riesgos, mantener a todos informados de los impedimentos que no permiten cumplir con la fecha y tomar medidas para mitigarlas. Así que una vez cumplido el hito de paso a producción, empezaba una etapa posterior de mejora continua para estabilizar el sistema para cubrir la mayor cantidad de requisitos establecidos en el alcance original.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-06-16T08:25:11-03:00">
+    <meta property="article:modified_time" content="2019-06-16T08:25:11-03:00">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="Trabajo">
+    <meta property="article:tag" content="Gestión">
+    <meta property="article:tag" content="Personas">
+    <meta property="article:tag" content="Equipo">
+    <meta property="article:tag" content="Procesos">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2019/06/16/el-fin-de-la-agilidad/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2019/06/16/el-fin-de-la-agilidad/featured.png">
+  <meta name="twitter:title" content="El Fin de la Agilidad (X)">
+  <meta name="twitter:description" content="(para escuchar la banda sonora de este post haz click en este enlace)
+Spirit with a vision
+Is a dream with a mission – Rush
+En febrero de 2011 habíamos pasado a producción uno de los proyectos más ambiciosos abordados por mi equipo hasta ese momento. Cumplimos en los plazos, aunque el sistema técnicamente no estaba terminado. Tal como expliqué antes, si nos comprometemos a una fecha nuestro foco es cumplir con el plazo. La gestión se enfoca a lograr este hito primero, si eso requiere recortar alcance, pues se recorta. Otra medida importante es la gestión de los riesgos, mantener a todos informados de los impedimentos que no permiten cumplir con la fecha y tomar medidas para mitigarlas. Así que una vez cumplido el hito de paso a producción, empezaba una etapa posterior de mejora continua para estabilizar el sistema para cubrir la mayor cantidad de requisitos establecidos en el alcance original.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El Fin de la Agilidad (X)</h1><time class="dim" datetime="2019-06-16T08:25:11-03:00">June 16, 2019</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/trabajo/">#trabajo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/gesti%C3%B3n/">#gestión</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/personas/">#personas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/equipo/">#equipo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/procesos/">#procesos</a>
+      </div></ol></div>
+  <section class="page-section"><p><strong>(para escuchar la banda sonora de este post haz click en <a href="https://open.spotify.com/user/ediazlnds/playlist/08fLYPWrAr9AQv5KxLwV2C?si=blthJlQjR1uw7M0M5ov-Wg">este
+enlace</a>)</strong></p>
+<blockquote>
+<p>Spirit with a vision<br>
+Is a dream with a mission <br>
+&ndash; Rush</p></blockquote>
+<p>En febrero de 2011 habíamos pasado a producción uno de los proyectos más
+ambiciosos abordados por mi equipo hasta ese momento. </p>
+<p>Cumplimos en los plazos, aunque el sistema técnicamente no estaba
+terminado. Tal <a href="/blog/lnds/2019/05/21/el-fin-de-la-agilidad">como expliqué antes</a>,
+si nos comprometemos a una fecha nuestro foco es cumplir con el plazo.
+La gestión se enfoca a lograr este hito primero, si eso requiere
+recortar alcance, pues se recorta. Otra medida importante es la gestión
+de los riesgos, mantener a todos informados de los impedimentos que no
+permiten cumplir con la fecha y tomar medidas para mitigarlas. Así que
+una vez cumplido el hito de paso a producción, empezaba una etapa
+posterior de mejora continua para estabilizar el sistema para cubrir la
+mayor cantidad de requisitos establecidos en el alcance
+original.</p>
+<h2 id="boston">Boston</h2>
+<blockquote>
+<p>&ldquo;I'm shipping up to Boston<br>
+&mdash; Dropkick Murphys</p></blockquote>
+<p>Después de ese hito, En mayo de 2011 viajé a Boston, Massachusets, para
+asistir al RedHat Summit de ese año. También había recibido un
+reconocimiento de la empresa por mi trabajo en esos primeros años, así
+que me sentía contento.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/b63e601a-905d-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>El evento fue interesante, porque ahí pude asistir <a href="https://www.lnds.net/blog/2011/05/red-hat-jboss-summit-2011.html">al lanzamiento de
+la primera versión de
+Openshift</a>.</p>
+<p>Así fue cómo resucitaron los recuerdos de lo que vi en <a href="https://www.lnds.net/blog/lnds/2019/3/18/el-fin-de-la-agilidad">aquella visita a
+Borland en los 90</a>.
+Quería que trabajáramos en integración continua. Tuvieron que pasar un
+par de años aún para empezar a implementar esta tecnología en nuestra
+empresa.</p>
+<p>También se produjo uno de los primeros cambios importantes en esa época.
+Rubén Valenzuela nos comunicó que decidiría aceptar una oferta en Oracle
+y que abandonaría la empresa. Eso planteaba una re estructuración mayor.
+De este modo, decidimos dividir nuestra área de sistemas, el equipo de
+DBAs e ingenieros de sistemas se incorporarían al equipo principal de
+sistemas de Previred. El grupo de soporte y QA estaría a mi cargo. Así
+empezamos la búsqueda de una persona que se hiciera cargo de esta área,
+que llamamos temporalmente &ldquo;area de explotación&rdquo;. Fue así como se
+incorporó Elizabeth Sepúlveda a nuestro equipo.</p>
+<p>Ese año también Carolina Rojas se hizo cargo de todo el equipo de
+desarrollo, así fue como nació la organización nuclear de mi equipo de
+trabajo. </p>
+<p>El <strong>power trio</strong> que apoyaría mi gestión durante estos años, nació en
+esa época, aunque no se consolidaría hasta un buen tiempo después.
+Carolina Rojas a cargo de la gestión de proyectos y el equipo de
+desarrolladores, Elizabeth Sepúlveda en control de calidad y soporte, y
+Miguel González en arquitectura. Estas tres personas estaban conmigo en
+2011, pero sus cargos y posiciones definitivas las fuimos configurando a
+lo largo de varios años.</p>
+<h2 id="power-trio">Power Trio</h2>
+<blockquote>
+<p>Today is the day for you to rise,<br>
+Take my hand, you're gonna be my man,<br>
+You're gonna rise<br>
+ &mdash; Jimmy Hendrix Experience</p></blockquote>
+<p>En el rock, un <a href="https://es.wikipedia.org/wiki/Power_trio">power trío</a> [es una formación
+musical compuesta originalmente por una guitarra eléctrica, un bajo
+eléctrico y una batería. Esta formación nació en la década de los
+sesenta, uno de los primeros ejemplos son Cream y The Jimmy Hendrix
+Experience.]{style=&ldquo;letter-spacing: 0.01rem;&rdquo;}</p>
+<p>ZZ Top, es un ejemplo de un power trio famoso de blues texano, formado
+en 1970. En el progresivo tenemos a Rush, y Emerson Lake and Palmer, en
+este último caso la guitarra se reemplaza por
+sintetizadores.</p>
+<p>Y uno de los mejores power trios de los ochenta es por supuesto The
+Police. Cuando vinieron a Chile en 2008, mi hermana me regalo para mi
+cumpleaños entradas para ir a verlos. Fue una jornada increíble ver a
+los tres británicos y en particular a Stewart Copeland, uno de mis
+bateristas favoritos en vivo.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/d1b7a687-8f9a-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<h2 id="intermezzo">Intermezzo</h2>
+<blockquote>
+<p>And the colors of the sea<br>
+Blind your eyes with trembling mermaids<br>
+And you touch the distant beaches<br>
+With tales of brave Ulysses <br>
+&mdash; Cream</p></blockquote>
+<p>En <a href="https://www.akarru.com/blog/2010/07/04/tres/">julio de 2010 reflexioné</a> sobre el
+número tres:</p>
+<blockquote>
+<p>&ldquo;Triple es la manifestación de la Diosa, como Doncella (Coré), como
+Madre o Mujer adulta (Demeter) y como Anciana o Bruja (Hécate). Como
+la luna, Creciente, Llena, Menguante.</p></blockquote>
+<blockquote>
+<p>Tres son las Moiras (o Parcas), que decidían el destino de los
+hombres, Cloto la que hilaba el hilo de la vida, Láquesis que lo
+medía, y la más terrible, Átropos que lo cortaba.&rdquo;<br>
+Tres las Gorgonas:
+<a href="https://www.akarru.com/blog/2010/04/19/perseo-medusa-y-pegaso/">Medusa</a>,
+Esteno y Euríale. Tres las Grayas, las ninfas del Estigia, que
+compartían un único ojo y <a href="http://www.akarru.com/blog/2010/04/19/perseo-medusa-y-pegaso/">que fueron engañadas por
+Perseo</a> para
+obtener el yelmo de Hades y los objetos mágicos necesarios para lograr
+su hazaña.</p></blockquote>
+<blockquote>
+<p>Triple era la división del calendario de los antiguos, en 3
+estaciones, no en cuatro como nosotros.360 días, en 12 meses, de 30
+días, y 4 días de renovación. Múltiplos de 3, como las 24 horas.</p></blockquote>
+<blockquote>
+<p>Triple es el dios de los cristianos, Padre, Hijo y Espíritu Santo,
+representado por un triángulo equilatero apuntando hacia arriba.<br>
+<br>
+Triples son las historias de los hermanos, el mayor, el del medio y el
+menor (que siempre es el héroe). Como los tres chanchitos (o los tres
+cerditos), o la fábula de tres hermanos de Silvio.</p></blockquote>
+<blockquote>
+<p>Triples los chistes, de primer acto, segundo acto, tercer acto, y los
+chistes de 3 personajes, normalmente de paises vecinos (un argentino,
+un peruano y un chileno&hellip;), o de tres potencias (el presidente de
+estados unidos, el de rusia y por supuesto el de chile van en un
+avión&hellip;).</p></blockquote>
+<blockquote>
+<p>Tres son las oportunidades, tres son los deseos que otorga el genio de
+la botella.<br>
+<br>
+¡La tercera es la vencida!<br>
+<br>
+Tres partes debe tener un drama dice Aristóteles, principio, medio y
+fin. Tres actos, según el paradigma de Syd Field para los guiones:
+planteamiento, confrontación, desenlace.</p></blockquote>
+<blockquote>
+<p>&ldquo;Te amo&rdquo;, te amo, te amo&rdquo;, repite tres veces el Señor Darcy a Lizzy,
+en la versión fílmica de Orgullo y Prejuicio, favorita de mi esposa. Y
+las tres mujeres de mi casa suspiran por igual al ver esa escena. Yo
+prefiero cuando Leonidas usa la triple fórmula en 300: &ldquo;My Queen, My
+Wife, My Love&rdquo; (mi reina, mi esposa, mi amor).</p></blockquote>
+<blockquote>
+<p>Tres, siempre tres.<br>
+Algo hay cableado en nuestro cerebro que reclama esta estructura
+triple, esta triple repetición, el triple suspiro. Tres.</p></blockquote>
+<p>Tres puntos definen un plano, por eso la [mesa más estable es la de tres
+patas. Entonces, ¿qué es lo que el
+número tres tiene para aportarnos?</p>
+<h2 id="las-tres-p">Las tres P</h2>
+<blockquote>
+<p>When the world is running down<br>
+You make the best of what's still around<br>
+&mdash; The Police</p></blockquote>
+<p>Como líder administrador, gerente, jefe tu principal preocupación
+debería estar en tres cosas, nos recomienda Julie Zhuo en su libro: <a href="https://www.amazon.com/Making-Manager-What-Everyone-Looks/dp/0735219567">The
+Making of a
+Manager.</a></p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/215b91f8-8f9c-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>Yo las llamo las 3 P de la
+administración:</p>
+<p><strong>Propósito, Personas y Proceso</strong></p>
+<p>El propósito se encarga de definir el por qué, el Why que menciona
+Simon Syntek en <a href="https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=es">su famosa charla
+TED</a>.
+Synek no propone una estrategia de negocios en esta charla, lo que nos
+explica es la forma en que los líderes inspiran. Es importante
+distinguir esto.</p>
+<p>El segundo elemento son las personas, es decir el quién. Son el
+elemento más importante, es a ellos a quienes debe dirigirse la 
+visión.</p>
+<p>El tercer elemento de este triángulo dorado es el cómo, es decir, el
+proceso.Preocúpate de establecer y
+comunicar bien el propósito, elige a las personas adecuadas, luego
+configura y mejora continuamente el proceso, que es la forma cómo se
+hacen las cosas. Esa es la clave para empezar a
+avanzar.</p>
+<p>Las voy a resumir en este diagrama:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/fbf46a89-8f9c-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>Este es un verdadero power trio que, yo creo, te permitirá salir
+adelante con todos los proyectos que emprendas y comprometas. </p>
+<p><em><strong>Propósito, Personas y Proceso.</strong></em></p>
+<p>En el centro del triángulo surge el qué, el producto, el resultado de
+tu gestión.</p>
+<h2 id="colofón">Colofón</h2>
+<blockquote>
+<p>Synchronicity<br>
+A connecting principle,<br>
+Linked to the invisible<br>
+Almost imperceptible <br>
+&ndash; The Police</p></blockquote>
+<p>Sólo quiero agregar una cosa más.</p>
+<p>Kierkegaard nos dice que la vida consiste en una serie de decisiones
+que tomamos día tras día. Nuestra existencia es, finalmente, el
+resultado de esas decisiones. Tomamos esas decisiones en función de lo
+que somos y de lo que queremos ser.</p>
+<p><em>&ldquo;La vida no es un problema a ser resuelto sino una realidad que debe
+ser experimentada&rdquo;.</em></p>
+<p>Comprenderán entonces que en 2011 este triángulo que les he mostrado no
+era un concepto que yo tuviera claro o definido. Apenas estaba avanzando
+tomando las mejores decisiones que me parecían pertinentes en ese
+momento. Cada elección era una apuesta. Cada apuesta tenía resultados y
+consecuencias. No todas las decisiones fueron acertadas, y cometimos
+muchos errores.</p>
+<p>Kiekegard dice &ldquo;La vida sólo puede ser comprendida mirando hacia atrás,
+pero ha de ser vivida mirando hacia adelante&rdquo;. Lo que nos dice el
+filósofo danés es que para comprender lo que somos debemos mirar a
+nuestro pasado.</p>
+<p>Esta serie me ha permitido comprender muchas cosas de lo que soy como
+persona, además de entender cómo nuestro equipo ha llegado a ser y
+funcionar de la forma en que lo hace. Pero lo más importante, es que no
+debemos quedarnos atrapados en el pasado, hay situaciones que ya no
+podemos cambiar, quedarse pegado lamentando esto es morir lentamente. Me
+niego a eso, por supuesto. Cuando me sienta tranquilo y completo
+significa que estoy listo y resignado a morir. Así que con lo valiosas y
+entretenidas que son estas memorias, lo mejor aún está por
+llegar. </p>
+<h2 id="notas">Notas</h2>
+<p>El capítulo 9 de esta serie se encuentra
+<a href="/blog/lnds/2019/05/21/el-fin-de-la-agilidad">acá</a>.</p>
+<p>El inicio de la serie completa está en este
+<a href="/blog/lnds/2019/03/17/el-fin-de-la-agilidad">enlace</a>.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1565 words</span>
+    <span>9 - 12 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/el-fin-de-la-agilidad">el fin de la agilidad</a></span></small>
+      </div></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#boston">Boston</a></li>
+    <li><a href="#power-trio">Power Trio</a></li>
+    <li><a href="#intermezzo">Intermezzo</a></li>
+    <li><a href="#las-tres-p">Las tres P</a></li>
+    <li><a href="#colofón">Colofón</a></li>
+    <li><a href="#notas">Notas</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2019/06/16/el-fin-de-la-agilidad/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2019/05/21/el-fin-de-la-agilidad/">El Fin de la Agilidad (IX)</a></li><li><a href="/blog/lnds/2019/04/06/el-fin-de-la-agilidad/">El Fin de la Agilidad (VI)</a></li><li><a href="/blog/lnds/2019/03/31/el-fin-de-la-agilidad/">El Fin de la Agilidad (V)</a></li><li><a href="/blog/lnds/2019/03/23/el-fin-de-la-agilidad/">El Fin de la Agilidad (IV)</a></li><li><a href="/blog/lnds/2019/03/19/el-fin-de-la-agilidad/">El Fin de la Agilidad (III)</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

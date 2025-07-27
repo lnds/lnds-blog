@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analogías on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/analog%C3%ADas/</link>
+    <description>Recent content in Analogías on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 15 Jan 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/analog%C3%ADas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedades Radicales</title>
+      <link>http://localhost:1313/blog/lnds/2010/01/15/novedades-radicales/</link>
+      <pubDate>Fri, 15 Jan 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/01/15/novedades-radicales/</guid>
+      <description>&lt;p&gt;Hay mucha gente a la que le encanta establecer analogías (o isomorfismos&#xA;como los llama Pepe Flores), para explicar nuevos conceptos, o ideas.&#xA;Pero en realidad esa manera de pensar siempre falla cuando nos&#xA;enfrentamos con conceptos que son &amp;ldquo;novedades radicales&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Al respecto quiero compartir este texto de Dijsktra donde explica mucho&#xA;mejor esto:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;La manera usual en la cual hoy planificamos para el mañana es en el&#xA;vocabulario de ayer. Lo hacemos porque tratamos de avanzar con los&#xA;conceptos que nos son familiares, los cuales han adquirido un&#xA;significado en nuestra experiencia pasada. Por supuesto, las palabras&#xA;y los conceptos no encajan precisamente porque nuestro futuro difiere&#xA;de nuestro pasado, pero las estiramos un poco. Los lingüistas están&#xA;bastante familiarizados con el fenómeno en el cual los significados de&#xA;las palabras evolucionan a través del tiempo, pero también saben que&#xA;este es un proceso lento y gradual.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

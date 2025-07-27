@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Browsers on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/browsers/</link>
+    <description>Recent content in Browsers on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 29 Sep 2005 19:32:59 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/browsers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cual Browser es el más seguro?</title>
+      <link>http://localhost:1313/blog/lnds/2005/09/29/cual-browser-es-el-mas-seguro/</link>
+      <pubDate>Thu, 29 Sep 2005 19:32:59 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/09/29/cual-browser-es-el-mas-seguro/</guid>
+      <description>&lt;p&gt;¿Como juzgar a los browsers, de una manera más objetiva?&lt;/p&gt;&#xA;&lt;p&gt;Afortunadamente, &lt;a href=&#34;http://replay.waybackmachine.org/20060211180559/http://secunia.com/&#34;&gt;Secunia&lt;/a&gt; nos puede ayudar, los siguientes gráficos muestran la cantidad de fallas y el porcentaje de reparación de los problemas informados, para Internet Explorer 6, Firefox, y Opera.&#xA;(Estos gráficos pueden cambiar en el tiempo)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

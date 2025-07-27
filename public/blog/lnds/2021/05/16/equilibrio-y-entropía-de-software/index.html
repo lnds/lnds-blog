@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Equilibrio y Entropía de Software | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2021/05/16/equilibrio-y-entrop%C3%ADa-de-software/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Equilibrio y Entropía de Software">
+  <meta property="og:description" content="Este es el segundo artículo de esta serie, en que estoy investigando el concepto de entropía de software.
+Para continuar he elegido un ejercicio muy sencillo, que tomé de Project Euler. En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:
+“Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5 y 9. La suma de estos múltiplos es 23.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-05-16T10:49:02-04:00">
+    <meta property="article:modified_time" content="2021-05-16T10:49:02-04:00">
+    <meta property="article:tag" content="Evolución">
+    <meta property="article:tag" content="Software">
+    <meta property="article:tag" content="Desarrollo">
+    <meta property="article:tag" content="Ingeniería De Software">
+    <meta property="article:tag" content="Programas">
+    <meta property="article:tag" content="Sistemas">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2021/05/16/equilibrio-y-entrop%C3%ADa-de-software/featured.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2021/05/16/equilibrio-y-entrop%C3%ADa-de-software/featured.jpg">
+  <meta name="twitter:title" content="Equilibrio y Entropía de Software">
+  <meta name="twitter:description" content="Este es el segundo artículo de esta serie, en que estoy investigando el concepto de entropía de software.
+Para continuar he elegido un ejercicio muy sencillo, que tomé de Project Euler. En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:
+“Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5 y 9. La suma de estos múltiplos es 23.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Equilibrio y Entropía de Software</h1><time class="dim" datetime="2021-05-16T10:49:02-04:00">May 16, 2021</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/evoluci%C3%B3n/">#evolución</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/software/">#software</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/desarrollo/">#desarrollo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/ingenier%C3%ADa-de-software/">#ingeniería de software</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/programas/">#programas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/sistemas/">#sistemas</a>
+      </div></ol></div>
+  <section class="page-section"><p>Este es el segundo artículo de <a href="/categories/entropia-de-software/">esta serie</a>, en que estoy investigando el concepto de entropía de software.</p>
+<p>Para continuar he elegido un ejercicio muy sencillo, que tomé de <a href="https://projecteuler.net">Project Euler</a>. En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:</p>
+<blockquote>
+<p>&ldquo;Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5 y 9. La suma de estos múltiplos es 23.</p>
+<p>Encuentre la suma de todos los múltiplos de 3 ó 5 menores a 1000.&rdquo;</p></blockquote>
+<p>Vamos a generalizar este problema y definiremos nuestra especificación de la siguiente manera:</p>
+<blockquote>
+<p>&ldquo;Encuentre la suma de todos los múltiplos de 3 ó 5 menores al número natural n.&rdquo;</p></blockquote>
+<p>El siguiente esqueleto de programa, en python, permite resolver este problema:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>(n: int) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    n <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;ingrese n: &#34;</span>), <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;el resultado es&#39;</span>,  main(n))
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;debe ingresar un número&#34;</span>)
+</span></span></code></pre></div><p>Podemos definir una serie de tests para validar nuestra función main (cuya implementación está pendiente), usando <code>unittest</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> unittest
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> main <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Euler1Test</span>(unittest<span style="color:#f92672">.</span>TestCase):
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_euler</span>(self):
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">0</span>), <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">4</span>), <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">6</span>), <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">10</span>), <span style="color:#ae81ff">23</span>)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">100</span>), <span style="color:#ae81ff">2318</span>)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>assertEqual(main(<span style="color:#ae81ff">1000</span>), <span style="color:#ae81ff">233168</span>)
+</span></span></code></pre></div><p>Si recuerdan nuestra discusión en <a href="/blog/lnds/2021/05/08/hablemos-de-entropia-de-software/">el artículo anterior</a> estamos ante la presencia de un programa tipo S, o <code>s-program</code>. La especificación es formal y podemos definir cuál es la salida esperada para cada entrada. Eso lo expresamos con algunos casos de prueba en nuestro test unitario.</p>
+<p>Resolveremos el problema, escribiendo la función <code>main</code> de la siguiente forma:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>(n: int) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>: <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i <span style="color:#f92672">%</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> i <span style="color:#f92672">%</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>      sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> sum
+</span></span></code></pre></div><p>Pueden probar esta solución en el siguiente Replit: <a href="https://replit.com/@lnds/lndssoftwareentropy1">https://replit.com/@lnds/lndssoftwareentropy1</a>.</p>
+<p>Usemos GIT para controlar los cambios en este programa:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git commit -m <span style="color:#e6db74">&#34;initial commit&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>main <span style="color:#f92672">(</span>root-commit<span style="color:#f92672">)</span> 47f88eb<span style="color:#f92672">]</span> initial commit
+</span></span><span style="display:flex;"><span> <span style="color:#ae81ff">1</span> file changed, <span style="color:#ae81ff">15</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>El resultado de esta operación nos informa que para crear nuestra solución hemos realizado 15 inserciones en nuestro programa.
+Así que nuestro programa tiene 15 líneas de código (sin considerar los tests).</p>
+<h2 id="soluciones-finales">Soluciones finales</h2>
+<p>Ya tenemos una solución, pero ¿podemos darla por finalizada?</p>
+<p>Diremos que un programa  es <strong>final</strong> si cumple con su especificación y el código ya no sufre modificaciones. Siempre que los requisitos se mantengan inmutables.</p>
+<p>Si hacemos una análisis del algoritmo veremos que esta solución ejecuta <code>n</code> iteraciones.</p>
+<p>¿Podemos hacerlo mejor? Por supuesto, de hecho podemos reducir la cantidad de iteraciones aprovechando el hecho de que no tenemos que revisar todos los números, basta ir contando cada 3 y cada 5.
+Sin embargo, esta solución tiene un problema: el número 15, por ejemplo, será contado dos veces, así que debemos restar la suma de las cuentas de 15 en 15.</p>
+<p>Considerando esto obtenemos la siguiente solución:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>(n: int) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>: <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sum_step</span>(step):
+</span></span><span style="display:flex;"><span>    sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(step, n, step):
+</span></span><span style="display:flex;"><span>        sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> sum
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> sum_step(<span style="color:#ae81ff">3</span>) <span style="color:#f92672">+</span> sum_step(<span style="color:#ae81ff">5</span>) <span style="color:#f92672">-</span> sum_step(<span style="color:#ae81ff">3</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><p>Se puede mostrar que esta solución ejecuta del orden $0,6 \times  n$ iteraciones, es decir, para n = 1000 ejecuta unas 600 iteraciones.
+Eso es una optimización de un 40%, nada mal.</p>
+<p>Si usamos GIT para hacer un commit de esta nueva versión, esta herramienta  nos informa que hemos insertado 7 líneas de código y eliminado 5 lineas de código para lograr esta nueva versión más óptima:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>  % git commit -m <span style="color:#e6db74">&#34;optimiza loops&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">[</span>main 629ee77<span style="color:#f92672">]</span> main.py
+</span></span><span style="display:flex;"><span>  <span style="color:#ae81ff">1</span> file changed, <span style="color:#ae81ff">7</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>, <span style="color:#ae81ff">5</span> deletions<span style="color:#f92672">(</span>-<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>El nuevo programa tiene 17 líneas de código.</p>
+<h2 id="reversibilidad">Reversibilidad</h2>
+<p>Ahora lo interesante es que podemos revertir estos cambios ejecutando este comando GIT:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git reset --hard HEAD@<span style="color:#f92672">{</span>1<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>HEAD is now at 47f88eb initial commit
+</span></span><span style="display:flex;"><span>% head main.py
+</span></span><span style="display:flex;"><span>def main<span style="color:#f92672">(</span>n: int<span style="color:#f92672">)</span> -&gt; int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n &lt;<span style="color:#f92672">=</span> 0: <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> i in range<span style="color:#f92672">(</span>n<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i % 3 <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> or i % 5 <span style="color:#f92672">==</span> 0:
+</span></span><span style="display:flex;"><span>      sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> sum
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+</span></span></code></pre></div><p>Y si repetimos el comando podemos volver a la versión optimizada:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git reset --hard HEAD@<span style="color:#f92672">{</span>1<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>HEAD is now at 629ee77 optimiza loops
+</span></span><span style="display:flex;"><span>% head main.py
+</span></span><span style="display:flex;"><span>def main<span style="color:#f92672">(</span>n: int<span style="color:#f92672">)</span> -&gt; int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n &lt;<span style="color:#f92672">=</span> 0: <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  def sum_step<span style="color:#f92672">(</span>step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>    sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i in range<span style="color:#f92672">(</span>step, n, step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>        sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> sum
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> sum_step<span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> + sum_step<span style="color:#f92672">(</span>5<span style="color:#f92672">)</span> - sum_step<span style="color:#f92672">(</span>3*5<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Realicemos una última optimización:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>(n: int) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">0</span>: <span style="color:#66d9ef">return</span> n
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sum_step</span>(step):
+</span></span><span style="display:flex;"><span>    p <span style="color:#f92672">=</span> (n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">//</span> step
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> step <span style="color:#f92672">*</span> p <span style="color:#f92672">*</span> (p<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">//</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> sum_step(<span style="color:#ae81ff">3</span>) <span style="color:#f92672">+</span> sum_step(<span style="color:#ae81ff">5</span>) <span style="color:#f92672">-</span> sum_step(<span style="color:#ae81ff">3</span><span style="color:#f92672">*</span><span style="color:#ae81ff">5</span>)
+</span></span></code></pre></div><p>Esta solución usa la <a href="https://francis.naukas.com/2010/04/15/iii-carnaval-de-matematicas-toda-la-verdad-sobre-la-anecdota-de-gauss-el-nino-prodigio-su-profesor-y-la-suma-de-1-a-100/">fórmula de Gauss</a> para la suma de los primeros n números<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Y tiene la característica de que elimina el uso de loops.</p>
+<p>Si registramos el estado del programa usando GIT:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git commit -m <span style="color:#e6db74">&#34;solución final&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>master bb6855a<span style="color:#f92672">]</span> solución final
+</span></span><span style="display:flex;"><span> <span style="color:#ae81ff">1</span> file changed, <span style="color:#ae81ff">2</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>, <span style="color:#ae81ff">4</span> deletions<span style="color:#f92672">(</span>-<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Vemos que esta vez hemos realizado 2 inserciones y hemos borrado 4 líneas de código. Con esto el programa nuevamente queda con 15 líneas de código.</p>
+<p>Los tests siguen siendo válidos. Por supuesto este cambio es reversible también.</p>
+<p>Pero el programa no opera igual. Esta solución no ejecuta ninguna iteración, todo se resuelve en una expresión llamando a una función tres veces. Para n = 1000 este programa es mil veces más rápido que el programa con el que iniciamos.</p>
+<h2 id="programas-elegantes">Programas elegantes</h2>
+<p>¿Podemos seguir optimizando y arreglando nuestro código? ¿Hemos llegado finalmente a la solución final?</p>
+<p>Hay un resultado de <a href="https://es.wikipedia.org/wiki/Gregory_Chaitin">Gregory Chaitin</a> que es relevante en este contexto. Chaitin define el concepto de <strong>&ldquo;programa elegante&rdquo;</strong> como el programa más corto que produce una determinada salida, es decir que no existe un programa más pequeño que genere esa misma salida.</p>
+<p>Este filósofo y matemático demuestra que no es posible saber si hemos encontrado un programa elegante a partir de cierto umbral<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Sin cambiar de lenguaje de programación, es muy poco lo que podemos hacer y creo que hemos encontrado el umbral del que habla Chaitin, así que para todos los efectos prácticos diremos que esta es la solución final.</p>
+<p>Pero en este ejercicio han aparecido varios conceptos interesantes, que vamos a formalizar a continuación.</p>
+<h1 id="reversibilidad-y-equilibrio">Reversibilidad y Equilibrio</h1>
+<p>En esta sección usaremos algo de nomenclatura matemática, y trataremos de ser lo más formales posibles, pero este no es un artículo científico, así que la formalidad no aspira a ser total, pero de todas maneras cualquier comentario para mejorar estos modelos es bienvenido.</p>
+<p>Para un programa $P$ definiremos los posible estados a través de los cuales evoluciona, como el conjunto: $$S = \{ s_1, s_2, &hellip;, s_i, s_{i+1},&hellip; s_n | i, n \in \mathbb{N}  \} $$</p>
+<p>Pueden pensar en estos estados como cada commit que hicimos con GIT. En nuestro ejemplo tenemos los estados  <code>47f88eb</code>, <code>629ee77</code> y <code>bb6855a</code> que corresponden a los últimos dígios hexadecimales del hash que usa GIT para identificar los commits.</p>
+<p>Por otro lado tendremos un conjunto de cambios: $$C = \{ c_1, c_2, &hellip;, c_i, c_{i+1},&hellip; c_n | i, n \in \mathbb{N} \} $$ que se aplican sobre el programa usando la siguiente función: $$ \delta : S \times C \rightarrow P $$</p>
+<p>Decimos que un programa está en el estado $s_i$, esto lo denotamos $P(s_i)$.</p>
+<p>En nuestro caso tenemos $C_{47f88eb} = (+15, -0)$, $C_{629ee77} = (+7, -5)$ y $C_{bb6855a} = (+3, -4)$. Acá he resumido cada cambio expresándolo como una tupla en que colocamos la cantidad de inserciones (+) y eliminaciones (-), sin detallarlas para simplificar la notación.</p>
+<p>En GIT podemos obtener los cambios a aplicar obteniendo por ejemplo un patch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git diff  629ee77..bb6855a
+</span></span><span style="display:flex;"><span>diff --git a/main.py b/main.py
+</span></span><span style="display:flex;"><span>index 6222402..84985c7 <span style="color:#ae81ff">100644</span>
+</span></span><span style="display:flex;"><span>--- a/main.py
+</span></span><span style="display:flex;"><span>+++ b/main.py
+</span></span><span style="display:flex;"><span>@@ -2,10 +2,8 @@ def main<span style="color:#f92672">(</span>n: int<span style="color:#f92672">)</span> -&gt; int:
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> n &lt;<span style="color:#f92672">=</span> 0: <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   def sum_step<span style="color:#f92672">(</span>step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>-    sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>-    <span style="color:#66d9ef">for</span> i in range<span style="color:#f92672">(</span>step, n, step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>-        sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>-    <span style="color:#66d9ef">return</span> sum
+</span></span><span style="display:flex;"><span>+    p <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>n - 1<span style="color:#f92672">)</span> // step
+</span></span><span style="display:flex;"><span>+    <span style="color:#66d9ef">return</span> step * p * <span style="color:#f92672">(</span>p + 1<span style="color:#f92672">)</span> // <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">return</span> sum_step<span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> + sum_step<span style="color:#f92672">(</span>5<span style="color:#f92672">)</span> - sum_step<span style="color:#f92672">(</span>3*5<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Entonces nuestra función $\delta$ recibe este patch y aplica los cambios especificados, en nuestro caso $delta = $ <code>git apply</code>.</p>
+<h2 id="derivación-de-un-nuevo-estado">Derivación de un nuevo estado</h2>
+<p>Cuando aplicamos un cambio $c_i$ sobre el software que se encuentra en el estado $s_i$ obtendremos un nuevo estado $s&rsquo;_i$:</p>
+<p>$$ \delta(s_i, c_i) = s&rsquo;_i $$</p>
+<p>Diremos que esta función $\delta$, así tal cual la hemos definido, es <em>parcialmente reversible</em>, porque si bien al aplicar un patch inverso (que se obtiene cambiando el orden de los commits) volvemos a un estado posterior del programa, puede que eso no sea deseable, porque los requisitos hayan cambiado o el estado anterior contenía un bug.</p>
+<p>Lo que queremos, para tener una <strong>reversibilidad estricta</strong>, o simplemente <strong>reversibilidad</strong> es que al aplicar la función $\delta$ los requisitos del programa sigan cumpliéndose.</p>
+<p>Para resolver esto definiremos una función de verificación $$V(s, R) \rightarrow \{ false, true \} $$ que aplica sobre un programa, en el estado $s$. Para esta función existe un conjunto $$ R = \{ r_1, r_2,&hellip;r_i, r_{i+1},&hellip; r_n | i, n \in \mathbb{N} \}$$ que corresponde a todos los requisitos que debe satisfacer el programa. La función $V$ se define de este modo:</p>
+<p>$$ V_i(s_j, r_i) = \begin{cases}true &amp;&amp; \text{si}\,  P(s_j) \ \text{&ldquo;cumple con&rdquo;} \, r_i, \\ false &amp;&amp; \text{de lo contrario} \end{cases} $$</p>
+<p>$$ V(s_j, R) = \begin{cases}true &amp;&amp; V_i(s_j, r_i) = true, \, \forall r_i \in R \\ false &amp;&amp; \text{de lo contrario} \end{cases} $$</p>
+<p>De otro modo, diremos que un programa en un estado $s_j$ cumple la especificación $R$ si $V(s_j, R) = true$.</p>
+<p>Construir una función de verificación es una tarea muy complicada. De alguna manera hay que formalizar todos los requisitos de modo que sean verificables. Acá la expresión &ldquo;cumple con&rdquo; es el punto más débil de nuestro modelo. Una aproximación de la que disponemos es nuestro set de pruebas, pero debemos tener en cuenta que esto probablemente es incompleto. Por otro lado existen mecanismos de prueba formal de programas, pero suelen ser de poca utilidad en la práctica. Recordemos la famosa frase de Knuth:</p>
+<blockquote>
+<p>&ldquo;Beware of bugs in the above code; I have only proved it correct, not tried it.&rdquo;</p></blockquote>
+<p>Pero sigamos haciendo definiciones. Vamos a decir que un cambio $c_i$ es reversible cuando, el programa $P$ se encuentra en un estado $s_i$ tal que $V(s_i, R) = true$ y aplicamos el cambio $c_i$ de modo que :</p>
+<p>$$ V(\delta(s_i, c_i), R)  \land  V(\delta(s&rsquo;_i, c_i^{-1}))  = true$$</p>
+<p>Acá $c_i^{-1}$ es el cambio inverso, es decir, reemplazamos las inserciones por eliminaciones y las eliminaciones por inserciones.</p>
+<p>Lo que hemos dicho acá que un cambio es reversible (o estrictamente reversible) si al aplicar la función de cambio $\delta$ el programa sigue siendo válido, es decir, sigue cumpliendo con los requisitos.</p>
+<p>Para obtener el cambio inverso usando GIT basta con invertir el orden de los commits al obtener el patch:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>% git diff   bb6855a..629ee77
+</span></span><span style="display:flex;"><span>diff --git a/main.py b/main.py
+</span></span><span style="display:flex;"><span>index 8e35a13..d3b7ed7 <span style="color:#ae81ff">100644</span>
+</span></span><span style="display:flex;"><span>--- a/main.py
+</span></span><span style="display:flex;"><span>+++ b/main.py
+</span></span><span style="display:flex;"><span>@@ -1,13 +1,15 @@
+</span></span><span style="display:flex;"><span> def main<span style="color:#f92672">(</span>n: int<span style="color:#f92672">)</span> -&gt; int:
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> n &lt;<span style="color:#f92672">=</span> 0: <span style="color:#66d9ef">return</span> n
+</span></span><span style="display:flex;"><span>-
+</span></span><span style="display:flex;"><span>+
+</span></span><span style="display:flex;"><span>   def sum_step<span style="color:#f92672">(</span>step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>-    p <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>n-1<span style="color:#f92672">)</span> // step
+</span></span><span style="display:flex;"><span>-    <span style="color:#66d9ef">return</span> step * p * <span style="color:#f92672">(</span>p+1<span style="color:#f92672">)</span> // <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>+    sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>+    <span style="color:#66d9ef">for</span> i in range<span style="color:#f92672">(</span>step, n, step<span style="color:#f92672">)</span>:
+</span></span><span style="display:flex;"><span>+        sum <span style="color:#f92672">+=</span> i
+</span></span><span style="display:flex;"><span>+    <span style="color:#66d9ef">return</span> sum
+</span></span></code></pre></div><p>Antes teníamos 4 eliminaciones y dos inserciones, ahora tenemos dos eliminaciones y 4 inserciones.</p>
+<h2 id="equilibrio">Equilibrio</h2>
+<p>Diremos que un programa está en <strong>equilibrio</strong> para una especificación $R$ si:</p>
+<p>$$ V(s_j, R) = V(\delta(s_j, c_i), R) \, \, \, {\forall c_i \in C \land s_j \in S } $$</p>
+<p>Es decir, que si seguimos aplicando cambios a nuestro programa y este sigue siendo válido para los requisitos, el programa está en equilibrio.</p>
+<p>Como en el caso que analizamos en ese caso tenemos:</p>
+<p>$$C = \{C_{47f88eb}, C_{629ee77}, C_{bb6855a}\} $$</p>
+<p>$$ V = \text{class Euler1Test} $$</p>
+<p>$$ \delta = \text{git apply} $$</p>
+<p>Resulta que los <code>s-programs</code> tienen una propiedad interesante: están en equilibrio. Esto es por la forma en que los definió Lehman<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>Lo que ocurre es que si la especificación no cambia entonces el conjunto $R$ no &ldquo;cambia&rdquo;. Por lo tanto podemos re escribir nuestro <code>s-program</code> para realizar mejoras u optimizaciones sin problemas.</p>
+<p>Este propiedad de equilibrio es muy importante porque es la que permite el &ldquo;re factoring&rdquo;, además exige que las interfaces sean inmutables, y nos permite aplicar la idea de Lehamn de subdividir programs complejos en una serie de s-programs (acá surgen otros problemas que adicionan complejidad, como el acoplamiento, del que nos vamos a hacer cargo más adelante).</p>
+<p>Según nuestra definición el programa está en equilibrio, pero además los cambios son reversibles, si esto fuera termodinámica diríamos que la entropía de este sistema es constante, pero esto no es termodinámica, así que vamos a aclarar esto.</p>
+<h2 id="equilibrio-y-reversibilidad-en-programas-p-y-e">Equilibrio y reversibilidad en programas P y E</h2>
+<p>Hemos analizado el caso de un s-program, pero en los otros casos  las especificaciones cambian continuamente, dada la natureza de los problemas que resuelven.</p>
+<p>En ese caso tenemos una función de verificación más compleja, que varía con cada cambio en la especificación.
+Es más, existe también una función $\delta&rsquo;$ similar a la función de cambios sobre un programa, pero que aplica a cambios en la especificación, podemos suponer que la función $\delta&rsquo;$ para un <code>p-program</code> es más simple que para un <code>e-program</code>.</p>
+<p>Todo esto nos revela que el análisis y el modelo construido hasta ahora es demasiado simple. Pero nos permite intuir lo que ocurre en la realidad y explica un hecho relevante: la entropía en un <code>p-program</code> y un <code>e-program</code> está siempre en aumento, y se logra el equilibrio cuando el programa deja de evolucionar. Si eso ocurre es porque el programa ya no es relevante, se ha vuelto obsoleto, o ha alcanzado un nicho de aplicación tan específico que ya no requiere más cambios (como ciertos utilitarios en algunos sistemas operativos).</p>
+<h2 id="qué-sería-la-entropía-de-software-entonces">¿Qué sería la entropía de software entonces?</h2>
+<p>Con todo esto, ¿tenemos entonces ya una forma de medir la entropía del software?</p>
+<p>Hay varias cosas que hemos detectado en el programa que hemos analizado, vamos a enumerarlas:</p>
+<ol>
+<li>Las líneas de código totales del programa han variado de la siguiente forma: 15, 17, 15.</li>
+<li>La complejidad algorítmica ha variado de $O(n)$ a $O({3 \over 5} n)$ y finalmente a $O(1)$.</li>
+<li>Los cambios realizados han sido: {+15, 0}, {+7, -5}, {+2, -4}</li>
+</ol>
+<p>Por otro lado hemos descubierto que el programa está en equilibrio, e incluso hemos encontrado una solución final, es decir, en términos termodinámicos su entropía es máxima.</p>
+<p>Hay una forma de medir la entropía que nos la entregó Claude Shannon, que corresponde a <a href="https://es.wikipedia.org/wiki/Entrop%C3%ADa_(informaci%C3%B3n)">la entropía de la información</a>.</p>
+<p>La definición de Shannon de la Entropía es una fórmula que implica el cálculo de las probabilidad de todas las configuraciones de los estados posibles de un sistema. Pero por fortuna tenemos una aplicación práctica de la teoría de Shannon en el algoritmo de <a href="https://es.wikipedia.org/wiki/Codificaci%C3%B3n_Huffman">codificación de Huffman</a>. La entropía, en bits, de un texto $A$, que contiene los símbolos $a_i$ con &ldquo;pesos&rdquo; $w_i$ respectivamente, estaría dada por la fórmula:</p>
+<p>$$ H(A) = - \sum_{w_i &gt; 0} w_i \log_2 w_i $$</p>
+<p>Esto lo podemos calcular con este programa:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> collections
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> math
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shannon</span>(file_name):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">with</span> open(file_name, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span>    source <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>    w <span style="color:#f92672">=</span> collections<span style="color:#f92672">.</span>Counter(source)
+</span></span><span style="display:flex;"><span>    total <span style="color:#f92672">=</span> len(source)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> w<span style="color:#f92672">.</span>keys():
+</span></span><span style="display:flex;"><span>       w[k] <span style="color:#f92672">/=</span> total
+</span></span><span style="display:flex;"><span>    h <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>sum([w_i <span style="color:#f92672">*</span> math<span style="color:#f92672">.</span>log2(w_i) <span style="color:#66d9ef">for</span> w_i <span style="color:#f92672">in</span> w<span style="color:#f92672">.</span>values()])
+</span></span><span style="display:flex;"><span>    print(h)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span> <span style="color:#f92672">and</span> len(sys<span style="color:#f92672">.</span>argv) <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>  shannon(sys<span style="color:#f92672">.</span>argv[<span style="color:#ae81ff">1</span>])
+</span></span></code></pre></div><p>Si aplicamos esta función a las tres versiones del programa obtenemos los valores: (4.2970074650902, 4.344081081107001, 4.484216162332524), el tamaño de los archivos es: (310, 375, 348).</p>
+<p>Lo que voy a decir es sólo anecdótico, y no podemos sacar ninguna generalización a partir de esto, pero vemos que la entropía es máxima con la solución final.</p>
+<p>La entropía de Shannon nos dice que podemos comprimir nuestro programa y en promedio usaremos entre 4 a 5 bits para representar los símbolos que están en nuestro programa. Esto nos dice que requerimos unos 32 símbolos distintos para representar el programa que hemos escrito. Este valor puede reducirse si modificaramos nuestro programa para considerar ciertas palabras claves y operadores, por ejemplo <code>for</code> e <code>if</code> pueden ser considerados como símbolos únicos. En ese caso la entropía se reduce, en el caso particular hice un ensayo con este programa y obtuve valores alrededor de 3.7, o que nos permite decir que el programa se puede representar con un alfabeto de 16 caracteres.</p>
+<p>Esto ha sido usado con modelos basados en n-grams para determinar la &ldquo;naturalidad&rdquo; de programas con errores, en particular en el paper: <a href="https://web.cs.ucdavis.edu/~devanbu/odd-bugs.pdf">&ldquo;On the “Naturalness” of Buggy Code&rdquo;</a>, usan la entropía de Shannon pero reducida a un alfabeto de n-gramas de acuerdo a ciertos modelos específicos para mostrar que los programas con más errores tienden a tener mayor entropía.</p>
+<p>Por otro lado, podemos recurrir a la definición de entropía que la relaciona con la probabilidad de cada estado. Nos podríamos preguntar, cuál de los tres estados de nuestro programa es el más probable. Para eso podríamos realizar un experimento y solicitar a varios programadores que escriban la solución a este problema. Lo más seguro es que la primera versión de nuestro programa sea la más común. Podríamos darle un valor a cada estado (soluciones), en función de la frecuencia con que aparece cada solución. Sucede que yo he hecho eso, y he usado este ejercicio como prueba o en entrevistas. Lamentablemente no tengo los datos de con que frecuencia sale cada solución, pero podría aventurar un resultado del tipo (95%, 4%, 1%). Si aplicamos esta fórmula: $$S = -\sum_{i} p_i \log_2 {p_i} $$</p>
+<p>Obtenemos el valor: 0.931. Esto podríamos interpretarlo como una confirmación de que lo más probable es que obtengamos la solución 1 por sobre las otras soluciones. Personalmente encuentro poco satisfactorio este resultado.</p>
+<p>Hay otra forma de medir la entropía, y acá recurrimos nuevamente a Chaitin y al trabajo de Kolmogorov sobre complejidad. La complejidad de Kolmogorov para una pieza dada de información está dada por el largo del programa más corto que la pueda representar<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. Acá estamos buscando las representaciones más cortas de las secuencias de números que son las sumas de 3 y 5 menores a n.</p>
+<p>Kolmogorov diría que la complejidad en este caso sería 310 * 8 ó 2480, porque la complejidad de Kolmogorov se expresa en bits, y ese es el tamaño del programa más corto que hemos encontrado para representar a esta secuencia de números. Se dice que la entropía de la fuente (en este caso los números que cumplen la propiedad representada por nuestros programas) converge a la complejidad de Kolmogorov. Esto nos habla de la entropía de las salida de nuestro programa, no de la entropía de los programas en si mismo. Así que este no parece ser una solución satisfactoria, aunque nos prepara para entender y quizás aceptar nuestra última propuesta.</p>
+<h2 id="entropía-y-tamaño-de-un-programa">Entropía y tamaño de un programa</h2>
+<p>El cambio de entropía podría ser una función del tamaño del programa. En particular mi me gusta pensar que la entropía de un programa es proporcional al tamaño en líneas de código del mismo.</p>
+<p>En astrofísica se usa un resultado similar con los agujeros negros. Lo primero que se observa  es que el área de un agujero negro no puede decrecer, y lo segundo es que se ha determinado que la entropía de un agujero negro es proporcional a su área. La entropía de un agujero negro se obtiene con esta simple fórmula<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>: $$ S = {A \over 4 } $$</p>
+<p>Bueno, el área de un programa puede ser la cantidad de líneas de código de este, o los bytes que ocupa en disco. Vamos a definir la entropía de una base de código diciendo que  es proporcional a la cantidad de líneas de código contenidas, tan simple como eso. O sea:</p>
+<p>$$H(\text{Base Código}) = k \times LoC$$</p>
+<p>Donde $LoC$ es la cantidad de líneas de código.</p>
+<p>El valor exacto quizás no es tan relevante, es la noción de que la entropía aumenta con cada linea de código introducida la que importa.</p>
+<p>Esto les puede parecer obvio y quizás no era necesario darnos estas vueltas, la intuición nos dice esto hace rato. Pero lo importante son algunos de los conceptos que hemos introducido en este camino.</p>
+<p>Una de las cosas que más me interesa es que vean a GIT como una máquina o función que permite aplicar cambios sobre el código para mutarlo de un estado a otro, eso es quizás es el resultado más importante de este artículo, porque lo aplicaremos en lo que sigue.</p>
+<p>Finalmente, quiero citar al premio Nobel de Química Ilya Prigogine quien dijo:</p>
+<blockquote>
+<p>&ldquo;la producción de entropía contiene siempre dos elementos dialécticos: un elemento creador de desorden, pero también un elemento creador de orden. Y los dos están siempre ligados&rdquo;.&quot;</p></blockquote>
+<p>En general es un error ver a la entropía sólo como desorden, pero mejor les dejaré este video de Javier Santaolalla, que es muy clarificador sobre este concepto:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ttjM-dMPddY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h2 id="código">Código</h2>
+<p>Pueden revisar las tres versiones de este programa en los siguientes Replits:</p>
+<ul>
+<li>
+<p>Versión inicial: <a href="https://replit.com/@lnds/lndssoftwareentropy1">https://replit.com/@lnds/lndssoftwareentropy1</a></p>
+</li>
+<li>
+<p>Loop mejorado: <a href="https://replit.com/@lnds/lndssoftwareentropy2">https://replit.com/@lnds/lndssoftwareentropy2</a></p>
+</li>
+<li>
+<p>Usando la fórmula de la Gauss: <a href="https://replit.com/@lnds/lndssoftwareentropy3">https://replit.com/@lnds/lndssoftwareentropy3</a></p>
+</li>
+</ul>
+<p>El repositorio de con el código mostrado se encuentra acá: <a href="https://github.com/lnds/entropia_software">https://github.com/lnds/entropia_software</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>La suma de los primeros $n$ dígitos es $sum(n) = n * (n + 1) / 2$. Entonces para calcular la suma de los múltiplos de 3 menores a n hacemos $p = n / 3 \land sum_3(n) = p * (p + 1) / 2$ y para los múltiplos de 5: $p = n / 5 \land sum_5(n) = p * (p + 1) / 2$&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Ver <a href="https://es.wikibooks.org/wiki/Chaitin,_Omega_y_otras_curiosidades_matem">https://es.wikibooks.org/wiki/Chaitin,_Omega_y_otras_curiosidades_matem</a>áticas&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Fíjense que en esta discusión he dejado fuera los llamados &ldquo;requisitos no funcionales&rdquo;, como por ejemplo, &ldquo;que la solución sea rápida&rdquo;, sospecho que Lehman hizo lo mismo, dada su forma de definir los <em>s-programs</em>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Ya discutí antes en este blog sobre la complejidad de Kolmogorov en este texto: <a href="https://lnds.net/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/">https://lnds.net/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://cuentos-cuanticos.com/2011/08/05/principio-holografico/">https://cuentos-cuanticos.com/2011/08/05/principio-holografico/</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>3643 words</span>
+    <span>21 - 27 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/entrop%C3%ADa-de-software">entropía de software</a></span></small>
+      </div></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#soluciones-finales">Soluciones finales</a></li>
+    <li><a href="#reversibilidad">Reversibilidad</a></li>
+    <li><a href="#programas-elegantes">Programas elegantes</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#derivación-de-un-nuevo-estado">Derivación de un nuevo estado</a></li>
+    <li><a href="#equilibrio">Equilibrio</a></li>
+    <li><a href="#equilibrio-y-reversibilidad-en-programas-p-y-e">Equilibrio y reversibilidad en programas P y E</a></li>
+    <li><a href="#qué-sería-la-entropía-de-software-entonces">¿Qué sería la entropía de software entonces?</a></li>
+    <li><a href="#entropía-y-tamaño-de-un-programa">Entropía y tamaño de un programa</a></li>
+    <li><a href="#código">Código</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2021/05/16/equilibrio-y-entrop%C3%ADa-de-software/featured.jpg">featured.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2021/05/08/hablemos-de-entrop%C3%ADa-de-software/">Hablemos de Entropía de Software</a></li><li><a href="/blog/lnds/2010/04/29/mantencion-del-software-2/">Mantención del Software</a></li><li><a href="/blog/lnds/2010/01/07/de-que-deuda-me-hablan/">¿De que deuda me hablan?</a></li><li><a href="/blog/lnds/2013/01/19/cuatro-cosas-minimas/">Cuatro cosas mínimas</a></li><li><a href="/blog/lnds/2010/10/09/como-estimar-software/">Cómo estimar software</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

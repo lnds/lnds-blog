@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackers on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/hackers/</link>
+    <description>Recent content in Hackers on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 04 Oct 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/hackers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hackers del 5 de octubre - 25 años</title>
+      <link>http://localhost:1313/blog/lnds/2013/10/04/hackers-del-5-de-octubre--25-anos/</link>
+      <pubDate>Fri, 04 Oct 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/10/04/hackers-del-5-de-octubre--25-anos/</guid>
+      <description>&lt;p&gt;Es una cosa curiosa pero, resulta que ahora todos los chilenos que&#xA;vivieron en aquella época votaron por el No, así que no se que gracia&#xA;tiene &lt;a href=&#34;http://localhost:1313/blog/2008/10/los-hackers-del-5-de-octubre.html&#34;&gt;esta historia&lt;/a&gt;&#xA;que publiqué hace unos años atrás, pero por lo menos el año pasado fue&#xA;recordada por los alumnos del departamento de computación de la&#xA;Universidad de Chile, como evidencia esta foto de aquel evento, donde&#xA;vemos a los dos protagonistas de la historia que viene más abajo, MAZ y&#xA;REM:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La cultura hacker del MIT</title>
+      <link>http://localhost:1313/blog/lnds/2011/06/15/la-cultura-hacker-del-mit/</link>
+      <pubDate>Wed, 15 Jun 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/06/15/la-cultura-hacker-del-mit/</guid>
+      <description>&lt;p&gt;En &lt;a href=&#34;http://localhost:1313/blog/2011/05/red-hat-jboss-summit-2011.html&#34;&gt;mi reciente viaje a Boston&lt;/a&gt;&#xA;aproveché de escaparme para conocer Cambridge, y pasear por dos de las&#xA;instituciones universitarias más prestigiadas del mundo, las&#xA;universidades de Harvard y el MIT (Instituto Tecnológico de&#xA;Massachusetts). Y aunque todos me decían que conociera Harvard, la más&#xA;famosa, lo que realmente me impresionó fue el campus del&#xA;&lt;a href=&#34;http://web.mit.edu/&#34;&gt;MIT&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;IMAG0186.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La foto que tomé con mi cámara no refleja la dimensión del Great Domus.&#xA;Es enorme, y para darles una idea voy a recurrir a las fotos uno de los&#xA;&amp;ldquo;hacks&amp;rdquo; más ingeniosos que se han hecho en esa universidad, fíjense en&#xA;estas fotografías:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Etica, &#34;El caso de los hackers&#34;</title>
+      <link>http://localhost:1313/blog/lnds/2009/06/18/etica-el-caso-de-los-hackers/</link>
+      <pubDate>Thu, 18 Jun 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/06/18/etica-el-caso-de-los-hackers/</guid>
+      <description>&lt;p&gt;Me llega un bonito documento sobre&#xA;&lt;a href=&#34;80-Casos.pdf&#34;&gt;&amp;ldquo;80 casos para el estudio de la ética&amp;rdquo;&lt;/a&gt;, elaborado por el&#xA;&lt;a href=&#34;http://etica.duoc.cl/index.php&#34;&gt;Centro de Etica Aplicada de Duoc UC&lt;/a&gt;&#xA;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; centro preocupado de la &amp;ldquo;formación de capital humano&amp;rdquo;.&#xA;¡Capital Humano!&lt;/p&gt;&#xA;&lt;p&gt;El número 24, de esta selección, es el que me interesa, &amp;ldquo;El caso de los&#xA;hackers&amp;rdquo;. Empieza con el siguiente disparate:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;A mediados de los 70, en Silicon Valley, un grupo de hackers y&#xA;aficionados a la naciente informática utilizaba un software pasado de&#xA;mano en mano, es decir, lo ocupaban sin fijarse en quién era su dueño.&#xA;En un comienzo no había problema, pero cuando comenzaron a aparecer&#xA;empresas u organizaciones que lucraban con la producción de softwares&#xA;empezaron a surgir dificultades. Esto fue un impedimento para que ellos&#xA;se pudieran realizar profesionalmente y esde ese entonces comenzaron a&#xA;divisar que la solución estaba en organizarse como una comunidad para&#xA;buscar el bien común. Bill Gates, mediante una carta a consumidores y&#xA;compradores de sistemas operativos, quiso hacer notar a la comunidad de&#xA;hackers y aficionados que ellos estaban devaluando el sueldo de todos&#xA;los involucrados en el desarrollo de proyectos que eran afectados por el&#xA;uso indebido de las copias. Además existía un robo, si bien era de algo&#xA;intangible como el software, es un robo al fin y al cabo.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los Hackers del 5 de Octubre</title>
+      <link>http://localhost:1313/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre/</link>
+      <pubDate>Sun, 05 Oct 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre/</guid>
+      <description>&lt;p&gt;Era el &lt;a href=&#34;http://news.bbc.co.uk/hi/spanish/latin_america/newsid_7646000/7646154.stm&#34;&gt;5 de &lt;strong&gt;octubre&lt;/strong&gt; de 1988&lt;/a&gt;,&#xA;¡hace veinte años!, miles de jóvenes de mi edad participábamos de una&#xA;manera u otra en ese gran momento histórico, algunos, como yo, sólo&#xA;asistiendo a las urnas votando NO.&lt;/p&gt;&#xA;&lt;p&gt;Pero en esos tiempos también había activismo tecnológico. Esta es la&#xA;historia de un grupo de computines, luchando con lo que sabían hacer,&#xA;con computadores y tecnología, para asegurar que ese plebiscito no fuera&#xA;manipulado por la dictadura. La historia contada&#xA;por &lt;a href=&#34;http://blog.maz.cl/&#34;&gt;MAZ&lt;/a&gt;&#xA;y &lt;a href=&#34;http://www.dcc8090.cl/dcc8090/index.php/REM/&#34;&gt;REM&lt;/a&gt;, dos hackers,&#xA;luchando por el retorno de la democracia, dos de mis mejores amigos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

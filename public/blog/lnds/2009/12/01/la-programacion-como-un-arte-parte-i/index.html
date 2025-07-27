@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La programación como un Arte (Parte I) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2009/12/01/la-programacion-como-un-arte-parte-i/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="La programación como un Arte (Parte I)">
+  <meta property="og:description" content="La programación de computadores como un arte
+Por Donald Knuth
+CACM, Diciembre de 1974
+Cuando Communications of the ACM comenzó su publicación en 1959, los miembros del Comité Editorial de la ACM hicieron la siguiente observación al describir el propósito de las publicaciones periódicas de la ACM:
+“Si la programación de computadores será una importante parte de la investigación y desarrollo de los computadores, se debe efectuar una transición de la programación de un arte a una ciencia disciplinada”.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2009-12-01T08:25:11-03:00">
+    <meta property="article:modified_time" content="2009-12-01T08:25:11-03:00">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Arte">
+    <meta property="article:tag" content="Donald Knuth">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La programación como un Arte (Parte I)">
+  <meta name="twitter:description" content="La programación de computadores como un arte
+Por Donald Knuth
+CACM, Diciembre de 1974
+Cuando Communications of the ACM comenzó su publicación en 1959, los miembros del Comité Editorial de la ACM hicieron la siguiente observación al describir el propósito de las publicaciones periódicas de la ACM:
+“Si la programación de computadores será una importante parte de la investigación y desarrollo de los computadores, se debe efectuar una transición de la programación de un arte a una ciencia disciplinada”.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>La programación como un Arte (Parte I)</h1><time class="dim" datetime="2009-12-01T08:25:11-03:00">December 1, 2009</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/arte/">#arte</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/donald-knuth/">#Donald Knuth</a>
+      </div></ol></div>
+  <section class="page-section"><p><strong>La programación de computadores como un arte</strong></p>
+<p>Por Donald Knuth</p>
+<p>CACM, <strong>Diciembre</strong> de 1974</p>
+<p>Cuando <em>Communications of the ACM</em> comenzó su publicación en 1959, los
+miembros del Comité Editorial de la ACM hicieron la siguiente
+observación al describir el propósito de las publicaciones periódicas de
+la ACM:</p>
+<blockquote>
+<p>&ldquo;Si la programación de computadores será una importante parte de la
+investigación y desarrollo de los computadores, se debe efectuar una
+transición de la programación de un arte a una ciencia disciplinada&rdquo;.</p></blockquote>
+<p>Esta meta ha sido un tema recurrente durante los años siguientes; por
+ejemplo, leemos en 1970 sobre &ldquo;los primeros pasos en la transformación
+del arte de la programación en una ciencia&rdquo;. Mientras tanto hemos
+realmente tenido éxito en hacer de nuestra disciplina una ciencia, y de
+una forma muy simple: simplemente al decidir llamarla &ldquo;ciencia de la
+computación.&rdquo;</p>
+<p>Implicita en estas observaciones está la noción de que es algo no
+deseable sobre un área de la actividad humana que esta sea clasificada
+como un &ldquo;arte&rdquo;; tiene que ser una Ciencia antes de que tenga una
+estatura real. Por otro lado, yo he estado trabajando por más de 12 años
+en una serie de libros llamados &ldquo;El Arte de Programar Computadores&rdquo;.
+La gente frecuentemente me pregunta por qué elegí tal título; y de hecho
+algunas personas aparentemente no creen que yo lo haya hecho, dado que
+he visto al menos una referencia bibliográfica a los libros como &ldquo;El
+Acto de Programar Computadores.&rdquo;</p>
+<p>En esta charla trataré de explicar porque pienso que &ldquo;Arte&rdquo; es la
+palabra apropiada. Discutiré que significa que algo sea un arte, en
+contraste con ser una ciencia; trataré de examinar si las artes son
+cosas buenas o cosas mala; y trataré de mostrarles que un punto de vista
+propio del asunto nos ayudará a mejorar la calidad de lo que ahora
+estamos haciendo.</p>
+<p>Una de las primeras veces que fuí interrogado sobre el título de mis
+libros fue en 1966, durante la previa al encuentro anual de la ACM en el
+Sur de California. Esto fue antes de que ninguno de los libros fuera
+publicado, y recuerdo haber estado comiendo con un amigo en el hotel de
+convenciones. El sabía cuan pretencioso era yo, ya en ese tiempo, así
+que me preguntó si iba a llamar a mis libros &ldquo;Una Introducción a Don
+Knuth.&rdquo; Le repliqué que, al contrario, estaba nombrando a los libros
+como a él. Su nombre: Art Evans. (El Arte de la Programación de
+Computadores, en persona.)</p>
+<p>De esta historia concluimos que la palabra &ldquo;arte&rdquo; tiene más de un
+significado. De hecho, una de las cosas más agradables de la palabra es
+que es usada en muchos sentidos diferentes, cada uno de los cuales es
+bastante apropiado en conexión con la programación de computadoras.
+Mientras preparaba esta charla, fui a la biblioteca para buscar lo que
+la gente ha escrito sobre la palabra &ldquo;arte&rdquo; a lo largo de los años; y
+después de gastar varios días fascinantes entre los libros, llegué a la
+conclusión de que &ldquo;arte&rdquo; debe ser una de las palabras más interesantes
+de la lengua inglesa.</p>
+<p>El Arte de los Antiguos</p>
+<p>Si vamos a las raices latinas, encontramos <em>ars, artis</em> que significan
+&ldquo;habilidad&rdquo;. Quizás es significativo que la palabra griega
+correspondiente era <em>τεχνη</em>, la raíz de &ldquo;tecnología&rdquo; y &ldquo;técnica&rdquo;.</p>
+<p>En nuestros días cuando alguien habla de &ldquo;arte&rdquo; probablemente piense
+primero en las &ldquo;finas artes&rdquo; tales como la pintura y la escultura,
+pero antes del siglo veinte la palabra era usada generalmente en un
+sentido bastante diferente. Incluso este viejo significado de &ldquo;arte&rdquo;
+aún sobrevive en muchos modismos, especialmente cuando se contrastas
+arte con ciencia, y quisiera tomarme los próximos minutos para hablar de
+arte en su sentido clásico.</p>
+<p>En los tiempos mediaveles, las primeras univers<br>
+idades fueron establecidas para enseñar las, así llamadas, &ldquo;siete artes
+liberales&rdquo; a saber, gramática, retórica, lógica, aritmética, geometría,
+música y astronomía. Noten que esto es bastante diferente de los
+currículos de los colegios de artes liberales, y que al menos tres de
+las siete artes liberales son componentes importantes de la ciencia de
+la computación. En aquel tiempo, un &ldquo;arte&rdquo; denotaba a algo ideado por
+el intelecto humano, en oposición a las actividades derivadas de la
+naturaleza o el instinto; las artes &ldquo;liberales&rdquo; eran liberadas o
+libres, en contraste a las artes manuales tales como arrar. Durante la
+edad media la palabra &ldquo;arte&rdquo; por si misma usualmente significaba
+lógica, la que usualmente denotaba el estudio de los silogismos.</p>
+<p>(Continúa en la <a href="/2009/12/la-programacion-como-un-arte-parte-ii.html">parte II</a>)</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>745 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2009/10/22/la-naturaleza-del-software-segun-octavio-paz/">La naturaleza del software, según Octavio Paz</a></li><li><a href="/blog/lnds/2009/09/05/el-arte-de-no-leer/">El arte de no leer</a></li><li><a href="/blog/lnds/2008/02/28/epigramas-de-la-programacion/">Epigramas de la Programación</a></li><li><a href="/blog/lnds/2007/07/12/la-practica-de-la-programacion/">La Practica de la Programación</a></li><li><a href="/blog/lnds/2006/11/19/hot-rods/">Hot Rods</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

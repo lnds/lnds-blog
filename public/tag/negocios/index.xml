@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Negocios on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/negocios/</link>
+    <description>Recent content in Negocios on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 02 Aug 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/negocios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Paradoja de la Estrategia</title>
+      <link>http://localhost:1313/blog/lnds/2011/08/02/la-paradoja-de-la-estrategia/</link>
+      <pubDate>Tue, 02 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/08/02/la-paradoja-de-la-estrategia/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La mejor forma de predecir el futuro es inventándolo&amp;rdquo; &amp;ndash; &lt;a href=&#34;http://localhost:1313/blog/2010/05/alan-kay.html&#34;&gt;Alan&#xA;Kay&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La historia de &lt;a href=&#34;http://es.wikipedia.org/wiki/Betamax&#34;&gt;Betamax&lt;/a&gt; versus&#xA;&lt;a href=&#34;http://es.wikipedia.org/wiki/VHS&#34;&gt;VHS&lt;/a&gt; es muy conocida. Sony se enfocó&#xA;en la calidad de la imagen, y desarrolló un formato cerrado. Matsushita&#xA;por otra parte, desarrolló una tecnología de más baja calidad con el&#xA;VHS, pero que permitía grabaciones de mayor duración, permitiendo grabar&#xA;películas enteras, además el estándar era abierto, lo que permitía que&#xA;multiples manufacturadores pudieran competir creando dispositivos, lo&#xA;que hizo que los precios bajaran. Cuando el mercado del arriendo de&#xA;videos explotó el VHS lideró el mercado ligeramente, y mediante un&#xA;proceso de ventaja acumulativa terminó imponiéndose.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coordinación on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/coordinaci%C3%B3n/</link>
+    <description>Recent content in Coordinación on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 11 Mar 2012 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/coordinaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harry Potter y el misterio de la hora perdida</title>
+      <link>http://localhost:1313/blog/lnds/2012/03/11/harry-potter-y-el-misterio-de-la-hora-perdida/</link>
+      <pubDate>Sun, 11 Mar 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/03/11/harry-potter-y-el-misterio-de-la-hora-perdida/</guid>
+      <description>&lt;p&gt;Antiguamente uno anotaba la hora de una reunión en una agenda de papel:&#xA;&amp;ldquo;9:30 día 12 de marzo, reunión de coordinación...&amp;rdquo;, llegaba el cambio&#xA;de hora se ajustaba el reloj y eso era todo. La tinta no se borraba ni&#xA;reescribía mágicamente dejando 10:30 en el papel, al menos no en nuestro&#xA;mundo &lt;a href=&#34;http://es.wikipedia.org/wiki/Muggle&#34;&gt;muggle&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;ajustar-hora.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pero cada vez tenemos más magia tecnológica en nuestro mundo, la señora&#xA;&lt;a href=&#34;http://www.jkrowling.com/&#34;&gt;J.K. Rowling&lt;/a&gt; nos acostumbró a pinturas que&#xA;se mueven y noticias interactivas. Ahora las agendas se mueven&#xA;mágicamente, si cambia la hora nuestras agendas digitales se ajustan&#xA;solas y nadie pierde sus citas ni llega atrasado, la magia funciona.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

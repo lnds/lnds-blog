@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operaciones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/operaciones/</link>
+    <description>Recent content in Operaciones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 08 Aug 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/operaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡No se puede!</title>
+      <link>http://localhost:1313/blog/lnds/2013/08/08/no-se-puede/</link>
+      <pubDate>Thu, 08 Aug 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/08/08/no-se-puede/</guid>
+      <description>&lt;p&gt;¡No se puede! ¿Cuantas veces hemos escuchado esa frase? ¡Esa maldita&#xA;frase!&lt;/p&gt;&#xA;&lt;p&gt;Tienes listo tu desarrollo, la gente del área comercial o de procesos&#xA;está feliz, las pruebas han sido un éxito, va todo de acuerdo al&#xA;cronograma y cuando vas a sistemas para empezar a negociar fecha de paso&#xA;a producción te encuentras con el famoso &amp;ldquo;¡no se puede!&amp;rdquo;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Cuando las fuerzas rebeldes necesitan de los Jedis, estos sólo ponen&#xA;problemas. ¡Ayúdame Obi Wan!, ¡No! es la respuesta inesperada.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

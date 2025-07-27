@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homenajes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/homenajes/</link>
+    <description>Recent content in Homenajes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 06 Feb 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/homenajes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adiós Pin Pón</title>
+      <link>http://localhost:1313/blog/lnds/2009/02/06/adios-pin-pon/</link>
+      <pubDate>Fri, 06 Feb 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/02/06/adios-pin-pon/</guid>
+      <description>&lt;p&gt;En noviembre del año pasado llevé a mi hija de 6 a conocer a Pin Pón,&#xA;ella conocía la canción &lt;a href=&#34;http://www.facebook.com/video/video.php?v=1045093322631&#34;&gt;que sale en Shrek&lt;/a&gt;, pero&#xA;nada sabía del personaje que su padre veía por TV cuando tenía incluso&#xA;menos edad que ella.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;pinpon.jpg&#34; alt=&#34;pinpon.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Como verán, Pin Pón aún podía cautivar a los pequeños del siglo XXI, con&#xA;un mensaje ecológico, y bastante entretenido (para los niños y sus&#xA;padres, por supuesto).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

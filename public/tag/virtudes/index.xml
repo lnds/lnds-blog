@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtudes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/virtudes/</link>
+    <description>Recent content in Virtudes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 28 Mar 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/virtudes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Soberbia</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/28/soberbia/</link>
+      <pubDate>Mon, 28 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/28/soberbia/</guid>
+      <description>&lt;p&gt;La soberbia, una de &lt;a href=&#34;http://localhost:1313/blog/2010/11/las-tres-grandes-virtudes-de-un-programador.html&#34;&gt;las tres virtudes del programador&lt;/a&gt;,&#xA;pero ¿por qué, si esta sociedad considera a la soberbia como un pecado?&lt;/p&gt;&#xA;&lt;p&gt;Hace tiempo escribí en &lt;a href=&#34;https://www.akarru.com&#34;&gt;akarrú&lt;/a&gt; sobre el&#xA;&lt;a href=&#34;https://www.akarru.com/blog/2010/12/11/arete/&#34;&gt;Areté&lt;/a&gt;, el orgullo como lo&#xA;entendían los antiguos, voy a transcribirlo a este blog:&lt;/p&gt;&#xA;&lt;p&gt;Vivimos en una época mediocre, pero siempre ha sido así, ¿no es verdad?&lt;/p&gt;&#xA;&lt;p&gt;Dice Aquiles:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Igual lote consiguen el inactivo y el que batalla con denuedo. La&#xA;misma honra obtienen tanto el cobarde como el valeroso.&lt;br&gt;&#xA;Igual muere el holgazán que el autor de numerosas hazañas.&lt;br&gt;&#xA;Ninguna ventaja me reporta haber padecido dolores en el ánimo&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virtudes y defectos</title>
+      <link>http://localhost:1313/blog/lnds/2010/11/21/virtudes-y-defectos/</link>
+      <pubDate>Sun, 21 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/11/21/virtudes-y-defectos/</guid>
+      <description>&lt;p&gt;Hubo varias respuestas a &lt;a href=&#34;http://localhost:1313/blog/2010/11/las-tres-grandes-virtudes-de-un-programador.html&#34;&gt;la pregunta del viernes&lt;/a&gt;,&#xA;sobre las tres virtudes del programador, según Larry Wall, pereza,&#xA;impaciencia y orgullo (o soberbia).&lt;/p&gt;&#xA;&lt;p&gt;Una respuesta me llegó directamente por email:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La pereza? Nos confiamos en lo que sabemos... Lo sacamos en un par&#xA;de dias cuando lo programamos en un mes. La impaciencia? No nos&#xA;dormimos hasta que vemos una subrutina hacer lo que queremos que haga.&#xA;Función, librería, clase... Nooo, que lo haga la subrutina. El&#xA;orgullo? Yo hice este programa y ningun otro se le compara... Y si se&#xA;le compara tiene errores, asi que ni lo compare ni lo menos precie. Ya&#xA;quisiera un programador como yo.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las tres grandes virtudes de un programador </title>
+      <link>http://localhost:1313/blog/lnds/2010/11/19/las-tres-grandes-virtudes-de-un-programador/</link>
+      <pubDate>Fri, 19 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/11/19/las-tres-grandes-virtudes-de-un-programador/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Promovemos el desarrollo de las tres grandes virtudes de un&#xA;programador: la pereza, la impaciencia y el orgullo.&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Larry Wall, creador de Perl.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We will encourage you to develop the three great virtues of a&#xA;programmer: laziness, impatience, and hubris.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;¿Por qué la pereza, la impaciencia y el orgullo (o soberbia) pueden ser&#xA;las tres virtudes de un programador?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

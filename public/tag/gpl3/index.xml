@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPL3 on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/gpl3/</link>
+    <description>Recent content in GPL3 on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 30 Nov 2006 20:14:29 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/gpl3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linus Torvalds el Pragmático</title>
+      <link>http://localhost:1313/blog/lnds/2006/11/30/linus-torvalds-el-pragmatico/</link>
+      <pubDate>Thu, 30 Nov 2006 20:14:29 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/11/30/linus-torvalds-el-pragmatico/</guid>
+      <description>&lt;p&gt;Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está &amp;ldquo;agradeciendo&amp;rdquo; la recepción del primer &amp;ldquo;Linus Torvalds Award&amp;rdquo;, donde pronuncia una de sus inteligentes frases: &amp;ldquo;esto es como darle el Premio Han Solo a la Aliaza Rebelde&amp;rdquo; ( &amp;ldquo;like giving the Han Solo award to the Rebel Alliance.&amp;rdquo; ).&lt;/p&gt;&#xA;&lt;p&gt;Toda esta polémica es gasto de energía.&lt;/p&gt;&#xA;&lt;p&gt;Stallman ha insistido en hablar de &amp;ldquo;GNU más Linux&amp;rdquo;. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Método on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/m%C3%A9todo/</link>
+    <description>Recent content in Método on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 19 May 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/m%C3%A9todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Conoces a Pin Pon?</title>
+      <link>http://localhost:1313/blog/lnds/2012/05/19/conoces-a-pin-pon/</link>
+      <pubDate>Sat, 19 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/05/19/conoces-a-pin-pon/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[If] you think there&amp;rsquo;s some sophisticated recipe for success, then&#xA;I think you are doomed. You&amp;rsquo;re making it too complicated.&lt;br&gt;&#xA;&amp;ndash; Brad Bird&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;¡Ah!, ¿cómo lograr que sucedan las cosas? O como dicen en los estados&#xA;juntos: How to get things done.&lt;/p&gt;&#xA;&lt;p&gt;También hablamos de cómo lograr que un proyecto sea exitoso. &amp;ldquo;Real&#xA;Artists Ship&amp;rdquo;, decía Steve Jobs. &amp;ldquo;Las ideas son buenas, pero muchas&#xA;veces falla la ejecución&amp;rdquo;, he escuchado decir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hazlo</title>
+      <link>http://localhost:1313/blog/lnds/2011/03/01/hazlo/</link>
+      <pubDate>Tue, 01 Mar 2011 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/03/01/hazlo/</guid>
+      <description>&lt;p&gt;El otro día &lt;a href=&#34;https://www.youtube.com/watch?v=6LsmPjKXsvM&#34;&gt;vi la charla de Ricardo Baeza&lt;/a&gt; y en un momento él da algunos consejos que le han servido en su carrera, como por ejemplo, &lt;em&gt;“no hagan planes, no se proyecten …. si yo hubiera imaginado que iba hacer en mi vida no estaría aquí en este momento… porque cuando uno se proyecta lo hace en algo más pequeño, porque cree que así lo va a lograr. Porque uno no se atreve a ponerse una meta muy grande, porque ¿qué pasa si no llego a esa meta, me voy a frustrar? No”&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecciones de RataTouille</title>
+      <link>http://localhost:1313/blog/lnds/2007/07/01/lecciones-de-ratatouille/</link>
+      <pubDate>Sun, 01 Jul 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/07/01/lecciones-de-ratatouille/</guid>
+      <description>&lt;p&gt;Rats era lo que los ingenieros llamamos un &lt;strong&gt;proyecto incendiado&lt;/strong&gt;.&#xA;Se trataba de una película importante para Pixar, pues era el primer&#xA;proyecto de la era &amp;ldquo;post Disney&amp;rdquo;, y debía tener por lo tanto todos los&#xA;elementos de un éxito. Y aunque el trabajo de Jan Pikava, su&#xA;director, era de alta calidad artística, la historia era considerada&#xA;&amp;ldquo;muy plana&amp;rdquo; por los ejecutivos de Pixar.&lt;/p&gt;&#xA;&lt;p&gt;Steve Jobs decide hacer algo, primero corre la fecha de estreno de Cars&#xA;de noviembre de 2005 a mayo de 2006, y el equipo de Pikava recibe la&#xA;orden de fortalecer la historia, y lograr que el público fuera capaz de&#xA;involucrarse con las peripecias de los personajes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

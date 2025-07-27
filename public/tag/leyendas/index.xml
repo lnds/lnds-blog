@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leyendas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/leyendas/</link>
+    <description>Recent content in Leyendas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 14 Feb 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/leyendas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Balada de John Henry (reciclando)</title>
+      <link>http://localhost:1313/blog/lnds/2012/02/14/la-balada-de-john-henry-reciclando/</link>
+      <pubDate>Tue, 14 Feb 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/02/14/la-balada-de-john-henry-reciclando/</guid>
+      <description>&lt;p&gt;Cuenta la leyenda que John Henry era un esclavo negro liberado, un&#xA;hombre de una fuerza increible, quien, después de la guerra de secesión&#xA;norteamericana, ingresó a trabajar en la construcción del ferrocarril.&#xA;Era el mejor obrero en la vía del tren, el mas fuerte y veloz.&lt;/p&gt;&#xA;&lt;p&gt;Un día llega una máquina, un taladro a vapor, con el fin de abrir&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;john_henry.jpg&#34; alt=&#34;john_henry.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;un tunel, una máquina capaz de reemplazar a toda la cuadrilla de&#xA;obreros. John Henry, para defender su trabajo, y el de sus compañeros,&#xA;le propone un desafío al capataz, competir él contra la máquina&#xA;perforando la montaña.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

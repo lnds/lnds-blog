@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Código on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/c%C3%B3digo/</link>
+    <description>Recent content in Código on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 05 Jan 2022 19:30:44 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/c%C3%B3digo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developers, Developers, Developers...</title>
+      <link>http://localhost:1313/blog/lnds/2022/01/05/developers-developers-developers.../</link>
+      <pubDate>Wed, 05 Jan 2022 19:30:44 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2022/01/05/developers-developers-developers.../</guid>
+      <description>&lt;p&gt;A pesar de que se volvió un meme, y todos nos reímos de él, parece que Ballmer tenía razón. Necesitamos cada vez más desarrolladores. Más y más, y no parece que esa necesidad vaya a bajar en muchos años, a pesar de las heroicas afirmaciones de los fans del Low Code y del No Code, y de los &lt;a href=&#34;https://copilot.github.com&#34;&gt;recientes desarrollos de programación automática usando IA&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hagamos un ejercicio. Supongamos que un desarrollador en promedio escribe entre 20 a 100 líneas de código útiles en el día, dependiendo del lenguaje de programación, por supuesto. La verdad es que lee y edita (agrega y borra) probablemente más líneas que esas. Pero pongamos un valor promedio, digamos 60 líneas de código útil, pero castigaremos este promedio dejándolo en 40, porque no todos los días son tan “productivos”.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buenas prácticas para gestionar tu código</title>
+      <link>http://localhost:1313/blog/lnds/2020/08/21/buenas-pr%C3%A1cticas-para-gestionar-tu-c%C3%B3digo/</link>
+      <pubDate>Fri, 21 Aug 2020 07:49:55 -0400</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2020/08/21/buenas-pr%C3%A1cticas-para-gestionar-tu-c%C3%B3digo/</guid>
+      <description>&lt;p&gt;Asegurar la comunicación es uno de los desafíos más importantes cuando trabajamos en equipo, o en un proyecto de código abierto. Algo que ayuda es mantener una serie de estándares, o prácticas comunes que faciliten la comunicación y el entendimiento compartido.&lt;/p&gt;&#xA;&lt;p&gt;Desde hace años las comunidades open source han adoptado una serie de prácticas muy sencillas, pero potentes, que ayudan a gestionar mejor su código.&lt;/p&gt;&#xA;&lt;p&gt;Entre estas hay algunas que me parece  deberían ser adoptadas por todo tipo de equipo de desarrollo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programar es un Arte Visual</title>
+      <link>http://localhost:1313/blog/lnds/2017/07/02/programar-es-un-arte-visual/</link>
+      <pubDate>Sun, 02 Jul 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2017/07/02/programar-es-un-arte-visual/</guid>
+      <description>&lt;p&gt;El video de más abajo, junto con la hermosa imagen fractal, que&#xA;acompañan este post, son visualizaciones del código fuente de un sistema&#xA;en los que mi equipo ha trabajado desde 2015. Corresponde a la  suma de&#xA;seis repositorios, que corresponden a seis micro servicios, que&#xA;interactúan entre si para dar forma a un sistema mayor.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;      &lt;div&#xA;          style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;        &lt;iframe&#xA;          src=&#34;https://player.vimeo.com/video/223893340?dnt=0&#34;&#xA;            style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allow=&#34;fullscreen&#34;&gt;&#xA;        &lt;/iframe&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;Visualización de código generado por mi equipo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No es el código, estúpido!</title>
+      <link>http://localhost:1313/blog/lnds/2010/09/08/no-es-el-codigo-estupido/</link>
+      <pubDate>Wed, 08 Sep 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/09/08/no-es-el-codigo-estupido/</guid>
+      <description>&lt;p&gt;Cuando digo que conozco un sistema de misión crítica, que soporta uno de&#xA;los sitios con mayor tráfico en latinoamérica, que tranza mucho dinero,&#xA;y que está soportado con Windows y SQL Server 2008, mucha gente, que se&#xA;jura experta en tecnología, me mira extrañado. Claro, se supone que&#xA;Microsoft produce puras porquerías que no sirven para nada, y nadie pone&#xA;sistemas de misión crítica  corriendo sobre Windows. Claro que esa es la&#xA;mitad de la historia, porque ese mismo sitio tiene, como front end, un&#xA;application server java, opensource, corriendo sobre RedHat Linux, y con&#xA;Apache como plataforma base. Ahí la cara de sorpresa es mayor. Hay&#xA;otros, más &amp;ldquo;expertos&amp;rdquo;, que se extrañan porque todo eso que describo no&#xA;esté corriendo sobre un stack Oracle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No puedes proteger el software</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/01/no-puedes-proteger-el-software/</link>
+      <pubDate>Mon, 01 Aug 2005 10:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/01/no-puedes-proteger-el-software/</guid>
+      <description>&lt;p&gt;Si escribes un programa, e implementas algún mecanismo de protección,&#xA;siempre es posible alterar el programa para que se salte tu mecanismo de&#xA;protección.&lt;/p&gt;&#xA;&lt;p&gt;Aunque tu programa esté compilado en código de máquina, e incluso&#xA;ofuscado (si usas una máquina virtual), con el tiempo y los recursos&#xA;adecuados siempre es posible romper cualquier mecanismo de protección&#xA;(un crack).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

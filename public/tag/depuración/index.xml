@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Depuración on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/depuraci%C3%B3n/</link>
+    <description>Recent content in Depuración on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 21 Aug 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/depuraci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Historias de Depuración</title>
+      <link>http://localhost:1313/blog/lnds/2010/08/21/historias-de-depuracion/</link>
+      <pubDate>Sat, 21 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/08/21/historias-de-depuracion/</guid>
+      <description>&lt;p&gt;La mejor herramienta de depuración de un programa (debugger) es la&#xA;mente. Aunque el oido también sirve.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2010/08/debugger.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Una vez un amigo programador tenía un problema con dos procedimientos&#xA;almacenados. Ambos eran casi idénticos, la diferencia estaba sólo en la&#xA;fuente desde donde obtenían información, el algoritmo era el mismo. El&#xA;primero entregaba la respuesta extremadamente rápido, y el otro se&#xA;demoraba una eternidad. El programador llevó una copia de la base de&#xA;datos a su PC y empezó a depurar. Cuando me puse a ayudarlo noté algo,&#xA;al ejecutar el procedimiento con problemas el  computador se ponía&#xA;ruidoso. &amp;ldquo;¿Por qué suena tu computador?&amp;rdquo; &amp;ldquo;Porque se activa el&#xA;ventilador&amp;rdquo;. &amp;ldquo;Sí, pero hay algo más&amp;rdquo;. Efectivamente, el disco también&#xA;sonaba porque empezaba a girar más de lo normal. Con el procedimiento&#xA;almacenado más rápido no había ruido alguno y el disco apenas se movía.&#xA;Ese ruido nos llevó a la pista correcta, el problema estaba en la tabla&#xA;principal usada por el segundo procedimiento, que era el principal&#xA;cambio entre uno y otro. Al principio pensamos que tenía más datos, pero&#xA;no, lo que pasaba es que le faltaba un índice. Esa fue la primera vez&#xA;que depuré de oido.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

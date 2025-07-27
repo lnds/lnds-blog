@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El fin de la conversación | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2010/10/25/el-fin-de-la-conversacion/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El fin de la conversación">
+  <meta property="og:description" content="Los iPhone, iPods, iPads y otros dispositivos similares son altamente regresivos, nos llevan de vuelta hacia el mundo del consumo pasivo, como la televisión, me extraña que Clay Shirky no haya dicho nada aún (quizás ya lo ha dicho y no me he enterado).
+Todo ese superavit cognitivo que hay se va a evaporar por culpa de estos dispositivos, y Apple será el principal culpable.
+Y si no logro convencerlos, déjenme citar a Scott Adams:">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-10-25T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-10-25T08:25:11-03:00">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Python">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El fin de la conversación">
+  <meta name="twitter:description" content="Los iPhone, iPods, iPads y otros dispositivos similares son altamente regresivos, nos llevan de vuelta hacia el mundo del consumo pasivo, como la televisión, me extraña que Clay Shirky no haya dicho nada aún (quizás ya lo ha dicho y no me he enterado).
+Todo ese superavit cognitivo que hay se va a evaporar por culpa de estos dispositivos, y Apple será el principal culpable.
+Y si no logro convencerlos, déjenme citar a Scott Adams:">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El fin de la conversación</h1><time class="dim" datetime="2010-10-25T08:25:11-03:00">October 25, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/java/">#java</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/python/">#python</a>
+      </div></ol></div>
+  <section class="page-section"><p>Los iPhone, iPods, iPads y otros dispositivos similares son altamente
+regresivos, nos llevan de vuelta hacia el mundo del consumo pasivo, como
+la televisión, me extraña que Clay Shirky no haya dicho nada aún (quizás
+ya lo ha dicho y no me he enterado).</p>
+<p>Todo ese <a href="/blog/2008/05/gin-television-y-superavit-social.html">superavit cognitivo</a>
+que hay se va a evaporar por culpa de estos dispositivos, y Apple será
+el principal culpable.</p>
+<p>Y si no logro convencerlos, <a href="http://www.dilbert.com/blog/entry/the_amazingness_of_instant/">déjenme citar a Scott Adams</a>:</p>
+<blockquote>
+<p>Otro fenómeno interesante de la era del iPhone y el iPad es que
+estamos siendo transformados de productores de contenidos a
+consumidores. Con mi BlackBerry, probablemente creaba tanta data como
+la que consumía.  Era fácil tipear largas explicaciones, direcciones,
+y aún chistes y observaciones. Con mi iPhone, trato de evitar la
+creación de cualquier mensaje  más extenso que una sentencia. Pero uso
+el navegador del iPhone para consumir información cientos de veces más
+ de lo que hacía con mi BlackBerry.</p></blockquote>
+<p>Me pregunto si con el tiempo esto cambiará a la gente en alguna forma
+sutil no predecible. ¿Qué pasa cuando la gente es entrenada a pensar en
+la información y el entretenimiento como algo que ellos reciben, y no
+algo que pueden crear? Pienso que esto podría ser una bifurcación en el
+camino de la evolución humana. Quizás en millones de años, los humanos
+no sentirán ninguna obligación conversacional de entretener o proveer
+información útil. Esa será función de la Internet. Algún día un
+científico identificará la introducción del iPhone como el punto donde
+la evolución comenzó a remover la conversación de la lista de las
+capacidades humanas. Y cuando el científico descubra esto no se lo dirá
+ a su esposa, porque la conversación no existirá. Lo pondrá en Internet.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>285 words</span>
+    <span>1 - 2 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2010/06/01/es-mas-seguro-net-que-java/">¿Es más seguro .Net que Java?</a></li><li><a href="/blog/lnds/2007/12/29/fortran/">Fortran</a></li><li><a href="/blog/lnds/2006/10/20/como-mejorar-el-desempeno-de-los-desarrolladores-de-software/">Como mejorar el desempeño de los desarrolladores de software</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

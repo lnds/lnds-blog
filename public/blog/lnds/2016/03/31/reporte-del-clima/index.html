@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reporte del Clima | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Reporte del Clima">
+  <meta property="og:description" content="Jaco Pastorius es uno de esos músicos que te deja una profunda impresión cuando lo escuchas. En particular, no volverás a percibir el sonido del bajo de la misma forma después de escucharlo. [Su estilo ha influenciado a grandes del rock y el jazz, como el gran Flea[ de Red Hot Chili Peppers, o Geddy Lee de Rush, quien coloca a Jaco en la cima más alta.
+*“Sometimes a little bit of his fairy dust might rub off on you when you pretend to play like he does.”">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-03-31T08:25:11-03:00">
+    <meta property="article:modified_time" content="2016-03-31T08:25:11-03:00">
+    <meta property="article:tag" content="Desafíos">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Go">
+    <meta property="article:tag" content="Rust">
+    <meta property="article:tag" content="Erlang">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/featured.png">
+  <meta name="twitter:title" content="Reporte del Clima">
+  <meta name="twitter:description" content="Jaco Pastorius es uno de esos músicos que te deja una profunda impresión cuando lo escuchas. En particular, no volverás a percibir el sonido del bajo de la misma forma después de escucharlo. [Su estilo ha influenciado a grandes del rock y el jazz, como el gran Flea[ de Red Hot Chili Peppers, o Geddy Lee de Rush, quien coloca a Jaco en la cima más alta.
+*“Sometimes a little bit of his fairy dust might rub off on you when you pretend to play like he does.”">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Reporte del Clima</h1><time class="dim" datetime="2016-03-31T08:25:11-03:00">March 31, 2016</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/desaf%C3%ADos/">#desafíos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/go/">#go</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/rust/">#rust</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/erlang/">#erlang</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/haskell/">#haskell</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/scala/">#scala</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/kotlin/">#kotlin</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/clojure/">#clojure</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/fsharp/">#fsharp</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/swift/">#swift</a>
+      </div></ol></div>
+  <section class="page-section"><p><a href="//es.wikipedia.org/wiki/Jaco_Pastorius">Jaco Pastorius</a> es uno de esos
+músicos que te deja una profunda impresión cuando lo escuchas. En
+particular, no volverás a percibir el sonido del bajo de la misma forma
+después de escucharlo. [Su estilo ha influenciado a grandes del rock y
+el jazz, como el gran <a href="//es.wikipedia.org/wiki/Flea">Flea</a>[
+de Red Hot Chili Peppers, o <a href="//es.wikipedia.org/wiki/Geddy_Lee">Geddy Lee</a>
+de Rush, quien coloca a Jaco en la cima más alta.</p>
+<blockquote>
+<p>*&ldquo;Sometimes a little bit of his fairy dust might rub off on you when
+you pretend to play like he
+does.&rdquo;</p></blockquote>
+<p><img src="//d2dspjyoh5c79p.cloudfront.net/2438e961-f6d3-11e5-a13c-3371c0364c63-aa9f18b7" alt=""></p>
+<p>¿Qué tiene que ver esto con estos raros lenguajes nuevos? </p>
+<p>En realidad nada. O muy poco, pero a mi me gusta Jaco Pastorius y su
+música fue la principal banda sonora mientras resolvía el segundo
+desafío de esta tarea, que me he auto impuse de visitar nueve lenguajes
+de programación en nueve ejercicios.</p>
+<p>Este segundo desafío, se llama Weather Report (reporte del tiempo), para
+homenajear a la famosa banda de jazz fusión, en donde tocó Jaco al
+inicio de su carrera.</p>
+<h2 id="es-un-mundo-concurrente">Es un mundo concurrente</h2>
+<p>Creo que una de las características más importantes de un lenguaje
+moderno tiene que ver con la manera en que aborda la programación
+paralela.</p>
+<p>La programación paralela es una forma de programación concurrente, en
+que aprovechamos las capacidades de los sistema multiprocesador.</p>
+<p>Voy a recurrir a las definiciones  dadas por Ricardo Galli en su libro
+<a href="/blog/lnds/2015/11/15/principios-y-algoritmos-de-concurrencia">&ldquo;Principios y Algoritmos de Concurrencia&rdquo;</a>:</p>
+<blockquote>
+<p><strong>Programación Concurrente:</strong> es la composición de módulos que se
+ejecutan independientemente, de forma asíncrona y no determinista.<br>
+<strong>Programación Paralela:</strong> el paralelismo es una forma de ejecutar
+programas concurrentes. La programación concurrente es una forma de
+estructurar los programas, no el número de procesadores que usa para
+su ejecución.</p></blockquote>
+<blockquote>
+<p>&ldquo;Los problemas de procesos concurrentes no son exclusividad del
+procesamiento paralelo, también ocurren con un único procesador. Los
+estudios de concurrencia y paralelismo son diferentes. El primero se
+ocupa de la correcta composición de componentes no deterministas, el
+segundo de la eficiencia asintótica de programas de comportamiento
+determinista.&rdquo;</p></blockquote>
+<p>Como les dije antes, vamos a resolver un problema de programación
+paralela. Los aspectos más característicos de  programación concurrente
+los estudiaremos más adelante en otros desafíos.</p>
+<h2 id="consultando-el-reporte-del-tiempo">Consultando el reporte del tiempo</h2>
+<p>El desafío 2 consiste en construir una aplicación que obtenga el clima
+de distintas ciudades, usando la API de
+<a href="//openweathermap.org/">OpenWeatherMap.org</a>.</p>
+<p>Se debe crear un programa que reciba a través de la línea de comandos
+una lista de ciudades. Este programa debe realizar una consulta al  del
+sitio OpenWeatherMap.org para obtener el informe del tiempo para cada
+una de las ciudades. El resultado se debe ordenar de forma descendente,
+desde la mayor a la menor temperatura. El resultado debe contener, la
+ciudad, la temperatura máxima y las condiciones del clima. Además el
+programa debe informar  el tiempo cronológico ocupado para descargar la
+información. Si se pasa el parámetro -p el programa hace la consulta
+&ldquo;en paralelo&rdquo; para cada ciudad.</p>
+<p>Por ejemplo, este es el resultado de la ejecución del programa al
+momento de escribir estas lineas:</p>
+<pre><code> $ weather Berlin Santiago Boston Madrid Concepcion Mexico
+ Mexico 26.00 nubes rotas
+ Santiago 15.00 cielo claro
+ Concepcion 15.00 nubes rotas
+ Madrid 10.70 nubes dispersas
+ Boston 10.00 cielo claro
+ Berlin 03.00 cielo claro
+ tiempo ocupado para generar el reporte: 00:00:02.105
+</code></pre>
+<p>Si lo ejecuto con el parámetro -p:</p>
+<pre><code> $ weather -p Berlin Santiago Boston Madrid Concepcion Mexico
+ Mexico 26.00 nubes rotas
+ Santiago 15.00 cielo claro
+ Concepcion 15.00 nubes rotas
+ Madrid 10.80 nubes dispersas
+ Boston 10.00 cielo claro
+ Berlin 03.00 cielo claro
+ tiempo ocupado para generar el reporte: 00:00:01.546
+</code></pre>
+<p>Notarán que en este caso la versión paralela del programa toma un tiempo
+menor (1,546 segundos versus 2.105 segundos).</p>
+<p>La siguiente tabla muestra los tiempos de ejecución de la versión Go del
+programa, ejecutándolo de manera secuencial y paralela (con el parámetro
+-p). Los tiempos están en segundos, partiendo con 1 ciudad hasta llegar
+a 10 ciudades. Fueron probados en un Macbook Pro con un procesador Intel
+I7 de 4 cores.</p>
+<pre><code>Ciudades sec         par     s
+1        1,180     1,633     0,72
+2        0,829     0,807     1,03
+3        1,246     1,043     1,19
+4        1,670     0,716     2,33
+5        1,974     1,276     1,55
+6        2,388     1,725     1,38
+7        2,546     1,303     1,95
+8        2,761     1,470     1,88
+9        3,244     1,803     1,80
+10       3,754     1,207     3,11
+</code></pre>
+<p>La columna s muestra el speedup, o factor de mejora, que mide cuanto
+mejora el tiempo de ejecución en paralelo con respecto a la ejecución
+secuencial.</p>
+<p>Estos valores no deben considerarse una medición precisa, es necesario
+hacer muchas más para determinar un valor adecuado de speedup. Pero nos
+da una idea del efecto de paralelizar la consulta.</p>
+<p>Si tenemos 4 cores, y asumimos que el 90% del proceso se puede ejecutar
+en paralelo, tenemos un límite teórico de 3,07 de speedup, de acuerdo a
+la <a href="//es.wikipedia.org/wiki/Ley_de_Amdahl">Ley de Amdahl</a>.</p>
+<p>Con los valores de la tabla de arriba calculé el Speedup Teórico de
+acuerdo a las leyes de Amdahl y de
+<a href="//es.wikipedia.org/wiki/Ley_de_Gustafson">Gustafson</a>, que incluyo sólo
+como dato anecdótico, en este caso consideré el valor p = 0,90 para el
+cálculo de este parámetro:</p>
+<pre><code># Gustafson Amhdal
+ (p = 0,9) (p=0,9)
+1  0,7503 0,7432
+2  1,0245 1,0244
+3  1,1752 1,1718
+4  2,1992 2,0581
+5  1,4923 1,4667
+6  1,3459 1,3331
+7  1,8586 1,7837
+8  1,7904 1,7265
+9  1,7193 1,6660
+10 2,8992 2,5682
+</code></pre>
+<p>Si no entienden de que se trata todo esto les sugiero leer mis posts
+sobre la Ley de Amdahl
+(<a href="/blog/2009/09/el-problema-de-paralelizar.html">acá</a>,
+<a href="/blog/2009/09/el-problema-de-paralelizar-2.html">acá</a> y
+<a href="/blog/2009/09/el-problema-de-paralelizar-3.html">acá</a>), o
+mejor aún, el capítulo respectivo en <a href="//amzn.to/17bKPdO">mi
+libro</a> 😜</p>
+<p>El parámetro p de la ley de Amdahl es la proporción del programa que se
+ejecuta en paralelo. Para entender por qué consideré un valor de p =
+0,90 les voy a describir la forma general de mi solución a este desafío.</p>
+<h1 id="consultas-en-paralelo">Consultas en paralelo</h1>
+<p>Si  resolvemos el problema para consultar el clima de una lista de
+ciudades en forma secuencial, una solución posible se puede expresar con
+el siguiente algoritmo (escrito en seudo código):</p>
+<pre><code> Sea N la cantidad de ciudades.
+
+ Sea Cities[0..N-1] un arreglo con los nombres de las ciudades.
+
+ Sea Reporte[0..N-1] un arreglo con los reportes del tiempo para cada ciudad.
+
+ Sea ArgV[] un arreglo con los argumentos del programa recibidos en la linea de comandos.
+ 
+ for i = 0; i &lt; N; i++ {
+    Cities[i] = ArgV[i]
+ }
+ for i = 0; i &lt; N; i++ {
+   Reports[i] = CallApiOpenWeatherMap(Cities[i])
+ }
+
+ SortInPlaceByTemp(Reports)
+ 
+ for i = 0; i &lt; N; i++{
+    PrintReport(Reports[i])
+ }
+</code></pre>
+<p>Gráficamente este programa se ejecuta de la siguiente manera:</p>
+<figure><img src="//d2dspjyoh5c79p.cloudfront.net/6623c943-f74a-11e5-a13c-3371c0364c63-aa9f18b7"
+    alt="ejecución secuencial del programa"><figcaption>
+      <p>ejecución secuencial del programa</p>
+    </figcaption>
+</figure>
+
+<p>Cada círculo representa una sub rutina, en este caso, el circulo de
+color celeste representa las llamadas a la API de OpenWeatherMap. El
+resultado de esta llamada lo guardamos en un elemento de nuestro arreglo
+de reportes, que representamos con cajas grises. Después ordenamos ese
+arreglo de reportes, esto está representado por el círculo de color
+naranja con la palabra sort.</p>
+<p>Podemos mejorar el tiempo si ejecutamos las llamadas a la API de forma
+paralela, de este modo:</p>
+<p><img src="//d2dspjyoh5c79p.cloudfront.net/ddc628d4-f74a-11e5-a13c-3371c0364c63-aa9f18b7" alt=""></p>
+<p>En teoría, tendremos una fracción del tiempo usada en la operación en
+paralelo y una fracción secuencial que corresponde al ordenamiento de
+los datos (sort). ¿Cuál es la proporción del tiempo ocupada en las
+llamadas en paralelo? Ese es el parámetro p, yo le asigné un valor de
+0,9, porque asumo que el 90% del tiempo se gasta en consultar la API y
+ordenar ocupa el otro 10%. Esto es un valor arbitrario, determinarlo en
+forma precisa escapa a los objetivos de este ejercicio, pero ustedes
+pueden intentar determinarlo con mayor precisión.</p>
+<p>¿Cómo reflejamos esta paralelización en nuestro algoritmo?</p>
+<p>Del siguiente modo:</p>
+<pre><code> Sea N la cantidad de ciudades.
+ Sea Cities[0..N-1] un arreglo con los nombres de las ciudades.
+ Sea Reporte[0..N-1] un arreglo con los reportes del tiempo para cada ciudad.
+ Sea ArgV[] un arreglo con los argumentos del programa recibidos en la linea de comandos.
+ for i = 0; i &lt; N; i++ {
+    Cities[i] = ArgV[i]
+ }
+ par for i = 0; i &lt; N; i++ {
+   Reports[i] = CallApiOpenWeatherMap(Cities[i])
+ }
+ SortInPlaceByTemp(Reports)
+ for i = 0; i &lt; N; i++{
+    PrintReport(Reports[i])
+ }
+</code></pre>
+<p>El truco fue cambiar el for central por un <strong>par for.</strong></p>
+<figure><img src="//d2dspjyoh5c79p.cloudfront.net/93cea765-f74b-11e5-a13c-3371c0364c63-aa9f18b7"
+    alt="yaaaa?!!"><figcaption>
+      <p>yaaaa?!!</p>
+    </figcaption>
+</figure>
+
+<p>Ya sé que esto lo encuentran sospechoso, no se preocupen, se los voy a
+explicar.</p>
+<p>Hay algunos lenguajes que tienen construcciones similares a lo que he
+llamado <strong>par for.</strong></p>
+<p>Este par for es una estructura de control que ejecuta en paralelo las
+instrucciones del cuerpo del ciclo. Hay compiladores de Fortran y C para
+super computadores que tienen construcciones similares a esta.</p>
+<p>En un supercomputador con muchos procesadores lo que hace una estructura
+de control como esta es ejecutar el cuerpo del ciclo en un procesador
+distintos. Esta estructura de control se encarga de sincronizar el
+término de cada una de las ejecuciones secuenciales.</p>
+<p>Pero esto está disponible en uno de los lenguajes que estamos revisando.
+La solución en Swift del desafío 2 (que pueden ver
+<a href="//github.com/lnds/9d9l/tree/master/desafio2/swift">acá</a>) usa algo muy
+similar al seudo código.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> reports = [ApiResult?]()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1.</span>..cities.count {
+</span></span><span style="display:flex;"><span>       reports.append(<span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> globalQueue = dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>    dispatch_apply(cities.count, globalQueue) {
+</span></span><span style="display:flex;"><span>       i <span style="color:#66d9ef">in</span> 
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">let</span> index = Int(i)<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span> <span style="color:#75715e">// cities start from 2</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">let</span> city = cities[index]
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">let</span> rep = callApi(city, apiKey:apiKey)
+</span></span><span style="display:flex;"><span>       reports[Int(i)] = rep
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// sort...</span>
+</span></span></code></pre></div><p>En Swift usamos <a href="//en.wikipedia.org/wiki/Grand_Central_Dispatch">Grand Central Dispatch</a>, que es un
+modelo de concurrencia desarrollado por
+Apple.</p>
+<p>Lo que hacemos es crear una cola de tareas global (globalQueue). Sobre
+esta cola despacharemos tareas (tasks). </p>
+<p>La función dispatch_apply() es similar a la estructura de control par
+for, ejecutará una clausura (el código entre { }) en forma concurrente.
+Esta función se encarga de esperar que terminen todas las tareas.</p>
+<p>La ventaja de este problema es que es muy fácil de paralelizar. Sólo
+debemos tener cuidado de esperar que las descargas de información
+finalicen antes de ordenar e imprimir el resultado. Es por esto que
+podemos en nuestro for acceder al arreglo reports tranquilamente.</p>
+<p>Pero las cosas no son tan sencillas si usamos otros lenguajes
+tradicionales tendríamos que hacer algo del estilo (en seudo código):</p>
+<pre><code>for city  in cities {
+   task { city =&gt;
+     val report = callApi(city)
+     lock(reports)
+     reports[city] = report
+      unlock(reports)
+   }
+}
+wait_for_tasks()
+sortInPlace(reports)
+</code></pre>
+<p>Acá task es una suerte de thread o tarea que se ejecuta en forma
+concurrente. Notar que tenemos que asegurar acceso exclusivo al arreglo
+reports para actualizarlo y tenemos que invocar algún tipo de primitiva
+que nos asegure que las tareas han finalizado (wait_for_tasks()).</p>
+<h2 id="las-ventajas-de-la-programación-funcional-concurrente">Las ventajas de la programación funcional concurrente</h2>
+<p>Pero veamos el problema con los ojos de la programación funcional. Este
+problema tiene una forma clásica, conocida como map-reduce.</p>
+<p>Funcionalmente lo que tenemos que hacer es mapear cada ciudad con su
+reporte y luego ordenar (reducir).</p>
+<p>En seudo código funcional, este problema se puede escribir así:</p>
+<pre><code>print $ sort $ (map apiCall cities)
+</code></pre>
+<p>Esto es en realidad un seudo Haskell, que dice que debemos imprimir el
+resultado de ordenar el mapping de ciudades a sus reportes (el reporte
+se obtiene con la función apiCall).</p>
+<p>Y para paralelizar esto simplemente hacemos:</p>
+<pre><code>print $ sort $ (pmap apiCall cities)
+</code></pre>
+<p>La función pmap es un map pero ejecutado en paralelo.</p>
+<figure><img src="//d2dspjyoh5c79p.cloudfront.net/b11f21f7-f750-11e5-a13c-3371c0364c63-aa9f18b7"
+    alt="Yaaaa ¿Otra vez????"><figcaption>
+      <p>Yaaaa ¿Otra vez????</p>
+    </figcaption>
+</figure>
+
+<p>Sí, parece magia, pero las soluciones en
+<a href="//github.com/lnds/9d9l/tree/master/desafio2/clojure">Clojure</a> y
+<a href="//github.com/lnds/9d9l/tree/master/desafio2/scala">Scala</a> de este
+problema son así de sencillas:</p>
+<p>Scala:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> parFetch<span style="color:#f92672">(</span>cities<span style="color:#66d9ef">:</span><span style="color:#66d9ef">List</span><span style="color:#f92672">[</span><span style="color:#66d9ef">String</span><span style="color:#f92672">])</span> <span style="color:#66d9ef">:</span> <span style="color:#66d9ef">Unit</span> <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">val</span> reports <span style="color:#66d9ef">=</span> <span style="color:#f92672">(</span>cities<span style="color:#f92672">.</span>par map <span style="color:#f92672">(</span>city <span style="color:#66d9ef">=&gt;</span> apiCall<span style="color:#f92672">(</span>city<span style="color:#f92672">))).</span>toList
+</span></span><span style="display:flex;"><span>      printReports<span style="color:#f92672">(</span>reports<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Clojure</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span>    ((<span style="color:#a6e22e">print-weather</span> (<span style="color:#a6e22e">sort-reports</span> (<span style="color:#a6e22e">pmap</span> weather-api r))))
+</span></span></code></pre></div><p>Esta solución aparte de concisa nos permite abstraernos de las
+sincronización y todas las complicaciones de la programación
+concurrente. La inmutabilidad permite ver este problema como un flujo de
+información que va pasando de función a función. La abstracción pmap es
+el equivalente al par for en el mundo funcional.</p>
+<p>Pero hay otra forma de resolver este problema y es con canales,
+siguiendo el estilo
+<a href="//en.wikipedia.org/wiki/Communicating_sequential_processes">CSP</a> Communicating
+Sequential Process (propuesto originalmente por Hoare en 1978).</p>
+<p>Acá lo que hacemos es lo siguiente:</p>
+<pre><code>ch := new_channel(type: Report)
+for _ := 0 to N-1 {
+   city := cities[i]
+   task { chan_put (ch, apiCall(city)) }
+}
+for _ := 0 to N-1 {
+    report.append(chan_get(ch))
+}
+sort_in_place(report)
+print(report)
+</code></pre>
+<p>Piensen en el channel como una cola de mensajes. En este caso task { }
+ejecuta una tarea de forma concurrente. Dentro de esta tarea colocamos
+en el canal ch el resultado de invocar la API de OpenWeatherMap, usando
+la primitiva chan_put(). Esta es una operación que se ejecuta de forma
+sincronizada. </p>
+<p>Posteriormente vaciamos esta cola de mensajes (el canal) usando la
+primitiva chan_get(), colocando cada mensaje (que corresponde al
+reporte del clima) en una lista report.</p>
+<p>Hay que notar que el orden en que sacamos los reportes del canal no
+tiene por que coincidir con el orden en que ejecutamos las tareas. Es
+decir, si el arreglo de ciudades contiene los valores {Boston, Santiago,
+Madrid, Londres}, en el segundo loop podríamos obtener los reportes de
+{Santiago, Londres, Boston, Madrid} o cualquier otro orden.</p>
+<p>Esta es la forma en que resolvemos este problema en
+<a href="//github.com/lnds/9d9l/blob/master/desafio2/go/weather.go">Go</a> y
+<a href="//github.com/lnds/9d9l/tree/master/desafio2/rust">Rust</a>.</p>
+<p>Go:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>    <span style="color:#a6e22e">ch</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">WeatherReport</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">city</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">cities</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">go</span> <span style="color:#a6e22e">fetch</span>(<span style="color:#a6e22e">city</span>, <span style="color:#a6e22e">ch</span>) <span style="color:#75715e">// fetch call api and put response in ch</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">cities</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">rep</span> <span style="color:#f92672">:=</span> <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ch</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">reports</span> = append(<span style="color:#a6e22e">reports</span>, <span style="color:#a6e22e">rep</span>)
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Rust:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> (tx, rx) <span style="color:#f92672">=</span> mpsc::channel();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> city <span style="color:#66d9ef">in</span> cities {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> tx <span style="color:#f92672">=</span> tx.clone();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">let</span> city <span style="color:#f92672">=</span> city.clone();
+</span></span><span style="display:flex;"><span>        thread::spawn(<span style="color:#66d9ef">move</span> <span style="color:#f92672">||</span> {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">let</span> report <span style="color:#f92672">=</span> api_call(<span style="color:#f92672">&amp;</span>city, <span style="color:#f92672">&amp;</span>api_key);
+</span></span><span style="display:flex;"><span>          tx.send(report).unwrap();
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> reports : Vec<span style="color:#f92672">&lt;</span>ApiResult<span style="color:#f92672">&gt;</span> <span style="color:#f92672">=</span> Vec::with_capacity(cities.len());
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> _ <span style="color:#66d9ef">in</span> cities {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">let</span> rep <span style="color:#f92672">=</span> rx.recv().unwrap();
+</span></span><span style="display:flex;"><span>      reports.push(rep);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>La solución en Rust tiene más &ldquo;ruido&rdquo; que la versión en Go debido a
+las reglas de &ldquo;borrowing&rdquo; de este lenguaje, algo que veremos en
+detalle en un artículo específico sobre este lenguaje.</p>
+<h2 id="cinco-soluciones">Cinco soluciones</h2>
+<p>En este artículo les he mostrado 5 soluciones de este problema:</p>
+<p>Swift: en
+<a href="//github.com/lnds/9d9l/blob/master/desafio2/swift">https://github.com/lnds/9d9l/blob/master/desafio2/swift</a> </p>
+<p>Scala:
+en <a href="//github.com/lnds/9d9l/blob/master/desafio2/scala">https://github.com/lnds/9d9l/blob/master/desafio2/scala</a></p>
+<p>Clojure:
+en <a href="//github.com/lnds/9d9l/blob/master/desafio2/clojure">https://github.com/lnds/9d9l/blob/master/desafio2/clojure</a></p>
+<p>Go:
+en <a href="//github.com/lnds/9d9l/blob/master/desafio2/go">https://github.com/lnds/9d9l/blob/master/desafio2/go</a></p>
+<p>Rust:
+en <a href="//github.com/lnds/9d9l/blob/master/desafio2/rust">https://github.com/lnds/9d9l/blob/master/desafio2/rust</a>\</p>
+<p>En la segunda parte de este artículo completaremos los otros lenguajes.</p>
+<p>Espero sus comentarios y aportes.</p>
+<p>Y para que amenicen este post les dejo Birdland de Weather Report, donde
+pueden apreciar a Jaco Pastorius ejecutando dos tareas en paralelo ;) </p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pqashW66D7o?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2320 words</span>
+    <span>15 - 20 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#es-un-mundo-concurrente">Es un mundo concurrente</a></li>
+    <li><a href="#consultando-el-reporte-del-tiempo">Consultando el reporte del tiempo</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#las-ventajas-de-la-programación-funcional-concurrente">Las ventajas de la programación funcional concurrente</a></li>
+    <li><a href="#cinco-soluciones">Cinco soluciones</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2016/01/09/esos-raros-lenguajes-nuevos/">Esos Raros Lenguajes Nuevos</a></li><li><a href="/blog/lnds/2016/01/13/mas-alla-del-hola-mundo/">Más allá del Hola Mundo</a></li><li><a href="/blog/lnds/2011/01/12/cuidate-del-estilista/">Cuidate del estilista</a></li><li><a href="/blog/lnds/2011/01/11/zig-zag/">Zig Zag</a></li><li><a href="/blog/lnds/2010/03/30/la-programaci%C3%B3n-en-10-anos-mas/">La programación en 10 años más</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

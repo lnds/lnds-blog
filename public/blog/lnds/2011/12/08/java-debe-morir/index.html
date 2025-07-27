@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Java debe morir | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2011/12/08/java-debe-morir/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Java debe morir">
+  <meta property="og:description" content="“De todas las formas de adquirir libros se considera la más gloriosa el escribirlos uno mismo” – Walter Benjamin
+“‘Ta muy malo el corralero, y allá en el potrero como viejo está. Hay que ayudarlo a que muera para que no sufra más.” – Sergio Sauvalle
+Esa pareces ser la consigna desde hace unos dos o tres años, java, como lenguaje de programación, debe dar el paso a lenguajes más modernos.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-12-08T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-12-08T08:25:11-03:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Tecnología">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Java debe morir">
+  <meta name="twitter:description" content="“De todas las formas de adquirir libros se considera la más gloriosa el escribirlos uno mismo” – Walter Benjamin
+“‘Ta muy malo el corralero, y allá en el potrero como viejo está. Hay que ayudarlo a que muera para que no sufra más.” – Sergio Sauvalle
+Esa pareces ser la consigna desde hace unos dos o tres años, java, como lenguaje de programación, debe dar el paso a lenguajes más modernos.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Java debe morir</h1><time class="dim" datetime="2011-12-08T08:25:11-03:00">December 8, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/java/">#java</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/tecnolog%C3%ADa/">#tecnología</a>
+      </div></ol></div>
+  <section class="page-section"><blockquote>
+<p>&ldquo;De todas las formas de adquirir libros se considera la más gloriosa
+el escribirlos uno mismo&rdquo; &ndash; Walter Benjamin</p>
+<p>&ldquo;&lsquo;Ta muy malo el corralero, y allá en el potrero como viejo está. Hay
+que ayudarlo a que muera para que no sufra más.&rdquo; &ndash; Sergio Sauvalle</p></blockquote>
+<p>Esa pareces ser la consigna desde hace unos dos o tres años, java, como
+lenguaje de programación, debe dar el paso a lenguajes más modernos.</p>
+<p>Cuando uno ocupa durante mucho tiempo una herramienta empieza a
+descubrir sus limitaciones, y trata de hacer cambios para mejorarla,
+adaptaciones, o derechamente vas a adquirir otra.</p>
+<p>Es natural, somos seres tecnológicos, y uno de los elementos que nos
+diferencia es nuestro uso de las herramientas. Somos expertos en la
+mejora continua de nuestras herramientas, nuestra historia es, en cierto
+sentido, la historia de nuestras herramientas.</p>
+<p><img src="tool-evolution.gif" alt="tool-evolution"></p>
+<p>De todas las herramientas disponibles para un programador el lenguaje es
+la más importante. Y vaya que ha evolucionado, aunque no siempre para
+mejor :wink:</p>
+<p><img src="evolution-of-languages.jpg" alt="evolution-of-languages"></p>
+<p>En 1973 el lenguaje C ya estaba establecido, en 1983 C++ aparece en
+escena. Para 1995 la introducción de Java supuso un hito importante en
+la historia de la programación. Ya en ese tiempo C++, tenía unos 12 años
+y era tiempo de cambiarlo, parece que tenemos este ciclo de 10 a 12 años
+para empezar a cambiar lenguajes. ¿Por qué Java sigue con nosotros? (C#
+es una copia, como dijo Gosling<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, así que no vale<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. ¿Y Scala?,
+bueno, hablemos de eso más adelante).</p>
+<p>La verdad es que Gosling tampoco lo entendió muy bien. Puede ser que C#
+sea una copia, y es porque los negocios lo forzaron a ir en esa
+dirección. El diseñador principal de C# es Anders Helsjberg, famoso por
+turbo Pascal, y por Delphi (Object Pascal). Puede que Hejlsberg nunca
+haya creado un lenguaje desde cero, pero ha tenido siempre la habilidad
+de llevar un lenguaje existente en direcciones muy interesantes e
+innovadoras.</p>
+<p>Una cosa que hay que entender de la evolución es que no significa
+necesariamente progreso. Evolución es adaptación al cambio. En la
+evolución se prueban diversas alternativas ante condiciones nuevas, si
+funcionan se mantienen, si fracasan se desechan.</p>
+<p>La figura de arriba es errada, porque la evolución no es lineal. La
+evolución se mueve a través de un árbol, de una estructura mucho más
+intrincada, con entrecruzamientos, atavismos, mutaciones, etc.</p>
+<p>Cuando algo funciona bien en un nicho puede permanecer sin cambiar por
+mucho tiempo. Piensen en el cocodrilo, ¡básicamente es la misma especie
+desde hace 84 millones de años!</p>
+<p>Entonces hay cosas de Java que han funcionado muy bien, es lo que
+llamamos la plataforma Java. Una plataforma que ha permitido crear un
+rico ecosistema. En este nicho Java, el lenguaje, se desplaza como un
+pesado saurópodo.</p>
+<p>Quizás la mayor fuente de las críticas a Java tienen su origen en el
+concepto de &ldquo;<strong>simplejidad</strong>&rdquo;, que identificó muy bien Andres Hejlsberg,
+en <a href="http://www.artima.com/intv/simplexity.html">esta entrevista</a> que le
+hizo hace años Bill Venners:</p>
+<blockquote>
+<p><strong>Bill Venners</strong>: Una manera en que C# difiere de Java es en como
+propaga eventos a los objetos interesados. Java usa clases, a menod
+clases internas, que implementan interfaces listeners. C# usa
+delegates, que son un poco más como punteros a funciones. ¿Por qué
+delegates?</p>
+<p><strong>Anders Hejlsberg</strong>: Déjame hablar primero un poco sobre como veo la
+simplicidad en general. Nadie aragumenta que la simplicidad no sea
+buena, pero la gente define simplicidad de muchas maneras. Hay un tipo
+de simplicidad que me gusta llamar ***simplejidad. ***Cuando tomas
+algo increiblemente complejo y tratas de envolverlo en algo más
+simple, a menudo terminas ocultando con un velo la complejidad. No
+diseñas realmente un sistema más simple. En cierto modo lo haces aún
+más complejo, porque ahora el usuario tiene que entender por qué fue
+omitido aquello que ellos necesitarán a veces. Eso es simplejidad. Así
+que para mi, la simplicidad debe ser verdadera, en el sentido de que
+cuando más abajo te internas más simple se vuelve. No debe volverse
+más complicado en la medida que profundizas. Los delegates agregan un
+grado de expresividad que no obtienes con clases o interfaces, por lo
+cual pienso que son importantes. Los lenguajes de programación que han
+estado antes que nosotros han reconocido su importancia. Tienen muchos
+nombres: punteros a funciones, punteros a funciones miembras. En LISP
+tienes closures (clausuras). Eso es de lo que se trata la programación
+funcional cuando se hace bien. Son tremendamente útiles.</p></blockquote>
+<p><img src="complicado.jpg" alt="complicado"></p>
+<p>La simplejidad es otra forma de rascarse la oreja mal. Veamos un ejemplo,
+supongamos que queremos enseñar a programar, lo natural sería partir con
+el clásico programa hola mundo.</p>
+<p>Consideren la primera clase de Python:</p>
+<blockquote>
+<p>Para crear un programa muy simple que imprima en pantalla la frase
+&ldquo;hola mundo&rdquo;, ustedes deben escribir la siguiente sentencia:
+print(&ldquo;hola mundo&rdquo;)</p>
+<p>print es una sentencia que toma este texto entre comillas y lo
+despliega en la consola (pantalla), etc.</p></blockquote>
+<p>Ahora piensen el esfuerzo del entrenador de Java:</p>
+<blockquote>
+<p>Para crear un programa muy simple que imprima en pantalla la frase
+&ldquo;hola mundo&rdquo;, ustedes deben escribir el siguiente código:</p>
+<p>class HolaMundo {</p>
+<p>public static void main(String args[]) {</p>
+<p>System.out.println(&ldquo;hola mundo&rdquo;);</p>
+<p>}</p>
+<p>Por favor ignoren la sentencia class, ya lo vamos a explicar cuando
+veamos los conceptos de orientacíón a objetos.</p>
+<p>Por ahora ignoren que significa public static.</p>
+<p>void significa que esta es una función que no retorna ningún valor
+(wait, todavía no les enseño que es una función verdad?)</p>
+<p>System.out.println es una llamada a la clase System (ya vamos a
+aprender que es una clase, no se apuren), que tiene una variable
+pública llamada out que ha sido inicializada con la salida estandar
+(la consola, o pantalla).</p>
+<p>etc, etc.</p></blockquote>
+<p>Puedo imaginar la confusión de los alumnos, por eso que Java no debe ser
+enseñado en los primeros años!</p>
+<p>Y que hay de cosas más interesantes, ¿como delegates, o clausuras?
+¿funciones de primer orden? Java 7 recién empieza a explorar estos
+temas, pero con sintaxis horribles.</p>
+<p>OK, pero hay que reconocer que esas cosas vienen de un paradigma
+distinto, el paradigma funcional es distinto al paradigma orientado al
+objeto sobre el que se basa Java, así que hay que ser justos.</p>
+<p>Lo que pasa es que necesitamos incorporar el paradigma funcional,
+porque, entre otras razones, porque debemos desarrollar más la
+computación paralela. Los procesadores multicore son cada vez más
+comunes, y los conceptos de la programación funcional son muy útiles en
+este nuevo mundo.</p>
+<p>Los nuevos lenguajes serán un híbrido entre los paradigmas funcionales y
+orientados al objeto, porque ambos paradigmas tienen características que
+deben sobrevivir en las nuevas condiciones y en los nuevos nichos
+ecológicos que se abren.</p>
+<p>La tendencia actual en el ecosistema de Java (la plataforma) es crear
+nuevos lenguajes (Scala, Groovy, Clojure), o adaptar otros (Jython,
+JRuby) para la JVM.</p>
+<p>Es curioso, cuando .Net nació se decidió diseñarla para que aceptara una
+gran variedad de lenguajes. El mismo Microsoft decidió iniciar la CLI
+con tres lenguajes: Visual Basic, C# y un dialecto de C++. La idea era
+crear una gran cantidad de lenguajes que se adaptaran a esta plataforma.
+A pesar de esto C# es el lenguaje más usado, y probablemente termine
+siendo el que se coma la mayor parte del pastel .Net.</p>
+<p>Pero sobre la JVM en el último tiempo ha empezado una verdadera carrera
+por crear el sucesor de Java.</p>
+<p><a href="http://www.scala-lang.org/">Scala</a> es el asalto a los cielos más
+rimbombante hasta ahora, seguido por un modesto y más efectivo
+<a href="http://groovy.codehaus.org/">Groovy</a>. Otro candidato notablemente es
+<a href="http://jruby.org/">JRuby</a>, impulsado por la popularidad de
+<a href="http://www.ruby-lang.org/">Ruby</a>. Pero no hay un ganador claro.</p>
+<p>Aún así el empeño persiste, tenemos <a href="http://clojure.org/">Clojure</a>, y
+<a href="http://confluence.jetbrains.net/display/Kotlin/Welcome">Kotlin</a>, y
+<a href="http://gosu-lang.org/">Gosu</a>!</p>
+<p>Pero hay dos adiciones interesantes del último tiempo:
+<a href="http://www.eclipse.org/Xtext/xtend/">Xtend</a>, que tiene el respaldo de
+<a href="http://www.eclipse.org/">Eclipse</a> y <a href="http://ceylon-lang.org/">Ceylon</a>
+auspiciado por <a href="http://www.redhat.com/">RedHat</a>.</p>
+<p>¡Matemos a Java, para que Java viva! Yo creo que es interesante que se
+desarrollen estos lenguajes, veamos que pasa con esta <a href="http://es.wikipedia.org/wiki/Explosi%C3%B3n_c%C3%A1mbrica">explosión
+cámbrica</a>,
+exploremos estos lenguajes.</p>
+<p>Al menos yo voy a ir un paso más allá, y seguir los consejos de Walter
+Benjamin, aplicados a los lenguajes de programación, voy a escribir uno,
+y espero que ustedes me ayuden, así que atentos.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>La frase de Gosling, el creador de Java, es: &quot;The trite answer
+is, 'imitation is the sincerest form of flattery--thank you very much,
+but the other answer is, 'You guys (at Microsoft) still don't get
+it,' because it's sort of Java with reliability, productivity and
+security deleted.&quot; (La respuesta trillada es &rsquo;la imitación es la forma
+más sincera de adulación&rsquo;, muchas gracias, pero la otra respuesta es
+'ustedes chicos (en Microsoft) todavía no lo entienden&rsquo;, porque es una
+especie de Java sin confiabilidad, productividad y la seguridad
+eliminada&quot; (fuente: <a href="http://news.cnet.com/2008-1082-817522.html">http://news.cnet.com/2008-1082-817522.html</a>)&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Aunque a partir de C# 2.0 las cosas empezaron a cambiar, y C#
+2.0 salió en 2005!, quizás deberían haberle cambiado el nombre.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1453 words</span>
+    <span>8 - 11 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2011/12/08/java-debe-morir/complicado.jpg">complicado.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/12/08/java-debe-morir/evolution-of-languages.jpg">evolution-of-languages.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/12/08/java-debe-morir/tool-evolution.gif">tool-evolution.gif</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2010/10/30/barbaros-y-caballeros/">Bárbaros y Caballeros</a></li><li><a href="/blog/lnds/2010/10/25/el-fin-de-la-conversacion/">El fin de la conversación</a></li><li><a href="/blog/lnds/2010/06/01/es-mas-seguro-net-que-java/">¿Es más seguro .Net que Java?</a></li><li><a href="/blog/lnds/2011/11/06/startechconf-2011/">StartechConf 2011</a></li><li><a href="/blog/lnds/2011/11/02/mas-magia-con-kinect/">Más magia con Kinect </a></li></ul></aside></div>
+  </div>
+</body>
+</html>

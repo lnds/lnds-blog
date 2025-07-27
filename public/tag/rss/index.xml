@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rss on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/rss/</link>
+    <description>Recent content in Rss on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 13 Jan 2006 08:54:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/rss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El nuevo ícono estándar</title>
+      <link>http://localhost:1313/blog/lnds/2006/01/13/el-nuevo-icono-estandar/</link>
+      <pubDate>Fri, 13 Jan 2006 08:54:24 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/01/13/el-nuevo-icono-estandar/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;logo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Trabajando con las APIs de Feedburner: &lt;a href=&#34;http://web.archive.org/web/20090426080926/http://www.feedburner.com/fb/a/developers&#34;&gt;http://www.feedburner.com/fb/a/developers&lt;/a&gt; descubrí que el ícono que usa firefox se ha convertido en &lt;a href=&#34;http://web.archive.org/web/20090426080926/http://feedicons.com/&#34;&gt;un estándar&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esto es bueno, porque ahora todos sabremos donde se encuentran los feeds.&#xA;Aprovecho de darles un regalo, si quieren que este icono cool aparezca en la barra de firefox deben agregar&#xA;este código:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;link rel=&amp;#34;alternate&amp;#34; type=&amp;#34;application/rss+xml&amp;#34; title=&amp;#34;RSS 2.0&amp;#34; href=&amp;#34;{#url_feeds#}&amp;#34; /&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;donde deben reemplazar {#url_feed#} por la dirección de donde proviene vuestro feed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

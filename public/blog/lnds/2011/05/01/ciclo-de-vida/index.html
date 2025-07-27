@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ciclo de Vida | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Ciclo de Vida">
+  <meta property="og:description" content="Es diciembre, y después de una reunión de directorio, el Gerente General (GG) llama al Gerente de Tecnología (GT) a su oficina. El GG ha informado que este año se logró facturar 120 millones de dolares. Intrigado un director pregunta cuál ha sido la facturación promedio mensual. Como el informe no incluía este dato el GG le encarga al GT que trabaje en el tema, para que el próximo año el reporte incluya este nuevo indicador.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-05-01T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-05-01T08:25:11-03:00">
+    <meta property="article:tag" content="Humor">
+    <meta property="article:tag" content="Ironía">
+    <meta property="article:tag" content="Proyectos">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ciclo de Vida">
+  <meta name="twitter:description" content="Es diciembre, y después de una reunión de directorio, el Gerente General (GG) llama al Gerente de Tecnología (GT) a su oficina. El GG ha informado que este año se logró facturar 120 millones de dolares. Intrigado un director pregunta cuál ha sido la facturación promedio mensual. Como el informe no incluía este dato el GG le encarga al GT que trabaje en el tema, para que el próximo año el reporte incluya este nuevo indicador.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Ciclo de Vida</h1><time class="dim" datetime="2011-05-01T08:25:11-03:00">May 1, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/humor/">#humor</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/iron%C3%ADa/">#ironía</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/proyectos/">#proyectos</a>
+      </div></ol></div>
+  <section class="page-section"><p><img src="laptop_at_meeting_table.jpg" alt=""></p>
+<p>Es diciembre, y después de una reunión de directorio,  el Gerente General
+(GG) llama al Gerente de Tecnología (GT) a su oficina. El GG ha
+informado que este año se logró facturar 120 millones de dolares.
+Intrigado un director pregunta cuál ha sido la <strong>facturación promedio
+mensual</strong>. Como el informe no incluía este dato el GG le encarga al GT
+que trabaje en el tema, para que el próximo año el reporte incluya este
+<strong>nuevo indicador</strong>.</p>
+<p>Al llegar a su oficina el GT  llama al SubGerente de Desarrollo (SGD)
+ para solicitarle que implemente una aplicación que calcule el
+<strong>indicador de ingreso promedio mensual de la empresa</strong>. El SGD que se
+considera a si mismo una persona muy inteligente  pregunta &ldquo;¿y por qué
+debe ser mensual, cuando podríamos hacerlo paramétrico?&rdquo;, el GT lo mira
+asombrado, &ldquo;¡brillante!&rdquo; exclama, y citan a una reunión al Jefe de
+Proyecto (JP).</p>
+<p>El JP toma nota del requerimiento para implementar el <strong>Sistema de
+Gestión para la Alta Gerencia</strong> (SGPLAG). El JP que es una persona muy
+proactiva y ordenada abre una carpeta en el sistema de gestión
+documental (sgd, en minúscula para no confundirlo con el SGD) e
+inmediatamente crea la primera carta gantt del proyecto, finaliza el día
+citando a los analistas de su equipo.</p>
+<p>Después de las fiestas de fin de año, el JP se reúne con los analistas y
+les plantea los objetivos principales y secundarios del SGPLAG. Un
+analista se ofrece para trabajar en los requerimientos no funcionales, y
+desaparece por dos meses. Los otros dos analistas de sistemas citan a
+una reunión a los usuarios de la gerencia de operaciones, para levantar
+sus requerimientos concretos.</p>
+<p><img src="workaholic.jpg" alt=""></p>
+<p>Los usuarios de la Gerencia de Operaciones (GO) están felices, porque
+&ldquo;por fin después de 3 años estos tipos de tecnología les van a
+construir el sistema que necesitan&rdquo;. Después de 3 semanas de largas
+reuniones, los analistas tienen un documento que resume 367
+requerimientos nuevos, 167 mejoras, y 89 bugs no resueltos.</p>
+<p>Con este documento el JP elabora un informe de pre factibilidad,
+sugiriendo postergar los bugs y mejoras, y reducir los requerimientos a
+100 para poder sacar el proyecto dentro del año.</p>
+<p>Tres semanas más tarde, a la vuelta de vacaciones,  el JP se reúne con
+el SGD, descargan desde el sgd el informe de pre factibilidad y la carta
+gantt actualizada. El SGD casi se desmaya al revisar la planilla que
+contiene la cantidad de horas hombres involucradas, ajusta los números,
+felicita a su JP y programa una reunión para dos semanas más tarde con
+el GT con el fin de revisar <strong>el avance del proyecto</strong>.</p>
+<p><img src="to-dolist.jpg" alt=""></p>
+<p>El GT finalmente  tiene una <strong>cifra preliminar</strong>, y la presenta en la
+reunión de coordinación de gerencias. El Gerente de Administración y
+Finanzas (GAF) pregunta por  el presupuesto para este proyecto. El GT
+contesta que este es un proyecto que beneficia directamente a la GAF
+porque tiene que ver con el informe de resultados al directorio. Ante
+tan sólido argumento se decide redirigir un par de partidas del
+presupuesto de inversión de la GO para financiar el proyecto, esto es
+posible porque ese día el GO no asiste a la reunión por estar &ldquo;apagando
+un incendio&rdquo;.</p>
+<p>Finalmente el GT habla con el SGD indicándole que proceda con la
+licitación,  pero que ha notado que estuvieron conversando con los
+usuarios equivocados, y que deben hablar con la gente de finanzas. El
+SGD anota la observación, y la transmite al  JP,   aprovechan de
+clasificar el proyecto como <strong>crítico</strong> para la empresa.</p>
+<p>Dos meses más tarde, tras largas y agotadoras reuniones con los usuarios
+de finanzas, el equipo de analistas de sistemas ha elaborado un
+documento de alcance del proyecto. El analista de requerimientos no
+funcionales (ANF) vuelve a  desaparecer por tres meses más, porque no
+había sido informado de los cambios, y la nueva clasificación de crítico
+del proyecto, y necesita hacer modificaciones a la documentación.</p>
+<p>Con toda esta documentación levantada el JP y el SGD elaboran las bases
+de licitación. Aprovechan de conversar con el Subgerente de Sistemas
+(SGS) sobre el  proyecto. El SGS se queja de que nunca le informan nada,
+y si le hubieran avisado antes habría alcanzado a licitar la
+infraestructura antes de cerrar el primer quarter, con lo cual habrían
+conseguido suculentos descuentos de los proveedores internacionales. El
+SGS pregunta por los requerimientos no funcionales, y las necesidades de
+hardware para el proyecto. Se acuerda que el SGS le seguirá la pista al
+ANF y trabajará en la <em>cubicación</em> del storage para un sistema con
+información de 1 año online, más los respaldos por 5 años más.</p>
+<p>Se empieza con el proceso de licitación, como ya estamos en mayo, se
+pide a los proveedores que entreguen sus propuestas en el menor tiempo
+posible. Participan 10 empresas, y se levantan 687 preguntas. El 87% de
+las preguntas se respondian en las bases, por supuesto, y el 13% no
+aplica.</p>
+<p>La licitación  la gana una empresa que es elegida por ofrecer una
+metodología de desarrollo ágil.</p>
+<p>Se programa la reunión de kick off para la primera semana de junio, se
+espera tener los requerimientos no funcionales antes de la misma, porque
+el proveedor está muy preocupado de este punto. Nadie sabe donde se
+encuentra el ANF, se sospecha que tenía vacaciones acumuladas.</p>
+<p><img src="the-three-stooges-football.jpg" alt=""></p>
+<p>La reunión de kick off  es exitosa, el proveedor ha aprovechado de
+aclarar que ellos implementan una metodología que se podría describir
+como  un <em>Scrum-Ban modificado</em>. Nadie entiende muy bien que quiere
+decir, pero todos salen contentos de la reunión, porque tendremos un
+backlog en 2 semanas.</p>
+<p>Un mes más  tarde, cuando  el JP pide los Casos de Uso (CU) al
+proveedor, se entera de que el desarrollo está detenido porque no ha
+salido la orden de compra. El impasse se resuelve con un almuerzo, y se
+retoma el proyecto. En reunión de coordinación  se informa que tenemos
+un 50%  de avance del proyecto. El SGS insiste que todavía no tiene los
+requerimientos no funcionales y por eso no puede cubicar la
+infraestructura. El ANF sigue desaparecido.</p>
+<p>Tras la revisión de los casos de uso, y su posterior aprobación, a
+finales de agosto, se espera que los primeros prototipos se entreguen
+después de fiestas patrias, lo que es bueno porque el equipo de QA se
+desocupa para esas fechas. Se decide hacer una replanificación del
+proyecto que  refleje estos acuerdos.</p>
+<p><img src="crazy.jpg" alt=""></p>
+<p>En septiembre,  el programador principal del proveedor, sufre un colapso
+nervioso por no contar con los requerimientos no funcionales. En reunión
+de coordinación se informa que el proyecto necesita una reprogramación,
+pero que a pesar de los retrasos se ha avanzado otro 48%, y  el otro 52%
+restante se puede recuperar con una re asignación interna de recursos
+del proveedor. El proveedor ha manifestado que aunque está perdiendo
+dinero con el proyecto, igual va a asumir el costo de esta
+reprogramación. Se decide pagar la factura retenida por el hito de
+entrega de los casos de uso (de todos modos sólo falta 1 CU que
+corresponde a un** reporte que entrega unos promedios de facturación
+mensual**, así que es algo menor).</p>
+<p>Finalmente, se hace un deployment en el ambiente de integración, hubo
+problemas en la habilitación de la VPN, pero el proveedor puede entregar
+el producto a mediados de octubre, como se esperaba. Sólo falta QA y
+<strong>pasar a producción.</strong></p>
+<p>Después de un peleado paso a producción, y justo a tiempo para poder
+entregar el indicador antes de la reunión de directorio de diciembre, se
+descubre que el parámetro del año a calcular está en duro en el código,
+el proveedor insiste que se requiere un control de cambios, porque no
+estaba especificado que esta parte fuera paramétrica.</p>
+<p>Finalmente un analista de operaciones el Gerente de Operaciones termina
+calculando el promedio de ingresos mensuales en una planilla excel. El
+ANF entrega finalmente el documento requerimientos no funcionales, y se
+descubre que el storage está subdimensionado.</p>
+<p>El Auditor informa que el nuevo SGPLAG  cumple con los más altos
+estándares y permitió mejorar la clasificación de riesgo de la empresa.</p>
+<p>Un estudio de Gartner predice que para el 2014 la lectura y difusión de
+este texto generará pérdidas por 6 billones de dólares anuales en los
+departamentos TI, curiosamente el PIB de Chile no se verá afectado.</p>
+<p>Los hechos narrados son ficticios, cualquier semejanza con la realidad
+es pura coincidencia.</p>
+<p><img src="facepalm.jpg" alt=""></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1384 words</span>
+    <span>7 - 9 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/crazy.jpg">crazy.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/facepalm.jpg">facepalm.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/laptop_at_meeting_table.jpg">laptop_at_meeting_table.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/the-three-stooges-football.jpg">the-three-stooges-football.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/to-dolist.jpg">to-dolist.jpg</a></li><li><a href="http://localhost:1313/blog/lnds/2011/05/01/ciclo-de-vida/workaholic.jpg">workaholic.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2011/03/01/hazlo/">Hazlo</a></li><li><a href="/blog/lnds/2011/01/05/la-mujer-con-el-mejor-fisico-del-mundo/">La mujer con el mejor físico del mundo</a></li><li><a href="/blog/lnds/2010/11/07/los-planes-secretos-de-la-rae/">Los Planes Secretos de la RAE</a></li><li><a href="/blog/lnds/2010/10/19/formular-un-proyecto/">Formular un proyecto</a></li><li><a href="/blog/lnds/2010/10/09/como-estimar-software/">Cómo estimar software</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

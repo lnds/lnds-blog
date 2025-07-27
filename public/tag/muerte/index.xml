@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Muerte on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/muerte/</link>
+    <description>Recent content in Muerte on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 04 Sep 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/muerte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vida Plena</title>
+      <link>http://localhost:1313/blog/lnds/2011/09/04/vida-plena/</link>
+      <pubDate>Sun, 04 Sep 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/09/04/vida-plena/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Del aire soy,como todo mortal,del gran vuelo terrible y estoy aquí&#xA;de paso a las estrellas,g.rojas.grande&amp;rdquo; &lt;br&gt;&#xA;&amp;ndash; Felipe Camiroaga en Twitter, citando al poeta Gonzalo Rojas&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En estas últimas horas hubo un inusual aumento de visitas a este blog,&#xA;la razón es &lt;a href=&#34;http://localhost:1313/blog/2008/05/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu-y-derivados.html&#34;&gt;esta nota de 2008&lt;/a&gt;,&#xA;donde aparece la imagen de Luciano Bello, el personaje creado por Felipe&#xA;Camiroaga, probablemente sea el resultado al  buscar la imagen en&#xA;google. Eso es un reflejo indirecto del impacto que esta noticia ha&#xA;tenido en nuestro país, un buena persona, probablemente era la compañía&#xA;de  mucha gente .&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

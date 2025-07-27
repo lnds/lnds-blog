@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Fin de la Agilidad (XII) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2019/08/15/el-fin-de-la-agilidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El Fin de la Agilidad (XII)">
+  <meta property="og:description" content="(Puedes escuchar la banda sonora de este artículo en este enlace)
+“A good drummer listens as much as he plays.”
+— Proverbio Indio
+Como les conté antes, en la segunda mitad de los noventa, con mis amigos volvimos a ensayar como grupo musical. En esa época yo invertí en una batería y compraba cada cierto tiempo algún ejemplar de la revista Modern Drummer. A diferencia de hoy, en que encuentras en YouTube miles de tutoriales, en esa época recurrías a material escrito para aprender nuevas técnicas o mejorar como músico aficionado.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-08-15T08:25:11-03:00">
+    <meta property="article:modified_time" content="2019-08-15T08:25:11-03:00">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="Desarrollo">
+    <meta property="article:tag" content="Batería">
+    <meta property="article:tag" content="Aprender">
+    <meta property="article:tag" content="Procesos">
+    <meta property="article:tag" content="Calidad">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2019/08/15/el-fin-de-la-agilidad/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2019/08/15/el-fin-de-la-agilidad/featured.png">
+  <meta name="twitter:title" content="El Fin de la Agilidad (XII)">
+  <meta name="twitter:description" content="(Puedes escuchar la banda sonora de este artículo en este enlace)
+“A good drummer listens as much as he plays.”
+— Proverbio Indio
+Como les conté antes, en la segunda mitad de los noventa, con mis amigos volvimos a ensayar como grupo musical. En esa época yo invertí en una batería y compraba cada cierto tiempo algún ejemplar de la revista Modern Drummer. A diferencia de hoy, en que encuentras en YouTube miles de tutoriales, en esa época recurrías a material escrito para aprender nuevas técnicas o mejorar como músico aficionado.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El Fin de la Agilidad (XII)</h1><time class="dim" datetime="2019-08-15T08:25:11-03:00">August 15, 2019</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/desarrollo/">#desarrollo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/bater%C3%ADa/">#batería</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/aprender/">#aprender</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/procesos/">#procesos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/calidad/">#calidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/transformaci%C3%B3n/">#transformación</a>
+      </div></ol></div>
+  <section class="page-section"><p>(Puedes escuchar la banda sonora de este artículo en
+<a href="https://open.spotify.com/user/ediazlnds/playlist/3n3ukgxVqEnMwtu6Rmn3tS?si=vYYlbOXJTK2ZNwU73fVFEg">este
+enlace</a>)</p>
+<blockquote>
+<p>&ldquo;A good drummer listens as much as he plays.&rdquo;<br>
+&mdash; Proverbio Indio</p></blockquote>
+<p><a href="/blog/lnds/2019/03/31/el-fin-de-la-agilidad">Como les conté antes</a>,
+en la segunda mitad de los noventa, con mis amigos volvimos a ensayar
+como grupo musical. En esa época yo invertí en una batería y compraba
+cada cierto tiempo algún ejemplar de la revista
+<a href="https://www.moderndrummer.com/">Modern Drummer</a>. A diferencia de hoy, en que
+encuentras en YouTube miles de tutoriales, en esa época recurrías a
+material escrito para aprender nuevas técnicas o mejorar como músico
+aficionado.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/87f777c5-bf7d-11e9-8e69-21c4c306beae-aa9f18b7"
+    alt="Portada de Modern Drummer de Febrero 2015 mostrando a los tres bateristas de King Crimson en esa época Rieflin, Harrison yMastelotto."><figcaption>
+      <p>Portada de Modern Drummer de Febrero 2015 mostrando a los tres bateristas de King Crimson en esa época Rieflin, Harrison yMastelotto.</p>
+    </figcaption>
+</figure>
+
+<p>Fue en uno de esas ediciones que leí una entrevista a Neil Peart, el
+baterista de Rush, quien contaba como había vuelto a estudiar con el
+maestro <a href="https://es.wikipedia.org/wiki/Freddie_Gruber">Freddie Gruber</a>. </p>
+<p>La historia de Gubber es azarosa, pudo haber sido uno de los grandes
+bateristas del jazz, pero su adicción a la heroína lo alejó del camino
+del éxito. Con la ayuda de sus amigos, entre ellos el gran Buddy Rich,
+Freddie pudo recuperarse y encontrar su verdadera vocación en la
+enseñanza.</p>
+<p>Grubber enseñaba todos los aspectos de tocar la batería, pero su
+verdadero regalo, en palabras de Neil Peart, su discípulo más famoso,
+era *&ldquo;un entendimiento sin paralelos de la &lsquo;danza&rsquo; física involucrada al
+tocar el instrumento, la relación ergonómica entre el baterista y la
+batería&rdquo; *(tomen nota de esto porque es importante).</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/503bee56-bf7e-11e9-8e69-21c4c306beae-aa9f18b7"
+    alt="Neil Peart con su mentor Freddy Grubber"><figcaption>
+      <p>Neil Peart con su mentor Freddy Grubber</p>
+    </figcaption>
+</figure>
+
+<p>A fines de 2015, como <a href="/blog/lnds/2019/07/07/el-fin-de-la-agilidad">relaté en la parte 11</a>,
+estábamos en crisis. Ese mismo año, en la
+<a href="https://2015.starsconf.com/">StartechConf</a>, presenté una charla que
+titulé
+<a href="https://es.slideshare.net/EduardoDiazCortes/el-viaje-del-agente-de-cambio-54912695">&ldquo;El viaje del agente de cambio&rdquo;</a>,
+donde reflexioné sobre mi intento por cambiar como persona y hacer
+cambios en mi organización. Pero había pecado de soberbia al tratar de
+llevar el cambio con pura voluntad y sin involucrar demasiado a mis
+colegas y a mis principales colaboradores. En cierta medida lo que
+contaba en esa charla era cierto sólo en teoría, no había sido efectivo.
+Así que debía hacerme cargo de la crisis y debía cambiar.</p>
+<p>Empezar a hacerme cargo de las cosas que tanto Miguel, Carolina y 
+Elizabeth me habían dicho una y otra vez. Asumir, con humildad, que me
+faltaba mucho por aprender.</p>
+<p>Así que, tal como lo hizo Neil Peart, quien siendo el mejor baterista
+del mundo fue a aprender para mejorar su técnica, yo también partí a
+estudiar.</p>
+<h2 id="desaprender-para-aprender">Desaprender para aprender</h2>
+<blockquote>
+<p>&ldquo;If the future's looking dark,<br>
+We're the ones who have to shine.<br>
+If there's no one in control,<br>
+We're the ones who draw the line.<br>
+Though we live in trying times,<br>
+We're the ones who have to try.<br>
+And we know that time has wings,<br>
+So we're the ones who have to fly.&rdquo;<br>
+― Neil Peart</p></blockquote>
+<p>Coincidió, porque no nos pusimos de acuerdo, que mis dos lugartenientes
+decidieron hacer lo mismo, y lo interesante es que estudiamos temas
+complementarios. Carolina decidió formarse como Coach Organizacional, y
+Elizabeth estudiar un diploma en Gestión de Calidad de Software.</p>
+<p>Por mi parte decidí cerrar un ciclo personal. Cuando yo estaba en la
+universidad mi plan era salir con el título de ingeniero y magister.
+Pero no había completado ni uno ni el otro. Mil cosas pasaron en mi vida
+que hicieron que pospusiera mis estudios y así, sin darme cuenta, habían
+pasado más de veinte años. Esto no significó nunca cuestionamientos de
+mi capacidad laboral al buscar empleo. A fines de los ochenta y al
+inicio de los noventa muchos ingenieros en computación entramos a la
+industria en esta situación, nuestras habilidades eran requeridas y las
+ofertas laborales eran buenas.</p>
+<p>Decidí que estudiaría el <a href="https://www.dcc.uchile.cl/magister_ti">Magister en Tecnologías de
+Información</a> de mi alma mater, la
+Universidad de Chile. Un programa que se ofrece para los profesionales
+de la industria. Mis hijos mayores ya dejaban la universidad, así que
+podía invertir en mi formación personal. También recibí algo de apoyo de
+mi empleador en esto, así que tenía sólo que poner de mi parte para
+sacar adelante estos estudios. </p>
+<p>Recuerdo que, cuando se cumplieron los 40 años de la fundación del
+departamento de computación de la Universidad de Chile, me invitaron a
+un cóctel en la facultad. Esa noche hablé con varios amigos y conocidos
+que eran académicos, o enseñaban en este u otros programas de extensión
+y educación continua. Fue en un momento que uno de ellos, quien me hizo
+clases después, me preguntó que ¿para qué hacía esto? Después de todo ya
+contaba con todos los conocimientos que se impartían en el programa.
+Pero yo quería cerrar el ciclo, y tener al menos un título y además
+enseñarles a mis hijos que todo debe cerrarse y terminarse como
+corresponde, aunque tome tiempo.</p>
+<p>Al hacer los trámites de inscripción al programa de magister descubrí
+que mi universidad era generosa con sus ex alumnos y les permitía
+completar sus estudios, los que en mi caso, para ingeniería civil, era
+un ramo de ultimo semestre y la memoria, así que aproveché la
+oportunidad. dos año estudié para sacar mi carrera de ingeniero y el
+grado de magister.</p>
+<p>El programa de la Universidad de Chile requiere tomar un par de diplomas
+e invertir una cantidad de horas para preparar la tesis. Pero yo
+aproveché el vuelo e  inscribí tres diplomas: &ldquo;Gestión de Proyectos
+Informáticos&rdquo;, &ldquo;Ingeniería de Software&rdquo; y &ldquo;Ciencia e Ingeniería de
+Datos&rdquo;, este último el más difícil, pero en dónde aprendí muchas cosas
+nuevas para mí.</p>
+<h2 id="recomponiendo-al-equipo">Recomponiendo al equipo</h2>
+<p>En 2016 tomé algunos cursos de liderazgo y negociación. Fue ahí que fui
+reflexionando en la forma en que me relacionaba con mi equipo. También
+en ese tiempo hicimos diagnósticos de lo que nos había pasado y
+decidimos trabajar en mejorar la moral del equipo.</p>
+<p>Sufrimos otro par de bajas, Natalia y José, que habían trabajado en un
+duro proyecto a fines de 2015 y principios de 2016. Ellos realmente
+habían caido en el burnout, uno de los males de nuestro tiempo. </p>
+<p>Empezamos a traer nueva y más gente para incorporar al equipo, fue ahí
+que llegaron Gerardo y Fabián. También llegaron miembros extranjeros a
+nuestro equipo, como Pedro y Johan. El fenómeno de la inmigración
+empezaba a aparecer en nuestro país en esa época, así que aparte de la
+diversidad de género que tratábamos de mantener, había que hacerse cargo
+de la diversidad cultural que implica incorporar gente de diversas
+nacionalidades.</p>
+<p>Los cambios más importante ocurrieron en el área de Elizabeth. Con la
+partida de Gustavo y Contardo (ver <a href="/blog/lnds/2019/07/07/el-fin-de-la-agilidad">parte
+11</a>), ese
+equipo corría el riesgo de colapsar. Hicimos muchos cambios y logramos
+mejorar la productividad de ese grupo a pesar de tanto cambio.</p>
+<p>Una de las primeras cosas que hicimos fue hablar con Gabriel Ovalle,
+quien en ese entonces era jefe de sistemas, hicimos un análisis de todas
+las incidencias que generaban solicitudes desde el área de procesos que
+se traducían en labores de explotación de datos, lo que consumía mucho
+tiempo del equipo. Descubrimos que habían muchas solicitudes tenían un
+origen histórico, los usuarios las hacían porque hubo un tiempo en que
+no existían funcionalidades en los sistemas para resolver esos
+problemas, pero la verdad es que ya se habían resuelto, el problema era
+que no sabían que existían o al haber rotación de personal se perdía el
+conocimiento. Corregimos eso, capacitamos, desarrollamos algunas
+funcionalidades nuevas, o corregimos errores. Redujimos varios
+incidentes también automatizando algunas tareas. Y dejamos un montón de
+labores de explotación de datos en el equipo de DBAs que dependían de
+Gabriel.</p>
+<p>Pusimos énfasis en la integración continua, fue ahí que Jonathan Peña y
+Lillo, quien era analista de calidad hasta ese momento, tomó la posta
+del trabajo que había empezado Gustavo e implantó definitivamente un
+proceso de integración continua para que nuestros desarrolladores
+dejaran de entregar piezas binarias para instalar. Ahora por fin
+teníamos un ciclo en que las piezas a entregar a producción se generaban
+de manera automática a partir del repositorio de código
+fuente.</p>
+<p>Recuerdo el día en que me mostraron el primer pipeline de integración
+continua implantado en Bamboo. Realmente me emocioné, lo que había visto
+en Borland en 1998, y en Boston en 2011, por fin estaba tomando forma en
+mi área. Me sentí orgulloso de ellos.</p>
+<p>A fines de 2015 se había incorporado Claudio Araya, como ingeniero de
+sistemas, a cargo de mantener la infraestructura de nuestros ambientes
+de desarrollo y calidad. Pero además de sus capacidades técnicas, lo que
+buscábamos en ese tiempo, era gente con ganas de aprender, con una
+actitud positiva, gente alegre que cambiara la moral del equipo, que lo
+empujara hacía arriba. En ese sentido Claudio es y sigue siendo, un
+pilar importante de mantener la actitud del equipo. Uno de los líderes
+positivos de mi unidad.</p>
+<p>En 2016 también apareció el programa &ldquo;Mujeres Programadoras&rdquo;, de la
+fundación <a href="http://www.kodea.org/">Kodea</a>. Le dimos la oportunidad de
+realizar práctica con nuestro equipo a dos de las alumnas del proceso,
+Natalia y Camila. Finalmente decidimos incorporar a Camila Donoso al
+equipo de QA. Ella fue una de las pionera en un cambio importante que
+hicimos al proceso de control de calidad: incorporar la programación y
+así fue que empezamos a crear pruebas automatizadas, usando Selenium y
+Python en nuestro proceso. Pero se incorporaron otras técnicas que
+permitieron cambiar el estilo de hacer las pruebas. Gradualmente el
+equipo de Elizabeth empezaba a incorporar DevOps a nuestra
+organización.</p>
+<h2 id="ritmo-y-rito">Ritmo y Rito</h2>
+<blockquote>
+<p>&ldquo;Rhythm is the soul of life. The whole universe revolves in rhythm.
+Every thing and every human action revolves in rhythm.&rdquo; <br>
+&ndash;― Baba Tunji</p></blockquote>
+<p>Fue en la clase de ingeniería de software que conocí a <a href="https://www.dcc.uchile.cl/danielperovich">Daniel
+Perovich</a>, quien después se
+convertiría en mi profesor guía de tesis. Recuerdo que su clase de
+introducción al curso escribió dos palabras en la pizarra:</p>
+<p><strong>Ritmo y Rito</strong></p>
+<p>Con esas dos palabras se podía resumir todas la metodologías de
+desarrollo de software, y en particular las llamadas metodologías
+ágiles.</p>
+<p>¿Y quién es el encargado de esas dos cosas en una banda de
+rock?</p>
+<p>El jefe de proyecto, por ejemplo, es como toda la sección rítmica de una
+banda de rock, encargado de llevar el ritmo, pero de que se ejecuten los
+ritos que solicita el proceso de desarrollo de software. Y así.</p>
+<p>La metáfora creo que se explica por sí misma. Pero yo no era consciente
+de esto, no había eso esa distinción hasta esa tarde en que asistía a
+esta clase. Yo creía que sabía de ingeniería de software, pero se me
+escapaba algo tan esencial. </p>
+<p>Al estudiar, al analizar las cosas, al darnos el tiempo de disectarlas y
+extraerles los detalles, es que podemos entender de verdad lo que está
+ocurriendo y podemos integrarlas a nuestro ser.</p>
+<p>Ritmo y Rito, y qué mejor ejemplo que SCRUM para reflejar esto.</p>
+<h2 id="procesos-ágiles">Procesos ágiles</h2>
+<blockquote>
+<p>&ldquo;When Mr. Ludwig invented the bass-drum pedal, that's what made the
+drum set possible.&rdquo; <br>
+-― Neil Peart</p></blockquote>
+<p>No soy gran fan de Scrum, pero es una excelente manera de introducir
+agilidad en un ambiente estructurado, con mucha norma, con obligaciones
+normativas, donde tus procesos son auditados. Además funciona como esas
+rueditas que se le ponen a las bicicletas para que los niños aprendan a
+andar en estas.</p>
+<p>Scrum permite formar el hábito de la entrega continua, del time box,
+que fija el tiempo, y aprendes a controlar el alcance de lo entregado.
+Permite introducir algunos términos de agilidad. Incluso Spotify, que es
+vista como uno de los principales referentes del uso de las metodologías
+ágiles, partió con Scrum.</p>
+<p>En la segunda mitad de  2017 fue cuando empezamos a adoptar Scrum
+oficialmente en algunos equipos. Hasta antes de ese cambio teníamos un proceso que más o menos podíamos
+describir como iterativo incremental.</p>
+<p>Pero más que el proceso, lo que ocurría es que teníamos un grave
+problema con la calidad y la entrega.</p>
+<h2 id="calidad">Calidad</h2>
+<blockquote>
+<p>&ldquo;I don't think there's such a thing as a 'best' drummer&rdquo;<br>
+― Mike Portnoy</p></blockquote>
+<p>Esta viñeta cómica de <a href="http://geek-and-poke.com/">Geek &amp; Poke</a> refleja
+mucho lo que ocurre con la calidad en el proceso de desarrollo de
+software:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/12ba0948-bf88-11e9-8e69-21c4c306beae-aa9f18b7" alt="Slow Down
+Testing"></p>
+<p>Una vez literalmente nos pidieron hacer esto con un proyecto. El
+proveedor se quejaba de que nuestro equipo detectaba muchos bugs.</p>
+<p>Y efectivamente ocurre. También ocurre que pareciera que el proceso de
+control de calidad no parara nunca. Fue entonces en que cambiamos el
+switch.</p>
+<p>Tradicionalmente ocurre que el proceso de desarrollo involucra una etapa
+que llamaremos <strong>construcción</strong>, seguida de una etapa de control de
+calidad. Y ahí empieza la iteración, la que puede llegar a ser infinita.</p>
+<p>nuestro caso intentamos con una métrica que medía la cantidad de
+iteraciones entre desarrollo y QA en cada entrega.</p>
+<p>Esencialmente nuestro proceso era así:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/69b83d29-bf88-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>Eran muchas iteraciones entre desarrollo y QA, y los proyectos se
+alargaban hasta que cortábamos y tomábamos la decisión de pasar a
+producción. Eso,  por supuesto, debía cambiar.</p>
+<p>La clave es dejar de pensar en dos unidades independientes. El equipo
+de desarrollo y control de calidad deben trabajar juntos. Además había
+que aclarar que la calidad no es responsabilidad del área de QA, la
+calidad es una preocupación de todo el
+equipo.</p>
+<p>Definimos que todos eran desarrolladores, ya no habría distinción si
+programaban o ejecutaban pruebas. Además les pedimos a nuestros tester
+que escribieran pruebas automatizadas, así que también estaban
+desarrollando literalmente. Para mi ya no hay distinción entre esos
+roles, todos son devs.</p>
+<p>Otro elemento importante fue definir las métricas adecuadas. La más
+obvia, la cantidad de defectos que pasamos a producción. Empezamos a
+medir cuanto porcentaje de defectos incorporábamos en cada paso a
+producción. Es doloroso medir esto, pero importante. Una medida estándar
+en DevOps es la tasa de falla en cada cambio, cuentas cuantos fallos
+tuviste al realizar un cambio en el sistema. Otra medida también es
+medir cuantos defectos introduces contra la cantidad de funcionalidad
+que agregas en cada paso a producción. En la primera teníamos una medida
+de 16%, en la segunda estábamos sobre el 30%. La primera medida no es
+mala, la segunda sí lo es. Pero vas obteniendo una mejor visión cuando
+la complementas con otras métricas interesantes. </p>
+<p>Ahora, gracias a Scrum los ciclos de entrega eran fijos, 2, 3 o 4
+semanas. Sabíamos la cantidad de nuevas funcionalidades, mejoras y
+correciones que se implementarían en cada ciclo. Eso falicitó la
+implantación de dos métricas esenciales para mejorar.</p>
+<p>La primera de estas métricas es la <strong>Eliminación Efectiva de Defectos</strong>.
+La definición clásica, descrita en el libro de Pressman de ingeniería de
+software (quinta edición), la define de la siguiente forma:</p>
+<pre tabindex="0"><code>EED = E / (E+D) 
+</code></pre><p>En esta ecuación el valor  E corresponde a la cantidad de defectos
+encontrados en una entrega anterior, y D son los defectos encontrados en
+la entrega actual. Lo ideal es que este valor sea 1, pues significa que
+estás eliminando todos los defectos. Nosotros manejamos una formula
+modificada de la presentada por Pressman (una métrica más exigente de
+hecho). Pero se puede partir con este simple cálculo para ir midiendo la
+mejora en la calidad del trabajo. </p>
+<p>El problema era que nuestros valores de EED eran cercanos a 0.5. Nuestra
+manera de medir el EED nos entrega más información la que nos permitió
+deducir que lo que ocurría es que estábamos ingresando tantos defectos
+como los que eliminábamos en cada iteración. Otra forma de verlo es que
+pasas el 50% del tiempo corrigiendo errores previos.</p>
+<p>Otra métrica complementa es la que llamamos Valor Entregado (VE). Un
+ratio similar al EED que nos permite ver cuánto de lo que pasamos a
+producción son funcionalidades nuevas y mejoras, por sobre la corrección
+de defectos.</p>
+<p>Aunque puedan parecer muy crudas, estas simples métricas nos permitieron
+mejorar. Crecimos, mejoramos, y cambiamos la forma de hacer las cosas.
+Estábamos incorporando la agilidad a nuestra manera. Y nos fue bien.
+Revertimos los resultados de las encuestas de clima laboral, incluso
+estuvimos entre los mejor evaluados, y sostuvimos esos resultados en el
+tiempo. El espíritu del equipo cambió. </p>
+<h2 id="nuestro-viaje-de-transformación">Nuestro viaje de transformación</h2>
+<blockquote>
+<p>&ldquo;It´s nice when somebody says that you're their 'favorite'
+drummer&rdquo; 
+&ndash;― Mike Portnoy</p></blockquote>
+<p>Todo es lo contamos a la comunidad ágil de nuestro país,  en un Meetup
+que organizamos. Una presentación que elaboramos a partir del esqueleto
+de mi presentación de 2015, &ldquo;el viaje del agente de
+cambio&rdquo;.</p>
+<p>La gran diferencia es que ahora era mucho más real, y comprometía la
+visión de mi equipo, ya no era mi visión egoísta, era una mirada mas
+integradora y sincera. Pero lo mejor que esta historia fue presentada
+por mis principales colaboradoras, Carolina y Elizabeth, sin las cuales
+no podría haber logrado ningún
+cambio. </p>
+<p>Ese Meetup fue especial. Todo fue organizado y atendido por todo el
+equipo, y marcó un hito importante para nosotros, salíamos al exterior a
+contar nuestra experiencia y éramos escuchados con interés y
+respeto.</p>
+<p>Todo esto quedó registrado en <a href="https://www.youtube.com/watch?v=i0GpxfyZjr4&amp;feature=youtu.be">un
+video</a> que
+grabó Miguel González, y que les dejaré acá para que lo vean, ahí se
+describen mejor los cambios que realizamos, nuestras experiencias,
+dolores, y aprendizajes. </p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/i0GpxfyZjr4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Con esto ya nos estamos acercando al final de esta serie. El fin de una
+época se acercaba pero no lo sospechábamos, venían cambios y desafíos
+mayores, pero estábamos mejor preparados para afrontarlos, aún teníamos
+problemas, no menores, que resolver. Pero habíamos cambiado y eso es
+bueno.</p>
+<h2 id="notas">Notas:</h2>
+<p>El video está en este
+enlace: <a href="https://www.youtube.com/watch?v=i0GpxfyZjr4&amp;feature=youtu.be">https://www.youtube.com/watch?v=i0GpxfyZjr4&amp;feature=youtu.be</a></p>
+<p>La primera parte de esta serie se encuentra en este
+<a href="/blog/lnds/2019/03/17/el-fin-de-la-agilidad">enlace</a>. </p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2886 words</span>
+    <span>17 - 22 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/el-fin-de-la-agilidad">el fin de la agilidad</a></span></small>
+      </div></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#desaprender-para-aprender">Desaprender para aprender</a></li>
+    <li><a href="#recomponiendo-al-equipo">Recomponiendo al equipo</a></li>
+    <li><a href="#ritmo-y-rito">Ritmo y Rito</a></li>
+    <li><a href="#procesos-ágiles">Procesos ágiles</a></li>
+    <li><a href="#calidad">Calidad</a></li>
+    <li><a href="#nuestro-viaje-de-transformación">Nuestro viaje de transformación</a></li>
+    <li><a href="#notas">Notas:</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2019/08/15/el-fin-de-la-agilidad/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2019/06/16/el-fin-de-la-agilidad/">El Fin de la Agilidad (X)</a></li><li><a href="/blog/lnds/2019/05/21/el-fin-de-la-agilidad/">El Fin de la Agilidad (IX)</a></li><li><a href="/blog/lnds/2014/12/18/control/">Control</a></li><li><a href="/blog/lnds/2012/12/29/el-mejor-proceso-de-desarrollo-de-software/">El mejor proceso de desarrollo de software</a></li><li><a href="/blog/lnds/2010/05/07/peor-es-mejor/">Peor es mejor</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

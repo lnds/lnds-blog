@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tambores on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/tambores/</link>
+    <description>Recent content in Tambores on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Apr 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/tambores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El espíritu de los tambores</title>
+      <link>http://localhost:1313/blog/lnds/2011/04/24/el-espiritu-de-los-tambores/</link>
+      <pubDate>Sun, 24 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/04/24/el-espiritu-de-los-tambores/</guid>
+      <description>&lt;p&gt;Que mejor manera de festejar el espíritu de los &lt;a href=&#34;http://localhost:1313/blog/2011/04/tambores-parlantes.html&#34;&gt;tambores parlantes&#xA;africanos&lt;/a&gt; que&#xA;con este video que reune a dos grandes del Jazz: Omar Hakim y Bobby&#xA;McFerrin:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/9e3RhuZKSxg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

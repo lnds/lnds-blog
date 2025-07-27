@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Código Binario on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/c%C3%B3digo-binario/</link>
+    <description>Recent content in Código Binario on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 23 Sep 2018 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/c%C3%B3digo-binario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceros y Unos</title>
+      <link>http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/</link>
+      <pubDate>Sun, 23 Sep 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/</guid>
+      <description>&lt;p&gt;La leyenda cuenta que Teseo prometió a su padre, el rey Egeo de Atenas,&#xA;que si tenía éxito, en su hazaña de matar al Minotauro, al volver su&#xA;barco izaría velas blancas en vez de las tradicionales de color negro.&#xA;El hijo de Egeo, perdido por muchos años, quería librar a su ciudad del&#xA;infame tributo al Rey Minos, de Creta, que les obligaba a enviar a siete&#xA;jóvenes y siete doncellas para que fueran sacrificados ante el monstruo&#xA;con cuerpo de hombre y cabeza de toro.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

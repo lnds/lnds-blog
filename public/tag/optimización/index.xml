@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimización on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/optimizaci%C3%B3n/</link>
+    <description>Recent content in Optimización on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 29 Dec 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/optimizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dichos, Locos y Trenes</title>
+      <link>http://localhost:1313/blog/lnds/2012/12/29/dichos-locos-y-trenes/</link>
+      <pubDate>Sat, 29 Dec 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/12/29/dichos-locos-y-trenes/</guid>
+      <description>&lt;p&gt;Los principios del agilismo (&lt;a href=&#34;http://localhost:1313/blog/2011/09/el-mejor-proceso-de-desarrollo-de-software.html&#34;&gt;y del mejor proceso para desarrollar software&lt;/a&gt;) los&#xA;aprendí hace muchos años de la frase popular que dice: &lt;em&gt;&amp;ldquo;hay que matar&#xA;los piojos de a uno, antes que los piojos lo maten a uno.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;El arte de gestionar proyectos parte de cosas simples, de saber qué se&#xA;quiere y orientar los esfuerzos y recursos para lograr ese objetivo:&#xA;&lt;a href=&#34;http://localhost:1313/blog/2012/05/conoces-a-pin-pon.html&#34;&gt;Dirección+Organización+Método&lt;/a&gt;.&#xA;Pero no siempre tenemos todos los recursos, o no contamos con todos los&#xA;elementos, o simplemente no alcanza el tiempo para lograr el objetivo.&#xA;Allí es cuando es necesario aplicar el principio de &lt;strong&gt;la suboptimización&#xA;de las partes &lt;em&gt;*en función del todo&lt;/em&gt;&lt;/strong&gt;*,&lt;em&gt;* también conocido como&lt;/em&gt;* el&#xA;principio del loco y la rueda pinchada. **&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Locos y Ruedas</title>
+      <link>http://localhost:1313/blog/lnds/2012/12/29/locos-y-ruedas/</link>
+      <pubDate>Sat, 29 Dec 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/12/29/locos-y-ruedas/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Era un día de lluvia torrencial, y Marcos pincha un neumático justo&#xA;enfrente de un manicomio. Luego de estacionar se baja, se protege de&#xA;la lluvia como mejor puede y procede a sacar los pernos que sujetan la&#xA;llanta. Los deja cuidadosamente en el suelo formando un montón. Lleva&#xA;la rueda a la maleta del auto para cambiarla por la rueda de repuesto,&#xA;y cuando vuelve patea los pernos sin querer, con tan mala suerte que&#xA;estos ruedan cayendo por las alcantarillas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Datos, datos, datos...</title>
+      <link>http://localhost:1313/blog/lnds/2011/10/03/datos-datos-datos/</link>
+      <pubDate>Mon, 03 Oct 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/10/03/datos-datos-datos/</guid>
+      <description>&lt;p&gt;En 1980 IBM introdujo estos dispositivos de almacenamiento de&#xA;aproximadamente 2.5 Gigabytes:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;PH3380A.jpg&#34; alt=&#34;PH3380A&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Si mal no recuerdo vi algún &lt;em&gt;&amp;ldquo;refrigerador&amp;rdquo;&lt;/em&gt; parecido a estos en la&#xA;sala de servidores del CEC en la Escuela de Ingeniería cuando estudiaba.&lt;/p&gt;&#xA;&lt;p&gt;Ya para 1987 este modelito más compacto tenía la asombrosa capacidad de&#xA;almacenar 7.5 Gigabytes:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;PH3380CJ2.jpg&#34; alt=&#34;PH3380CJ2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hoy en día, tan solo 24 años después, contamos con dispositivos como&#xA;este:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;terabyte-external-drive.jpg&#34; alt=&#34;terabyte-external-drive&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Con una capacidad de 1 Terabyte, unas 134 veces más capacidad que , en&#xA;la palma de la mano.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firefox monstruo devorador de memoria</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/03/firefox_monstrui_devorador_de/</link>
+      <pubDate>Thu, 03 Nov 2005 10:06:57 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/03/firefox_monstrui_devorador_de/</guid>
+      <description>&lt;p&gt;Firefox consume mucha mas memoria que internet explorer, en mi caso IE consume unso 25 MB cuando lo inicio apuntando a este sitio, mientras que Firefox unos 37 MB, es casi constante. Tengo que decir que en mi caso ambos browsers tienen casi la misma cantidad de plugins, incluso IE tiene mas barras y addons que Firefox.&lt;/p&gt;&#xA;&lt;p&gt;Pero lo peor es que te puede pasar lo que le pasó a Red Guy tras navegar por 2 días con Firefox, miren esta imagen del uso de memoria en su caso. Firefox no libera memoria. Esperemos que mejore con el tiempo, ya me estoy desilusionando.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El camino de la innovación | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2013/02/15/el-camino-de-la-innovacion/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El camino de la innovación">
+  <meta property="og:description" content="Adrian Cockcroft es el “arquitecto de nube” en Netflix, sí, cloud architect. ¿Qué diablos es eso? En otra oportunidad les voy a explicar. Lo importante es que escribe un blog bien interesante, sobre el cual se basa casi todo lo que voy a escribir hoy.
+En diciembre de 2011 escribió un post titulado “How Netflix gets out of the way of innovation”, que les sugiero que lean. Es en realidad el “script” de una presentación sobre la cultura de Netflix.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-02-15T08:25:11-03:00">
+    <meta property="article:modified_time" content="2013-02-15T08:25:11-03:00">
+    <meta property="article:tag" content="Innovación">
+    <meta property="article:tag" content="Netflix">
+    <meta property="article:tag" content="Arquitectura">
+    <meta property="article:tag" content="Cultura">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El camino de la innovación">
+  <meta name="twitter:description" content="Adrian Cockcroft es el “arquitecto de nube” en Netflix, sí, cloud architect. ¿Qué diablos es eso? En otra oportunidad les voy a explicar. Lo importante es que escribe un blog bien interesante, sobre el cual se basa casi todo lo que voy a escribir hoy.
+En diciembre de 2011 escribió un post titulado “How Netflix gets out of the way of innovation”, que les sugiero que lean. Es en realidad el “script” de una presentación sobre la cultura de Netflix.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El camino de la innovación</h1><time class="dim" datetime="2013-02-15T08:25:11-03:00">February 15, 2013</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/innovaci%C3%B3n/">#innovación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/netflix/">#Netflix</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/arquitectura/">#arquitectura</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/cultura/">#cultura</a>
+      </div></ol></div>
+  <section class="page-section"><p>Adrian Cockcroft es el &ldquo;arquitecto de nube&rdquo; en Netflix, sí, cloud
+architect. ¿Qué diablos es eso? En otra oportunidad les voy a explicar.
+Lo importante es que escribe <a href="http://perfcap.blogspot.com/">un blog</a>
+bien interesante, sobre el cual se basa casi todo lo que voy a escribir
+hoy.</p>
+<p><img src="netflix.jpg" alt=""></p>
+<p>En diciembre de 2011 escribió un post titulado
+<a href="http://perfcap.blogspot.com/2011/12/how-netflix-gets-out-of-way-of.html">&ldquo;How Netflix gets out of the way of innovation&rdquo;</a>,
+que les sugiero que lean. Es en realidad el &ldquo;script&rdquo; de una
+presentación sobre la cultura de Netflix.</p>
+<p>Lo que quiere explicar Cockcroft en su presentación es: cómo Netflix
+puede hacer cosas tan rápido (a veces demasiado rápido), de modo que han
+podido realizar movidas estratégicas de gran envergadura, en poco tiempo
+y con un equipo pequeño de ingenieros.</p>
+<p>Fíjense en lo que acabo de escribir: &ldquo;realizar movidas estratégicas de
+gran envergadura, en poco tiempo y con un equipo pequeño de
+ingenieros&rdquo;.</p>
+<p>No es fácil, claro está. ¿Donde está la clave?</p>
+<p>Cómo siempre, la clave está en no seguir las reglas del libro, hacer las
+cosas cómo los agoreros del desastre dicen que no se deben hacer, sin
+miedo, y torciendo un poco las reglas.</p>
+<p>Netflix nace en 1997, fundada por Marc Randolph y Reed Hastings, ambos
+desarrolladores de software que trabajaban en Pure Software, los
+creadores de Purify, un debugger de memoria para C y C++ bastante
+popular a principios de los noventa en ambientes Unix. En esos tiempo
+esta era una herramienta valiosísima para depurar programas. Reed
+Hastings además era fundador de esa empresa.</p>
+<p>En 1997 fueron adquiridos por Rational Software, la empresa detrás de
+UML y RUP, y que actualmente pertenece a IBM.</p>
+<p>De esos tiempos Hastings recuerda que Pure Software era una pequeña
+empresa, bastante libre y anárquica, pero en la medida que fue creciendo
+se volvía cada vez más burocrática. Así que se retiró en cuanto fue
+adquirida por Rational, y
+<a href="http://www.businessweek.com/stories/2007-09-23/netflix-flex-to-the-max">pensó durante 2 años cómo volver a organizar su nuevo emprendimiento</a>
+de modo que no cayera en estos &ldquo;vicios del crecimiento&rdquo;.</p>
+<p>El resultado es Netflix, una empresa basada en los principios de
+&ldquo;libertad y responsabilidad&rdquo;. Hastings le paga muy bien a sus
+empleados, tienen vacaciones ilimitadas, y les permite estructurar sus
+propios paquetes de compensaciones. A cambio se espera un alto
+desempeño, que cada empleado sea capaz de hacer el trabajo de 3 ó 4
+personas.</p>
+<p>Voy a citar a Cockcroft quien describe de este modo la cultura
+innovadora de Netflix:</p>
+<blockquote>
+<p>Lo que encontré en pocos años es una cultura que permite la
+innovación, de modo que Netflix hace las cosas más rápido que otras
+compañías, que están demasiado asustadas o son muy lentas para
+intentar algo.</p>
+<p>¿Quién trabaja en una compañía que tiene más de una linea de
+productos? El problema es que esa compañía pierde el foco y tiene
+problemas asignando recursos que se necesitan, y esto produce grandes
+peleas. Toma una cosa grande y hazla bien. Para Netflix, el mercado
+objetivo es todo aquel que le guste ver películas y programas de TV,
+eso es lo que nos mantendrá ocupados por un tiempo.</p>
+<p>evitar la sobrecarga en la comunicación y la sincronización Para
+los geeks, piensen en la <a href="/blog/2009/09/el-problema-de-paralelizar.html">Ley de Amdahl</a>
+aplicada a las personas. Tenemos la mayor cantidad de personas en el
+mismo lugar. Ancho de banda alto, y baja latencia en las
+comunicaciones.</p>
+<p>No tenemos ingenieros junior, ni estudiantes en práctica. Encontramos
+que los ingenieros que cuestan el doble son más de dos veces
+productivos, porque necesitamos menos sobrecarga administrativa.
+Reducir la sobrecarga administrativa es un aspecto importante para una
+cultura innovadora.</p>
+<p>Vale la pena el gasto extra en ingenieros que no requieran
+administración. Somos pequeños comparados con compañías como Google,
+ellos toman talento crudo y lo desarrollan, nosotros a veces tomamos
+la opción de contratar a alguien con sólo cinco años de experiencia.</p>
+<p>No tenemos un comité de arquitectura, ni estándares centralizados de
+codificación. Lo que hacemos es crear herramientas que creen un camino
+de mínima resistencia, lo que, combinado con la presión de los pares,
+mantiene alta la calidad. Los ingenieros son libres y responsables de
+resolver sus propios problemas.</p>
+<p>Tampoco tenemos un equipo de sistemas (operaciones) que se encarga de
+correr el código en producción. Los desarrolladores ejecutan lo que
+han escrito. El teléfono celular de todos está disponible siempre, el
+truco es asegurarse de que no te llamen.</p>
+<p>Toda la gente en operaciones tiene historias de horror acerca de
+desarrolladores estúpidos, y viceversa, pero no tiene por qué ser así.
+Tenemos una organización de desarrolladores que lo hace todo y no hay
+un equipo de IT Ops involucrado en nuestro desarrollo en cloud.</p>
+<p>¿Quién tiene que pedir permiso para desplegar (deploy) 100 o 1000
+servidores? Nosotros no. Los desarrolladores usan nuestro portal
+directamente, tienen que llenar un ticket de control de cambio donde
+registran lo que hicieron y pasa a producción, eso es todo. Hemos
+entrenado a nuestros desarrolladores para operar su propio código.
+Hemos creado y destruido hasta 1.000 servidores en un día, con sólo
+publicar nuevo código.</p>
+<p>¿Quién tienen un ciclo centralizado de publicación y tienen que
+esperar el próximo tren antes de publicar su código? Nosotros no. Cada
+equipo maneja su propio calendario de liberaciones (releases). El
+código nuevo se actualiza frecuentemente, y reduce su ritmo en
+servicios maduros. Los equipos son responsables para manejar la
+evolución de la interfaz y dependencias por si mismo. Libertad y
+responsabilidad nuevamente.</p>
+<p>Nuestros administradores de proyectos no están preocupados del
+seguimiento de las entregas. Ellos son dueños de sus recursos y de
+establecer el contexto para sus equipos. Tienen tiempo para hacerlo
+porque hemos eliminado todo el BS (Bull Shit) de su rol.</p></blockquote>
+<p><img src="bullshit.jpeg" alt=""></p>
+<blockquote>
+<p>Los administradores tienen que ser buenos para seleccionar personal,
+deben ser técnicos y con la capacidad para &ldquo;arquitecturar&rdquo; lo que su
+equipo hace, además de gestionar el proyecto para lograr resultados.
+No separen esto en tres personas. Reduzcan la sobrecarga
+administrativa, minimicen el BS y el tiempo perdido. Los equipos
+típicamente están compuestos de 3 a 7 personas. Tengan una reunión
+semanal con el equipo y un 1 a 1 con cada ingeniero para mantener el
+contexto.</p>
+<p>No tenemos herramientas estándares de desarrollo. Asumimos que los
+desarrolladores ya saben como ser productivos por si mismos. Damos
+algunos patrones comunes para que los nuevos puedan empezar, como
+Eclipse, IntelliJ, en Mac o Windows. Algunos usan Emacs en Linux.
+Contraten ingenieros experimentados que sean preocupados de su
+trabajo, y se encargarán de la calidad del código y los estándares sin
+tener que decírselo.</p>
+<p>Trabajen con gente que respetan. La única manera de tener una alta
+densidad de talento es sacar a la gente que no aporta. Eso también
+aplica a lo que algunos llaman &ldquo;pelmazos brillantes&rdquo; (brilliant
+jerks). Aunque hagan un gran trabajo, la cultura no puede tolerar a
+las prima donnas ni el comportamiento anti social, así que la gente
+que no confía en otros o comparte lo que saben no encajan.</p>
+<p>No pagamos bonos. No tenemos otros grados más que Ingeniero Senior,
+Manager, Director y VP. No registramos las horas o los días de
+vacaciones, decimos &ldquo;tómatelas&rdquo;. Una vez al año revisamos el salario
+de todos comparados con sus pares y el mercado.</p>
+<p>Algunos pensaran que esto debe salir bastante caro, ¿pero cuál es el
+valor de ser increíblemente productivo y moverse más rápido que la
+competencia? Puedes adelantarte y establecer una posición líder antes
+que cualquiera se de cuenta que estás en el juego. ¿Recuerdan cuando
+hace unos pocos años atrás los &ldquo;Analistas&rdquo; decían que Netflix, la
+compañía de los DVD sería aniquilada por la otras compañías de
+streaming, y repentinamente el público se dio cuenta que estábamos
+generando más ancho banda de streaming que el resto?</p>
+<p>Así, ¿qué puede salir mal? Bueno, erramos recientemente, fuimos
+demasiado rápido, en parte porque podíamos, pero no tuvimos suerte y
+metimos la pata. Lo bueno es que Netflix puede re planear y ejecutar
+los arreglos que necesitamos muy rápido, sin angustia interna ni
+acusaciones mutuas (finger-pointing).</p>
+<p>Menos proceso, pocas reglas y principios simples. Denle a la gente
+libertad, háganlos responsables, reemplacen a los que no pueden o no
+quieren desempeñarse en ese ambiente. Enfóquese en la densidad de
+talento y en conservar la atención de la administración removiendo el
+BS de sus trabajos.</p>
+<p>Ese es tu desafío. ¿Quieres organizar una banda y partir en una misión
+para salvar tu compañía? Deja de hacer las cosas que te quitan
+velocidad, y elimina toda la basura improductiva que obstruye tu
+gestión y a tus ingenieros.</p></blockquote>
+<p>Ese es el mensaje, y la segunda razón por la que me gusta Netflix.
+Libertad y Responsabilidad, así es cómo hay que trabajar. ¿Se atreverían
+a seguir un modelo como el propuesto por Netflix? ¿Creen que en su
+trabajo aceptarían un cambio cultural de este tipo? ¿Qué es lo que nos
+falta?</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1453 words</span>
+    <span>8 - 11 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2013/02/15/el-camino-de-la-innovacion/bullshit.jpeg">bullshit.jpeg</a></li><li><a href="http://localhost:1313/blog/lnds/2013/02/15/el-camino-de-la-innovacion/netflix.jpg">netflix.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2013/02/13/jugar-bien-sus-cartas/">Jugar bien sus cartas</a></li><li><a href="/blog/lnds/2006/11/19/hot-rods/">Hot Rods</a></li><li><a href="/blog/lnds/2012/09/26/donde-est%C3%A1n-los-supers%C3%B3nicos/">¿Donde Están los Supersónicos?</a></li><li><a href="/blog/lnds/2012/08/19/del-gobierno-abierto-al-gobierno-de-servicios/">Del gobierno abierto al gobierno de servicios</a></li><li><a href="/blog/lnds/2012/08/18/be-awesome/">Be Awesome</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

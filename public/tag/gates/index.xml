@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gates on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/gates/</link>
+    <description>Recent content in Gates on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 16 Nov 2005 11:49:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/gates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jobs ofrecio OS X gratis para el project ULPN</title>
+      <link>http://localhost:1313/blog/lnds/2005/11/16/jobs-ofrecio-os-x-gratis-para-el-project-ulpn/</link>
+      <pubDate>Wed, 16 Nov 2005 11:49:04 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/11/16/jobs-ofrecio-os-x-gratis-para-el-project-ulpn/</guid>
+      <description>&lt;p&gt;Una nota antes de la notica, por favor recuerden que este es un proyecto educativo, no es el desarollo de un notebook más barato, el proyecto es &lt;a href=&#34;s/2005/11/ulpn.html#more&#34;&gt;para los niños&lt;/a&gt;, por favor lean el &lt;a href=&#34;http://laptop.media.mit.edu/faq.html&#34;&gt;FAQ &lt;/a&gt;del proyecto antes de opinar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;jobs-y-gates-se-involucran&#34;&gt;Jobs y Gates se involucran&lt;/h2&gt;&#xA;&lt;p&gt;Steve Jobs, ofreció el sistema operativo OS X de Apple sin costo al proyecto del laptop de 100 dolares (ULPN).&lt;/p&gt;&#xA;&lt;p&gt;Pero la oferta fue declinada, porque buscan un proyecto 100% open source, y ya están trabajando con RedHat.&#xA;Por otra parte la semana pasada Negroponte conversó con Bill Gates y Craig Mundie (CTO de Microsoft). Ellos estan viendo que tipo de involucramiento tendrán con el proyecto.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

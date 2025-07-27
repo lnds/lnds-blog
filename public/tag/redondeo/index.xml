@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redondeo on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/redondeo/</link>
+    <description>Recent content in Redondeo on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 22 Oct 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/redondeo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yo redondeo, tú redondeas</title>
+      <link>http://localhost:1313/blog/lnds/2017/10/22/yo-redondeo-tu-redondeas/</link>
+      <pubDate>Sun, 22 Oct 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2017/10/22/yo-redondeo-tu-redondeas/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;You say either and I say either,&lt;br&gt;&#xA;You say neither and I say neither&lt;br&gt;&#xA;Either, either Neither, neither&lt;br&gt;&#xA;Let&amp;rsquo;s call the whole thing off.&lt;br&gt;&#xA;You like potato and I like potahto&lt;br&gt;&#xA;You like tomato and I like tomahto&lt;br&gt;&#xA;Potato, potahto, Tomato, tomahto.&lt;br&gt;&#xA;Let&amp;rsquo;s call the whole thing off&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;el-problema&#34;&gt;El problema&lt;/h2&gt;&#xA;&lt;p&gt;En octubre de 2017 el Banco Central Chileno informa que las monedas de 1&#xA;y 5 pesos dejarán de circular. La razón de esto es que el costo de&#xA;producirlas excede el valor de las mismas.&lt;br&gt;&#xA;&lt;br&gt;&#xA;Ante esta situación se sugiere que las transacciones en dinero efectivo&#xA;hagan un redondeo, de modo que cuando un monto a pagar termine en 5, 4,&#xA;3, 2 ó 1 quede la cifra final en 0. En el caso contrario, es decir,&#xA;cuando termine en 6, 7, 8 ó 9 la cifra quede en la decena siguiente.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

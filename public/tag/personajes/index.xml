@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personajes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/personajes/</link>
+    <description>Recent content in Personajes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Jul 2022 12:37:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/personajes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Margaret Hamilton, la primera SRE</title>
+      <link>http://localhost:1313/blog/lnds/2022/07/24/margaret-hamilton-la-primera-sre/</link>
+      <pubDate>Sun, 24 Jul 2022 12:37:33 -0400</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2022/07/24/margaret-hamilton-la-primera-sre/</guid>
+      <description>&lt;p&gt;Hace unas semanas fui invitado al &lt;a href=&#34;https://algoritmo.buzzsprout.com&#34;&gt;podcast &amp;ldquo;Había una vez un Algoritmo&amp;rdquo;&lt;/a&gt; de &lt;a href=&#34;https://camilochs.github.io/web/&#34;&gt;Camilo Chacón Sartori&lt;/a&gt; (&#xA;pueden escuchar la entrevista en este link: &lt;a href=&#34;https://algoritmo.buzzsprout.com/758831/10810042)&#34;&gt;https://algoritmo.buzzsprout.com/758831/10810042)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la entrevista Camilo me preguntó por algún personaje, del mundo de la informática, que admirara. Y ponderando diversas alternativas  expresé mi admiración creciente por &lt;a href=&#34;https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)&#34;&gt;Margaret Hamilton&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me resultó curioso que Camilo expresara que no sabía mucho sobre ella, pero la verdad es que es casi seguro que quienes sepan algo de Margaret Hamilton sea en relación a esta fotografía:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El valor de StarTrek</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/07/el-valor-de-startrek/</link>
+      <pubDate>Thu, 07 May 2009 21:38:30 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/07/el-valor-de-startrek/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Whoopi_Goldberg&#34;&gt;Whoopi Goldberg&lt;/a&gt;, cuenta que se sentía identificada con el personaje de Uhura de la serie Star Trek, ella recuerda haberle dicho a su familia: &lt;em&gt;&amp;quot;¡acabo de ver a una mujer negra en televisión, y no era una sirvienta!&amp;quot;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;uhura.jpg&#34; alt=&#34;uhura.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nichelle Nichols, la actriz que interpretaba a Uhura había decidido abandonar la serie después de la primera temporada, pero fue el propio Martin Luther King que le pidió que no lo hiciera, porque ella representaba un modelo positivo  a seguir para las mujeres negras. La misma NASA le pidió que participara en campañas para motivar a afroamericanos a unirse a esta institución.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

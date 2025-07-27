@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciberseguridad on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/ciberseguridad/</link>
+    <description>Recent content in Ciberseguridad on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 05 Apr 2020 08:38:01 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/ciberseguridad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usabilidad, Seguridad Y Paranoia</title>
+      <link>http://localhost:1313/blog/lnds/2020/04/05/usabilidad-seguridad-y-paranoia/</link>
+      <pubDate>Sun, 05 Apr 2020 08:38:01 -0400</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2020/04/05/usabilidad-seguridad-y-paranoia/</guid>
+      <description>Zoom y la gestión de riesgos en tiempos de pandemia</description>
+    </item>
+    <item>
+      <title>Disclosure no es llegar y hacerlo</title>
+      <link>http://localhost:1313/blog/lnds/2012/11/20/disclosure-no-es-llegar-y-hacerlo/</link>
+      <pubDate>Tue, 20 Nov 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/11/20/disclosure-no-es-llegar-y-hacerlo/</guid>
+      <description>&lt;p&gt;El siguiente post es de un notable &amp;ldquo;&lt;a href=&#34;http://localhost:1313/tags/villano-invitado/&#34;&gt;villano invitado&lt;/a&gt;&amp;rdquo;, se&#xA;trata del experto en seguridad, y gurú en cervezas ;-), &#xA;&lt;a href=&#34;http://injcristianrojas.github.com/about.html&#34;&gt;Cristián Rojas.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta nota nace de una conversación con Cristián en El Test Acido, la que&#xA;dado el formato del programa no pudimos profundizar, por eso le pedí a&#xA;Cristian que elaborara el tema en un artículo que ahora comparto con&#xA;ustedes.&lt;/p&gt;&#xA;&lt;h1 id=&#34;disclosure-no-es-llegar-y-hacerlo&#34;&gt;Disclosure: No es llegar y hacerlo&lt;/h1&gt;&#xA;&lt;p&gt;Por &lt;strong&gt;Cristián Rojas&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

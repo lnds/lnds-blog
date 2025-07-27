@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comprensión on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/comprensi%C3%B3n/</link>
+    <description>Recent content in Comprensión on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 12 Nov 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/comprensi%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprensión de Lectura</title>
+      <link>http://localhost:1313/blog/lnds/2011/11/12/comprension-de-lectura/</link>
+      <pubDate>Sat, 12 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/11/12/comprension-de-lectura/</guid>
+      <description>&lt;p&gt;Resulta que el modelo de cascada es quizás uno de los mayores errores de&#xA;comprensión de lectura en toda la historia de la ingeniería de software.&#xA;En 1970 Winston Royce escribe un&#xA;&lt;a href=&#34;http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf&#34;&gt;paper&lt;/a&gt;&#xA;donde, desafortunadamente, usa las palabras &amp;ldquo;grandiosa aproximación&amp;rdquo;&#xA;para referirse a la siguiente figura:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;waterfall.png&#34;&gt;&lt;img src=&#34;waterfall_thumb.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;En realidad Winston Royce escribió este&#xA;&lt;a href=&#34;http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf&#34;&gt;paper&lt;/a&gt;&#xA;para criticar este modelo, pero terminó siendo citado una y otra vez por&#xA;la comunidad &amp;ldquo;científica&amp;rdquo; como un modelo clásico y establecido.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versiones y variaciones</title>
+      <link>http://localhost:1313/blog/lnds/2005/10/30/versiones-y-variaciones-2/</link>
+      <pubDate>Sun, 30 Oct 2005 16:26:34 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/10/30/versiones-y-variaciones-2/</guid>
+      <description>&lt;p&gt;Probablemente el concepto de la Web 2.0, no sea más que una movida para crear una nueva burbuja. Carlota Perez nos dice que estos fenomenos no solo no son nuevos, sino que positivos. Al menos para los que estan interesados en levantar capital semilla, el&lt;a href=&#34;http://www.carlotaperez.org/Articulos/TRFC-TOCeng.htm&#34;&gt;artículo&lt;/a&gt; de la investigadora de Harvard pueda ser una buena guía.&lt;/p&gt;&#xA;&lt;p&gt;De todas maneras hay cosas que están cambiando en la web, y en ese sentido si que podemos hablar de una &lt;a href=&#34;http://www.lnds.net/2005/10/web_20_y_las_nuevas_generacion.html&#34;&gt;web 2.0&lt;/a&gt;. Al menos el nombre tiene esa designación a las que hemos acostumbrado a los usuarios, y que los ingenieros comerciales convirtieron en herramienta de marketing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

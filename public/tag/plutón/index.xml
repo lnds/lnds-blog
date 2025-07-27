@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plutón on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/plut%C3%B3n/</link>
+    <description>Recent content in Plutón on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 27 Aug 2006 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/plut%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eppur si muove</title>
+      <link>http://localhost:1313/blog/lnds/2006/08/27/eppur-si-muove/</link>
+      <pubDate>Sun, 27 Aug 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/08/27/eppur-si-muove/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;200px-Pluto.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Resulta que los astrónomos no son diferentes al resto de&#xA;los &lt;em&gt;usuarios&lt;/em&gt;, &lt;em&gt;&amp;ldquo;cuando el sistema está estable introducen nuevos&#xA;requerimientos, y hay que realizar cambios&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me refiero a la reciente reclasificación&#xA;de &lt;a href=&#34;http://es.wikipedia.org/wiki/Plut%C3%B3n_%28astronom%C3%ADa%29&#34;&gt;Plutón&lt;/a&gt;,&#xA;bajo la cual este cuerpo celeste deja de ser planeta, para convertirse&#xA;en un &amp;ldquo;planeta enano&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;La razón es que la nueva defiinición exige que un planeta ha de tener&#xA;una fuerza tal en su campo gravitatorio que le permita despejar de&#xA;cuerpos celestes el vecindario en torno a su órbita.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

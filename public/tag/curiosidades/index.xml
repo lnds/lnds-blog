@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curiosidades on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/curiosidades/</link>
+    <description>Recent content in Curiosidades on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 22 Jul 2007 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/curiosidades/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obama sabe computación</title>
+      <link>http://localhost:1313/blog/lnds/2007/07/22/obama-sabe-computacion/</link>
+      <pubDate>Sun, 22 Jul 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/07/22/obama-sabe-computacion/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/k4RRi_ntQc8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Por cierto la pregunta es interesante:&lt;br&gt;&#xA;&amp;ldquo;¿cual es la forma más eficiente de ordenar un millón de enteros de 32&#xA;bits?&amp;rdquo;&lt;br&gt;&#xA;Seguro que no elegirían bubble sort, en eso el Presidente Obama tiene&#xA;toda la razón.&lt;br&gt;&#xA;Pero, ¿cuál es la respuesta a esta pregunta? En el próximo post la&#xA;respuesta.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interfaz De Usuario on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/interfaz-de-usuario/</link>
+    <description>Recent content in Interfaz De Usuario on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 10 Jul 2009 11:50:53 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/interfaz-de-usuario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La interfaz estúpida es la más usable</title>
+      <link>http://localhost:1313/blog/lnds/2009/07/10/la-interfaz-estupida-es-la-mas-usable/</link>
+      <pubDate>Fri, 10 Jul 2009 11:50:53 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/07/10/la-interfaz-estupida-es-la-mas-usable/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;.. en cada década, desde los &amp;lsquo;80, miles de millones de dolares, y fantastillones de horas hombres se han invertido en este error fundamental, para terminar rutinariamente en un desastre. Es como el pensamiento de la industria automotriz de tener un enorme programa de investigación en busca de la máquina de movimiento perpetuo.&lt;br&gt;&#xA;El error es que las interfaces de control no deben ser inteligentes. Brevemente, interfaces de usuario inteligentes debería limitarse a aplicaciones en las cuales el usuario no espera controlar el comportamiento del producto. Si el producto será usado como una herramienta, su interfaz debería ser lo menos inteligente posible. Lo estúpido es predecible; lo predecible es &amp;lsquo;aprendible&amp;rsquo;; lo aprendible es usable&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

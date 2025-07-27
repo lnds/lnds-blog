@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ceros y Unos | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Ceros y Unos">
+  <meta property="og:description" content="La leyenda cuenta que Teseo prometió a su padre, el rey Egeo de Atenas, que si tenía éxito, en su hazaña de matar al Minotauro, al volver su barco izaría velas blancas en vez de las tradicionales de color negro. El hijo de Egeo, perdido por muchos años, quería librar a su ciudad del infame tributo al Rey Minos, de Creta, que les obligaba a enviar a siete jóvenes y siete doncellas para que fueran sacrificados ante el monstruo con cuerpo de hombre y cabeza de toro.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-09-23T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-09-23T08:25:11-03:00">
+    <meta property="article:tag" content="Computación">
+    <meta property="article:tag" content="Código Binario">
+    <meta property="article:tag" content="Historia">
+    <meta property="og:image" content="http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/featured.png">
+  <meta name="twitter:title" content="Ceros y Unos">
+  <meta name="twitter:description" content="La leyenda cuenta que Teseo prometió a su padre, el rey Egeo de Atenas, que si tenía éxito, en su hazaña de matar al Minotauro, al volver su barco izaría velas blancas en vez de las tradicionales de color negro. El hijo de Egeo, perdido por muchos años, quería librar a su ciudad del infame tributo al Rey Minos, de Creta, que les obligaba a enviar a siete jóvenes y siete doncellas para que fueran sacrificados ante el monstruo con cuerpo de hombre y cabeza de toro.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Ceros y Unos</h1><time class="dim" datetime="2018-09-23T08:25:11-03:00">September 23, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/computaci%C3%B3n/">#computación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/c%C3%B3digo-binario/">#código binario</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/historia/">#historia</a>
+      </div></ol></div>
+  <section class="page-section"><p>La leyenda cuenta que Teseo prometió a su padre, el rey Egeo de Atenas,
+que si tenía éxito, en su hazaña de matar al Minotauro, al volver su
+barco izaría velas blancas en vez de las tradicionales de color negro.
+El hijo de Egeo, perdido por muchos años, quería librar a su ciudad del
+infame tributo al Rey Minos, de Creta, que les obligaba a enviar a siete
+jóvenes y siete doncellas para que fueran sacrificados ante el monstruo
+con cuerpo de hombre y cabeza de toro.</p>
+<p>Sabemos que Teseo fue exitoso, al usar una astuta estratagema, entró al
+laberinto donde habitaba la bestia, tirando de un hilo proporcionado por
+Ariadna, luego de matar a Asterión, el verdadero nombre del monstruo,
+según Borges<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, recorrió de vuelta el camino recogiendo el ovillo. </p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/e8573af0-bf36-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Teseo luchando con el Minotauro, por Jean-Etienne Ramey"><figcaption>
+      <p>Teseo luchando con el Minotauro, por Jean-Etienne Ramey</p>
+    </figcaption>
+</figure>
+
+<p>Volvió Teseo triunfante, pero fue descuidado pues olvidó dar la
+instrucción de que pusieran las velas blancas, su padre, que se asomó a
+un risco a observar la llegada de su hijo perdido y recobrado. Cuando
+vio las velas negras sintió un gran dolor y no pudo soportarlo, a tal
+grado que se arrojó por el borde del precipicio, golpeándose en las
+rocas y hundiéndose en las aguas de aquel mar, que desde entonces lleva
+su nombre, Egeo.</p>
+<p>El sistema inventado por Teseo y Egeo, para señalar el éxito o fracaso
+de la misión es muy sencillo y ha sido usado desde antiguo. Las señales
+con banderas, o humo, eran muy comunes en aquellos tiempos. </p>
+<p>&ldquo;Una luz si es por tierra, dos luces si es por el mar&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, esa fue
+la consigna que acordaron Paul Revere y Joseph Warren para avisar a los
+colonos de Charlestown cómo sería el movimiento de las tropas inglesas
+en su entrada a Masachusets, al inicio de la guerra de independencia
+norte americana. La historia es famosa, Warren colocó dos faros en la
+torre de una iglesia para que la pudiera observar Revere, quien al ver
+la señal cabalgó toda la noche gritando &ldquo;¡ahí vienen los casacas
+rojas!&rdquo;, para advertir a los patriotas que se preparasen para la lucha.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/4ee0c5c2-bf37-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="La cabalgata nocturna de Paul Revere"><figcaption>
+      <p>La cabalgata nocturna de Paul Revere</p>
+    </figcaption>
+</figure>
+
+<h2 id="códigos-binarios">Códigos Binarios</h2>
+<p>Lo que tienen en común las leyendas de Teseo y de Paul Revere es que en
+ambas se usó un código binario para entregar información. </p>
+<p>¿Qué significa esto de código binario?</p>
+<p>Lo que queremos decir, es que en ambos casos, hay dos partes
+involucradas: Teseo y Egeo, Revere y Warren, que se ponen de acuerdo en
+un código que sólo tiene dos opciones. Para Teseo y Egeo el código tiene
+dos valores: velas blancas que significa éxito, o Velas negras que
+significa fracaso. Para Revere y Warren el código tiene los valores:
+&ldquo;dos lámparas&rdquo; significa que los ingleses entrarán por el mar, &ldquo;una
+lámpara&rdquo;, que entrarán por tierra.</p>
+<p>Para que un código funcione  todas las partes que lo ocupan deben tener
+claro su significado. Por supuesto pueden haber errores, y descuidos en
+su uso (como fue el caso de Teseo), entonces es necesario tener cuidado
+de asegurar que el mensaje no sea alterado cuando se usa un código. En
+general, cuando es tan simple un código, descuidamos estos detalles.</p>
+<h2 id="contar-con-números-binarios">Contar con números binarios</h2>
+<p>Si con dos valores, podemos tener un código simple, con tres o cuatro
+podemos enriquecer el vocabulario de lo que queremos decir, ¿verdad? </p>
+<p>Es cierto, pero las cosas se empiezan a complicar. Tendríamos que crear
+tablas de significados, uno significa esto, dos significa otra cosa,
+tres otra más, y así.</p>
+<p>Hace muchos años atrás trabajé en un sistema en que podíamos codificar
+millones de millones de mensajes usando sólo sesenta y cuatro letras.
+¿Cómo es posible eso? Para que entiendan lo que hice tengo que contarles
+primero cómo se cuenta en binario.</p>
+<h3 id="partir-desde-cero">Partir desde cero</h3>
+<p>Cuando nos enseñan a contar en la escuela lo hacen a partir del uno: 1,
+2, 3&hellip; Si hay una hilera de personas empezamos a contarlas desde 1. Por
+eso que los matemáticos tienen el conjunto de los números naturales que
+empieza desde 1: N = {1, 2, 3, 4&hellip;..}. Pero en computación las cosas
+empiezan desde cero.</p>
+<p>Según <a href="http://es.wikipedia.org/wiki/Cero">Wikipedia</a>: &ldquo;La palabra
+«cero» proviene de la traducción de su nombre en sánscrito shunya
+(vacío) al árabe sifr (صفر), a través del italiano. La voz española
+«cifra» también tiene su origen en sifr.&rdquo;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>El cero, el valor nulo, la ausencia de algo, el origen, el primero de
+los números binarios, esa será nuestra primera cifra. La segunda cifra
+será el 1.</p>
+<p>Y no necesitamos más. 0 y 1 son suficientes.</p>
+<p>El gran matemático Leibnitz lo <a href="http://www.leibniz-translations.com/binary.htm">explicó así</a> en 1703:</p>
+<blockquote>
+<p>El ajuste de cuentas común de la aritmética está hecho de acuerdo a la
+progresión de las decenas. Diez caracteres son usados, los que son 0,
+1, 2, 3, 4, 5, 6, 7, 8, 9, los que denotan al cero, uno y los números
+sucesivos hasta el nueve inclusive. Y luego, cuando alcanzamos diez,
+el uno empieza de nuevo, escribiendo diez como &ldquo;10″, diez veces diez,
+o cien, como &ldquo;100″, diez veces cien, o mil, como &ldquo;1000″, diez veces
+mil como &ldquo;10000″, y así.</p></blockquote>
+<blockquote>
+<p>Pero en vez de la progresión de diez, he usado por muchos años la más
+simple progresión de todas, la que se incrementa por dos, habiendo
+encontrado que es útil para la perfección de la ciencia de los
+números. Así que no uso otros caracteres que el 0 y el 1, y cuando
+llego al dos, empiezo de nuevo. Esto es porque el dos es expresado por
+&ldquo;10″, y dos veces dos, o cuatro, por &ldquo;100″, dos veces cuatro, u ocho,
+por &ldquo;1000″, dos veces ocho, o dieciséis, por &ldquo;10000″, y así.</p></blockquote>
+<blockquote>
+<p>Aquí está la tabla de los números de esta manera, la cual puede ser
+extendida tan lejos como se desee.</p></blockquote>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/8bb9955e-bf34-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Aquí, de un vistazo se hace evidente la razón para una celebrada
+propiedad de la progresión geométrica de los dos en todos los números,
+la que establece que si uno tiene sólo uno de esos número por cada
+grado, se pueden componer todos los números por debajo del grado más
+alto. De aquí, si uno ha dicho, por ejemplo, que 111, ó 7, es la suma de
+cuatro, dos y uno, y que 1101, ó 13, es la suma de ocho, cuatro y uno.
+Esta propiedad permite a los ensayadores pesar todo tipo de masas con
+pocos pesos y podría servir para acuñar de modo de obtener muchos
+valores con pocas
+monedas.</p>
+<blockquote>
+<p>Estableciendo estas expresiones de número nos permiten hacer todo tipo
+de operaciones muy fácilmente.</p></blockquote>
+<p>Estableciendo estas expresiones de número nos permiten hacer todo tipo
+de operaciones de una manera muy sencilla. Y estas fascinantes
+propiedades aritméticas tienen la ventaja de que se pueden implementar
+muy bien en un dispositivo electrónico, siendo el 0 y el 1 los estados
+de un interruptor (cero es apagado, y uno es encendido). A estos dígitos
+binarios (cero y uno) los llamamos BITs, que viene de BInary Digit en
+inglés.</p>
+<p>En 1937 Claude Shannon escribió su tesis doctoral donde implementó el
+álgebra de Boole usando relés y conmutadores por primera vez en la
+historia. Esta tesis es la base de los circuitos digitales que son
+usados hoy por todos los computadores.</p>
+<p>Este mismo principio que explica Leibnitz es el que usé para codificar
+millones de millones de mensajes usando sólo sesenta y cuatro letras.</p>
+<p>La historia es así. Fui contratado por una empresa que contaba con
+barcos que recorrían los fiordos del sur de Chile. Cada barco llevaba un
+sistema de GPS. Este aparato en particular tenían la propiedad que cada
+vez que se conectaban al satélite podía &ldquo;descargar&rdquo; hasta 64 bytes de
+información y enviar de vuelta la misma cantidad. Un byte son ocho bits,
+así que podía codificar literalmente 2 elevado a 64 valores posibles,
+para los curiosos ese número es: 18.446.744.073.709.551.616.</p>
+<p>Entonces lo que hice fue crear un programa que administraba una tabla,
+con posibles valores:</p>
+<p>0 - Diríjase a la base<br>
+1 - Refugiese en el puerto más cercano<br>
+2 - Recoja carga en puerto XX<br>
+3 - Recoja carga en puerto YY</p>
+<p>.&hellip; Etc.</p>
+<p>La tabla se alimentaba cuando los barcos recalaban en la base central,
+después iban recibiendo instrucciones usando este sencillo sistema.</p>
+<p>Por supuesto no usamos todos los valores posibles, bastaban unas pocas
+decenas, se ocuparon los primeros 4 bytes para las tablas de mensajes y
+los otros 60 podían escribir cualquier cosa. Las comunicaciones eran
+lentas por cierto, tomaban varios minutos, pero servían para zonas en
+que la única señal era la del satélite. Y funcionó bastante bien.</p>
+<p>Así que verán, cono sólo dos dígito, cero y uno, tenemos para escribir
+todo lo que podamos imaginar.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>&ldquo;La casa de Asterión&rdquo;, de Jorge Luis Borges.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>En realidad las dos luces indicaban que los ingleses tomarían la
+ruta del &ldquo;agua&rdquo; cruzando el río Charles.
+Fuente: <a href="https://en.wikipedia.org/wiki/Paul%5C_Revere%5C#%22Midnight%5C_Ride%22">https://en.wikipedia.org/wiki/Paul\_Revere\#%22Midnight\_Ride%22</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Cero en
+Wikipedia <a href="https://es.wikipedia.org/wiki/Cero">https://es.wikipedia.org/wiki/Cero</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1476 words</span>
+    <span>8 - 10 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#códigos-binarios">Códigos Binarios</a></li>
+    <li><a href="#contar-con-números-binarios">Contar con números binarios</a>
+      <ul>
+        <li><a href="#partir-desde-cero">Partir desde cero</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2018/09/23/ceros-y-unos/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2012/06/29/flame-y-md5/">Flame y MD5</a></li><li><a href="/blog/lnds/2012/06/24/el-enigma-de-turing/">El Enigma de Turing</a></li><li><a href="/blog/lnds/2012/06/23/maquina-universal/">Máquina Universal</a></li><li><a href="/blog/lnds/2012/06/21/lo-bueno-y-lo-malo/">Lo bueno y lo malo</a></li><li><a href="/blog/lnds/2012/06/17/el-padre-de-la-computacion/">El Padre de la Computación</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

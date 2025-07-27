@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FUD on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/fud/</link>
+    <description>Recent content in FUD on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 28 Sep 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/fud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El problema de paralelizar 3</title>
+      <link>http://localhost:1313/blog/lnds/2009/09/28/el-problema-de-paralelizar-3/</link>
+      <pubDate>Mon, 28 Sep 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/09/28/el-problema-de-paralelizar-3/</guid>
+      <description>&lt;p&gt;Aunque mucha gente cita el acrónimo&#xA;&lt;a href=&#34;https://www.catb.org/~esr/jargon/html/F/FUD.html&#34;&gt;FUD&lt;/a&gt;, no muchos saben&#xA;que fue &lt;a href=&#34;http://localhost:1313/2009/09/el-problema-de-paralelizar.html&#34;&gt;Gene Amdahl&lt;/a&gt; el&#xA;que inventó este famoso acrónimo:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;FUD is the fear, uncertainty, and doubt that IBM sales people&#xA;instill in the minds of potential customers who might be considering&#xA;Amdahl products.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;FUD es el temor (fear), incerteza (uncertainty) y duda (doubt) que&#xA;la gente de ventas de IBM instalará en las mentes de los clientes&#xA;potenciales que consideren los productos Amdahl.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

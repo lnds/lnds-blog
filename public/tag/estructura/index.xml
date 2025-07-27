@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estructura on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/estructura/</link>
+    <description>Recent content in Estructura on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 26 Jun 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/estructura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paseando con Dromedarios</title>
+      <link>http://localhost:1313/blog/lnds/2017/06/26/paseando-con-dromedarios/</link>
+      <pubDate>Mon, 26 Jun 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2017/06/26/paseando-con-dromedarios/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Un dromedario es un caballo diseñado por un comité&amp;rdquo; &lt;br&gt;&#xA;&amp;ndash; antiguo aforismo mentat, anterior a la Yihad Butleriana&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Nunca hay tiempo para hacer las cosas bien a la primera, pero&#xA;siempre hay tiempo para volver a hacerlas&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Anónimo, citado por Melvin Conway&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Mi más memorable encuentro y realización de la profundidad de la Ley de&#xA;Conway fue hace un par de años, cuando una decisión de arquitectura se&#xA;vio afectada por la organización del datacenter en que alojamos nuestras&#xA;aplicaciones. Tal cómo lo escuchan, debimos modificar la arquitectura de&#xA;despliegue de nuestro sistema por la organización de servicios del&#xA;datacenter. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Estructura</title>
+      <link>http://localhost:1313/blog/lnds/2013/06/09/estructura/</link>
+      <pubDate>Sun, 09 Jun 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2013/06/09/estructura/</guid>
+      <description>&lt;p&gt;Recuerdo que cuando estudiaba di con un libro de Niklaus Wirth cuyo&#xA;título era: &lt;a href=&#34;http://amzn.to/OcAn8s&#34;&gt;Algorithms + Data Structures = Programs&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Que simple es ver el mundo de la informática desde la perspectiva de ese&#xA;título, pero hemos evolucionado mucho en estos años. Estamos en una&#xA;etapa del desarrollo de la informática centrada en el servicio, la rueda&#xA;ha girado y hemos vuelto al punto donde todo comenzó, pero esta vez la&#xA;rueda se encuentra en un nivel más alto. La computación partió como un&#xA;servicio, controlado por unos pocos para unos pocos, ahora la&#xA;computación es servicio para muchos, autoadministrado, cualquiera puede&#xA;desarrollar un servicio, o al menos existe esa potencialidad, para que&#xA;cualquiera usando la nube pueda desarrollar sus propias innovaciones.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

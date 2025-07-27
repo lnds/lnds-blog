@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cascada on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/cascada/</link>
+    <description>Recent content in Cascada on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 12 Nov 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/cascada/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprensión de Lectura</title>
+      <link>http://localhost:1313/blog/lnds/2011/11/12/comprension-de-lectura/</link>
+      <pubDate>Sat, 12 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/11/12/comprension-de-lectura/</guid>
+      <description>&lt;p&gt;Resulta que el modelo de cascada es quizás uno de los mayores errores de&#xA;comprensión de lectura en toda la historia de la ingeniería de software.&#xA;En 1970 Winston Royce escribe un&#xA;&lt;a href=&#34;http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf&#34;&gt;paper&lt;/a&gt;&#xA;donde, desafortunadamente, usa las palabras &amp;ldquo;grandiosa aproximación&amp;rdquo;&#xA;para referirse a la siguiente figura:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;waterfall.png&#34;&gt;&lt;img src=&#34;waterfall_thumb.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;En realidad Winston Royce escribió este&#xA;&lt;a href=&#34;http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf&#34;&gt;paper&lt;/a&gt;&#xA;para criticar este modelo, pero terminó siendo citado una y otra vez por&#xA;la comunidad &amp;ldquo;científica&amp;rdquo; como un modelo clásico y establecido.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

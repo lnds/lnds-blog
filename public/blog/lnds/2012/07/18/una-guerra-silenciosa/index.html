@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Una Guerra Silenciosa | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2012/07/18/una-guerra-silenciosa/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Una Guerra Silenciosa">
+  <meta property="og:description" content="Soy un fan de GitHub (como pueden comprobar), pero también me gusta mucho lo que hacen en Atlassian. Desde hace años uso y promuevo entre mis colegas el uso de Jira. Uso las herramientas de ambas empresas a nivel personal y en mi trabajo.
+Personalmente mantengo unos repositorios públicos y privados en Github, y nunca consideré usar Bitbucket, la opción de Atlassian. Basicamente porque para mi Bitbucket era un repositorio basado en Mercurial, y no me gusta mucho ese DVCS, como dice Scott Chacon, Mercurial se siente como un Git Lite.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2012-07-18T22:25:11-03:00">
+    <meta property="article:modified_time" content="2012-07-18T22:25:11-03:00">
+    <meta property="article:tag" content="Emprendimiento">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Jira">
+    <meta property="article:tag" content="Attlassian">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Una Guerra Silenciosa">
+  <meta name="twitter:description" content="Soy un fan de GitHub (como pueden comprobar), pero también me gusta mucho lo que hacen en Atlassian. Desde hace años uso y promuevo entre mis colegas el uso de Jira. Uso las herramientas de ambas empresas a nivel personal y en mi trabajo.
+Personalmente mantengo unos repositorios públicos y privados en Github, y nunca consideré usar Bitbucket, la opción de Atlassian. Basicamente porque para mi Bitbucket era un repositorio basado en Mercurial, y no me gusta mucho ese DVCS, como dice Scott Chacon, Mercurial se siente como un Git Lite.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Una Guerra Silenciosa</h1><time class="dim" datetime="2012-07-18T22:25:11-03:00">July 18, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/emprendimiento/">#emprendimiento</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/github/">#github</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/jira/">#jira</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/attlassian/">#attlassian</a>
+      </div></ol></div>
+  <section class="page-section"><p>Soy un fan de GitHub (<a href="/blog/2012/02/el-senor-de-los-archivos.html">como pueden
+comprobar</a>),
+pero también me gusta mucho lo que hacen en Atlassian. Desde hace años
+uso y promuevo entre mis colegas el uso de
+<a href="http://www.atlassian.com/es/software/jira/overview">Jira</a>. Uso las
+herramientas de ambas empresas a nivel personal y en mi trabajo.</p>
+<p>Personalmente mantengo unos repositorios públicos y privados en
+<a href="http://www.github.com/">Github</a>, y nunca consideré usar
+<a href="https://bitbucket.org/">Bitbucket</a>, la opción de Atlassian. Basicamente
+porque para mi Bitbucket era un repositorio basado en Mercurial, y no me
+gusta mucho ese DVCS, como dice Scott Chacon, <a href="http://schacon.github.com/2008/11/24/on-mercurial.html">Mercurial se siente como
+un Git Lite</a>.</p>
+<p>Pero resulta que desde fines del año pasado BitBucket soporta Git, y
+tiene una agresiva campaña que permite crear una cuenta con ilimitados
+repositorios públicos y privados más 5 usuarios por cero dolares (cero,
+nada, gratis).</p>
+<p>Esa es una tentadora oferta, considerando además que BitBucket es
+practicamente un <a href="http://www.pocoo.org/~blackbird/github-vs-bitbucket/bitbucket.html">clon de GitHub</a>
+(con todo lo bueno, malo y feo que esto implica).</p>
+<p>Atlassian es una empresa australiana que lleva varios años con buenos
+resultados, su primera gran inyección de dinero fue en 2010 cuando
+recibieron 60 millones de dolares  de VC, y el año pasado anunciaron su
+primera gran inversión en cloud9, un IDE en modalidad SaaS. Previamente
+habían adquirido BitBucket. Claramente se han expandido y la cartera de
+productos está muy bien integrada.</p>
+<p>En mayo de este año liberaron Stash, un producto que permite administrar
+repositorios Git en ambientes empresariales (o en vuestros propios
+servidores) , es una solución elegante y muy bien integrada con Jira, la
+he estado investigando estos días y me gusta bastante.</p>
+<p>Pero Stash viene a competir directamente con GitHub Enterprise, el
+producto de GitHub orientado al mercado enterprise. GitHub Enterprise se
+licencia por cantidad de usuarios, partiendo de  un costo de 5.000
+dolares para 20 usuarios. Stash parte en su versión de entrada por 10
+dolares, y de ahí salta a 1.800 dolares para una base de 18 a 25
+usuarios. Claro está que Stash tiene menos funcionalidades que GitHub,
+pero es posible que esto vaya cambiando, es probable que incorporen
+funcionalidades de BitBucket para hacer este producto aún más
+competitivo.</p>
+<p>Por otro lado, GitHub acaba de recibir su primera ronda de
+financiamiento, a través del VC de Mark Andreseen (el creador de Mosaic,
+Netscape, Ning, etc.). El VC <a href="http://a16z.com/">Andreseen-Horowitz</a> ha
+invertido 100 millones de dolares en GitHub!</p>
+<p><a href="https://twitter.com/mojombo/">@Mojombo</a> (Tom Preston-Werner) lo
+explicó en su <a href="https://github.com/blog/1189-investing-in-github">blog</a>:</p>
+<blockquote>
+<p>We loved it when Marc Andreessen proclaimed, &ldquo;<a href="http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html">Software is eating the
+world</a>.&rdquo;</p></blockquote>
+<p>Marc's venture firm, <a href="http://a16z.com/">Andreessen Horowitz</a>, is
+younger than GitHub. And like GitHub, they're trying to do things
+differently. They believe in software as the future of everything. They
+want to
+help <a href="http://bhorowitz.com/2010/04/28/why-we-prefer-founding-ceos/">founders</a> build
+great companies. They clearly have no interest in the status quo of
+venture capital.</p>
+<p>Over the past few months we've gotten to know Marc and one of his
+partners, Peter Levine, and we really like them. We wish we could hire
+them both, but they already have jobs. So instead we're going to work
+with them through their firm.</p>
+<p>Así que así están las cosas. Se viene un choque inevitable. Sospecho que
+Atlassian y Github empezarán a toparse cada vez más, y la agresiva
+campaña de precios de Atlassian trata de contrarrestar la simpatía que
+genera GitHub, sobretodo en los desarrolladores más hardcore.</p>
+<p>Probablemente esto sea beneficioso para nosotros los desarrolladores,
+pero también crea varios dilemas. Después de todo la suite de Atlassian
+está localizada (traducida) a español (algo que sería bueno ver en los
+productos de GitHub), la suite de productos Atlassian es muy buena, en
+ambiente enterprise son reconocidos y cada vez más usados. El precio de
+BitBucket es un decisor importante, sobretodo en nuestra realidad
+latinoamericana, el contar con una plataforma cloud para manter y operar
+nuestros repositorios de código fuente privado a costo cero es muy
+atractiva.</p>
+<p>¿Qué va a pasar? No se, puede que se desate una guerra, y espero que los
+desarrolladores no nos veamos muy afectados, después de todo son dos
+empresas que han generado muy buenas herramientas para todos, esperemos
+que el dinero no termine arruinando todo. ¿Qué opinan ustedes?</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>675 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2012/02/22/el-senor-de-los-archivos/">El Señor de los Archivos</a></li><li><a href="/blog/lnds/2011/08/02/la-paradoja-de-la-estrategia/">La Paradoja de la Estrategia</a></li><li><a href="/blog/lnds/2010/11/30/convocatoria/">Convocatoria</a></li><li><a href="/blog/lnds/2010/01/20/puedo-confiar-en-ti-la-etica-como-un-nuevo-nivel-de-ventaja-competitiva/">¿Puedo Confiar en ti? (La ética como un nuevo nivel de ventaja competitiva)</a></li><li><a href="/blog/lnds/2006/12/05/el-primer-emprendedor-web-chileno/">El Primer Emprendedor Web Chileno</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

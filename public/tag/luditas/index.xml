@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luditas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/luditas/</link>
+    <description>Recent content in Luditas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 May 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/luditas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El manifiesto de un bombardero</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/24/el-manifiesto-de-un-bombardero/</link>
+      <pubDate>Sun, 24 May 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/24/el-manifiesto-de-un-bombardero/</guid>
+      <description>&lt;p&gt;El 24 de abril de 1995, el New York Times recibe la carta del terrorista&#xA;conocido como Unabomber, indicando que el &amp;ldquo;desistiría del terrorismo&amp;rdquo;&#xA;si ese diario o el Washington Post publicaban su manifiesto, &amp;ldquo;La&#xA;sociedad industrial y su futuro&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Hasta ese momento, el Unabomber no había sido identificado por el FBI.&#xA;Este terrorista inicio sus acciones en 1978. Durante ese periodo envió&#xA;16 bombas a universidades y lineas aereas, de este modus operandi surgió&#xA;el nombre que lo hizo conocido (&amp;ldquo;UNiversity and Airline BOMber&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El desafío del nuevo ludita</title>
+      <link>http://localhost:1313/blog/lnds/2009/05/22/el-desafio-del-nuevo-ludita/</link>
+      <pubDate>Fri, 22 May 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/05/22/el-desafio-del-nuevo-ludita/</guid>
+      <description>&lt;p&gt;Esta es la introducción a una serie de artículos que quiero escribir,&#xA;sobre un interesante, e importante dilema que enfrentamos. Lo que sigue&#xA;es la traducción de un texto, cuyo autor voy a revelar en el segundo&#xA;artículo de esta serie.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;El desafío del nuevo ludita&lt;/p&gt;&#xA;&lt;p&gt;En primer lugar vamos a postular que los científicos logran&#xA;desarrollar máquinas inteligentes capaces de hacer todas las cosas&#xA;mejor de lo que los seres humanos son capaces. En ese caso&#xA;presumiblemente todo el trabajo se llevará a cabo por vastos y muy&#xA;organizados sistemas de máquinas y el esfuerzo humano no será&#xA;necesario. Uno de dos casos podría ocurrir. O las máquinas son&#xA;autorizadas a realizar todas sus trareas tomando ss propias decisiones&#xA;sin supervisión humana, o los humanos deciden retener el control sobre&#xA;las máquinas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

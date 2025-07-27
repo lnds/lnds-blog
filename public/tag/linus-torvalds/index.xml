@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linus Torvalds on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/linus-torvalds/</link>
+    <description>Recent content in Linus Torvalds on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 16 Aug 2007 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/linus-torvalds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Las Motivaciones Comerciales de Linus Torvalds</title>
+      <link>http://localhost:1313/blog/lnds/2007/08/16/las-motivaciones-comerciales-de-linus-torvalds/</link>
+      <pubDate>Thu, 16 Aug 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/08/16/las-motivaciones-comerciales-de-linus-torvalds/</guid>
+      <description>&lt;p&gt;Interesante &lt;a href=&#34;https://web.archive.org/web/20090407142954/http://www.linuxworld.com/news/2007/080907-torvalds-on-linux-ms-softwares.html&#34;&gt;entrevista a Linus Torvalds&lt;/a&gt; la que le dedican en &lt;a href=&#34;https://web.archive.org/web/20090408150941/http://www.linuxworld.com/&#34;&gt;Linux World&lt;/a&gt;, con declaraciones muy en el estilo de Linus:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;...pienso que el cambio a la licencia GPLv2 (a partir de mi licencia&#xA;&amp;ldquo;no money&amp;rdquo; original) fue importante, porque los intereses comerciales&#xA;realmente eran muy importantes desde el principio, aún cuando fueran&#xA;pocos inicialmente.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Las distribuciones comerciales fueron las que motivaron cantidad de&#xA;buenos instaladores, y motivaron a la gente a mejorar la usabilidad,&#xA;etc. Yo creo que los usuarios comerciales de Linux han sido muy&#xA;importante para realmente mejorar el produco. Creo que toda la gente&#xA;técnica que ha estado involucrada ha sido muy importante, pero pienso&#xA;que el tipo de uso comercial que obtienes con la GPLv2 es también&#xA;importante. Necesitas un balance entre la tecnología pura, y las&#xA;presiones que recibes de los usuarios a través del mercado.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linus Torvalds el Pragmático</title>
+      <link>http://localhost:1313/blog/lnds/2006/11/30/linus-torvalds-el-pragmatico/</link>
+      <pubDate>Thu, 30 Nov 2006 20:14:29 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2006/11/30/linus-torvalds-el-pragmatico/</guid>
+      <description>&lt;p&gt;Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está &amp;ldquo;agradeciendo&amp;rdquo; la recepción del primer &amp;ldquo;Linus Torvalds Award&amp;rdquo;, donde pronuncia una de sus inteligentes frases: &amp;ldquo;esto es como darle el Premio Han Solo a la Aliaza Rebelde&amp;rdquo; ( &amp;ldquo;like giving the Han Solo award to the Rebel Alliance.&amp;rdquo; ).&lt;/p&gt;&#xA;&lt;p&gt;Toda esta polémica es gasto de energía.&lt;/p&gt;&#xA;&lt;p&gt;Stallman ha insistido en hablar de &amp;ldquo;GNU más Linux&amp;rdquo;. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

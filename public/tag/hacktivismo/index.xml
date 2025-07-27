@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacktivismo on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/hacktivismo/</link>
+    <description>Recent content in Hacktivismo on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 02 Dec 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/hacktivismo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Periodismo?</title>
+      <link>http://localhost:1313/blog/lnds/2010/12/02/periodismo/</link>
+      <pubDate>Thu, 02 Dec 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/12/02/periodismo/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Wikileaks ha publicado más documentos clasificados que toda la&#xA;prensa mundial junta.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Eso no es algo que digo para demostrar lo exitosos que somos, más&#xA;bien, eso te muestra el alarmante estado del resto de los medios de&#xA;comunicación. ¿Cómo es que un equipo de cinco personas ha llegado a&#xA;mostrarle al público la información más reprimida, a ese nivel, que el&#xA;resto de la prensa mundial junta? Es vergonzoso.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dictaduras, internet y el iPod-Liberalismo</title>
+      <link>http://localhost:1313/blog/lnds/2010/06/20/dictaduras-internet-y-el-ipod-liberalismo/</link>
+      <pubDate>Sun, 20 Jun 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/06/20/dictaduras-internet-y-el-ipod-liberalismo/</guid>
+      <description>&lt;p&gt;Evgeny Morozov pensaba que el uso de la tecnología y los nuevos medios&#xA;ayudaría a su natal Bielorusia a ser más democrática. Pero cuando se&#xA;enfrentó a la realidad abandonó la ONG en que trabajaba y empezó a&#xA;investigar una tesis impopular: &lt;em&gt;&lt;strong&gt;internet no es la gran herramienta&#xA;para combatir a los gobiernos tiránicos, y al contrario, ayuda a las&#xA;dictaduras a ser más efectivas&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esa es una herejía, y &lt;a href=&#34;http://localhost:1313/blog/2010/06/quieres-ser-un-hereje.html&#34;&gt;tengo debilidad por las&#xA;herejías&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

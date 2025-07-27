@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NASA on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/nasa/</link>
+    <description>Recent content in NASA on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 18 Aug 2012 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/nasa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Be Awesome</title>
+      <link>http://localhost:1313/blog/lnds/2012/08/18/be-awesome/</link>
+      <pubDate>Sat, 18 Aug 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/08/18/be-awesome/</guid>
+      <description>&lt;p&gt;Fue &lt;a href=&#34;http://www.wired.com/wiredenterprise/2012/08/nasa-patch&#34;&gt;esta nota en wired enterprise&lt;/a&gt;, sobre&#xA;el robot Curiosity y el patch al software que tuvieron que hacerle,&#xA; reflexioné sobre algunas lecciones que la NASA nos puede dar.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que la fecha de lanzamiento de estas misiones está dada por el&#xA;momento en que Marte y la Tierra están  más cerca. Es obvio, al lanzar&#xA;la nave en ese momento se ahorra combustible, que es el elemento más&#xA;costoso de toda la misión. Por lo tanto todo debe prepararse para que&#xA;coincida con esa fecha, de lo contrario el lanzamiento se puede&#xA;postergar varios años más.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

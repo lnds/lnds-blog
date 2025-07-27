@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mi Primer Pc on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/mi-primer-pc/</link>
+    <description>Recent content in Mi Primer Pc on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 23 Aug 2005 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/mi-primer-pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflexión sobre MPPC</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/23/reflexion-sobre-mppc/</link>
+      <pubDate>Tue, 23 Aug 2005 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/23/reflexion-sobre-mppc/</guid>
+      <description>&lt;p&gt;Fernando Flores se ha pronunciado respecto a la campaña MPPC.&lt;/p&gt;&#xA;&lt;p&gt;Al respecto, tengo que decir que lo feo no está en que sistema operativo&#xA;tenga el pc en cuestión, ni siquiera en el hardware, eso es irrelevante,&#xA;lo feo es que le den el auspicio a los mismos de siempre y no a los&#xA;pequeños empresarios, que venden pc de mejor calidad, a precios más&#xA;bajos.&lt;/p&gt;&#xA;&lt;p&gt;(Antes habia un comentario sobre el auspicio, gracias a Paolo Colonello&#xA;por aclararme que el gobierno solo dio el patrocinio, no auspicio, por&#xA;lo tanto pido mis disculpas por el comentario)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sobre MPPC</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/13/sobre-mppc/</link>
+      <pubDate>Sat, 13 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/13/sobre-mppc/</guid>
+      <description>&lt;p&gt;En mundo OS está la entrevista al subsecretario de economía sobre este&#xA;punto, &lt;a href=&#34;http://www.mundoos.org/node/100&#34;&gt;ver entrevista&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;En Cazuela de Pingüino pueden leer lo que se&#xA;&lt;a href=&#34;http://cdp.blogsome.com/2005/08/15/lo-que-quedo-afuera-del-plan-original/trackback/&#34;&gt;les quedó en el tintero a los creadores del programa&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi Primer PC</title>
+      <link>http://localhost:1313/blog/lnds/2005/08/09/mi-primer-pc/</link>
+      <pubDate>Tue, 09 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/08/09/mi-primer-pc/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/lnds/2005/08/09/mi-primer-pc/billyricardo.jpg&#34;&#xA;    alt=&#34;Sabes que haremos esta noche Pinky ...?&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Sabes que haremos esta noche Pinky ...?&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Bueno, una imagen vale más que mil palabras...&lt;/p&gt;&#xA;&lt;p&gt;El gobierno chileno ha iniciado una campaña denominada &lt;strong&gt;Mi Primer PC&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El proyecto se describe en este link:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.economia.cl/economiafinal.nsf/0/EC130E5FD9CB1A52842570520054B628?OpenDocument&amp;amp;1.1&amp;amp;sem&#34;&gt;http://www.economia.cl/economiafinal.nsf/0/EC130E5FD9CB1A52842570520054B628?OpenDocument&amp;amp;1.1&amp;amp;sem&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Espero que puedan abrirlo)&lt;/p&gt;&#xA;&lt;p&gt;Las crítica que se le pueden hacer son tantas, pero en este&#xA;&lt;a href=&#34;http://www.lanacion.cl/prontus_noticias/site/artic/20050808/pags/20050808215327.html&#34;&gt;artículo de La Nación&lt;/a&gt;&#xA;lo han expresado bastante bien.&lt;/p&gt;&#xA;&lt;p&gt;(Gracias otra vez a Cazuela de Pinguino por dar la fuente del artículo&#xA;de la Nación)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

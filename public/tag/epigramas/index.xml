@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Epigramas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/epigramas/</link>
+    <description>Recent content in Epigramas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 28 Feb 2008 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/epigramas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epigramas de la Programación</title>
+      <link>http://localhost:1313/blog/lnds/2008/02/28/epigramas-de-la-programacion/</link>
+      <pubDate>Thu, 28 Feb 2008 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2008/02/28/epigramas-de-la-programacion/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://delivery.acm.org/10.1145/1200000/1198357/p171-cheatham.pdf?key1=1198357&amp;amp;key2=7908193711&amp;amp;coll=&amp;amp;dl=GUIDE&amp;amp;CFID=15151515&amp;amp;CFTOKEN=6184618&#34;&gt;Alan Perlis&lt;/a&gt;&#xA;fue la primera persona en recibir el Premio Turing en 1966, una persona&#xA;de gran humor, y pionero en el desarrollo de los lenguajes de programación,&#xA;especialmente con su aporte&#xA;a &lt;a href=&#34;http://es.wikipedia.org/wiki/ALGOL&#34;&gt;ALGOL&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Perlis.jpg&#34; alt=&#34;Perlis.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Famosos son sus &lt;a href=&#34;http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html&#34;&gt;epigramas de la programación&lt;/a&gt;,&#xA;publicados en 1982 en la revista&#xA;del &lt;a href=&#34;http://www.sigplan.org/&#34;&gt;SIGPLAN&lt;/a&gt;(El grupo de interés especial en&#xA;lenguajes de programación) de la &lt;a href=&#34;http://www.acm.org/&#34;&gt;ACM&lt;/a&gt; y que son&#xA;parte del folclore de nuestra profesión, y casi siempre son citados en&#xA;papers, blogs, y artículos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

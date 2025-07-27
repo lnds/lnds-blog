@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attlassian on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/attlassian/</link>
+    <description>Recent content in Attlassian on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 22 Jul 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/attlassian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Valor de los Valores</title>
+      <link>http://localhost:1313/blog/lnds/2012/07/22/el-valor-de-los-valores/</link>
+      <pubDate>Sun, 22 Jul 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/07/22/el-valor-de-los-valores/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Las juventudes cacarearon bastante y no convencen ni por solo un&#xA;instante&lt;br&gt;&#xA;pidieron comprensión, amor y paz&lt;br&gt;&#xA;con frases hechas muchos años atrás.&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; La Voz de los 80, Los Prisioneros&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Les sugiero un ejercicio para mañana, cuando vuelvan a su trabajo, miren&#xA;los valores de su empresa, léanlos, exploren su significado. Pregunten a&#xA;sus compañeros que significan, o a sus jefes. O quizás algo más básico,&#xA;busquen los valores de su empresa, deberían estar en algún documento, o&#xA;en un bonito cuadro colgado en una oficina de recursos humanos, ¿verdad?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una Guerra Silenciosa</title>
+      <link>http://localhost:1313/blog/lnds/2012/07/18/una-guerra-silenciosa/</link>
+      <pubDate>Wed, 18 Jul 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/07/18/una-guerra-silenciosa/</guid>
+      <description>&lt;p&gt;Soy un fan de GitHub (&lt;a href=&#34;http://localhost:1313/blog/2012/02/el-senor-de-los-archivos.html&#34;&gt;como pueden&#xA;comprobar&lt;/a&gt;),&#xA;pero también me gusta mucho lo que hacen en Atlassian. Desde hace años&#xA;uso y promuevo entre mis colegas el uso de&#xA;&lt;a href=&#34;http://www.atlassian.com/es/software/jira/overview&#34;&gt;Jira&lt;/a&gt;. Uso las&#xA;herramientas de ambas empresas a nivel personal y en mi trabajo.&lt;/p&gt;&#xA;&lt;p&gt;Personalmente mantengo unos repositorios públicos y privados en&#xA;&lt;a href=&#34;http://www.github.com/&#34;&gt;Github&lt;/a&gt;, y nunca consideré usar&#xA;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt;, la opción de Atlassian. Basicamente&#xA;porque para mi Bitbucket era un repositorio basado en Mercurial, y no me&#xA;gusta mucho ese DVCS, como dice Scott Chacon, &lt;a href=&#34;http://schacon.github.com/2008/11/24/on-mercurial.html&#34;&gt;Mercurial se siente como&#xA;un Git Lite&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

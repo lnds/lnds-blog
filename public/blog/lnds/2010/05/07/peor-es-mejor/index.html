@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Peor es mejor | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2010/05/07/peor-es-mejor/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Peor es mejor">
+  <meta property="og:description" content="En 1989 Richard P. Gabriel introdujo el concepto de Peor es Mejor (Worse is better), o el estilo New Jersey, que
+corresponde a una filosofía de diseño del software en que la simplicidad de la interfaz, y sobretodo de la implementación
+es más importante que cualquier otra propiedad (incluyendo la correción, consistencia y completitud).
+Este concepto fue introducido como un capítulo de una presentación que Gabriel hizo aen una coferencia de Lisp, y pueden leerlo en la siguiente dirección: The Rise of Worse is Better">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-05-07T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-05-07T08:25:11-03:00">
+    <meta property="article:tag" content="Procesos">
+    <meta property="article:tag" content="Principios">
+    <meta property="article:tag" content="Motivación">
+    <meta property="article:tag" content="Gestión De Proyectos">
+    <meta property="article:tag" content="Agilidad">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Peor es mejor">
+  <meta name="twitter:description" content="En 1989 Richard P. Gabriel introdujo el concepto de Peor es Mejor (Worse is better), o el estilo New Jersey, que
+corresponde a una filosofía de diseño del software en que la simplicidad de la interfaz, y sobretodo de la implementación
+es más importante que cualquier otra propiedad (incluyendo la correción, consistencia y completitud).
+Este concepto fue introducido como un capítulo de una presentación que Gabriel hizo aen una coferencia de Lisp, y pueden leerlo en la siguiente dirección: The Rise of Worse is Better">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Peor es mejor</h1><time class="dim" datetime="2010-05-07T08:25:11-03:00">May 7, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/procesos/">#procesos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/principios/">#principios</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/motivaci%C3%B3n/">#motivación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/gesti%C3%B3n-de-proyectos/">#gestión de proyectos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/agilidad/">#agilidad</a>
+      </div></ol></div>
+  <section class="page-section"><p>En 1989 <a href="http://dreamsongs.com/">Richard P. Gabriel</a> introdujo el
+concepto de Peor es Mejor (Worse is better), o el estilo New Jersey, que</p>
+<p>corresponde a una filosofía de diseño del software en que la simplicidad
+de la interfaz, y sobretodo de la implementación</p>
+<p>es más importante que cualquier otra propiedad (incluyendo la correción,
+consistencia y completitud).</p>
+<p>Este concepto fue introducido como un capítulo de una presentación que
+Gabriel hizo aen una coferencia de Lisp, y pueden leerlo en la siguiente dirección:
+<a href="http://www.jwz.org/doc/worse-is-better.html">The Rise of Worse is Better</a></p>
+<p>En el ensayo Richard Gabriel plantea que existe un estilo de diseño de
+software que el denomina el estilo MIT/Stanford (es decir, un estilo académico) que básicamente tiene las siguientes
+características:</p>
+<ul>
+<li>Simplicidad: el diseño debe ser simple, tanto en implementación como interfaz. Es más importante que la interfaz sea simple que la implementación.</li>
+<li>Correctitud: el diseño debe ser correcto en todos los aspectos observables. La incorrectitud simplemente no está permitida.</li>
+<li>Consistencia: el diseño no puede ser inconsistente. Se permite que un diseño sea ligeramente menos simple y menos completo para evitar incosistencia. La consistencia es tan importante como la correctitud.</li>
+<li>Completitud: el diseñ debe cubrir tantas situaciones importantes como sea práctico. Todos los casos razonablemente esperados deben estar cubiertos.  A la simplicidad no se permite reducir excesivamente la completitud.</li>
+</ul>
+<p>Como ven estas son características que se consideran buenas y positivas.</p>
+<p>Por otro lado, la filosofía <strong>Worse Is Bette</strong>r, Peor es mejor, o estilo
+New Jersey, en referencia a los Bell Labs, la cuna de C y Unix es
+ligeramente diferente en los siguientes aspectos:</p>
+<ul>
+<li>Simplicidad: el diseño debe ser simple,tanto en implementación como interfaz. Es más importante que la implementación sea simplea que la interfaz. La simpliciddad es la consideración más importante en el diseño.</li>
+<li>Correctitud: el diseño debe ser correcto en todos los aspectos observables. Es ligeramente mejor ser simple que correcto.</li>
+<li>Consistencia: el diseño no debe ser demasiado incosistente. La consistencia puede ser sacrificada por la simplicidad en algunos casos, pero es mejor eliminar partes del diseño que tienen que ver con circunstancias menos comunes que introducir complejidad en la implementación o inconsistencias.</li>
+<li>Completitud: el diseño debe cubrir tantas situaciones importantes como sea práctico. Todos los casos razonablemente esperados deben estar cubierntos. La completitud puede ser sacrificad en favor de cualquier otra cualidad.</li>
+</ul>
+<p>De hecho, la completitud puede ser sacrificada siempre que la
+simplicidad de implementación esté amenazada. La consistencia puede ser
+sacrificada para alcanzar completitud si se mantiene la simplicidad,
+especialmente la inconsistencia de la interfaz no tiene valor.</p>
+<p>Según Gabriel el enfoque &ldquo;peor es mejor&rdquo; produce software más exitoso,
+porque permite una difusión viral.</p>
+<p>Si uno desarrolla con este principio parte por una base que es
+básicamente buena, que quizás implementa entre un 50% a un 80% de las
+funcionalidades requeridas, no tiene que tener todo implementado. Lo
+importante es liberar el producto como si fuera n virus, de modo que
+cuando este &ldquo;virus&rdquo; se difunde se generan presiones para mejorar y
+llevar la funcionalidad al 90%,</p>
+<p>pero por otro lado los usuarios han sido condicionados a aceptar algo
+que no cumple todo lo esperado (&ldquo;lo correcto&rdquo;).</p>
+<p>Con el software peor-es-mejor ocurre que &ldquo;primero gana aceptación,
+luego condiciona a los usuarios es esperar menos, y finalmente será
+mejorado al punto que es casí <em>lo correcto</em>&rdquo;. Hay un beneficio
+adicional del estilo New Jersey, y es que al no ser piezas de software
+complejas y monolíticas, los sistemas más grandes deben ser diseñados de
+modo que reusen componentes, lo que genera una tradición de integración.</p>
+<p>Ustedes pueden optar por no seguir el camino de &ldquo;peor es mejor&rdquo;, pero
+se van a encontrar con 2 escenarios desagradables y frustrantes, en que
+tienen que definir un &ldquo;gran sistema complejo&rdquo;, que requiere elaborados
+diseños, complejas implementaciones, y probablemente una infraestructura
+especial para poder operar, o un escenario en que el diseño es eterno,
+los avances de implementación son siempre pequeños pasos en yna serie
+infinita que no termina nunca, y donde es imposible implementar &ldquo;lo
+correcto&rdquo;.</p>
+<p>La lección es que a menudo no es deseable ir por &ldquo;lo correcto&rdquo;. Es
+mejor tener primero la mitad de lo que se necesita de modo que se
+difunda como un virus. Una vez que la gente se ha enganchado, tomarse el
+tiempo para mejorar y llegar al 90% de &ldquo;lo correcto&rdquo;.</p>
+<p>Yo lo he hecho, he implementado servicios en que hemos partido con la
+mitad del desarrollo completado (o menos), pero el servicio ha ganado
+aceptación, y ha crecido y evolucionado con el uso y la
+retroalimentación de los usuarios. Al principio todo parece caótico,
+pero finalmente, llega un día en que el sol brilla y sin darte cuenta
+estás dando un servicio mucho mejor</p>
+<p>de lo que pensaste, completamente automatizado y funcionando al 90% de
+lo que se suponía, pero te has dado cuenta que era eso o que
+necesitabas.</p>
+<p>También he ido por el camino contrario, en que nos hemos tomado todo el
+tiempo del mundo para construir algo perfecto, un producto ideal, pero
+sin lograr nada, ni siquiera una venta.</p>
+<p>En mi experiencia esta aproximación es mejor, y funciona, aunque, como
+todo en la vida, debe usarse con moderación.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>854 words</span>
+    <span>5 - 6 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2007/07/01/lecciones-de-ratatouille/">Lecciones de RataTouille</a></li><li><a href="/blog/lnds/2010/04/04/1-de-5-000-o-5-000-de-1-batch-y-transaccional/">1 de 5.000 ó 5.000 de 1 (batch y transaccional) </a></li><li><a href="/blog/lnds/2009/12/11/motivacion-personal/">Motivación Personal</a></li><li><a href="/blog/lnds/2009/09/12/que-es-agilidad/">¿Qué es Agilidad?</a></li><li><a href="/blog/lnds/2009/07/22/motivar/">Motivar</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

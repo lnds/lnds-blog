@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valor on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/valor/</link>
+    <description>Recent content in Valor on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 21 May 2019 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/valor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Fin de la Agilidad (IX)</title>
+      <link>http://localhost:1313/blog/lnds/2019/05/21/el-fin-de-la-agilidad/</link>
+      <pubDate>Tue, 21 May 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2019/05/21/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;(Para escuchar la banda sonora de este post &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/2PYqsN1hjcI7sg171X4OV0?si=GFiZR8yyS3abJVMWUfJehg&#34;&gt;haz click&#xA;aquí&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;R-E-S-P-E-C-T&lt;br&gt;&#xA;Find out what it means to me&lt;br&gt;&#xA;&amp;mdash; Aretha Franklin&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El rock y el pop han contado desde siempre con grandes voces femeninas.&#xA;El rango de mis favoritas va desde el soul de Aretha Franklin, hasta la&#xA;vanguardista Björk, pasando por las hermanas Wilson (Heart), la actitud&#xA;punk de Hayley Williams (Paramore) y Shirley Manson (Garbage). De mi&#xA;juventud rescato a las maravillosas Cyndi Lauper y Pat Benatar. Por&#xA;supuesto a Christine McVie y Stevie Nicks de Fleetwood Mac. Y una lista&#xA;como esta no puede dejar de incluir a dos grandes cantantes que nos&#xA;abandonaron muy jóvenes: Janis Joplin y Amy&#xA;Winehouse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El valor de propiedad intelectual del software</title>
+      <link>http://localhost:1313/blog/lnds/2007/02/26/el-valor-de-propiedad-intelectual-del-software/</link>
+      <pubDate>Mon, 26 Feb 2007 20:38:02 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2007/02/26/el-valor-de-propiedad-intelectual-del-software/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;softip.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es claro que no es lo mismo valor que costo, y sin embargo en la industria del software cuando se habla del valor del software sólo se consideran los costos de producirlo, pero poco se habla de los beneficios obtenidos por usar el software.&lt;/p&gt;&#xA;&lt;p&gt;Cuando se trata de evaluar nuestros productos, los desarrolladores de software dejamos que sean los economistas, abogados, distribuidores y otros los que definan cuanto vale nuestro producto.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

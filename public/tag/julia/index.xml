@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/julia/</link>
+    <description>Recent content in Julia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 01 Apr 2018 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/julia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Julia: ¿Un mito hecho realidad?</title>
+      <link>http://localhost:1313/blog/lnds/2018/04/01/julia-un-mito-hecho-realidad/</link>
+      <pubDate>Sun, 01 Apr 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2018/04/01/julia-un-mito-hecho-realidad/</guid>
+      <description>&lt;p&gt;Julia es una de esas apariciones inesperadas en el panorama de los&#xA;lenguajes de programación que vale la pena explorar. Es por esto que&#xA;esta vez he recurrido a un &amp;ldquo;villano invitado&amp;rdquo; para que nos muestre de&#xA;qué se trata. Camilo Chacón&#xA;(&lt;a href=&#34;https://twitter.com/cchaconsartori&#34;&gt;@cchaconsartori&lt;/a&gt;) ha tenido la&#xA;gentileza de escribir este artículo en exclusiva para La Naturaleza del&#xA;Software sobre el lenguaje Julia, que lo disfruten.&lt;/p&gt;&#xA;&lt;h1 id=&#34;julia-un-mito-hecho-realidad&#34;&gt;Julia: ¿Un mito hecho realidad?&lt;/h1&gt;&#xA;&lt;p&gt;por Camilo Chacón&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

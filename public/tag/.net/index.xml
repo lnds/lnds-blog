@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Net on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/.net/</link>
+    <description>Recent content in .Net on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 01 Jun 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Es más seguro .Net que Java?</title>
+      <link>http://localhost:1313/blog/lnds/2010/06/01/es-mas-seguro-net-que-java/</link>
+      <pubDate>Tue, 01 Jun 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/06/01/es-mas-seguro-net-que-java/</guid>
+      <description>&lt;p&gt;Un reciente estudio de la empresa Veracode afirma que &lt;strong&gt;&amp;ldquo;la densidad de&#xA;vulnerabilidades (fallos promedio por megabyte de código analizado) para&#xA;.Net fue 27.2 y para Java la densidad genera fue de 30.0.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;OK, la diferencia puede estar dentro del error muestral, pero &lt;a href=&#34;http://www.veracode.com/reports/index.html&#34;&gt;el&#xA;estudio&lt;/a&gt; arroja una tabla&#xA;interesante donde se clasifican los errores:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;netvsjavasec.png&#34; alt=&#34;netvsjavasec.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La mayor parte de los problemas en .Net y JAva están en los cross site&#xA;scripting y sobretodo con los controles más antiguos, parece que la cosa&#xA;mejora con ASP MVC.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

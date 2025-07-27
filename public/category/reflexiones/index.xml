@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflexiones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/category/reflexiones/</link>
+    <description>Recent content in Reflexiones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 29 Dec 2021 12:20:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/reflexiones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plasticidad</title>
+      <link>http://localhost:1313/blog/lnds/2021/12/29/plasticidad/</link>
+      <pubDate>Wed, 29 Dec 2021 12:20:00 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2021/12/29/plasticidad/</guid>
+      <description>&lt;p&gt;¿Han oído ese adagio que dice que no se le puede enseñar trucos nuevos a un perro viejo? Pues, no es verdad. Claro que se puede aprender, y mucho.&lt;/p&gt;&#xA;&lt;p&gt;Yo al menos este año he aprendido montones, y de personas mucho más jóvenes que yo.&lt;/p&gt;&#xA;&lt;p&gt;Mi padre decía que siempre estamos aprendiendo, incluso en el momento de nuestra muerte aprendemos sobre uno de los mayores misterios de nuestra existencia.&lt;/p&gt;&#xA;&lt;p&gt;Hay gente que dice que tiene que ver con la neuroplasticidad. La teoría es que a menor edad tienes más neuroplasticidad, y la vas perdiendo al envejecer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

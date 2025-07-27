@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medicina on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/medicina/</link>
+    <description>Recent content in Medicina on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 02 Nov 2009 00:15:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/medicina/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google versus los médicos</title>
+      <link>http://localhost:1313/blog/lnds/2009/11/02/google-versus-los-medicos/</link>
+      <pubDate>Mon, 02 Nov 2009 00:15:38 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2009/11/02/google-versus-los-medicos/</guid>
+      <description>&lt;p&gt;Yo no sabía, o al menos no era conciente, de que el exceso de paracetamol puede provocar daños al hígado, hasta que lo leí en Twitter. Hice una búsqueda en Google, y efectivamente, es así. Tras eso siempre insisto en mi familia que no abusen del paracetamol cuando tienen dolor de cabeza.&lt;/p&gt;&#xA;&lt;p&gt;En 2006 médicos ingleses realizaron &lt;a href=&#34;http://www.bmj.com/cgi/content/abstract/bmj.39003.640567.AEv1&#34;&gt;un estudio&lt;/a&gt; en que tomaron 26 casos de la New England Journal of Medicine, y buscaron en Google por los síntomas, al comparar los resultados del buscador con los de la revista médica, obtuvieron un diagnóstico acertado en el 58% de los casos (me gustaría saber cual es la tasa de diagnóstico de un médico, para compararlas).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

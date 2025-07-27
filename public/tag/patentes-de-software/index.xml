@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patentes De Software on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/patentes-de-software/</link>
+    <description>Recent content in Patentes De Software on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 06 Dec 2005 17:11:59 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/patentes-de-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El caso Eolas</title>
+      <link>http://localhost:1313/blog/lnds/2005/12/06/el-caso-eolas/</link>
+      <pubDate>Tue, 06 Dec 2005 17:11:59 +0000</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2005/12/06/el-caso-eolas/</guid>
+      <description>&lt;p&gt;Eolas significa &amp;ldquo;Embedded Objects Linked Across Systems&amp;rdquo; (objetos incrustados enlazados a lo largo de sistemas +/-). Pero en gaelico significa Sabiduría.&lt;/p&gt;&#xA;&lt;p&gt;Los muchachos de &lt;a href=&#34;http://www.eolas.com/&#34;&gt;Eolas&lt;/a&gt; tienen una &lt;a href=&#34;http://164.195.100.11/netacgi/nph-Parser?Sect1=PTO1&amp;amp;Sect2=HITOFF&amp;amp;d=PALL&amp;amp;p=1&amp;amp;u=/netahtml/srchnum.htm&amp;amp;r=1&amp;amp;f=G&amp;amp;l=50&amp;amp;s1=&#39;5838906&#39;.WKU.&amp;amp;OS=PN/5838906&amp;amp;RS=PN/5838906&#34;&gt;patente&lt;/a&gt;desde 1994 que cubre la incrustación de objetos en browsers internet.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo a la &lt;a href=&#34;http://www.eolas.com/technology.html&#34;&gt;página de tecnología&lt;/a&gt; de Eolas la patente cubre, &amp;ldquo;los browsers para la web que soporten tecnologías populares como componentes ActiveX, applets Java y plug-ins para navegadores&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Por supuesto una vez obtenida la patente fueron contra el pez mas grande, y las emprendieron primero contra Microsoft, ganando unos 500 millones de dolares, historia que Francotirador &lt;a href=&#34;http://www.argonave.com/francotirador/archives/2005/12/licencia_para_matar.html&#34;&gt;comenta en extenso&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

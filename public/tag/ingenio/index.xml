@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingenio on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/ingenio/</link>
+    <description>Recent content in Ingenio on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 08 Dec 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/ingenio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caine&#39;s Arcade</title>
+      <link>http://localhost:1313/blog/lnds/2012/12/08/caine-s-arcade/</link>
+      <pubDate>Sat, 08 Dec 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/12/08/caine-s-arcade/</guid>
+      <description>&lt;p&gt;Me entero de esta maravillosa historia &lt;a href=&#34;http://brigomp.blogspot.com/2012/04/el-salon-recreativo-de-caine.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Pensamientosgiles+%28Pensamientos+%C3%A1giles%29&#34;&gt;Vía Pensamientos Ágiles&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Dicen que un niño sólo necesita de su imaginación, y quizás una caja de&#xA;cartón para ser feliz, y en este caso Caine nos muestra que ese don&#xA;puede alegrar a mucha gente.&lt;/p&gt;&#xA;&lt;p&gt;{% vimeo 40000072 %}&lt;/p&gt;&#xA;&lt;p&gt;La historia apareció en Reddit y tuvo un impacto grande como pueden ver&#xA;en el video, actualmente existe una iniciativa para becar los estudios&#xA;de Caine y otros niños tan imaginativos como él, la que hasta ahora ha&#xA;recaudado más de 200.000 dolares: &lt;a href=&#34;http://cainesarcade.com/&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

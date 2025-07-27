@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Héroes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/h%C3%A9roes/</link>
+    <description>Recent content in Héroes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Jul 2022 12:37:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/h%C3%A9roes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Margaret Hamilton, la primera SRE</title>
+      <link>http://localhost:1313/blog/lnds/2022/07/24/margaret-hamilton-la-primera-sre/</link>
+      <pubDate>Sun, 24 Jul 2022 12:37:33 -0400</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2022/07/24/margaret-hamilton-la-primera-sre/</guid>
+      <description>&lt;p&gt;Hace unas semanas fui invitado al &lt;a href=&#34;https://algoritmo.buzzsprout.com&#34;&gt;podcast &amp;ldquo;Había una vez un Algoritmo&amp;rdquo;&lt;/a&gt; de &lt;a href=&#34;https://camilochs.github.io/web/&#34;&gt;Camilo Chacón Sartori&lt;/a&gt; (&#xA;pueden escuchar la entrevista en este link: &lt;a href=&#34;https://algoritmo.buzzsprout.com/758831/10810042)&#34;&gt;https://algoritmo.buzzsprout.com/758831/10810042)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la entrevista Camilo me preguntó por algún personaje, del mundo de la informática, que admirara. Y ponderando diversas alternativas  expresé mi admiración creciente por &lt;a href=&#34;https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)&#34;&gt;Margaret Hamilton&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me resultó curioso que Camilo expresara que no sabía mucho sobre ella, pero la verdad es que es casi seguro que quienes sepan algo de Margaret Hamilton sea en relación a esta fotografía:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No Soy Spock</title>
+      <link>http://localhost:1313/blog/lnds/2015/03/02/no-soy-spock/</link>
+      <pubDate>Mon, 02 Mar 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2015/03/02/no-soy-spock/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El cambio es el proceso esencial de toda la existencia&amp;rdquo; &amp;ndash; Spock&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En 1975 el actor Leonard Nimoy publicó su primera autobiografía. El&#xA;libro llevaba el título de uno de sus capítulos: &amp;ldquo;&lt;strong&gt;No Soy Spock&lt;/strong&gt;&amp;rdquo;.&#xA;La frase surge de un incidente en un aeropuerto. Al encontrarse con el&#xA;actor, una madre le cuenta a su hija que ante ellas se encontraba Spock.&#xA;La niña no parecía muy convencida, así que Nimoy le explica que él en&#xA;realidad no es Spock, sino que el actor que encarnaba a ese personaje.&#xA;En base  a esa anécdota, Nimoy elabora un texto donde cuenta la manera&#xA;en que llegó a desarrollar este personaje. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neil Armstrong</title>
+      <link>http://localhost:1313/blog/lnds/2012/08/26/neil-armstrong/</link>
+      <pubDate>Sun, 26 Aug 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2012/08/26/neil-armstrong/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/lnds/2012/08/26/neil-armstrong/174802main_armstrong_neil_hr.jpg&#34;&#xA;    alt=&#34;Neil Armstrong 1930-2012&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Neil Armstrong 1930-2012&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Era un niño de 6 ó 7 años cuando mi padre nos proyectaba películas sobre&#xA;el aterrizaje del Apolo 11 en la luna. El tenía un viejo proyector de&#xA;películas con copias de noticieros sobre el mundial de 1962 y los&#xA;informativos de la NASA sobre el programa espacial, que conseguía en el&#xA;Instituto Chileno Norteamericano de Cultura, en Chuquicamata. También&#xA;tenía unas revistas de LIFE sobre la carrera espacial, y una serie de&#xA;libros que esta misma revista editó a fines de los 1960&amp;rsquo;s y comienzos&#xA;de los 1970&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

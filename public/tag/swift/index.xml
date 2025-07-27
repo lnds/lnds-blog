@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/swift/</link>
+    <description>Recent content in Swift on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 09 Oct 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shake it off</title>
+      <link>http://localhost:1313/blog/lnds/2017/10/09/shake-it-off/</link>
+      <pubDate>Mon, 09 Oct 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2017/10/09/shake-it-off/</guid>
+      <description>&lt;p&gt;A propósito de su canción &amp;ldquo;Shake it off&amp;rdquo;, Taylor Swift dijo:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;He aprendido la dura lección de que la gente puede decir lo que&#xA;quiera de nosotros en cualquier momento, y no podemos controlar eso.&#xA;La única cosa que podemos controlar es nuestra reacción a eso.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La joven cantante elaboró, en una entrevista posterior, que antes había&#xA;abordado el tema, pero desde una perspectiva más victimizante, en una&#xA;canción titulada&#xA;&lt;a href=&#34;https://www.youtube.com/watch?v=jYa1eI1hpDE&#34;&gt;&amp;ldquo;Mean&amp;rdquo;&lt;/a&gt;, pero decidió&#xA;tomarse las cosas con humor, lo que en mi opinión muestra un crecimiento&#xA;notable como persona, siendo tan joven. Por supuesto, la exposición de&#xA;Swift es muy distinta a un joven normal, un milenial, como hemos&#xA;denominado a todos los miembros de su generación, estereotipándolos de&#xA;paso, para mal en muchas ocasiones.\&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cómo obtener el reporte del clima</title>
+      <link>http://localhost:1313/blog/lnds/2016/06/21/como-obtener-el-reporte-del-clima/</link>
+      <pubDate>Tue, 21 Jun 2016 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2016/06/21/como-obtener-el-reporte-del-clima/</guid>
+      <description>&lt;p&gt;Este artículo termina la descripción del segundo desafío en esta serie&#xA;de nueve.&lt;/p&gt;&#xA;&lt;p&gt;Recordemos que el desafío [consiste en construir una aplicación que&#xA;obtenga el clima de distintas ciudades, usando la API de&#xA;&lt;a href=&#34;//www.openweathermap.org/&#34;&gt;OpenWeatherMap.org&lt;/a&gt;. Cnstruimos un&#xA;programa que&#xA;recibe a través de la línea de comandos una lista de ciudades. Este&#xA;programa ejecuta una consulta al sitio OpenWeatherMap.org para obtener&#xA;el informe del tiempo para cada una de las ciudades. El resultado queda&#xA;ordenado de forma descendente, desde la mayor a la menor temperatura. El&#xA;programa despliega la siguiente información por cada ciudad: el nombre,&#xA;la temperatura actual, la  máxima y la mínima más las condiciones del&#xA;clima. Finalmente el programa debe informa el tiempo ocupado para&#xA;descargar la información. Si se pasa el parámetro -p el programa hace la&#xA;consulta &amp;ldquo;en paralelo&amp;rdquo; para cada&#xA;ciudad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chubascos de ligera intensidad</title>
+      <link>http://localhost:1313/blog/lnds/2016/05/31/chubascos-de-ligera-intensidad/</link>
+      <pubDate>Tue, 31 May 2016 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2016/05/31/chubascos-de-ligera-intensidad/</guid>
+      <description>&lt;p&gt;El plan original, bueno el plan modificado del original, era implementar&#xA;cada uno de los 9 desafíos en un mes. Pero la verdad es que he tenido un&#xA;inicio de año bastante ocupado y mi tiempo para dedicarle a este&#xA;proyecto se ha visto afectado. La primera parte de este desafío la&#xA;publiqué el 31 de marzo, así que me ha  tomado ¡[dos meses  completar el&#xA;desafío!&lt;/p&gt;&#xA;&lt;p&gt;Si bien, no son tantas las horas efectivas dedicadas a resolver el&#xA;problema, la dificultad está en la dedicación para poder sentarme,&#xA;investigar y escribir el código. Espero poder retomar el ritmo de&#xA;publicación en los próximos desafíos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reporte del Clima</title>
+      <link>http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/</link>
+      <pubDate>Thu, 31 Mar 2016 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2016/03/31/reporte-del-clima/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;//es.wikipedia.org/wiki/Jaco_Pastorius&#34;&gt;Jaco Pastorius&lt;/a&gt; es uno de esos&#xA;músicos que te deja una profunda impresión cuando lo escuchas. En&#xA;particular, no volverás a percibir el sonido del bajo de la misma forma&#xA;después de escucharlo. [Su estilo ha influenciado a grandes del rock y&#xA;el jazz, como el gran &lt;a href=&#34;//es.wikipedia.org/wiki/Flea&#34;&gt;Flea&lt;/a&gt;[&#xA;de Red Hot Chili Peppers, o &lt;a href=&#34;//es.wikipedia.org/wiki/Geddy_Lee&#34;&gt;Geddy Lee&lt;/a&gt;&#xA;de Rush, quien coloca a Jaco en la cima más alta.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;*&amp;ldquo;Sometimes a little bit of his fairy dust might rub off on you when&#xA;you pretend to play like he&#xA;does.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

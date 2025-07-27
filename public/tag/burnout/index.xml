@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Burnout on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/burnout/</link>
+    <description>Recent content in Burnout on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 02 Sep 2018 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/burnout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#NoAlBurnout</title>
+      <link>http://localhost:1313/blog/lnds/2018/09/02/noalburnout/</link>
+      <pubDate>Sun, 02 Sep 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2018/09/02/noalburnout/</guid>
+      <description>&lt;p&gt;Trabajar muchas horas, sobre tiempo, aunque te lo traten de vender como&#xA;algo &amp;ldquo;bacán&amp;rdquo;, e innovador, no lo es. Eso no es ni agilidad ni&#xA;transformación, es todo lo contrario de lean.&lt;/p&gt;&#xA;&lt;p&gt;El burnout [1] corresponde al desgaste físico, mental o emocional&#xA;causado por el sobre esfuerzo o el estrés. Pero es más que estar&#xA;estresado o con exceso de trabajo. Este fenómeno hace que las cosas que&#xA;alguna vez amamos de nuestro trabajo o de nuestra vida pierdan sentido.&#xA;En general se manifiesta con un sentimiento de que no hay apoyo, o ayuda&#xA;para salir de esa situación.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

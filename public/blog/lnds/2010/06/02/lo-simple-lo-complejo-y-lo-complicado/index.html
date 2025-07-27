@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lo simple, lo complejo y lo complicado | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Lo simple, lo complejo y lo complicado">
+  <meta property="og:description" content="Cuando decimos que algo es complejo queremos sugerir que es el resultado inevitable de combinar los elementos, y que esto no implica una falta o un fallo, como cuando decimos que “una receta es compleja”.
+Por otro lado, complicado lo aplicamos a lo que presenta gran dificultad para entender, resolver o explicar, por ejemplo “un complicado proceso judicial”.
+Miren esta imagen:
+Indudablemente esta es una imagen compleja. Si no la conocen, esta imagen corresponde al famoso Conjunto de Mandelbrot, un fractal, una figura geométrica que tiene la particular propiedad de la autosimilaridad, si hicieramos un zoom en algunas de las partes de la imagen obtendríamos imágenes tan hermosas y complejas como esta. Pueden verificar lo que digo viendo este video en youtube, que explora el conjunto de Mandelbrot.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-06-02T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-06-02T08:25:11-03:00">
+    <meta property="article:tag" content="Simplicidad">
+    <meta property="article:tag" content="Complejidad">
+    <meta property="article:tag" content="Computación">
+    <meta property="article:tag" content="Fundamentos">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lo simple, lo complejo y lo complicado">
+  <meta name="twitter:description" content="Cuando decimos que algo es complejo queremos sugerir que es el resultado inevitable de combinar los elementos, y que esto no implica una falta o un fallo, como cuando decimos que “una receta es compleja”.
+Por otro lado, complicado lo aplicamos a lo que presenta gran dificultad para entender, resolver o explicar, por ejemplo “un complicado proceso judicial”.
+Miren esta imagen:
+Indudablemente esta es una imagen compleja. Si no la conocen, esta imagen corresponde al famoso Conjunto de Mandelbrot, un fractal, una figura geométrica que tiene la particular propiedad de la autosimilaridad, si hicieramos un zoom en algunas de las partes de la imagen obtendríamos imágenes tan hermosas y complejas como esta. Pueden verificar lo que digo viendo este video en youtube, que explora el conjunto de Mandelbrot.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+    <div class="nav-item">
+      <a href="https://Newsletter.lnds.net"
+      >Newsletter</a>
+    </div>
+    <div class="nav-item">
+      <a href="/books/"
+      >Books</a>
+    </div>
+    <div class="nav-item">
+      <a href="/about/"
+      >About</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Lo simple, lo complejo y lo complicado</h1><time class="dim" datetime="2010-06-02T08:25:11-03:00">June 2, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tag/simplicidad/">#simplicidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/complejidad/">#complejidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/computaci%C3%B3n/">#computación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tag/fundamentos/">#fundamentos</a>
+      </div></ol></div>
+  <section class="page-section"><p>Cuando decimos que algo es <strong>complejo</strong> queremos sugerir que es el
+resultado inevitable de combinar los elementos, y que esto no implica
+una falta o un fallo, como cuando decimos que &ldquo;una receta es
+compleja&rdquo;.</p>
+<p>Por otro lado, <strong>complicado</strong> lo aplicamos a lo que presenta gran
+dificultad para entender, resolver o explicar, por ejemplo &ldquo;un
+complicado proceso judicial&rdquo;.</p>
+<p>Miren esta imagen:</p>
+<p><img src="mandelbrot-automatic-art.jpg" alt=""></p>
+<p>Indudablemente esta es una imagen compleja. Si no la conocen, esta
+imagen corresponde al famoso <a href="http://es.wikipedia.org/wiki/Conjunto_de_Mandelbrot">Conjunto de
+Mandelbrot</a>, un
+fractal, una figura geométrica que tiene la particular propiedad de la
+autosimilaridad, si hicieramos un zoom en algunas de las partes de la
+imagen obtendríamos imágenes tan hermosas y complejas como esta. Pueden
+verificar lo que digo viendo <a href="http://www.youtube.com/watch?v=gEw8xpb1aRA">este video en
+youtube</a>, que explora el
+conjunto de Mandelbrot.</p>
+<p>Claramente es una imagen bastante compleja, con infinitos detalles.</p>
+<p>Y sin embargo, los matemáticos nos dicen que la información contenida
+en la imagen de arriba es esencialmente cero.</p>
+<p>El conjunto de Mandelbrot, que da origen a la imagen de arriba, y al
+video que les señalé, se puede expresar en menos de 140 caracteres (en
+un tweet de 48 caracteres):</p>
+<p><em>M</em>= C**{z: | (z+(z+(z+(...+(z+z<strong>2</strong>)<strong>2</strong>...)<strong>2</strong>)<strong>2</strong>)<strong>2</strong>)**2 &gt; 2}</p>
+<p>Esa es una expresión complicada para una persona que no sepa mucha
+matemática. Pero no es muy compleja, de hecho un programa que calcule el
+conjunto de Mandelbrot no toma más de unas 50 lineas de código
+(dependiendo del lenguaje)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>La imagen original de arriba tiene 800 x 600 pixeles, cada pixel tiene
+24 bits de información, es decir, si almacenaramos la imagen en un
+archivo tendría 11.520.000 bits. Sin embargo el progarma, escrito en C,
+que describa esa imagen podría ocupar unos 64.000 bits.</p>
+<p>El matemático ruso Kolmogorov inventó el concepto de Complejidad
+Descriptiva, o Entropía Algoritmica para tratar de medir los recursos
+computacionales necesarios para describir un objeto.</p>
+<p>Por ejemplo, consideren estos dos cadenas de letras (<a href="http://en.wikipedia.org/wiki/Kolmogorov_complexity#Chaitin.27s_incompleteness_theorem">tomado de
+wikipedia</a>):</p>
+<pre tabindex="0"><code>    abababababababababababababababababababababababababababababababab
+
+    4c1j5b2p0cv4w1x8rx2y39umgw5q85s7uraqbjfdppa0q7nieieqe9noc4cvafzf
+</code></pre><p>Ambas tienen el mismo largo, 64 caracteres, sin embargo, la primera
+cadena se puede expresar como: &ldquo;ab 32 veces&rdquo;, con sólo 11 caracteres.
+Sin embargo, para la segunda cadena pareciera no haber otra forma más
+corta que escribirla directamente.</p>
+<p>Kolmogorov diría que la primera cadena es menos compleja que la segunda.</p>
+<p>Ahora, volvamos al conjunto de Mandelbrot. Resulta que el programa que
+permite calcular los puntos del conjunto tiene un parámetro, que indica
+la cantidad de iteraciones necesarias para determinar el siguiente pixel
+a dibujar. Resulta que si elegimos dibujar un segmento más detallado del
+conjunto de Mandelbrot, es decir, hacer un zoom, este parámetro debe ser
+mayor, lo que implica que el computador consume más tiempo y recursos
+para generar el detalle de una parte más interna del conjunto.
+Claramente, la definición de complejidad algoritmica, tomada como el
+largo del programa no parece reflejar adecuadamente el uso real de la
+CPU en este problema.</p>
+<p>La pregunta es, si esta definición de complejidad es adecuada. Porque de
+acuerdo a la noción de Kolmogorov el conjunto de Mandelbrot no es una
+cosa compleja, y ya hemos visto que en términos de gasto computacional
+(gasto de energía, y de tiempo de proceso) no pareciera ser simple.</p>
+<p>Por otro lado, un objeto aleatorio, como la cadena
+&ldquo;4c1j5b2p0cv4w1x8rx2y39umgw5q85s7uraqbjfdppa0q7nieieqe9noc4cvafzf&rdquo;,
+tienen una complejidad de Kolmogorov altisima (o máxima) pero no es una
+cosa muy interesante de estudiar.</p>
+<p>Un televisor mostrando sólo ruido estático no es muy interesante, al
+final sólo es simple ruido, pero ese ruido aleatorio es complejo en
+términos informáticos, si seguimos la idea de Kolmogorov.</p>
+<p>Esta noción de complejidad no es satisfactoria, y hay mucho esfuerzo de
+investigación por encontrar una definición matemática de complejidad que
+capture nuestras nociones intuitivas de complejidad.</p>
+<p>Los quiero invitar a explorar el estudio de la complejidad, algo que,
+como veremos en los próximos artículos, ha sido una tarea bastante
+complicada. :)</p>
+<p>Notas:</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>para complicar las cosas en la expresión z son números complejos
+(no pude evitarlo, disculpen ;)&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 Eduardo Díaz</div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>648 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/mandelbrot-automatic-art.jpg">mandelbrot-automatic-art.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/blog/lnds/2009/10/18/seducciones-de-la-informatica/">Seducciones de la Informática</a></li><li><a href="/blog/lnds/2010/01/15/novedades-radicales/">Novedades Radicales</a></li><li><a href="/blog/lnds/2009/04/22/la-computacion-como-una-ciencia-social/">La computación como una ciencia social</a></li><li><a href="/blog/lnds/2007/09/11/giga-o-gibi-bytes/">¿giga o gibi bytes?</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

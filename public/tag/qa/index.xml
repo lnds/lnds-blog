@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qa on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/qa/</link>
+    <description>Recent content in Qa on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 10 Aug 2010 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/qa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control de Calidad</title>
+      <link>http://localhost:1313/blog/lnds/2010/08/10/control-de-calidad/</link>
+      <pubDate>Tue, 10 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/08/10/control-de-calidad/</guid>
+      <description>&lt;p&gt;Un buen consejo para gestionar al equipo de QA: si la cantidad de bugs&#xA;aumenta con el tiempo, pídale al equipo de QA que deje de hacer pruebas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;testing1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Por cierto, este tipo de estrategia también la han aplicado ex ministros de&#xA;educación  respecto a aplicar test internacionales de calidad de la&#xA;educación en nuestro país)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

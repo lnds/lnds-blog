@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humanidades on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/humanidades/</link>
+    <description>Recent content in Humanidades on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 05 Oct 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/humanidades/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un Ingenierio Inusual</title>
+      <link>http://localhost:1313/blog/lnds/2010/10/05/un-ingenierio-inusual/</link>
+      <pubDate>Tue, 05 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/10/05/un-ingenierio-inusual/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It may be the warriors that get the glory, but it&amp;rsquo;s the&#xA;engineers that build society&amp;rdquo; &amp;ndash; B&amp;rsquo;lanna Torres, ST:Voyager 7.10&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Enzo Abbagliati tuvo la gentileza de invitarme a escribir para el tercer&#xA;aniversario de su blog, cadaunadas, el resultado fue este &lt;a href=&#34;http://www.cadaunadas.net/2010/10/3-anos-la-membrana-de-google.html&#34;&gt;pequeño&#xA;post&lt;/a&gt;,&#xA;algo orwelliano, una reflexión sobre la invasión del ciberespacio en el&#xA;día a día.&lt;/p&gt;&#xA;&lt;p&gt;Lo que me gustó fue que  Enzo me presenta como un &amp;ldquo;ingeniero inusual&amp;rdquo;,&#xA;él deja abierta la definición, aunque tengo mis sospecha de a que se&#xA;refiere. Me gustó porque significa que lo que intento hacer en este y&#xA;&lt;a href=&#34;http://www.akarru.com/&#34;&gt;el otro blog&lt;/a&gt; tienen un impacto fuera del&#xA;ámbito  tecnológico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sintel</title>
+      <link>http://localhost:1313/blog/lnds/2010/10/04/sintel/</link>
+      <pubDate>Mon, 04 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2010/10/04/sintel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;sintel_poster.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bien, ahora que tengo algo de su atención con respecto al&#xA;&lt;a href=&#34;http://localhost:1313/blog/2010/09/analisis-de-chileforge.html&#34;&gt;estado del software libre en Chile&lt;/a&gt;,&#xA;déjenme hablarles de un par de casos que quizás traiga un poco de&#xA;&lt;a href=&#34;http://localhost:1313/blog/2010/05/inteligencia-educacion-y-entendimiento.html&#34;&gt;entendimiento&lt;/a&gt;&#xA;con respecto al tema.&lt;/p&gt;&#xA;&lt;p&gt;Les quiero hablar de 2 proyectos que deben su existencia a esta idea&#xA;poderosa del software libre, y quiero, a través de estos ejemplos,&#xA;descifrar cuál es el secreto del éxito de un proyecto de software libre,&#xA;o basado en software libre. Mi intención es encontrar los fundamentos&#xA;que hacen que estos proyectos funcionen. Soy un convencido de que mucha&#xA;gente que habla del software libre no tiene idea de que habla, y por lo&#xA;tanto se crean expectativas e ideas incorrectas, las que mal aplicadas&#xA;pueden ser desastrosas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viajes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tag/viajes/</link>
+    <description>Recent content in Viajes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 15 Jun 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/viajes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La cultura hacker del MIT</title>
+      <link>http://localhost:1313/blog/lnds/2011/06/15/la-cultura-hacker-del-mit/</link>
+      <pubDate>Wed, 15 Jun 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/06/15/la-cultura-hacker-del-mit/</guid>
+      <description>&lt;p&gt;En &lt;a href=&#34;http://localhost:1313/blog/2011/05/red-hat-jboss-summit-2011.html&#34;&gt;mi reciente viaje a Boston&lt;/a&gt;&#xA;aproveché de escaparme para conocer Cambridge, y pasear por dos de las&#xA;instituciones universitarias más prestigiadas del mundo, las&#xA;universidades de Harvard y el MIT (Instituto Tecnológico de&#xA;Massachusetts). Y aunque todos me decían que conociera Harvard, la más&#xA;famosa, lo que realmente me impresionó fue el campus del&#xA;&lt;a href=&#34;http://web.mit.edu/&#34;&gt;MIT&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;IMAG0186.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La foto que tomé con mi cámara no refleja la dimensión del Great Domus.&#xA;Es enorme, y para darles una idea voy a recurrir a las fotos uno de los&#xA;&amp;ldquo;hacks&amp;rdquo; más ingeniosos que se han hecho en esa universidad, fíjense en&#xA;estas fotografías:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Red Hat JBoss Summit 2011</title>
+      <link>http://localhost:1313/blog/lnds/2011/05/04/red-hat-jboss-summit-2011/</link>
+      <pubDate>Wed, 04 May 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/blog/lnds/2011/05/04/red-hat-jboss-summit-2011/</guid>
+      <description>&lt;p&gt;Esta semana tengo la oportunidad de asistir al RedHat Summit and JBoss&#xA;World Event en Boston. Pretendo cubrir algunos temas interesantes de&#xA;este evento en el blog, así que atentos a mis lectores más techies.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;RedHatSummit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actualización&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Red Hat lanza su PaaS, Plataforma como Servicio, justo hoy, se&#xA;llama** &lt;a href=&#34;http://openshift.redhat.com/app/&#34;&gt;OpenShift&lt;/a&gt;**&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
