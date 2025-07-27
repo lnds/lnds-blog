@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programadores on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/programadores/</link>
+    <description>Recent content in Programadores on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 08 Mar 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programadores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡No somos cocineros!</title>
+      <link>http://localhost:1313/posts/2013/no-somos-cocineros/</link>
+      <pubDate>Fri, 08 Mar 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/no-somos-cocineros/</guid>
+      <description>&lt;p&gt;Este post es largo, quiero decir laaaaargo, porque tiene ambición, y&#xA;pretende decir muchas cosas importantes. Como dice el Chef Antoine de&#xA;New Orleans (citado por Fred Brooks en &lt;a href=&#34;http://amzn.to/zhUwYa&#34;&gt;The Mythical Man Month&lt;/a&gt;):&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La buena cocina toma tiempo. Si le hacemos esperar, es&#xA;para servirle mejor, y complacerle&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Si yo fuera ustedes me buscaría un buen sofá, un momento de tranquilidad&#xA;para leer esto, que en algunos momentos se puede poner bastante denso,&#xA;pero creo que vale la pena. Al menos decidí tomarme el tiempo adecuado&#xA;para escribirlo, con calma, con reflexión, como se debe hacer cuando las&#xA;cosas que hacemos consideramos que son importantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creadores de Universos</title>
+      <link>http://localhost:1313/posts/2011/creadores-de-universos/</link>
+      <pubDate>Tue, 11 Oct 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/creadores-de-universos/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;The computer programmer is a creator of universes for which he alone&#xA;is responsible. Universes of virtually unlimited complexity&lt;br&gt;&#xA;can be created in the form of computer programs.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;(El programador de computadoras es un creador de universos para los&#xA;cuales es el único responsable. Universos de complejidad virtualmente&#xA;ilimitada pueden ser creados en la forma de programas de computadora.)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ndash; Joseph Weizenbaum, Computer Power and Human Reason&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Weizenbaum.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

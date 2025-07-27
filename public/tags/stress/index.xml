@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stress on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/stress/</link>
+    <description>Recent content in Stress on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 30 Nov 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansiedad</title>
+      <link>http://localhost:1313/posts/2010/ansiedad/</link>
+      <pubDate>Tue, 30 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/ansiedad/</guid>
+      <description>&lt;p&gt;¿Cuáles son los botones más gastados en el ascensor de tu empresa?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;IMG00131-20101125-0928.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Inspirado en algo que leí en twitter hoy)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dulce venganza</title>
+      <link>http://localhost:1313/posts/2010/dulce-venganza/</link>
+      <pubDate>Mon, 29 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/dulce-venganza/</guid>
+      <description>&lt;p&gt;Díganme que no les gustaría hacer esto:&lt;/p&gt;&#xA;&lt;p&gt;es más, creo que cada vez que recibimos una llamada inoportuna&#xA;deberíamos responder de una manera similar, ¿no creen?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

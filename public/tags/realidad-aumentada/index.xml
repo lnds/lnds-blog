@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Realidad Aumentada on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/realidad-aumentada/</link>
+    <description>Recent content in Realidad Aumentada on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 06 Nov 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/realidad-aumentada/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>StartechConf 2011</title>
+      <link>http://localhost:1313/posts/2011/startechconf-2011/</link>
+      <pubDate>Sun, 06 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/startechconf-2011/</guid>
+      <description>&lt;p&gt;Quedé muy contento por asistir a la &lt;a href=&#34;http://www.startechconf.com/&#34;&gt;StartechConf 2011&lt;/a&gt;. Tengo que felicitar a su equipo&#xA;organizador.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2011/startechconf-2011/startechconf.jpg&#34;&#xA;    alt=&#34;con @stefsull y @garazi&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;con @stefsull y @garazi&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Fueron 2 jornadas muy intensas con charlas de gran calidad, los&#xA;invitados eran de primer nivel. Estamos hablando de expositores&#xA;conocidisimos en el ámbito de las conferencias de desarrollo a nivel&#xA;mundial.&lt;/p&gt;&#xA;&lt;p&gt;Creo que todos los asistentes aprendimos mucho. Algunos de ustedes&#xA;queridos lectores (los que estén usando browsers modernos), notarán que&#xA;algo de CSS3 aprendí, después de las excelentes charlas de la pareja&#xA;formada por &lt;a href=&#34;http://www.w3conversions.com/&#34;&gt;Stephanie Sullivan Rewis&lt;/a&gt;&#xA;(&lt;a href=&#34;https://twitter.com/#!/stefsull&#34;&gt;@stefsull&lt;/a&gt; en twitter) y su esposo&#xA;Greg Rewis (&lt;a href=&#34;https://twitter.com/#!/garazi&#34;&gt;@garazi&lt;/a&gt; en twitter).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Más magia con Kinect </title>
+      <link>http://localhost:1313/posts/2011/mas-magia-con-kinect/</link>
+      <pubDate>Wed, 02 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/mas-magia-con-kinect/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/frGEzlrhve0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>HoloDesk</title>
+      <link>http://localhost:1313/posts/2011/holodesk/</link>
+      <pubDate>Sun, 30 Oct 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/holodesk/</guid>
+      <description>&lt;p&gt;Interesante proyecto de Microsoft Research, usando la tecnología de&#xA;kinect:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/JHL5tJ9ja_w?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

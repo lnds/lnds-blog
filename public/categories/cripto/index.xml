@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cripto on La Naturaleza del Software</title>
+    <link>http://localhost:1313/categories/cripto/</link>
+    <description>Recent content in Cripto on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 05 Feb 2022 12:22:16 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cripto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estafadores</title>
+      <link>http://localhost:1313/posts/2022-02-05-estafadores/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-05-estafadores/</guid>
+      <description>&lt;p&gt;El placer que debe haber sentido Herman Göring al apreciar el cuadro &amp;ldquo;Cristo y la Mujer Adúltera&amp;rdquo;, de Johannes Vermeer, solo se compara con el escalofrío que debió sentir al desembolsar los casi dos millones de florines que pagó por el mismo (casi siete millones de dólares actuales).&lt;/p&gt;&#xA;&lt;p&gt;No sabemos si alguna vez colgó la pintura en algún salón u oficina, o si pudo mostrárselo al mismísimo Führer. Quizás pensaba regalárselo o vendérselo. El hecho es que la obra fue escondida en una mina de sal en Austria.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

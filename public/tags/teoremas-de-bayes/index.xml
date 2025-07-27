@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teoremas De Bayes on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/teoremas-de-bayes/</link>
+    <description>Recent content in Teoremas De Bayes on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 11 Jul 2006 07:21:31 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/teoremas-de-bayes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vigilando la red en busca de terroristas</title>
+      <link>http://localhost:1313/posts/2006/vigilando-la-red-en-busca-de-terroristas/</link>
+      <pubDate>Tue, 11 Jul 2006 07:21:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/vigilando-la-red-en-busca-de-terroristas/</guid>
+      <description>&lt;p&gt;Bruce Schneier&lt;a href=&#34;http://replay.web.archive.org/20071017001140/http://www.schneier.com/blog/archives/2006/07/terrorists_data.html&#34;&gt; publica en su blog&lt;/a&gt; la demostración de porqué el análisis masivo de información, que usa la NSA (Agencia Nacional de Seguridad norteamericana), es inutil para detectar terroristas.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;El profesor noruego Floyd Rudmin aplica las matemáticas de la probabilidad condicional, conocido como el teorema de Bayes, para demostrar que la vigilancia de la NSA no puede detectar exitósamente terroristas, a menos que el porcentaje de terroristas en la población sea mayor, y la infalibilidad de los métodos sea mayor de lo que realmente es. Sin embargo, esta vigilancia es útil para monitorear la oposición política y el impacto de aquellos que no creen en la propaganda oficialista.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

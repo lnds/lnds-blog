@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Halloween on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/halloween/</link>
+    <description>Recent content in Halloween on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 31 Oct 2010 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/halloween/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transculturización</title>
+      <link>http://localhost:1313/posts/2010/transculturizacion/</link>
+      <pubDate>Sun, 31 Oct 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/transculturizacion/</guid>
+      <description>&lt;p&gt;Efectivamente,&#xA;&lt;a href=&#34;https://www.akarru.com/blog/2010/10/31/halloween/&#34;&gt;Halloween&lt;/a&gt; es un claro&#xA;ejemplo de transculturización, nótese este ejemplo notable de un niño&#xA;norteamericano disfrazado de minero chileno rescatado (con cápsula fenix&#xA;2 incluida):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fábulas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/f%C3%A1bulas/</link>
+    <description>Recent content in Fábulas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 04 Nov 2012 12:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/f%C3%A1bulas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Nariz del Emperador</title>
+      <link>http://localhost:1313/posts/2012/la-nariz-del-emperador/</link>
+      <pubDate>Sun, 04 Nov 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/la-nariz-del-emperador/</guid>
+      <description>&lt;p&gt;Por muchos años, una pregunta inquietaba a los súbditos del Imperio.&#xA;Todos querían saber el largo de la nariz del Emperador. Por supuesto,&#xA;ser sorprendido observando de cerca el rostro del Emperador, o peor aún,&#xA;sosteniendo una regla cerca de él, sería una provocación y falta&#xA;gravísima, cuyo castigo inmediato sería la muerte.&lt;/p&gt;&#xA;&lt;p&gt;Pero muchos estaban curiosos, al punto que un grupo de sabios se reunió&#xA;para encontrar el método de obtener la respuesta, y este es el modo en&#xA;que lo lograron. Se imprimieron cuestionarios que se enviaron en&#xA;paquetes a los jefes de las aldeas, quienes los distribuyeron entre lo&#xA;campesinos. El nivel de alfabetismo tenía el nivel suficiente para que&#xA;la mayor parte de ellos fueran capaces de contestar la única pregunta,&#xA;la que era, por supuesto, &amp;ldquo;¿de qué largo, piensa usted, es la nariz del&#xA;Emperador?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sopa de piedras</title>
+      <link>http://localhost:1313/posts/2011/sopa-de-piedras/</link>
+      <pubDate>Fri, 01 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/sopa-de-piedras/</guid>
+      <description>&lt;p&gt;Eran tres soldados que volvían de una larga guerra. Tras varios días de&#xA;camino la vista de una aldea alegró sus corazones, tenían la esperanza&#xA;de al fin probar un plato caliente.&lt;/p&gt;&#xA;&lt;p&gt;La gente del pueblo se encerró en sus casas, la guerra y los saqueos les&#xA;habian enseñado a esconder lo poco que tenían.&lt;br&gt;&#xA;Los soldados sólo consiguieron una olla grande y agua.&lt;/p&gt;&#xA;&lt;p&gt;Se instalaron en el centro del pueblo prendieron fuego y echaron tres&#xA;piedras a la olla.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

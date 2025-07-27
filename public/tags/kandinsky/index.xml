@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kandinsky on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/kandinsky/</link>
+    <description>Recent content in Kandinsky on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 22 Nov 2006 19:22:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kandinsky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kandinsky y el argumento funcional</title>
+      <link>http://localhost:1313/posts/2006/kandinsky-y-el-argumento-funcional/</link>
+      <pubDate>Wed, 22 Nov 2006 19:22:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/kandinsky-y-el-argumento-funcional/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Kandinsky_WWI-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cuando por primera vez uno se acerca a una de obra de arte abstracto, como ésta hermosa pintura de Kandinsky, lo primero que solemos preguntarnos es &lt;strong&gt;&amp;quot;¿qué es esto?&amp;quot;&lt;/strong&gt;, o también &lt;strong&gt;¿qué quizo expresar el pintor?&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Algunos se aproximan de forma ingenua, algunos rechazan este tipo de arte.&lt;/p&gt;&#xA;&lt;p&gt;Otros renuncian a las preguntas y se dedican a apreciarlo estéticamente.&lt;/p&gt;&#xA;&lt;p&gt;Para Kandinsky una obra de arte era efectiva &lt;em&gt;si surgía de una necesidad interna del artista y i el impulso original del artista es evocado en el espectador por medio del trabajo artístico y la recepción del mismo&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

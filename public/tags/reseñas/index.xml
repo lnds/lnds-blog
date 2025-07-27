@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reseñas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/rese%C3%B1as/</link>
+    <description>Recent content in Reseñas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 15 Nov 2015 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rese%C3%B1as/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principios y Algoritmos de Concurrencia</title>
+      <link>http://localhost:1313/posts/2015/principios-y-algoritmos-de-concurrencia/</link>
+      <pubDate>Sun, 15 Nov 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2015/principios-y-algoritmos-de-concurrencia/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Compartir es malo... Al menos en programación concurrente 😜&amp;rdquo; --&#xA;&lt;a href=&#34;//twitter.com/lnds/status/665126995882328064&#34;&gt;Tweet del 13 de noviembre de 2015&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Hace unos 10 años atrás sufrí con un proyecto que involucraba la&#xA;interacción de dispositivos biométricos y cámaras de seguridad.&#xA;&amp;ldquo;¿Cuanto tomará este proyecto?&amp;rdquo; me preguntaron mis socios, &amp;ldquo;unas seis&#xA;semanas, respondí ingenuamente&amp;rdquo;, finalmente me tomó varios meses,&#xA;dolores de cabeza y malos ratos.&lt;/p&gt;&#xA;&lt;p&gt;Los principales problemas tenían que ver con una serie de bibliotecas y&#xA;APIs que tenían serios problemas en el manejo de concurrencia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

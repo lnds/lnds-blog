@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecología on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/ecolog%C3%ADa/</link>
+    <description>Recent content in Ecología on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 27 Mar 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ecolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La hora del planeta y otras tonteras</title>
+      <link>http://localhost:1313/posts/2010/la-hora-del-planeta-y-otras-tonteras/</link>
+      <pubDate>Sat, 27 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/la-hora-del-planeta-y-otras-tonteras/</guid>
+      <description>&lt;p&gt;Ya ha pasado un mes desde el terremoto.&lt;/p&gt;&#xA;&lt;p&gt;Se siguen escuchando extrañas teorías conspiranoicas, y profecías de&#xA;catástrofes más terribles por venir.&lt;/p&gt;&#xA;&lt;p&gt;La gente busca señales. Como por ejemplo, que hoy es sábado, igual que&#xA;el día del terremoto!, que curioso dicen algunos, cuando en realidad eso&#xA;pasa casi todos los años no bisiestos, como febrero normalmente tiene 28&#xA;días, en marzo coinciden los días de la semana, así que es normal que el&#xA;27 de marzo y el 27 de febrero sean sábado, como es normal que si el día&#xA;del terremoto había luna nueva, este día también la haya, dado que la&#xA;luna tiene un ciclo de rotación y traslación de 28 días.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

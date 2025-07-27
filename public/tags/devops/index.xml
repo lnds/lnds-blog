@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/devops/</link>
+    <description>Recent content in DevOps on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 18 Mar 2019 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Fin de la Agilidad (II)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Mon, 18 Mar 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;(para escuchar la banda sonora de este post, haz click en &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/1qmHFjyYkB8HRCLNCs93IT?si=GONlxBSWT8mFoRrP74KVBA&#34;&gt;este&#xA;enlace&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;By now you should&amp;rsquo;ve somehow&lt;br&gt;&#xA;Realized what you gotta do&lt;br&gt;&#xA;&amp;ndash; Noel Gallagher&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;1998 no empezó bien. El tercer disco de Oasis había sido un fiasco.&#xA;Claro, es muy difícil lograr superar a &lt;a href=&#34;https://en.wikipedia.org/wiki/Definitely_Maybe&#34;&gt;Definitely Maybe&lt;/a&gt; y &lt;a href=&#34;https://en.wikipedia.org/wiki/(What%27s_the_Story)_Morning_Glory%3F&#34;&gt;&amp;ldquo;What&amp;rsquo;sthe Story (Morning Glory)&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ese es el problema de las estrellas fulgurantes, les cuesta repetir&#xA;éxitos tras otro, deben aceptar que las cosas dejan de salir&#xA;bien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Limitaciones</title>
+      <link>http://localhost:1313/posts/2017/limitaciones/</link>
+      <pubDate>Sun, 13 Aug 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/limitaciones/</guid>
+      <description>&lt;p&gt;En mi timeline de Facebook aparece una referencia a&#xA;&lt;a href=&#34;http://impresa.lasegunda.com/2017/08/12/A/8337C5C1/C637C5FV&#34;&gt;una columna de opinión&lt;/a&gt;&#xA;de Carlos Franz en el diario &lt;a href=&#34;http://impresa.lasegunda.com/2017/08/12/A&#34;&gt;La Segunda&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;El título es &amp;ldquo;eñe&amp;rdquo; y parte así:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Un año no es lo mismo que un ano. Aunque a veces algunos años resulten&#xA;ser como el ano, es preferible no confundir esta indispensable parte&#xA;del cuerpo con un ciclo de la Tierra en torno al sol. La buena&#xA;ortografía sirve, entre otras cosas, para evitar confusiones tontas o&#xA;peligrosas como ésa. Además, sirve para entendernos mejor por escrito&#xA;y mantener la historia, identidad y unidad de nuestra&#xA;lengua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tiempos Modernos</title>
+      <link>http://localhost:1313/posts/2017/tiempos-modernos/</link>
+      <pubDate>Sun, 06 Aug 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/tiempos-modernos/</guid>
+      <description>&lt;p&gt;Hay empresas, o mejor, para ser más precisos, hay gerentes, ejecutivos,&#xA;empresarios, que oyen hablar de &lt;strong&gt;&amp;ldquo;Transformación Digital&amp;rdquo;&lt;/strong&gt; en algún&#xA;seminario y llegan a hablar con su encargado TI (CIO, CTO, Gerente de&#xA;Finanzas (sí, eso sigue pasando)) y exigen que se establezca una&#xA;estrategia de Transformación Digital. &lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; ¿Y eso qué es?&lt;br&gt;&#xA;&amp;ndash; No sé, ¡pero lo queremos ya!&lt;/p&gt;&#xA;&lt;p&gt;Y sin demora se recurre a las consultoras reconocidas, o a las grandes&#xA;empresas de tres letras, que llegan con sus armadas de especialistas,&#xA;expertos en las mejores prácticas, a ofrecer las bondades de la&#xA;transformación digital (lease, venta de productos y facturación de horas&#xA;de consultoría).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡No se puede!</title>
+      <link>http://localhost:1313/posts/2013/no-se-puede/</link>
+      <pubDate>Thu, 08 Aug 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/no-se-puede/</guid>
+      <description>&lt;p&gt;¡No se puede! ¿Cuantas veces hemos escuchado esa frase? ¡Esa maldita&#xA;frase!&lt;/p&gt;&#xA;&lt;p&gt;Tienes listo tu desarrollo, la gente del área comercial o de procesos&#xA;está feliz, las pruebas han sido un éxito, va todo de acuerdo al&#xA;cronograma y cuando vas a sistemas para empezar a negociar fecha de paso&#xA;a producción te encuentras con el famoso &amp;ldquo;¡no se puede!&amp;rdquo;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Cuando las fuerzas rebeldes necesitan de los Jedis, estos sólo ponen&#xA;problemas. ¡Ayúdame Obi Wan!, ¡No! es la respuesta inesperada.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gene Amdahl on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/gene-amdahl/</link>
+    <description>Recent content in Gene Amdahl on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 13 Sep 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gene-amdahl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El problema de paralelizar</title>
+      <link>http://localhost:1313/posts/2009/el-problema-de-paralelizar/</link>
+      <pubDate>Sun, 13 Sep 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-problema-de-paralelizar/</guid>
+      <description>&lt;p&gt;¿Cómo aumentar el desempeño de nuestros sistemas?&lt;/p&gt;&#xA;&lt;p&gt;La respuesta a esta pregunta pasa por definir primero cómo medimos el&#xA;desempeño de nuestros sistemas. Ya hemos visto que una mala definición&#xA;de la medida de desempeño nos puede llevar a profundos errores de juicio&#xA;(&lt;a href=&#34;http://localhost:1313/2009/08/enganos-numericos.html&#34;&gt;¿recuerdan el problema con los kilómetros por litro de bencina?&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Algo parecido pasa con el aumento de desempeño de nuestros sistemas de&#xA;cómputo, debido a la disponibilidad de procesadores multicore. Desde&#xA;hace un tiempo se nos viene diciendo que el truco para mejorar el&#xA;desempeño de nuestros sistemas consiste en aumentar la cantidad de&#xA;procesadores, y adoptar el paralelismo en el diseño del software que&#xA;construimos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

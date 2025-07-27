@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vigilando la red en busca de terroristas | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2006/vigilando-la-red-en-busca-de-terroristas/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Vigilando la red en busca de terroristas">
+  <meta property="og:description" content="Bruce Schneier publica en su blog la demostración de porqué el análisis masivo de información, que usa la NSA (Agencia Nacional de Seguridad norteamericana), es inutil para detectar terroristas.
+El profesor noruego Floyd Rudmin aplica las matemáticas de la probabilidad condicional, conocido como el teorema de Bayes, para demostrar que la vigilancia de la NSA no puede detectar exitósamente terroristas, a menos que el porcentaje de terroristas en la población sea mayor, y la infalibilidad de los métodos sea mayor de lo que realmente es. Sin embargo, esta vigilancia es útil para monitorear la oposición política y el impacto de aquellos que no creen en la propaganda oficialista.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2006-07-11T07:21:31+00:00">
+    <meta property="article:modified_time" content="2006-07-11T07:21:31+00:00">
+    <meta property="article:tag" content="Seguridad">
+    <meta property="article:tag" content="Teoremas De Bayes">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vigilando la red en busca de terroristas">
+  <meta name="twitter:description" content="Bruce Schneier publica en su blog la demostración de porqué el análisis masivo de información, que usa la NSA (Agencia Nacional de Seguridad norteamericana), es inutil para detectar terroristas.
+El profesor noruego Floyd Rudmin aplica las matemáticas de la probabilidad condicional, conocido como el teorema de Bayes, para demostrar que la vigilancia de la NSA no puede detectar exitósamente terroristas, a menos que el porcentaje de terroristas en la población sea mayor, y la infalibilidad de los métodos sea mayor de lo que realmente es. Sin embargo, esta vigilancia es útil para monitorear la oposición política y el impacto de aquellos que no creen en la propaganda oficialista.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Vigilando la red en busca de terroristas</h1><time class="dim" datetime="2006-07-11T07:21:31&#43;00:00">July 11, 2006</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/seguridad/">#seguridad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/teoremas-de-bayes/">#teoremas de Bayes</a>
+      </div></ol></div>
+  <section class="page-section"><p>Bruce Schneier<a href="http://replay.web.archive.org/20071017001140/http://www.schneier.com/blog/archives/2006/07/terrorists_data.html"> publica en su blog</a> la demostración de porqué el análisis masivo de información, que usa la NSA (Agencia Nacional de Seguridad norteamericana), es inutil para detectar terroristas.</p>
+<blockquote>
+<p>El profesor noruego Floyd Rudmin aplica las matemáticas de la probabilidad condicional, conocido como el teorema de Bayes, para demostrar que la vigilancia de la NSA no puede detectar exitósamente terroristas, a menos que el porcentaje de terroristas en la población sea mayor, y la infalibilidad de los métodos sea mayor de lo que realmente es. Sin embargo, esta vigilancia es útil para monitorear la oposición política y el impacto de aquellos que no creen en la propaganda oficialista.</p></blockquote>
+<p>La cosa es mas o menos así:</p>
+<p>¿Cúal es la probabilidad de que la gente sea terrorista, dado el sistema de vigilancia de la NSA? Si la probabilidad es 0.0, entonces no hay terroristas, y la NSA sólo está gastando dinero y molestando a los ciudadanos norteamericanos. Si la probabilidad es 1.0, entonces está claro que este sistema es útil. Pero si la probabilidad es cincuenta-cincuenta (p=0.50), es lo mismo que tirar al aire una moneda. Por lo tanto esta probabilidad tiene que ser cercana a 1.00, para que tenga sentido esta vigilancia.</p>
+<p>El teorema de Bayes, que permite entender la probabilidad condicional, es enseñado en los cursos elementales de estadísticas. Si buscan en Google, encontrarán más de un millón de referencias al teorema de Bayes.</p>
+<p>Para que la vigilancia de intert funcione, este teorema requiere que se sepa:</p>
+<ol>
+<li>
+<p>La tasa base para terroristas, es decir, cual es porcentaje de la población que es terrorista.</p>
+</li>
+<li>
+<p>La tasa de certeza, es decir, la probabilidad de que los terrorista reales sean identificado por la NSA.</p>
+</li>
+<li>
+<p>La tasa de falsa identificación, es decir, la probabilidad de que gente inocente sea identificada erróneamente como terroristas.</p>
+</li>
+</ol>
+<p>No importa lo sofisticado que sean los métodos de la NSA, la tasa de certeza nunca será 100%, y la tasa de falsa identificación tampoco será 0%.</p>
+<p>Veamos algunos de los números propuestos por el profesor Rudmin:</p>
+<p>El censo de los Estados Unidos dice que hay alrededor de 300 millones de habitantes en ese país. Supongamos que hay 1000 terroristas, es decir, 1 por cada 300000 habitantes, esto es un porcentaje de .00033%. Supongamos que la tasa de efectividad de la NSA es de 40%, un valor bastante alto, considerando que los terroristas se esfuerzan por no ser detectados. Si la NSA tiene un 0.1% de tasa de falsa identificación (esto representa 1 en cada 30.000 ciudadanos).</p>
+<p>Con estas suposiciones, el teorema de Bayes arroja una probabilidad p=0.0132, casi cero, muy lejos incluso de la probabilidad de 0.5, así que este método de vigilancia es totalmente inútil para encontrar terroristas, lo harían mejor tirando una moneda al aire!.</p>
+<p>Incluso, con una tasa de efectividad del 90%, y una tasa de falsa identificación de 1 en 3000, la probabilidad de acuerdo al teorema de Bayes es de 0.2308.</p>
+<p>Como ven, el gobierno de Bush gasta su dinero buscando a terroristas, o tal vez busca otra cosa.</p>
+<p>Para lo único que puede servir este espionaje de comunicaciones es para realizar análisis de tendencias o percepción ciudadana.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>523 words</span>
+    <span>3 - 3 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/credibilidad">Credibilidad</a></span><span class="details-taxonomy"><a href="http://localhost:1313/categories/seguridad">Seguridad</a></span></small>
+      </div></div><h3>Related</h3>
+    <ul><li><a href="/posts/2006/simples-formas-de-evitar-el-spam/">Simples formas de evitar el SPAM</a></li><li><a href="/posts/2005/singularity-el-nuevo-sistema-operativo-de-microsoft/">Singularity el nuevo sistema operativo de Microsoft</a></li><li><a href="/posts/2005/cual-browser-es-el-mas-seguro/">Cual Browser es el más seguro?</a></li><li><a href="/posts/2005/programacion-segura/">Programación segura</a></li><li><a href="/posts/2005/la-seguridad-de-php/">La seguridad de PHP</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

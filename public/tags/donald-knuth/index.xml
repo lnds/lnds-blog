@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donald Knuth on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/donald-knuth/</link>
+    <description>Recent content in Donald Knuth on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 08 Dec 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/donald-knuth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La programación como un Arte (Parte IV)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iv/</link>
+      <pubDate>Tue, 08 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iv/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth, 1974&lt;/p&gt;&#xA;&lt;p&gt;(Lee las partes&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;I&lt;/a&gt;,&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-ii.html&#34;&gt;II&lt;/a&gt;,&#xA;y&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-iii.html&#34;&gt;III&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;obras-de-arte&#34;&gt;Obras de Arte&lt;/h2&gt;&#xA;&lt;p&gt;**Cuando estoy sentado en la audiencia escuchando una larga charla,&#xA;mi atención usualmente empieza a desvanecerse en este punto, cerca de la&#xA;hora. Así que ¿me pregunto si se están cansando de mi arenga sobre&#xA;&amp;ldquo;ciencia&amp;rdquo; y &amp;ldquo;arte&amp;rdquo;? Realmente espero que sean capaces de escuchar&#xA;atentamente el resto de esto, de todos modos, porque ahora viene la&#xA;parte sobre la cual tengo sentimientos más profundos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte III)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iii/</link>
+      <pubDate>Sun, 06 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iii/</guid>
+      <description>&lt;p&gt;La programación de computadores como un arte&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth, 1974&lt;/p&gt;&#xA;&lt;p&gt;(Lee las partes &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;I&lt;/a&gt;,&#xA;y &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-ii.html&#34;&gt;II&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;ciencia-y-arte&#34;&gt;&lt;strong&gt;Ciencia y Arte&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Nuestra discusión indica que la programación de computadores es para&#xA;ahora ambas: una ciencia y un arte, y que los dos aspectos se&#xA;complementan bien una con otra. Aparentemente muchos autores que&#xA;examinan tal pregunta llegan a la misma conclusión, que su área de&#xA;estudio es ambas una ciencia y un arte, cualquiera sea esta área.&#xA;Encontré un libro sobre fotografía elemental, escrito en 1893, que decía&#xA;&amp;ldquo;el desarrollo de la imagen fotográfica es ambas un arte y una&#xA;ciencia.&amp;rdquo; De hecho, cuando tomé primero un diccionario para estudiar&#xA;las palabras &amp;ldquo;arte&amp;rdquo; y &amp;ldquo;ciencia&amp;rdquo; le eché un vistazo al prefacio del&#xA;editor, el que empezaba diciendo, &amp;ldquo;la construcción de un diccionario es&#xA;una ciencia y un arte a la vez&amp;rdquo;. El editor del diccionario de Funk &amp;amp;&#xA;Wagnall&#39;s dictionary observaba que la penosa acumulación y&#xA;clasificación de los datos sobre las palabras tiene un carácter&#xA;científico, mientras que un fraseo bien escogido para la definición&#xA;demanda la habilidad de escribir con la economía y la precisión: &amp;ldquo;La&#xA;ciencia sin este arte es probablemente inefectiva, el arte sin la&#xA;ciencia es ciertamante inexacto.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte II)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-ii/</link>
+      <pubDate>Fri, 04 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-ii/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth&lt;/p&gt;&#xA;&lt;p&gt;(lee &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;la primera parte&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;ciencia-versus-arte&#34;&gt;&lt;strong&gt;Ciencia versus Arte&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;La palabra &amp;ldquo;ciencia&amp;rdquo; parece haber sido usada por muchos años en el&#xA;mismo sentido que &amp;ldquo;arte&amp;rdquo;; por ejemplo, la gente hablaba también de las&#xA;siete ciencias liberales, que eran las mismas siete artes liberales.&#xA;Duns Scotus en el siglo trece llamaba a la lógica &amp;ldquo;la ciencia de las&#xA;ciencias, y el arte de los artes&amp;rdquo;. Como la civilización y la enseñanza&#xA;se desarrollaron, las palabras tomaron más y más sentidos&#xA;independientes, &amp;ldquo;ciencia&amp;rdquo; se empezó a usar para el conocimiento, y&#xA;&amp;ldquo;arte&amp;rdquo; para la aplicación del conocimiento. Luego, la ciencia de la&#xA;astronomía era la base para el arte de la navegación. La situación era&#xA;casi exactamente como la manera en que nosotros ahora distinguimos entre&#xA;&amp;ldquo;ciencia&amp;rdquo; e &amp;ldquo;ingeniería&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte I)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-i/</link>
+      <pubDate>Tue, 01 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-i/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth&lt;/p&gt;&#xA;&lt;p&gt;CACM, &lt;strong&gt;Diciembre&lt;/strong&gt; de 1974&lt;/p&gt;&#xA;&lt;p&gt;Cuando &lt;em&gt;Communications of the ACM&lt;/em&gt; comenzó su publicación en 1959, los&#xA;miembros del Comité Editorial de la ACM hicieron la siguiente&#xA;observación al describir el propósito de las publicaciones periódicas de&#xA;la ACM:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Si la programación de computadores será una importante parte de la&#xA;investigación y desarrollo de los computadores, se debe efectuar una&#xA;transición de la programación de un arte a una ciencia disciplinada&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

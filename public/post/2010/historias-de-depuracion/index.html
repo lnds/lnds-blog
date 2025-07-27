@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Historias de Depuración | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2010/historias-de-depuracion/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Historias de Depuración">
+  <meta property="og:description" content="La mejor herramienta de depuración de un programa (debugger) es la mente. Aunque el oido también sirve.
+Una vez un amigo programador tenía un problema con dos procedimientos almacenados. Ambos eran casi idénticos, la diferencia estaba sólo en la fuente desde donde obtenían información, el algoritmo era el mismo. El primero entregaba la respuesta extremadamente rápido, y el otro se demoraba una eternidad. El programador llevó una copia de la base de datos a su PC y empezó a depurar. Cuando me puse a ayudarlo noté algo, al ejecutar el procedimiento con problemas el computador se ponía ruidoso. “¿Por qué suena tu computador?” “Porque se activa el ventilador”. “Sí, pero hay algo más”. Efectivamente, el disco también sonaba porque empezaba a girar más de lo normal. Con el procedimiento almacenado más rápido no había ruido alguno y el disco apenas se movía. Ese ruido nos llevó a la pista correcta, el problema estaba en la tabla principal usada por el segundo procedimiento, que era el principal cambio entre uno y otro. Al principio pensamos que tenía más datos, pero no, lo que pasaba es que le faltaba un índice. Esa fue la primera vez que depuré de oido.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2010-08-21T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-08-21T08:25:11-03:00">
+    <meta property="article:tag" content="Depuración">
+    <meta property="article:tag" content="Anécdotas">
+    <meta property="article:tag" content="Trabajo">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Historias de Depuración">
+  <meta name="twitter:description" content="La mejor herramienta de depuración de un programa (debugger) es la mente. Aunque el oido también sirve.
+Una vez un amigo programador tenía un problema con dos procedimientos almacenados. Ambos eran casi idénticos, la diferencia estaba sólo en la fuente desde donde obtenían información, el algoritmo era el mismo. El primero entregaba la respuesta extremadamente rápido, y el otro se demoraba una eternidad. El programador llevó una copia de la base de datos a su PC y empezó a depurar. Cuando me puse a ayudarlo noté algo, al ejecutar el procedimiento con problemas el computador se ponía ruidoso. “¿Por qué suena tu computador?” “Porque se activa el ventilador”. “Sí, pero hay algo más”. Efectivamente, el disco también sonaba porque empezaba a girar más de lo normal. Con el procedimiento almacenado más rápido no había ruido alguno y el disco apenas se movía. Ese ruido nos llevó a la pista correcta, el problema estaba en la tabla principal usada por el segundo procedimiento, que era el principal cambio entre uno y otro. Al principio pensamos que tenía más datos, pero no, lo que pasaba es que le faltaba un índice. Esa fue la primera vez que depuré de oido.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Historias de Depuración</h1><time class="dim" datetime="2010-08-21T08:25:11-03:00">August 21, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/depuraci%C3%B3n/">#depuración</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/an%C3%A9cdotas/">#anécdotas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/trabajo/">#trabajo</a>
+      </div></ol></div>
+  <section class="page-section"><p>La mejor herramienta de depuración de un programa (debugger) es la
+mente. Aunque el oido también sirve.</p>
+<p><img src="/images/2010/08/debugger.jpg" alt=""></p>
+<p>Una vez un amigo programador tenía un problema con dos procedimientos
+almacenados. Ambos eran casi idénticos, la diferencia estaba sólo en la
+fuente desde donde obtenían información, el algoritmo era el mismo. El
+primero entregaba la respuesta extremadamente rápido, y el otro se
+demoraba una eternidad. El programador llevó una copia de la base de
+datos a su PC y empezó a depurar. Cuando me puse a ayudarlo noté algo,
+al ejecutar el procedimiento con problemas el  computador se ponía
+ruidoso. &ldquo;¿Por qué suena tu computador?&rdquo; &ldquo;Porque se activa el
+ventilador&rdquo;. &ldquo;Sí, pero hay algo más&rdquo;. Efectivamente, el disco también
+sonaba porque empezaba a girar más de lo normal. Con el procedimiento
+almacenado más rápido no había ruido alguno y el disco apenas se movía.
+Ese ruido nos llevó a la pista correcta, el problema estaba en la tabla
+principal usada por el segundo procedimiento, que era el principal
+cambio entre uno y otro. Al principio pensamos que tenía más datos, pero
+no, lo que pasaba es que le faltaba un índice. Esa fue la primera vez
+que depuré de oido.</p>
+<p>La otra historia que tengo para contarles es más épica ;)</p>
+<p>Hace años, teníamos un contrato para implementar un sistema &ldquo;hot
+backup&rdquo;. Era un trabajo poco frecuente y desafiante, este módulo era
+una pieza  auxiliar de un sistema
+<a href="https://es.wikipedia.org/wiki/SCADA">SCADA</a> más grande.</p>
+<p>El contratista principal, y desarrollador del sistema SCADA, había
+colocado el producto como sistema de control de una planta automatizada
+de cementos en  Talcahuano. Como parte del servicio se incluía nuestra
+componente de hot backup, lo que garantizaba la tolerancia a fallas.</p>
+<p>Este módulo <em>&ldquo;hot backup&rdquo;</em> fue un bonito desafío técnico. El sistema
+se implementaba en una modalidad  activo/pasivo, es decir, se instalaba
+en dos instancias sobre servidores distintos. El módulo hot backup
+monitoreaba el servidor activo, se preocupaba de mantener sincronizada
+ la base de datos en tiempo real entre ambos servidores, y cuando el
+servidor principal fallaba, se encargaba de activar al segundo servidor
+y dejarlo operando en el mismo estado que tenía el principal antes de
+fallar.</p>
+<p>Yo estaba a cargo del desarrollo. Fueron varios meses de programación
+ en C++, y bastante investigación. Todo lo que aprendí de sistemas
+distribuidos en la escuela lo apliqué en ese proyecto, y de paso aprendí
+varias cosas más.</p>
+<p>El problema es que desde Talcahuano reportaban que el Sistema SCADA &ldquo;se
+caía&rdquo; ante una demanda alta y activando el sistema secundario, sin una
+razón que lo justificara. Las sospechas cayeron sobre mi módulo hot
+backup. Montamos un laboratorio y llegué a la conclusión que no había
+nada malo en mi código. Como no nos creyeron, fuimos a una reunión con
+el gerente general de la empresa contratista,  insistimos que no era
+culpa nuestra, y que el problema estaba en el SCADA. Llegamos a un
+acuerdo, yo acompañaría a un ingeniero del contratista a Talcahuano,
+deberíamos investigar en terreno las causas. Si el problema era nuestro
+lo corregíamos sin costo, si el problema era del SCADA el contratista
+nos pagaba todas las horas ocupadas a tarifa doble. Literalmente era un
+doble o nada. Mi gerente, socio y amigo me dijo que ponía toda su
+confianza en mí, pero estaba preocupado. Podría significar perder mucho
+dinero.</p>
+<p>Nos dieron dos semanas para encontrar la causa y resolver el problema.
+Viajamos a Talcahuano, nos instalamos en la planta.  Decidimos agregar
+diversos logs en distintas partes de nuestro código para detectar el
+problema. Casi todos los días hacíamos algún cambio. Aprovechabamos de
+depurar y corregir otros detalles menores. Sin embargo, pasaban los
+días, y el sistema no fallaba y no conseguíamos reproducir la situación
+(no podíamos simular nada, debíamos esperar que el fenómeno ocurriera).</p>
+<p>Antes de seguir, déjenme contarles como funcionaba la planta. Esta era
+una planta totalmente automatizada que preparaba sacos de cemento
+<em>&ldquo;just in time&rdquo;</em>,  es decir, según la demanda. El cemento estaba en
+silos. El sistema SCADA permitía que un operador eligiera los silos
+fuente, y la cantidad de sacos a producir. Apretaba un botón y se
+activaban las máquinas, el cemento empezaba a desplazarse por correas
+transportadoras desde los silos hasta llegar a un robot ensacador. En
+realidad era una maravilla tecnológica, y nos gustaba ver como el
+sistema controlaba esas máquinas, software escrito por un grupo de
+jóvenes ingenieros, con los que trabajé varios meses. El módulo que
+elegía la ruta más óptima para mover el cemento fue escrito por uno de
+mis socios, así que también era un orgullo para
+mí.</p>
+<p><img src="planta.jpg" alt=""></p>
+<p>Faltaban dos días para que se cumpliera el plazo,
+y estábamos frustrados. Ese día nos quedamos hasta mas tarde, notamos
+que empezaban a llegar varios camiones a la planta, lo que significaba
+que el sistema sería usado con mayor intensidad. Llegó el operador del
+turno de la noche, un hombrón, con unas manotas que no parecían
+adecuadas para manejar el mouse. De hecho, días antes le habíamos
+enseñado a usar adecuadamente el mouse, porque tenía serios problemas
+con la motricidad fina. Era uno de los obreros reconvertidos para operar
+la planta. Una buena persona, inteligente, con muchas ganas de aprender
+e iniciativa. Nos quedamos para ayudarle, porque se veía que sería una
+noche de mucho trabajo. Claro, esta caravana de camiones llegaba cada
+dos semanas, y el problema se había reportado que ocurría con esa
+frecuencia, así que también era nuestra esperanza de observar el bug.</p>
+<p>De repente notamos que el operador empezaba a programar una gran
+cantidad de cargas. Un click tras otro, en rápida secuencia. Y ahí,
+frente a nuestros ojos, el servidor principal se cae, y empieza a operar
+mi módulo hot backup, tomando el control y activando el secundario.
+&ldquo;Ahí está, ¿vé? así se cae&rdquo;.  Pasaron los segundos y el segundo
+servidor tomaba el control, pero algunas de las tareas programadas no
+estaban, se habían perdido.</p>
+<p>Nos fuimos de cabeza a los logs. Los empezamos a revisar, y empecé a
+sentirme aliviado, y mi colega preocupado. El problema no estaba en mi
+código. Una <a href="http://es.wikipedia.org/wiki/Condici%C3%B3n_de_carrera">race
+condition</a> en el
+código del SCADA se daba cuando este operador empezaba a sobre exigir el
+sistema. ¿Y los registros que se perdían? tampoco era problema del hot
+backup, una cola mal programada que se usaba de buffer antes de cargar
+la base de datos de tiempo real, por lo tanto no podía copiarlo al
+segundo servidor si no tenía acceso a esos datos aún.</p>
+<p>Volvimos a Santiago. Yo contento, y mi colega con el rabo entre las
+piernas. Nos reunimos con el gerente contratista, yo con mi informe, y
+mi socio con la factura. Estaba feliz.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1105 words</span>
+    <span>6 - 8 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2010/historias-de-depuracion/planta.jpg">planta.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2009/el-efecto-de-la-multi-tarea/">El efecto de la multi tarea</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

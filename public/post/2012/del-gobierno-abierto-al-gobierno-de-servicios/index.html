@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Del gobierno abierto al gobierno de servicios | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2012/del-gobierno-abierto-al-gobierno-de-servicios/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Del gobierno abierto al gobierno de servicios">
+  <meta property="og:description" content="Marcos Malamud es uno de esos amigos que encontré escribiendo este blog, a través de sus comentarios pude ir conociéndolo y conocer su trabajo en sistemas de gestión, también tuvimos la oportunidad de compartir un memorable capítulo de El Test Acido. Para mi es una gran satisfacción que haya aceptado esta invitación como vilano invitado y que nos regale este excelente post, que lo disfruten:
+Del gobierno abierto al gobierno de servicios Por Marcos Malamud (@mismatica – www.mismatica.com)">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2012-08-19T22:25:11-03:00">
+    <meta property="article:modified_time" content="2012-08-19T22:25:11-03:00">
+    <meta property="article:tag" content="Aniversario">
+    <meta property="article:tag" content="Datos">
+    <meta property="article:tag" content="Gobierno">
+    <meta property="article:tag" content="Villano Invitado">
+    <meta property="article:tag" content="Innovación">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Del gobierno abierto al gobierno de servicios">
+  <meta name="twitter:description" content="Marcos Malamud es uno de esos amigos que encontré escribiendo este blog, a través de sus comentarios pude ir conociéndolo y conocer su trabajo en sistemas de gestión, también tuvimos la oportunidad de compartir un memorable capítulo de El Test Acido. Para mi es una gran satisfacción que haya aceptado esta invitación como vilano invitado y que nos regale este excelente post, que lo disfruten:
+Del gobierno abierto al gobierno de servicios Por Marcos Malamud (@mismatica – www.mismatica.com)">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Del gobierno abierto al gobierno de servicios</h1><time class="dim" datetime="2012-08-19T22:25:11-03:00">August 19, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/aniversario/">#aniversario</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/datos/">#datos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/gobierno/">#gobierno</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/villano-invitado/">#villano invitado</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/innovaci%C3%B3n/">#innovación</a>
+      </div></ol></div>
+  <section class="page-section"><p>Marcos Malamud es uno de esos amigos que encontré escribiendo este blog,
+a través de sus comentarios pude ir conociéndolo y conocer su trabajo en
+sistemas de gestión, también tuvimos la oportunidad de compartir un
+memorable capítulo de El Test Acido. Para mi es una gran satisfacción
+que haya aceptado esta invitación como vilano invitado y que nos regale
+este excelente post, que lo disfruten:</p>
+<h1 id="del-gobierno-abierto-al-gobierno-de-servicios"><strong>Del gobierno abierto al gobierno de servicios</strong></h1>
+<p>Por Marcos Malamud (<a href="https://twitter.com/mismatica">@mismatica</a> &ndash;
+<a href="http://www.mismatica.com">www.mismatica.com</a>)</p>
+<p>Voy a iniciar este post repitiendo los trillados y famosos objetivos del
+oGov (<em>por sus siglas en ingles Open Government - gobierno abierto</em>):
+transparencia, participación ciudadana y colaboración. ¿Por qué inicio
+el post así, se preguntara?</p>
+<p>Porque es un término de &ldquo;moda&rdquo; que se aprovecha del avance de las
+tecnologías de la información (<em>IT para quedar bien con el dueño del
+blog ;) jeje</em>). Desde que tenemos democracias estables en nuestros
+países estos conceptos <strong>SIEMPRE</strong> fueron los pilares para la
+construcción de ciudadanía, tanto desde el punto de vista técnico,
+personal o colectivo. Si bien no depende exclusivamente de la IT, las
+nuevas tecnologías han permitido que los tres conceptos se acerquen a
+los ciudadanos de una manera más natural, accesibles desde lo económico
+y directamente &ldquo;a la mano&rdquo; (<em>con las tablets y smartphones</em>). Pero no
+hay que engañarse, siempre existió la posibilidad de exigir y ejecutar
+estos principios. La gran diferencia es que actualmente el nivel de
+compromiso ciudadano y la facilidad que brinda el concepto de &ldquo;a la
+mano&rdquo; potencian la exigencia exponencialmente. Se pide transparencia y
+participación porque nos resulta &ldquo;cómodo&rdquo; hacerlo desde el sillón de
+casa, o caminando desde la calle, y en cierto punto se colabora con
+otros para reclamar cosas parecidas. No mal interpreten, esa &ldquo;comodidad&rdquo;
+aparente (<em>me parece genial que exista</em>), en realidad funciona como una
+fuerte presión social y masiva que hace que las cosas cambien.
+Justamente eso es el mayor temor que detectan actualmente nuestros
+representantes de gobierno.</p>
+<p>Una frase muy representativa de lo expuesto que adapté para un workshop
+que brindé en el Encuentro Nacional de Ciudades Digitales en el 2011
+fue: <em>*&ldquo;Gobierno abierto, una vieja idea cuyo tiempo ha llegado&rdquo; de
+@lnds *</em>&ndash; originalmente era &ldquo;Cloud, una vieja idea cuyo tiempo ha
+llegado&rdquo;.</p>
+<p>Desde el punto de vista de la &ldquo;demanda ciudadano-gobierno-ciudadano&rdquo;
+(llámese local, regional o central), se está forzando a que se reclamen
+mejores servicios a los equipos de gobierno. Deberíamos dejar de
+centrarnos en principios ya adquiridos <em>(¿ganados?</em>) en las actuales
+democracias, y arriesgarnos a transitar el proceso que nos lleve &ldquo;<strong>del
+gobierno abierto al gobierno de servicios</strong>&rdquo;.</p>
+<p>Utilicé las líneas anteriores para dejar bien en claro mi concepto
+sobre <strong>sGov</strong> que acuñé como service government o gobierno de servicios
+(<em>una buena &ldquo;patada al pecho&rdquo; para las &ldquo;acciones de oGov&rdquo; ;) jeje</em>);
+ahora si paso a contarles mi experiencia en estos años de desarrollar y
+vender herramientas de gestión para gobiernos locales, los cuales forman
+parte de mi nicho de especialidad, combinando en partes iguales
+managment y IT, en el camino de tratar (<em>en algunos casos con éxito</em>) de
+convertir a los municipios en un gobierno de servicios.</p>
+<p>Creo fervientemente y avalo mis declaraciones sobre datos concretos
+obtenidos en implementaciones con algunos clientes municipales (<em>más
+adelante expongo unos resultados interesantes al respecto</em>), que las
+herramientas o aplicaciones de sGov deben ser del tipo &ldquo;punta a punta&rdquo;,
+en otras palabras, un ciudadano (<em>Yo los llamo vecinos-clientes, aunque
+a algunos les cause urticaria</em>) no tiene que estar navegando y buscando
+un servicio del gobierno, ni menos saber a dónde debe dirigir sus
+reclamos o consultas, debe ser el propio gobierno que redireccione y
+asigne los pedidos de forma transparente para el vecino (<em>aquí donde la
+IT entra en juego</em>) y generar las consultas o pedidos de forma simple y
+directa &ldquo;sin intermediarios ni delays&rdquo;, claro está, debe combinarse de
+forma &ldquo;multi-canal&rdquo; tanto físico-presencial, virtual, mobile o Web, esto
+va a permitir a los gobiernos escuchar de forma activa a sus gobernados,
+dar respuestas en tiempo real (<em>o lo más eficientemente posible, me
+gusta decir a mi</em>), y consecuentemente recibir lo que, desde mi
+experiencia, es lo mejor del gobierno de servicios,
+el **FEEDBACK **directo y sin filtros. Este modelo de trabajo permite
+sin dudas dar mejores servicios, de calidad, con un control desde ambos
+lados del problema, comprometiendo a ambos actores en la resolución y
+luego vigilando y cuidando todo lo obtenido.</p>
+<p> <img src="modelo_punta_a_punta_mismatica.png" alt=""></p>
+<p>Aquí les comparto mi experiencia al respecto, ya que muchos (<em>por no
+decir todos</em>) los funcionarios de rango medio y alto que visito me
+muestran un profundo temor respecto a lo que algunos llaman el
+&ldquo;<em>empoderamiento del consumidor</em>&rdquo; y me encantaría mostrarles las cara de
+pánico en sus rostros cuando les comento que con sGov se le puede dar al
+vecino una herramienta para denunciar, consultar o reportar problemas en
+vivo desde la calle mientras caminan &ndash; paradójicamente los mandos bajos
+o agentes de campo piensan todo lo contrario y entienden que el vecino
+no es el enemigo (ya <em>que son estos mismos agentes la mayoría de los
+RR.HH del Estado y son a su vez vecinos en sí mismos de donde
+trabajan</em>), este &ldquo;temor&rdquo; se debe fundamentalmente a cuestiones
+culturales, burocráticas, corruptas, de desidia (<em>o todas ellas juntas
+;) jeje</em>), pero también debo reconocer errores de los desarrolladores de
+software que venden sistemas que no tienen en cuenta las cuestiones
+operativas de un reporte o reclamo ciudadano, y generan meros sistemas
+de captura y acumulación de números de reportes en grandes listas tipo
+sabanas, que lo único que hacen es sumar más miedo a ese &ldquo;temor&rdquo;
+inicial.</p>
+<p>En este punto, se debe dar una inflexión en los agentes de gobierno que
+toman las decisiones, deben tomar el toro por las astas y encarar los
+problemas en forma seria y programada, sincerarse con los vecinos y
+darles información clara y exacta sobre los tiempos y formas de
+resolución de los problemas consultados o reportados (<em>entiéndase que no
+dije &ldquo;sincericidio&rdquo; eso ya lo están haciendo en la actualidad
+prometiendo cosas que no cumplen de manera reiterada</em>), o bien pueden
+esconder la cabeza en el agujero como el avestruz con las consecuencias
+que esto conlleva.</p>
+<p>Como les comente antes, mis afirmaciones se basan en datos reales,
+utilizando como ejemplo un análisis que realicé sobre indicadores de un
+servicio público municipal: el del alumbrado público <em>(obligación
+municipal en todos los municipios, ayuntamientos o prefeituras de
+Latam)</em> donde, en base a 35.000 respuestas o feedback, sobre 400.000
+reclamos o reportes acumulados en dos de mis sistemas desde el 2004
+hasta el día de ayer, dieron estos resultados:</p>
+<p>80% = &ldquo;Gracias&rdquo; o &ldquo;Muchas gracias&rdquo; como palabra suelta o frase completa.</p>
+<p>15% = &ldquo;Seguridad, Oscuridad o Mayor iluminación&rdquo;.</p>
+<p>5%   = Otras palabras en general.</p>
+<p>¿Qué punto quiero destacar con estos 3 indicadores? &ndash; que sistemas o
+aplicaciones de sGov simplemente brindan MEJORES servicios desde la
+perspectiva del vecino, es decir calidad y satisfacción, en idioma del
+funcionario de gobierno &ldquo;votos&rdquo; ;). Como siempre les digo a mis
+clientes, el primer objetivo debe ser &ldquo;Reparar todo lo que se reclama&rdquo;
+es decir un concepto de EFICACIA, y luego cumplido este paso, ir hacia
+algo como &ldquo;El mejor servicio, es el que no se nota&rdquo; es decir un concepto
+de EFICIENCIA.</p>
+<p>Para ir cerrando, creo que las aplicaciones de sGov deben ser concebidas
+como una herramienta de &ldquo;inteligencia de negocios&rdquo; más que como meros
+sistemas de acumulación de datos planos o lineales, pero apuntalando sus
+pilares en sistemas expertos de gestión operativa interna, para que
+basados en datos concretos de la gestión diaria de cada unos de los
+servicios gubernamentales y las necesidades de los vecinos-clientes, se
+puedan tomar mejores decisiones político-estratégicas más eficientes y
+de mejor calidad.</p>
+<p>Esto solo será posible hacerlo bien si tenemos en cuenta algo muy
+importante que considero el &ldquo;talón de Aquiles&rdquo; del gobierno electrónico
+que es que en la mayoría de los casos los desarrollos o implementaciones
+no tienen en cuenta el FACTOR HUMANO que tiene que USAR las aplicaciones
+y sistemas. Soy un ferviente creyente de que los agentes municipales
+deben ser tenidos muy en cuenta al momento de desarrollar y es
+importante escucharlos y hacerlos participar, integrándolos en el
+producto final, esto resulta una condición NECESARIA para el éxito de
+las implementaciones, hoy en día nos centramos en la usabilidad de una
+de las &ldquo;puntas&rdquo; - los vecinos (<em>cosa que está muy bien</em>), pero tenemos
+que concentrarnos en la otra &ldquo;punta&rdquo; &ndash; los agentes municipales, en base
+a mi experiencia estos actores pueden hundir por completo un proyecto o
+proyectarlo al éxito con la misma velocidad, y bien luego como me gusta
+decirlo, dejar que el software &ldquo;evolucione&rdquo; y crezca.</p>
+<p>Finalmente quiero agradecer infinitamente a Eduardo por la honorable
+invitación para escribir en su blog, y también a Marco y Ubaldo que
+mediante esa loca y genial tertulia digital que dieron en llamar
+@eltestacido permiten integrar y hacer participar a referentes de la
+IT, entrepreNERDs y a mentes inquietas como la mía en sus charlas y
+permitirnos compartir experiencias, conocimiento y todo con mucho humor
+y vino, salud amigos y <strong>GRACIAS ¡!</strong></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1513 words</span>
+    <span>8 - 11 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2012/del-gobierno-abierto-al-gobierno-de-servicios/modelo_punta_a_punta_mismatica.png">modelo_punta_a_punta_mismatica.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2012/datos-como-artefactos-democraticos/">Datos Como Artefactos Democráticos</a></li><li><a href="/post/2012/be-awesome/">Be Awesome</a></li><li><a href="/post/2012/lnds-est%C3%A1-de-cumpleanos/">LNDS Está de Cumpleaños!</a></li><li><a href="/post/2012/prevenir-ataques-de-novatos-invitado/">Prevenir Ataques de Novatos (invitado)</a></li><li><a href="/post/2012/septimo-aniversario/">Séptimo Aniversario</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

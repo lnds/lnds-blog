@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Floss on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/floss/</link>
+    <description>Recent content in Floss on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 01 Aug 2005 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/floss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Es bueno el Open Source?</title>
+      <link>http://localhost:1313/posts/2005/es-bueno-el-open-source/</link>
+      <pubDate>Mon, 01 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/es-bueno-el-open-source/</guid>
+      <description>&lt;p&gt;Parece que la bala mágica para eliminar la brecha digital es el open&#xA;source.&lt;br&gt;&#xA;Es eso lo que la &lt;a href=&#34;http://www.unctad.org/sp/docs/c3em21d2_sp.pdf&#34;&gt;UNCTAD&lt;/a&gt;&#xA;quiere que pensemos?&lt;/p&gt;&#xA;&lt;p&gt;El tema es bastante más complejo, aunque la conferencia de expertos de&#xA;la UNCTAD realizada el año pasado tiene mucho que aportar, y se&#xA;encuentra soportada por verdaderos expertos en el tema, los problemas&#xA;surgen cuando personas de fuera del campo se ponen a discutir del tema,&#xA;generando confusión.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

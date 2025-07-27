@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enigma on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/enigma/</link>
+    <description>Recent content in Enigma on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 06 Nov 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/enigma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turing... Alan Turing</title>
+      <link>http://localhost:1313/posts/2012/turing-alan-turing/</link>
+      <pubDate>Wed, 06 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/turing-alan-turing/</guid>
+      <description>&lt;p&gt;Quizás no lo sepan, pero Alan Turing e  Ian Fleming (el autor de las&#xA;novelas de Bond,  James Bond) trabajaron juntos.&lt;/p&gt;&#xA;&lt;p&gt;Durante la Segunda Guerra Mundial Alan Turing dirigió el grupo Hut 8 en&#xA;Betchley Park, en la sede del  &#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Government_Communications_Headquarters#Government_Code_and_Cypher_School_.28GCCS.29&#34;&gt;Government Code and Cypher School (GC&amp;amp;CS)&lt;/a&gt;.&#xA;El grupo Hut 8 estaba encargado de descifrar los códigos secretos&#xA;creados con las máquinas Enigma  usadas por la marina alemana. Esta&#xA;famosa máquina, tenía un mecanismo de encriptación que se se consideraba&#xA;impenetrable en ese tiempo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

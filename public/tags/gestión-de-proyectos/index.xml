@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestión De Proyectos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/gesti%C3%B3n-de-proyectos/</link>
+    <description>Recent content in Gestión De Proyectos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 07 May 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gesti%C3%B3n-de-proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Peor es mejor</title>
+      <link>http://localhost:1313/posts/2010/peor-es-mejor/</link>
+      <pubDate>Fri, 07 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/peor-es-mejor/</guid>
+      <description>&lt;p&gt;En 1989 &lt;a href=&#34;http://dreamsongs.com/&#34;&gt;Richard P. Gabriel&lt;/a&gt; introdujo el&#xA;concepto de Peor es Mejor (Worse is better), o el estilo New Jersey, que&lt;/p&gt;&#xA;&lt;p&gt;corresponde a una filosofía de diseño del software en que la simplicidad&#xA;de la interfaz, y sobretodo de la implementación&lt;/p&gt;&#xA;&lt;p&gt;es más importante que cualquier otra propiedad (incluyendo la correción,&#xA;consistencia y completitud).&lt;/p&gt;&#xA;&lt;p&gt;Este concepto fue introducido como un capítulo de una presentación que&#xA;Gabriel hizo aen una coferencia de Lisp, y pueden leerlo en la siguiente dirección:&#xA;&lt;a href=&#34;http://www.jwz.org/doc/worse-is-better.html&#34;&gt;The Rise of Worse is Better&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecciones de RataTouille</title>
+      <link>http://localhost:1313/posts/2007/lecciones-de-ratatouille/</link>
+      <pubDate>Sun, 01 Jul 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/lecciones-de-ratatouille/</guid>
+      <description>&lt;p&gt;Rats era lo que los ingenieros llamamos un &lt;strong&gt;proyecto incendiado&lt;/strong&gt;.&#xA;Se trataba de una película importante para Pixar, pues era el primer&#xA;proyecto de la era &amp;ldquo;post Disney&amp;rdquo;, y debía tener por lo tanto todos los&#xA;elementos de un éxito. Y aunque el trabajo de Jan Pikava, su&#xA;director, era de alta calidad artística, la historia era considerada&#xA;&amp;ldquo;muy plana&amp;rdquo; por los ejecutivos de Pixar.&lt;/p&gt;&#xA;&lt;p&gt;Steve Jobs decide hacer algo, primero corre la fecha de estreno de Cars&#xA;de noviembre de 2005 a mayo de 2006, y el equipo de Pikava recibe la&#xA;orden de fortalecer la historia, y lograr que el público fuera capaz de&#xA;involucrarse con las peripecias de los personajes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

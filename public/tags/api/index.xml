@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/api/</link>
+    <description>Recent content in Api on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 22 Mar 2009 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿De qué estamos hablando?</title>
+      <link>http://localhost:1313/posts/2009/de-que-estamos-hablando/</link>
+      <pubDate>Sun, 22 Mar 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/de-que-estamos-hablando/</guid>
+      <description>&lt;p&gt;Christofer Hoff&#xA;&lt;a href=&#34;http://rationalsecurity.typepad.com/blog/2009/02/im-sorry-but-did-someone-redefine-open-and-interoperable-and-not-tell-me.html&#34;&gt;reclama&lt;/a&gt;&#xA;si alguien ha redefinido los términos &amp;ldquo;abierto&amp;rdquo; e &amp;ldquo;interoperable&amp;rdquo;,&#xA;sin avisarle, a propósito de la siguiente afirmación:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Singing the vcloud API standard song is very astute. It reassures all&#xA;people already on board and climbing on board the VMware bandwagon&#xA;that VMware is open and not looking to lock them in. Even if Microsoft&#xA;doesn&#39;t join in this standardisation effort with a whole heart, it&#xA;doesn&#39;t matter so long as VMware gets enough critical mass.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cómo diseñar una API</title>
+      <link>http://localhost:1313/posts/2009/como-dise%C3%B1ar-una-api/</link>
+      <pubDate>Fri, 20 Mar 2009 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/como-dise%C3%B1ar-una-api/</guid>
+      <description>&lt;p&gt;OK, hemos hablado de las APIs, sobre &lt;a href=&#34;http://localhost:1313/2009/03/de-que-estamos-hablando.html&#34;&gt;lo que no son&lt;/a&gt;, pero no&#xA;mucho sobre lo qué son realmente, y que importancia tienen en el&#xA;desarrollo de software.&lt;/p&gt;&#xA;&lt;p&gt;Y para que no digan que sólo nos dedicamos a criticar, vamos a aportar&#xA;con algunas ideas sobre como escribir una API.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;restfullapi.jpg&#34; alt=&#34;restfullapi.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Antes de seguir, debo decir que para mi, las interfaces REST, o las API&#xA;en el contexto de la Web 2.0, es decir, las APIcque permiten hacer&#xA;Mashups, por ejemplo, no son estrictamente una API, pero esta distinción&#xA;es más bien semántica.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una API no es código abierto</title>
+      <link>http://localhost:1313/posts/2009/una-api-no-es-codigo-abierto/</link>
+      <pubDate>Fri, 20 Mar 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/una-api-no-es-codigo-abierto/</guid>
+      <description>&lt;p&gt;Leo en un &lt;a href=&#34;http://blog.canal.cl/2009/03/y-dale-con-que-va-morir-el-diario.htm&#34;&gt;apunte de Micronauta&lt;/a&gt;&#xA;la afirmación: &amp;ldquo;el triunfo total del código abierto, una tendencia en&#xA;la cual la liberación de APIs que estamos observando por estos días es&#xA;un eslabón fundamental.&amp;rdquo;. Esta frase es el resumen de un &lt;a href=&#34;http://xark.typepad.com/my_weblog/2009/03/news-futures-a-whats-next-overview.html&#34;&gt;texto en&#xA;inglés&lt;/a&gt;&#xA;que dice:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Open Source wins&lt;/strong&gt;. Open Source solutions and platforms will push&#xA;proprietary systems to the brink simply because of the rate at which&#xA;they adapt to change and innovation. Pay attention to the Big Media&#xA;attempt to monetize this Open Source principle through the&#xA;proliferation of news APIs, but don&amp;rsquo;t expect it to succeed unless&#xA;these APIs give developers and end-users more freedom.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

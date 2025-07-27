@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>¡Programa CTM! | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2012/programa-ctm/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="¡Programa CTM!">
+  <meta property="og:description" content="Ustedes dirán: “Eduardo, seguro que te encanta escribir, esa debe ser tu verdadera pasión.”. Y la verdad es que no están tan lejos, me gusta escribir, y preparar estos posts es una de las actividades más divertidas a las que me dedico, pero no, tengo una pasión mayor que escribir: programar. Realmente es lo que más me gusta. No creo ser un gran programador, pero creo estar sobre la media, y lo mejor es que sigo aprendiendo, cada día.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2012-04-29T08:25:11-03:00">
+    <meta property="article:modified_time" content="2012-04-29T08:25:11-03:00">
+    <meta property="article:tag" content="Programar">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="Rant">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="¡Programa CTM!">
+  <meta name="twitter:description" content="Ustedes dirán: “Eduardo, seguro que te encanta escribir, esa debe ser tu verdadera pasión.”. Y la verdad es que no están tan lejos, me gusta escribir, y preparar estos posts es una de las actividades más divertidas a las que me dedico, pero no, tengo una pasión mayor que escribir: programar. Realmente es lo que más me gusta. No creo ser un gran programador, pero creo estar sobre la media, y lo mejor es que sigo aprendiendo, cada día.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>¡Programa CTM!</h1><time class="dim" datetime="2012-04-29T08:25:11-03:00">April 29, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/programar/">#programar</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/rant/">#rant</a>
+      </div></ol></div>
+  <section class="page-section"><p>Ustedes dirán: &ldquo;Eduardo, seguro que te encanta escribir, esa debe ser
+tu verdadera pasión.&rdquo;. Y la verdad es que no están tan lejos, me gusta
+escribir, y preparar estos posts es una de las actividades más
+divertidas a las que me dedico, pero no, tengo una pasión mayor que
+escribir: programar. Realmente es lo que más me gusta. No creo ser un
+gran programador, pero creo estar sobre la media, y lo mejor es que sigo
+aprendiendo, cada día.</p>
+<p>Hace poco una colega me comentaba que había conocido a un joven que
+estaba estudiando <em>&ldquo;ingeniería informática&rdquo;</em>, alguien le dijo: &ldquo;que
+bueno que estudias eso, podrías trabajar con nosotros para terminar las
+aplicaciones que necesitamos!&rdquo;, la respuesta orgullosa del joven fue:
+&ldquo;¡no, no!, ¡ <strong>yo ya no meto las manos</strong>!&rdquo;.</p>
+<p>Bueno, eso es lo que está mal en nuestra industria, esa maldita actitud
+de &ldquo;no querer meter las manos&rdquo;, como si fueran a ensuciarselas (hay
+productos para limpiar los teclados, ¿sabían?).</p>
+<p>Somos desarrolladores de software, ¡lo que hacemos es programar! Yo
+estoy en un puesto ejecutivo y, a pesar de que por la &ldquo;dignidad del
+cargo&rdquo; no debería hacerlo, &ldquo;¡sigo metiendo las manos!&rdquo;.</p>
+<p>¡Es como que me dijeran que un neuro cirujano que estudio 10 años no
+operara! ¡O que un futbolista no metiera los pies!</p>
+<p>El gran Edsger W. Dijkstra <a href="/blog/2010/01/la-disciplina-condenada.html">lo dijo claramente</a>:</p>
+<blockquote>
+<p>Así como la economía es conocida como &ldquo;La Ciencia Miserable&rdquo;,* la
+ingeniería de software debería ser conocida como &ldquo;La Disciplina
+Condenada&rdquo;<strong>, condenada porque ni siquiera puede acercarse a su meta,
+dado que la misma es en sí misma contradictoria. La ingeniería de
+software, por supuesto, se presenta a sí misma como otra causa
+valiosa, pero es un colirio: si lee cuidadosamente su literatura y
+analiza lo que realmente hacen quienes se avocan a ella, descubrirá
+que la ingeniería de software ha adoptado como su estatuto *&ldquo;Cómo
+programar si usted no puede&rdquo;</strong></p></blockquote>
+<p>Lo que pasa es que hay mucha gente que es incapaz de programar, y por lo
+tanto deriva en la <em>ingeniería de software</em>, porque creen que con eso
+compensan su ineptitud, y así la industria se ha llenado de ineptos. Y
+por eso que hay crisis de software, y los desarrollos no salen, porque
+la poca gente que es buena termina subvencionando a los malos. Hemos
+construido nuestra crisis por ser buenas personas.</p>
+<p>¡Ya basta de eso!, dejemos de aceptar la mediocridad, la ineptitud e
+incompetencia. Partamos por el proceso de selección: si usted necesita
+malabaristas, <a href="http://www.lnds.net/blog/2010/12/como-contratar-malabaristas.html">pídale que haga malabares enfrente de
+usted</a>, antes
+de contratarlos.</p>
+<p>Lo otro son las metodologías. Veamos el ejemplo de
+<a href="http://en.wikipedia.org/wiki/Waterfall_model">Waterfall</a>, por años se
+ha enseñado este método como la manera tradicional de desarrollar
+software, cuando en realidad el paper que la introduce  dice que en
+realidad no se debe usar esta aproximación, porque no funciona. La mayor
+parte de los libros de ingeniería de software ¡están basados en un error
+de <a href="/blog/2011/11/comprensin-de-lectura.html">comprensión de lectura</a>!</p>
+<p>Y contra esta &ldquo;metodología&rdquo; se proponen las &ldquo;nuevas metodologías&rdquo;. Y
+vienen eternas discusiones de &ldquo;ingeniería de software&rdquo;, que siguen
+olvidando lo esencial, que <strong>¡la única forma de desarrollar software es
+programando, ctm! (*)</strong></p>
+<p>Así que es inevitable que algunos programadores se revelen y creen su
+manifiesto en contra de todos los previos manifiestos, como este:
+<a href="http://programming-motherfucker.com/">Programming, Motherfucker</a>, que
+básicamente tiene la misma actitud que queremos transmitir cuando
+decimos ¡Programa CTM! (*)</p>
+<p><img src="programming-motherfucker.png" alt=""></p>
+<p>Esto viene de un Manifiesto escrito por <a href="http://zedshaw.com/">Zed Shaw</a>,
+un programador y músico, creador del <a href="http://rubyforge.org/projects/mongrel/">Web Server Mongrel para
+Ruby</a>. Un personaje polémico,
+con un <a href="http://zedshaw.com/">sitio web</a> bastante cool :smile: <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Muy en su estilo Zed Shaw escribe:</p>
+<blockquote>
+<p>&ldquo;Estamos cansados de XP, Scrum, Kanban, Waterfall, Software
+Craftmanship (conocido también como XP-Lite) y todo lo demás que
+impida... programar, ctm.(*)&rdquo;</p>
+<p>&ldquo;Estamos cansados de que digan que somos unos idiotas autistas que
+necesitan ser manipulados para trabajar en cadenas de programación en
+parejas, de forma forzada, sin  tiempo para ser creativos porque
+ninguno de los 10 gerentes o administradores del proyecto pueden hacer
+lo que se debe: programar, ctm.(*)&rdquo;</p></blockquote>
+<p>La siguiente es la contrapropuesta de Shaw a los valores del
+<a href="http://agilemanifesto.org/iso/es/">manifiesto ágil</a>:</p>
+<p>Ellos dicen Valorar<br>
+They Really Value<br>
+Lo que hacemos</p>
+<p>Individuos e interacciones</p>
+<p><em>Toneladas de horas facturables</em></p>
+<p><strong>Programar, CTM</strong></p>
+<p>Software funcionando</p>
+<p><em>Toneladas de pruebas sin sentido</em></p>
+<p><strong>Programar, CTM</strong></p>
+<p>Colaboración con el cliente</p>
+<p><em>Desangrar a los clientes</em></p>
+<p><strong>Programar, CTM</strong></p>
+<p>Respuesta al cambio</p>
+<p><em>Inestabilidad y negación plausible</em></p>
+<h2 id="programar-ctm"><strong>Programar, CTM</strong></h2>
+<p>No se ustedes, pero a mi me gusta esa actitud, capaz que termina
+comprando una de sus
+<a href="http://programming-motherfucker.com/buy.html">poleritas</a>...</p>
+<h2 id="notas"><strong>Notas</strong></h2>
+<p>La coprolalia o lenguaje soez y procaz usado en este post es sólo con
+fines académicos, ejem.</p>
+<p>(*) La sigla CTM corresponde a una grosería muy usada en Chile  y
+también en Perú que corresponde a  &ldquo;Concha de Tu Madre&rdquo;, o
+&ldquo;conchetumadre&rdquo; o &ldquo;conchetumare&rdquo;. Un equivalente, aunque sospecho
+que no es usado de la misma manera en México sería &ldquo;Chinga Tu Madre&rdquo;,
+que tiene la misma sigla. Esta se ha popularizado en Twitter con
+expresiones del tipo &ldquo;Está temblando CTM!!&rdquo;, &ldquo;Gooool CTM!&rdquo;, así que
+la expresión tiene muchos usos, para expresar miedo, rabia, amenazar o
+insultar. Imagino que se adapta bastante bien al uso motherfucker del
+Manifiesto.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p> A Zed Shaw, al igual que a mi, no le gusta el lenguaje Ruby,
+claro que él fue un poquito más allá, porque él realmente odia Rails, a
+pesar de que ha ganado mucho dinero usando Ruby. Hace unos años escribió
+un polémico artículo (un rant, en realidad), que tuvo que eliminar de su
+sitio, aunque quedó una copia en la red (la que nunca olvida), acá está
+por si les interesa: <a href="http://www.zedshaw.com.sharedcopy.com/rants/51489cec9386f7c13f69b3a58cd50b02.html">Rails Is A Ghetto</a>.
+Por cierto, sus <a href="http://zedshaw.com/essays/">ensayos</a> son interesantes,
+y tiene varios <a href="http://learncodethehardway.org/">libros</a> sobre
+programación, espero que su actitud no los intimide.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>942 words</span>
+    <span>5 - 7 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#programar-ctm"><strong>Programar, CTM</strong></a></li>
+    <li><a href="#notas"><strong>Notas</strong></a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2012/programa-ctm/programming-motherfucker.png">programming-motherfucker.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2012/el-mejor-editor-de-texto-de-todo-el-mundo-mundial/">El mejor editor de texto de todo el mundo mundial</a></li><li><a href="/posts/2005/distribuir-es-mejor/">Distribuir es mejor</a></li><li><a href="/posts/2005/sindicar/">Sindicar</a></li><li><a href="/posts/2005/cuantas-lineas-de-codigo-escribes-al-dia/">¿Cuantas lineas de código escribes al día?</a></li><li><a href="/posts/2012/sobre-la-inteligencia-del-coyote/">Sobre la inteligencia del coyote</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

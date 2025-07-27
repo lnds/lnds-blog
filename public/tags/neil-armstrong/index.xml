@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neil Armstrong on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/neil-armstrong/</link>
+    <description>Recent content in Neil Armstrong on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 26 Aug 2012 12:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/neil-armstrong/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neil Armstrong</title>
+      <link>http://localhost:1313/posts/2012/neil-armstrong/</link>
+      <pubDate>Sun, 26 Aug 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/neil-armstrong/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2012/neil-armstrong/174802main_armstrong_neil_hr.jpg&#34;&#xA;    alt=&#34;Neil Armstrong 1930-2012&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Neil Armstrong 1930-2012&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Era un niño de 6 ó 7 años cuando mi padre nos proyectaba películas sobre&#xA;el aterrizaje del Apolo 11 en la luna. El tenía un viejo proyector de&#xA;películas con copias de noticieros sobre el mundial de 1962 y los&#xA;informativos de la NASA sobre el programa espacial, que conseguía en el&#xA;Instituto Chileno Norteamericano de Cultura, en Chuquicamata. También&#xA;tenía unas revistas de LIFE sobre la carrera espacial, y una serie de&#xA;libros que esta misma revista editó a fines de los 1960&amp;rsquo;s y comienzos&#xA;de los 1970&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

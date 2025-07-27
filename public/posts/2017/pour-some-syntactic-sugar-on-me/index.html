@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pour Some Syntactic Sugar on Me | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2017/pour-some-syntactic-sugar-on-me/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Pour Some Syntactic Sugar on Me">
+  <meta property="og:description" content="El 31 de diciembre de 1984 fue una fecha que cambió para siempre la vida de Rick Allen, el baterista de Deff Leppard. En un accidente automovilístico, el “dios del trueno”, como le dicen sus fans, perdió su brazo izquierdo.
+Para un joven y brillante baterista la amputación significaba el fin de su carrera, pero alentado por sus compañeros y con la ayuda de Jeff Rich (baterista de Status Quo), Allen trabajó en diseñar un kit electrónico, con este hizo su debut en 1986 en el festival Monstes of Rock en Castle Donington.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-06-10T08:25:11-03:00">
+    <meta property="article:modified_time" content="2017-06-10T08:25:11-03:00">
+    <meta property="article:tag" content="Desafios">
+    <meta property="article:tag" content="Lenguajes Nuevos">
+    <meta property="article:tag" content="Lenguajes">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Rock">
+    <meta property="og:image" content="http://localhost:1313/posts/2017/pour-some-syntactic-sugar-on-me/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2017/pour-some-syntactic-sugar-on-me/featured.png">
+  <meta name="twitter:title" content="Pour Some Syntactic Sugar on Me">
+  <meta name="twitter:description" content="El 31 de diciembre de 1984 fue una fecha que cambió para siempre la vida de Rick Allen, el baterista de Deff Leppard. En un accidente automovilístico, el “dios del trueno”, como le dicen sus fans, perdió su brazo izquierdo.
+Para un joven y brillante baterista la amputación significaba el fin de su carrera, pero alentado por sus compañeros y con la ayuda de Jeff Rich (baterista de Status Quo), Allen trabajó en diseñar un kit electrónico, con este hizo su debut en 1986 en el festival Monstes of Rock en Castle Donington.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Pour Some Syntactic Sugar on Me</h1><time class="dim" datetime="2017-06-10T08:25:11-03:00">June 10, 2017</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/desafios/">#desafios</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/lenguajes-nuevos/">#lenguajes nuevos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/lenguajes/">#lenguajes</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/rock/">#rock</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/kotlin/">#kotlin</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n-funcional/">#programación funcional</a>
+      </div></ol></div>
+  <section class="page-section"><p>El 31 de diciembre de 1984 fue una fecha que cambió para siempre la vida
+de Rick Allen, el baterista de Deff Leppard. En un accidente
+automovilístico, el &ldquo;dios del trueno&rdquo;, como le dicen sus fans, perdió
+su brazo izquierdo.</p>
+<p>Para un joven y brillante baterista la amputación significaba el fin de
+su carrera, pero alentado por sus compañeros y con la ayuda de Jeff Rich
+(baterista de Status Quo), Allen trabajó en diseñar un kit electrónico,
+con este hizo su debut en 1986 en el festival Monstes of Rock en Castle
+Donington.</p>
+<p>Rich usa cuatro pedales para su pie izquierdo, para reemplazar su
+miembro faltante, con los que gatilla el sonido del hit hat, bombo, caja
+y un tom.</p>
+<p>Pero ocurrió que después del accidente de Allen la banda ingresó en su
+periodo más exitoso. Hysteria, el cuarto álbum de estudio de Deff
+Leppard fue el número uno en los rankings Billboard 200 y UK Album
+Charts de 1987. La historia está muy bien relatada en la película
+&ldquo;Hysteria, the Def Leppard Story&rdquo;.</p>
+<p>La decisión de Rick Allen de usar la tecnología y modificar su forma de
+tocar la batería, para continuar con su carrera, es algo digno de
+estudiar en detalle. No todos nos enfrentamos a decisiones tan vitales
+como la que enfrentó este músico, pero en el mundo de la tecnología el
+cambio repentino es una constante.</p>
+<p>Una lección del caso de Allen que podemos obtener es que la tecnología
+puede ser una gran ayuda para superar nuestras limitaciones físicas.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/a2541fe6-4e03-11e7-9ad1-05a85a8c6d5d-aa9f18b7"
+    alt="Rick Allen, baterista de Def Leppard"><figcaption>
+      <p>Rick Allen, baterista de Def Leppard</p>
+    </figcaption>
+</figure>
+
+<h2 id="kotlin">Kotlin</h2>
+<p>Los lenguajes de programación son una de las tecnologías que inventamos
+para superar la limitación que impone darle instrucciones a una Máquina
+de Turing. Lo que buscamos es poder expresarnos de la manera más cercana
+a como pensamos, y no de la forma secuencial que nos impone el modelo de
+Von Neumann, por ejemplo.</p>
+<p>Es por esto que existen tantos lenguajes de programación, buscan superar
+alguna limitación.</p>
+<p>Java es uno de los lenguajes más populares en este momentos, uno de los
+que tiene mayor penetración y representación en el mercado del
+desarrollo de software, de acuerdo a diversos índices, como el
+<a href="//redmonk.com/sogrady/2017/06/08/language-rankings-6-17/">Ranking en RedMonk</a> ,
+o en Indice <a href="//www.tiobe.com/tiobe-index/">TIOBE</a>.</p>
+<p>Pero todos los que hemos programado en Java sabemos que no es un
+lenguaje cómodo, tiene alguna decisiones de diseño que aún generan
+grandes trastornos (como veremos en un ejemplo más adelante en este
+artículo).</p>
+<p>La Java Virtual Machine fue creada para soportar el lenguaje Java, la
+idea de Gosling era portar esta máquina a diversos ambientes,
+principalmente dispositivos con limitados recursos. Pero Java está en
+casi todas partes, y distribuido masivamente en millones de dispositivos
+con Android.</p>
+<p>Cuando Microsoft inventó .Net decidió tomar un camino inverso en cierta
+manera, al de Sun, su CLR es una máquina virtual pensada para trabajar
+con varios lenguajes, y cuando salió al mercado incluía a Visual Basic y
+C#.</p>
+<p>Con el tiempo, la gente que usaba Java decidió construir otros lenguajes
+que aprovecharan la JVM, pero tratando de superar las limitaciones de
+Java.</p>
+<p>Kotlin es uno de esos intentos. Un lenguaje que lleva ya seis años de
+desarrollo, y se encuentra en su versión 1.1.</p>
+<p>No voy a escribir una elegía a Kotlin, Steve Yegge ya lo hizo
+<a href="https://steve-yegge.blogspot.cl/2017/05/why-kotlin-is-better-than-whatever-dumb.html">en otro lado</a>. </p>
+<p>Es un lenguaje interesante, que hay que observar, creo que va a ganar
+tracción después del impulso que le dio oficialmente Google al
+reconocerlo como lenguaje oficial para Android. </p>
+<p>Este artículo es una introducción al cuarto desafío de mi serie sobre
+estos &ldquo;raros lenguajes nuevos&rdquo;, así que vamos a eso, y después
+volvemos a Kotlin.</p>
+<h2 id="syntactic-sugar">Syntactic Sugar</h2>
+<blockquote>
+<p>Pour your sugar on me<br>
+I can't get enough<br>
+       &ndash; Def Leppard</p></blockquote>
+<blockquote>
+<p>Syntactic Sugar causes cancer of semicolons<br>
+&ndash; Alan Perlis</p></blockquote>
+<p>En los lenguajes de programación hablamos de Syntactic Sugar para
+referirnos a sintaxis diseñada para hacer las cosas más fáciles de leer,
+o de entender.</p>
+<p>La idea del desafío cuatro es explorar esa Syntactic Sugar, junto con
+otras decisiones de diseño, que le dan alguna ventaja a cada uno de los
+lenguajes, y que explican porque hay tanta variedad de los mismos.
+También nos permite entender en qué estaban pensando sus autores cuando
+los crearon.</p>
+<p>Esta vez, resolveré el problema un lenguaje a la vez y documentaré la
+solución por cada uno de los lenguajes en un post. Así que este cuarto
+desafío constará de nueve partes (o quizás 10 u 11). </p>
+<h2 id="el-cuarto-desafío">El cuarto desafío</h2>
+<p>En esta oportunidad construiremos un programa que comprime información.
+Para esto usaremos un algoritmo clásico llamado Huffman Coding.</p>
+<p>Al menos teóricamente, el Huffman Coding es la compresión que asegura
+que cada símbolo es represantado con la cantidad óptima de bits, de
+acuerdo a la teoría de la información de Shannon
+(<a href="/blog/2011/04/tambores-parlantes">de la que hemos hablado antes</a>).</p>
+<p>En el Huffman Encoding lo que hacemos es contar la frecuencia de los
+símbolos en el texto que queremos comprimir, en base a eso construimos
+una tabla de representación que minimice la cantidad de bits para cada
+uno. Así los símbolos más frecuentes requieren menos bits que los
+símbolos que se presentan menos veces en el texto.</p>
+<p>Una descripción del código de Huffman más detallada está en Wikipedia,
+se las dejo para que la estudien si les interesa:
+<a href="//es.wikipedia.org/wiki/Codificaci%C3%B3n_Huffman">Huffman Coding</a>. Lo que
+importa ahora es cómo implementamos esto en diversos lenguajes. Así que
+iremos viendo esto a lo largo de los artículos.</p>
+<h2 id="volvamos-a-kotlin">Volvamos a Kotlin</h2>
+<p>Para construir una solución a este desafío necesitamos construir algunas
+estructuras de datos muy interesantes, como una Cola de Prioridad y un
+Trie. Esto último nos permite ver donde un lenguaje como Kotlin tiene
+ventajas sobre Java y nos ayuda a cometer menos errores, y escribir
+menos código.</p>
+<p>Para explicarlo voy a tomar una desviación y les voy a proponer otro
+ejercicio. Supongamos que tenemos un árbol binario. En cada nodo de este
+árbol almacenamos un número, y queremos calcular la suma de estos
+números y los valores máximos y mínimos de este árbol.</p>
+<p>Así, que nuestro objetivo es construir una estructura que cumpla lo
+siguiente:</p>
+<blockquote>
+<ul>
+<li>
+<p>Arbol es una estructura de arbol binario.</p>
+</li>
+<li>
+<p>Un nodo tiene dos hijos siempre, y un valor numérico.</p>
+</li>
+<li>
+<p>Una hoja sólo tiene un valor numérico.</p>
+</li>
+<li>
+<p>Arbol.sum(): obtiene la suma de los valores en los nodos y las
+hojas.</p>
+</li>
+<li>
+<p>Arbol.max(): obtiene el máximo valor entre los nodos y las hojas.</p>
+</li>
+<li>
+<p>Arbol.min(): obtiene el mínimo valor entre los nodos y las hojas.</p>
+</li>
+</ul></blockquote>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/105aab79-4e05-11e7-9ad1-05a85a8c6d5d-aa9f18b7"
+    alt="Un árbol binario con números en sus nodos y hojas"><figcaption>
+      <p>Un árbol binario con números en sus nodos y hojas</p>
+    </figcaption>
+</figure>
+
+<p>Una solución en Java es la siguiente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Tree</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> value;
+</span></span><span style="display:flex;"><span>        Tree left;
+</span></span><span style="display:flex;"><span>        Tree right;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Tree</span>(<span style="color:#66d9ef">int</span> value) { <span style="color:#66d9ef">this</span>(value, <span style="color:#66d9ef">null</span>, <span style="color:#66d9ef">null</span>); }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Tree</span>(<span style="color:#66d9ef">int</span> value, Tree left, Tree right) {
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> value;
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span> <span style="color:#f92672">=</span> left;
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span> <span style="color:#f92672">=</span> right;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sum</span>() {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span>.<span style="color:#a6e22e">sum</span>() <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span>.<span style="color:#a6e22e">sum</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">max</span>() {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">max</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span>, Math.<span style="color:#a6e22e">max</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span>.<span style="color:#a6e22e">max</span>(), <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span>.<span style="color:#a6e22e">max</span>()));
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">min</span>() {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> Math.<span style="color:#a6e22e">min</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span>, Math.<span style="color:#a6e22e">min</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span>.<span style="color:#a6e22e">min</span>(), <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span>.<span style="color:#a6e22e">max</span>()));
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Y podemos crear el árbol de la figura de este modo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>     Tree arbol <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Tree(30, <span style="color:#66d9ef">new</span> Tree(70), <span style="color:#66d9ef">new</span> Tree(15, <span style="color:#66d9ef">new</span> Tree(42, <span style="color:#66d9ef">new</span> Tree(54), 
+</span></span><span style="display:flex;"><span>                  <span style="color:#66d9ef">new</span> Tree(66)), <span style="color:#66d9ef">new</span> Tree(25, <span style="color:#66d9ef">new</span> Tree(89), <span style="color:#66d9ef">new</span> Tree(72))));
+</span></span><span style="display:flex;"><span>     System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(arbol.<span style="color:#a6e22e">sum</span>()); <span style="color:#75715e">// 463</span>
+</span></span><span style="display:flex;"><span>     System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(arbol.<span style="color:#a6e22e">max</span>()); <span style="color:#75715e">// 89</span>
+</span></span><span style="display:flex;"><span>     System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(arbol.<span style="color:#a6e22e">min</span>()); <span style="color:#75715e">// 15</span>
+</span></span></code></pre></div><p>Hay varios problemas con esta implementación, por ejemplo, ¿qué pasa con
+este código?:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>     Tree arbol <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Tree(30, <span style="color:#66d9ef">new</span> Tree(70), <span style="color:#66d9ef">null</span>);
+</span></span></code></pre></div><p>Ups, una NPE! Entonces tenemos que parchar nuestro código de este modo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sum</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span>.<span style="color:#a6e22e">sum</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">left</span>.<span style="color:#a6e22e">sum</span>() <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">right</span>.<span style="color:#a6e22e">sum</span>();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Y así para max y min, pero ¿estamos seguros de que ese código está
+bien?</p>
+<p>Consideren esta solución en Kotlin:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Tree</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">sum</span>() : Int
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">min</span>() : Int
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">max</span>() : Int
+</span></span><span style="display:flex;"><span>     }    
+</span></span><span style="display:flex;"><span>       
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Node</span>(<span style="color:#66d9ef">val</span> value:Int, <span style="color:#66d9ef">val</span> left:Tree, <span style="color:#66d9ef">val</span> right:Tree) : Tree {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">sum</span>() : Int = <span style="color:#66d9ef">value</span> + left.sum() + right.sum()
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">max</span>() : Int = <span style="color:#a6e22e">Math</span>.max(<span style="color:#66d9ef">value</span>, <span style="color:#a6e22e">Math</span>.max(left.max(), right.max()))
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">min</span>() : Int = <span style="color:#a6e22e">Math</span>.min(<span style="color:#66d9ef">value</span>, <span style="color:#a6e22e">Math</span>.min(left.min(), right.min()))
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Leaf</span>(<span style="color:#66d9ef">val</span> value:Int) : Tree {
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">sum</span>() : Int = <span style="color:#66d9ef">value</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">min</span>() : Int = <span style="color:#66d9ef">value</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">max</span>() : Int = <span style="color:#66d9ef">value</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Con esto podemos crear y usar nuestro arbol así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> arbol = Node(<span style="color:#ae81ff">30</span>, Leaf(<span style="color:#ae81ff">70</span>), 
+</span></span><span style="display:flex;"><span>                Node(<span style="color:#ae81ff">15</span>, Node(<span style="color:#ae81ff">42</span>, Leaf(<span style="color:#ae81ff">54</span>), Leaf(<span style="color:#ae81ff">66</span>)), Node(<span style="color:#ae81ff">25</span>, Leaf(<span style="color:#ae81ff">89</span>), Leaf(<span style="color:#ae81ff">72</span>))))
+</span></span><span style="display:flex;"><span>    println (arbol.sum())
+</span></span><span style="display:flex;"><span>    println (arbol.max())
+</span></span><span style="display:flex;"><span>    println (arbol.min())
+</span></span></code></pre></div><p>No sólo el código es más compacto, sino que en Kotlin es imposible que
+podamos introducir un null en un árbol.</p>
+<p>En Kotlin está prohibido tener variables sin inicializar por default.</p>
+<p>Pero a veces es necesario introducir <em>nulls</em> en nuestras estructuras, y
+en ese caso, Kotlin introduce una Syntactic Salt, es decir, sintaxis que
+dificulta escribir cosas peligrosas, o malas prácticas.</p>
+<p>Si quisieramos que nuestros nodos aceptara nulls entonces habría que
+declararlos así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Node</span>(<span style="color:#66d9ef">val</span> value:Int, <span style="color:#66d9ef">val</span> left:Tree?, <span style="color:#66d9ef">val</span> right:Tree?) : Tree 
+</span></span></code></pre></div><p>Y tendríamos que manejar todas las condiciones de borde, ugh!</p>
+<p>Así que Kotlin tiene esa ventaja incorporada y hay que aprovecharla.</p>
+<p>Tony Hoare se lamenta de haber inventado Null al grado de llamarlo
+<a href="//www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare">su error de &ldquo;los mil millones de dólares&rdquo;</a>.
+Esta es una de las causas de mayores errores en nuestro código en Java.
+Kotlin en su modo normal impide eso, si quieres usar nulls debes tener
+bien claro qué estás haciendo y la sintaxis del lenguaje te lo indica en
+todo momento.</p>
+<h3 id="un-bug-sutil">Un bug sutil</h3>
+<p>Pero hay una decisión de diseño en Kotlin que se refleja en un bug
+sutil, pero que me complicó cuando implementé la primera solución al
+desafío.</p>
+<p>El bug se hace evidente en este código:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">main</span>(args:Array&lt;String&gt;) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> list = ArrayList&lt;Int&gt;()
+</span></span><span style="display:flex;"><span>        list.add(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        list.add(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        list.remove(list.size-<span style="color:#ae81ff">1</span>) o remove(int index)
+</span></span><span style="display:flex;"><span>        list.forEachIndexed { i, v <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;list(&#34;</span> + i +<span style="color:#e6db74">&#34;) = &#34;</span>+v)  
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Uno esperaría que se imprimiera sólo uno elemento, pero se imprimen dos!</p>
+<p>¿Por qué pasa esto?</p>
+<p>Porque en Kotlin Int se traduce en el tipo Integer de Java, pero Java
+maneja eso como una clase distinta del tipo nativo int.</p>
+<p>Por desgracia, la clase ArrayList tiene el método remove sobrecargado,
+del siguiente modo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    void remove(int index);
+</span></span><span style="display:flex;"><span>    void remove(Object o);
+</span></span></code></pre></div><p>Cuando pasas un Int en Kotlin el compilador utiliza la versión que
+recibe un objeto.</p>
+<p>Así la llamada list.remove(list.size-1) se traduce como list.remove(new
+Integer(1)), como el número 1 no está en la lista tenemos que no se
+elimina nada de la lista, y no es la intención del programador.</p>
+<p>La solución es usar el método removeAt(), pero en otras situaciones este
+bug se puede dar sin que nos demos cuenta. El compilador de Kotlin
+debería mejorar en este sentido con algún warning.</p>
+<p>A diferencia de Scala, Kotlin construye sus colecciones ampliando las
+disponibles en Java. En Scala las colecciones son distintas, y existe un
+método de interoperar con Java algo más complicado, así que este sutil
+error no se da.</p>
+<h2 id="huffman-coding-en-kotlin">Huffman Coding en Kotlin</h2>
+<p>La ventaja de Kotlin en este ejercicio se muestra en la implementación
+del algoritmo de encoding.</p>
+<p>En esencia el algoritmo para construir el árbol de codificación de
+Huffman es el siguiente:</p>
+<blockquote>
+<ol>
+<li>
+<p>Crear un nodo hoja para cada símbolo, asociando un peso según su
+frecuencia de aparición e insertarlo en la lista ordenada
+ascendentemente.</p>
+</li>
+<li>
+<p>Mientras haya más de un nodo en la lista:</p>
+</li>
+</ol>
+<p>2.1. Eliminar los dos nodos con menor probabilidad de la lista.</p>
+<p>2.2. Crear un nuevo nodo interno que enlace a los nodos anteriores,
+asignándole como peso la suma de los pesos de los nodos hijos.</p>
+<p>2.3. Insertar el nuevo nodo en la lista, (en el lugar que le
+corresponda según el peso).</p>
+<ol start="3">
+<li>El nodo que quede es el nodo raíz del árbol.</li>
+</ol></blockquote>
+<p>Para implementar esto en Kotlin, el árbol se representa así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HuffTree</span>(<span style="color:#66d9ef">val</span> frequency : Int) 
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HuffLeaf</span>(frequency: Int, <span style="color:#66d9ef">val</span> symbol: Char) : HuffTree(frequency) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">symbolIndex</span>() : Int = <span style="color:#f92672">..</span>.
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HuffNode</span>(<span style="color:#66d9ef">val</span> left: HuffTree, <span style="color:#66d9ef">val</span> right: HuffTree)  
+</span></span><span style="display:flex;"><span>            : HuffTree(left.frequency+right.frequency)
+</span></span></code></pre></div><p>Y la construcción del árbol queda así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">buildTree</span>(freqs : IntArray) : HuffTree {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// la lista ordenada la implementamos como un Heap
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">val</span> heap = HuffHeap()
+</span></span><span style="display:flex;"><span>           
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Crea una hoja por cada símbolo con su frecuencia
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        freqs.forEachIndexed { sym, freq <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">if</span> (freq &gt; <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                  heap.insert(HuffLeaf(freq, sym.toChar()))
+</span></span><span style="display:flex;"><span>               }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// mientras haya más de un nodo en la lista
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">while</span> (heap.size() &gt; <span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> a = heap.extract()
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">val</span> b = heap.extract()
+</span></span><span style="display:flex;"><span>      heap.insert(HuffNode(a, b))
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> heap.extract()
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Si bien esto queda muy elegante, la implementación del Heap requiere que
+usemos un arreglo donde pueden haber nulls, y acá es donde aparecen las
+syntactic salt que mencionamos anteriormente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HuffHeap</span> {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">var</span> heap = arrayOfNulls&lt;HuffTree&gt;(maxSymbols+<span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">var</span> last = <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">insert</span>(tree:HuffTree) {
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">if</span> (full()) {
+</span></span><span style="display:flex;"><span>                   <span style="color:#66d9ef">throw</span> ArrayIndexOutOfBoundsException()
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>               last<span style="color:#f92672">++</span>
+</span></span><span style="display:flex;"><span>              heap[last] = tree
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">var</span> j = last
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">while</span> (j &gt; <span style="color:#ae81ff">1</span>){
+</span></span><span style="display:flex;"><span>                   <span style="color:#66d9ef">if</span> (heap[j]<span style="color:#f92672">!!</span>.frequency &lt; heap[j/<span style="color:#ae81ff">2</span>]<span style="color:#f92672">!!</span>.frequency) {
+</span></span><span style="display:flex;"><span>                       <span style="color:#66d9ef">val</span> tmp = heap[j]<span style="color:#f92672">!!</span>
+</span></span><span style="display:flex;"><span>                     heap[j] = heap[j / <span style="color:#ae81ff">2</span>]<span style="color:#f92672">!!</span>
+</span></span><span style="display:flex;"><span>                     heap[j / <span style="color:#ae81ff">2</span>] = tmp
+</span></span><span style="display:flex;"><span>                   }
+</span></span><span style="display:flex;"><span>                   j <span style="color:#f92672">/=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>           }
+</span></span><span style="display:flex;"><span>           <span style="color:#f92672">....</span>
+</span></span></code></pre></div><p>al declarar heap como arrayOfNulls, obtenemos un arreglo de tipo
+Array&lt;HuffTree?&gt;.</p>
+<p>Esto quiere decir que cada elemento del arreglo puede contener una
+referencia a un HuffTree y esta puede ser null.</p>
+<p>De ahí que tengamos que hacer <code>heap[j\]!!.frequency</code> para acceder a la
+frecuencia de un elemento del Heap.</p>
+<p>Por construcción y si está bien implementado el TDA Heap, no hay modo de
+que <code>heap[j]</code> sea null, así que la sintaxis !! nos dice que es seguro
+usar ese valor y que no es un null.</p>
+<p>Otra ventaja de Kotlin, y esto sí es un Syntactic Sugar, es que después
+de evaluar por un tipo podemos eliminar los engorrosos type casting de
+java, esto se ve en la función buildCodes()</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">buildCodes</span>(tree : HuffTree, codes: Array&lt;String&gt;, prefix : StringBuffer) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">when</span> (tree) {
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">is</span> HuffLeaf <span style="color:#f92672">-&gt;</span> codes[tree.symbolIndex()] = prefix.toString()
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">is</span> HuffNode <span style="color:#f92672">-&gt;</span> { <span style="color:#f92672">..</span>. }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div><p>Acá usamos la estructura de control when, que es una especia de switch,
+pero más poderoso, en este caso validamos el tipo de tree. Noten que si
+sabemos que tree es una HuffLeaf podemos invocar al método symbolIndex()
+que sólo existe en esa clase.</p>
+<p>Esto ocurre en Swift, pero la verdad es que Swift parece haber tomado
+esta característica de Kotlin.</p>
+<p>El código completo está en <a href="//github.com/lnds/9d9l/tree/master/desafio4">mi repositorio en GitHub.</a>
+Hice dos implementaciones, una más orientada al objeto que la otra.</p>
+<p>La diferencia del enfoque está expresada en estos dos fragmentos de
+código que implementan la misma función:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#75715e">// función decompress versión 1
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>       <span style="color:#66d9ef">fun</span>  <span style="color:#a6e22e">decompress</span>(inputFile: String, outputFile: String) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> input = BitInputStream(BufferedInputStream(FileInputStream(inputFile)))
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">val</span> output = BitOutputStream(BufferedOutputStream(FileOutputStream(outputFile)))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> huffTree = readTree(input)
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">val</span> length = input.readInt()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">0.</span>.length-<span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">var</span> node = huffTree
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">while</span> (node <span style="color:#66d9ef">is</span> HuffNode) {
+</span></span><span style="display:flex;"><span>                  <span style="color:#66d9ef">val</span> bit = input.readBoolean()
+</span></span><span style="display:flex;"><span>                   node = <span style="color:#66d9ef">if</span> (bit) node.right <span style="color:#66d9ef">else</span> node.left
+</span></span><span style="display:flex;"><span>               }
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">if</span> (node <span style="color:#66d9ef">is</span> HuffLeaf)
+</span></span><span style="display:flex;"><span>                   output.write(node.symbol)
+</span></span><span style="display:flex;"><span>           }
+</span></span><span style="display:flex;"><span>           output.close()
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// función decompress versión 2
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">fun</span>  <span style="color:#a6e22e">decompress</span>(inputFile: String, outputFile: String) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> input = BitInputStream(BufferedInputStream(FileInputStream(inputFile)))
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">val</span> output = BitOutputStream(BufferedOutputStream(FileOutputStream(outputFile)))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> huffTree = readTree(input)
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">val</span> length = input.readInt()
+</span></span><span style="display:flex;"><span>            (<span style="color:#ae81ff">0.</span>.length-<span style="color:#ae81ff">1</span>).forEach { output.write(huffTree.readChar(input)) }
+</span></span><span style="display:flex;"><span>            output.close()
+</span></span><span style="display:flex;"><span>      }
+</span></span></code></pre></div><p>En la versión 2 la case HuffTree se comporta cómo dicta el paradigma
+orientado al objeto y cada clase que la implementa sabe como comportarse
+según el contexto en que opera, esto es lo que se conoce como
+polimorfismo.</p>
+<p>La gran diferencia es que HuffTree se declara de este modo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HuffTree</span>(<span style="color:#66d9ef">val</span> frequency : Int) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">writeTo</span>(output: BitOutputStream)
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">dumpCodes</span>(codes: Array&lt;String&gt;, prefix : StringBuffer)
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">readChar</span>(input: BitInputStream) : Char
+</span></span><span style="display:flex;"><span>     }
+</span></span></code></pre></div><p>Y para entender decompress hay que considerar que en HuffNode la función
+readChar se implementa así</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>      <span style="color:#75715e">// implementación en HuffNode
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>       <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">readChar</span>(input: BitInputStream) : Char {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">val</span> bit = input.readBoolean()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">if</span> (bit) right.readChar(input) <span style="color:#66d9ef">else</span> left.readChar(input)
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div><p>En cambio en HuffLeaf...</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>        <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">readChar</span>(input: BitInputStream) : Char {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.symbol
+</span></span><span style="display:flex;"><span>        }
+</span></span></code></pre></div><p>Todo esto para mostrarle que si bien Kotlin tiene el operador is, y when
+y que elimina cast, hay formas más adecuadas de desarrollar esto, o de
+lo contrario su código se transforma en una enorme secuencia de ifs o
+whens realizando type casting implícitos.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Kotlin es un lenguaje muy práctico, permite escribir código bastante
+compacto y expresivo. Muchas de sus construcciones además permiten
+escribir código más seguro. En Scala hay cosas similares, pero requieren
+más verbosidad (estoy pensando en los Options para evitar los nulls),
+pero esto es algo que vamos a discutir en el segudo artículo de esta
+serie.</p>
+<p>Tiene estructuras que permiten ahorra typecasting y que permite ejecutar
+sentencias según el tipo de datos que ser recibe, pero esto puede llevar
+a malos hábitos de programación, siempre que sea posible usen el
+paradigma orientado a objetos adecuadamente, y eso pasa por usar
+polimorfismo.</p>
+<p>Kotlin es un lenguaje moderno, entretenido, fácil de aprender, con la
+dosis adecuada de Sal y Azucar sintáctico se puede desarrollar casi
+cualquier cosa. Pero al igual que ocurre con la sal y azucar en nuestro
+alimentos, el abuso puede causar serios problemas de salud, así que
+úsenlo con moderación.</p>
+<p>Todo el código que acompaña a este artículo se encuentra en
+Github: <a href="https://github.com/lnds/9d9l/tree/master/desafio4">https://github.com/lnds/9d9l/tree/master/desafio4</a></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2812 words</span>
+    <span>18 - 23 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#kotlin">Kotlin</a></li>
+    <li><a href="#syntactic-sugar">Syntactic Sugar</a></li>
+    <li><a href="#el-cuarto-desafío">El cuarto desafío</a></li>
+    <li><a href="#volvamos-a-kotlin">Volvamos a Kotlin</a>
+      <ul>
+        <li><a href="#un-bug-sutil">Un bug sutil</a></li>
+      </ul>
+    </li>
+    <li><a href="#huffman-coding-en-kotlin">Huffman Coding en Kotlin</a></li>
+    <li><a href="#conclusión">Conclusión</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2017/pour-some-syntactic-sugar-on-me/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2016/como-obtener-el-reporte-del-clima/">Cómo obtener el reporte del clima</a></li><li><a href="/posts/2016/chubascos-de-ligera-intensidad/">Chubascos de ligera intensidad</a></li><li><a href="/posts/2016/reporte-del-clima/">Reporte del Clima</a></li><li><a href="/posts/2017/fake-it-till-you-make-it/">Fake it till you make it</a></li><li><a href="/posts/2017/vectores/">Vectores</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

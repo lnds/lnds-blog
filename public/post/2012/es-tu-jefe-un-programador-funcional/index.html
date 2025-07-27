@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>¿Es tu jefe un programador funcional? | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2012/es-tu-jefe-un-programador-funcional/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="¿Es tu jefe un programador funcional?">
+  <meta property="og:description" content="Probablemente tu jefe, y mi jefe, sin ser informáticos, ni programadores o ingenieros de software, sean mejores programadores funcionales que tu mismo, claro, porque es probable que ellos utilicen uno de los lenguajes funcionales más populares que existen: Excel.
+Sí, Excel, ese que usan muchos de tus colegas no informáticos, soporta perfectamente el paradigma funcional.
+Primero en Excel tienes valores, números, o a veces textos, que colocas en celdas. Por ejemplo, puedes colocar en la celda A1 el valor 2, y en la celda A2 el valor 3.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2012-11-21T12:25:11-03:00">
+    <meta property="article:modified_time" content="2012-11-21T12:25:11-03:00">
+    <meta property="article:tag" content="Programación Funcional">
+    <meta property="article:tag" content="Excel">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="¿Es tu jefe un programador funcional?">
+  <meta name="twitter:description" content="Probablemente tu jefe, y mi jefe, sin ser informáticos, ni programadores o ingenieros de software, sean mejores programadores funcionales que tu mismo, claro, porque es probable que ellos utilicen uno de los lenguajes funcionales más populares que existen: Excel.
+Sí, Excel, ese que usan muchos de tus colegas no informáticos, soporta perfectamente el paradigma funcional.
+Primero en Excel tienes valores, números, o a veces textos, que colocas en celdas. Por ejemplo, puedes colocar en la celda A1 el valor 2, y en la celda A2 el valor 3.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>¿Es tu jefe un programador funcional?</h1><time class="dim" datetime="2012-11-21T12:25:11-03:00">November 21, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n-funcional/">#programación funcional</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/excel/">#excel</a>
+      </div></ol></div>
+  <section class="page-section"><p>Probablemente tu jefe, y mi jefe, sin ser informáticos, ni programadores
+o ingenieros de software, sean mejores programadores funcionales que tu
+mismo, claro, porque es probable que ellos utilicen uno de los lenguajes
+funcionales más populares que existen: Excel.</p>
+<p>Sí, Excel, ese que usan muchos de tus colegas no informáticos, soporta
+perfectamente el paradigma funcional.</p>
+<p>Primero en Excel tienes <strong>valores</strong>, números, o a veces textos, que
+colocas en celdas. Por ejemplo, puedes colocar en la celda A1 el valor
+2, y en la celda A2 el valor 3.</p>
+<p>Después tienes <strong>funciones</strong>, u operaciones que trabajan sobre valores
+que se encuentran en una celda, por ejemplo, puedes definir que el valor
+de la celda A3 se calcula como A3 = A1 * A2. Excel te mostrará el valor
+de aplicar esta operación a los valores disponibles en ese momento en
+las celdas A1 y A2, en nuestro caso se verá en A3 el número 6.</p>
+<figure><img src="/post/2012/es-tu-jefe-un-programador-funcional/Captura-de-pantalla-2012-11-21-a-las-20.54.00.png"
+    alt="Definiendo el valor de una celda en función de otras dos"><figcaption>
+      <p>Definiendo el valor de una celda en función de otras dos</p>
+    </figcaption>
+</figure>
+
+<p>Lo &quot;<em>interesante&quot;</em> es que esta operación  no cambia el valor de las
+celdas que son usadas como **argumentos. <em>*Esto quiere decir que en
+Excel no hay *<em>efectos laterales</em></em>, el resultado de la función sólo
+afecta a aquellos que usen el resultado, pero no a los argumentos de
+entrada.</p>
+<p>Veamos que pasa si agregamos otras ecuaciones a nuestra planilla,
+haciendo que unos valores dependan de resultados previos.</p>
+<p>Por ejemplo: A4=A1+2, B3=A2<em>A2, B4=A1-A2, C3 = B3-B4, C4 = B3</em>B4.</p>
+<p>Excel nos permte ver las dependencias de esta secuencia de cálculos:</p>
+<figure><img src="/post/2012/es-tu-jefe-un-programador-funcional/Captura-de-pantalla-2012-11-21-a-las-21.03.11.png"
+    alt="Dependencias entre las celdas"><figcaption>
+      <p>Dependencias entre las celdas</p>
+    </figcaption>
+</figure>
+
+<p>Decimos que el orden de evaluación está dado por las dependencias de los
+datos.</p>
+<p>Otra cosa interesante es que dados los mismos valores de entrada el
+resultado final no cambia, en nuestro caso, si A1 contiene el valor 1, y
+A2 contiene el valor 2, entonces la celda C4 siempre tendrá el valor -4,
+<em>no hay sorpresas</em>, el valor de la celda C4 depende sólo de los
+argumentos de entrada y la secuencia de cálculos intermedios.</p>
+<p>Consideren la siguiente función en C:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">calc</span>(<span style="color:#66d9ef">int</span> x, <span style="color:#66d9ef">int</span> y) { 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> z <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    z <span style="color:#f92672">=</span> z <span style="color:#f92672">+</span> x <span style="color:#f92672">*</span> y;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> z;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Si invocamos esta función la primera vez con los valores 1 y 2, el
+resultado será 2, pero si lo invocamos por segunda vez, con los
+argumentos 2 y 3, el resultado será 8, si la invocamos por tercera vez,
+con los valores 1 y 2, ¡el resultado será 10!</p>
+<p>Esto pasa porque C permite efectos laterales, en particular al declarar
+la variable z como static hace que ese valor se mantenga a lo largo de
+cada invocación a la función.</p>
+<p>Los lenguajes de programación funcional prohiben esta opción, no pueden
+haber efectos laterales como estos, el resultado de la función solo debe
+ser el mismo para los mismos argumentos de entrada.</p>
+<p>Ahora bien, excel, usada a este nivel, junto con algunas funciones pre
+definidas, opera como lenguaje funcional, pero no todo excel es
+funcional, por ejemplo, cuando se usan macros, o se crean funciones con
+lenguajes de extensión en VBA u otros lenguajes (como C#).</p>
+<p>Pero la mayor parte de los usuarios la usan a este nivel, y sin darse
+cuenta, programan usando el paradigma funcional.</p>
+<p>Las propiedades más importantes de la programación funcional están
+disponibles en Excel a nivel básico. Lo demás, todo lo complicado, que
+asusta a tantos programadores, como los combinadores, la monadas, el
+currying,  las reducciones, el lambda cálculus, etc, son temas más
+avanzados, que a pesar de sus nombres intimidantes, y de la costumbre de
+la comunidad funcional de &quot;hablar en difícil&quot;, son temas perfectamente
+abordables por cualquier programador.</p>
+<p>Pero si nunca te has animado a aprender la programación funcional,
+quizás es hora de que abras una planilla de cálculo y empieces a jugar
+con ella, verás que es muy iluminador.</p>
+<p>Te propongo los siguientes ejercicios:</p>
+<ul>
+<li>
+<p>Calcula la <a href="http://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci">sucesión de
+Fibonacci</a>
+en Excel</p>
+</li>
+<li>
+<p>¿Es posible crear funciones recursivas en Excel? (sin usar VB  o
+algún lenguaje de programación para &quot;extender&quot; excel).</p>
+</li>
+</ul>
+<p>(Este post <a href="https://www.programando.org/blog/2012/11/22/tu-jefe-es-un-programador-funcional.html">está disponible también en La Sombra de
+Dijkstra</a>)</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>677 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2012/es-tu-jefe-un-programador-funcional/Captura-de-pantalla-2012-11-21-a-las-20.54.00.png">Captura-de-pantalla-2012-11-21-a-las-20.54.00.png</a></li><li><a href="http://localhost:1313/post/2012/es-tu-jefe-un-programador-funcional/Captura-de-pantalla-2012-11-21-a-las-21.03.11.png">Captura-de-pantalla-2012-11-21-a-las-21.03.11.png</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

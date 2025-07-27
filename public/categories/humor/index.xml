@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humor on La Naturaleza del Software</title>
+    <link>http://localhost:1313/categories/humor/</link>
+    <description>Recent content in Humor on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 16 Oct 2009 11:05:34 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/humor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paradoja</title>
+      <link>http://localhost:1313/posts/2009/paradoja/</link>
+      <pubDate>Fri, 16 Oct 2009 11:05:34 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/paradoja/</guid>
+      <description>&lt;p&gt;Lo malo es que hay algunos &lt;a href=&#34;http://etimologias.dechile.net/?esce.ptico&#34;&gt;escépticos &lt;/a&gt;que quieren buscar soluciones de este tipo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;llameya.png&#34; alt=&#34;llameya.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tomado de &lt;a href=&#34;http://lapulgasnob.blogspot.com/2009/10/llame-ya.html&#34;&gt;la pulga snob&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convenciones de codificación</title>
+      <link>http://localhost:1313/posts/2009/convenciones-de-codificacion/</link>
+      <pubDate>Wed, 14 Oct 2009 13:23:44 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/convenciones-de-codificacion/</guid>
+      <description>&lt;p&gt;Hay convenciones que no aportan, lo que importa es ser coherente, y si adoptas una convención de código mantenerla, pero sin exagerar. No existe la convención perfecta.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;codingconventions.jpg&#34; alt=&#34;codingconventions.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tomado de &lt;a href=&#34;http://geekandpoke.typepad.com/geekandpoke/2009/10/geekpoke-celebrates-part-1.html&#34;&gt;Geek and Poke&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las aventuras de la primera programadora</title>
+      <link>http://localhost:1313/posts/2009/las-aventuras-de-la-primera-programadora/</link>
+      <pubDate>Tue, 06 Oct 2009 00:25:50 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/las-aventuras-de-la-primera-programadora/</guid>
+      <description>&lt;p&gt;Sydney Padua respondió al llamado del &lt;a href=&#34;http://www.lnds.net/2009/03/mujeres-en-tecnologia-el-dia-de-ada-love.html&#34;&gt;Día de Ada Lovelace&lt;/a&gt; con una caricatura, la que posteriormente convirtió en una serie (en progreso) titulada &lt;a href=&#34;http://sydneypadua.com/2dgoggles/&#34;&gt;Las Emocionantes Aventuras de Lovelace y Babbage&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;adacut.png&#34; alt=&#34;adacut.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Traduje &lt;a href=&#34;http://www.dcc8090.cl/blog/2009/10/05/la-primera-programadora/&#34;&gt;la primera historieta, El Origen&lt;/a&gt;, para el blog de dcc8090, &lt;a href=&#34;http://www.dcc8090.cl/blog/&#34;&gt;La Cajita Feliz&lt;/a&gt;, les dejo el &lt;a href=&#34;http://www.dcc8090.cl/blog/2009/10/05/la-primera-programadora/&#34;&gt;link&lt;/a&gt;, que lo disfruten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Si tan sólo el 1%...</title>
+      <link>http://localhost:1313/posts/2009/si-tan-solo-el-1/</link>
+      <pubDate>Sun, 04 Oct 2009 21:45:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/si-tan-solo-el-1/</guid>
+      <description>&lt;p&gt;Un músico compró un anuncio de un cuarto de página para una revista con circulación de un millón de ejemplares:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;El músico preparó 10.000 copias de su CD anticpándose a las 10.000 órdenes que él estaba seguro que llegaría esa semana.&lt;/p&gt;&#xA;&lt;p&gt;Repetía constantemente: &amp;ldquo;&lt;strong&gt;si sólo un uno por ciento de la gente que lee la revista compra mi CD.. ¡eso serán 10.000 copias! ¡Y eso es sólo el uno por ciento!&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Arte de Programar</title>
+      <link>http://localhost:1313/posts/2009/el-arte-de-programar/</link>
+      <pubDate>Thu, 01 Oct 2009 22:21:45 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-arte-de-programar/</guid>
+      <description>&lt;p&gt;(En mi opinión hay lenguajes de programación que permiten ser más expresivos ;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;artofprogramming.jpg&#34; alt=&#34;artofprogramming.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;El arte de la programación&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;No entiendo tu código. ¿Para qué son esas lineas?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Expresan mis sentimientos internos&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Los programadores son artistas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://geekandpoke.typepad.com/geekandpoke/2009/09/the-art-of-programming.html&#34;&gt;Tomado de Geek and Poke&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recursividad</title>
+      <link>http://localhost:1313/posts/2009/recursividad/</link>
+      <pubDate>Tue, 05 May 2009 23:40:59 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/recursividad/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;To iterate is human, to recurse divine.&lt;br&gt;&#xA;&amp;ndash; anónimo&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Recursividad: vease recursividad.&lt;br&gt;&#xA;&amp;ndash; definición&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Prueben descomprimiento este &lt;a href=&#34;http://steike.com/code/useless/zip-file-quine/droste.zip&#34;&gt;archivo zip&lt;/a&gt; (&lt;a href=&#34;http://steike.com/code/useless/zip-file-quine/&#34;&gt;acá hay un tip&lt;/a&gt; de como construir uno de estos zip recursivos).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Droste.jpeg&#34; alt=&#34;Droste.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;¿Alguien recuerda el envase de Klenso? Recursivo también.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;klenzo.jpeg&#34; alt=&#34;klenso en polvo1.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://dubo.cl/genial/&#34;&gt;Dubó publica&lt;/a&gt; otro ejemplo recursivo (aunque un tanto mareador) de recursividad.&lt;/p&gt;&#xA;&lt;p&gt;En español lo correcto es decir recurrencia, en vez de recursividad.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://twitter.com/hdur&#34;&gt;@hdur&lt;/a&gt; me recuerda el tarro de Royal:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡No voy a arreglar tu PC!</title>
+      <link>http://localhost:1313/posts/2009/%c2%a1no-voy-a-arreglar-tu-pc/</link>
+      <pubDate>Sun, 19 Apr 2009 12:24:18 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/%c2%a1no-voy-a-arreglar-tu-pc/</guid>
+      <description>&lt;p&gt;El problema &lt;a href=&#34;http://blog.maz.cl/2009/04/no-soy-soporte-tecnico.html&#34;&gt;que plantea MAZ&lt;/a&gt; es eterno:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;En medio de un buen asado, aparece la pregunta fatal: &amp;ldquo;Oye Maz. Aprovechando que estás acá y que eres computín, ¿no podrías echarle un vistazo al computador de la casa, que está un poco lento?&amp;rdquo;. Horror.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Tanto que hasta &lt;a href=&#34;http://www.caravantes.com/humor/pringao.htm&#34;&gt;existe un HOWTO&lt;/a&gt; de cómo hacerte de un computin que te arregle siempre el PC:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;En este documento veremos qué es un pringao, es decir, alguien que le compra, instala o arregla un ordenador a un familiar, conocido o amigo sin cobrar, y que a partir de ese momento se convierte en un esclavo dedicado a mantener de por vida el equipo de aquel a quien ayudó (en teoría de forma puntual) desinteresadamente. Además este equipo lleva Windows (casi siempre) y es una cuna de problemas, dolores de cabeza y pérdidas de tiempo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crisis, Colusiones y las Reglas de Adquisición</title>
+      <link>http://localhost:1313/posts/2009/crisis-colusiones-y-las-reglas-de-adquisicion/</link>
+      <pubDate>Sun, 05 Apr 2009 12:08:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/crisis-colusiones-y-las-reglas-de-adquisicion/</guid>
+      <description>&lt;p&gt;Me parece que es pertinente en estos momentos recordar a una raza de personajes de las series de viajes a las estrellas (Star Trek), &amp;ldquo;más interesantes&amp;rdquo;. Me refiero a los &lt;a href=&#34;http://memory-alpha.org/es/wiki/Ferengi&#34;&gt;Ferengi&lt;/a&gt;, unos hipercapitalistas, codiciosos y cobardes, famosos por sus &amp;ldquo;&lt;a href=&#34;http://memory-alpha.org/es/wiki/Reglas_de_adquisici%C3%B3n&#34;&gt;reglas de adquisición&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Es bueno conocer el contenido de las reglas de adquisición, porque tengo la sospecha de que los Ferengi han establecido una colonia en nuestro planeta, y parecen operar tras las fachadas de cadenas farmaceuticas, supermercados y en las bolsas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las Leyes de &#34;Sistemántica&#34;</title>
+      <link>http://localhost:1313/posts/2009/las-leyes-de-sistemantica/</link>
+      <pubDate>Fri, 03 Apr 2009 23:00:42 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/las-leyes-de-sistemantica/</guid>
+      <description>&lt;p&gt;Por John Gall (*)&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Escenario Primordial o Dato Básico de la Experiencia: los sistemas en general funcionan pobremente o no funcionan para nada. (Los sistemas complicados por si mismos apenas alcanza un cinco por ciento de eficiencia)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Teorema Fundamental: Los nuevos sistemas generan nuevos problemas.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ley de Conservación de la &amp;ldquo;Anergía&amp;rdquo;: la cantidad total de anergía en el universo es constante (&amp;ldquo;Anergía&amp;rdquo; = &amp;ldquo;energía humana&amp;rdquo;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Leyes del crecimiento: los sistemas tienden a crecer, y a medida que crecen, invaden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una duda</title>
+      <link>http://localhost:1313/posts/2009/una-duda/</link>
+      <pubDate>Sun, 29 Mar 2009 22:54:56 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/una-duda/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;papacondon.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A esto me refiero cuando digo que &lt;a href=&#34;http://localhost:1313/2009/02/ignorancia-perpetua.html&#34;&gt;la ignorancia sólo sabe perpetuarse&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://elchistedemel.blogspot.com/2009/03/la-gran-duda.html&#34;&gt;Viñeta creada por MEL&lt;/a&gt;, al que llegamos gracias a &lt;a href=&#34;http://blogs.elcorreodigital.com/magonia/2009/3/24/el-autobus-creyente-espanol-pagamos-todos&#34;&gt;este post&lt;/a&gt; de &lt;a href=&#34;http://blogs.elcorreodigital.com/magonia/posts&#34;&gt;Magonia&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Por qué no uso productos Apple</title>
+      <link>http://localhost:1313/posts/2009/por-que-no-uso-productos-apple/</link>
+      <pubDate>Sun, 22 Mar 2009 15:26:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/por-que-no-uso-productos-apple/</guid>
+      <description>&lt;p&gt;Siempre que veo los hermosos productos Apple, hay una parte de mi, que prudentemente me recuerda que no es bueno comprar esos productos, y se me pasa.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;copypaste.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Imagen tomada de &lt;a href=&#34;http://geekandpoke.typepad.com/geekandpoke/2009/03/priorities.html&#34;&gt;geek and poke&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Divulgación</title>
+      <link>http://localhost:1313/posts/2009/divulgacion/</link>
+      <pubDate>Mon, 23 Feb 2009 08:13:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/divulgacion/</guid>
+      <description>&lt;p&gt;Me gustó esta viñeta, de &lt;a href=&#34;http://lapulgasnob.blogspot.com/&#34;&gt;la pulga esnob&lt;/a&gt;, que explica muy bien lo que pasa con mucho periodismo de divulgación:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;divulgacionoa1.png&#34; alt=&#34;divulgaciono1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(les recomiendo &lt;a href=&#34;http://lapulgasnob.blogspot.com/&#34;&gt;la pulga esbob&lt;/a&gt;, está muy bueno)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desvincular</title>
+      <link>http://localhost:1313/posts/2009/desvincular/</link>
+      <pubDate>Fri, 06 Feb 2009 19:03:33 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/desvincular/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.rae2.es/desvincular&#34;&gt;Según la RAE&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;desvincular&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; tr. Anular un vínculo, liberando lo que estaba sujeto a él, especialmente bienes.&lt;/p&gt;&#xA;&lt;p&gt;En programación&lt;/p&gt;&#xA;&lt;p&gt;Cuando tenemos una estructura de datos, como la siguiente:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;class Link  &#xA;{  &#xA;    T data;  &#xA;    Link prior;  &#xA;    Link next;  &#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;entonces desvincular sería lo siguiente:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;void desvincular(Link link)  &#xA;{  &#xA;    link.prior = null;   &#xA;    link.next = null;  &#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;En Chile&lt;/p&gt;&#xA;&lt;p&gt;En los noticiarios desvincular significa otra cosa, es un eufemismo para decir &lt;a href=&#34;http://www.rae2.es/despedir&#34;&gt;despedir&lt;/a&gt;, &lt;a href=&#34;http://www.rae2.es/cesar&#34;&gt;cesar&lt;/a&gt;, &lt;a href=&#34;http://www.rae2.es/echar&#34;&gt;echar&lt;/a&gt;,  dejar sin empleo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stupid programmer exception</title>
+      <link>http://localhost:1313/posts/2009/stupid-programmer-exception/</link>
+      <pubDate>Fri, 06 Feb 2009 00:22:38 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/stupid-programmer-exception/</guid>
+      <description>&lt;p&gt;Hay veces que un stack trace se puede reducir simplemente a esto:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;**2009**-02-05 22:30:59 &amp;#34;Stupid programmer exception&amp;#34;   &#xA;(TID:0xebc981e0, sys_thread_t:0x26bb0, state:CW) prio=5   &#xA;at java.lang.Object.wait(Native Method)....    &#xA;at java.lang.Object.wait(Object.java:424) .....   &#xA;....   &#xA;at StupidProgram.main(StupidProgram.java:33)   &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Change programmer and try again :p&lt;/p&gt;&#xA;&lt;p&gt;(no, no está dedicado a nadie con quien esté trabajando en este momento, afortunadamante)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El abrazo de Sheldon</title>
+      <link>http://localhost:1313/posts/2009/el-abrazo-de-sheldon/</link>
+      <pubDate>Sun, 11 Jan 2009 11:13:28 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-abrazo-de-sheldon/</guid>
+      <description>&lt;p&gt;es por esto que me gusta tanto Big Bang Theory:&lt;/p&gt;&#xA;&lt;p&gt;Un intento de traducción:&lt;/p&gt;&#xA;&lt;p&gt;[00:05]&lt;br&gt;&#xA;Penny: Feliz Navidad&lt;br&gt;&#xA;Leonard: Feliz Navidad.&lt;br&gt;&#xA;Penny: Cómo está tu pierna.&lt;br&gt;&#xA;Leonard: Muy bién, gracias por preguntar.&lt;/p&gt;&#xA;&lt;p&gt;[00:11]&lt;br&gt;&#xA;Sheldon: ¡Oh, bien Penny! Acá estás para intercambiar regalos.&lt;br&gt;&#xA;Sheldon: Estarás agradecida de saber que estoy preparado para cualquier cosa que tengas para ofrecer.&lt;br&gt;&#xA;Penny: OK, toma.&lt;/p&gt;&#xA;&lt;p&gt;[00:28]&lt;br&gt;&#xA;Sheldon: Debo hacer notar que estoy teniendo un cierto malestar digestivo. Así que no te alarmes si me excuso abruptamente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía geek, para contratar a geeks</title>
+      <link>http://localhost:1313/posts/2008/guia-geek-para-contratar-a-geeks/</link>
+      <pubDate>Mon, 01 Dec 2008 21:13:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/guia-geek-para-contratar-a-geeks/</guid>
+      <description>&lt;p&gt;maginen por un momento que estos cuatro geeks son todos informáticos, ¿a quien contratarían ustedes?&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;tbbt.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;OK, los personajes de &lt;a href=&#34;http://en.wikipedia.org/wiki/The_Big_Bang_Theory&#34;&gt;The Big Bang Theory&lt;/a&gt; son caricaturas, porque nadie es tán geek, ¿cierto?&lt;/p&gt;&#xA;&lt;p&gt;Pero bueno, sigamos con el juego, la idea de este apunte es ser una especie de guía ilustrada a &lt;a href=&#34;http://localhost:1313/2008/11/ensimismados.html&#34;&gt;mi post anterior&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Veamos el primer candidato: Rajesh Koothappali.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;rajesh.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hay una razón para sentirme identificado con Rajesh, la que es bastante obvia para el lector frecuente de este blog: el número 42 de su gorra, cuando vi la primera vez que la uso no pude dejar de sonreir. Supongo que todos entienden el chiste de esa gorra, ¿no?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moraleja</title>
+      <link>http://localhost:1313/posts/2008/moraleja/</link>
+      <pubDate>Sun, 03 Aug 2008 01:17:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/moraleja/</guid>
+      <description>&lt;p&gt;Bien, parece que hay una traducción semi &lt;a href=&#34;https://es.xkcd.com/xkcd-es/&#34;&gt;oficial de XKCD al español&lt;/a&gt; (como lo hablan en Ezpaña, ostias tío), pero se agradece, porque nos ahorra trabajo a futuro, acá esta la tira sobre linux que &lt;a href=&#34;https://www.lnds.net/2008/07/linux_una_historia_real.html&#34;&gt;publiqué el otro día&lt;/a&gt; , en un formato más adecuado:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lnds.net/blog/wp-content/uploads/2010/09/cautionary.png&#34;&gt;&lt;img src=&#34;https://www.lnds.net/blog/wp-content/uploads/2010/09/cautionary.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>42</title>
+      <link>http://localhost:1313/posts/2008/42/</link>
+      <pubDate>Sun, 06 Jul 2008 23:41:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/42/</guid>
+      <description>&lt;p&gt;Este año cumpliré 42 años, y 42 es un &amp;ldquo;número extraordinario&amp;rdquo;, como todos saben (o deberían saber), 42 es es &lt;a href=&#34;http://localhost:1313/2006/10/resolviendo_problemas_2.html&#34;&gt;la respuesta a la pregunta sobre el sentido de la vida, el universo y todo lo demás&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Así que me voy a permitir practicar un poco la &lt;a href=&#34;http://es.wikipedia.org/wiki/Apofenia&#34;&gt;apofenia&lt;/a&gt; durante estos meses que quedan para llegar a mi cumpleaños, sólo por que es entretenido, no porque esté volviendome loco, o me rinda ante el anumerismo, así que no se preocupen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versión 2.0</title>
+      <link>http://localhost:1313/posts/2008/version-2-0/</link>
+      <pubDate>Thu, 05 Jun 2008 21:41:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/version-2-0/</guid>
+      <description>&lt;p&gt;Esta es la versión 2.0 de un viejo chiste sobre internet:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;2007-06-24-cyberdog2.gif&#34; alt=&#34;2007-06-24-cyberdog2.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El texto dice: &lt;strong&gt;&amp;ldquo;En facebook, 273 personas saben que soy un perro. El resto sólo vé mi perfil limitado&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Killer Tux</title>
+      <link>http://localhost:1313/posts/2008/killer-tux/</link>
+      <pubDate>Wed, 28 May 2008 16:28:41 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/killer-tux/</guid>
+      <description>&lt;p&gt;Los fans de Linux disfrutarán de este video:&lt;/p&gt;&#xA;&lt;p&gt;Via &lt;a href=&#34;http://www.tecnologiaslibres.net/2008/05/26/video-linux-tux-vs-windows/&#34;&gt;Tecnologías Libres&lt;/a&gt;, gracias a Marcelo Letelier por enviarme el enlace.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>30 Años de SPAM</title>
+      <link>http://localhost:1313/posts/2008/30-anos-de-spam/</link>
+      <pubDate>Thu, 01 May 2008 20:40:04 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/30-anos-de-spam/</guid>
+      <description>&lt;p&gt;El SPAM cumple 30 años hoy, primero de mayo.&lt;br&gt;&#xA;La fecha tiene que ver con el hecho de que el primer SPAM conocido fue enviado el 1 de mayo de 1978.&lt;/p&gt;&#xA;&lt;p&gt;El &lt;a href=&#34;http://www.templetons.com/brad/spamreact.html&#34;&gt;primer spam&lt;/a&gt; fue enviado usando SNDMSG, un programa que tenía un espacio limitado para ingresar las direcciones TO y CC, además del Asunto (Subject). Como la persona que lo envió no estaba entrenado en el uso de SNDMSG empezó a escribir direcciones sobrepasando el area para los destinatarios y terminó escribiendo muchas direcciones en el cuerpo del mensaje, así que muchos de los destinatarios en realidad no recibieron el mensaje.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El pequeño fan oriental de los Beatles</title>
+      <link>http://localhost:1313/posts/2008/el-pequeno-fan-oriental-de-los-beatles/</link>
+      <pubDate>Fri, 25 Apr 2008 22:31:53 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/el-pequeno-fan-oriental-de-los-beatles/</guid>
+      <description>&lt;p&gt;Les dejo este video de este pequeñin, fanático de los beatles:&lt;/p&gt;&#xA;&lt;p&gt;Via &lt;a href=&#34;http://www.d3ne.net/?p=7&#34;&gt;D3NE&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bloguear con los pies</title>
+      <link>http://localhost:1313/posts/2008/bloguear-con-los-pies/</link>
+      <pubDate>Tue, 12 Feb 2008 10:31:57 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/bloguear-con-los-pies/</guid>
+      <description>&lt;p&gt;Interesante &lt;a href=&#34;http://www.enriquedans.com/2008/02/la-verdadera-maxima-del-blogging.html&#34;&gt;reflexión de Enrique Dans&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;No se bloguea con la cabeza, se bloguea con los pies&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;No me refiero, obviamente, a que teclees con tus extremidades inferiores - dejarías el teclado hecho una pena - sino a que un blog no puede construirse con lo mucho que su autor sabe, tiene en la cabeza y decide compartir en una página web. Eso, por muy vasto y amplio que sea el conocimiento, se agota en poco tiempo, y se empieza a entrar en la dinámica de &amp;ldquo;¿y hoy de que diablos escribo?&amp;rdquo;, en el &amp;ldquo;escribir por obligación&amp;rdquo; y en el verlo como una carga incómoda, sensaciones que son invariablemente el preludio de la muerte de un blog por inanición. Se bloguea con los pies, con lo que caminas cada día, con las noticias y sitios que recorres, con las experiencias por las que pasas. Ese componente de &amp;ldquo;diario&amp;rdquo; es fundamental, y consustancial a la naturaleza original del blogging. Y se vincula, por supuesto, todo aquello que contribuyó a darte la inspiración.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Piratear es malo</title>
+      <link>http://localhost:1313/posts/2008/piratear-es-malo/</link>
+      <pubDate>Wed, 23 Jan 2008 22:58:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/piratear-es-malo/</guid>
+      <description>&lt;p&gt;:)&lt;/p&gt;&#xA;&lt;p&gt;(Para los que aún son del pasado, este spot salió en el &lt;a href=&#34;http://www.channel4.com/entertainment/tv/microsites/I/itcrowd/episodes/moss_and_the_german.html&#34;&gt;capítulo 3&lt;/a&gt; de la segunda temporada de &lt;a href=&#34;http://www.channel4.com/entertainment/tv/microsites/I/itcrowd/&#34;&gt;IT Crowd&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error Monumental (o cuando MCMXXLLI = 1980)</title>
+      <link>http://localhost:1313/posts/2007/error-monumental/</link>
+      <pubDate>Fri, 14 Dec 2007 14:29:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/error-monumental/</guid>
+      <description>&lt;p&gt;Pueden decirme ¿cuál sería el número romano que intentaron colocar al pie de este monumento?:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Imagen022.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La foto fue tomada por Hernán Cabrera, compañero dcciano 80-90, el 13 de &lt;strong&gt;diciembre&lt;/strong&gt; de &lt;strong&gt;2007&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Se trata del &lt;a href=&#34;http://www.viajeros.com/modules.php?name=Galeria&amp;amp;op=ver_foto&amp;amp;pid=35608&#34;&gt;Monumento a la Aviación&lt;/a&gt; en providencia, sí este mismo, que los santiaguinos conocemos bastante bien:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;hkgtme-bg.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yo digo que trataron de escribir 1981.&lt;/p&gt;&#xA;&lt;p&gt;ACTUALIZACION&lt;/p&gt;&#xA;&lt;p&gt;Me informan:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El monumento a LA AVIACION CHILENA diseñado por René Orellana y Beatriz Silva fue inagurado en 1980&amp;hellip;&amp;rdquo; &amp;hellip; &amp;ldquo;&amp;hellip; prolongación del Parque Balmaceda, con el cual muchas veces es confundida. En este sector encontramos el monumento a la aviación erigido en 1980, por el entonces Comandante en jefe de la FACH, General Mathei, de donde obtuvo su nombre.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Please Fix me! (¡por favor, repárenme!)</title>
+      <link>http://localhost:1313/posts/2006/please-fix-me-%c2%a1por-favor-reparenme/</link>
+      <pubDate>Fri, 27 Oct 2006 11:06:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/please-fix-me-%c2%a1por-favor-reparenme/</guid>
+      <description>&lt;p&gt;Este es el pedido de ayuda de una máquina en problemas: Please Fix me!, por favor repárenme.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;hk-2006.07.27-1-thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es viernes y momento para relajarse y reir, antes de continuar con la traducción del sesudo ensayo de Lanier.&#xA;Les dejo esta foto tomada de un dispositivo que pide que lo arreglen.&lt;/p&gt;&#xA;&lt;p&gt;Esto corresponde a un lector Handkey que fue reportado como fallando por uno de nuestros clientes, esta es una máquina con sentimientos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Como mejorar el desempeño de los desarrolladores de software</title>
+      <link>http://localhost:1313/posts/2006/como-mejorar-el-desempeno-de-los-desarrolladores-de-software/</link>
+      <pubDate>Fri, 20 Oct 2006 12:15:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/como-mejorar-el-desempeno-de-los-desarrolladores-de-software/</guid>
+      <description>&lt;p&gt;Esta es una forma de aumentar la productividad del equipo de programadores.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cafe_a_la_vena.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esto desarrollo en Java con Java en las venas.&lt;/p&gt;&#xA;&lt;p&gt;:smile:&lt;/p&gt;&#xA;&lt;p&gt;fuente original, anuncio de IBM en la segunda página de esta edición de SD Times: &lt;a href=&#34;http://web.archive.org/web/20090426081011/http://www.sdtimes.com/download/images/SDTimes160.pdf&#34;&gt;http://www.sdtimes.com/download/images/SDTimes160.pdf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decálogo para el Programador Klingon</title>
+      <link>http://localhost:1313/posts/2006/decalogo-para-el-programador-klingon/</link>
+      <pubDate>Sat, 07 Oct 2006 11:08:39 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/decalogo-para-el-programador-klingon/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;¿Programación Defensiva? ¡Nunca! Los programas Klingon van siempre a la ofensiva. Sí, programación ofensiva es la mejor forma de hacerlo.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Las especificaciones son para los débiles y los tímidos.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;No puedes apreciar realmente a Dilbert a menos que lo hayas leido en Klingon Original.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;¿Qué es todo eso de &amp;ldquo;liberar&amp;rdquo; el software? Los Klingons no liberan software. Nuestro software &amp;ldquo;escapa&amp;rdquo; dejando un rastro sangriento de diseñadores y personal de control de calidad en el camino.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inamible</title>
+      <link>http://localhost:1313/posts/2006/inamible/</link>
+      <pubDate>Tue, 04 Jul 2006 11:48:54 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/inamible/</guid>
+      <description>&lt;p&gt;Nunca sabes con que joyas perdidas te puedes encontrar al navegar por la blogsfera, y resulta que encontré un cuento de Baldomero Lillo, que refleja como se hacían, y se siguen haciendo las cosas, he deciddo copiarlo en este espacio, y compartirlo con los que no lo conocían, y para aquellos que lo recuerdan, aquí está:&lt;/p&gt;&#xA;&lt;p&gt;Fuente Original: &lt;a href=&#34;http://www.ciudadseva.com/textos/cuentos/esp/lillo/inamible.htm&#34;&gt;http://www.ciudadseva.com/textos/cuentos/esp/lillo/inamible.htm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;inamible&#34;&gt;Inamible&lt;/h1&gt;&#xA;&lt;p&gt;por  &lt;em&gt;Baldomero Lillo&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ruperto Tapia, alias &amp;ldquo;El Guarén&amp;rdquo;, guardián tercero de la policía comunal, de servicio esa mañana en la población, iba y venía por el centro de la bocacalle con el cuerpo erguido y el ademán grave y solemne del funcionario que está penetrado de la importancia del cargo que desempeña.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Marca de La Bestia</title>
+      <link>http://localhost:1313/posts/2006/la-marca-de-la-bestia/</link>
+      <pubDate>Tue, 06 Jun 2006 12:16:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/la-marca-de-la-bestia/</guid>
+      <description>&lt;p&gt;Una buena forma de ganar visitas a tu blog es escribir sobre el fin del mundo. Hoy es 6/6/6, o 6 de junio de 2006, fecha fatídica para muchos.&lt;/p&gt;&#xA;&lt;p&gt;Ridículo si consideramos que esto pasa cada 100 años. Pero incluso, dándole crédito al Apocalipsis, el 666 es la marca de La Bestia, no una fecha. De hecho, no es La Bestia, ni el demonio, sino que se trata de un personaje distinto, la segunda bestia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mis cinco hábitos ¿raros?</title>
+      <link>http://localhost:1313/posts/2006/mis-cinco-habitos-%c2%bfraros/</link>
+      <pubDate>Wed, 01 Feb 2006 10:09:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/mis-cinco-habitos-%c2%bfraros/</guid>
+      <description>&lt;p&gt;omo si accidentarme no hubiera sido suficiente, ahora he sido infectado con este meme por parte de &lt;a href=&#34;http://web.archive.org/web/20080410095518/http://eldiabloenlosdetalles.net/&#34;&gt;Carlos&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Bueno, aquí van mis 5 hábitos raros:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Comprar cuadernos y agendas para no ocuparlos.&lt;/strong&gt; Siempre me compro algún cuaderno para tomar notas y nunca pasó más allá de la tercera hoja. Al final terminan usándolos mis hijos, o mi mujer.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Programar comiendo galletas tritón y café.&lt;/strong&gt; Son lo mejor para mantener la concentración :) y lo peor para la acidez :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diez razones para amar a Microsoft</title>
+      <link>http://localhost:1313/posts/2005/diez-razones-para-amar-a-microsoft/</link>
+      <pubDate>Fri, 02 Dec 2005 13:18:26 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/diez-razones-para-amar-a-microsoft/</guid>
+      <description>&lt;p&gt;Dice el bolero, &amp;ldquo;Recuerda que tan solo se odia lo que es querido&amp;hellip;&amp;rdquo;. Bueno, los muchchachos de &lt;a href=&#34;http://www.downloadsquad.com/&#34;&gt;downloadsquad&lt;/a&gt;publicaron una lista con &lt;a href=&#34;http://www.downloadsquad.com/2005/12/02/ten-things-we-love-about-microsoft/&#34;&gt;10 razones para amar a Microsoft&lt;/a&gt; (en inglés). Lo mejor es el recuerdo de ese fallido proyecto llamado &lt;a href=&#34;http://en.wikipedia.org/wiki/Microsoft_Bob&#34;&gt;BoB&lt;/a&gt; , liderado por la polola de Bill Gates, Melinda French, actualmente su &lt;a href=&#34;http://en.wikipedia.org/wiki/Melinda_Gates&#34;&gt;esposa&lt;/a&gt; . Si alguien tiene el tiempo para traducirla, por favor aplique un track back.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

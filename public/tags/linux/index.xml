@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 25 Aug 2020 09:17:18 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veintinueve Años De Linux</title>
+      <link>http://localhost:1313/posts/2020/2020-08-25-veintinueve-a%C3%B1os-de-linux/</link>
+      <pubDate>Tue, 25 Aug 2020 09:17:18 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-08-25-veintinueve-a%C3%B1os-de-linux/</guid>
+      <description>&lt;p&gt;Linux cumple vientinueve años hoy.&lt;/p&gt;&#xA;&lt;p&gt;En rigor hay dos celebraciones de Linux, la del 25 de agosto que celebra el anuncio original de Linus Torvalds en el grupo de &amp;ldquo;news&amp;rdquo; comp.os.minix:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Hello everybody out there using minix –&#xA;I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I’d like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).&#xA;I’ve currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I’ll get something practical within a few months, and I’d like to know what features most people would want. Any suggestions are welcome, but I won’t promise I’ll implement them 🙂&#xA;Linus&#xA;PS. Yes – it’s free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that’s all I have :-(.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;La segunda celebración es el 5 de octubre, cuando realizó la primera liberación pública del código.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Empatía y el desktop linux</title>
+      <link>http://localhost:1313/posts/2012/empatia-y-el-desktop-linux/</link>
+      <pubDate>Thu, 30 Aug 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/empatia-y-el-desktop-linux/</guid>
+      <description>&lt;p&gt;Al responder la pregunta sobre &lt;a href=&#34;http://tirania.org/blog/archive/2012/Aug-29.html&#34;&gt;¿qué mató al desktop de Linux?&lt;/a&gt; Miguel de&#xA;Icaza propone dos dimensiones: (a) las cosas cambian muy rápidamente,&#xA;quebrando tanto el software abierto como el propietario, (b)&#xA;incompatibilidad entre las distintas distribuciones de Linux.&lt;/p&gt;&#xA;&lt;p&gt;La afirmación de Miguel de Icaza es tramposa, porque da por muerto algo&#xA;que algunos cuestionan si alguna vez estuvo vivo, o para otros todavía&#xA;no es un tema zanjado. Pero la verdad es que muchos desarrolladores que&#xA;operaban con Linux como escritorio se han cambiado a Mac OSX. ¿Por qué?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fin de Semana Libre</title>
+      <link>http://localhost:1313/posts/2011/fin-de-semana-libre/</link>
+      <pubDate>Mon, 16 May 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/fin-de-semana-libre/</guid>
+      <description>&lt;p&gt;Durante este fin de semana he estado probando las ultimas versiones de&#xA;dos distribuciones populares linux, Fedora 15 Beta, y Ubuntu 11.04. Me&#xA;entregaron un pendrive de Fedora 15 en la RedHat Summit así que le di la&#xA;oportunidad este fin de semana.&lt;/p&gt;&#xA;&lt;p&gt;Instalar estos sistemas operativos es sencillisimo. Hace un tiempo tuve&#xA;que restaurar mi notebook a la configuración de fábrica con Windows 7 y&#xA;la experiencia fue desagradable, tras cuatro horas seguía instalando&#xA;drivers y parches, y la verdad es que aún el sistema no está operando&#xA;como logré tenerlo alguna vez.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux no es software libre</title>
+      <link>http://localhost:1313/posts/2011/linux-no-es-software-libre/</link>
+      <pubDate>Sat, 22 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/linux-no-es-software-libre/</guid>
+      <description>&lt;p&gt;Otro texto reciclado, &lt;a href=&#34;http://localhost:1313/blog/2006/11/linus-torvalds-y-la-fsf.html&#34;&gt;de noviembre de 2006&lt;/a&gt;,&#xA;que lo incluyo en esta serie veraniega de artículos rescatados de los&#xA;archivos de LNDS. Este en realidad es la traducción de un texto de Linus&#xA;Torvalds que es importante porque aclara muchas cosas sobre la relación&#xA;de linux con el movimiento del software libre. Lo importante es que&#xA;Linus siempre ha protegido sus derechos sobre linux, y de una forma&#xA;bastante frontal y directa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moraleja</title>
+      <link>http://localhost:1313/posts/2008/moraleja/</link>
+      <pubDate>Sun, 03 Aug 2008 01:17:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/moraleja/</guid>
+      <description>&lt;p&gt;Bien, parece que hay una traducción semi &lt;a href=&#34;https://es.xkcd.com/xkcd-es/&#34;&gt;oficial de XKCD al español&lt;/a&gt; (como lo hablan en Ezpaña, ostias tío), pero se agradece, porque nos ahorra trabajo a futuro, acá esta la tira sobre linux que &lt;a href=&#34;https://www.lnds.net/2008/07/linux_una_historia_real.html&#34;&gt;publiqué el otro día&lt;/a&gt; , en un formato más adecuado:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lnds.net/blog/wp-content/uploads/2010/09/cautionary.png&#34;&gt;&lt;img src=&#34;https://www.lnds.net/blog/wp-content/uploads/2010/09/cautionary.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Luciano Bello encuentra falla de seguridad en sistema operativo Debian (Ubuntu)</title>
+      <link>http://localhost:1313/posts/2008/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu/</link>
+      <pubDate>Fri, 16 May 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;lbello.jpg&#34; alt=&#34;lbello.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ahora que capté su atención estimado lector, le cuento que no se trata del&#xA;Luciano Bello de la foto, quien, a pesar de sus intentos de poner cara&#xA;de inteligente, no creo que se dedique a la informática.&lt;/p&gt;&#xA;&lt;p&gt;No, el &lt;a href=&#34;http://lbello.livejournal.com/&#34;&gt;Luciano Bello&lt;/a&gt; en cuestión es un&#xA;hacker argentino, quien se tomó el tiempo de leer el código de la&#xA;implementación Open SSL de Debian, y encontrar un &#xA;&lt;a href=&#34;http://www.debian.org/security/2008/dsa-1571&#34;&gt;fallo bastante serio&lt;/a&gt; (&lt;a href=&#34;http://www.debian.org/es&#34;&gt;Debian&lt;/a&gt; la&#xA;base de la distribución &lt;a href=&#34;http://www.ubuntu.com/&#34;&gt;Ubuntu&lt;/a&gt;) y otros.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linus Torvalds el Pragmático</title>
+      <link>http://localhost:1313/posts/2006/linus-torvalds-el-pragmatico/</link>
+      <pubDate>Thu, 30 Nov 2006 20:14:29 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/linus-torvalds-el-pragmatico/</guid>
+      <description>&lt;p&gt;Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está &amp;ldquo;agradeciendo&amp;rdquo; la recepción del primer &amp;ldquo;Linus Torvalds Award&amp;rdquo;, donde pronuncia una de sus inteligentes frases: &amp;ldquo;esto es como darle el Premio Han Solo a la Aliaza Rebelde&amp;rdquo; ( &amp;ldquo;like giving the Han Solo award to the Rebel Alliance.&amp;rdquo; ).&lt;/p&gt;&#xA;&lt;p&gt;Toda esta polémica es gasto de energía.&lt;/p&gt;&#xA;&lt;p&gt;Stallman ha insistido en hablar de &amp;ldquo;GNU más Linux&amp;rdquo;. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linus Torvalds y la GPL v3</title>
+      <link>http://localhost:1313/posts/2006/linus-torvalds-y-la-gpl-v3/</link>
+      <pubDate>Tue, 28 Nov 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/linus-torvalds-y-la-gpl-v3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Linus_Torvalds.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace días que tenía esta traducción de la posición de Linus Torvalds sobre&#xA;la GPL V3, y ahora la he completado, así que acá va otro trabajo de&#xA;traducción:El original en inglés está&#xA;en: &lt;a href=&#34;http://web.archive.org/web/20080419070434/http://lkml.org/lkml/2006/9/25/161&#34;&gt;http://lkml.org/lkml/2006/9/25/161&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fecha&lt;/strong&gt;, Lunes 25 Sep 2006 09:50:20 -0700 (PDT) **De &lt;em&gt;*Linus&#xA;Torvalds *&lt;em&gt;Asunto&lt;/em&gt;&lt;/em&gt;: RE: Declaración de Posición frente a GPLv3&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En Lun, 25 Sep 2006, Michiel de Boer escribió&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Yo apoyo el borrador actual de la GPL versión 3 y estoy muy&#xA;decepcionado que no será adoptado como está. En mi opinión, Linux&#xA;tiene el poder y la influencia para mover montañas en la industria del&#xA;software, y no debería esquivar la oportunidad para tomar una&#xA;responsabilidad moral cuando surge.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux en retroceso</title>
+      <link>http://localhost:1313/posts/2005/linux-en-retroceso/</link>
+      <pubDate>Tue, 06 Sep 2005 08:50:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/linux-en-retroceso/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://web.archive.org/web/20090426080906/http://www.silicon.com/research/specialreports/opensource/0,3800004943,39151835,00.htm&#34;&gt;Este articulo&lt;/a&gt;&#xA;en silicon cuenta como UniLever esta hechando atrás su proyecto para&#xA;migrar todo a Linux, de acuerdo al CIO de Unilever: &amp;ldquo;the cost benefits&#xA;originally used to justify the risk of the migration are no longer&#xA;there.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;La idea era migrar sus servidores Unix a Linux sobre itanium, y despues&#xA;migrar SAP para operar sobre linux.&lt;/p&gt;&#xA;&lt;p&gt;Unilever tiene una infraestructura de 800 millones de euros, y el&#xA;proyecto contemplaba un ahorro de 63 millones. En todo caso haran&#xA;cambios pero a una escala mucho menor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nueva versión del Kernel de Linux liberada</title>
+      <link>http://localhost:1313/posts/2005/nueva-version-del-kernel-de-linux-liberada/</link>
+      <pubDate>Mon, 29 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/nueva-version-del-kernel-de-linux-liberada/</guid>
+      <description>&lt;p&gt;Anuncio oficial de&#xA;Linus &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://kerneltrap.org/node/5600&#34;&gt;http://kerneltrap.org/node/5600&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Despierten linuxeros!!!&lt;br&gt;&#xA;Hay que probarlo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

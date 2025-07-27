@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decisiones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/decisiones/</link>
+    <description>Recent content in Decisiones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 05 Jul 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/decisiones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decisiones Irracionales</title>
+      <link>http://localhost:1313/posts/2011/decisiones-irracionales/</link>
+      <pubDate>Tue, 05 Jul 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/decisiones-irracionales/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2011/07/taxi-tip1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En Estados Unidos los taxis ofrecen en su sistema de cobro la opción de&#xA;pagar una propina de 15%, 20% ó 25%. No tengo la confirmación, pero&#xA;sospecho que con la introducción de este sistema el valor promedio de la&#xA;propina ha aumentado al 20%. La razón por la que se da esto es un&#xA;fenómeno que tiene que ver con lo que hablábamos en el &lt;a href=&#34;http://localhost:1313/blog/2011/06/29/valores-por-defecto&#34;&gt;artículo anterior&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Al final del &lt;a href=&#34;https://www.ted.com/talks/lang/eng/dan_ariely_asks_are_we_in_control_of_our_own_decisions.html&#34;&gt;video de Dan Ariely&lt;/a&gt; se&#xA;nos muestran varios casos de esta manipulación de las preferencias. Este&#xA;tipo de manipulaciones se puede dar cuando hay una dominación asimétrica&#xA;de atributos. Veamos un ejemplo, supongamos que tenemos que elegir entre&#xA;2 productos. El producto A es una cámara de alta calidad, pero cara. El&#xA;producto B es una cámara de baja calidad pero más barata.  En estas&#xA;condiciones la decisión se hace difícil. Pero si introducimos un tercera&#xA;cámara C1, que es claramente más cara que la cámara A, entonces la&#xA;decisión se hace más fácil, y la gente tiende a elegir la cámara A. Por&#xA;el contrario, si se introduce una tercera cámara C1 que tiene el mismo&#xA;precio que B, pero menor calidad, entonces la gente tiende a elegir la&#xA;cámara B. El diagrama de abajo muestra esta situación:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

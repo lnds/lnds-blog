@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ideología on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/ideolog%C3%ADa/</link>
+    <description>Recent content in Ideología on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 27 Jan 2006 12:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ideolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El free software como ideología</title>
+      <link>http://localhost:1313/posts/2006/el-free-software-como-ideologia/</link>
+      <pubDate>Fri, 27 Jan 2006 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/el-free-software-como-ideologia/</guid>
+      <description>&lt;p&gt;Se me ha pedido que &lt;a href=&#34;http://localhost:1313/2006/01/el_free_software_es_una_ideologia.html&#34;&gt;aclare mi postura&lt;/a&gt;,&#xA;como si todo lo que he escrito en este tiempo de bloguero no fuera&#xA;suficiente.&lt;/p&gt;&#xA;&lt;p&gt;Como siempre he querido escribir en extenso sobre mi visión del software&#xA;libre, y de como se encuentra en peligro, es que voy a elaborar en una&#xA;serie de artículos mi postura. A ver si dejan de ser considerada&#xA;tonterías. Por supuesto que al final voy a responder a Ricardo Galli,&#xA;pero me gusta mantenerlos en suspenso :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El free software es una ideología</title>
+      <link>http://localhost:1313/posts/2006/el-free-software-es-una-ideologia/</link>
+      <pubDate>Fri, 27 Jan 2006 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/el-free-software-es-una-ideologia/</guid>
+      <description>&lt;p&gt;El free software es la ideología de Stallman, punto.&lt;/p&gt;&#xA;&lt;p&gt;La publicación de &lt;a href=&#34;http://mnm.uib.es/gallir/posts/2006/01/17/592/&#34;&gt;GPL3&lt;/a&gt;&#xA;lo confirma.&lt;/p&gt;&#xA;&lt;p&gt;Es curioso como en nombre de la libertad esta deba restringirse, y GPL3&#xA;es eso, una manera de restringir mi libertad. Personalmente yo he&#xA;publicado Akarru bajo GPL2, pero eso de tener que publicar mis claves&#xA;privadas, o limitar el campo de aplicación de mis aplicaciones, tal como&#xA;lo plantea GPL3, no me parece.&lt;/p&gt;&#xA;&lt;p&gt;Me acuerdo de la famosa frase de los hippies en los sesenta: &amp;ldquo;prohibido&#xA;prohibir&amp;rdquo;, el GPL3 no sólo es ridículo, sino que desenmascara lo que&#xA;todos sospechabamos, que en realidad Stallman es Stalinman.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

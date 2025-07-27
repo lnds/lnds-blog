@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perspectiva on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/perspectiva/</link>
+    <description>Recent content in Perspectiva on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 02 Jan 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/perspectiva/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perspectiva</title>
+      <link>http://localhost:1313/posts/2011/perspectiva/</link>
+      <pubDate>Sun, 02 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/perspectiva/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La perspectiva aporta 80 puntos al coeficiente intelectual&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Alan Kay&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Originalmente &lt;a href=&#34;http://localhost:1313/blog/2010/05/alan-kay.html&#34;&gt;Alan Kay&lt;/a&gt;&#xA;había decidido dedicarse a la biología, fue casi por accidente que&#xA;terminó dedicándose a la computación. En &lt;a href=&#34;http://www.windley.com/archives/2006/02/alan_kay_is_com.shtml&#34;&gt;una de sus&#xA;charlas&lt;/a&gt;&#xA;hace unos años atrás Kay confesaba que si quisiera volver al campo de la&#xA;microbiología le tomaría mucho tiempo ponerse al día, dado los increible&#xA;avances que ha tenido esa disciplina en esto años. Sin embargo, opina&#xA;él, no pasa lo mismo con  las ciencias de la computación, las que le&#xA;parecen que se encuentran estancadas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Un mundo controlado por algoritmos | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2011/un-mundo-controlado-por-algoritmos/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Un mundo controlado por algoritmos">
+  <meta property="og:description" content="El 26 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un crash de la bolsa que hizo caer el índice Dow Jones en 900 puntos (una caida del 9%) el que se recuperó completamente unos pocos minutos después. A este fenómeno se le denominó el Flash Crash de 2010
+Hay sobre 2.000 físicos de particulas que trabajan actualmente en Wall Street. Lo que hacen es modelar el comportamiento de las bolsas en algoritmos que transan acciones en cuestión de micro segundos. Para que tengan una idea nos demoramos 500.000 microsegundos en hacer un click con el mouse. Así que en términos de algoritmos si te demoras un par de segundos eres un perdedor.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-08-07T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-08-07T08:25:11-03:00">
+    <meta property="article:tag" content="Algoritmos">
+    <meta property="article:tag" content="Tecnología">
+    <meta property="article:tag" content="Amenazas">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Un mundo controlado por algoritmos">
+  <meta name="twitter:description" content="El 26 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un crash de la bolsa que hizo caer el índice Dow Jones en 900 puntos (una caida del 9%) el que se recuperó completamente unos pocos minutos después. A este fenómeno se le denominó el Flash Crash de 2010
+Hay sobre 2.000 físicos de particulas que trabajan actualmente en Wall Street. Lo que hacen es modelar el comportamiento de las bolsas en algoritmos que transan acciones en cuestión de micro segundos. Para que tengan una idea nos demoramos 500.000 microsegundos en hacer un click con el mouse. Así que en términos de algoritmos si te demoras un par de segundos eres un perdedor.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Un mundo controlado por algoritmos</h1><time class="dim" datetime="2011-08-07T08:25:11-03:00">August 7, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/algoritmos/">#algoritmos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/tecnolog%C3%ADa/">#tecnología</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/amenazas/">#amenazas</a>
+      </div></ol></div>
+  <section class="page-section"><p>El 26 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un
+crash de la bolsa que hizo caer el índice Dow Jones en 900 puntos (una
+caida del 9%) el que se recuperó completamente unos pocos minutos
+después. A este fenómeno se le denominó el
+<a href="http://en.wikipedia.org/wiki/2010_Flash_Crash">Flash Crash de 2010</a></p>
+<p>Hay sobre 2.000 físicos de particulas que trabajan actualmente en Wall
+Street. Lo que hacen es modelar el comportamiento de las bolsas en
+algoritmos que transan acciones en cuestión de micro segundos. Para que
+tengan una idea nos demoramos 500.000 microsegundos en hacer un click
+con el mouse. Así que en términos de algoritmos  si te demoras un par de
+segundos eres un perdedor.</p>
+<p>Consideren esta imagen, tomada de una presentación reciente de
+<a href="http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world.html">Kevin Slavin en TED</a>:</p>
+<p><img src="new-york-carrier-hotel.png" alt=""></p>
+<p>Un Carrier Hotel es un datacenter  donde se arrienda espacio para
+colocar los servidores. En la foto tenemos este carrier hotel localizado
+en la calle Hudson, donde se transan las acciones de la bolsa de New
+York. Los nombres que aparecen en blanco o en verde son sitios con
+servidores que están corriendo algoritmos de compra/venta de acciones.
+Lo que ocurre es que los algoritmos como Cherokee Nation, Bluegrass,
+Marco Polo, etc. tienen 8 micro segundos de desventaja con respecto a
+los sitios que corren los algoritmos The Carnival, Twilight y Boston
+Shuffler. Entonces los edificios alrededor del carrier hotel están
+siendo vaciados para colocar servidores que se encuentren más cerca del
+lugar donde se transan las acciones.</p>
+<p>La empresa Spread Networks construyó una trinchera de 1300 kilómetros
+entre Chicago y Nueva York para poder lograr transmitir una señal de 14
+milisegundos a través de un enlace dedicado de fibra óptica. Así que
+literalmente estamos modificando el mundo para darle ventajas a unos
+algoritmos que negocian por nosotros en las bolsas de comercio. Pero,
+¿alguien ha pensado las consecuencias que puede tener todo esto?</p>
+<p>Nadie tiene claro que pasó en el El Flash Crash de 2010, porque nadie
+estaba en control de lo que pasó, literalmente fueron las máquinas las
+que provocaron la caida de la bolsa por 9 minutos ese día. De alguna
+forma los algoritmos entraron en una extraña resonancia, y generaron una
+espiral de transacciones que llevaron a la baja instantánea de la bolsa,
+y esos mismos algoritmos reaccionaron generando la recuperación.</p>
+<p>Siento escalofríos cuando pienso  que nuestros fondos de pensiones, o
+los trabajos de miles de personas dependen del comportamiento coordinado
+de muchos algoritmos, escritos bajo los supuestos de un conjunto de
+físicos teóricos que experimentan con sus ideas de cómo tratar con la
+complejidad en sus computadores, como si esto fuera un juego de ingenio,
+donde se trata  de demostrar quien escribe el algoritmo más inteligente,
+sobre cosas que apenas comprendemos.</p>
+<p>Espero que con esto puedan comprender  por que tengo esta  preocupación
+de explorar todas estas  estrategias para predecir, tanto el futuro como
+ el presente.</p>
+<p>Les dejo esta presentación en TED donde Kevin Slavin habla sobre estas
+cosas:</p>
+<div style="max-width:854px">
+    <div style="position:relative;height:0;padding-bottom:56.25%">
+        <iframe src="https://embed.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world" 
+        width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" 
+        frameborder="0" scrolling="no" allowfullscreen>
+        </iframe>
+    </div>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>494 words</span>
+    <span>2 - 3 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2011/un-mundo-controlado-por-algoritmos/new-york-carrier-hotel.png">new-york-carrier-hotel.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2011/kinect-usada-para-reconocimiento-de-lenguaje-de-se%C3%B1as/">Kinect usada para reconocimiento de lenguaje de señas</a></li><li><a href="/posts/2011/sobre-las-propiedades-del-cuerno-de-unicornio/">Sobre las propiedades del cuerno de unicornio</a></li><li><a href="/posts/2010/el-auto-aprendizaje-segun-isaac-asimov/">El auto aprendizaje, según Isaac Asimov</a></li><li><a href="/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/">El estado del open source en Chile, la comunidad ChileForge</a></li><li><a href="/posts/2010/un-nino-y-la-tecnologia/">Un niño y la tecnología</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

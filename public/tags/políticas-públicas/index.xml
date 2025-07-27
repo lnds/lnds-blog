@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Políticas Públicas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/pol%C3%ADticas-p%C3%BAblicas/</link>
+    <description>Recent content in Políticas Públicas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 30 Nov 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pol%C3%ADticas-p%C3%BAblicas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convocatoria</title>
+      <link>http://localhost:1313/posts/2010/convocatoria/</link>
+      <pubDate>Tue, 30 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/convocatoria/</guid>
+      <description>&lt;p&gt;Hay 887 empresas de desarrollo de software&#xA;&lt;a href=&#34;https://www.chileproveedores.cl/serviciodirectorio/resultado_de_busqueda.aspx?sc=675&#34;&gt;inscritas en el registro de Chile Proveedores&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La licitación del convenio marco para desarrollo de software requiere&#xA;que los proveedores que participen estén inscritos en Chile Proveedores,&#xA;y &lt;a href=&#34;http://www.culturadigital.cl/wp/?p=1519&#34;&gt;se la considera exitosa&lt;/a&gt; con&#xA;una convocatoria de 82 empresas, es decir, menos del 10%.&lt;/p&gt;&#xA;&lt;p&gt;Yo no sé si eso es exitoso o no, y lo digo sin intención de ser irónico.&#xA;A mi me parece que no, pero la verdad es que no estoy seguro, ¿cómo&#xA;mides el éxito en base a la convocatoria? ¿contra qué comparas?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

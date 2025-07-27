@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Herejías on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/herej%C3%ADas/</link>
+    <description>Recent content in Herejías on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 17 Jun 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/herej%C3%ADas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Quieres ser un hereje?</title>
+      <link>http://localhost:1313/posts/2010/quieres-ser-un-hereje/</link>
+      <pubDate>Thu, 17 Jun 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/quieres-ser-un-hereje/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Los herejes miran el status quo y dicen: Esto no funciona. No puedo&#xA;tolerar el status quo.Estoy dispuesto a levantarme y ser considerado&#xA;para mover las cosas.&amp;rdquo;&lt;br&gt;&#xA;En vez de quedarte quieto, siguiendo las reglas, como una oveja, debes&#xA;pararte y decir, &amp;ldquo;¡Yo No! ya no cuenten conmigo, quiero que esto&#xA;cambie.&amp;rdquo; Lo que necesitas es que unos pocos miren las reglas y vean que&#xA;no tienen sentido, y descubran que necesitan estar conectados. Y crear&#xA;un modo de conectarse, entre ellos, eso es liderazgo.&lt;br&gt;&#xA;Eso es crear una tribu.&lt;br&gt;&#xA;De eso nos habla Seth Godin en esta interesante charla TED (disponible&#xA;con subtítulos en español):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

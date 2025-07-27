@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matemáticas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/matem%C3%A1ticas/</link>
+    <description>Recent content in Matemáticas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 23 Nov 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/matem%C3%A1ticas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Notación Big O</title>
+      <link>http://localhost:1313/posts/2013/la-notacion-big-o/</link>
+      <pubDate>Sat, 23 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/la-notacion-big-o/</guid>
+      <description>&lt;h2 id=&#34;un-juego-de-adivinanzas&#34;&gt;&lt;strong&gt;Un juego de adivinanzas&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Supongan el siguiente juego: &amp;ldquo;un jugador piensa un número que está&#xA;entre 1 y 1.000, el otro debe tratar de adivinarlo haciéndole preguntas&#xA;al primero, a las que sólo se puede responder con un Sí o un No.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Una manera de hacerlo es preguntando por cada número secuencialmente:&#xA;&amp;ldquo;¿es el 1?&amp;rdquo;, respuesta: &amp;ldquo;No&amp;rdquo;. &amp;ldquo;¿Es el 2?&amp;rdquo;, &amp;ldquo;No&amp;rdquo;. &amp;ldquo;Es el 3&amp;rdquo;,&#xA;&amp;ldquo;No&amp;rdquo;. etc.&lt;/p&gt;&#xA;&lt;p&gt;Si la persona pensó en el 999 o en el 1.000 esta no es la forma más&#xA;eficiente de adivinar el número. Podemos preguntar en forma &amp;ldquo;saltada&amp;rdquo;&#xA;o aleatoria: &amp;ldquo;¿Es el 523?&amp;rdquo;, &amp;ldquo;No&amp;rdquo;. &amp;ldquo;¿Es el 256?&amp;rdquo;, &amp;ldquo;No&amp;rdquo;...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Matemáticas y Verdad</title>
+      <link>http://localhost:1313/posts/2011/matematicas-y-verdad/</link>
+      <pubDate>Wed, 06 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/matematicas-y-verdad/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Emilio Lledó, profesor de Historia de la Filosofía y académico,&#xA;reivindica también las matemáticas como una luz para alumbrar un mundo&#xA;de manipulación informativa. &amp;quot;Esta ciencia es una lucha constante con&#xA;la verdad porque en ella, en su exactitud, no caben las ideas&#xA;mentirosas&amp;quot;. Lledó recuerda su etimología: del griego &lt;em&gt;máthema&lt;/em&gt;,&#xA;aprender. Y no solo aprender, sino experimentar. Y no solo&#xA;experimentar, sino deducir. Y no solo deducir, sino demostrar. Y no&#xA;solo demostrar, sino estar en contacto con lo verdadero. &amp;quot;Y todo&#xA;esto&amp;quot;, lamenta, &amp;quot;no puede estar muy de moda en un universo que&#xA;tiende a la falsedad&amp;quot;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprende a programar</title>
+      <link>http://localhost:1313/posts/2011/aprende-a-programar/</link>
+      <pubDate>Mon, 21 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/aprende-a-programar/</guid>
+      <description>&lt;p&gt;Hace un tiempo un comentarista habitual de este blog me preguntó ¿cuáles&#xA;serían los conocimientos fundamentales que debe tener un buen&#xA;progrmador?, para responder a esa pregunta decidí crear un blog. Partí&#xA;por lo básico, enseñando a programar, a los interesados les dejo la&#xA;dirección de mi curso de programación: &lt;a href=&#34;http://www.programando.org/blog/aprende-a-programar/&#34;&gt;aprende a programar&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entender</title>
+      <link>http://localhost:1313/posts/2011/entender/</link>
+      <pubDate>Sun, 20 Feb 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/entender/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;VonNeuman1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;In mathematics, you don&amp;rsquo;t understand things. You just get used to&#xA;them.&amp;rdquo; (En matemáticas no entiendes las cosas. Acabas acostumbrándote&#xA;a ellas).&lt;br&gt;&#xA;&amp;ndash; John von Neumann&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;(algo que también podría aplicar para ciertos aspectos de la vida)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>P versus NP</title>
+      <link>http://localhost:1313/posts/2010/p-versus-np/</link>
+      <pubDate>Sun, 22 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/p-versus-np/</guid>
+      <description>&lt;p&gt;El problema de P versus NP se considera el problema abierto más&#xA;importante en la ciencia de la computación. De hecho el Instituto Clay&#xA;lo incluye entre los 7 &lt;a href=&#34;http://www.claymath.org/millennium/&#34;&gt;&amp;ldquo;problemas del milenio&amp;rdquo;&lt;/a&gt;, que corresponden a los&#xA;problemas matemáticos abiertos más importantes según ese instituto.&lt;/p&gt;&#xA;&lt;p&gt;El premio por resolver alguno de estos problemas es de un millón de&#xA;dólares. La descripción del Instituto Clay sobre el problema P versus NP&#xA;es más o menos la siguiente:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los panqueques de Bill Gates</title>
+      <link>http://localhost:1313/posts/2010/los-panqueques-de-bill-gates/</link>
+      <pubDate>Fri, 30 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/los-panqueques-de-bill-gates/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento&#34;&gt;problema de ordenar&lt;/a&gt; es uno&#xA;de los temas básicos en  la formación de todo programador. Pero quizás&#xA;este  conocido problema encierre la clave para entender como funciona la&#xA;evolución de la vida. ¿Cómo? Esa es una historia que involucra nada&#xA;menos que Bill Gates, pero antes de contarla repasemos este clásico&#xA;problema informático.&lt;/p&gt;&#xA;&lt;p&gt;¿Cómo ordenamos una serie de datos? Esta es una tarea tán básica, que la&#xA;damos casi por sentada, incluso viene incluida en nuestros lenguajes,&#xA;sistemas operativos, o incorporada como función estándar en todo&#xA;programa  de planillas de cálculos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Martin Gardner</title>
+      <link>http://localhost:1313/posts/2010/martin-gardner/</link>
+      <pubDate>Sun, 23 May 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/martin-gardner/</guid>
+      <description>&lt;p&gt;Martin Gardner falleció ayer a la edad de 96 años. Para los que no lo&#xA;conocen, Gardner fue un gran divulgador cientifico, famoso por su&#xA;columna sobre matemáticas recreativas publicadas en la revista&#xA;Scientific&#xA;American.&lt;img src=&#34;Martin_Gardner.jpeg&#34; alt=&#34;Martin_Gardner.jpeg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Su principal aporte fue su lucha permanente en contra de los fraudes&#xA;seudo científicos. &lt;a href=&#34;http://localhost:1313/blog/2010/03/james-randi-una-leccion-de-escepticismo.html&#34;&gt;James Randi&lt;/a&gt;&#xA;le dedica &lt;a href=&#34;http://www.randi.org/site/index.php/swift-blog/995-my-world-is-a-little-darker.html&#34;&gt;un sentido homenaje en su blog&lt;/a&gt;.&#xA;Sin duda es una gran pérdida para la divulgación de la ciencia y los&#xA;movimientos escépticos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engaños numéricos</title>
+      <link>http://localhost:1313/posts/2009/enganos-numericos/</link>
+      <pubDate>Sun, 23 Aug 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/enganos-numericos/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Las cifras no mienten&amp;rdquo;, &amp;ldquo;los números hablan solos&amp;rdquo;. ¿Cuantas veces&#xA;se usan estas expresiones? La verdad es que no siempre es así, muchas&#xA;veces estamos siendo engañados con las cifras, porque éstas se presentan&#xA;disfrazadas, o con un análisis muy pobre.&lt;/p&gt;&#xA;&lt;p&gt;Seth Godin &lt;a href=&#34;https://sethgodin.typepad.com/seths_blog/2009/08/not-so-good-at-math.html&#34;&gt;lo plantea&lt;/a&gt;&#xA;en este desafío aritmético:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Digamos que tu meta es reducir el consumo de gasolina. Supongamos que&#xA;hay sólo dos tipos de automóviles en el mundo. La mitad son camionetas&#xA;suburbanas (subs) que dan 10 millas por galón y la otra mitad&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/Toyota_Prius&#34;&gt;Priuses&lt;/a&gt; (autos híbridos)&#xA;que dan 50. Si asumimos que todos los autos recorren el mismo número&#xA;de millas, cuál sería la mejor inversión:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mersenne, divertimento dominical para Nerds</title>
+      <link>http://localhost:1313/posts/2008/mersenne-divertimento-dominical-para-nerds/</link>
+      <pubDate>Sun, 31 Aug 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/mersenne-divertimento-dominical-para-nerds/</guid>
+      <description>&lt;p&gt;Los Nerds hemos estado desde siempre. En la antiguedad tenemos varios,&#xA;como &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/e/euclides.htm&#34;&gt;Euclides&lt;/a&gt;,&#xA;quien en vez de acompañar a sus amigos a dar unas vueltas por el Faro&#xA;(el lugar de moda de Alejandría), prefería quedarse resolviendo teoremas&#xA;geométricos.&lt;/p&gt;&#xA;&lt;p&gt;O &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/a/arquimedes.htm&#34;&gt;Arquímides&lt;/a&gt;,&#xA;un geek que se puso a correr desnudo por las calles gritando &lt;strong&gt;Eureka&lt;/strong&gt;!&#xA;cuando descubrió el principio que permitía flotar a los trirremes (claro&#xA;que el principio para hundirlos ya había sido descubierto por los&#xA;romanos).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No Se Asusten</title>
+      <link>http://localhost:1313/posts/2008/no-se-asusten/</link>
+      <pubDate>Wed, 20 Aug 2008 22:48:49 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/no-se-asusten/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;La Guía del Autoestopista Galáctico ha superado a la Enciclopedia Galáctica como la fuente estándar de todo el conocimiento y sabiduría, por dos importantes razones. Primero, es ligeramente más barata, y luego,grabada en la portada con simpáticas letras grandes, ostenta la leyenda: NO SE ASUSTE.&lt;br&gt;&#xA;&amp;ndash; La Guía del Autoestopista Galáctico, Douglas Adams&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El problema con la exportación de cerdos a Corea es un tema delicado, en esto, el senador Girardi tiene razón, el gobierno debe invertir en un sistema de control propio para medir la cantidad de dioxinas en nuestros alimentos, que exportamos. Pero no tanto porque esta sea una amenaza real, sino porque hay estándares internacionales que afectan nuestras exportaciones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Precisión</title>
+      <link>http://localhost:1313/posts/2007/precision/</link>
+      <pubDate>Wed, 10 Oct 2007 18:43:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/precision/</guid>
+      <description>&lt;p&gt;Esta nota está &amp;ldquo;impulsada&amp;rdquo; por algunos &lt;a href=&#34;http://localhost:1313/2007/09/errores_de_redondeo.html#comments&#34;&gt;comentarios&lt;/a&gt; a mi post anterior con respecto al &lt;a href=&#34;http://localhost:1313/2007/09/errores_de_redondeo.html&#34;&gt;Bug de Excel &lt;strong&gt;2007&lt;/strong&gt;&lt;/a&gt;, el primero es un &lt;a href=&#34;http://www.kriptopolis.org/explorer-aprueba-matematicas&#34;&gt;enlace a una discusión en Kriptópolis&lt;/a&gt; sobre la precisión numérica de javascript. El segundo es para preguntarme si sabía que Visual Basic rendondea hacia abajo.&lt;/p&gt;&#xA;&lt;p&gt;La verdad es que no sé cómo redondea Visual basic, porque afortunadamente nunca he tenido que programar en ese lenguaje ;).&lt;/p&gt;&#xA;&lt;p&gt;Pero lo que me sorprende es leer &lt;a href=&#34;http://www.kriptopolis.org/explorer-aprueba-matematicas#comment-24031&#34;&gt;otros comentarios&lt;/a&gt; que demuestran una ignorancia sobre la precisión de los computadores que es sorprendente en profesionales de la informática.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Errores de Redondeo</title>
+      <link>http://localhost:1313/posts/2007/errores-de-redondeo/</link>
+      <pubDate>Thu, 27 Sep 2007 23:07:20 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/errores-de-redondeo/</guid>
+      <description>&lt;p&gt;Aunque el bug de Excel &lt;strong&gt;2007&lt;/strong&gt; ha tenido mucha cobertura, no es primer error de redondeo de la historia, y tampoco el más catastrófico. Y aunque todavía no sabemos que consecuencas pueda tener este nuevo bug de Excel, por lo menos todavía muere nadie por este error.&lt;/p&gt;&#xA;&lt;p&gt;Pero durante la primera guerra del golfo hubo un error de similar origen, que le costó la vida a 28 marines norteramericanos.&lt;/p&gt;&#xA;&lt;p&gt;El origen del bug de excel y del error que mató a los marines es el mismo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿giga o gibi bytes?</title>
+      <link>http://localhost:1313/posts/2007/%c2%bfgiga-o-gibi-bytes/</link>
+      <pubDate>Tue, 11 Sep 2007 23:56:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/%c2%bfgiga-o-gibi-bytes/</guid>
+      <description>&lt;p&gt;Si ejecuto el comando df en mi notebook actual me informa que tengo 141+81 Giga&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Filesystem Size Used Avail Use% Mounted on&#xA;c: 141G 62G 80G 44% /cygdrive/c&#xA;d: 8.1G 6.1G 2.0G 76% /cygdrive/d&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Eso da 149.1 gigabytes, bastante menos que los 160GB que declara la descripción de mi equipo.&lt;/p&gt;&#xA;&lt;p&gt;Pero la verdad es que los fabricantes de discos duros usan correctamente el prefijo Giga, que corresponde a 10 elevado a 9, mil millones, o en cifras 1.000.000.000.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

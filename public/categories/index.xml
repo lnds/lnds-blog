@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on La Naturaleza del Software</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Jul 2022 12:37:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personajes</title>
+      <link>http://localhost:1313/categories/personajes/</link>
+      <pubDate>Sun, 24 Jul 2022 12:37:33 -0400</pubDate>
+      <guid>http://localhost:1313/categories/personajes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arte</title>
+      <link>http://localhost:1313/categories/arte/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/categories/arte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cripto</title>
+      <link>http://localhost:1313/categories/cripto/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/categories/cripto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Historia</title>
+      <link>http://localhost:1313/categories/historia/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/categories/historia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web3</title>
+      <link>http://localhost:1313/categories/web3/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/categories/web3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflexiones</title>
+      <link>http://localhost:1313/categories/reflexiones/</link>
+      <pubDate>Wed, 29 Dec 2021 12:20:00 -0300</pubDate>
+      <guid>http://localhost:1313/categories/reflexiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libros</title>
+      <link>http://localhost:1313/categories/libros/</link>
+      <pubDate>Mon, 08 Nov 2021 11:41:10 -0300</pubDate>
+      <guid>http://localhost:1313/categories/libros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libros Del Mes</title>
+      <link>http://localhost:1313/categories/libros-del-mes/</link>
+      <pubDate>Mon, 08 Nov 2021 11:41:10 -0300</pubDate>
+      <guid>http://localhost:1313/categories/libros-del-mes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cine</title>
+      <link>http://localhost:1313/categories/cine/</link>
+      <pubDate>Thu, 04 Nov 2021 12:01:26 -0300</pubDate>
+      <guid>http://localhost:1313/categories/cine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redes Sociales</title>
+      <link>http://localhost:1313/categories/redes-sociales/</link>
+      <pubDate>Thu, 04 Nov 2021 12:01:26 -0300</pubDate>
+      <guid>http://localhost:1313/categories/redes-sociales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sociedad</title>
+      <link>http://localhost:1313/categories/sociedad/</link>
+      <pubDate>Thu, 04 Nov 2021 12:01:26 -0300</pubDate>
+      <guid>http://localhost:1313/categories/sociedad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tecnología</title>
+      <link>http://localhost:1313/categories/tecnolog%C3%ADa/</link>
+      <pubDate>Thu, 04 Nov 2021 12:01:26 -0300</pubDate>
+      <guid>http://localhost:1313/categories/tecnolog%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aniversarios</title>
+      <link>http://localhost:1313/categories/aniversarios/</link>
+      <pubDate>Sat, 31 Jul 2021 19:33:19 -0400</pubDate>
+      <guid>http://localhost:1313/categories/aniversarios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entropía De Software</title>
+      <link>http://localhost:1313/categories/entrop%C3%ADa-de-software/</link>
+      <pubDate>Sun, 16 May 2021 10:49:02 -0400</pubDate>
+      <guid>http://localhost:1313/categories/entrop%C3%ADa-de-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arquitectura</title>
+      <link>http://localhost:1313/categories/arquitectura/</link>
+      <pubDate>Wed, 06 Jan 2021 10:14:09 -0300</pubDate>
+      <guid>http://localhost:1313/categories/arquitectura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carrera</title>
+      <link>http://localhost:1313/categories/carrera/</link>
+      <pubDate>Wed, 06 Jan 2021 10:14:09 -0300</pubDate>
+      <guid>http://localhost:1313/categories/carrera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complejidad</title>
+      <link>http://localhost:1313/categories/complejidad/</link>
+      <pubDate>Wed, 06 Jan 2021 10:14:09 -0300</pubDate>
+      <guid>http://localhost:1313/categories/complejidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conocimiento</title>
+      <link>http://localhost:1313/categories/conocimiento/</link>
+      <pubDate>Wed, 06 Jan 2021 10:14:09 -0300</pubDate>
+      <guid>http://localhost:1313/categories/conocimiento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ingeniería</title>
+      <link>http://localhost:1313/categories/ingenier%C3%ADa/</link>
+      <pubDate>Wed, 06 Jan 2021 10:14:09 -0300</pubDate>
+      <guid>http://localhost:1313/categories/ingenier%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evolución</title>
+      <link>http://localhost:1313/categories/evoluci%C3%B3n/</link>
+      <pubDate>Sun, 13 Dec 2020 09:31:34 -0300</pubDate>
+      <guid>http://localhost:1313/categories/evoluci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestión</title>
+      <link>http://localhost:1313/categories/gesti%C3%B3n/</link>
+      <pubDate>Sun, 04 Oct 2020 09:48:32 -0300</pubDate>
+      <guid>http://localhost:1313/categories/gesti%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ingeniería De Software</title>
+      <link>http://localhost:1313/categories/ingenier%C3%ADa-de-software/</link>
+      <pubDate>Sun, 04 Oct 2020 09:48:32 -0300</pubDate>
+      <guid>http://localhost:1313/categories/ingenier%C3%ADa-de-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estudios</title>
+      <link>http://localhost:1313/categories/estudios/</link>
+      <pubDate>Sun, 31 May 2020 11:20:51 -0400</pubDate>
+      <guid>http://localhost:1313/categories/estudios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gestión De Proyectos</title>
+      <link>http://localhost:1313/categories/gesti%C3%B3n-de-proyectos/</link>
+      <pubDate>Sat, 23 May 2020 11:43:22 -0400</pubDate>
+      <guid>http://localhost:1313/categories/gesti%C3%B3n-de-proyectos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Negocios</title>
+      <link>http://localhost:1313/categories/negocios/</link>
+      <pubDate>Sun, 05 Apr 2020 08:38:01 -0400</pubDate>
+      <guid>http://localhost:1313/categories/negocios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seguridad</title>
+      <link>http://localhost:1313/categories/seguridad/</link>
+      <pubDate>Sun, 05 Apr 2020 08:38:01 -0400</pubDate>
+      <guid>http://localhost:1313/categories/seguridad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usabilidad</title>
+      <link>http://localhost:1313/categories/usabilidad/</link>
+      <pubDate>Sun, 05 Apr 2020 08:38:01 -0400</pubDate>
+      <guid>http://localhost:1313/categories/usabilidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>El Fin De La Agilidad</title>
+      <link>http://localhost:1313/categories/el-fin-de-la-agilidad/</link>
+      <pubDate>Thu, 15 Aug 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/categories/el-fin-de-la-agilidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educación</title>
+      <link>http://localhost:1313/categories/educaci%C3%B3n/</link>
+      <pubDate>Wed, 18 Nov 2009 20:00:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/educaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>La Brecha Intelectual</title>
+      <link>http://localhost:1313/categories/la-brecha-intelectual/</link>
+      <pubDate>Wed, 18 Nov 2009 20:00:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/la-brecha-intelectual/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>La Brecha Tecnológica</title>
+      <link>http://localhost:1313/categories/la-brecha-tecnol%C3%B3gica/</link>
+      <pubDate>Wed, 18 Nov 2009 20:00:41 +0000</pubDate>
+      <guid>http://localhost:1313/categories/la-brecha-tecnol%C3%B3gica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emprendimiento</title>
+      <link>http://localhost:1313/categories/emprendimiento/</link>
+      <pubDate>Sat, 14 Nov 2009 08:49:52 +0000</pubDate>
+      <guid>http://localhost:1313/categories/emprendimiento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Sat, 14 Nov 2009 08:49:52 +0000</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paradigmas</title>
+      <link>http://localhost:1313/categories/paradigmas/</link>
+      <pubDate>Mon, 02 Nov 2009 00:15:38 +0000</pubDate>
+      <guid>http://localhost:1313/categories/paradigmas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>La Naturaleza Del Software</title>
+      <link>http://localhost:1313/categories/la-naturaleza-del-software/</link>
+      <pubDate>Thu, 22 Oct 2009 13:01:57 +0000</pubDate>
+      <guid>http://localhost:1313/categories/la-naturaleza-del-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programación</title>
+      <link>http://localhost:1313/categories/programaci%C3%B3n/</link>
+      <pubDate>Thu, 22 Oct 2009 13:01:57 +0000</pubDate>
+      <guid>http://localhost:1313/categories/programaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Villano Invitado</title>
+      <link>http://localhost:1313/categories/villano-invitado/</link>
+      <pubDate>Thu, 22 Oct 2009 13:01:57 +0000</pubDate>
+      <guid>http://localhost:1313/categories/villano-invitado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ciencia</title>
+      <link>http://localhost:1313/categories/ciencia/</link>
+      <pubDate>Sun, 18 Oct 2009 13:05:44 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ciencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Credibilidad</title>
+      <link>http://localhost:1313/categories/credibilidad/</link>
+      <pubDate>Fri, 16 Oct 2009 11:05:34 +0000</pubDate>
+      <guid>http://localhost:1313/categories/credibilidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humor</title>
+      <link>http://localhost:1313/categories/humor/</link>
+      <pubDate>Fri, 16 Oct 2009 11:05:34 +0000</pubDate>
+      <guid>http://localhost:1313/categories/humor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anumerismo</title>
+      <link>http://localhost:1313/categories/anumerismo/</link>
+      <pubDate>Sun, 04 Oct 2009 21:45:32 +0000</pubDate>
+      <guid>http://localhost:1313/categories/anumerismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desarrollo</title>
+      <link>http://localhost:1313/categories/desarrollo/</link>
+      <pubDate>Sun, 06 Sep 2009 13:50:07 +0000</pubDate>
+      <guid>http://localhost:1313/categories/desarrollo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cultura</title>
+      <link>http://localhost:1313/categories/cultura/</link>
+      <pubDate>Sat, 05 Sep 2009 22:39:46 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cultura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Libre</title>
+      <link>http://localhost:1313/categories/software-libre/</link>
+      <pubDate>Fri, 05 Jun 2009 21:42:49 +0000</pubDate>
+      <guid>http://localhost:1313/categories/software-libre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identidad Digital</title>
+      <link>http://localhost:1313/categories/identidad-digital/</link>
+      <pubDate>Thu, 14 May 2009 13:59:45 +0000</pubDate>
+      <guid>http://localhost:1313/categories/identidad-digital/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>http://localhost:1313/categories/internet/</link>
+      <pubDate>Thu, 14 May 2009 13:59:45 +0000</pubDate>
+      <guid>http://localhost:1313/categories/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacidad</title>
+      <link>http://localhost:1313/categories/privacidad/</link>
+      <pubDate>Mon, 16 Mar 2009 23:32:24 +0000</pubDate>
+      <guid>http://localhost:1313/categories/privacidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opensource</title>
+      <link>http://localhost:1313/categories/opensource/</link>
+      <pubDate>Thu, 19 Jun 2008 23:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/opensource/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sin Categoría</title>
+      <link>http://localhost:1313/categories/sin-categor%C3%ADa/</link>
+      <pubDate>Mon, 26 Feb 2007 20:38:02 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sin-categor%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biometría</title>
+      <link>http://localhost:1313/categories/biometr%C3%ADa/</link>
+      <pubDate>Mon, 14 Nov 2005 17:49:35 +0000</pubDate>
+      <guid>http://localhost:1313/categories/biometr%C3%ADa/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Felicidad on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/felicidad/</link>
+    <description>Recent content in Felicidad on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 26 May 2018 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/felicidad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antifragilidad</title>
+      <link>http://localhost:1313/posts/2018/antifragilidad/</link>
+      <pubDate>Sat, 26 May 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2018/antifragilidad/</guid>
+      <description>&lt;p&gt;Hace unos años escuché a una persona, que ocupaba un alto cargo en&#xA;tecnología, declarar que su máxima aspiración era tener la oportunidad&#xA;de dormir tranquila, con la seguridad de que todos los procesos y&#xA;sistemas se ejecutaran sin problemas.&lt;/p&gt;&#xA;&lt;p&gt;Yo no estoy de acuerdo con eso, creo que es una ambición fútil. Es lo&#xA;mismo que ocurre con las personas que sólo quieren &lt;a href=&#34;http://localhost:1313/blog/lnds/2010/10/02/ser-y-estar&#34;&gt;ser felices&lt;/a&gt;.&#xA;Esas aspiraciones me parecen infantiles, e impiden crecer, desarrollarse.&#xA;Pero en el mundo de los negocios y de la tecnología que soporta al&#xA;negocio, esa visión puede llegar a ser incluso contraproducente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caine&#39;s Arcade</title>
+      <link>http://localhost:1313/posts/2012/caine-s-arcade/</link>
+      <pubDate>Sat, 08 Dec 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/caine-s-arcade/</guid>
+      <description>&lt;p&gt;Me entero de esta maravillosa historia &lt;a href=&#34;http://brigomp.blogspot.com/2012/04/el-salon-recreativo-de-caine.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Pensamientosgiles+%28Pensamientos+%C3%A1giles%29&#34;&gt;Vía Pensamientos Ágiles&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Dicen que un niño sólo necesita de su imaginación, y quizás una caja de&#xA;cartón para ser feliz, y en este caso Caine nos muestra que ese don&#xA;puede alegrar a mucha gente.&lt;/p&gt;&#xA;&lt;p&gt;{% vimeo 40000072 %}&lt;/p&gt;&#xA;&lt;p&gt;La historia apareció en Reddit y tuvo un impacto grande como pueden ver&#xA;en el video, actualmente existe una iniciativa para becar los estudios&#xA;de Caine y otros niños tan imaginativos como él, la que hasta ahora ha&#xA;recaudado más de 200.000 dolares: &lt;a href=&#34;http://cainesarcade.com/&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ser y estar</title>
+      <link>http://localhost:1313/posts/2010/ser-y-estar/</link>
+      <pubDate>Sat, 02 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/ser-y-estar/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Soy Feliz&amp;rdquo; dicen algunos. A los que me conocen, y quiero,  les digo&#xA;&lt;em&gt;&amp;ldquo;no se puede ser feliz&amp;rdquo;&lt;/em&gt;, y la razón es muy simple, la felicidad es&#xA;un estado. Tu puedes &lt;strong&gt;estar&lt;/strong&gt; feliz, pero no &lt;strong&gt;ser&lt;/strong&gt; feliz.&lt;/p&gt;&#xA;&lt;p&gt;Sin embargo decimos &amp;ldquo;estoy enamorado&amp;rdquo;, no tenemos problemas en admitir&#xA;la temporalidad del amor, pero no la de la felicidad.&lt;/p&gt;&#xA;&lt;p&gt;El español tiene esa ventaja de separar el verbo ser del verbo estar,&#xA;algo que no tienen otros lenguajes. Esa es una herramienta muy poderosa,&#xA;porque le da al pensamiento filosófico dinamismo. Si la lengua materna&#xA;de  Heiddeger hubiera sido el castellano su filosofía habría sido más&#xA;simple, pero su juicio con respecto a la ontología es muy válido, y&#xA;tiene que ver con la naturaleza estática de esta. Por eso que desconfío&#xA;de las ontologías, porque no dan cuenta de la naturaleza dinámica de lss&#xA;proceso, y llevan a un pensamiento estático, rígido.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

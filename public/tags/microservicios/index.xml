@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservicios on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/microservicios/</link>
+    <description>Recent content in Microservicios on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 25 Dec 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/microservicios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo ganarle a Santa Claus</title>
+      <link>http://localhost:1313/posts/2017/como-ganarle-a-santa-claus/</link>
+      <pubDate>Mon, 25 Dec 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/como-ganarle-a-santa-claus/</guid>
+      <description>&lt;p&gt;No hay nadie que supere en logística a Santa Claus, también conocido&#xA;como Papá Noel, o Viejito Pascuero en Chile. Es decir, ¿quién podría&#xA;repartir regalos a todos los niños del mundo durante una noche? Por&#xA;supuesto que tiene veinticuatro horas para hacerlo, pero aún así, para&#xA;cubrir cada zona horaria tiene apenas sesenta minutos, para poder&#xA;aterrizar en cada casa, dejar los regalos y luego re emprender vuelo.&lt;/p&gt;&#xA;&lt;p&gt;El truco es que Santa Claus usa magia, así que hay poco que podamos&#xA;hacer al respecto, hasta que no hayamos alcanzado tal nivel de&#xA;desarrollo tecnológico no podremos superarlo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

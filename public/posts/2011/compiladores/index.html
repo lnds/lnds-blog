@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Compiladores | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2011/compiladores/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Compiladores">
+  <meta property="og:description" content="Compiladores ahora es un ramo electivo para ingeniería en computación, en la facultad en que estudié1. Al menos cuando yo estudié me parece que era obligatorio, y creo que debería ser un ramo obligatorio.
+Ignoro por que la Universidad de Chile decidió hacer este ramo optativo, ignoro también cuanta gente toma esta materia cada semestre,también he escuchado que la matrícula en computación ha bajado, espero que algún académico me confirme esa información.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-12-15T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-12-15T08:25:11-03:00">
+    <meta property="article:tag" content="Compiladores">
+    <meta property="article:tag" content="Cultura">
+    <meta property="article:tag" content="Cine">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Compiladores">
+  <meta name="twitter:description" content="Compiladores ahora es un ramo electivo para ingeniería en computación, en la facultad en que estudié1. Al menos cuando yo estudié me parece que era obligatorio, y creo que debería ser un ramo obligatorio.
+Ignoro por que la Universidad de Chile decidió hacer este ramo optativo, ignoro también cuanta gente toma esta materia cada semestre,también he escuchado que la matrícula en computación ha bajado, espero que algún académico me confirme esa información.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Compiladores</h1><time class="dim" datetime="2011-12-15T08:25:11-03:00">December 15, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/compiladores/">#compiladores</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/cultura/">#cultura</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/cine/">#cine</a>
+      </div></ol></div>
+  <section class="page-section"><p><img src="compilers.jpg" alt="compilers"></p>
+<p>Compiladores ahora es un ramo electivo para ingeniería en computación, en la facultad
+en que estudié<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Al menos cuando yo estudié me parece que era
+obligatorio, y creo que debería ser un ramo obligatorio.</p>
+<p>Ignoro por que la Universidad de Chile decidió hacer este ramo optativo,
+ignoro también cuanta gente toma esta materia cada semestre,también he
+escuchado que la matrícula en computación ha bajado, espero que algún
+académico me confirme esa información.</p>
+<p>Como sea, creo que la la no obligatoriedad del curso de compiladores es
+un error, porque es uno de los ramos que mejor sintetiza todo lo
+aprendido en la carrera.</p>
+<p>Cuando haces un compilador aplicas:</p>
+<ul>
+<li>
+<p>Estructuras de Datos (AST, Grafos de Colores)</p>
+</li>
+<li>
+<p>Algoritmos, Teorías de Autómatas, Teorías de Lenguajes Formales</p>
+</li>
+<li>
+<p>Fundamentos de Lenguajes de Programación (en el diseño del lenguaje)</p>
+</li>
+<li>
+<p>Optimización</p>
+</li>
+<li>
+<p>Programación en código de máquina (real o virtual)</p>
+</li>
+<li>
+<p>Modularidad, Integración, bajo acoplamiento (la estructura del
+analizador léxico, sintáctico, semántico y generación de código
+ayuda a entender y aplicar por primera vez los conceptos de
+arquitectura del software</p>
+</li>
+<li>
+<p>Ingeniería de software, diseño, análisis</p>
+</li>
+</ul>
+<p>Construir un compilador es el desafío que te forma como verdadero
+desarrollador de software, todo aquel que se quiera desempeñar como
+ingeniero de software debería intentar hacer un compilador alguna vez en
+su vida.</p>
+<p>En mi vida profesional he construido 2 compiladores y diseñado 3
+lenguajes (uno de los lenguajes usaba el pre procesador de C, así que
+era en realidad un conjunto de macros).</p>
+<p>Estos lenguajes son lo que hoy llamamos DSL, lenguajes de dominio
+específico, diseñados para resolver un problema específico. El primero
+fue desarrollado en conjunto con Marco Zúñiga. Tenía un compilador, una
+máquina virtual propia, y hacíamos capacitaciones y lo licenciábamos,
+ganamos algunos buenos dólares con SanScript, como lo llamamos. Un DSL
+para automatizar tareas de comunicación de datos.</p>
+<p>El segundo compilador era en realidad un traductor, que traducía de una
+suerte de markup tipo <a href="http://haml-lang.com/">Haml</a> y generaba páginas
+JSP. Lo divertido era que además eran resueltas con un filtro
+implementado con un servlet, que interpretaba los archivos con extensión
+.edc (mis iniciales) y generaba  las páginas jsp en un caché. Las
+contrapartes técnicas con que interactué en ese tiempo siempre me
+preguntaba que eran estas páginas con extensión &lsquo;.edc&rsquo; :smile:</p>
+<p>Pero nunca he hecho un compilador de un lenguaje de propósito general, a
+pesar de que tengo la idea de hacerlo desde hace muchos años. Ahora que
+<a href="/blog/2011/12/java-debe-morir.html">todo el mundo tiene ganas de matar Java</a>, se me
+ocurrió que es momento de mostrar mi propuesta, de modo de que la
+primera versión de mi lenguaje corra sobra la Java Virtual Machine.</p>
+<p><strong>Ogu</strong></p>
+<p>El lenguaje se llama
+<a href="http://es.wikipedia.org/wiki/Og%C3%BA#Personajes">Ogu</a>, su nombre es un
+homenaje al personaje creado por el caricaturista chileno <a href="http://es.wikipedia.org/wiki/Themo_Lobos">Themo
+Lobos</a>, es un cavernícola muy
+simpático amigo de aventuras de
+<a href="http://es.wikipedia.org/wiki/Mampato">Mampato</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Este es un sencillo programa en Ogu:</p>
+<blockquote>
+<p>println &quot;Akarrú!!!&quot;</p></blockquote>
+<p>Ninguna novedad dirán ustedes, hasta python hace eso, aunque traten de
+escribir este programa en Java :wink:</p>
+<p>En este artículo voy a hacer una breve introducción, espero escribir más
+en los próximos días, donde iré describiendo las características de este
+nuevo lenguaje. Estoy aún en proceso de diseño, aunque hay ideas que
+tengo de hace años. Por cierto hay  influencias de otros lenguajes, como
+irán notando. Lo importante es que consideren de que es muy probable que
+las cosas cambien.</p>
+<p>Lo primero que hay que notar es que es un lenguaje con tipos estáticos,
+como Java, como Scala o como Haskell, es decir, toda variable debe tener
+un tipo, así que toda declaración de un símbolo en Ogu debe tener su
+tipo.</p>
+<p>Acá hay un ejemplo de declaraciones en Ogu:</p>
+<pre><code>blog : String
+
+ogú : Cavernícola
+
+x, y : Int
+</code></pre>
+<p>Los dos puntos &lsquo;:&rsquo; separan a la variable de su tipo.</p>
+<p>La asignación en Ogu es con el signo &lsquo;=&rsquo;, y sirve para inicializar una
+variable que ha sido declarada previamente, por ejemplo:</p>
+<pre><code>blog = &quot;La naturaleza del software&quot;
+
+ogú = Cavernícola(nombre:&quot;Ogú&quot;, grito: &quot;akarrú!!!)
+
+x = 1
+
+y = 2
+</code></pre>
+<p>Por supuesto las variables pueden tener un valor inicial al declararse:</p>
+<pre><code>blog : String = &quot;La naturaleza del software&quot;
+
+ogú : Cavernícola = Cavernícola(nombre : &quot;ogú&quot; )
+
+x, y : Int = 1, 2
+</code></pre>
+<p>Pero Ogu tiene cierta flexibilidad, que permite tranquilizar a los
+amantes de los lenguajes dinámicas, al inferir tipos:</p>
+<pre><code>blog := &quot;La naturaleza del software&quot; // blog es de tipo String
+
+ogú := Cavernícola(nombre: &quot;ogú&quot;) // ogú es de tipo Cavernícola
+
+x, y := 1, 2 // x e y son de tipo Int
+</code></pre>
+<p>Habrán notado que el nombre de las variables lleva acentos, esto porque
+Ogu acepta(rá) código escrito en Unicode.</p>
+<p>Otra cosa importante, en Ogu si algo empieza con mayúsculas es la
+declaración de una clase, si empieza con minúsculas es una variable.</p>
+<p>Pero todas las variables son inmutables, es decir, no puedes cambiarles
+el valor una vez asignada:</p>
+<pre><code>x := 1
+
+x = 2 // error!!!
+</code></pre>
+<p>Si necesitas que las variables sean mutables debes declararlas
+anteponiendo la palabra reservada &lsquo;var&rsquo;:</p>
+<pre><code>var x := 1
+
+x = 2 // ok, porque x es mutable
+</code></pre>
+<p>Esto es importante porque Ogu privilegia la programación funcional, como
+veremos más adelante.</p>
+<p>Ogu es como el lenguaje <a href="http://www.scala-lang.org/">Scala</a>, soporta 2
+paradigmas de programación: funcional y orientado al objeto. En Ogu la
+diferencia entre funciones y clases es algo difusa (el uso de mayúsculas
+para clases ayuda a desambiguarla).</p>
+<p><strong>Funciones:</strong></p>
+<p>Veamos como declarar una función:</p>
+<pre><code>factorial : Int --\&gt; Int
+
+factorial 0 = 1
+
+factorial n = n \* factorial (n-1)
+</code></pre>
+<p>Este ejemplo muestra que Ogu privilegia el paradigma funcional, y sigue
+una sintaxis muy parecida a la de Haskell.</p>
+<p>El valor de una función está determinado por la expresión a la izquierda
+del signo &lsquo;=&rsquo;.</p>
+<p>Lo que tenemos son patrones, o casos, que definen a la función. Podemos
+escribir factorial de esta forma abreviada:</p>
+<pre><code>factorial : (n:Int) --&gt; Int  =  (n == 0) 1 else  n \* factorial(n-1)
+</code></pre>
+<p>Si hay más de una expresión en una función estas deben ir rodeadas de
+llaves {}.</p>
+<p>En la forma abreviada deben ir los argumentos nombrados entre
+paréntesis, y es opcional nombrar el resultado.</p>
+<p>El valor de la función será el valor de la última expresión, a menos que
+el resultado haya sido nombrado:</p>
+<pre><code>suma : (a,b : Int) -&gt; Int = { a+b // el valor es a+b\ 
+}
+
+suma2 : (a, b : Int) -&gt; (resultado: Int) =  {
+    resultado = a+b
+    println &quot;el resultado es &quot; + resultado // el valor de suma2 es
+    resultado
+}
+</code></pre>
+<p>Si la función no recibe argumentos se debe usar la expresión () &ndash;&gt;
+Tipo, esto con el fin de resolver ambiguedades:</p>
+<pre><code>uno : () -&gt; Int = 1 // siempre retorna 1, pero es una función
+
+uno := 1 //  es la variable uno
+</code></pre>
+<p>Si la función no retorna valores se debe usar &ndash;&gt; Void, o solo colocar
+los parentesis:</p>
+<pre><code>saludar : () -&gt; Void = println(&quot;hola&quot; )
+
+saludar : () = println(&quot;hola&quot; )
+</code></pre>
+<p>Veamos como declarar una clase</p>
+<pre><code>Persona : (nombre: String, edadInicial: Int) ={
+
+**var** \_edad = edadInicial
+
+saludar : () = println &quot;hola &quot; + nombre
+
+celebrarCumpleaños : () = {\
+    _edad = \_edad + 1\
+    println &quot;¡¡ feliz cumpleaños &quot; + nombre + &quot;!!&quot;\
+    } 
+}
+</code></pre>
+<p>Como verán Ogu es un lenguaje que privilegia la economía sintáctica. Los
+argumentos nombre y edadInicial son atributos de la clase, y no es
+necesario declararlos en el cuerpo, _edad también es un atributo, pero
+privado. Los identificadores que empiezan con _ son privados, como en
+Python.</p>
+<p>Los nombres que empiezan con mayúsculas son tipos o clases, y los
+nombres que  empiezan con minúsculas son nombres de funciones o
+variables. Si un nombre empieza con _ y luego viene mayúscula es un
+tipo privado.</p>
+<p>Noten que junto con declarar la clase Persona, hemos definido el
+constructor de la clase.</p>
+<p>Ahora podemos presentar la declaración de Cavernícola:</p>
+<pre><code>Cavernícola : (nombre, grito : String)
+
+Cavernícola  : (nombre : String)  = Cavernícola(nombre, &quot;akarrú!!&quot;)
+
+Cavernícola = {
+
+    pelear : () = {\
+        println &quot;yiko pelea!&quot;\
+        println grito\
+    } 
+}
+</code></pre>
+<p>Fíjense como hemos declarado Cavernícola con dos constructores.</p>
+<p>Hay más cosas que contar, pero esto es un anticipo de Ogu, que espero
+les guste. El proyecto será opensource y se publicará en
+<a href="https://github.com/lnds/Ogu/">github</a>. Por ahora sólo existe un parser,
+el que aún tiene algunos problemas con ciertas ambigüedades. Espero
+tener pronto una primera versión para que empiecen a probarlo.</p>
+<p>Este es el primer artículo sobre Ogu, en la medida que vaya resolviendo
+problemas de diseño iré publicando más.Espero sus opiniones, preguntas y
+sugerencias.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Malla de Ingeniería Civil en Computación impartido por el DCC
+(para <a href="http://www.dcc.uchile.cl/node/114">los que ingresaron antes de
+2007</a>, y <a href="http://www.dcc.uchile.cl/node/235">los que ingresaron después
+de 2007</a>).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>En realidad el personaje se llama Ogú (con acento en la u), y su
+grito de guerra es Akarrú, sí, <a href="http://www.akarru.org/blog/">Akarrú</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1459 words</span>
+    <span>8 - 11 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2011/compiladores/compilers.jpg">compilers.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2011/goedel/">Gödel</a></li><li><a href="/posts/2010/transculturizacion/">Transculturización</a></li><li><a href="/posts/2010/un-video-imperdible/">Un video imperdible</a></li><li><a href="/posts/2010/la-naturaleza-de-avatar-segunda-parte-hacia-donde-vamos/">La Naturaleza de Avatar, segunda parte, ¿hacia donde vamos?</a></li><li><a href="/posts/2010/la-naturaleza-de-avatar-primera-parte-donde-estoy/">La Naturaleza de Avatar, primera parte, ¿donde estoy?</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

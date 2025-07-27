@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Causas Imaginadas | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2011/causas-imaginadas/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Causas Imaginadas">
+  <meta property="og:description" content="Hay un tipo de falacia lógica llamada post hoc, que viene del latín “post hoc ergo propter hoc” (“después de esto por lo tanto, a consecuencia de esto”), y que es un problema de falsa causalidad. Esto se debe al principio de causalidad, de que todo efecto debe tener una causa, y que la causa precede al efecto: “como el gallo canta antes del amanecer todos los días, entonces el gallo provoca que salga el sol”.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-10-22T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-10-22T08:25:11-03:00">
+    <meta property="article:tag" content="Sesgos">
+    <meta property="article:tag" content="Falacias">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Causas Imaginadas">
+  <meta name="twitter:description" content="Hay un tipo de falacia lógica llamada post hoc, que viene del latín “post hoc ergo propter hoc” (“después de esto por lo tanto, a consecuencia de esto”), y que es un problema de falsa causalidad. Esto se debe al principio de causalidad, de que todo efecto debe tener una causa, y que la causa precede al efecto: “como el gallo canta antes del amanecer todos los días, entonces el gallo provoca que salga el sol”.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Causas Imaginadas</h1><time class="dim" datetime="2011-10-22T08:25:11-03:00">October 22, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/sesgos/">#sesgos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/falacias/">#falacias</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hay un tipo de falacia lógica llamada post hoc, que viene del latín
+&ldquo;post hoc ergo propter hoc&rdquo; (&ldquo;después de esto por lo tanto, a
+consecuencia de esto&rdquo;), y que es un problema de falsa causalidad. Esto
+se debe al principio de causalidad, de que todo efecto debe tener una
+causa, y que la causa precede al efecto: &ldquo;como el gallo canta antes del
+amanecer todos los días, entonces el gallo provoca que salga el sol&rdquo;.</p>
+<p>Ahora bien, el sesgo de muestra, como el que revisamos en
+<a href="/blog/2011/07/condiciones-necesarias.html">nuestro artículo anterior</a>
+sufre de este tipo de falacia. Si vemos que el viento sopla y
+posteriormente se mueven las ramas y hojas de los árboles, es seguro
+concluir que el viento causo ese movimiento, ese razonamiento parece
+seguro. El problema es que no todas las relaciones de precedencias de
+eventos en el tiempo son determinantes de causalidad. En fenómenos
+físicos se puede encontrar finalmente las causas reales, porque los
+experimentos se pueden repetir, pero en teorías sociales, o incluso en
+divagaciones teológicas es muy frecuente que se caiga en la falacia post
+hoc.</p>
+<p>Por ejemplo, la teoría de Malcolm Gladwell, de la ley de los pocos, cae
+en la falacia post hoc. Siempre que sucede un evento como un libro que
+es éxito de ventas, una gran película que rompe la taquilla, un artista
+que se hace famoso repentinamente, o un producto que se vuelve exitoso,
+hay alguien que empieza a comprar o hacer algo relacionado con este
+evento antes que los demás, y esa persona aparecerá como influyente.
+Watts critica esta visión de los pocos influyentes que generan estas
+epidemias sociales, pues hay una serie de otros factores que
+desencadenan esta influencia accidental.</p>
+<p>El problema es que la falacia post-hoc puede generar estos
+influenciadores accidentaless. Por ejemplo, consideremos la epidemia del
+<a href="http://es.wikipedia.org/wiki/SRAS">SRAS</a>, el Sindrome Respiratorio
+Agudo Severo, o SARS como se le conoció en inglés. A fines de 2002 esta
+enfermedad surgió en Honk Kong. Losudios posteriores hechos por los
+epidemiólogos determinaron que una única persona, un hombre joven que
+había viajado desde el interior de China a Honk Kong por tren, y que
+había sido admitido en el hospital Prince of Wales de Hong Kong, había
+infectado a 50 personas, lo que llevó a 156 casos sólo en el hospital.
+Subsecuentemente, el brote en el hospital Prince of Wales llevó a un
+segundo brote en Hong Kong, que terminó en la difusión de la epidemia en
+Canadá y otros países.  Basados en estos ejemplos, los epidemiólogos han
+llegado al convencimiento de que la seriedad de las epidemias
+depende des proporcionadamente del comportamiento de unos sujetos
+especiales,
+los <a href="http://www.medterms.com/script/main/art.asp?articlekey=22951">superspreaders</a> (como la famosa <a href="http://es.wikipedia.org/wiki/Salmonelosis#Mar.C3.ADa_Tifoidea">María Tifoidea</a>).</p>
+<p><img src="Mallon-Mary.jpg" alt=""></p>
+<p>Pero al analizar con más cuidado el caso del SARS nos revela que la
+causa real del problema fue un mal diagnóstico de neumonía cuando el
+paciente ingresó al hospital. En vez de mantenerlo aislado (el
+procedimiento estándar cuando se recibe a un paciente con un virus
+respiratorio desconocido), el paciente fue colocado en una sala abierta
+con una pobre circulación de aire. Es más, dado que fue mal
+diagnósticado de neumonía, se le colocó un ventilador bronquial, el que
+comenzó a esparcir una gran cantidad de particulas virales en al aire
+alrededor de él. Las condiciones de la sala, repleta de gente, resultó
+en que una gran cantidad de pacientes y funcionarios del hospital se
+enfermaran también. Estos eventos fueron muy importantes en la difusión
+de la enfermedad, al menos localmente.</p>
+<p>Visto así, el paciente no parece ser tan importante, como los detalles
+de su tratamiento. Antes de esto, nada de lo que se supiera del paciente
+nos habría hecho sospechar de que hubiera algo especial en esa persona,
+porque no hay nada especial en ese paciente.</p>
+<p>En los eventos que pasaron después del brote en el hospital Prince of
+Walles, tampoco hay nada especial en las personas que difundieron el
+virus. De hecho en el segundo brote en Hong Kong en un edificio de
+departamentos, hay una secuencia de otros elementos adicionales, como
+una filtración en la plomería del edificio que explica la difusión del
+virus (en este caso un habitante del edificio había sido tratado en el
+hospital, allí se infectó con SARS,  al volver a su departamento sufría
+de diarrea).</p>
+<p>Como ven  <a href="/blog/2011/06/la-paradoja-del-sentido-comun.html">el sentido común</a>
+nos engaña nuevamente, al generar causa plausibles, donde aparecen
+personas especiales, o con atributos especiales, como las causantes de
+eventos extraordinarios. Esto, sumado al hecho de que se tiende a
+descartar muchos otros detalles y evidencias, llevan a dejar
+una sola hebra que lo explica todo.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>758 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2011/causas-imaginadas/Mallon-Mary.jpg">Mallon-Mary.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2011/el-problema-con-la-razon/">El problema con la Razón</a></li><li><a href="/posts/2011/medir-y-reaccionar/">Medir y Reaccionar</a></li><li><a href="/posts/2011/condiciones-necesarias/">Condiciones necesarias</a></li><li><a href="/posts/2011/influencias/">Influencias</a></li><li><a href="/posts/2011/razonamiento-circular/">Razonamiento circular</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

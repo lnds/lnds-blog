@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amenazas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/amenazas/</link>
+    <description>Recent content in Amenazas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 07 Aug 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/amenazas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un mundo controlado por algoritmos</title>
+      <link>http://localhost:1313/posts/2011/un-mundo-controlado-por-algoritmos/</link>
+      <pubDate>Sun, 07 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/un-mundo-controlado-por-algoritmos/</guid>
+      <description>&lt;p&gt;El 26 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un&#xA;crash de la bolsa que hizo caer el índice Dow Jones en 900 puntos (una&#xA;caida del 9%) el que se recuperó completamente unos pocos minutos&#xA;después. A este fenómeno se le denominó el&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/2010_Flash_Crash&#34;&gt;Flash Crash de 2010&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hay sobre 2.000 físicos de particulas que trabajan actualmente en Wall&#xA;Street. Lo que hacen es modelar el comportamiento de las bolsas en&#xA;algoritmos que transan acciones en cuestión de micro segundos. Para que&#xA;tengan una idea nos demoramos 500.000 microsegundos en hacer un click&#xA;con el mouse. Así que en términos de algoritmos  si te demoras un par de&#xA;segundos eres un perdedor.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

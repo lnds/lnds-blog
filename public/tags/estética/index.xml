@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estética on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/est%C3%A9tica/</link>
+    <description>Recent content in Estética on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 11 Sep 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/est%C3%A9tica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poesía, Caligramas y la Belleza del Código</title>
+      <link>http://localhost:1313/posts/2011/poesia-caligramas-y-la-belleza-del-codigo/</link>
+      <pubDate>Sun, 11 Sep 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/poesia-caligramas-y-la-belleza-del-codigo/</guid>
+      <description>&lt;p&gt;La lectura de un párrafo de texto  requiere un recorrido lineal de&#xA;izquierda a derecha. Esto debido a la conformación de nuestro sistema de&#xA;escritura, si estuvieramos en el oriente medio el sentido sería el&#xA;contrario, de derecha a izquierda. La lectura es lineal, en una&#xA;dimensión. A diferencia de la comunicación oral, por ejemplo, que tiene&#xA;2 ó quizás más dimensiones. Al conversar no sólo usamos el habla, está&#xA;el lenguaje corporal, los gestos que acompañan nuestra expresión, la&#xA;respuesta límbica, etc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

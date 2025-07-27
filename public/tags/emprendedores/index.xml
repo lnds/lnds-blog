@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emprendedores on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/emprendedores/</link>
+    <description>Recent content in Emprendedores on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 08 Feb 2006 15:57:39 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/emprendedores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Una entrevista a los creadores de BloGalaxia</title>
+      <link>http://localhost:1313/posts/2006/una-entrevista-a-los-creadores-de-blogalaxia/</link>
+      <pubDate>Wed, 08 Feb 2006 15:57:39 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/una-entrevista-a-los-creadores-de-blogalaxia/</guid>
+      <description>&lt;p&gt;Cuando uno visita &lt;a href=&#34;http://replay.waybackmachine.org/20071023025723/http://www.blogalaxia.com/&#34;&gt;blogalaxia.com&lt;/a&gt; queda sorprendido. Es un sitio extraordinariamente bien hecho, útil, adictivo y yo creo que se va a volver el referente obligado de la blogosfera hispanoparlante (o hispanoescribiente?).&lt;/p&gt;&#xA;&lt;p&gt;Detrás de &lt;a href=&#34;http://replay.waybackmachine.org/20071023025723/http://www.blogalaxia.com/&#34;&gt;blogalaxia &lt;/a&gt;hay dos jóvenes emprendedores peruanos, quienes tienen unas ideas interesantes sobre la web 2.0 y que compartieron conmigo en una reciente entrevista que les hice. Los invito a conocer a los creadores de BloGalaxia.&lt;/p&gt;&#xA;&lt;h2 id=&#34;la-entrevista&#34;&gt;La Entrevista&lt;/h2&gt;&#xA;&lt;p&gt;Esta entrevista fue realizada vía mail, tengo que agradecer la gentileza de Javier y Bruno que se tomaron el tiempo de contestar mi cuestionario.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

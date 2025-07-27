@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Medir y Reaccionar | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2011/medir-y-reaccionar/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Medir y Reaccionar">
+  <meta property="og:description" content="Medir y reaccionar, básicamente esa es la estrategia de la famosa cadena de tiendas de moda Zara. Más que tratar de predecir lo que la gente vestirá la próxima semana, en Zara simplemente aceptan que no tienen idea. La estrategia es observar en distintas ciudades que es lo que la gente está vistiendo y a partir de eso generar una serie de ideas que podría funcionar. Preparan algunas muestras de ropa se envían a las tiendas y se observa qué se vende y qué no, los que no se venden se desechan, se mantiene poco inventario, y los productos exitosos se empiezan a producir en masa y se distribuyen rápidamente a toda la cadena (gracias a una espectacular logística).">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2011-08-04T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-08-04T08:25:11-03:00">
+    <meta property="article:tag" content="Logística">
+    <meta property="article:tag" content="Estrategia">
+    <meta property="article:tag" content="Sesgos">
+    <meta property="article:tag" content="Economía">
+    <meta property="article:tag" content="Sicología">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Medir y Reaccionar">
+  <meta name="twitter:description" content="Medir y reaccionar, básicamente esa es la estrategia de la famosa cadena de tiendas de moda Zara. Más que tratar de predecir lo que la gente vestirá la próxima semana, en Zara simplemente aceptan que no tienen idea. La estrategia es observar en distintas ciudades que es lo que la gente está vistiendo y a partir de eso generar una serie de ideas que podría funcionar. Preparan algunas muestras de ropa se envían a las tiendas y se observa qué se vende y qué no, los que no se venden se desechan, se mantiene poco inventario, y los productos exitosos se empiezan a producir en masa y se distribuyen rápidamente a toda la cadena (gracias a una espectacular logística).">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Medir y Reaccionar</h1><time class="dim" datetime="2011-08-04T08:25:11-03:00">August 4, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/log%C3%ADstica/">#logística</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/estrategia/">#estrategia</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/sesgos/">#sesgos</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/econom%C3%ADa/">#economía</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/sicolog%C3%ADa/">#sicología</a>
+      </div></ol></div>
+  <section class="page-section"><p>Medir y reaccionar, básicamente esa es la estrategia de la famosa cadena
+de tiendas de moda Zara. Más que tratar de predecir lo que la gente
+vestirá la próxima semana, en Zara simplemente aceptan que no tienen
+idea. La estrategia es observar en distintas ciudades que es lo que la
+gente está vistiendo y a partir de eso generar una serie de ideas que
+podría funcionar. Preparan algunas muestras de ropa se envían a las
+tiendas y se observa qué se vende y qué no, los que no se venden se
+desechan, se mantiene poco inventario, y los productos exitosos se
+empiezan a producir en masa y se distribuyen rápidamente a toda la
+cadena (gracias a una espectacular
+<a href="http://hbswk.hbs.edu/archive/4652.html">logística</a>).</p>
+<p>Si no podemos predecir lo que viene, una estrategia reactiva puede ser
+una buena alternativa para manejar la incertidumbre. Medir y reaccionar
+es lo que <a href="http://www.mintzberg.org/">Henry Mintzberg</a> llamó la
+<strong>estrategia emergente</strong>.</p>
+<p>A fines de los 1990 Mintzberg hablaba de la caida de la planificación
+estratégica, e identificó tres falacias de esta:</p>
+<ol>
+<li>
+<p><strong>La falacia de la predicción</strong>: el entorno futuro no puede
+predecirse, ya que es imposible predecir el comportamiento de los
+competidores.</p>
+</li>
+<li>
+<p><strong>La falacia de la independencia</strong>: la formulación de la estrategia
+no puede separarse del proceso de dirección; un departamento de
+planificación no puede captar toda la información necesaria para la
+formulación estratégica. Tampoco debe tratarse de un proceso formal
+periódico, sino que se trata de un proceso dinámico.</p>
+</li>
+<li>
+<p><strong>La falacia de la formalización</strong>: los procedimientos formales de
+planificación estratégica son insuficientes para hacer frente a los
+cambios constantes del entorno. Para ello, las organizaciones
+precisan de los sistemas informales y deben promover el aprendizaje
+juntando el pensamiento y la acción.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</li>
+</ol>
+<p>Mintzberg alcanzó cierta notoriedad por sus duras críticas a la
+planificación estratégica.
+En su libro <a href="http://www.amazon.com/gp/product/B001UQ6WW8/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;tag=lanaturaledel-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399373&amp;creativeASIN=B001UQ6WW8">Managers Not MBAs</a> critica
+la formación de administradores mediante un posgrado como el MBA, el
+propone que no se puede enseñar a gestionar en las universidades, que se
+debe aprender en la práctica diaria, aprendiendo de otros gerentes o
+administradores. La postura de Mintzberg respecto a las gestión
+estratégica es que se debe abandonar la idea de establecer
+planificaciones a largo plazo y aprender a reaccionar rápidamente a lo
+que pasa en terreno.</p>
+<p>Esta estrategia funciona muy bien en el ámbito del desarrollo de
+sistemas online. Por ejemplo, <a href="http://www.yahoo.com">Yahoo!</a> utilizó el
+concepto de <em>buckets</em> de usuarios para ir probando los cambios que
+quería implantar en su su home page en 2009. Cuando se quería probar una
+nueva idea de diseño se seleccionaba aleatoriamente a un pequeño
+porcentaje de los más de 100 millones de usuarios que usan
+<a href="http://www.yahoo.com">Yahoo!</a> como su home page. Se medía y observaba
+las reacciones de los usuarios en el bucket y se comparaba contra el
+resto de los usuarios, esencialmente se medía que cosas &ldquo;clickeaban&rdquo;,
+cuanto tiempo pasaban en la home page, etc. Si el cambio tenía
+aceptación entonces se pasaba a producción en el resto del sitio.</p>
+<p>Así hay muchas startups que emplean estas técnicas livianas de testing.
+Por ejemplo, se crean páginas con enlaces que llevan a una página con
+las &ldquo;excusas porque aún no está implementada determinada
+característica&rdquo;. Pero se va recogiendo que links tienen más demanda, y
+esto determina que parte del sitio se construye primero. Sitios como
+<a href="http://www.google.com">Google</a>, <a href="http://www.microsoft.com">Microsoft</a>,
+<a href="http://www.facebook.com">Facebook</a> usan estas técnicas para testear
+nuevas características de sus sitios y ver su aceptación.</p>
+<p><img src="puerto-mont.jpg" alt=""></p>
+<p>Esto en realidad es bastante antiguo,  recuerdo que  mi padre, que
+<a href="https://www.akarru.com/blog/2010/09/23/el-espiritu-de-la-radio/">era un hombre de radio</a>, me contaba sobre la clave del éxito del grupo uruguayo
+<a href="http://www.losiracundos.com.uy/">Los Iracundos</a> (famosos en Chile por su
+canción <a href="http://www.youtube.com/watch?v=5TePzHvg_3g">Puerto Montt</a>). En
+la década de los sesenta Los Iracundos lograron una cantidad
+impresionante de éxitos y primeros lugares en las listas de música
+popular. La clave era que componían una gran cantidad de canciones, las
+que testeaban cada semana en la radio local. Si la canción funcionaba
+entonces era grabada y distribuida por RCA, su disquera.</p>
+<p>La estrategia de medir y reaccionar está detrás de los mecanismos de
+<a href="http://es.wikipedia.org/wiki/Crowdsourcing">crowdsourcing</a>, hay sitios
+web de noticias que mantienen a una gran cantidad de colaboradores que
+trabajan voluntariamente y que analizan los artículos que captan más el
+interés de su público y de acuerdo a eso, junto con el análisis de las
+búsquedas y la navegación en el sitio, deciden sobre que temas escribir
+en los artículos principales del sitio. Lo mismo se usa para moderar los
+foros, y evitar problemas como el trolling. Se mantienen versiones de
+los foros restringidas y monitoreadas por voluntarios, que se encargan
+de filtrar estos pequeños grupos antes de pasar sus contenidos a los
+foros abiertos.</p>
+<p>Todo esto es muy interesante, y parece funcionar, pero nos obliga a
+plantearnos una pregunta: 
+<a href="/blog/2011/07/predicciones.html">si  descartamos la predicción del futuro</a>,
+y hemos visto que <a href="/blog/2011/07/razonamiento-circular.html">tampoco somos capaces de explicar satisfactoriamente el
+pasado</a>,
+¿podemos <em>&ldquo;predecir el presente&rdquo;</em>?  Ese es otro interesante capítulo
+de esta entretenida exploración.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Tomado de Wikipedia <a href="http://es.wikipedia.org/wiki/Henry_Mintzberg">http://es.wikipedia.org/wiki/Henry_Mintzberg</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>813 words</span>
+    <span>5 - 6 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2011/medir-y-reaccionar/puerto-mont.jpg">puerto-mont.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2011/prioridades/">Prioridades</a></li><li><a href="/post/2011/el-halo-de-san-mateo/">El Halo de San Mateo</a></li><li><a href="/post/2011/condiciones-necesarias/">Condiciones necesarias</a></li><li><a href="/post/2011/influencias/">Influencias</a></li><li><a href="/post/2011/razonamiento-circular/">Razonamiento circular</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

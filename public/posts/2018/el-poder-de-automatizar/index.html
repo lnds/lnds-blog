@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El poder de automatizar | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2018/el-poder-de-automatizar/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El poder de automatizar">
+  <meta property="og:description" content="Voy a compartir con ustedes una pequeña infografía elaborada por mi equipo de calidad:
+Lo que muestra esta gráfica es que sin automatizar un tester puede ejecutar 80 casos de prueba al día, de acuerdo a lo medido por nuestro equipo. En un proyecto en particular tenemos 6.840 casos de prueba, lo que implicaría que esa persona le tomaría 4 meses para completar el proceso. Al momento de la elaboración de esta infografía se habían automatizado 2.650 casos de prueba, los que pueden ser ejecutados por un tester en un día y medio.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-04-08T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-04-08T08:25:11-03:00">
+    <meta property="article:tag" content="Automatización">
+    <meta property="article:tag" content="Control De Calidad">
+    <meta property="article:tag" content="Métricas">
+    <meta property="og:image" content="http://localhost:1313/posts/2018/el-poder-de-automatizar/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2018/el-poder-de-automatizar/featured.png">
+  <meta name="twitter:title" content="El poder de automatizar">
+  <meta name="twitter:description" content="Voy a compartir con ustedes una pequeña infografía elaborada por mi equipo de calidad:
+Lo que muestra esta gráfica es que sin automatizar un tester puede ejecutar 80 casos de prueba al día, de acuerdo a lo medido por nuestro equipo. En un proyecto en particular tenemos 6.840 casos de prueba, lo que implicaría que esa persona le tomaría 4 meses para completar el proceso. Al momento de la elaboración de esta infografía se habían automatizado 2.650 casos de prueba, los que pueden ser ejecutados por un tester en un día y medio.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El poder de automatizar</h1><time class="dim" datetime="2018-04-08T08:25:11-03:00">April 8, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/automatizaci%C3%B3n/">#automatización</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/control-de-calidad/">#control de calidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/m%C3%A9tricas/">#métricas</a>
+      </div></ol></div>
+  <section class="page-section"><p>Voy a compartir con ustedes una pequeña infografía elaborada por mi
+equipo de calidad:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/c5b77af0-3b3d-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Lo que muestra esta gráfica es que sin automatizar un tester puede
+ejecutar 80 casos de prueba al día, de acuerdo a lo medido por nuestro
+equipo. En un proyecto en particular tenemos 6.840 casos de prueba, lo
+que implicaría que esa persona le tomaría 4 meses para completar el
+proceso. Al momento de la elaboración de esta infografía se habían
+automatizado 2.650 casos de prueba, los que pueden ser ejecutados por un
+tester en un día y medio.</p>
+<p>El foco es llegar a automatizar 6.480 casos, lo que reduce las pruebas a
+4 días. O, en términos equivalentes, hace que uno de nuestros testers
+tenga la capacidad de veinte! </p>
+<p>Es decir, estamos logrando un equipo de calidad 20X! Eso es un gran
+avance.</p>
+<p>¿Pero cómo logran esto? es la pregunta que me hacen cada vez que cuento
+esto, ¿usan Selenium?</p>
+<p>La respuesta es, &ldquo;depende&rdquo;. No se trata de automatizar todo usando tal
+o cual herramienta. Selenium es una, pero es mejor cuando usamos el
+ingenio. En mi equipo se ha automatizado usando Excel, Python, AWK,
+escribiendo código adhoc en Java o Ruby, o usando herramientas como
+JMeter y SOPAUI. </p>
+<p>Cuando enfrentas un problema debes enamorarte del problema no de la
+solución, y eso implica no tomar partido por una herramienta sobre otra,
+algo que reconozco me costó asumir. No todo debe resolverse con código o
+usando herramientas como Selenium cuando hablamos de automatización del
+QA.</p>
+<p>Lo más importante es que seguimos un patrón, un modelo de mejora
+continua aplicado a la automatización:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/24c886f1-3b3f-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<ol>
+<li>Automatizamos una tarea.</li>
+<li>Con esto reducimos incidentes, debidos a errores humanos.</li>
+<li>Esto libera tiempo de las personas.</li>
+<li>Con ese tiempo libre recuperamos deuda técnica.</li>
+<li>Se mejora la calidad.</li>
+</ol>
+<p>Otro ejemplo:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/e1b6c4c2-3b3f-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Acá tenemos una gráfica de la cantidad de errores históricos detectados
+en SonarQube. Redujimos esos errores históricos en un 48%.</p>
+<p>¿Cómo lo hicimos?</p>
+<p>Al automatizar tareas liberas tiempo, ese tiempo se ocupa en pagar deuda
+técnica, ahora el equipo ocupa parte de su tiempo a revisar el código y
+corregir y refactorizar el código, con esto reduce los bugs, lo que se
+traduce en un mejor código en producción.</p>
+<p>Lo que me lleva a mostrarles esta última gráfica:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/2d28a9d4-3b42-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Esta es una métrica que llamamos valor entregado (VE). [En este caso
+medimos la proporción del trabajo invertido por el equipo de desarrollo.
+Es decir, cuánto de lo que entregamos mes a mes corresponde a nuevas
+funcionalidades versus corrección de errores. Hay que notar que desde
+julio del año pasado hicimos cambios importantes en nuestro proceso de
+desarrollo los que se traducen en estos indicadores. Antes era habitual
+tener meses en que gran parte del trabajo era corregir bugs, hoy eso se
+ha revertido.]{style=&ldquo;letter-spacing: 0.01rem;&rdquo;}</p>
+<p>[Estos resultados dependen de varios factores, pero en mi opinión el
+círculo de mejora continua expuesto anteriormente, en que nos centramos
+en la automatización de una tarea ha sido clave para lograr estos
+números.]{style=&ldquo;letter-spacing: 0.01rem;&rdquo;}</p>
+<p>Y tú, ¿llevas métricas de desempeño, personales y de tu equipo? ¿cuáles?
+¿Estás automatizando tareas? Cuéntame tu experiencia.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>513 words</span>
+    <span>3 - 4 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2018/el-poder-de-automatizar/featured.png">featured.png</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

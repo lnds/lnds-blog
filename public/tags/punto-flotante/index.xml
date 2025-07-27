@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Punto Flotante on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/punto-flotante/</link>
+    <description>Recent content in Punto Flotante on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 10 Oct 2007 18:43:11 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/punto-flotante/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Precisión</title>
+      <link>http://localhost:1313/posts/2007/precision/</link>
+      <pubDate>Wed, 10 Oct 2007 18:43:11 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/precision/</guid>
+      <description>&lt;p&gt;Esta nota está &amp;ldquo;impulsada&amp;rdquo; por algunos &lt;a href=&#34;http://localhost:1313/2007/09/errores_de_redondeo.html#comments&#34;&gt;comentarios&lt;/a&gt; a mi post anterior con respecto al &lt;a href=&#34;http://localhost:1313/2007/09/errores_de_redondeo.html&#34;&gt;Bug de Excel &lt;strong&gt;2007&lt;/strong&gt;&lt;/a&gt;, el primero es un &lt;a href=&#34;http://www.kriptopolis.org/explorer-aprueba-matematicas&#34;&gt;enlace a una discusión en Kriptópolis&lt;/a&gt; sobre la precisión numérica de javascript. El segundo es para preguntarme si sabía que Visual Basic rendondea hacia abajo.&lt;/p&gt;&#xA;&lt;p&gt;La verdad es que no sé cómo redondea Visual basic, porque afortunadamente nunca he tenido que programar en ese lenguaje ;).&lt;/p&gt;&#xA;&lt;p&gt;Pero lo que me sorprende es leer &lt;a href=&#34;http://www.kriptopolis.org/explorer-aprueba-matematicas#comment-24031&#34;&gt;otros comentarios&lt;/a&gt; que demuestran una ignorancia sobre la precisión de los computadores que es sorprendente en profesionales de la informática.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

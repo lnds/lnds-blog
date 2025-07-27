@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 27 Apr 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Web no es internet y otras breves notas históricas</title>
+      <link>http://localhost:1313/posts/2014/la-web-no-es-internet-y-otras-breves-notas-historicas/</link>
+      <pubDate>Sun, 27 Apr 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/la-web-no-es-internet-y-otras-breves-notas-historicas/</guid>
+      <description>&lt;p&gt;Mirando en Twitter como algunas personas recuerdan su experiencia con la&#xA;web a propósito del &amp;ldquo;cumpleaños 25&amp;rdquo; de esta, me propuse aclarar un par&#xA;de cosas.&lt;/p&gt;&#xA;&lt;p&gt;Primero, mucha gente, incluidas algunas personas que deberían saberlo&#xA;mejor sobretodo por el cargo que ejercen, confunden la World Wide Web&#xA;con Internet.&lt;/p&gt;&#xA;&lt;p&gt;Internet es mucho más antigua que la Web. Internet es un conjunto de&#xA;redes interconectadas que se caracterizan por usar el protocolo TCP/IP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Como lágrimas en la lluvia</title>
+      <link>http://localhost:1313/posts/2010/como-lagrimas-en-la-lluvia/</link>
+      <pubDate>Sat, 31 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/como-lagrimas-en-la-lluvia/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;All those&amp;hellip; moments will be lost in time like tears in rain.&amp;rdquo; &amp;ndash; Roy Batty, Blade Runner&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Recientemente un artículo mío fue enlazado , pero no directamente, sino&#xA;que usando un link generado por el servicio bit.ly, un &amp;ldquo;acortador de&#xA;urls&amp;rdquo;.  He hablado antes del &lt;a href=&#34;http://localhost:1313/blog/2009/04/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando.html&#34;&gt;problema con estos&#xA;servicios&lt;/a&gt;(*),&#xA;ahora, reflexionando me he dado cuenta que estos acortadores de urls&#xA;están introduciendo un &lt;em&gt;problema  bibliográfico&lt;/em&gt;, que no es menor.&lt;/p&gt;&#xA;&lt;p&gt;Es natural que se usen los &amp;ldquo;url shorters&amp;rdquo; en twitter dada la&#xA;restricción de 140 caracteres por mensaje, eso está muy bien en ese&#xA;contexto, pero es inadecuado usar un enlace corto en artículo en un&#xA;blog. Twitter es un servicio en tiempo real, está pensado para sostener&#xA;conversaciones efímeras, pero un post o artículo en un blog es algo que&#xA;dura mucho más tiempo, y por lo tanto lo correcto es que en estos texto&#xA;se coloque el enlace directo y completo, no el resultado intermedio&#xA;proporcionado por bit.ly, tinyurl u otro servicio similar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El problema de tinyurl y otros servicios similares (reciclando)</title>
+      <link>http://localhost:1313/posts/2009/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/</link>
+      <pubDate>Sat, 31 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/</guid>
+      <description>&lt;p&gt;Curiosamente hace poco en una lista en que participo pedí que usaran&#xA;TinyUrl, olvidando lo que escribí hace un tiempo sobre lo problemas de&#xA;este servicio, un tema que &lt;a href=&#34;http://adactio.com/journal/1566&#34;&gt;ha resurgido en estos días&lt;/a&gt; y que se puede constituir en un&#xA;problema de seguridad serio. Aca vá, reciclado, y con alguna mejoras,&#xA;&lt;a href=&#34;http://localhost:1313/2007/12/el-problema-de-tinyurl-y-otros-servicios.html&#34;&gt;mi post del 27 de diciembre de 2007&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;El problema de tinyurl y otros servicios similares&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este post estaba en borrador, y ahora lo completé como respuesta a una&#xA;pregunta de &lt;a href=&#34;http://twitter.com/Francotirador&#34;&gt;FT via twitter&lt;/a&gt;,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Anatomía de la Web</title>
+      <link>http://localhost:1313/posts/2008/la-anatomia-de-la-web/</link>
+      <pubDate>Sun, 17 Aug 2008 23:27:42 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/la-anatomia-de-la-web/</guid>
+      <description>&lt;p&gt;Continúo con mi lectura del libro &lt;a href=&#34;http://www.ciw.cl/libroWeb-NV.pdf&#34;&gt;Cómo Funciona la Web&lt;/a&gt;, publicado por el &lt;a href=&#34;http://www.ciw.cl/&#34;&gt;Centro de Investigación de la Web&lt;/a&gt; de la Universidad de Chile.&lt;/p&gt;&#xA;&lt;p&gt;Esta vez me voy a concentrar en la parte del libro escrita por Ricardo Baeza, &amp;ldquo;La Anatomía de la Web&amp;rdquo;, un capítulo muy bueno, con mucha información y estadísticas interesantes, sobretodo cuando describe la estructura de la web chilena.&lt;/p&gt;&#xA;&lt;p&gt;Aunque hay algunos errores menores en el capítulo, como por ejemplo, se define un terabyte como un billón de megabytes (en realidad un terabyte es un billón de bytes), los resultados expuestos son muy interesantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El problema de tinyurl y otros servicios similares</title>
+      <link>http://localhost:1313/posts/2007/el-problema-de-tinyurl-y-otros-servicios-similares/</link>
+      <pubDate>Thu, 27 Dec 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/el-problema-de-tinyurl-y-otros-servicios-similares/</guid>
+      <description>&lt;p&gt;Este post estaba en borrador, y ahora lo completé como respuesta a una&#xA;pregunta de &lt;a href=&#34;http://twitter.com/Francotirador&#34;&gt;FT via twitter&lt;/a&gt;,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Si algún día &lt;a href=&#34;http://www.tinyurl.com/&#34;&gt;TinyURL&lt;/a&gt; o&#xA;&lt;a href=&#34;http://www.dev.cl/&#34;&gt;Dev.cl&lt;/a&gt; dejan de prestar servicio... ¿mueren&#xA;todas las URLs cortas creadas?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La respuesta corta es Sí.&lt;/p&gt;&#xA;&lt;p&gt;Incidentalmente, cuando traté de acortar la url de este post dev.cl me&#xA;devolvio la url &lt;a href=&#34;http://dev.cl/&#34;&gt;http://dev.cl/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ahora la respuesta entretenida:&lt;/p&gt;&#xA;&lt;p&gt;Aunque las urls cortas tienen varias aplicaciones y ventajas, incluso&#xA;sirven para &lt;a href=&#34;http://localhost:1313/2006/12/wpeg_el_mejor_algoritmo_de_compresion.html&#34;&gt;comprimir imágenes&lt;/a&gt;&#xA;:wink: la verdad es que hay varios problemas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Primer Emprendedor Web Chileno</title>
+      <link>http://localhost:1313/posts/2006/el-primer-emprendedor-web-chileno/</link>
+      <pubDate>Tue, 05 Dec 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/el-primer-emprendedor-web-chileno/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;galahad.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Cuando los caballeros del rey Arturo decidieron partir en busca del Santo&#xA;Grial, se juntaron en la entrada del bosque, y acordaron ingresar por&#xA;aquellos lugares que no tenían un sendero marcado, los más valientes&#xA;eligieron el lugar más frondoso y oscuro como punto de partida.&amp;rdquo; Los&#xA;caminos recorridos y seguros no presentan desafíos, son los desafíos los&#xA;que te hacen crecer, crear, innovar.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;El Caliz nunca fue encontrado, pero por siglos se hablo de las hazañas&#xA;de los caballeros del Rey Arturo en su búsqueda&amp;rdquo;&lt;br&gt;&#xA;Si fracasas en tu empresa, es mejor que tu fracaso sea grandioso!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WikiPediaMan, o el surgimiento del Nuevo Pedante Seudo Intelectual </title>
+      <link>http://localhost:1313/posts/2006/wikipediaman-o-el-surgimiento-del-nuevo-pedante-seudo-intelectual/</link>
+      <pubDate>Sun, 08 Oct 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/wikipediaman-o-el-surgimiento-del-nuevo-pedante-seudo-intelectual/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Desconfío del hombre de un sólo libro&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Samuel Clemens&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Disculpen si cito de memoria al autor de Tom Sawyer, pero es bueno&#xA;ejercitar la memoria, retener viejas frases, y citas, leidas en buenos&#xA;libros. Algo que se está perdiendo.&lt;/p&gt;&#xA;&lt;p&gt;Hace poco me ocurrió que alguién argumentó contra mi usando &lt;a href=&#34;http://en.wikipedia.org/&#34;&gt;La&#xA;WikiPedia&lt;/a&gt; como fuente. No es la primera vez&#xA;que ocurre, el año pasado cuando discutiamos sobre el proyecto ULPN, se&#xA;uso la definición de computador de la wikipedia en español para sugerir&#xA;que en realidad lo que se estaba construyendo era un dispositivo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Credibilidad en la web</title>
+      <link>http://localhost:1313/posts/2005/credibilidad-en-la-web/</link>
+      <pubDate>Thu, 11 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/credibilidad-en-la-web/</guid>
+      <description>&lt;p&gt;A propósito del &lt;a href=&#34;http://localhost:1313/archives/2005/08/el_hombre_embar.html&#34;&gt;caso del hombre embarazado&lt;/a&gt;,&#xA;en Cazuela de Pinguino, Carlos escribe sobre la reacción del &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://www.australtemuco.cl/prontus4_noticias/antialone.html?page=http://www.australtemuco.cl/prontus4_noticias/site/artic/20050809/pags/20050809021545.html&#34;&gt;Diario&#xA;Austral de&#xA;Temuco&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El fenomeno es interesante, que hay investigadores preocupados del&#xA;tema:&lt;br&gt;&#xA;&lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://credibility.stanford.edu/&#34;&gt;Stanford Web Credibility&#xA;Project&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hay un interesante paper, publicado en la SIGCHI, &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://portal.acm.org/citation.cfm?doid=302979.303001&#34;&gt;The Elements of&#xA;Computer&#xA;Credibility&lt;/a&gt;,&#xA;hay que ser miembro de la ACM para bajarlo, pero a los que les interesa&#xA;el tema, nos podemos comunicar via email.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

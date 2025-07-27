@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Programando toda una vida | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2007/programando-toda-una-vida/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Programando toda una vida">
+  <meta property="og:description" content="Llevo 26 años programando, y me siento totalmente identificado con el comentario de Jeff Atwood:
+For many programmers, our introduction to programming was our dad forcing us to write our own games. Instead of the shiny new Atari 2600 game console I wanted, I got a Texas Instruments TI-99/4a computer instead. That’s not exactly what I had in mind at the time, of course, but that fateful decision launched a career that spans thirty years.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2007-08-23T22:34:06+00:00">
+    <meta property="article:modified_time" content="2007-08-23T22:34:06+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Programando toda una vida">
+  <meta name="twitter:description" content="Llevo 26 años programando, y me siento totalmente identificado con el comentario de Jeff Atwood:
+For many programmers, our introduction to programming was our dad forcing us to write our own games. Instead of the shiny new Atari 2600 game console I wanted, I got a Texas Instruments TI-99/4a computer instead. That’s not exactly what I had in mind at the time, of course, but that fateful decision launched a career that spans thirty years.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Programando toda una vida</h1><time class="dim" datetime="2007-08-23T22:34:06&#43;00:00">August 23, 2007</time></div>
+  <section class="page-section"><p>Llevo 26 años programando, y me siento totalmente identificado con el <a href="http://replay.web.archive.org/20071017000912/http://www.codinghorror.com/blog/archives/000936.html">comentario de Jeff Atwood</a>:</p>
+<blockquote>
+<p>For many programmers, our introduction to programming was our dad forcing us to write our own games. Instead of the shiny new Atari 2600 game console I wanted, I got a Texas Instruments TI-99/4a computer instead. That&rsquo;s not exactly what I had in mind at the time, of course, but that fateful decision launched a career that spans thirty years.</p></blockquote>
+<p>En mi caso se trató de un Sinclair ZX81, yo también quería una consola Atari, pero al final eso me ayudó mucho.</p>
+<p><img src="zx81archtitle-thumb-400x254.gif" alt=""></p>
+<p>Mientras algunos amigos colocaban un cartridge y se dedicaban a jugar por horas, yo tenía que copiar programas de revistas para poder jugar, y así aprendí a programar, casi por osmosis, modificando esos programas de revistas, probando, y después leyendo esos artículos donde enseñaban a usar el basic, luego el assembler, y FORTH.</p>
+<p>Recuerdo que cuando estaba en octavo o primero medio visité el centro de computación de Codelco en Chuquicamata. Nos vimos expuestos a unos imponentes terminales IBM 3670, y me permitieron jugar al Twonky, un simple juego de texto, que se convirtió en el primer juego que programé en mi vida.</p>
+<p>Todo esto llevó a que me dedicara a la ingeniería del software, y puedo decir con orgullo que soy libre de decidir mi destino profesional. Nunca me ha faltado el trabajo, y las oportunidades. Hay muchos de esos orgullosos chicos-atari de ayer, que lamentablemente no pueden decir lo mismo.</p>
+<p>Hoy el OLPC-XO es como el viejo Sinclair ZX81, una oportunidad de formar desarrolladores y creadores, las otras opciones son como el Atari 2600, bonitos, entretenidos, pero no forman las capacidades que se requieren para asegurar el futuro de los niños. &ldquo;No les des pescado, enséñales a pescar&rdquo;, dice el viejo adagio, y nuestro país requiere eso con urgencia.</p>
+<p>Entre los buenos programadores la cesantía es casi nula, no pasa lo mismo con otras profesiones, y actividades. No necesitamos gente que sepa usar Office, necesitamos profesionales TI, eso nos hará un país más rico y no tan dependiente como somos ahora.</p>
+<p>En el recientemente creado <a href="http://replay.web.archive.org/20071017000912/http://www.emol.com/noticias/nacional/detalle/detallenoticias.asp?idnoticia=273013">consejo asesor de la presidenta</a> no hay programadores, es una lástima, nosotros sabemos algo de como generar riqueza.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>372 words</span>
+    <span>2 - 2 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2007/programando-toda-una-vida/zx81archtitle-thumb-400x254.gif">zx81archtitle-thumb-400x254.gif</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fallos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/fallos/</link>
+    <description>Recent content in Fallos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 17 Oct 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fallos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pero con todo, fallamos</title>
+      <link>http://localhost:1313/posts/2010/pero-con-todo-fallamos/</link>
+      <pubDate>Sun, 17 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/pero-con-todo-fallamos/</guid>
+      <description>&lt;p&gt;Entre tanto festejo por el rescate de los 33 mineros de Atacama, se me&#xA;viene a la mente una imagen histórica. Cuando un general romano vencedor&#xA;ingresaba a Roma, triunfante dirigiendo el desfile de la victoria, en su&#xA;carro le acompañaba un esclavo leal, que sostenía frente a su cabeza una&#xA;corona de laureles, y le recitaba al oido continuamente: &lt;em&gt;&amp;ldquo;Mira tras&#xA;de tí. Recuerda que sólo eres un mortal&amp;rdquo;&lt;/em&gt; (Respice pos te! Hominem te&#xA; memento!) [1]&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

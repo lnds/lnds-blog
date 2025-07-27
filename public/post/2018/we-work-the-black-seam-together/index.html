@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>We work the black seam together | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2018/we-work-the-black-seam-together/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="We work the black seam together">
+  <meta property="og:description" content="This place has changed for good
+Your economic theory said it would
+Escribo esto con algo de lata. Porque tengo que explicar la parte que para mi representa lo más decepcionante del blockchain, o al menos en la implementación original que viene con el BitCoin, la famosa prueba de trabajo.
+Además sucede que ya me aburre el tema, pues veo que más que un análisis serio de las restricciones y ventajas de una tecnología interesante, lo que hay es un fanatismo que trata de usar blockchain en todo y de las formas más ridículas posibles, Así que terminemos este trago amargo de una vez y dejemos de hablar de blockchain en este blog por un buen tiempo.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2018-03-17T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-03-17T08:25:11-03:00">
+    <meta property="article:tag" content="Blockchain">
+    <meta property="article:tag" content="Proof of Work">
+    <meta property="og:image" content="http://localhost:1313/post/2018/we-work-the-black-seam-together/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/post/2018/we-work-the-black-seam-together/featured.png">
+  <meta name="twitter:title" content="We work the black seam together">
+  <meta name="twitter:description" content="This place has changed for good
+Your economic theory said it would
+Escribo esto con algo de lata. Porque tengo que explicar la parte que para mi representa lo más decepcionante del blockchain, o al menos en la implementación original que viene con el BitCoin, la famosa prueba de trabajo.
+Además sucede que ya me aburre el tema, pues veo que más que un análisis serio de las restricciones y ventajas de una tecnología interesante, lo que hay es un fanatismo que trata de usar blockchain en todo y de las formas más ridículas posibles, Así que terminemos este trago amargo de una vez y dejemos de hablar de blockchain en este blog por un buen tiempo.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>We work the black seam together</h1><time class="dim" datetime="2018-03-17T08:25:11-03:00">March 17, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/blockchain/">#blockchain</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/proof-of-work/">#proof of work</a>
+      </div></ol></div>
+  <section class="page-section"><blockquote>
+<p>This place has changed for good<br>
+Your economic theory said it would</p></blockquote>
+<p>Escribo esto con algo de lata. Porque tengo que explicar la parte que
+para mi representa lo más decepcionante del blockchain, o al menos en la
+implementación original que viene con el BitCoin, la famosa prueba de
+trabajo.</p>
+<p>Además sucede que ya me aburre el tema, pues veo que más que un análisis
+serio de las restricciones y ventajas de una tecnología interesante, lo
+que hay es un fanatismo que trata de usar blockchain en todo y de las
+formas más ridículas posibles, Así que terminemos este trago amargo de
+una vez y dejemos de hablar de blockchain en este blog por un buen
+tiempo.</p>
+<p>Primero repasemos lo escrito hasta ahora. En mi primer post:
+<a href="/http://www.lnds.net/blog/lnds/2018/01/6/the-chain">The Chain</a>, hablé de
+cadenas, y de su uso en distintos aspectos del desarrollo de software,
+en particular sobre su uso para arquitecturar soluciones de software,
+pero el foco de ese artículo era la idea de trabajo colectivo y
+distribuido, versus trabajo centralizado. Es un bonito post, donde hablo
+más de arquitectura de software que de otras cosas, pero donde muestro
+las ventajas y desventajas de contar con un intermediario central para
+garantizar la consistencia de las operaciones. Todo amenizado con la
+música de Fleetwood Mac, por supuesto.</p>
+<p>El segundo post, <a href="/blog/lnds/2018/1/28/to-the-bone">To The Bone</a>, habla sobre
+computación distribuida, e introduce el famoso problema de los generales
+bizantinos, algo que supuestamente resuelve el blockchain. El nombre
+hace referencia a una canción de Steven Wilson que dice en una de sus
+frases: &ldquo;Truth is individual calculation&rdquo;, y que es aplicable en este
+contexto, donde la &ldquo;verdad&rdquo;, definida como el consenso, surge del
+cálculo individual de los individuos que participan de la red. </p>
+<p>En ese artículo explico lo que son las fallas bizantinas, y los
+protocolos que ayudan a resolver este problema, como Gossip y los
+árboles de Merkle, que son una solución elegante que se usa en muchas
+tecnologías.</p>
+<p>Hay que destacar que estas son soluciones anteriores al Blockchain, los
+Merkle Tree fueron patentados por Ralph Merkle en 1979.</p>
+<p>Ahora bien, uno de los aspectos que intrigan al iniciado en estas
+tecnologías, y que se usa como elemento de marketing al habla de BitCoin
+por ejemplo, es el concepto de minado. Se dice que durante el minado los
+nodos de la red, conocido como mineros, realizan &ldquo;resuelven complicados
+problemas matemáticos&rdquo;, y que cuando uno de estos mineros resuelve este
+complicado problema obtiene como recompensa un bitcoin.</p>
+<p>Cuando leí esa descripción hace un tiempo pensé lo asombroso de esa
+afirmación, imaginé una red de computadores distribuidos resolviendo
+complicados problemas matemáticos. ¿Qué será lo que resuelven estos
+computadores? pensé. ¿Acaso tratan de demostrar alguna famosa conjetura
+matemática? ¿O tratan de calcular el número primo más alto? ¿O resolver
+la conjetura de Goldbach por fuerza bruta? ¿O analizan la información
+que ha capturado el programa SETI? o ¿estarán simulando el plegamiento
+de proteinas para combatir el cancer? ¿Analizando el genóma de las
+especies en peligro?</p>
+<p>No, la respuesta es más prosaica y un algo decepcionante.</p>
+<p>En términos bien simples y rudimentarios, los minero reciben un número,
+deben generar otro número aleatorio, aplicar una función relativamente
+fácil de calcular (llamada hash), ver si el resultado termina en una
+serie de n ceros, si eso no se cumple, probar con otro número hasta
+obtener una cifra que termine en n ceros.</p>
+<p>Ejemplo: </p>
+<blockquote>
+<p>Supongamos que mi función de &ldquo;hash&rdquo; consisten en sumar dos números:</p>
+<p>                                f(x, y) = x+y</p>
+<p>Entonces el proceso de minado consiste en que recibo un número x,
+genero un número y, tantas veces como sea necesario hasta que f(x,y)
+se divisible exactamente por 10.000 (es decir, termine en 4 ceros).</p>
+<p>Supongamos que recibo el número x=345.987. </p>
+<p>Entonces, genero un número al azar, supongamos que es y=2.452.</p>
+<p>Calculo f(x,y) = 348.439. No he tenido éxito, incremento y en 1 y
+repito.</p>
+<p>f(x, y) = 348.440, he conseguido 1 cero, necesito 3 más!</p>
+<p>Itero, 4.012 veces más y llego al número 350.000 y he logrado la meta,
+un número que termina en cuatro ceros.</p></blockquote>
+<p>A este proceso se le conoce como prueba de trabajo (proof of work), que
+es muy ingenioso, porque indica que el computador que entrega un trabajo
+ha tenido que invertir tiempo en llegar a un resultado. Por supuesto en
+el caso de Bitcoin la función f es mucho más complicada, se usa un doble
+hash usando la función SHA-256, lo que garantiza que el proceso no es
+tan fácil de adivinar como en el caso de mi ejemplo.</p>
+<p>Esto de la prueba de trabajo, proof of work (PoW) es muy interesante, y
+fue creado en 1993. Lo interesante del PoW es que es una operación
+asimétrica, es muy difícil generar el resultado, pero muy fácil
+verificarlo.</p>
+<p>Un algoritmo de PoW es HashCash<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, que se usa para combatir el SPAM,
+por ejemplo, al recibir un email un sistema de correo recibe el
+siguiente encabezado:</p>
+<pre><code>X-Hashcash: 1:52:380119:calvin@comics.net:::9B760005E92F0DAE
+</code></pre>
+<p>Para verificar que fue emitido por un emisor reconocido, el sistema de
+correos calcula la función SHA-1 sobre este header (omitiendo la palabra
+&lsquo;X-Hashcash:&rsquo;, si lo hacen obtendrán lo siguiente</p>
+<pre><code>0000000000000756af69e2ffbdb930261873cd71
+</code></pre>
+<p>Un número que tiene 13 dígitos en cero al inicio. Para poder generar ese
+hash, el emisor debió calcular 2 elevado a 52 veces el hash, usando un
+proceso muy parecido al que describí arriba.</p>
+<blockquote>
+<p>&ldquo;They build machines that they can&rsquo;t control<br>
+And bury the waste in a great big hole<br>
+Power was to become cheap and clean&rdquo;</p></blockquote>
+<p>Para el bitcoin se usa un algoritmo de hash más complejo, y en la
+actualidad la dificultad es tal que se requiere hardware especializado
+para hacer estos cálculos, los mineros se han convertido en sofisticadas
+instalaciones que consumen enormes cantidades de energía.</p>
+<p>Eso es lo decepcionante, en mi opinión de esta tecnología, porque la
+codicia ha llevado a cosas tan bizarras como este datacenter en
+Islandia, dedicado sólo a minar bitcoins</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/1a3d0d3c-29dd-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>O ciudades que son tomadas por mineros de bitcoins<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Yo considero que esto es una locura, independiente de que el blockchain
+tiene aplicaciones de diversas tecnologías interesantes, hay que tener
+cuidado con cómo se ocupa, porque el caso del bitcoin es una alerta de
+lo cara que puede resultar la operación de estos procesos. </p>
+<p>Hoy hay alternativas más eficientes en tiempo y recursos, como la red
+Ethereum, que se basa en otro principio, como la Proof of
+Stake<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>,pero hay críticas sobre estos algoritmo, puesto que podrían
+no ser capaces de alcanzar el consenso, o pueden ser manipulados para
+alcanzar un consenso. Pero eso es seguir entrando en honduras y no tengo
+mucho ánimo de seguir hablando de blockchain.</p>
+<p>Hay gente que lo ha explicado mejor que yo, de todas maneras y les
+recomiendo leerlos a ellos. Una buena introducción es
+<a href="https://medium.com/coders-pen/qu%C3%A9-es-el-bitcoin-y-c%C3%B3mo-funciona-8b36adf5f80b">esta</a><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. </p>
+<p>Con esto termino mi serie sobre el blockchain.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Wikipedia: <a href="https://en.wikipedia.org/wiki/Proof-of-work_system%22"><a href="https://en.wikipedia.org/wiki/Proof-of-work_system">https://en.wikipedia.org/wiki/Proof-of-work_system</a></a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p> <a href="https://www.politico.eu/article/this-is-what-happens-when-bitcoin-miners-take-over-your-town/">https://www.politico.eu/article/this-is-what-happens-when-bitcoin-miners-take-over-your-town/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p> <a href="https://en.wikipedia.org/wiki/Proof-of-stake">https://en.wikipedia.org/wiki/Proof-of-stake</a>]&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p> <a href="https://medium.com/coders-pen/qu%C3%A9-es-el-bitcoin-y-c%C3%B3mo-funciona-8b36adf5f80b">https://medium.com/coders-pen/qu%C3%A9-es-el-bitcoin-y-c%C3%B3mo-funciona-8b36adf5f80b</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1133 words</span>
+    <span>7 - 8 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2018/we-work-the-black-seam-together/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2018/to-the-bone/">To The Bone</a></li><li><a href="/post/2018/the-chain/">The Chain</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

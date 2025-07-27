@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El Fin de la Agilidad (VI) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2019/el-fin-de-la-agilidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El Fin de la Agilidad (VI)">
+  <meta property="og:description" content="(Para escuchar la banda sonora de este post haz click en este enlace)
+&#34;¿Cómo diablos llegué a este punto? ¿Qué hago acá en esta escalera en el edificio de un cliente, discutiendo con este tipo por teléfono, recibiendo sus insultos? ¡Es tiempo que lo mande a la cresta!&#34;
+Wake Up! I’ll give you a dose but it’ll never come close to the
+Rage built up inside of me
+— Rage Against the Machine">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-04-06T08:25:11-03:00">
+    <meta property="article:modified_time" content="2019-04-06T08:25:11-03:00">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="Trabajo">
+    <meta property="article:tag" content="Principios">
+    <meta property="article:tag" content="Fracasos">
+    <meta property="og:image" content="http://localhost:1313/posts/2019/el-fin-de-la-agilidad/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2019/el-fin-de-la-agilidad/featured.png">
+  <meta name="twitter:title" content="El Fin de la Agilidad (VI)">
+  <meta name="twitter:description" content="(Para escuchar la banda sonora de este post haz click en este enlace)
+&#34;¿Cómo diablos llegué a este punto? ¿Qué hago acá en esta escalera en el edificio de un cliente, discutiendo con este tipo por teléfono, recibiendo sus insultos? ¡Es tiempo que lo mande a la cresta!&#34;
+Wake Up! I’ll give you a dose but it’ll never come close to the
+Rage built up inside of me
+— Rage Against the Machine">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El Fin de la Agilidad (VI)</h1><time class="dim" datetime="2019-04-06T08:25:11-03:00">April 6, 2019</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/trabajo/">#trabajo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/principios/">#principios</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/fracasos/">#fracasos</a>
+      </div></ol></div>
+  <section class="page-section"><p>(Para escuchar la banda sonora de este post haz click <a href="https://open.spotify.com/user/ediazlnds/playlist/0S3YXpEa5eGPZ6nSNbthvd?si=-wVKUGIpQyKz3a6jJD6owQ">en este
+enlace</a>)</p>
+<blockquote>
+<p><em>&quot;¿Cómo diablos llegué a este punto? ¿Qué hago acá en esta escalera en
+el edificio de un cliente, discutiendo con este tipo por teléfono,
+recibiendo sus insultos? ¡Es tiempo que lo mande a la cresta!&quot;</em></p></blockquote>
+<h2 id="wake-up">Wake Up!</h2>
+<blockquote>
+<p>I&rsquo;ll give you a dose but it&rsquo;ll never come close to the<br>
+Rage built up inside of me<br>
+&mdash; Rage Against the Machine</p></blockquote>
+<p>En abril de 2003 estaba sin trabajo, arruinado porque llevaba varios
+meses sin recibir sueldo. Estaba angustiado, mi cuerpo y mi mente no
+respondían. Agotado y cansado. </p>
+<p>La salida desde la CCS había sido un completo fracaso. <em>&ldquo;Paraba la olla&rdquo;</em>, como decimos
+en Chile, en base a pitutos. La historia de cómo llegué a esto aún me da
+rabia, porque fui engañado, estafado como muchos ciudadanos, como el
+mismo estado de Chile.</p>
+<p>Después de dejar la Cámara, fui a trabajar a una Startup, creada por una
+persona que conocí a través de CEO. Él dirigía una exitosa agencia de
+diseño web, tenía varios contratos importantes, la mayor parte con
+gobierno. Sus oficinas estaban en una hermosa casona en Providencia,
+donde a veces se realizaban algunos de los almuerzos con emprendedores
+que les conté en <a href="https://www.lnds.net/blog/lnds/2019/3/31/el-fin-de-la-agilidad">la parte 5</a></p>
+<p>Cuando llegué a trabajar la Startup aún no se constituía. Así que
+trabajé con el equipo de la agencia, reemplazando al encargado de
+tecnología que se había marchado. Fue ahí donde conocí a Rafa, quien era
+el desarrollador de la empresa. El resto eran administradores de cuentas
+y un par de diseñadores gráficos. Mientras se realizaba el <em>due dilligence</em> para recibir el
+capital semilla, que daría pie a la Startup, yo aproveché de conocer su
+tecnología, y apoyé algunos proyectos de la empresa
+matriz.</p>
+<h2 id="cult-of-personality">Cult of Personality</h2>
+<blockquote>
+<p>Look in my eyes, what do you see?<br>
+The cult of personality<br>
+&mdash; Living Colours</p></blockquote>
+<p>Recuerdo que uno de los socios tenía una agencia de modelos que
+compartía domicilio. No era raro ver en el segundo piso a hermosas
+chicas corriendo en ropa interior para cambiarse ropa durante sesiones
+fotográficas, para armar sus bookings. Por allí pasaron varias modelos
+que empezaban a ser famosas en esos momentos, por su participación en
+los incipientes programas llamados reality shows,  y otros programas de
+farándula que invadieron la televisión de la época.</p>
+<p>Yo debí sospechar algo en ese momentos. El ambiente era muy extraño.
+Con Rafa trabajábamos en la parte trasera de la casa. Un día llegó un
+chico alemán, de unos 22 años de edad a pedir trabajo. Sabía diseñar,
+programar en Python y conocía una extraña plataforma llamada
+<a href="http://www.zope.org/en/latest/">Zope</a>[.
+Le eché un vistazo, era un servidor de contenido web muy interesante. Lo
+contratamos, porque había que dejar reforzada el área técnica de la
+agencia antes de que con Rafa
+migráramos.</p>
+<p>Debo decir que al menos durante ese tiempo, cumplieron el compromiso de
+pagarme lo acordado. Pero estaba preocupado, porque yo no había firmado
+para eso, yo debía estar desarrollando software para una plataforma de
+juegos interactivos móviles.</p>
+<h2 id="bulls-on-parade">Bulls on parade</h2>
+<blockquote>
+<p>The microphone explodes, shattering the molds<br>
+[&mdash; Rage Against the Machine]{style=&ldquo;letter-spacing: 0.01rem;&rdquo;}</p></blockquote>
+<p>Cuando <a href="https://twitter.com/tmorello/status/894357738482016257">le preguntaron por Twitter</a> a
+<a href="https://en.wikipedia.org/wiki/Tom_Morello">Tom Morello</a> qué ciudad tiene los
+mejores fans, el músico respondió, Rock: Santiago, Baseball: Chicago.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/6aceb776-5879-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>Para Rage Against the Machine, uno de sus mejores conciertos fue el que
+se denominó <a href="https://www.youtube.com/watch?v=lhZA6ifWbQo">Battle of Santiago</a>, de 2010.
+Su estilo que mezcla el funk, el rap con el metal, con letras políticas los
+ubica como uno de los mayores exponentes del Rap Metal y del Funk Metal.</p>
+<p>La incorporación de Wakeup en la banda sonora de The Matrix me
+impresionó mucho, creo que dejó marcado en mi mente el mensaje de esa
+película, es el punto final adecuado. Lástima que no hayan hecho una
+segunda o tercera parte de The Matrix[1].</p>
+<p>Dicen que la música de RATM fue usada para torturar prisioneros en
+Guantanamo por parte de la CIA [2]. La idea era alterarles sus nervios
+al poner esta música agresiva a todo volumen. Es una terrible ironía y
+una muestra de que el sistema es capaz de absorber todo, incluso lo que
+va en su contra para usarlo a su favor.</p>
+<p>Para mí el Funk Metal está asociado a energía violenta, a esa rabia
+contenida que fui acumulando durante 2002 y 2003, que explotó en fuertes
+dolores estomacales y depresión.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/2a5ddabc-5881-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<h2 id="evidence">Evidence</h2>
+<blockquote>
+<p>Anything you say, we know you&rsquo;re guilty<br>
+&mdash; Faith no more</p></blockquote>
+<p>De repente ingresaron a esta comedia unos ejecutivos, con experiencia en
+retail y televisión. Serían el brazo comercial y ejecutivo de la
+startup.</p>
+<p>En estos días, a principios de 2019, los emprendedores de varias
+startups exitosas, como Cornershop y NotCo están compartiendo su visión
+de cómo debe armarse una Startup, a través de <a href="http://www.laclase.cl/">una clase en la Universidad de Chile</a>[, cuyo contenido se está haciendo
+público. </p>
+<p>Si ven <a href="https://youtu.be/vUePmkQYIDQ">el primer video</a> de este curso
+tendrán la visión de uno de estos emprendedores sobre la manera de
+lograr una Startup exitosa. Son consejos de tomados de su propia
+experiencia, que al menos a él y sus socios le resultaron. Pues bien, la
+gente de la Startup, en la que yo estaba hizo exactamente lo contrario.</p>
+<p>Primero armaron un directorio rimbombante, había un ex ministro, un ex
+director de televisión, gerentes de retail y por supuesto un
+representante del capitalista de riesgo.</p>
+<p>El área de tecnología era vista como secundaria. Nos pagaban bien y nos
+dieron recursos para comprar equipos, pero apenas éramos dos. Apenas se
+me consultó por un plan informático o de desarrollo. La plataforma ya
+estaba lista para ellos, era cuestión de conectarla a las redes de
+teloperadores.</p>
+<p>Ya es momento de que les cuente de qué diablos se trataba el negocio.</p>
+<p>[En una reunión de CEO tuvimos de invitados a don Carlos Baradello. Este
+señor es actualmente un founder y administrador de un importante fondo
+de inversiones de riesgo en Sausalito, California. Pero en esos años él
+estaba a cargo de un importante área en Motorola. Visitó Chile porque
+esta compañía quería instalar un centro de I+D en nuestro país. Fue en
+ese almuerzo que varios nos dimos cuenta que el futuro era lo que se
+llamaba en ese tiempo &ldquo;la web móvil&rdquo;.</p>
+<p>En Europa, producto de la moda de los reality shows y el auge de los SMS
+ya habían experiencias de televisión interactiva. 
+<a href="https://es.wikipedia.org/wiki/Big_Brother_(programa_de_televisi%C3%B3n)">El Gran Hermano</a>,
+por ejemplo, era un reality show, en donde el público podía votar usando
+mensajes desde sus celulares.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/bb71381d-5883-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>En 2002, estos chicos de la agencia, construyeron un prototipo para una
+trivia que sería usada en el mundial de futbol. Fue así que nació su
+idea de armar una Startup de juegos móviles usando SMS. Pero el
+ingeniero que había desarrollado la plataforma junto con Rafa los había
+abandonado. Así fue como se acercaron a mí en un almuerzo y me
+ofrecieron ser el CTO de esta nueva Startup.</p>
+<p>Yo acepté, tras mi fallida negociación en la CCS. Así de repente, a
+fines de 2002 estaba instalando equipos en una amplia planta en un
+edificio en Vitacura. Era una oficina muy elegante. Compramos notebooks
+de gama alta. Teníamos una cafetera fancy, una asistente eficiente y
+simpática, unos cómodos asientos de cuero, y decenas de teléfonos
+celulares para probar.</p>
+<p>Lo único malo, la única evidencia de que esto iba por un mal camino,
+pero yo no lo sabía, era que el inversionista se llamaba
+<a href="https://www.emol.com/especiales/corrupcion/inverlink/origen.htm">Inverlink Holding</a>.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/c8ae594e-5883-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<h2 id="el-jarrón-de-don-ricardo">El Jarrón de Don Ricardo</h2>
+<blockquote>
+<p>Can you feel it, see it, hear it today?<br>
+If you can&rsquo;t, then it doesn&rsquo;t matter anyway<br>
+You will never understand it &lsquo;cause it happens too fast<br>
+&ndash; Faith no more</p></blockquote>
+<p>Nos establecimos en septiembre de 2002, más o menos. Firmé un nuevo
+contrato, esta vez con la Startup, con el cargo de gerente de
+tecnología.  </p>
+<p>Pero en noviembre los sueldos se atrasaron, lo mismo en diciembre y
+enero. En febrero ya no recibimos nada. Entre medio, en ese periodo no
+logramos ningún negocio relevante. A pesar de estar conectados con todas
+las empresas de telefonía celular, y las rimbombantes reuniones de
+directorios llenas de próceres, y el currículum de nuestros ejecutivos,
+no lográbamos vender mucho.</p>
+<p>Parecía que los socios estaban más preocupados de pasar a las siguientes
+rondas de inversión, que de vender algo. Insisto, todo lo que no debe
+hacerse se hacía en esta empresa.</p>
+<p>En febrero de 2002 se destapa el hecho de que la secretaria de Carlos
+Massad, director del Banco Central, le enviaba emails con información
+privilegiada a Enzo Bertinelli, con quien sostenía un romance. Esto
+desató una investigación que destapó uno de los mayores fraudes al fisco
+de nuestra historia. Inverlink había cometido varios delitos, y entre
+otras cosas obtenía fondos de manera ilícita de Corfo, con los que
+financiaba, entre otras cosas startups de tecnología, como aquella en la
+que yo estaba. Adivinen quién era uno de los directores de nuestra
+startup. Sí, el mismismo Enzo Bertinelli.</p>
+<p>Fue ese tiempo, cuando se destapa el escándalo en CORFO, que afectaba a
+su yerno, que el presidente Lagos pronuncia su famosa teoría del jarrón:</p>
+<blockquote>
+<p>&ldquo;Acá no se ha perdido un peso del Estado de Chile. Si usted tiene un
+jarrón en su casa y entra un ladrón y se lo roba, cuando descubran el
+jarrón se lo van a devolver&rdquo;</p></blockquote>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/b2693c79-5880-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>El problema es que el jarrón estaba roto. Y yo estaba en dentro de los
+fragmentos. </p>
+<p>Ni siquiera alcancé a renunciar. Un día al llegar a nuestro trabajo nos
+encontramos con la puerta cerrada, sellada, con cadenas y candados. Nos
+miramos con la secretaria y el Rafa. No había nadie más. Fuimos a
+tomarnos un café, nos despedimos, nos deseamos buena suerte y nos fuimos
+a la casa. Así como tantos otros empleados de las empresas Inverlink,
+las que iban desde pequeñas startups tecnológicas, pasando por compañías
+de seguro y de inversión, hasta una importante clínica de salud. Más de
+tres mil personas nos quedamos sin trabajo por culpa del jarrón robado,
+y nunca fuimos compensados. [3]</p>
+<h2 id="reboot">Reboot</h2>
+<blockquote>
+<p>Can&rsquo;t stop, addicted to the shindig &mdash; Red Hot Chili Peppers</p></blockquote>
+<p>¿Recuerdan al joven alemán que habíamos contratado? Un día viernes nos
+visitó a nuestras oficinas de Vitacura. Él se había quedado a cargo de
+mantener los sitios de la agencia. Conversamos mucho. Era un chico
+agradable, inteligente. Había llegado a Chile por amor, nos contaba que
+tenía pensado volver a retomar sus estudios en Alemania en unos meses
+más. Nos despedimos ese viernes. El lunes me cuentan que estaba
+internado en la clínica en coma. El martes falleció de un accidente
+vascular cerebral. Tenía un tumor que no había sido diagnosticado. La
+noticia me impactó fuertemente. Fue devastador, recuerdo, me dio mucha
+pena ese hecho.</p>
+<p>Como no tenía trabajo sobreviví participando en algunos proyectos
+freelance, en empresas de amigos.</p>
+<p>En abril de ese año se me acerca Jorge, que actuó de gerente de la
+Startup para plantearme que había una empresa que estaba interesada en
+desarrollar tecnología móvil para logística. Yo tenía buena relación con
+él, porque fue el único que dio la cara durante la crisis finalmente, y
+trato de  ayudarnos. Además que lo respetaba por su gran inteligencia y
+honestidad.</p>
+<p>El financiamiento en esta ocasión venía de una importante  empresa
+naviera nacional. Fue así que se armó una empresa que llamaron Inphone.
+Curioso y premonitor nombre. Era una pequeña Startup que aprovecharía
+los mensajes SMS para coordinar rutas, hacer seguimiento de flotas, y
+cualquier cosa que se nos ocurriera aprovechando SMS y las tecnologías
+de datos sobre GSM y GPRS, y que tuviera sentido para el mundo de la
+logística naviera.</p>
+<p>Pero por alguna razón, algo torpe en mi opinión, también decidieron
+incursionar al inicio en el marketing móvil. Yo sentí que eso nos
+desenfocaría, pero me argumentaron que era algo que podía darnos
+ingresos rápidos. Me ofrecieron una pequeña participación en la
+propiedad. Lo bueno que esta empresa al ser parte del holding de la
+naviera nos permitió recibir los mismos beneficios que sus empleados y
+ejecutivos. Creo que nunca tuve beneficios mejores
+después. </p>
+<p>De algún modo de todo esto se enteró el dueño de la fracasada Startup y
+fue allí cuando recibí una llamada suya. Quizás la conversación por
+teléfono más desagradable de mi vida. </p>
+<p>Se pasó el rollo de que yo le estaba robando la tecnología. Me insultó y
+yo lo mandé a buena parte. Nunca más nos vimos hasta varios años
+después, ocasión en que ni siquiera nos saludamos. Supongo que él piensa
+aún que le robé la tecnología, una tecnología que él nunca programó, por
+supuesto. </p>
+<p>Pero de todas maneras no fue así, por dos razones muy simples. Primero
+no tenía acceso a nada porque mi notebook y los servidores quedaron
+atrapados tras esas cadenas en aquella oficina de Vitacura. La otra
+razón es que nunca me gustó su tecnología, desarrollada en Perl con
+Apache, ni siquiera tenían un ESME[3]. Si lograron conectarse a las
+operadoras móviles fue porque pude construir un Gateway que permitía que
+su aplicación conversara con las redes de telefonía.</p>
+<h2 id="barcos-y-fiordos">Barcos y Fiordos</h2>
+<blockquote>
+<p>Just one note<br>
+Could make me float<br>
+Could make me float away<br>
+&mdash; Red Hot Chili Peppers</p></blockquote>
+<p>En Inphone yo construí toda la tecnología que se desarrolló, porque yo
+era todo el departamento TI.</p>
+<p>[Primero armé una plataforma de marketing digital en Java. También
+escribí un ESME bastante decente en java, basado en un proyecto
+opensource.]{style=&ldquo;letter-spacing: 0.01rem;&rdquo;}\</p>
+<p>Pero lo más entretenido que hice fue trabajar con unos GPS Inmarsat, que
+se usaban en los barcos que recorrían los fiordos del sur de Chile. </p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/db9edb9a-5880-11e9-8e69-21c4c306beae-aa9f18b7" alt=""></p>
+<p>Estos GPS tenían un buffer de 64 Bytes que podía se usado para
+transmitir mensajes. Construí una aplicación que permitía enviar
+mensajes pre codificados (cosas como: <em>&ldquo;entramos a puerto&rdquo;</em>, <em>&ldquo;se
+entregó carga&rdquo;</em>, <em>&ldquo;detenidos por mal tiempo&rdquo;</em>, etc.). Reservamos 4 bytes
+para los mensajes pre codificados (eso da un potencial de más de 4 mil
+millones de mensajes posible, creo que era más que suficiente). Los otro
+60 bytes se usaron para enviar un breve texto.</p>
+<p>El Capitan del barco tenía un notebook conectado al GPS inmarsat a
+través de la puerta serial. En la interfaz de usuario, una aplicación
+Windows escrita en Delphi, seleccionaba el mensaje pre codificado. Luego
+agregaba un texto si era necesario, y presionaba un botón para despachar
+el mensaje.</p>
+<p>En Valparaiso un servidor visitaba periódicamente los servidores de
+Inmarsat y descargaba los mensajes desde los barcos que se recibían
+mediante archivos a través de FTP. Se descodificaban y se colocaban en
+un dashboard también en Delphi. El operador central podía enviar
+instrucciones de vuelta al barco de manera codificada de la misma
+manera, usando esos 4 bytes.</p>
+<p>La codificación de mensajes e instrucciones las configuraba un operador
+y si se necesitaba agregar información debía repartir la tabla de
+mensajes a cada barco.</p>
+<p>Todo esto se hacía porque en algunos fiordos no había señal de radio y
+el GPS era el único medio de
+comunicación.</p>
+<p>Fue uno de los proyectos más entretenidos en los que he participado, y
+una de las cosas que más me satisface fue haberlo construido todo desde
+cero. Requirió programar a bajo nivel, para manejar la puerta serial y
+el protocolo de comunicaciones con el GPS, algo que ya había hecho en mi
+pasada por Enfasis. Tenía algo de mensajería móvil y además construí
+unos dashboard para informar estados y métricas de los barcos.</p>
+<p>¿Me creerán que armé todo eso en menos de un mes?</p>
+<p>Cuando estás concentrado y trabajando sólo, cuando todas las decisiones
+son tuyas, el código puede fluir muy rápido, pero además puedes
+sorprender a tu cliente superando sus expectativas. Y esto es muy
+relevante. Equipos pequeños, incluso una sola persona, pueden ser muy
+eficientes. Lo importante es que las personas sean talentosas, tengan
+claro qué quieren hacer y tengan espacio y tiempo para enfocarse. Eso es
+esencial para lograr verdadero desarrollo ágil.</p>
+<p>Ignoro por cuanto tiempo se siguió usando esta solución, supongo que no
+mucho, la tecnología de comunicaciones satelitales se desarrolló muy
+rápido. Pero aún así, creo que es una de las soluciones más ingeniosas
+que he programado.</p>
+<p>Pero a pesar de los beneficios de trabajar para la naviera, estaba sólo
+en ese trabajo. Pasaba días sin ningún colega en nuestra pequeña oficina
+cerca del metro Tobalaba. </p>
+<p>En la empresa éramos apenas tres. El gerente, un encargado comercial y
+yo que realizaba toda la ingeniería.</p>
+<p>No estaba satisfecho, al contrario, me sentía muy deprimido. Quería
+emigrar, hacer cosas nuevas y trabajar en equipo con colegas que me
+entendieran.</p>
+<p>Fue entonces recibí la llamada de mi amigo Marco, a principios de 2004,
+en que me invitaba aventurarme en el mundo de la biometría. Eso se los
+contaré en la séptima parte.</p>
+<h2 id="notas"><strong>Notas:</strong></h2>
+<p>[1]la leyenda urbana dice que hay dos películas que siguieron después,
+no sé si las vi, y si las vi prefiero olvidarlas.</p>
+<p>[2] Pueden leer más datos interesantes sobre RATM en este hilo de
+Twitter: <a href="https://twitter.com/conarebo/status/1114312594066694146">https://twitter.com/conarebo/status/1114312594066694146</a></p>
+<p>[3] Pese a que hay un fallo que dice que se deben de devolver miles de
+millones de dólares al estado chileno, me pregunto si se se ha
+recuperado algo de esa pérdida. </p>
+<p>[4] un ESME es un servidor que permite conectar servicios TCP/IP a una
+red basada en
+SMS  <a href="https://en.wikipedia.org/wiki/External_Short_Messaging_Entity">https://en.wikipedia.org/wiki/External_Short_Messaging_Entity</a>.</p>
+<p>La primera parte de esta serie está
+acá: <a href="/blog/lnds/2019/03/17/el-fin-de-la-agilidad">https://www.lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad</a></p>
+<p>La parte 7, continuación de este episodio está
+acá: <a href="/blog/lnds/2019/04/14/el-fin-de-la-agilidad">http://www.prosa.io/blog/lnds/2019/04/14/el-fin-de-la-agilidad</a></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2872 words</span>
+    <span>17 - 21 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#wake-up">Wake Up!</a></li>
+    <li><a href="#cult-of-personality">Cult of Personality</a></li>
+    <li><a href="#bulls-on-parade">Bulls on parade</a></li>
+    <li><a href="#evidence">Evidence</a></li>
+    <li><a href="#el-jarrón-de-don-ricardo">El Jarrón de Don Ricardo</a></li>
+    <li><a href="#reboot">Reboot</a></li>
+    <li><a href="#barcos-y-fiordos">Barcos y Fiordos</a></li>
+    <li><a href="#notas"><strong>Notas:</strong></a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2019/el-fin-de-la-agilidad/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2019/el-fin-de-la-agilidad/">El Fin de la Agilidad (V)</a></li><li><a href="/posts/2019/el-fin-de-la-agilidad/">El Fin de la Agilidad (IV)</a></li><li><a href="/posts/2019/el-fin-de-la-agilidad/">El Fin de la Agilidad (III)</a></li><li><a href="/posts/2012/dichos-locos-y-trenes/">Dichos, Locos y Trenes</a></li><li><a href="/posts/2012/locos-y-ruedas/">Locos y Ruedas</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

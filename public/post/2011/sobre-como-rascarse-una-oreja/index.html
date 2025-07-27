@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sobre cómo rascarse una oreja | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2011/sobre-como-rascarse-una-oreja/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Sobre cómo rascarse una oreja">
+  <meta property="og:description" content="Hay veces que nos encanta rascarnos la oreja izquierda con la mano derecha, por puro complicar las cosas
+Eso se da mucho en las etapas de diseño y modelamiento de datos. Un problema simple después de pasar por la etapa de análisis y diseño puede quedar así:
+¡Ah!, que hermosos son estos modelos genéricos, con trazabilidad, controles de accesos, y perfiles, una orgía de tablas y relaciones (¿será que eso de las “relaciones foráneas” despierta alguna inconfesable fantasía en los analistas de sistemas?)">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2011-07-13T08:25:11-03:00">
+    <meta property="article:modified_time" content="2011-07-13T08:25:11-03:00">
+    <meta property="article:tag" content="Complicaciones">
+    <meta property="article:tag" content="Complicado">
+    <meta property="article:tag" content="Complejidad">
+    <meta property="article:tag" content="Desarrollo">
+    <meta property="article:tag" content="Bases De Datos">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sobre cómo rascarse una oreja">
+  <meta name="twitter:description" content="Hay veces que nos encanta rascarnos la oreja izquierda con la mano derecha, por puro complicar las cosas
+Eso se da mucho en las etapas de diseño y modelamiento de datos. Un problema simple después de pasar por la etapa de análisis y diseño puede quedar así:
+¡Ah!, que hermosos son estos modelos genéricos, con trazabilidad, controles de accesos, y perfiles, una orgía de tablas y relaciones (¿será que eso de las “relaciones foráneas” despierta alguna inconfesable fantasía en los analistas de sistemas?)">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Sobre cómo rascarse una oreja</h1><time class="dim" datetime="2011-07-13T08:25:11-03:00">July 13, 2011</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/complicaciones/">#complicaciones</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/complicado/">#complicado</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/complejidad/">#complejidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/desarrollo/">#desarrollo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/bases-de-datos/">#bases de datos</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hay veces que nos encanta rascarnos la oreja izquierda con la mano
+derecha, por puro complicar las cosas</p>
+<p><img src="complicado.jpg" alt="complicado"></p>
+<p>Eso se da mucho en las etapas de diseño y modelamiento de datos. Un
+problema simple después de pasar por la etapa de análisis y diseño puede
+quedar así:</p>
+<p><img src="dbSchema.jpg" alt=""></p>
+<p>¡Ah!, que hermosos son estos modelos genéricos, con trazabilidad,
+controles de accesos, y perfiles, una orgía de tablas y relaciones
+(¿será que eso de las &ldquo;relaciones foráneas&rdquo; despierta alguna
+inconfesable fantasía en los analistas de sistemas?)</p>
+<p>A veces esto se convierte en puro onanismo, originado por un axioma que
+fue imbuido en nuestros cerebros por un grupo de investigadores de IBM
+en 1969<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, la idea de que todo debe ser modelado en una base de datos
+relacional hasta la &ldquo;vigésima quinta forma normal&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>No hay que desconocer que el modelo relacional tiene sus ventajas,
+después de todo es el corazón de la mayoría de los sistemas
+transaccionales en la actualidad. A saber las bases de datos
+relacionales, cuando se usan adecuadamente, tienen muchas ventajas.</p>
+<ol>
+<li>
+<p>La teoría que las sustenta está basada en la lógica de primer orden
+y la teoría de conjuntos, por lo que es fácil de entender y explicar
+desde un punto de vista teórico.</p>
+</li>
+<li>
+<p>Como las bases de datos relacionales permiten operar con conjuntos
+se pueden definir operaciones muy eficientes que permiten &ldquo;cruzar&rdquo;
+los datos, esto es conocido como &ldquo;algebra relacional&rdquo;. Un lenguaje
+equivalente es el &ldquo;cálculo relacional&rdquo; [3], ambos lenguajes
+teóricos permitieron crear el lenguaje de consulta estructurado SQL,
+un lenguaje sencillo y muy poderoso que permite extraer información
+desde el modelo relacional.</p>
+</li>
+<li>
+<p>Cuando las bases de datos relacionales están bien modeladas usan
+eficientemente el espacio.</p>
+</li>
+<li>
+<p>Un buen modelo permite realizar consultas que no estaban previstas,
+hacer nuevos cruces de información, claro que a un costo. Si los
+índices no existen las consultas pueden tomar tiempos cuadráticos, o
+peores.</p>
+</li>
+</ol>
+<p>Todo estos beneficios vienen de que las bases de datos relacionales
+promueven una estructura, sólida, tolerante a fallas, que permite
+validar errores semánticos o de estructura dento del mismo motor. Dadas
+estas ventajas posteriormente los sistemas administradores de bases de
+datos incorporaron otros conceptos, como la transaccionalidad, el famoso
+<a href="http://en.wikipedia.org/wiki/ACID">ACID</a> (Atomicity, Consistency,
+Isolation, Durability), que permiten que estas bases sean tan usadas en
+aplicaciones empresariales (contabilidad, bancos, retail, etc.).</p>
+<p>El otro día escuché a un importante ejecutivo decir que todo el mundo
+usa Oracle, o SQL Server porque sirven para resolver problemas grandes a
+nivel empresarial. Le comenté que <a href="http://highscalability.com/blog/2010/11/16/facebooks-new-real-time-messaging-system-hbase-to-store-135.html">Facebook almacena 135 mil millones de
+mensajes al mes en una base de datos no
+relacional</a>,
+pero ni aún así entendió. Es el típico caso de <a href="http://www.lnds.net/blog/2011/07/decisiones-irracionales.html">razonamiento
+motivado</a>.</p>
+<p>Si bien casi todo problema se puede modelar con una base de datos
+relacional, no siempre conviene resolver un problema con una base de
+relacional. Ya <a href="http://www.lnds.net/blog/2011/10/datos-datos-datos.html">les mostré un
+ejemplo</a> en que
+un programa en C puede ser más eficiente que procesar una simple
+sentencia SQL, claro requiere más trabajo de desarrollo, pero ahí viene
+el arte y la ciencia, conocer y usar la herramienta adecuada para cada
+tipo de problema.</p>
+<p>Consideren este modelo:</p>
+<pre tabindex="0"><code> class Book {   
+     String title   
+     String author   
+     Integer year    
+     Integer pages    
+     Set keywords    
+     Set ratings   
+}
+</code></pre><p>Versus este otro</p>
+<pre tabindex="0"><code>class Book {   
+    Integer id    
+    String title    
+    String author    
+    Integer year    
+    Integer pages
+} 
+
+class Keyword {   
+    Integer id    
+    String keyword    
+    Integer bookId    
+}
+
+
+class Ratings {   
+    Integer id    
+    String rating    
+    Integer bookId    
+}
+</code></pre><p>Si tienes un sistema de ventas de libros por internet es mucho más
+conveniente desde un punto de vista semántico usar el primer modelo, con
+una sola clase Book, que contiene toda la información relevante en un
+sólo lugar. Como normalmente el usuario va a interactuar con un libro a
+la vez este modelo es más simple y directo.</p>
+<p>Si vas a hacer estadísticas u operaciones agrupadas sobre los libros, el
+segundo modelo te conviene más. Pero considera que esas operaciones
+también las puedes ejecutar mediante algún mecanismos tipo
+<a href="/blog/2011/10/ensaladas-y-algoritmos.html">Map Reduce</a> en
+otro horario, o en una base offline.</p>
+<p>Las bases de datos no relacionales permiten abordar el mismo problema,
+pero a veces desde una perspectiva más simple, y muchas veces más ágil.
+Pronto veremos algunos ejemplos. Lo importante es tener una mente
+abierta y considerar que hay formas más simples de rascarse una oreja.</p>
+<p><img src="simple.jpg" alt=""></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Edgar F. Codd, investigador británico trabajando en IBM en 1969
+propuso la teoría de las bases de datos relacionales en una serie de
+papers a comienzos de la década de 1979, recibió el premio Turing en 1981.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Hasta la fecha se conocen <a href="http://en.wikipedia.org/wiki/Database_normalization#Normal_forms">6 formas normales</a>,
+pero la imaginación de un académico no tiene límites.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>763 words</span>
+    <span>5 - 6 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2011/sobre-como-rascarse-una-oreja/complicado.jpg">complicado.jpg</a></li><li><a href="http://localhost:1313/post/2011/sobre-como-rascarse-una-oreja/dbSchema.jpg">dbSchema.jpg</a></li><li><a href="http://localhost:1313/post/2011/sobre-como-rascarse-una-oreja/simple.jpg">simple.jpg</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2011/razonamiento-circular/">Razonamiento circular</a></li><li><a href="/post/2010/como-estimar-software/">Cómo estimar software</a></li><li><a href="/post/2010/control-de-versiones-distribuido/">Control de Versiones Distribuido</a></li><li><a href="/post/2010/sistemas-de-control-de-versiones/">Sistemas de Control de Versiones</a></li><li><a href="/post/2010/lo-simple-lo-complejo-y-lo-complicado/">Lo simple, lo complejo y lo complicado</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

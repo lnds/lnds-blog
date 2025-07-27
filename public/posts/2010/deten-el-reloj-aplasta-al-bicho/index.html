@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Detén el reloj, aplasta al &#34;bicho&#34; | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Detén el reloj, aplasta al &#34;bicho&#34;">
+  <meta property="og:description" content="Si este blog fuera lo que alguna vez pretendí que fuera, me gustaría que se pareciera a Word Aligned, y para que tengan una idea de que les estoy hablando, he traducido un artículo de ese extraordinario blog, espero que lo disfruten (incluso los que son menos técnicos). (*)
+Detén el reloj, aplasta el bicho1
+Por Thomas Guest (Word Aligned)
+¿Cuál de estos relojes es el mejor?
+Podríamos fácilmente argumentar que el que está detenido.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-05-27T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-05-27T08:25:11-03:00">
+    <meta property="article:tag" content="Bugs">
+    <meta property="article:tag" content="Programación">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Detén el reloj, aplasta al &#34;bicho&#34;">
+  <meta name="twitter:description" content="Si este blog fuera lo que alguna vez pretendí que fuera, me gustaría que se pareciera a Word Aligned, y para que tengan una idea de que les estoy hablando, he traducido un artículo de ese extraordinario blog, espero que lo disfruten (incluso los que son menos técnicos). (*)
+Detén el reloj, aplasta el bicho1
+Por Thomas Guest (Word Aligned)
+¿Cuál de estos relojes es el mejor?
+Podríamos fácilmente argumentar que el que está detenido.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Detén el reloj, aplasta al &#34;bicho&#34;</h1><time class="dim" datetime="2010-05-27T08:25:11-03:00">May 27, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/bugs/">#bugs</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div></ol></div>
+  <section class="page-section"><p><img src="fast-clock.gif" alt="fast-clock.gif"></p>
+<p>Si este blog fuera lo que alguna vez pretendí que fuera, me gustaría que
+se pareciera a <a href="http://wordaligned.org/">Word Aligned</a>, y para que
+tengan una idea de que les estoy hablando, he traducido un artículo de
+ese extraordinario blog, espero que lo disfruten (incluso los que son
+menos técnicos). (*)</p>
+<p><strong>Detén el reloj, aplasta el bicho<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></strong></p>
+<p><strong>Por Thomas Guest (Word Aligned)</strong></p>
+<p>¿Cuál de estos relojes es el mejor?</p>
+<p><img src="stopped-clock.gif" alt="stopped-clock.gif">
+<img src="slow-clock.gif" alt="slow-clock.gif">
+<img src="fast-clock.gif" alt="fast-clock.gif"></p>
+<p>Podríamos fácilmente argumentar que el que está detenido.</p>
+<p>¿Podemos? En &ldquo;Los Dos Relojes&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Lewis Carroll argumenta de otra
+manera.</p>
+<blockquote>
+<p>¿Qué es mejor, un reloj que da la hora exacta una vez por año, o un
+reloj que es puntual dos veces por día? &ldquo;Este último&rdquo;, contestarás,
+&ldquo;incuestionablemente&rdquo;. Muy bien, ahora atiende.</p>
+<p>Supongamos que tengo dos relojes: uno no funciona <em>en lo absoluto</em>, y
+el otro se retrasa un minuto al día: ¿cuál preferirías? &ldquo;El que se
+retrasa&rdquo;, replicarías sin ninguna duda. Ahora observa: el que se
+retrasa un minuto al día tiene que emplear doce horas, o setecientos
+veinte minutos, hasta que de nuevo señale la hora correcta; por
+consiguiente es puntual una vez cada dos años, mientras que el otro es
+puntual evidentemente siempre que sea la hora por él indicada, lo que
+ocurre dos veces al día.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p></blockquote>
+<p>Esta es una distracción divertida, pero no realmente problemática: por
+supuesto que el reloj que pierde tiempo es de uso más práctico, aún así
+es paradojal, mientras menos tiempo pierda menos a menudo dice la hora
+correcta. Un reloj que pierde sólo un segundo al día sólo indica la hora
+correcta cada 118 años aproximadamente.</p>
+<p><strong>Software Bugs</strong></p>
+<p>Mencione estos relojes defectuosos porque estoy pensando sobre los
+fallos en el software (bugs) y como los buscamos y corregimos.</p>
+<p><img src="stopped-clock.gif" alt="stopped-clock.gif">
+<img src="spider.jpg" alt="spider.jpg"></p>
+<p>El código que es obviamente correcto es más fácil de detectar que aquel
+que es casi correcto, y detectar fallos es previo a corregirlos. Esto
+implica - construyendo sobre la terminología de Carroll - que es
+improbable que despachemos muchos relojes detenidos, pero si no somos
+cuidadosos podemos terminar despachando unos pocos que pierden tiempo.
+Y, en general, el código que es obviamente erróneo es más fácil de
+corregir que el código que es casi correcto. Una función terriblemente
+rota claramente necesita un replanteo; mientras que una que casi
+funciona puede simplemente ser ajustada hasta que parezca funcionar, a
+menudo resultando en un error más sutil.</p>
+<p><strong>Fugas y Carreras</strong></p>
+<p>C y C++ proveen buenos ejemplos de lo que estoy hablando. Consideren un
+programa que usa mal la memoria. Un intento de alojar un espacio de
+trabajo de 4294967295 bytes falla instantáneamente<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>; una lenta fuga
+de memoria, como el reloj lento, puede causar un daño no perceptible por
+un periodo extendido.</p>
+<p>Herramientas decentes detectarán fugas de memoria. Condiciones de
+carrera (race conditions) en un código multi hebras son dificiles de
+seguir y pueden mostrarse elusivas durante las pruebas del sistema. Más
+de una vez he dejado un programa corriendo en un depurador (debugger),
+siendo alimentado con entradas al azar, con la esperanza de de que una
+rara y aparentemente aleatoria condición gatille una interrupción en la
+ejecución. ¡Denme código realmente roto cualquier día!</p>
+<p><strong>75% correcto vs 50% correcto</strong></p>
+<p>Acá hay dos implementaciones de una función en C para encontrar el punto
+medio entre un par de valores enteros positivos y ordenados, aproximando
+hacia abajo. Antes de seguir leyendo, pregúntese cuál es mejor.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">midpoint1</span>(<span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high) { <span style="color:#66d9ef">return</span> low<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> high<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>; }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">midpoint2</span>(<span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high) { <span style="color:#66d9ef">return</span> (low <span style="color:#f92672">+</span> high)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>; }
+</span></span></code></pre></div><p>midpoint1 es un reloj detenido, retornando 3 en vez de 4 como el punto
+medio entre 3 y 5, por ejemplo. Entrega la respuesta incorrecta el 25%
+del tiempo &ndash; fatalmente erróneo si fuera usado en el corazón de,
+digamos, una búsqueda binaria. Creo que podríamos detectar fácilmente el
+problema.</p>
+<p>Una corrección obvía sería la mostrada en midpoint2, la que retorna 4
+como el punto medio entre 3 y 5.</p>
+<p>Sin embargo, midpoint2 es un reloj que se retrasa Si la suma low + high
+produce un desbordamiento (overflow) el resultado es indefinido. En mi
+implementación obtengo un valor negativo &ndash; una cosa peligrosas si lo
+usamos como índice de un arreglo. Este es un defecto notorio y muy real,
+y muy bien documentado en una nota de Joshua Bloch subtitulada &ldquo;Casi
+todas las búsquedas binarias y merge sorts están
+rotos&rdquo;: <a href="http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html">http://googleresearch.blogspot.com/2006/06/extra-extra-read-all-about-it-nearly.html</a>.</p>
+<p>Bloch ofrece más de una corrección así que voy a hacer notar acá que:</p>
+<ul>
+<li>este defecto simplemente no existe en lenguajes de alto nivel como
+Python o Haskell, donde los enteros sólo están limitados por los
+recursos de la máquina.</li>
+<li>Pienso que Bloch no es justo al sugerir que el análisis de Jon
+Bentley del capítulo 4 de Programming Pearls es incorrecto. El seudo
+código de ese capítulo está escrito en un lenguaje tipo C algo entre
+C y Python, y de hecho uno de los ejercicios propuestos de Bentley
+es examinar el efecto que el tamaño de las palabras (words) tiene en
+este análisis.</li>
+<li>En cierto sentido midpoint2 está más roto que midpoint1: sobre el
+rango de las entradas bajas y altas, la suma desborda y gatilla el
+defecto el 50% de las veces.</li>
+</ul>
+<p><strong>Algoritmos Probabilísticos</strong></p>
+<p>Los computadores se suponen que son predecibles y típicamente buscamos
+programas correctos. No hay razones por las que consideremos programas
+que sean suficientemente correctos, sin embargo y de hecho muchos
+programas que son suficientemente buenos para ser útiles también tienen
+fallas. Los avisos de Google, por ejemplo, analizan el contenido de las
+páginas webs y despliegan enlaces relacionados. El algoritmo usado es
+secreto, ingenioso y rápido, pero a menudo resulta en errores semánticos
+y, en ocasiones, errores ofensivos. Sin embargo, pocos podrían negar
+cuan útil ha sido para Google este programa.</p>
+<p>Acá hay un ejemplo más interesante de un algoritmo, el cual, como un
+reloj que se atrasa, es casi correcto:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">is_fprime</span>(n):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Usa el teorema pequeño de Fermat para adivinar si n es primo.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">from</span> random <span style="color:#f92672">import</span> randrange 
+</span></span><span style="display:flex;"><span>    tries <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>    xs <span style="color:#f92672">=</span> (randrange(<span style="color:#ae81ff">1</span>, n)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(tries):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> all((x <span style="color:#f92672">*</span> n) <span style="color:#f92672">%</span> n <span style="color:#f92672">==</span> x <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> xs)
+</span></span></code></pre></div><p>No entraremos en las <a href="http://mathworld.wolfram.com/FermatsLittleTheorem.html">matemáticas</a>
+aquí. Una rápida ejecución con esta función parece prometedora.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>    all(is_fprime(n) <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> [<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">17</span>, <span style="color:#ae81ff">19</span>]) <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>    any(is_fprime(n) <span style="color:#66d9ef">for</span> n <span style="color:#f92672">in</span> [<span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">14</span>, <span style="color:#ae81ff">15</span>]) <span style="color:#66d9ef">False</span>
+</span></span></code></pre></div><p>De hecho, si le damos un trabajo real con algunos números grandes, lo
+hace bien. Lo he usado para adivinar cual de los números entre 100000
+and 102000 son primos, comparando la respuesta con el resultado corecto.
+Tiene una tasa de éxito mejor que un 99% (en términos de relojes, pierde
+8 minutos al día) y al aumentar tries mejora su desempeño.</p>
+<p><strong>Mejorando is_fprime</strong></p>
+<p>Mientras mejor <code>is_fprime</code> se desempeña, menos probable es detectar lo
+que tiene de malo. Lo que es peor, no puede ser mejorado con ajustes
+simples. Sin embargo mientras más alto ponemos el valor de la variable
+<code>tries</code> no tenemos una función correcta. Podríamos aún tomar una prueba
+al azar de la función y probar todo valor de x en el rango 1 a n dentro
+del predicado:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">exhaustive_is_fprime</span>(n): 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> all((x <span style="color:#f92672">*</span> n) <span style="color:#f92672">%</span> n <span style="color:#f92672">==</span> x <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, n))
+</span></span></code></pre></div><p><code>exhaustive_is_fprime</code> es muy caro para ejecutar y ocasionalmente
+retornará True para algún número compuesto. Si quieres saber más busca
+por los números de Carmichael.</p>
+<p>El punto que quiero establecer es que el código que es casi correcto
+puede ser peligroso. Estamos tentados a corregirlo haciendo ajustes a
+una implementación existente, aunque, en este caso, se requiere de una
+revisión completa. En contraste, todos sabemos lo que se necesita hacer
+con el código que es claramente erróneo.</p>
+<p><strong>Programación defensiva</strong></p>
+<p>Todos hemos visto esas funciones nerviosas que van más allá de su
+interfaz declarada en un intento de protegerse de los usuarios
+descuidados.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>    <span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    * Retorna el valor máximo encontrado en el arreglo de entrada.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * Pre condición: el arreglo no debe ser vacío.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">nervy_maximum_value</span>(<span style="color:#66d9ef">int</span> <span style="color:#66d9ef">const</span> <span style="color:#f92672">*</span> items, <span style="color:#66d9ef">size_t</span> count)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> M <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>INT_MAX;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (items <span style="color:#f92672">==</span> NULL <span style="color:#f92672">||</span> count <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> M;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> ( ; count<span style="color:#f92672">--</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>; <span style="color:#f92672">++</span>items)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">*</span>items <span style="color:#f92672">&gt;</span> M)
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                M <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>items;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> M;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>Lo que realmente queremos es un más simple y fácil para los clientes que
+usen este código:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">maximum_value</span>(<span style="color:#66d9ef">int</span> <span style="color:#66d9ef">const</span> <span style="color:#f92672">*</span> items, <span style="color:#66d9ef">size_t</span> count)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> <span style="color:#66d9ef">const</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">const</span> end <span style="color:#f92672">=</span> items <span style="color:#f92672">+</span> count;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> M <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>items<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> ( ; items <span style="color:#f92672">!=</span> end; <span style="color:#f92672">++</span>items)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">*</span>items <span style="color:#f92672">&gt;</span> M)
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                M <span style="color:#f92672">=</span> <span style="color:#f92672">*</span>items;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> M;
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>¿Se dieron cuenta del error sutil en <code>nervy_maximum_value</code>? Usa
+<code>-INT_MAX</code> en vez de <code>INT_MIN</code> lo que causará problemas si los clientes
+codifican sobre este comportamiento no documentado; si
+<code>nervy_maximum_value</code> es corregido posteriormente, el código del cliente
+puede explotar. Noten que no estoy en contra del uso de asertos
+(assertions) para revisar las pre condiciones, y una revisión simple
+como <code>assert(items != NULL &amp;&amp; count != 0)</code> funciona bien en
+<code>maximum_value</code>; es la escritura de código que contiene estas
+condiciones fallidas el que considero erróneo.</p>
+<p><strong>Tiempo de vida medio de los defectos.</strong></p>
+<p>La ocurrencia de defectos en un sistema de software complejo puede ser
+modelado de la misma manera que el decaimiento radiactivo. No he
+estudiado esta teoría y mi física está algo oxidada, pero la idea básica
+es que la población de errores en un software es como la población de
+partículas radiactivas.</p>
+<p>Un fallo dado aparece (cualquier partícula decae) al azar, así que no
+podemos predecir cuando este evento sucederá, pero es igualmente
+probable que surja en cualquier momento particular. Esto le da a cada
+defecto un tiempo de vida promedio: una expectativa de vida pequeña para
+los defectos más ruidosos, tales como acceder a un puntero NULL, y
+tiempos más largos para defectos más sutiles, tales como los errores de
+redondeo acumulado. Asumiendo que corregimos un bug cuando ocurre, la
+población de defectos decae exponencialmente, y obtenemos la clásica
+curva en forma de cola.</p>
+<p><img src="chart.png" alt="chart.png"></p>
+<p>Cualquiera que haya tratado de liberar un producto de software sabe lo
+que se siente deslizarse por la pendiente de esta curva. Probamos el
+sistema, encontramos defectos, los corregimos, repetimos. Al principio
+puede ser estimulante en la medida que los &ldquo;bichos&rdquo; con corta vida son
+aplastados, pero hacia el final del juego es desmoralizante ver cómo los
+defectos son reportados y no pueden ser reproducidos, y nos encontramos
+sin progresar. Cuando finalmente dibujamos una linea y despachamos el
+producto lo hacemos sospechando que los peores problemas aún están por
+ser encontrandos. Para ponerlo en forma sucinta:</p>
+<p>Ship happens!</p>
+<p>Una combinación de técnicas nos ayuda a escapar de esta imagen
+depresiva. La más obvia sería evitarla: más que intentar una liberación
+tipo &ldquo;big-bang&rdquo; cada pocos años, podemos movernos hacia una liberación
+más continua e incremental. Una arquitectura desacoplada ayuda. De ahí
+la insistencia en pruebas unitarias. En vez de agitar el sistema y ver
+cómo caen los bichos, deberíamos desarrollar un conjunto de errores
+automatizados que activamente buscan los varios caminos a través del
+código y ejercitan los casos de borde. Dentro de la base de código, la
+programación defensiva puede causar que los defectos se atrincheren. En
+vez de eso, deberíamos adoptar un estilo más confiado, donde el código
+falla en forma dura y rápidamente.</p>
+<p><strong>¿Cómo llego a funciona ese código alguna vez?</strong></p>
+<p>Han arreglado un defecto y luego se han preguntado ¿cómo pudo ese código
+haber funcionado antes de que lo corrigieran? Es una pregunta importante
+y una que requiere investigación. Quizás el defecto que arreglaste está
+compensado por programación defensiva en otro lado. O quizás hay vastas
+rutas a través del código que aún deben ser probadas.</p>
+<p><strong>Conclusiones</strong></p>
+<p><img src="stopped-clock.gif" alt="stopped-clock.gif"></p>
+<p><img src="slow-clock.gif" alt="slow-clock.gif"></p>
+<p><img src="fast-clock.gif" alt="fast-clock.gif"></p>
+<p>Ninguno de estos relojes es muy bueno. El primero está detenido, el
+segundo pierde un segundo cada minuto, el tercero gana un segundo cada minuto.
+Al menos es fácil ver el problema con el primero: no nos tentaremos en
+tratar de parcharlo.</p>
+<p>Nunca debermos esperar que nuestro código funcione la primera vez y
+deberíamos sospechar si así parece. La programación defensiva parece
+significar cosas distintas a diferentes personas. Si hemos usado mal el
+térmno aquí, lo siento. Nuestra mejor defensa es asumir que el código
+está roto hasta que los hayamos probado, asumir que se romperá en el
+futuro si nuestros test no son automatizados, y fallar rápidamane cuando
+detectemos errores.</p>
+<p><a href="http://wordaligned.org/articles/stop-the-clock-squash-the-bug">Artículo original en inglés</a></p>
+<p><strong>Notas del traductor</strong></p>
+<p><strong>(*) Este articulo fue publicado originalmente en julio de 2008, pero
+ya saben lo que pasó, esta versión tiene algunas correcciones.</strong></p>
+<p>Imágenes tomadas de Word Aligned, del artículo original.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Bicho por bug, un defecto en programación.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>En Word Aligned hacen referencia a The Rectory Umbrella, pero el texto de Carroll, que yo copio de &ldquo;Matemática Demente&rdquo;, aparece con el nombre de &ldquo;Los Dos Relojes&rdquo;.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Texto copiado del libro: &ldquo;Matemática Demente&rdquo;. Lewis Carroll - Traducción de Leopoldo María Panero, Tusquets Editores, Barcelona 1999&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Tal como <a href="http://wordaligned.org/articles/stop-the-clock-squash-the-bug#fn1link">acota el autor</a>, no es correcto que al tratar de solicitar 4294967295 bytes se provoque un error, malloc retorna NULL en el evento de una falla y el operador estandard new de C++ define como comportamiento disparar la excepción <code>bad_alloc.</code>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>2178 words</span>
+    <span>13 - 16 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/chart.png">chart.png</a></li><li><a href="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/fast-clock.gif">fast-clock.gif</a></li><li><a href="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/slow-clock.gif">slow-clock.gif</a></li><li><a href="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/spider.jpg">spider.jpg</a></li><li><a href="http://localhost:1313/posts/2010/deten-el-reloj-aplasta-al-bicho/stopped-clock.gif">stopped-clock.gif</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2010/la-programaci%C3%B3n-en-10-anos-mas/">La programación en 10 años más</a></li><li><a href="/posts/2010/1-de-5-000-o-5-000-de-1-batch-y-transaccional/">1 de 5.000 ó 5.000 de 1 (batch y transaccional) </a></li><li><a href="/posts/2010/la-disciplina-condenada/">La disciplina condenada</a></li><li><a href="/posts/2009/la-programacion-como-un-arte-parte-v-y-final/">La programación como un Arte (Parte V y final)</a></li><li><a href="/posts/2009/la-programacion-como-un-arte-parte-iv/">La programación como un Arte (Parte IV)</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

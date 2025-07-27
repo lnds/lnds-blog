@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Precisión | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2007/precision/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Precisión">
+  <meta property="og:description" content="Esta nota está “impulsada” por algunos comentarios a mi post anterior con respecto al Bug de Excel 2007, el primero es un enlace a una discusión en Kriptópolis sobre la precisión numérica de javascript. El segundo es para preguntarme si sabía que Visual Basic rendondea hacia abajo.
+La verdad es que no sé cómo redondea Visual basic, porque afortunadamente nunca he tenido que programar en ese lenguaje ;).
+Pero lo que me sorprende es leer otros comentarios que demuestran una ignorancia sobre la precisión de los computadores que es sorprendente en profesionales de la informática.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2007-10-10T18:43:11+00:00">
+    <meta property="article:modified_time" content="2007-10-10T18:43:11+00:00">
+    <meta property="article:tag" content="Cálculo">
+    <meta property="article:tag" content="Cálculo Numérico">
+    <meta property="article:tag" content="Matemáticas">
+    <meta property="article:tag" content="Precisión">
+    <meta property="article:tag" content="Punto Flotante">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Precisión">
+  <meta name="twitter:description" content="Esta nota está “impulsada” por algunos comentarios a mi post anterior con respecto al Bug de Excel 2007, el primero es un enlace a una discusión en Kriptópolis sobre la precisión numérica de javascript. El segundo es para preguntarme si sabía que Visual Basic rendondea hacia abajo.
+La verdad es que no sé cómo redondea Visual basic, porque afortunadamente nunca he tenido que programar en ese lenguaje ;).
+Pero lo que me sorprende es leer otros comentarios que demuestran una ignorancia sobre la precisión de los computadores que es sorprendente en profesionales de la informática.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Precisión</h1><time class="dim" datetime="2007-10-10T18:43:11&#43;00:00">October 10, 2007</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/c%C3%A1lculo/">#cálculo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/c%C3%A1lculo-num%C3%A9rico/">#cálculo numérico</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/matem%C3%A1ticas/">#matemáticas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/precisi%C3%B3n/">#precisión</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/punto-flotante/">#punto flotante</a>
+      </div></ol></div>
+  <section class="page-section"><p>Esta nota está &ldquo;impulsada&rdquo; por algunos <a href="/2007/09/errores_de_redondeo.html#comments">comentarios</a> a mi post anterior con respecto al <a href="/2007/09/errores_de_redondeo.html">Bug de Excel <strong>2007</strong></a>, el primero es un <a href="http://www.kriptopolis.org/explorer-aprueba-matematicas">enlace a una discusión en Kriptópolis</a> sobre la precisión numérica de javascript. El segundo es para preguntarme si sabía que Visual Basic rendondea hacia abajo.</p>
+<p>La verdad es que no sé cómo redondea Visual basic, porque afortunadamente nunca he tenido que programar en ese lenguaje ;).</p>
+<p>Pero lo que me sorprende es leer <a href="http://www.kriptopolis.org/explorer-aprueba-matematicas#comment-24031">otros comentarios</a> que demuestran una ignorancia sobre la precisión de los computadores que es sorprendente en profesionales de la informática.</p>
+<p>Todo programador debería saber que la precisión de las operaciones matemáticas está dada por la manera en que se representan los números.</p>
+<p>Hoy en día la forma más aceptada para el almacenamiento de números es la representación estándar IEE de Punto Flotante, o <a href="http://es.wikipedia.org/wiki/IEEE_754">IEE754</a>.</p>
+<p>Esta representación, a pesar de ser bastante buena y precisa, no permite representar todos los números reales posibles, los que son infinitos.</p>
+<p>Como no podemos tener infinitos dígitos para representar un número, debemos adoptar alguna convención, y para eso usamos una cantidad de bits para almacenar los números.</p>
+<p>La representación típica usa 64 bits para almacenar un número real. Excel y muchos programas que requieren alta precisión, usan la denominada &ldquo;representación doble extendida&rdquo;, en que cada número se representa en 80 bits.</p>
+<p>Esta representación tiene algunas propiedades curiosas, como por ejemplo, que hay 1.000 veces más números entre 0 y 0,5 que entre 0,5 y 1,0. Es decir, la precisión es mayor cuando más nos acercamos a 0.</p>
+<p>Hay consecuencias asociadas a la decisión de usar esta representación. Una de las más impactantes es la no asociatividad de los números.</p>
+<p>Si recuerdan del colegio la asociatividad es una propiedad que nos permite decir que podemos agrupar 3 o más números de distintas maneras y los resultados van a ser los mismos.</p>
+<p>Por ejemplo, si tenemos los números 0,1;0,56 y 0,78 para sumarlos los podemos agrupar de las siguientes maneras: (0,1+0,56)+0,78 o 0,1+(0,56+0,78). En general, da lo mismo como los ordenemos, el resultado va a ser el mismo.</p>
+<p>Sin embargo esto no ocurre en los computadores.</p>
+<p>Por ejemplo, este código en javascript demuestra lo que digo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">n</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Array(<span style="color:#ae81ff">1001</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1000</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">n</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.19</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">s0</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1000</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">s0</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">s0</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">n</span>[<span style="color:#a6e22e">i</span>];
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">s1</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">s1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">s1</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">n</span>[<span style="color:#a6e22e">i</span>]
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">delta</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">s1</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">s0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#39;s0 = &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">s0</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; s1 = &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">s1</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39; s1-s0 = &#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">delta</span>);
+</span></span></code></pre></div><p>Pueden probar este código en <a href="http://www.tlarson.com/script">esta página</a></p>
+<p>Lo que hace este código es crear un arreglo de 1000 numeros, desde 1 a 1000, donde cada numero es multiplicado a su vez por 1,19 (esto es como aplicarle el IVA a cada numero).</p>
+<p>Luego suma los numeros en orden ascendente (s0) y luego en orden descendente (s1).</p>
+<p>Al final muestra el resultado de ambas sumas, y la diferencia entre ambas (delta).</p>
+<p>Lo interesante es que delta, es decir, s1-s0 debería ser 0, pero como la suma no es asociativa el resultado no es el esperado.</p>
+<p>Esta diferencia puede parecer insignificante, pero la verdad es que me he topado con muchas aplicaciones prácticas en que esta diferencia se nota.</p>
+<p>Cuando uno empieza como programador se topa con problemas del tipo: &ldquo;sume el monto de 1.000 facturas aplicándoles el IVA.&rdquo;</p>
+<p>Tradicionalmente para sumar un arreglo de N cifras usamos el siguiente algoritmo:</p>
+<pre tabindex="0"><code>def Suma(A[1..N])
+    suma := 0
+    for i := 1 to N do
+        suma := suma + A[i]
+    return suma
+</code></pre><p>Sin embargo esta no esa la manera más precisa de hacer este cálculo.</p>
+<p>Una mejor manera de sumar es usando la Fórmula de Kahan:</p>
+<pre tabindex="0"><code>def SumaKahan(A[], 1 a N)
+    S := A[1]
+    C := 0;
+    for j := 2 to N do
+    Y = A[j] - C;
+    T = S + Y;
+    C = (T - S) - Y;
+    S = T;
+    return S
+</code></pre><p>Esta formula tiene una precisión altisima [1].</p>
+<p>Para los que estén interesados en experimentar en la continuación de este artículo hay un programa en C que demuestra la precisión de este algoritmo.</p>
+<p>Este es sólo un ejemplo de las cosas que <a href="http://docs.sun.com/source/806-3568/ncg_goldberg.html">todo programador debe saber sobre punto flotante</a>.</p>
+<p>[1] Los detalles se pueden encontrar <a href="http://docs.sun.com/source/806-3568/ncg_goldberg.html#1262">acá</a>, la perturbación en el algoritmo es del 2<em>epsilon, mientras que en el algoritmo tradicional es proporcional a N</em>epsilon, donde epsilon es el error de aproximación dado por la representación numérica.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>763 words</span>
+    <span>4 - 5 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/programaci%C3%B3n">Programación</a></span></small>
+      </div></div><h3>Related</h3>
+    <ul><li><a href="/post/2007/errores-de-redondeo/">Errores de Redondeo</a></li><li><a href="/post/2007/%c2%bfgiga-o-gibi-bytes/">¿giga o gibi bytes?</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Knuth y el papel | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2006/knuth-y-el-papel/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Knuth y el papel">
+  <meta property="og:description" content="No crean que he olvidado el problema del uso del papel. Lo que pasa es que me topé con la conferencia de Knuth, y no resistí traducirla y publicarla.
+Pero también recordé un hecho peculiar sobre Knuth, y es que él no usa email. La explicación está en su sitio web en una de las preguntas frecuentes.
+Por ejemplo, la imagen que acompaña este artículo es una de las respuestas que da Knuth a uncuestionario que se le envió y que fue publicado en la Free Software Magazine.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2006-09-25T22:25:18+00:00">
+    <meta property="article:modified_time" content="2006-09-25T22:25:18+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Knuth y el papel">
+  <meta name="twitter:description" content="No crean que he olvidado el problema del uso del papel. Lo que pasa es que me topé con la conferencia de Knuth, y no resistí traducirla y publicarla.
+Pero también recordé un hecho peculiar sobre Knuth, y es que él no usa email. La explicación está en su sitio web en una de las preguntas frecuentes.
+Por ejemplo, la imagen que acompaña este artículo es una de las respuestas que da Knuth a uncuestionario que se le envió y que fue publicado en la Free Software Magazine.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Knuth y el papel</h1><time class="dim" datetime="2006-09-25T22:25:18&#43;00:00">September 25, 2006</time></div>
+  <section class="page-section"><p><img src="question2.jpg" alt=""></p>
+<p>No crean que he olvidado el problema del <a href="/2006/09/menos_papel.html">uso del papel</a>. Lo que pasa es que me topé con la conferencia de Knuth, y no resistí traducirla y <a href="/2006/09/knuth_responde_a_todas_las_preguntas.html">publicarla</a>.</p>
+<p>Pero también recordé un hecho peculiar sobre Knuth, y es que él no usa email. La explicación está en su sitio web en una de <a href="http://replay.web.archive.org/20071016222822/http://www-cs-faculty.stanford.edu/~knuth/email.html">las preguntas frecuentes</a>.</p>
+<p>Por ejemplo, la imagen que acompaña este artículo es una de las respuestas que da Knuth a un<a href="http://replay.web.archive.org/20071016222822/http://www.freesoftwaremagazine.com/articles/interview_knuth/">cuestionario </a>que se le envió y que fue publicado en la <a href="http://replay.web.archive.org/20071016222822/http://www.freesoftwaremagazine.com/">Free Software Magazine</a>.</p>
+<p>Noten el tipo de caligrafía, y de que manera coloca una cita que hace de su libro. Con un borde al lado izquierdo. Es que Knuth es un tipógrafo innato.</p>
+<p>Además, Knuth no usa email, si quieres comunicarte con el debes enviarle una carta, por correo tradicional.</p>
+<p>Su secretaria se encarga de acumular y clasificar su correspondencia. Además los correos que se envían a la cuenta del Art Of COmputer Programming, y a la cuenta que administra los bugs en TeX, son impresos por su secretaria y él los lee después.</p>
+<p>Cuando un email impreso no es una sugerencia, o un error, entonces utiliza el papel para hacer pruebas de impresión de sus libros.</p>
+<p>Pero lo mejor es el periodo de lectura. Knuth lee sus correos, que no sean urgente, una vez cada tres meses. De todas maneras uno puede enviarle un fax, pero el problema es que en este caso el los lee cada seis meses!!</p>
+<p>Para justificar esto, cita a Umberto Eco:</p>
+<blockquote>
+<p>&ldquo;No tengo una dirección de correo electrónico. He alcanzado la edad en que mi principal propósito es no recibir mensajes&rdquo; &ldquo;I don&rsquo;t even have an e-mail address. I have reached an age where my main purpose is not to receive messages.&rsquo; &mdash; Umberto Eco, quoted in the New Yorker&rdquo;</p></blockquote>
+<p>Knuth dice:</p>
+<blockquote>
+<p>El email es una cosa maravillosa para aquellas personas cuyo rol en la vida es estar encima de todo. Pero no para mi, mi rol es estar bajo las cosas. Lo que yo hago requiere de largas horas de concentración y estudio ininterrumpido. Trato de aprender ciertas áreas de la ciencia de la computación en forma exhaustiva; luego trato de hacer ese conocimiento digerible en una forma que sea accesible para gente que no tiene tiempo para tal estudio.</p></blockquote>
+<p>Gracias a Knuth, y muchos como él, que se encuentran en las capas más de base, como cimientos, es que podemos usar mejor el escaso tiempo que tenemos (por culpa del email :).</p>
+<p>Me gusta su visión, de ubicarse en la base, en la parte más de abajo, dando soporte.</p>
+<p>¿En que capa se ubican ustedes?</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>438 words</span>
+    <span>2 - 3 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2006/knuth-y-el-papel/question2.jpg">question2.jpg</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/excel/</link>
+    <description>Recent content in Excel on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 21 Nov 2012 12:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Es tu jefe un programador funcional?</title>
+      <link>http://localhost:1313/posts/2012/es-tu-jefe-un-programador-funcional/</link>
+      <pubDate>Wed, 21 Nov 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/es-tu-jefe-un-programador-funcional/</guid>
+      <description>&lt;p&gt;Probablemente tu jefe, y mi jefe, sin ser informáticos, ni programadores&#xA;o ingenieros de software, sean mejores programadores funcionales que tu&#xA;mismo, claro, porque es probable que ellos utilicen uno de los lenguajes&#xA;funcionales más populares que existen: Excel.&lt;/p&gt;&#xA;&lt;p&gt;Sí, Excel, ese que usan muchos de tus colegas no informáticos, soporta&#xA;perfectamente el paradigma funcional.&lt;/p&gt;&#xA;&lt;p&gt;Primero en Excel tienes &lt;strong&gt;valores&lt;/strong&gt;, números, o a veces textos, que&#xA;colocas en celdas. Por ejemplo, puedes colocar en la celda A1 el valor&#xA;2, y en la celda A2 el valor 3.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

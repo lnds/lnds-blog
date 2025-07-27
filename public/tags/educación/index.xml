@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educación on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/educaci%C3%B3n/</link>
+    <description>Recent content in Educación on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 21 Oct 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/educaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿De qué lado quieres que esté tu hijo?</title>
+      <link>http://localhost:1313/posts/2012/de-que-lado-quieres-que-este-tu-hijo/</link>
+      <pubDate>Sun, 21 Oct 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/de-que-lado-quieres-que-este-tu-hijo/</guid>
+      <description>&lt;p&gt;Lamentablemente la estupidez de la antivacunación está apareciendo en&#xA;nuestro país, y lo peor es que tiene cobertura en medios de TV abierta,&#xA;con todas las consecuencias que esto tiene, la difusión de una mentira.&#xA;¡Las vacunas no causan autismo!&lt;/p&gt;&#xA;&lt;p&gt;Pero Penn &amp;amp; Teller lo explican mejor:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SH72ONzA9c8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Las vacunas no causan autismo, no hay evidencia que pruebe algún tipo de&#xA;relación entre el timerosal y el autismo. Todo se basa en una&#xA;investigación fraudulenta realizada por &lt;a href=&#34;http://en.wikipedia.org/wiki/Andrew_Wakefield&#34;&gt;Andrew&#xA;Wakefield.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡Gracias!</title>
+      <link>http://localhost:1313/posts/2012/gracias/</link>
+      <pubDate>Sun, 09 Sep 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/gracias/</guid>
+      <description>&lt;p&gt;El día jueves 6 de septiembre di una charla en la Universidad&#xA;Tecnológica Metropolitana a los alumnos de la carrera de Ingeniería&#xA;Civil en Informática. El nombre de la charla es &lt;a href=&#34;http://www.slideshare.net/EduardoDiazCortes/creadores-de-universos&#34;&gt;&amp;ldquo;Creadores de&#xA;Universos&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La charla tenía un carácter motivacional, y refleja varias de las ideas&#xA;expuestas en anteriores posts, en particular&#xA;&lt;a href=&#34;http://localhost:1313/blog/2012/05/que-es-programar.html&#34;&gt;estos&lt;/a&gt;&#xA;&lt;a href=&#34;h/blog/2012/05/aprender-a-programar.html&#34;&gt;tres&lt;/a&gt;&#xA;&lt;a href=&#34;http://localhost:1313/blog/2011/03/que-deberiamos-ensenar-a-los-nuevos-desarrolladores.html&#34;&gt;artículos&lt;/a&gt;.&#xA;Una de las cosas que más me gustó del contenido de la charla es que&#xA;hablo de mi equipo, esas maravillosas personas  que trabajan conmigo en&#xA;mi trabajo, de los cuales me siento orgulloso, y del modo en que ellos&#xA;contribuyen a cumplir nuestra visión de servicio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Qué deberíamos enseñar a los nuevos desarrolladores?</title>
+      <link>http://localhost:1313/posts/2011/que-deberiamos-ensenar-a-los-nuevos-desarrolladores/</link>
+      <pubDate>Fri, 18 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/que-deberiamos-ensenar-a-los-nuevos-desarrolladores/</guid>
+      <description>&lt;p&gt;La siguiente es mi traducción de un&#xA;&lt;a href=&#34;http://cacm.acm.org/magazines/2010/1/55760-what-should-we-teach-new-software-developers-why/fulltext&#34;&gt;artículo&lt;/a&gt;&#xA;publicado por Bjarne Stroustrup en la Communications of ACM en Enero de&#xA;2010. &lt;a href=&#34;http://www2.research.att.com/~bs/&#34;&gt;Bjarne Stroustrup&lt;/a&gt; es el&#xA;creador del lenguaje C++.&lt;/p&gt;&#xA;&lt;h1 id=&#34;qué-deberíamos-enseñar-a-los-nuevos-desarrolladores-por-qué&#34;&gt;¿Qué deberíamos enseñar a los nuevos desarrolladores? ¿Por qué?&lt;/h1&gt;&#xA;&lt;p&gt;por &lt;strong&gt;Bjarne Stroustrup.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Publicado en Communications of the ACM (&lt;a href=&#34;http://cacm.acm.org/magazines/2010/1/55760-what-should-we-teach-new-software-developers-why/fulltext&#34;&gt;texto original&lt;/a&gt;)&lt;br&gt;&#xA;Vol. 53 No. 1, Pages 40-42&lt;br&gt;&#xA;10.1145/1629175.1629192&lt;/p&gt;&#xA;&lt;p&gt;La ciencia de la computación debe estar en el centro del desarrollo de&#xA;los sistemas de software. Si no está, debemos confiar en la experiencia&#xA;individual y en reglas generales, y terminamos con sistemas menos&#xA;capaces y confiables, desarrollados y mantenidos a costos&#xA;innecesariamente altos. Necesitamos cambios en la educación que permitan&#xA;mejorías de la práctica industrial.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprender a programar</title>
+      <link>http://localhost:1313/posts/2012/aprender-a-programar/</link>
+      <pubDate>Fri, 18 May 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/aprender-a-programar/</guid>
+      <description>&lt;p&gt;De acuerdo a un estudio reciente la ingeniería de software es la carrera&#xA;más rentable y envidiable de 2012:&#xA;&lt;a href=&#34;http://www.informationweek.com/news/global-cio/careers/240000347&#34;&gt;Software Engineering 2012&amp;rsquo;s Top Job&lt;/a&gt;.&#xA;La tasa de empleabilidad para los profesionales TI es la más alta a&#xA;nivel mundial. Y sin embargo...&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivación&#34;&gt;&lt;strong&gt;Motivación&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Escuché hace unos días a una joven estudiante de primer  año de&#xA; ingeniería comentar sobre el curso de introducción a la  computación, y&#xA;la verdad que el comentario no fue alentador, para ella programar no es&#xA;muy entretenido, eso de tener que decirle al computador paso a paso lo&#xA;que tiene que hacer para implementar un algoritmo simple &lt;em&gt;es una&#xA;verdadera lata&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Plan CEIBAL</title>
+      <link>http://localhost:1313/posts/2011/el-plan-ceibal/</link>
+      <pubDate>Sat, 04 Jun 2011 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-plan-ceibal/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/AWOpCDBuhgs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;a href=&#34;http://ideaschile.wordpress.com/2011/05/17/p2p-education/&#34;&gt;via&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡no insistáis tanto en el inglés!</title>
+      <link>http://localhost:1313/posts/2011/no-insistais-tanto-en-el-ingles/</link>
+      <pubDate>Sun, 29 May 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/no-insistais-tanto-en-el-ingles/</guid>
+      <description>&lt;p&gt;Y si la clave para resolver un problema resida en la forma de pensar, y&#xA;la forma de pensar está dada por el lenguaje que usamos?&lt;/p&gt;&#xA;&lt;div style=&#34;max-width:854px&#34;&gt;&#xA;    &lt;div style=&#34;position:relative;height:0;padding-bottom:56.25%&#34;&gt;&#xA;        &lt;iframe src=&#34;https://embed.ted.com/talks/patricia_ryan_don_t_insist_on_english&#34; &#xA;        width=&#34;854&#34; height=&#34;480&#34; style=&#34;position:absolute;left:0;top:0;width:100%;height:100%&#34; &#xA;        frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt;&#xA;        &lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Sobre las propiedades del cuerno de unicornio</title>
+      <link>http://localhost:1313/posts/2011/sobre-las-propiedades-del-cuerno-de-unicornio/</link>
+      <pubDate>Wed, 16 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/sobre-las-propiedades-del-cuerno-de-unicornio/</guid>
+      <description>&lt;p&gt;Hace años, cuando con mi amigo &lt;a href=&#34;http://blog.maz.cl/&#34;&gt;Maz&lt;/a&gt; conseguimos&#xA;desarrollar tecnología biométrica de clase mundial, certificada con&#xA;altos estándares internacionales, y después de recibir un premio de&#xA;innovación de la industria nacional, sabíamos que el siguiente paso era&#xA;logra que la tecnología core de nuestra solución dejara de depender de&#xA;productos extranjeros. Con respecto al hardware pensabamos que poco&#xA;podiamos hacer, así que atacamos el desarrollo de algoritmos de&#xA;identificación biométrica. Ya no estabamos para seguir investigando&#xA;nosotros, por lo que recurrimos a la academia.&lt;br&gt;&#xA;Y logramos levantar con apoyo de Reuna un fondo estatal para el&#xA;desarrollo de algoritmos biométricos. De las universidades grandes nadie&#xA;se interesó y se desarrolló con universidades de provincia. Fue cuando&#xA;se supo el monto (cercano al millón de dolares) que los académicos&#xA;amigos de la Universidad de Chiile y Católica empezaron a llamarnos,&#xA;hasta charlas y clases dimos, invitados por ellos (parece que la&#xA;capacidad de conseguir fondos genera cierta clase feromonas).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Rey del Azúcar</title>
+      <link>http://localhost:1313/posts/2011/el-rey-del-azucar/</link>
+      <pubDate>Thu, 03 Feb 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-rey-del-azucar/</guid>
+      <description>&lt;p&gt;Dicen que antes de morir el Rey del Azúcar pensó en una historia de&#xA;Confucio y tomó la decisión de dejar toda su fortuna para educar a los&#xA;más pobres de su país. El relato  quedó registrado en los papeles que&#xA;dejó, y &amp;ldquo;contaba la historia de un caritativo viajero que se condolió&#xA;con la pobreza de los habitantes de una isla y les obsequió pescados.&#xA;Frente a este gesto, el filósofo chino dijo que había hecho mal porque&#xA;con su regalo comerían un día, pero si les hubiese enseñado a pescar&#xA;tendrían alimentos todos los días.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Tabla Periódica Aplicada</title>
+      <link>http://localhost:1313/posts/2011/la-tabla-periodica-aplicada/</link>
+      <pubDate>Sun, 23 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/la-tabla-periodica-aplicada/</guid>
+      <description>&lt;p&gt;Esto es algo que no conocía, y que se publica desde el año 2005, se&#xA;trata de la tabla periódica de los elementos orientada a sus&#xA;aplicaciones.&lt;/p&gt;&#xA;&lt;p&gt;La idea es colocar en cada espacio de la taba  una ilustración que&#xA;muestra objetos de la vida cotidiana donde se aplica el elemento químico&#xA;respectivo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;TablaPeriodicaAplicada.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, acá tenemos al Cobre (Cu):&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Y acá al Aluminio (Al), Silicio (Si) y Fósforo (P):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cuidate del estilista</title>
+      <link>http://localhost:1313/posts/2011/cuidate-del-estilista/</link>
+      <pubDate>Wed, 12 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/cuidate-del-estilista/</guid>
+      <description>&lt;p&gt;&amp;ldquo;&lt;strong&gt;No le preguntes al peluquero si cree que necesitas un corte de&#xA;pelo&lt;/strong&gt;&amp;rdquo; &lt;a href=&#34;http://manzanamecanica.org/2011/01/no_le_preguntes_al_peluquero.html&#34;&gt;nos aconseja Chato&lt;/a&gt;,&#xA;y la reflexión nace de alguna conversación  con abogados de patentes.&#xA;Bueno, es cierto que podemos considerar a muchos practicantes de la ley&#xA;como &lt;a href=&#34;http://localhost:1313/blog/2006/01/la-raiz-de-todos-los-males.html&#34;&gt;la causa de la mayoría de lo&#xA;males&lt;/a&gt;,&#xA;pero no hay que perderse tampoco.&lt;/p&gt;&#xA;&lt;p&gt;Aunque Carlos escribió un &lt;a href=&#34;http://manzanamecanica.org/2011/01/no_le_preguntes_al_peluquero.html&#34;&gt;bonito post&lt;/a&gt;,&#xA;las ideas que desliza peligrosas.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;El profesor no tiene la cabeza en enseñar, porque el doctor no sale&#xA;de su casa para sanar.&amp;rdquo; cantaba Jorge González en los 1980s. Los&#xA;gobiernos les preguntan a los gremios de profesores cuál es la mejor&#xA;forma de mejorar la educación. Los gremios de profesores responden que&#xA;subirles los sueldos es una excelente medida, pero que evaluar a los&#xA;profesores y exigirles excelencia sería desastroso para los alumnos.&#xA;Que existan las asociaciones gremiales no es el problema. El problema&#xA;es que no se puede asumir que velarán por el bien común, &lt;strong&gt;porque sólo&#xA;velan por los intereses de los suyos&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zig Zag</title>
+      <link>http://localhost:1313/posts/2011/zig-zag/</link>
+      <pubDate>Tue, 11 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/zig-zag/</guid>
+      <description>&lt;p&gt;Han habido varias contribuciones al desafío del Zig Zag, si todavía no&#xA;lo has leido, y te animas a contestar el test, entonces antes de&#xA;seguir &lt;a href=&#34;http://localhost:1313/blog/2011/01/un-test-mas-dificil.html&#34;&gt;lee el desafío&lt;/a&gt; e&#xA;intenta resolverlo.&lt;/p&gt;&#xA;&lt;p&gt;La solución más concisa que conozco aparece en el sitio &lt;a href=&#34;http://rosettacode.org/wiki/Zig-zag_matrix&#34;&gt;Rosseta&#xA;Cod&lt;/a&gt;e, está escrita en el&#xA;&lt;a href=&#34;http://www.jsoftware.com/&#34;&gt;lenguaje J&lt;/a&gt; y es la siguiente:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;pre&gt;&lt;code&gt; ($ [: /:@; &amp;lt;@|.`&amp;lt;/.@i.)@,~ 5&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Increible, ¿verdad? En este caso es la solución para una matriz de 5 x 5. Hay una explicación de ese código&#xA;&lt;a href=&#34;http://rosettacode.org/wiki/Talk:Zig_Zag#reading_the_J_examples&#34;&gt;acá&lt;/a&gt;,&#xA;pero antes de que emprendan la tarea de tratar de entenderla veamos que&#xA;respondieron algunos lectores y después le voy  a mostrar mi solución.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Educación libre</title>
+      <link>http://localhost:1313/posts/2010/educaci%C3%B3n-libre/</link>
+      <pubDate>Sun, 29 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/educaci%C3%B3n-libre/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Día tras día se niega a los niños el derecho de ser niños. El mundo&#xA;trata a los niños pobres como si fueran basura. El mundo trata a los&#xA;niños ricos como si fueran dinero. Y a los del medio, a los que no son&#xA;ni pobres ni ricos, el mundo los tiene bien ataditos a la pata del&#xA;televisor para que desde muy temprano acepten como destino la vida&#xA;prisionera.&amp;rdquo; -- Eduardo Galeano&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El mejor regalo para nuestros niños</title>
+      <link>http://localhost:1313/posts/2010/el-mejor-regalo-para-nuestros-ninos/</link>
+      <pubDate>Sun, 08 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/el-mejor-regalo-para-nuestros-ninos/</guid>
+      <description>&lt;p&gt;Mi padre, quien lamentablemente falleció muy joven, a los 39 años, nos&#xA;dijo a mi y a mis hermanos que su mayor herencia que nos dejaba era la&#xA;educación. Efectivamente, no nos dejó grandes bienes, pero si nos dejó&#xA;educación y cultura, y yo trato de honrar ese legado.&lt;/p&gt;&#xA;&lt;p&gt;Es la educación el mejor regalo para nuestros niños en este día.&lt;/p&gt;&#xA;&lt;p&gt;Pero entregarles educación no es sólo enviar a nuestros hijos a la&#xA;escuela para que aprendan, eso es importante, pero también es&#xA;preocuparse de ver que aprenden, es darles cultura, valores, enseñarles&#xA;a tolerar la frustración, a superar la adversidad, a ir más allá de lo&#xA;superficial, es aprender a compartir, y sobretodo&#xA;&lt;a href=&#34;http://localhost:1313/blog/2010/05/inteligencia-educacion-y-entendimiento.html&#34;&gt;ayudarles a entender&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Es mi problema</title>
+      <link>http://localhost:1313/posts/2010/es-mi-problema/</link>
+      <pubDate>Fri, 06 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/es-mi-problema/</guid>
+      <description>&lt;p&gt;Hacerse cargo, de lo que uno es, y de lo que uno debe hacer, eso es&#xA;básico, y sin embargo se ve tan poco.&lt;/p&gt;&#xA;&lt;p&gt;En el caso de la educación, mi mujer que es educadora siempre se queja&#xA;de esos profesores que alejan al &amp;ldquo;niño problema&amp;rdquo;, el inquieto, el que&#xA;es lento para aprender, al grado que  lo expulsan del colegio en vez de&#xA;hacerse cargo de darle la educación y resolver el problema de ese chico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inteligencia, educación y entendimiento</title>
+      <link>http://localhost:1313/posts/2010/inteligencia-educacion-y-entendimiento/</link>
+      <pubDate>Thu, 20 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/inteligencia-educacion-y-entendimiento/</guid>
+      <description>&lt;p&gt;Si le preguntan a cualquier persona por qué tenemos verano e invierno,&#xA;es probable(*) que les responda, completamente convencido, que esto se&#xA;produce porque la tierra tiene una órbita elíptica y durante el verano&#xA;se encuentra más cerca del sol y en invierno se encuentra más lejos del&#xA;sol. Lo peor, es que, probablemente, ¡así se lo enseñaron en la escuela!&lt;/p&gt;&#xA;&lt;p&gt;Si eso ocurre, pídanle a esa persona que explique entonces por qué en un&#xA;hemisferio están en invierno y al mismo tiempo, en el otro hemisferio,&#xA;están en verano. ¡&lt;strong&gt;TILT!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ser ingeniero</title>
+      <link>http://localhost:1313/posts/2010/ser-ingeniero/</link>
+      <pubDate>Thu, 20 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/ser-ingeniero/</guid>
+      <description>&lt;p&gt;El software no se ajusta a las leyes de la física, por lo tanto no sé si&#xA;tiene sentido ablar de la ingeniería de software como tal, sin embargo,&#xA;el software, como código puro, no es de mucha utilidad, debe ejecutarse&#xA;sobre una infraestructura tecnológica,el hardware. Así que en ese&#xA;momento, cuando se implanta un sistema, el programador, el desarrollador&#xA;de software deja paso al ingeniero de sistemas.&lt;/p&gt;&#xA;&lt;p&gt;Cuando nos preocupamos de los problemas de implantación, cuando&#xA;&lt;a href=&#34;http://localhost:1313/blog/2009/03/latencia-seguimos-reciclando.html&#34;&gt;luchamos por bajar la latencia&lt;/a&gt;,&#xA;cuando nos enfrentamos &lt;a href=&#34;http://localhost:1313/blog/2009/03/las-ocho-falacias-de-la-computacion-distribuida-reciclando.html&#34;&gt;a las falacias de la computación&#xA;distribuida&lt;/a&gt;,&#xA;intentamos &lt;a href=&#34;http://localhost:1313/2009/09/el-problema-de-paralelizar.html&#34;&gt;burlar los límites de la Ley de&#xA;Amdahl&lt;/a&gt;, o&#xA;&lt;a href=&#34;http://localhost:1313/blog/2009/02/cloud-computing-de-acuerdo-a-berkeley-rad-lab.html&#34;&gt;aprovechar la elasticidad de la nube&lt;/a&gt;,&#xA;en ese momento, estamos siendo ingenieros puros.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Respuestas a estudiantes de ingeniería de software</title>
+      <link>http://localhost:1313/posts/2010/respuestas-a-estudiantes-de-ingenier%C3%ADa-de-software/</link>
+      <pubDate>Fri, 30 Apr 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/respuestas-a-estudiantes-de-ingenier%C3%ADa-de-software/</guid>
+      <description>&lt;p&gt;Recordemos lo que nos dice Dijkstra sobre la ingeniería de software:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Así como la economía es conocida como &amp;ldquo;La Ciencia Miserable&amp;rdquo;,* la&#xA;ingeniería de software debería ser conocida como &amp;ldquo;La Disciplina&#xA;Condenada&amp;rdquo;&lt;strong&gt;, condenada porque ni siquiera puede acercarse a su meta,&#xA;dado que la misma es en sí misma contradictoria. La ingeniería de&#xA;software, por supuesto, se presenta a sí misma como otra causa&#xA;valiosa, pero es un colirio: si lee cuidadosamente su literatura y&#xA;analiza lo que realmente hacen quienes se avocan a ella, descubrirá&#xA;que la ingeniería de software ha adoptado como su estatuto *&amp;ldquo;Cómo&#xA;programar si usted no puede&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El nuevo silabario</title>
+      <link>http://localhost:1313/posts/2010/el-nuevo-silabario/</link>
+      <pubDate>Thu, 07 Jan 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/el-nuevo-silabario/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;realidad_educativa.jpg&#34; alt=&#34;realidad_educativa.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://eduardoe.tumblr.com/post/319579194/xrq-freakyfly-silabario-2-0-thebekade&#34;&gt;vía&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El arte de no leer</title>
+      <link>http://localhost:1313/posts/2009/el-arte-de-no-leer/</link>
+      <pubDate>Sat, 05 Sep 2009 22:39:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-arte-de-no-leer/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Para leer lo bueno es necesario no leer lo malo, por que la vida es corta y el tiempo y las fuerzas limitadas.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Por eso es muy importante conocer el arte de no leer. Consiste en no leer lo que preocupa momentáneamente al gran público, como libelos políticos y eclesiásticos, novelas, poesías, etc., algunos de los cuales alcanzan varias ediciones&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Arthur Schoppenahuer&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Etica, &#34;El caso de los hackers&#34;</title>
+      <link>http://localhost:1313/posts/2009/etica-el-caso-de-los-hackers/</link>
+      <pubDate>Thu, 18 Jun 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/etica-el-caso-de-los-hackers/</guid>
+      <description>&lt;p&gt;Me llega un bonito documento sobre&#xA;&lt;a href=&#34;80-Casos.pdf&#34;&gt;&amp;ldquo;80 casos para el estudio de la ética&amp;rdquo;&lt;/a&gt;, elaborado por el&#xA;&lt;a href=&#34;http://etica.duoc.cl/index.php&#34;&gt;Centro de Etica Aplicada de Duoc UC&lt;/a&gt;&#xA;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; centro preocupado de la &amp;ldquo;formación de capital humano&amp;rdquo;.&#xA;¡Capital Humano!&lt;/p&gt;&#xA;&lt;p&gt;El número 24, de esta selección, es el que me interesa, &amp;ldquo;El caso de los&#xA;hackers&amp;rdquo;. Empieza con el siguiente disparate:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;A mediados de los 70, en Silicon Valley, un grupo de hackers y&#xA;aficionados a la naciente informática utilizaba un software pasado de&#xA;mano en mano, es decir, lo ocupaban sin fijarse en quién era su dueño.&#xA;En un comienzo no había problema, pero cuando comenzaron a aparecer&#xA;empresas u organizaciones que lucraban con la producción de softwares&#xA;empezaron a surgir dificultades. Esto fue un impedimento para que ellos&#xA;se pudieran realizar profesionalmente y esde ese entonces comenzaron a&#xA;divisar que la solución estaba en organizarse como una comunidad para&#xA;buscar el bien común. Bill Gates, mediante una carta a consumidores y&#xA;compradores de sistemas operativos, quiso hacer notar a la comunidad de&#xA;hackers y aficionados que ellos estaban devaluando el sueldo de todos&#xA;los involucrados en el desarrollo de proyectos que eran afectados por el&#xA;uso indebido de las copias. Además existía un robo, si bien era de algo&#xA;intangible como el software, es un robo al fin y al cabo.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La computación como una ciencia social</title>
+      <link>http://localhost:1313/posts/2009/la-computacion-como-una-ciencia-social/</link>
+      <pubDate>Wed, 22 Apr 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-computacion-como-una-ciencia-social/</guid>
+      <description>&lt;p&gt;En el último número de la CACM, leo el testimonio de &lt;a href=&#34;http://www.cse.buffalo.edu/faculty/mikeb/&#34;&gt;Michael Buckley&lt;/a&gt;, profesor de&#xA;computación en la &lt;a href=&#34;http://www.cse.buffalo.edu/&#34;&gt;universidad de Buffalo&lt;/a&gt;,&#xA;quién, en su artículo &amp;ldquo;Computing as Social Science&amp;rdquo; se pregunta sobre&#xA;cómo encantar a los jóvenes para optar por ciencias de la computación.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Estoy preocupado porque con cada nueva clase pocos estudiantes están&#xA;escogiendo una carrera en ciencias de la computación, y no es forzar&#xA;mucho la imaginación pensar que se trata de un problema de imagen. No&#xA;sólo no estamos alcanzando a los jóvenes de secundaria, sino que creo&#xA;que también estamos perdiendo a los jóvenes en primer año de la&#xA;universidad. Y es porque no les ofrecemos a los estudiantes la noción&#xA;de que la ciencia de la computación es social, relevante e importante&#xA;y en consecuencia perdemos su interés.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Se trata de educación, ¡estúpido! (*)</title>
+      <link>http://localhost:1313/posts/2009/se-trata-de-educacion-%c2%a1estupido/</link>
+      <pubDate>Tue, 17 Mar 2009 10:09:37 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/se-trata-de-educacion-%c2%a1estupido/</guid>
+      <description>&lt;p&gt;La &lt;a href=&#34;http://www.elfrancotirador.cl/2009/03/17/ucpn-o-la-carreta-antes-de-los-bueyes/&#34;&gt;anécdota que cuenta Christian&lt;/a&gt; es muy esclarecedora:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Voy a contarles una pequeña anécdota: tiempo atrás, la hija adolescente de una amiga nos pidió el PC familiar para hacer un trabajo escolar, ya que carecía de uno en casa.&lt;br&gt;&#xA;Consciente de ello me ofrecí a enseñarle cómo se usaba, pero la chica desechó mi iniciativa encendiendo el computador, lanzando Word, Firefox y &amp;mdash;&amp;mdash;&amp;mdash; - subrepticiamente - Messenger antes de que siquiera pudiera indicárselo.&lt;br&gt;&#xA;Regresé a mis asuntos, pero pronto escuché su llamado desde la habitación contigua. Mientras acudía me sonreí pensando en qué la habría detenido. ¿No sabría configurar la impresora? ¿Se le habría extraviado la opción de interlineado?&amp;hellip; nada de eso:&lt;br&gt;&#xA;&amp;ldquo;Oye, Christian - me preguntó con el documento todavía en blanco - ¿cómo se redacta una introducción?&amp;rdquo;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tecnópatas</title>
+      <link>http://localhost:1313/posts/2007/tecnopatas/</link>
+      <pubDate>Tue, 11 Dec 2007 18:41:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/tecnopatas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Micah_Sanders&#34;&gt;Micah Sanders&lt;/a&gt; tiene un poder extraordinario, Micah Sanders es un &lt;strong&gt;tecnópata&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;En el mundo de los super heroes &lt;a href=&#34;http://en.wikipedia.org/wiki/Technopath#Technopathy&#34;&gt;la tecnopatía&lt;/a&gt; corresponde a:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La habilidad de manipular la tecnología. Se manifiesta como una forma especial de manipulación eléctrica, que permite una interacción física con las máquinas, o alguna forma especial de percepción extra sensorial que permite una interfaz mental con las computadoras.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;micah-sanders.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Para los que no se han enterado aún, Micah Sanders es uno de los personajes de las serie de televisión &lt;a href=&#34;http://www.nbc.com/Heroes/&#34;&gt;Heroes&lt;/a&gt;. Para que se hagan una idea, Micah es capaz de reconfigurar su celular para convertirlo en un mecanismo de rastreo tipo GPS y usarlo para encontrar a una persona en peligro (siempre que ésta también tenga un celular).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Educación y servilismo</title>
+      <link>http://localhost:1313/posts/2005/educacion-y-servilismo/</link>
+      <pubDate>Sun, 28 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/educacion-y-servilismo/</guid>
+      <description>&lt;p&gt;Re leo a &lt;a href=&#34;http://www.epdlp.com/escritor.php?id=2277&#34;&gt;Fernando Savater&lt;/a&gt;,&#xA;a proposito del Valor de Educar, donde menciona que:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Según el conocido dictamen de Jaime Balmes, el Arte de enseñar a&#xA;aprender, consiste en formar fábricas y no almacenes.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Pero cuanto de educación y cuanto de instrucción? Me temo, que hay una&#xA;sensación de que el desarrollo se da por formar más técnicos, para lo&#xA;cual lo único que necesitamos son instructores, no educadores.&lt;/p&gt;&#xA;&lt;p&gt;Las cosas no son tan simples, como lo plantea el &lt;a href=&#34;http://www.atinachile.cl/node/3607&#34;&gt;Blog de Castalia&lt;/a&gt;, en el sentido de que&#xA;deberiamos custionarnos la existencia de los liceos&#xA;humanistas-científicos (clasificación anticuada e inapropiada, por&#xA;cuanto hasta donde sé los científicos también son humanos).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

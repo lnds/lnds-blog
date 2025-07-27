@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Una breve y disparatada historia de los lenguajes de programación | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2010/una-breve-y-disparatada-historia-de-los-lenguajes-de-programacion/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Una breve y disparatada historia de los lenguajes de programación">
+  <meta property="og:description" content="Esta es una traducción parcial de este artículo, escrito por James Iry:
+1842 - Ada Lovelace escribe el primer programa. Sus esfuerzos se ven obstaculizados por el inconveniente menor de no contar un computador donde ejecutar su código. Los “enterprise architects” más tarde re aprenderán sus técnicas para programar en UML.
+1936 - Alan Turing inventa todos los lenguajes de programación que existirán, pero es secuestrado por la Inteligencia Británcia para ser 007 antes que pueda patentarlo.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-11-06T08:25:11-03:00">
+    <meta property="article:modified_time" content="2013-11-06T08:25:11-03:00">
+    <meta property="article:tag" content="Historia">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Humor">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Una breve y disparatada historia de los lenguajes de programación">
+  <meta name="twitter:description" content="Esta es una traducción parcial de este artículo, escrito por James Iry:
+1842 - Ada Lovelace escribe el primer programa. Sus esfuerzos se ven obstaculizados por el inconveniente menor de no contar un computador donde ejecutar su código. Los “enterprise architects” más tarde re aprenderán sus técnicas para programar en UML.
+1936 - Alan Turing inventa todos los lenguajes de programación que existirán, pero es secuestrado por la Inteligencia Británcia para ser 007 antes que pueda patentarlo.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Una breve y disparatada historia de los lenguajes de programación</h1><time class="dim" datetime="2013-11-06T08:25:11-03:00">November 6, 2013</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/historia/">#historia</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/humor/">#humor</a>
+      </div></ol></div>
+  <section class="page-section"><p>Esta es una traducción parcial de <a href="http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html">este artículo</a>,
+escrito por <a href="http://james-iry.blogspot.com/">James Iry</a>:</p>
+<p>1842 - Ada Lovelace escribe el primer programa. Sus esfuerzos se ven
+obstaculizados por el inconveniente menor de no contar un computador
+donde ejecutar su código. Los &ldquo;<em>enterprise architects&rdquo;</em> más tarde re
+aprenderán sus técnicas para programar en UML.</p>
+<p>1936 - Alan Turing inventa todos los lenguajes de programación que
+existirán, pero es secuestrado por la Inteligencia Británcia para ser
+007 antes que pueda patentarlo.</p>
+<p>1936 - Alonzo Church también inventa todos los lenguajes que existirán
+pero lo hace mejor. Su <em>lambda calculus</em> es ignorado por no parecerse
+mucho a C. Estas críticas ocurren a pesar del hecho de que C no ha sido
+inventado.</p>
+<p>1940s - Varios &ldquo;computadores&rdquo; son &ldquo;programados&rdquo; usando cables e
+interruptores. Los ingenieros hacen esto para evitar el debate del uso
+de espacios versus tabuladores.</p>
+<p>1957 - John Backus e IBM crean FORTRAN. No hay nada gracioso que decir
+sobre IBM oFORTRAN. Es un error de sintaxis escribir FORTRAN sin vestir
+una corbata azul.</p>
+<p>1959 - Después de perder una apuesta con L. Ron Hubbard, Grace Hopper y
+varios otros sádicos inventan Capitalization Of Boilerplate Oriented
+Language (COBOL) . Años después, en una represalia equivocada y sexista
+contra el trabajo en COBOL de la Almirante Hopper, las conferencias de
+Ruby frecuentemente presentan material misógino.</p>
+<p>1964 - John Kemeny y Thomas Kurtz crean BASIC, un lenguaje de
+programación no estructurado para no científicos en computación.</p>
+<p>1965 - Kemeny and Kurtz go to 1964.</p>
+<p>1970 - Niklaus Wirth crea Pascal, un lenguaje procedural. Los críticos
+inmediatamente denuncian a Pascal por que usa la sintaxis &ldquo;x := x + y&rdquo;
+en vez de la más familar al estilo C, &ldquo;x = x + y&rdquo;. Estas críticas se
+hacen a pesar del hecho de que C todavía no ha sido inventado.</p>
+<p>1972 - Dennis Ritchie inventa una poderosa pistola que dispara tanto
+hacia adelante como hacia atrás simultáneamente. No satisfecho con el
+número de muertes y mutilaciones permanentes por ese invento, decide
+inventar C y Unix.</p>
+<p>1972 - Alain Colmerauer diseña el lenguaje lógico Prolog. Su meta es
+crear un lenguaje con la inteligencia de un niño de dos años. El prueba
+que ha logrado su meta mostrando una sesión Prolog en que responde
+&ldquo;No.&rdquo; a cada consulta que se hace.</p>
+<p>1980 - Alan Kay crea Smalltalk e inventa el término &ldquo;orientado al
+objeto&rdquo;. Cuando se le pregunta qué significa él replica que &ldquo;los
+programas Smalltalk sólo son objetos.&rdquo; Cuando se le pregunta de que
+están hechos los objetos él responde, &ldquo;objetos&rdquo;. Cuando se le pregunta
+de nuevo él dice &ldquo;mire, todos son objetos todo el camino hacia abajo.
+Hasta que se encuentre con las tortugas.&rdquo;</p>
+<p>1983 - En honor de la habilidad de Ada Lovelace para crear programas que
+nunca se ejecutan, Jean Ichbiah y el US Department of Defense crean el
+lenguaje de programación Ada. A pesar de la falta de evidencia de que
+algún progrma significativo en Ada se haya completado, los historiadores
+creen que Ada ha sido un exitoso proyecto de obras públicas que mantiene
+a varios contratistas de defensa fuera del alcance de las pandillas.</p>
+<p>1983- Bjarne Stroustrup coloca todo lo que el alguna vez ha escuchado en
+C para crear C++. El lenguaje resultante es tan complejo que los
+programas deben ser enviados al futuro para ser compilados por la
+inteligencia artificial Skynet. Los tiempos de construcción se alargan.
+Los motivos de Skynet para operar este servicio permanecen poco claros
+pero el portavoz de del futuro dice &ldquo;no hay nada de que preocuparse,
+baby&rdquo;, con un acento austriaco. Hay especulaciones de que Skynet no es
+más que un pretencioso buffer overrun.</p>
+<p>1986 - Brad Cox y Tom Love crean Objective-C, anunciando que &ldquo;este
+lenguaje tiene toda la seguridad en el manejo de de memoria de C
+combinado con la vertiginosa velocidad de Smalltalk.&rdquo; Los historiadores
+modernos sospechan que ambos era disléxicos.</p>
+<p>1987 - Larry Wall se duerme y golpea la frente de Larry Wall frente el
+teclado. Al despertar Larry Wall decide que la cadena de caracteres en
+el monitor de Larry Wall no es aleatoria si no un programa ejemplo de un
+lenguaje de programación del cual Dios quiere que sea su profeta, Larry
+Wall, diseñe. Nace Perl.</p>
+<p>1990 - Un comité formado por Simon Peyton-Jones, Paul Hudak, Philip
+Wadler, Ashton Kutcher, y la Gente para el Tratamiento Ético de los
+Animales crean Haskell, lenguaje funcional, puro, no estricto. Haskell
+tiene cierta resistencia debido a la complejidad de usar monadas para
+controlar los efectos laterales. Wadler trata de controlar a los
+críticos explicando que &ldquo;una monada es un monoide en la categoría de
+los endofunctores, ¿cuál es el problema?&rdquo;</p>
+<p>1991 - El programador holandés Guido van Rossum viaja a Argentina para
+una misteriosa operación. Vuelve con una enorme cicatriz en el cráneo,
+inventa Python, es declarado Dictador de por Vida por legiones de
+seguidores y anuncia al mundo que &ldquo;Sólo Hay Un Modo De Hacerlo&rdquo;.
+Polonia se pone nerviosa.</p>
+<p>1995 - En un restaurante itialiano de su vecindario Rasmus Lerdorf se da
+cuenta que su plato de espagueti es un excelente modelo para entender
+ambas la World Wide Web y las aplicaciones web que deben simular su
+medio. En el reverso de su servilleta diseña Programmable Hyperlinked
+Pasta (PHP). La documentación de PHP permanece en esa servilleta hasta
+hoy.</p>
+<p>1995 - Yukihiro &ldquo;Mad Matz&rdquo; Matsumoto crea Ruby para prevenir un
+apocalipsis vagamente especificado que dejará a Australia desierta bajo
+el control de guerreros con corte de pelo mohawk y Tina Turner. El
+lenguaje posteriormente es renombrado como Ruby on Rails por su real
+inventor, David Heinemeier Hansson. [El fragmento sobre Matsumoto
+inventando un lenguaje llamado Ruby nunca ocurrió y es mejor que sea
+removido de la próxima revisión de este artículo - DHH].</p>
+<p>1995 - Brendan Eich lee todos los errores hechos alguna vez en el diseño
+de un lenguaje de programación, inventa algunos más, y crea LiveScript.
+Después, en un esfuerzo por capitalizar la popularidad de Java el
+lenguaje es renombrado como JavaScript. Aún más tarde, en un esfuerzo
+para capitalizar en la popularidad de las enfermedades de la piel el
+lenguaje es renombrado como ECMAScript.</p>
+<p>1996 - James Gosling inventa Java es un lenguaje relativamente verboso,
+con recolección de basura, basado en clases, con tipos estáticos,
+despacho simple, orientado al objeto con herencia simple y herencia
+múltiple de interfaces. Sun anuncia ruidosamente la novedad de Java.</p>
+<p>2001 - Anders Hejlsberg inventa C#. C# ies un lenguaje relativamente
+verboso, con recolección de basura, basado en clases, con tipos
+estáticos, despacho simple, orientado al objeto con herencia simple y
+herencia múltiple de interfaces. Microsoft anuncia ruidosamente la
+novedad de C#.</p>
+<p>2003 - Un borracho Martin Odersky ve un anuncio de l<br>
+a Mantequilla de Maní Reese en que se ve a una persona hechando
+mantequilla de maní en el chocolate de alguien más y tiene una idea.
+Crea Scala, un lenguaje que unifica las construcciones de los lenguajes
+orientados al objeto y los funcionales. Esto molesta a ambos grupos y
+cada uno inmediatamente declaran la Jihad.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1175 words</span>
+    <span>6 - 8 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/posts/2012/flame-y-md5/">Flame y MD5</a></li><li><a href="/posts/2012/semana-de-turing/">Semana de Turing</a></li><li><a href="/posts/2012/origenes/">Orígenes</a></li><li><a href="/posts/2007/fortran/">Fortran</a></li><li><a href="/posts/2012/turing-alan-turing/">Turing... Alan Turing</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

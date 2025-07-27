@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecciones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/lecciones/</link>
+    <description>Recent content in Lecciones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 23 May 2020 11:43:22 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lecciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manos a la obra</title>
+      <link>http://localhost:1313/posts/2020/2020-05-23-manos-a-la-obra/</link>
+      <pubDate>Sat, 23 May 2020 11:43:22 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-05-23-manos-a-la-obra/</guid>
+      <description>&lt;p&gt;En estos días de pandemia, de trabajo remoto y cuarentena, junto con cambiar varios de hábitos, hemos compartido mucho más tiempo con nuestras familias. Lo que es el lado positivo de toda esta situación.&lt;/p&gt;&#xA;&lt;p&gt;Entre esas actividades compartidas está el ver programas de televisión. Era muy raro que en mi casa prendieramos la TV para ver algún canal de cable, pero en estos días además de mantenernos informados, buscamos algo de distracción.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La lección de cerámica</title>
+      <link>http://localhost:1313/posts/2008/la-leccion-de-ceramica/</link>
+      <pubDate>Sun, 03 Aug 2008 14:20:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/la-leccion-de-ceramica/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Al iniciar las clases, el profesor de cerámica anunció que dividiría la clase en dos grupos. Todos los del lado izquierdo del estudio, dijo, serán evaluados solamente por la &lt;strong&gt;cantidad&lt;/strong&gt; de trabajo que produzcan, y todos los de la derecha solamente por la &lt;strong&gt;calidad&lt;/strong&gt; de su trabajo. La evaluación sería un proceso muy simple: al final de la clase llevaría una balanza de baño y pesaría el trabajo del grupo &amp;ldquo;cantidad&amp;rdquo;, cincuenta libras de vasijas de para una &amp;ldquo;A&amp;rdquo;, cuarenta libras de ollas para una  &amp;ldquo;B&amp;rdquo; y así. Aquellos del grupo &amp;ldquo;calidad&amp;rdquo;, por otra parte, sólo necesitaban producir una vasija, aunque tenía que ser una vasija perfecta, para obtener una &amp;ldquo;A&amp;rdquo;.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

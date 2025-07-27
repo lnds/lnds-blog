@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La programación como un Arte (Parte V y final) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2009/la-programacion-como-un-arte-parte-v-y-final/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="La programación como un Arte (Parte V y final)">
+  <meta property="og:description" content="La programación de computadores como un arte
+Por Donald Knuth, 1974
+(Lee las partes I, II, III y IV)
+Menos Facilidades: Más Diversión
+Una cosa bastante curiosa que he notado sobre la satisfacción estética es que nuestro placer es significativamente mayor cuando logramos algo con herramientas limitadas. Por ejemplo, el programa del que personalmente estoy muy contento y orgulloso es un compilador de que una vez escribí para una minicomputadora primitiva, que sólo tenía 4096 palabras de memoria, 16 bits por palabra. Una persona se siente como un virtuoso real al lograr algo con tan severas restricciones.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2009-12-09T08:25:11-03:00">
+    <meta property="article:modified_time" content="2009-12-09T08:25:11-03:00">
+    <meta property="article:tag" content="Arte">
+    <meta property="article:tag" content="Programación">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La programación como un Arte (Parte V y final)">
+  <meta name="twitter:description" content="La programación de computadores como un arte
+Por Donald Knuth, 1974
+(Lee las partes I, II, III y IV)
+Menos Facilidades: Más Diversión
+Una cosa bastante curiosa que he notado sobre la satisfacción estética es que nuestro placer es significativamente mayor cuando logramos algo con herramientas limitadas. Por ejemplo, el programa del que personalmente estoy muy contento y orgulloso es un compilador de que una vez escribí para una minicomputadora primitiva, que sólo tenía 4096 palabras de memoria, 16 bits por palabra. Una persona se siente como un virtuoso real al lograr algo con tan severas restricciones.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>La programación como un Arte (Parte V y final)</h1><time class="dim" datetime="2009-12-09T08:25:11-03:00">December 9, 2009</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/arte/">#arte</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div></ol></div>
+  <section class="page-section"><p><strong>La programación de computadores como un arte</strong></p>
+<p>Por Donald Knuth, 1974</p>
+<p>(Lee las partes
+<a href="/2009/12/la-programacion-como-un-arte-parte-i.html">I</a>,
+<a href="/2009/12/la-programacion-como-un-arte-parte-ii.html">II</a>,
+<a href="/2009/12/la-programacion-como-un-arte-parte-iii.html">III</a>
+y
+<a href="/2009/12/la-programacion-como-un-arte-parte-iv.html">IV</a>)</p>
+<p><strong>Menos Facilidades: Más Diversión</strong></p>
+<p>Una cosa bastante curiosa que he notado sobre la satisfacción estética
+es que nuestro placer es significativamente mayor cuando logramos algo
+con herramientas limitadas. Por ejemplo, el programa del que
+personalmente estoy muy contento y orgulloso es un compilador de que una
+vez escribí para una minicomputadora primitiva, que sólo tenía 4096
+palabras de memoria, 16 bits por palabra. Una persona se siente como un
+virtuoso real al lograr algo con tan severas restricciones.</p>
+<p>Un fenómeno similar ocurre en muchos otros contextos. Por ejemplo, las
+personas parecen más a menudo enamorarse de su Volkswagen, pero rara vez
+con su Continental Lincoln (que probablemente funcionen mucho mejor).
+Cuando aprendí programación, era un pasatiempo popular hacer todo lo
+posible con programas que cupieran sólo en una tarjeta perforada.
+Supongo que es el mismo fenómeno que hace que los entusiastas de APL
+gocen con sus &quot;one-liners&quot;. Cuando enseñamos a la programación hoy en
+día, es curioso el hecho de que rara vez se captura el corazón de un
+estudiante de ciencias de la computación hasta que ha tomado un curso
+que le permite &quot;meter las manos&quot; y ganar experiencia con un
+miniordenador. El uso de nuestras máquinas a gran escala con sus
+sistemas operativos y lenguajes de fantasía en realidad no parece
+generar ningún amor por la programación, por lo menos no al principio.</p>
+<p>No está claro cómo aplicar este principio para aumentar el disfrute de
+los programadores en su trabajo. Seguramente los programadores gruñrán
+si su administrador de repente les anuncia que la nueva máquina tendrá
+sólo la mitad de memoria que la antigua. Y yo no creo que nadie, ni
+siquiera los más dedicados &quot;artistas de programación&quot;, vayan a dar la
+bienvenida a esta perspectiva, ya que a nadie le gusta perder las
+instalaciones de manera innecesaria. Otro ejemplo puede ayudar a aclarar
+la situación: Los cineastas se opusieron firmemente a la introducción
+del cine sonoro en la década de 1920 porque estaban orgullosos de la
+forma en que podían transmitir palabras sin sonido. Del mismo modo, un
+artista de programación bien podría resentirse de la introducción de
+equipos más poderosos, los dispositivos de almacenamiento masivo de hoy
+en día suelen echar a perder gran parte de la belleza de nuestros viejos
+métodos de ordenamiento en cintas. Pero los cineastas de hoy no quieren
+volver a las películas mudas, no porque sean perezosos, sino porque
+saben que es muy posible hacer películas bellas utilizando tecnología
+mejorada. La forma de su arte ha cambiado, pero todavía hay mucho
+espacio para el arte.</p>
+<p>¿Cómo desarrollaron estas habilidades? Los mejores realizadores de
+películas a través de los años por lo general parecen haber aprendido su
+arte en relativamente primitivas circunstancias, a menudo en países con
+una industria cinematográfica limitada. Y en años recientes las cosas
+más importantes que hemos estado aprendiendo sobre programación parecen
+tener su origen en personas que no tienen acceso a computadores muy
+grandes. La moraleja de esta historia, me parece, es que debemos hacer
+uso de la idea de recursos limitados en nuestra propia educación. Todos
+podemos beneficiarnos de hacer de vez en cuando &quot;programas de
+juguete&quot;, cuando las restricciones artificiales se establecen, de
+manera que nos vemos obligados a impulsar nuestra capacidad hasta el
+límite. No debemos vivir en el regazo del lujo todo el tiempo, ya que
+que tiende a ponernos letárgicos. El arte de la lucha contra los mini
+problemas con toda nuestra energía va a agudizar nuestro talento para
+los problemas reales, y los la experiencia nos ayudará a obtener más
+placer de nuestros logros en equipos menos restringidos.</p>
+<p>En una vena similar, no debemos eludir &quot;el arte por el arte&quot;, no
+debemos sentirnos culpables por los programas que son sólo para
+divertirse. Una vez logre un gran placer alescribir un programa de ALGOL
+de un sóla sentencia que invocaba un procedimiento de product interno de
+una manera tan inusual que calculaba el m-ésimo número primo, en lugar
+de un producto interno. Hace algunos años los estudiantes de Stanford
+estaban entusiasmados por encontrar el programa más corto en FORTRAN que
+se imprimiera a sí mismo, en el sentido de que la salida del programa es
+idéntico al texto de su propia fuente. El mismo problema fue considerado
+para muchos otros lenguajes. No creo que fuera una pérdida de tiempo
+para que puedan trabajar en esto, ni que Jeremy Bentham, a quien ya he
+citado antes, negará la &quot;utilidad&quot; de tales pasatiempos. &quot;Por el
+contrario,&quot; él escribió, &quot;no hay utilidad de que sea más
+incontestable. ¿En qué se da el carácter de una utilidad, si no es una
+fuente de placer?</p>
+<p><strong>Proveyendo Herramientas Hermosas</strong></p>
+<p>Otra característica del arte moderno es su énfasis en la creatividad.
+Parece que muchos artistas hoy en día no parece importarle tanto la
+creación de cosas bellas; sólo la novedad de una idea es lo importante.
+No estoy recomendando que la programación de computadoras deba ser como
+el arte moderno en este sentido, pero me lleva a una observación que me
+parece importante. A veces nos asignan una tarea de programación que es
+casi irremediablemente aburrida, lo que no nos exige en absoluto nada de
+creatividad, y en esos momentos las personas suelen venir a mí y me
+dicen: &quot;¿Así que la programación es hermosa? Está muy bien para que
+usted daclame que uno debería tener el placer de la creación de
+programas elegantes y encantadores, pero ¿cómo se supone que voy a hacer
+de este desastre una obra de arte? &quot;</p>
+<p>Bueno, es cierto, no todas las tareas de programación van a ser
+divertidas. Tengan en cuenta a la &quot;ama de casa atrapada&quot;, que tiene
+que limpiar la misma mesa cada día: no hay espacio para la creatividad o
+el arte en cada situación. Pero incluso en esos casos, hay una manera de
+hacer una gran mejora: todavía es un placer hacer trabajos de rutina, si
+tenemos cosas bellas para trabajar. Por ejemplo, una persona puede
+realmente disfrutar el limpiar la mesa del comedor, día tras día, si es
+una mesa hermosamente diseñada, a partir de madera de fina calidad.</p>
+<p>Por lo tanto, quiero dirigir mis palabras de clausura a los
+programadores de sistemas y los diseñadores de máquinas que producen los
+sistemas conque el resto de nosotros debe trabajar. Por favor, déjenos
+herramientas que sean un placer de usar, especialmente para nuestras
+tareas de rutina, en lugar de ofrecer algo con lo que tengamos que
+luchar. Por favor, déjenos herramientas que nos animen a escribir mejor
+los programas, mediante la mejora de nuestro placer cuando lo hacemos.</p>
+<p>Es muy dificil para mí convencer a jóvenes universitarios de que la
+programación es hermosa, cuando tengo que decirles que es como &quot;slash
+slash JOB es igual a esto y esto.&quot; Aún los lenguajes de control pueden
+ser diseñados de modo que sea un placer usarlos, en vez de ser
+estrictamente funcionales.</p>
+<p>Los diseñadores de hardware de computador pueden hacer que sus máquinas
+sean mucho más agradables de utilizar, por ejemplo, proporcionando
+aritmética de coma flotante que cumpla las leyes matemáticas simples.
+Las instalaciones disponibles en la actualidad en la mayoría de las
+máquinas hacen el trabajo de análisis de errores de manera rigurosa e
+irremediablemente difícil, pero las operaciones de diseño adecuado sería
+alentar a los analistas numéricos que proporcionaran una mejor
+subrutinas que hayan certificado la exactitud.</p>
+<p>Vamos a considerar también lo que los diseñadores de software pueden
+hacer. Una de las mejores maneras de mantener arriba el espíritu de un
+usuario del sistema es proporcionar las rutinas con las que se pueda
+interactuar. No debemos hacer que los sistemas sean demasiado
+automáticos, por lo que la acción va siempre detrás de las escenas,
+debemos dar el programador-usuario la oportunidad de dirigir su
+creatividad hacia canales útiles. Una cosa que todos los programadores
+tienen en común es que les gusta trabajar con las máquinas, así que
+vamos a mantengámoslo en el ciclo. Algunas de las tareas se hacen mejor
+con la máquina, mientras que otros se hacen mejor con la supervisión
+humana, y en un sistema bien diseñado se encuentra el equilibrio
+adecuado. (He estado tratando de evitar la automatización mal dirigida
+durante muchos años.)</p>
+<p>Programar instrumentos de medición es un buen caso de ejemplo. Durante
+años, los programadores han sido inconscientes de cómo los costos reales
+de computación se distribuyen en sus programas. La experiencia indica
+que casi todo el mundo tiene una idea equivocada acerca de los
+verdaderos cuellos de botella en sus programas, no es de extrañar que
+los intentos de mejorar la eficiencia vayan mal tan a menudo, cuando a
+un programador no se le da un desglose de los gastos de acuerdo a las
+líneas de código que ha escrito. Su trabajo es algo así como la de una
+pareja de recién casados que intentan planificar un presupuesto
+equilibrado sin saber cuales serán los costos de los elementos
+individuales, como alimentos, vivienda y ropa. Todo lo que hemos estado
+dando a los programadores es un compilador de optimización, que
+misteriosamente hace algo a los programas que se traduce, pero que nunca
+explica lo que hace. Afortunadamente ahora estamos finalmente viendo la
+aparición de sistemas que le dan el crédito de usuario para una cierta
+inteligencia, sino que proporciona automáticamente la instrumentación de
+programas y la información apropiada sobre los costos reales. Estos
+sistemas experimentales han sido un gran éxito, ya que producen mejoras
+mensurables, y sobre todo porque es divertido de usar, así que confío en
+que es sólo cuestión de tiempo antes de que el uso de estos sistemas sea
+un procedimiento operativo estándar. Mi artículo en Computer Survey
+discute esto aún más, y presenta algunas ideas para otras formas en que
+una rutina interactiva apropiada puede mejorar la satisfacción de los
+programadores usuarios.</p>
+<p>Los diseñadores del lenguaje también tienen la obligación de
+proporcionar los lenguajes que fomenten un buen estilo, ya que todos
+sabemos que el estilo es fuertemente influenciado por el lenguaje en el
+que se expresa. La oleada actual de interés en la programación
+estructurada ha puesto de manifiesto que ninguno de nuestros lenguajes
+existentes es realmente idóneo para abordar el programa y la estructura
+de datos, ni tampoco está claro como debe ser un lenguaje ideal. Por lo
+tanto, espero que muchos hagan experimentos cuidadosos en el diseño el
+lenguaje durante los próximos años.</p>
+<p><strong>Resumen</strong></p>
+<p>En resumen, hemos visto que la programación de computadoras es un arte,
+porque se aplica el conocimiento acumulado en el mundo, porque requiere
+habilidad e ingenio, y especialmente, debido a que produce objetos
+hermosos. Un programador que inconscientemente, se ve a sí mismo como un
+artista disfrutará de lo que hace y lo hará mejor. Por lo tanto, podemos
+alegrarnos de que la gente que da charla en las conferencias de
+computación hable sobre estado del arte.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1813 words</span>
+    <span>10 - 13 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/post/2009/la-programacion-como-un-arte-parte-iv/">La programación como un Arte (Parte IV)</a></li><li><a href="/post/2009/la-programacion-como-un-arte-parte-iii/">La programación como un Arte (Parte III)</a></li><li><a href="/post/2009/la-programacion-como-un-arte-parte-ii/">La programación como un Arte (Parte II)</a></li><li><a href="/post/2009/la-programacion-como-un-arte-parte-i/">La programación como un Arte (Parte I)</a></li><li><a href="/post/2009/la-naturaleza-del-software-segun-octavio-paz/">La naturaleza del software, según Octavio Paz</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

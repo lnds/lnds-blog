@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Web Services U Object Remoting | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2005/web-services-u-object-remoting/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Web Services U Object Remoting">
+  <meta property="og:description" content="Hace un tiempo publique en Netveloper un artículo sobre web services y object remoting. Puedes leer el artículo, pero también he decidido guardar una copia en este blog.
+Sigue leyendo...
+Conceptualmente Web Service y Remoting son lo mismo, objetos distribuidos. La diferencia principal es el protocolo.
+En Remoting puedes usar protocolos no estándares. En Web Services usa SOAP, o RPC-XML, en general estándares abiertos, sobre HTTP.
+Si quieres publicar a la web tus servicios, entonces debes usar Web Services, porque tus clientes pueden estar usando otro ambiente, como Java, PHP, etc, y lo que importa es la interoperabilidad.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2005-08-03T08:25:11-03:00">
+    <meta property="article:modified_time" content="2005-08-03T08:25:11-03:00">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Web Services">
+    <meta property="article:tag" content="Patrones">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Web Services U Object Remoting">
+  <meta name="twitter:description" content="Hace un tiempo publique en Netveloper un artículo sobre web services y object remoting. Puedes leer el artículo, pero también he decidido guardar una copia en este blog.
+Sigue leyendo...
+Conceptualmente Web Service y Remoting son lo mismo, objetos distribuidos. La diferencia principal es el protocolo.
+En Remoting puedes usar protocolos no estándares. En Web Services usa SOAP, o RPC-XML, en general estándares abiertos, sobre HTTP.
+Si quieres publicar a la web tus servicios, entonces debes usar Web Services, porque tus clientes pueden estar usando otro ambiente, como Java, PHP, etc, y lo que importa es la interoperabilidad.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Web Services U Object Remoting</h1><time class="dim" datetime="2005-08-03T08:25:11-03:00">August 3, 2005</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/web-services/">#web services</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/patrones/">#patrones</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hace un tiempo publique en <a href="http://www.netveloper.com/">Netveloper</a> un
+artículo sobre web services y object remoting. Puedes leer el
+<a href="http://www.netveloper.com/contenido.aspx?IDP=0&amp;IDC=195">artículo</a>, pero
+también he decidido guardar una copia en este blog.</p>
+<p>Sigue leyendo...</p>
+<p><strong>Conceptualmente Web Service y Remoting son lo mismo, objetos
+distribuidos. La diferencia principal es el protocolo.</strong></p>
+<p>En Remoting puedes usar protocolos no estándares.
+En <a href="https://en.wikipedia.org/wiki/Web_service">Web Services</a>
+usa SOAP, o <a href="https://en.wikipedia.org/wiki/Remote_procedure_call">RPC</a>-<a href="https://en.wikipedia.org/wiki/XML">XML</a>, en general estándares abiertos, sobre
+<a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a>.</p>
+<ul>
+<li>
+<p>Si quieres publicar a la web tus servicios, entonces debes usar Web
+Services, porque tus clientes pueden estar usando otro ambiente,
+como <a href="https://java.sun.com">Java</a>, PHP, etc, y lo que importa es la
+interoperabilidad.</p>
+</li>
+<li>
+<p>Si es para manejo interno, el remoting puede tener mejor performance
+si usas como otros protocolos, que usen TCP y manejen binarios, en
+vez de soap, de todas maneras remoting se puede hacer con soap pero
+es lo mismo que web services, si lo usas sobre IIS.</p>
+</li>
+<li>
+<p>Tu puedes tener remoting sin tener que instalarlos en el IIS. Eso
+puede tener ventajas también en el performance, pero tienes que
+preocuparte de blindarlo de todas las otras caracteristicas que te
+agrega IIS, como SSL, logging, seguridad, etc. En el fondo, es como
+que tuvieras que construir tu propio web server. Por eso que se
+recomienda usar remoting en la intranet, donde normalmente la
+seguridad no es tan crítica porque se supone que todos los
+computadores son confiables (se supone).</p>
+</li>
+<li>
+<p>Probablemente, has visto mejor performance debido a la
+serialización. Los web services usan XMLSerializer, mientras que en
+remoting se usa SOAPFormatter o BinaryFormatter, que generan
+mensajes más comprimidos y se generan más rápido, además mandar un
+mensaje binario es más rápido que un XML, por ponerlo de algún modo.
+Además hay algunos detalles técnicos con respecto a la cantidad de
+conexiones que permite IIS sobre remoting, pero no creo que sea el
+caso.</p>
+</li>
+</ul>
+<h2 id="cómo-decidir"><strong>¿Cómo decidir?</strong></h2>
+<p>En Microsoft hay un artículo al respecto:
+<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnbda/html/bdadotnetarch16.asp">ASP.NET Web Services or .NET Remoting: How to Choose</a></p>
+<p>Otro artículo interesante está en
+<a href="http://www.acmqueue.org/modules.php?name=Content&amp;pa=showpage&amp;pid=246">Fuzzy Boundaries: Objects, Components, and Web Services.</a></p>
+<p>En mi experiencia:</p>
+<p>Si voy a interoperar con agentes externos, que no controlo, uso Web
+Services, porque es un estándar abierto.
+Sólo uso object remoting en aplicaciones dentro de una intranet, porque
+muchas veces no puedes controlar los firewalls, routers, etc.
+Sólo tiene sentido usar webservice u object remoting si los servicios
+van a ser usados entre máquinas distintas. Si no hay que usar objetos
+comunes y corrientes.
+Object Remoting y Web services deben ser una interfaz a objetos de
+negocios internos, es decir, la lógica de negocios no debe estar en
+ellos, sino que en clases internas que se exponen usando estos
+mecanismos. Esto es conocido como el patrón Adapter o Wrapper, que sería
+más o menos como muestra la siguiente imagen:</p>
+<p><img src="modelo.gif" alt="modelo.gif"></p>
+<p>Abusando de la notación UML, lo que la Figura muestra son algunas
+posibles configuraciones.</p>
+<p>Tenemos:</p>
+<ul>
+<li>
+<p>Objeto de Negocio que implementa la lógica de negocios</p>
+</li>
+<li>
+<p>Un WebService, que publica los servicios del objeto de negocios al mundo
+exterior.</p>
+</li>
+<li>
+<p>Un Objeto Remoting que publica lo mismo para el mundo interior, usando
+object remoting.</p>
+</li>
+<li>
+<p>Tenemos un cliente interno que podría usar web services o remoting.</p>
+</li>
+<li>
+<p>Un cliente interno que usa directamente el objeto de negocios.</p>
+</li>
+</ul>
+<p>En este patrón usamos el web service y el remoting como un Wrapper, para
+publicar la funcionalidad, que la realiza el objeto de negocios, eso nos
+da flexibilidad, y re utilización de lógica.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>557 words</span>
+    <span>3 - 4 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#cómo-decidir"><strong>¿Cómo decidir?</strong></a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2005/web-services-u-object-remoting/modelo.gif">modelo.gif</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2005/7-consejos-para-usar-excepciones/">7 Consejos para usar excepciones</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

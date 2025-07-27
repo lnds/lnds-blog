@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'es-cl'
+title = 'La Naturaleza del Software'
+theme = 'rusty-typewriter'
+
+ignoreLogs = ['shortcode-x-getremote']
+
+[markup.goldmark.renderer]
+unsafe = true

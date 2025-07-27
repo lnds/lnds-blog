@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agradecimientos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/agradecimientos/</link>
+    <description>Recent content in Agradecimientos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 25 Jul 2012 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agradecimientos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gracias Themo</title>
+      <link>http://localhost:1313/posts/2012/gracias-themo/</link>
+      <pubDate>Wed, 25 Jul 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/gracias-themo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Ogu.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace algunos meses conocí a Ada, la hija de Themo Lobos el gran caricaturista&#xA;chileno. Nos juntamos un mediodía en la cafetería de una universidad&#xA;donde ella imparte clases. La razón de nuestro encuentro era solicitar&#xA;el permiso para usar la imagen de Ógu, como mascota para un proyecto&#xA;opensource que quería iniciar.&lt;/p&gt;&#xA;&lt;p&gt;Nunca conocí a Themo, lo más cercano que pude estar con él fue este&#xA;contacto con Ada. La generosidad de Themo me sorprendió, entendió&#xA;perfectamente la idea del proyecto y me &amp;ldquo;regaló&amp;rdquo; uno de sus&#xA;&amp;ldquo;monitos&amp;rdquo; para ser usado como el primer logo de&#xA;&lt;a href=&#34;https://www.ogu-lang.org/&#34;&gt;Ogu&lt;/a&gt;, ese lenguaje de programación que estoy&#xA;desarrollando (si algunos de ustedes se anima a ayudarme, lo podemos&#xA;terminar pronto).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

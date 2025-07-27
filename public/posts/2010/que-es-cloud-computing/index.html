@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Qué es Cloud Computing | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2010/que-es-cloud-computing/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Qué es Cloud Computing">
+  <meta property="og:description" content="Imagen via Wikipedia
+Si te interesa puedes ver la presentación. Hemos hablado bastante de cloud computing en este blog, pero creo que no hemos precisado mucho que significa esto de la computación en la nube.
+Tener una definición clara de lo que significa este término es importante para tomar decisiones. Hay un video que me sugirieron, que es bastante bueno como introducción, pero se necesita algo más preciso desde el punto de vista técnico.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-07-03T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-07-03T08:25:11-03:00">
+    <meta property="article:tag" content="Cloud Computing">
+    <meta property="article:tag" content="Nube">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Qué es Cloud Computing">
+  <meta name="twitter:description" content="Imagen via Wikipedia
+Si te interesa puedes ver la presentación. Hemos hablado bastante de cloud computing en este blog, pero creo que no hemos precisado mucho que significa esto de la computación en la nube.
+Tener una definición clara de lo que significa este término es importante para tomar decisiones. Hay un video que me sugirieron, que es bastante bueno como introducción, pero se necesita algo más preciso desde el punto de vista técnico.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Qué es Cloud Computing</h1><time class="dim" datetime="2010-07-03T08:25:11-03:00">July 3, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/cloud-computing/">#cloud computing</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/nube/">#nube</a>
+      </div></ol></div>
+  <section class="page-section"><p><a href="https://commons.wikipedia.org/wiki/File:Cloud_computing_icon.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cloud_computing_icon.svg/256px-Cloud_computing_icon.svg.png" alt="Cloud computing icon"></a></p>
+<p>Imagen via
+<a href="https://commons.wikipedia.org/wiki/File:Cloud_computing_icon.svg">Wikipedia</a></p>
+<ul>
+<li>Si te interesa puedes ver <a href="/blog/2010/09/que-es-cloud-computing-la-presentacion.html">la presentación</a>.</li>
+</ul>
+<p>Hemos hablado bastante de <a href="/tags/cloud-computing/">cloud computing en este
+blog</a>,
+ pero creo que no hemos precisado mucho que significa esto de la
+<em>computación en la nube</em>.</p>
+<p>Tener una definición clara de lo que significa este término es
+importante para tomar decisiones. Hay <a href="http://www.youtube.com/watch?v=XdBd14rjcs0">un
+video</a> que me sugirieron,
+que es bastante bueno como introducción, pero se necesita algo más
+preciso desde el punto de vista técnico.</p>
+<p>El NIST tiene <a href="http://csrc.nist.gov/groups/SNS/cloud-computing/">una guía</a> bastante útil
+que contiene definiciones precisas sobre el tema y que voy a compartir
+con ustedes.</p>
+<p>Lo primero que hay que entender que el cloud computing es un paradigma
+en evolución. Las definiciones van a cambiar en el tiempo. La industria
+del cloud computing representa un vasto grupo de empresas, modelos,
+oferentes, y nichos de mercado. La definición del NIST trata de cubrir
+todo estos temas.</p>
+<p><strong>Cloud Computing</strong></p>
+<p>Según el NIST, el Cloud Computing es un modelo para habilitar un acceso
+conveniente, en demanda y a través de la red, a un conjunto de recursos
+computacionales compartidos (por ejemplo, redes, servidores,
+almacenamiento, aplicaciones y servicios), los que pueden ser
+provisionados y liberados rápidamente con un mínimo esfuerzo
+administrativo o con poca interacción con el proveedor de servicios.
+Este modelo de nube promueve la disponibilidad y se compone de cinco
+características esenciales, tres modelos de servicio y cuatro modelos de
+implementación.</p>
+<p><strong>Características Esenciales</strong></p>
+<blockquote>
+<p><strong>Auto servicio a demanda</strong>. Un consumidor puede unilateralmente
+provisionar capacidades computacionales, tales como tiempo de servidor
+y almacenamiento en red, de acuerdo a la necesidad y en forma
+automática sin requerir de una interacción humana con cada proveedor
+de servicio.</p></blockquote>
+<blockquote>
+<p><strong>Amplio acceso a través de la red</strong>. Las capacidades están
+disponibles  a través de la red y se accesan a través de mecanismos
+estándares que promueven el uso desde plataformas clientes diversasa
+(por ejemplo, teléfonos móviles, laptops, PDAs).</p></blockquote>
+<blockquote>
+<p><strong>Disponibilidad de recursos</strong>. Los recursos computacionales del
+proveedor se agrupan para servir a múltiples consumidores usando un
+modelo de arriendo múltiple, con diferentes recursos físicos y
+virutales asignados dinámicamente y reasignados de acuerdo a la
+demanda del consumidor. Hay un sentido de independencia de la
+localización en que el consumidor generalmente no tiene control o
+conocimiento de la localización exacta de los recursos provistos, pero
+puede  especificar la localización a un nivel más alto de abstracción
+(por ejemplo, un país, estado o datacenter). Ejemplos de estos
+recursos incluyen el almacenamiento, procesadores, memoria, ancho de
+banda y máquinas virtuales.</p></blockquote>
+<blockquote>
+<p><strong>Rápida Elasticidad</strong>. Las capacidades pueden ser rápida y
+elasticamente provisionadas, en algunos casos automáticamente, para
+escalar rápidamente y ser liberadas rápidamente para reducir la escala
+de operación. Para el consumidor, las capacidades disponibles para el
+provisionamient a menudo parecen ser ilimitadas y pueden ser compradas
+en cualquier cantidad en cualquier momento.</p></blockquote>
+<blockquote>
+<p><strong>Servicio Medido.</strong> Los sistemas en nube automáticamente controlan y
+optimizan el uso de recursos al aprovechar las capacidades de medición
+en cierto nivel de abstracción apropiado para el tipo de servicio
+(p.ej. almacenamiento usado, procesamiento, ancho de banda, cuentas de
+usuario activas). El uso de recursos puede ser monitoreado, controlado
+y reportado, proveyendo transparencia para ambos, el proveedor y el
+consumidor del servicio utilizado.</p></blockquote>
+<p><strong>Modelos de Servicio</strong></p>
+<p>Los modelos de servicio son tres:</p>
+<blockquote>
+<p><strong>Nube tipo Software como un Servicio(SaaS)</strong>. La capacidad provista
+para el consumidor es usar las aplicaciones del proveedor corriendo en
+una infraestructura en la nube. Las aplicaciones son accesibles desde
+varios dispositivos clientes a través de una interfaz de cliente
+&quot;delgada&quot; como un navegador web (p.ej. correo electrónico en la
+web). El consumidor no administra o controla la infraestructura de
+nube subyacente que incluye redes, servidores, sistemas operativos,
+almacenamiento o incluso las capacidades individuales de la
+aplicación, con la posible excepción de ciertas configuraciones
+específicas para el usuario en la aplicación.</p></blockquote>
+<blockquote>
+<p>**Nube tipo Plataforma como un Servivio (PaaS). **La capacidad que
+se le provee al consumidor es la de desplegar en la infraestructura en
+la nube las aplicaciones, propias o adquiridas, creadas usando
+lenguajes de programación y herramientes soportadas por el proveedor.
+El consumidor no administra o controla la infraestructura de nube
+subyacente, incluyendo redes, servidores, sistemas operativos o
+almacenamiento, pero tiene control sobre las aplicaciones desplegadas
+y posiblemente sobre las configuraciones del entorno de alojamiento.</p></blockquote>
+<blockquote>
+<p>**Nube tipo Infraestructura como un Servicio (IaaS). **La capacidad
+provista al consumidor es provisionar procesamiento, almacenamiento, y
+otros recursos computacionales fundamentales donde el consumidor es
+capaz de desplegar y ejecutar software arbitrario, el que puede
+incluir sistemas operativos y aplicaciones. El consumidor no
+administra o controla la infraestructura de nube subyacente pero tiene
+control sobre los sistemas operativos, almacenamiento, aplicaciones
+desplegadas y posiblemente un control limitado sobre componentes
+selectas de las redes (p.ej. los firewalls de sus hosts).</p></blockquote>
+<p><strong>Modelos de Implementación</strong></p>
+<blockquote>
+<p><strong>Nube Privada. La infraestructura de nube es operada solamente por
+una organización. Puede ser manejadas por la organización o una
+tercera parte y puede existir siempre, o ante una situación
+específica.</strong></p></blockquote>
+<blockquote>
+<p><strong>Nube Comunitaria. La infraestructura es compartida por varias
+organizaciones  y soporta a una comunidad específica que tiene
+preocupaciones compartidas (p.ej. misión, requerimientos de seguridad,
+políticas, y consideraciones de conformidad). Puede ser administradas
+por las organizaciones o una tercera p arte y puede existir
+permanentemente o ante situaciones específicas.</strong></p></blockquote>
+<blockquote>
+<p><strong>Nube Pública. La infraestructura es provista al público general o a
+un grupo de industria grande y es propiedad de una organización que
+vende servicios en nube.</strong></p></blockquote>
+<blockquote>
+<p><strong>Nube Híbrida. La infraestructura de nube es la composición de dos o
+más nubes (privadas, comunitarias o públicas) que permanecen como
+entidades únicas pero están enlazadas juntas por una tecnología
+estandarizada o propietaria que permite la portabilidad de datos y
+aplicaciones. (ej. cloud bursting (ruptura de nubes) para permitir el
+balanceo de carga entre nubes).</strong></p></blockquote>
+<p><strong>Fuente: <a href="http://csrc.nist.gov/groups/SNS/cloud-computing/">http://csrc.nist.gov/groups/SNS/cloud-computing/</a></strong></p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>941 words</span>
+    <span>6 - 8 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/posts/2009/chrome-el-s-o--en-la-nube/">Chrome el S.O. en la nube</a></li><li><a href="/posts/2009/privacidad-y-confidencialidad-en-la-nube/">Privacidad y Confidencialidad en la nube</a></li><li><a href="/posts/2009/los-riesgos-de-la-nube/">Los riesgos de la nube</a></li><li><a href="/posts/2009/cloud-computing-de-acuerdo-a-berkeley-rad-lab/">Cloud Computing, de acuerdo a Berkeley RAD Lab</a></li><li><a href="/posts/2008/%c2%bfes-la-nube-el-nuevo-computador/">¿Es la nube el nuevo computador?</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

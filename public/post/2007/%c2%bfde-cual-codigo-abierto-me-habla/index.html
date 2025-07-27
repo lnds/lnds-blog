@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>¿De cual código abierto me habla? | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2007/%c2%bfde-cual-codigo-abierto-me-habla/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="¿De cual código abierto me habla?">
+  <meta property="og:description" content="Sucede que hay empresas que consideran al software libre sólo como un término más de marketing, y poco les interesa distribuir su código fuente de verdad.
+Pero los casos de BitTorrent y MySQL sorprenden, por lo representativo de estos proyectos.
+Sucede que BitTorrent no publica el código fuente del protocolo desde que fue adquirido por uTorrent, de hecho cuando se liberó la versión 6 de BitTorrent, en julio de 2006, una nota sorprendió a los desarrolladores: “Lo sentimos, el código fuente de BitTorrent 6.0, como el código fuente de uTorrente, no será liberado. Sin embargo, las versiones 5 y anteriores seguirán liberadas bajo licencias open source, y permanecen disponibles para que ustedes las modifiquen y redistribuyan sujetas a los términos de sus respectivas licencias.”">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2007-08-10T15:15:47+00:00">
+    <meta property="article:modified_time" content="2007-08-10T15:15:47+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="¿De cual código abierto me habla?">
+  <meta name="twitter:description" content="Sucede que hay empresas que consideran al software libre sólo como un término más de marketing, y poco les interesa distribuir su código fuente de verdad.
+Pero los casos de BitTorrent y MySQL sorprenden, por lo representativo de estos proyectos.
+Sucede que BitTorrent no publica el código fuente del protocolo desde que fue adquirido por uTorrent, de hecho cuando se liberó la versión 6 de BitTorrent, en julio de 2006, una nota sorprendió a los desarrolladores: “Lo sentimos, el código fuente de BitTorrent 6.0, como el código fuente de uTorrente, no será liberado. Sin embargo, las versiones 5 y anteriores seguirán liberadas bajo licencias open source, y permanecen disponibles para que ustedes las modifiquen y redistribuyan sujetas a los términos de sus respectivas licencias.”">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>¿De cual código abierto me habla?</h1><time class="dim" datetime="2007-08-10T15:15:47&#43;00:00">August 10, 2007</time></div>
+  <section class="page-section"><p>Sucede que hay empresas que consideran al software libre sólo como un término más de marketing, y poco les interesa distribuir su código fuente de verdad.</p>
+<p>Pero los casos de BitTorrent y MySQL sorprenden, por lo representativo de estos proyectos.</p>
+<p>Sucede que BitTorrent no publica el código fuente del protocolo desde que fue adquirido por uTorrent, de hecho cuando se liberó la versión 6 de BitTorrent, en julio de 2006, una nota sorprendió a los desarrolladores:
+&ldquo;Lo sentimos, el código fuente de BitTorrent 6.0, como el código fuente de uTorrente, no será liberado. Sin embargo, las versiones 5 y anteriores seguirán liberadas bajo licencias open source, y permanecen disponibles para que ustedes las modifiquen y redistribuyan sujetas a los términos de sus respectivas licencias.&rdquo;</p>
+<p>Esto provoca preocupación, porque una de las consecuencias es que puedan surgir otros protocolos divergentes a BitTorrent original. De hecho, la definción del estándar Bittorrent sólo está disponible para los desarrolladores que compren el SDK.</p>
+<p>La razón que se da como justificación para cerrar el código fuente de BitTorrent es que con esto aumenta la seguridad del producto, porque antes, al estar el código disponible a cualquiera, se creaban clientes cerrados con spyware, o troyanos. Ahora, gracias a la bondad y desinterés de uTorrent, estamos libres del malware.</p>
+<p>El otro caso es un diferente, MySQL ha separado su versión Enterprise de la versión Comunitaria, desde fines del 2006. La versión Enterprise tiene un costo, y el código está restringido a los usuarios que han pagado por las licencias de mantención.
+Esto no es malo, de hecho tampoco viola la GPL, porque se trata de &ldquo;productos distintos&rdquo;. Pero, es confuso al menos, y deja una sensación de desconfianza. ¿Qué tan buena es la versión comunitaria?, siendo que la misma empresa dice que la versión comunitaria es experimental, y por lo tanto no recomendable para producción.</p>
+<p>Pero la cosa se hace más sospechosa con la reciente decisión de retirar el acceso público a los fuentes en formato tar de todas las versiones de MySQL Enterprise. Si quieres recompilar una versión Enterprise de MySQL debes pagar la licencia.
+Esto, por supuesto, no ha gustado mucho en la comunidad de usuarios MySQL, y se considera como otro paso de MySQL AB para alejarse del opensource.</p>
+<p>Así que cuando hablamos de empresas que venden productos de software libre o código abierto debemos preguntarnos, de ¿cuál código abierto nos hablan?
+Es el código disponible, el mismo de los productos finales o pagados? Que tan profundas son las diferencias? Hay un costo de migrar hacia la versión pagada, o peor, hay un costo si quiero dejar de usar la versión pagada?</p>
+<p>Quienes creen que esto del software libre y open source es puro altruismo y desinterés, es mejor que se vayan desayunando. Las empresas protegen sus intereses, y muchas cuando están preparando su apertura a bolsa, o están interesados en captar inversionistas, abandonan fácilmente el modelo.
+Algo que no es de extrañar, si uno piensa que el cósto del software es proporcional al sueldo de los desarrolladores, y esos dineros hay que sacarlos de alguna parte, y a menos que hayan grandes grupos de corporaciones dispuestas a donar el sueldo de los desarrolladores, son pocos los modelos de negocios existosos para el FLOSS.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>540 words</span>
+    <span>3 - 3 minutes read</span></div></aside></div>
+  </div>
+</body>
+</html>

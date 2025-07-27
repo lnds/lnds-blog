@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defectos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/defectos/</link>
+    <description>Recent content in Defectos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 21 Nov 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/defectos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtudes y defectos</title>
+      <link>http://localhost:1313/posts/2010/virtudes-y-defectos/</link>
+      <pubDate>Sun, 21 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/virtudes-y-defectos/</guid>
+      <description>&lt;p&gt;Hubo varias respuestas a &lt;a href=&#34;http://localhost:1313/blog/2010/11/las-tres-grandes-virtudes-de-un-programador.html&#34;&gt;la pregunta del viernes&lt;/a&gt;,&#xA;sobre las tres virtudes del programador, según Larry Wall, pereza,&#xA;impaciencia y orgullo (o soberbia).&lt;/p&gt;&#xA;&lt;p&gt;Una respuesta me llegó directamente por email:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La pereza? Nos confiamos en lo que sabemos... Lo sacamos en un par&#xA;de dias cuando lo programamos en un mes. La impaciencia? No nos&#xA;dormimos hasta que vemos una subrutina hacer lo que queremos que haga.&#xA;Función, librería, clase... Nooo, que lo haga la subrutina. El&#xA;orgullo? Yo hice este programa y ningun otro se le compara... Y si se&#xA;le compara tiene errores, asi que ni lo compare ni lo menos precie. Ya&#xA;quisiera un programador como yo.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

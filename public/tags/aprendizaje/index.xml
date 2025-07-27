@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aprendizaje on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/aprendizaje/</link>
+    <description>Recent content in Aprendizaje on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 29 Dec 2021 12:20:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aprendizaje/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plasticidad</title>
+      <link>http://localhost:1313/posts/2021/2021-12-29-plasticidad/</link>
+      <pubDate>Wed, 29 Dec 2021 12:20:00 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2021/2021-12-29-plasticidad/</guid>
+      <description>&lt;p&gt;¿Han oído ese adagio que dice que no se le puede enseñar trucos nuevos a un perro viejo? Pues, no es verdad. Claro que se puede aprender, y mucho.&lt;/p&gt;&#xA;&lt;p&gt;Yo al menos este año he aprendido montones, y de personas mucho más jóvenes que yo.&lt;/p&gt;&#xA;&lt;p&gt;Mi padre decía que siempre estamos aprendiendo, incluso en el momento de nuestra muerte aprendemos sobre uno de los mayores misterios de nuestra existencia.&lt;/p&gt;&#xA;&lt;p&gt;Hay gente que dice que tiene que ver con la neuroplasticidad. La teoría es que a menor edad tienes más neuroplasticidad, y la vas perdiendo al envejecer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cómo aprender a programar en un nuevo Lenguaje</title>
+      <link>http://localhost:1313/posts/2021/2021-09-05-aprender-a-programar/</link>
+      <pubDate>Sun, 05 Sep 2021 11:25:13 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2021/2021-09-05-aprender-a-programar/</guid>
+      <description>&lt;p&gt;Recientemente encontré este tweet:&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;JavaScript is difficult to learn but easy to master.&lt;br&gt;&lt;br&gt;Python is easy to learn but difficult to master.&lt;br&gt;&lt;br&gt;That&amp;#39;s the tweet.&lt;/p&gt;&amp;mdash; Michael Asiedu (@MichaelAsiedu_) &lt;a href=&#34;https://twitter.com/MichaelAsiedu_/status/1434050013018087428?ref_src=twsrc%5Etfw&#34;&gt;September 4, 2021&lt;/a&gt;&lt;/blockquote&gt;&#xA;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;(JavaScript is difficult to learn but easy to master.&#xA;Python is easy to learn but difficult to master)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Y en cierta medida es bastante cierto. Al menos en lo que respecta a Python.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que Python tiene una sintaxis muy sencilla y se puede aprender en pocas horas, pero hay montones de detalles que se van aprendiendo a lo largo de los años.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cuándo estás seguro que sabes</title>
+      <link>http://localhost:1313/posts/2010/cuando-est%C3%A1s-seguro-que-sabes/</link>
+      <pubDate>Sun, 22 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/cuando-est%C3%A1s-seguro-que-sabes/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tu piensas que sabes cuando aprendes, y estás más seguro cuando&#xA;puedes escribir, aún más cuando enseñas, pero estás cierto cuando&#xA;puedes programar.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Alan Perlis, &lt;a href=&#34;http://localhost:1313/blog/2008/02/epigramas-de-la-programacion.html&#34;&gt;epigrama 116&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

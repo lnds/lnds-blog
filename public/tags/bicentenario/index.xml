@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bicentenario on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/bicentenario/</link>
+    <description>Recent content in Bicentenario on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 18 Sep 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bicentenario/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Feliz Bicentenario!</title>
+      <link>http://localhost:1313/posts/2010/feliz-bicentenario/</link>
+      <pubDate>Sat, 18 Sep 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/feliz-bicentenario/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;http://www.google.com/logos/&#34;&gt;doodle&lt;/a&gt; de hoy es bien bonito, es obra&#xA;de &lt;a href=&#34;http://www.fotos.emol.com/?F_ID=942979&#34;&gt;Bernardita Jimenez&lt;/a&gt;, una&#xA;joven chilena.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;d4g_chile10-hp.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Como es tradicional en este blog, celebramos con una cueca robot:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DDTXZnNEW10?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;¡Feliz Bicentenario!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

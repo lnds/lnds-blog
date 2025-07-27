@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jira on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/jira/</link>
+    <description>Recent content in Jira on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 18 Jul 2012 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jira/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Una Guerra Silenciosa</title>
+      <link>http://localhost:1313/posts/2012/una-guerra-silenciosa/</link>
+      <pubDate>Wed, 18 Jul 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/una-guerra-silenciosa/</guid>
+      <description>&lt;p&gt;Soy un fan de GitHub (&lt;a href=&#34;http://localhost:1313/blog/2012/02/el-senor-de-los-archivos.html&#34;&gt;como pueden&#xA;comprobar&lt;/a&gt;),&#xA;pero también me gusta mucho lo que hacen en Atlassian. Desde hace años&#xA;uso y promuevo entre mis colegas el uso de&#xA;&lt;a href=&#34;http://www.atlassian.com/es/software/jira/overview&#34;&gt;Jira&lt;/a&gt;. Uso las&#xA;herramientas de ambas empresas a nivel personal y en mi trabajo.&lt;/p&gt;&#xA;&lt;p&gt;Personalmente mantengo unos repositorios públicos y privados en&#xA;&lt;a href=&#34;http://www.github.com/&#34;&gt;Github&lt;/a&gt;, y nunca consideré usar&#xA;&lt;a href=&#34;https://bitbucket.org/&#34;&gt;Bitbucket&lt;/a&gt;, la opción de Atlassian. Basicamente&#xA;porque para mi Bitbucket era un repositorio basado en Mercurial, y no me&#xA;gusta mucho ese DVCS, como dice Scott Chacon, &lt;a href=&#34;http://schacon.github.com/2008/11/24/on-mercurial.html&#34;&gt;Mercurial se siente como&#xA;un Git Lite&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Historia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/historia/</link>
+    <description>Recent content in Historia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 05 Feb 2022 12:22:16 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/historia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estafadores</title>
+      <link>http://localhost:1313/posts/2022-02-05-estafadores/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-05-estafadores/</guid>
+      <description>&lt;p&gt;El placer que debe haber sentido Herman Göring al apreciar el cuadro &amp;ldquo;Cristo y la Mujer Adúltera&amp;rdquo;, de Johannes Vermeer, solo se compara con el escalofrío que debió sentir al desembolsar los casi dos millones de florines que pagó por el mismo (casi siete millones de dólares actuales).&lt;/p&gt;&#xA;&lt;p&gt;No sabemos si alguna vez colgó la pintura en algún salón u oficina, o si pudo mostrárselo al mismísimo Führer. Quizás pensaba regalárselo o vendérselo. El hecho es que la obra fue escondida en una mina de sal en Austria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entusiasmo selectivo</title>
+      <link>http://localhost:1313/posts/2020/2020-03-29-entusiasmo-selectivo/</link>
+      <pubDate>Sun, 29 Mar 2020 08:35:24 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-03-29-entusiasmo-selectivo/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won&amp;rsquo;t do it well anyway.&lt;/em&gt; &amp;ndash; Brian Kernighan&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Unix es el sistema operativo más exitoso de la historia. Una variante de Unix se encuentra disponible en casi todos los dispositivos que se conectan a internet hoy.&lt;/p&gt;&#xA;&lt;p&gt;En efecto, si usas un teléfono Android usas como base el &lt;a href=&#34;https://es.wikipedia.org/wiki/GNU/Linux&#34;&gt;Kernel de Linux&lt;/a&gt;, por otro lado si tu teléfono es un iPhone estás usando iOS, que tiene como base un kernel &lt;a href=&#34;https://es.wikipedia.org/wiki/XNU&#34;&gt;XNU&lt;/a&gt;.  Ambos pertenecen a la familia de Unix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ceros y Unos</title>
+      <link>http://localhost:1313/posts/2018/ceros-y-unos/</link>
+      <pubDate>Sun, 23 Sep 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2018/ceros-y-unos/</guid>
+      <description>&lt;p&gt;La leyenda cuenta que Teseo prometió a su padre, el rey Egeo de Atenas,&#xA;que si tenía éxito, en su hazaña de matar al Minotauro, al volver su&#xA;barco izaría velas blancas en vez de las tradicionales de color negro.&#xA;El hijo de Egeo, perdido por muchos años, quería librar a su ciudad del&#xA;infame tributo al Rey Minos, de Creta, que les obligaba a enviar a siete&#xA;jóvenes y siete doncellas para que fueran sacrificados ante el monstruo&#xA;con cuerpo de hombre y cabeza de toro.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Web no es internet y otras breves notas históricas</title>
+      <link>http://localhost:1313/posts/2014/la-web-no-es-internet-y-otras-breves-notas-historicas/</link>
+      <pubDate>Sun, 27 Apr 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/la-web-no-es-internet-y-otras-breves-notas-historicas/</guid>
+      <description>&lt;p&gt;Mirando en Twitter como algunas personas recuerdan su experiencia con la&#xA;web a propósito del &amp;ldquo;cumpleaños 25&amp;rdquo; de esta, me propuse aclarar un par&#xA;de cosas.&lt;/p&gt;&#xA;&lt;p&gt;Primero, mucha gente, incluidas algunas personas que deberían saberlo&#xA;mejor sobretodo por el cargo que ejercen, confunden la World Wide Web&#xA;con Internet.&lt;/p&gt;&#xA;&lt;p&gt;Internet es mucho más antigua que la Web. Internet es un conjunto de&#xA;redes interconectadas que se caracterizan por usar el protocolo TCP/IP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turing... Alan Turing</title>
+      <link>http://localhost:1313/posts/2012/turing-alan-turing/</link>
+      <pubDate>Wed, 06 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/turing-alan-turing/</guid>
+      <description>&lt;p&gt;Quizás no lo sepan, pero Alan Turing e  Ian Fleming (el autor de las&#xA;novelas de Bond,  James Bond) trabajaron juntos.&lt;/p&gt;&#xA;&lt;p&gt;Durante la Segunda Guerra Mundial Alan Turing dirigió el grupo Hut 8 en&#xA;Betchley Park, en la sede del  &#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Government_Communications_Headquarters#Government_Code_and_Cypher_School_.28GCCS.29&#34;&gt;Government Code and Cypher School (GC&amp;amp;CS)&lt;/a&gt;.&#xA;El grupo Hut 8 estaba encargado de descifrar los códigos secretos&#xA;creados con las máquinas Enigma  usadas por la marina alemana. Esta&#xA;famosa máquina, tenía un mecanismo de encriptación que se se consideraba&#xA;impenetrable en ese tiempo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Una breve y disparatada historia de los lenguajes de programación</title>
+      <link>http://localhost:1313/posts/2010/una-breve-y-disparatada-historia-de-los-lenguajes-de-programacion/</link>
+      <pubDate>Wed, 06 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/una-breve-y-disparatada-historia-de-los-lenguajes-de-programacion/</guid>
+      <description>&lt;p&gt;Esta es una traducción parcial de &lt;a href=&#34;http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html&#34;&gt;este artículo&lt;/a&gt;,&#xA;escrito por &lt;a href=&#34;http://james-iry.blogspot.com/&#34;&gt;James Iry&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;1842 - Ada Lovelace escribe el primer programa. Sus esfuerzos se ven&#xA;obstaculizados por el inconveniente menor de no contar un computador&#xA;donde ejecutar su código. Los &amp;ldquo;&lt;em&gt;enterprise architects&amp;rdquo;&lt;/em&gt; más tarde re&#xA;aprenderán sus técnicas para programar en UML.&lt;/p&gt;&#xA;&lt;p&gt;1936 - Alan Turing inventa todos los lenguajes de programación que&#xA;existirán, pero es secuestrado por la Inteligencia Británcia para ser&#xA;007 antes que pueda patentarlo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hackers del 5 de octubre - 25 años</title>
+      <link>http://localhost:1313/posts/2013/hackers-del-5-de-octubre--25-anos/</link>
+      <pubDate>Fri, 04 Oct 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/hackers-del-5-de-octubre--25-anos/</guid>
+      <description>&lt;p&gt;Es una cosa curiosa pero, resulta que ahora todos los chilenos que&#xA;vivieron en aquella época votaron por el No, así que no se que gracia&#xA;tiene &lt;a href=&#34;http://localhost:1313/blog/2008/10/los-hackers-del-5-de-octubre.html&#34;&gt;esta historia&lt;/a&gt;&#xA;que publiqué hace unos años atrás, pero por lo menos el año pasado fue&#xA;recordada por los alumnos del departamento de computación de la&#xA;Universidad de Chile, como evidencia esta foto de aquel evento, donde&#xA;vemos a los dos protagonistas de la historia que viene más abajo, MAZ y&#xA;REM:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Neil Armstrong</title>
+      <link>http://localhost:1313/posts/2012/neil-armstrong/</link>
+      <pubDate>Sun, 26 Aug 2012 12:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/neil-armstrong/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2012/neil-armstrong/174802main_armstrong_neil_hr.jpg&#34;&#xA;    alt=&#34;Neil Armstrong 1930-2012&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Neil Armstrong 1930-2012&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Era un niño de 6 ó 7 años cuando mi padre nos proyectaba películas sobre&#xA;el aterrizaje del Apolo 11 en la luna. El tenía un viejo proyector de&#xA;películas con copias de noticieros sobre el mundial de 1962 y los&#xA;informativos de la NASA sobre el programa espacial, que conseguía en el&#xA;Instituto Chileno Norteamericano de Cultura, en Chuquicamata. También&#xA;tenía unas revistas de LIFE sobre la carrera espacial, y una serie de&#xA;libros que esta misma revista editó a fines de los 1960&amp;rsquo;s y comienzos&#xA;de los 1970&amp;rsquo;s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A propósito de NO, la película</title>
+      <link>http://localhost:1313/posts/2012/a-prop%C3%B3sito-de-no-la-pel%C3%ADcula/</link>
+      <pubDate>Thu, 02 Aug 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/a-prop%C3%B3sito-de-no-la-pel%C3%ADcula/</guid>
+      <description>&lt;p&gt;Esta semana se estrena NO, La Película, que narra la historia de la&#xA;campaña que logró ganar el plebiscito del  &#xA;&lt;a href=&#34;http://news.bbc.co.uk/hi/spanish/latin_america/newsid_7646000/7646154.stm&#34;&gt;5 de &lt;strong&gt;octubre&lt;/strong&gt; de 1988&lt;/a&gt;. Hace&#xA;unos años atrás publiqué esta historia y aprovechando esta ocasión, y&#xA;dado que estamos además celebrando 7 años de este blog, me pareció buena&#xA;idea re publicar este post, que trata de la historia de dos jóvenes que&#xA;participaron en esta histórica jornada. Así que aquí está re publicado:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flame y MD5</title>
+      <link>http://localhost:1313/posts/2012/flame-y-md5/</link>
+      <pubDate>Fri, 29 Jun 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/flame-y-md5/</guid>
+      <description>&lt;p&gt;En 2005 escribí una &lt;a href=&#34;http://www.codeproject.com/Articles/11643/Exploiting-MD5-collisions-in-C&#34;&gt;prueba de&#xA;concepto&lt;/a&gt;&#xA;donde usé una conocida  vulnerabilidad de MD5  descubierta por Xiaoyun&#xA;Wang en 2004&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, para engañar cualquier sistema que valide la firma&#xA;digital de un archivo usando MD5. Posteriormente Peter Selinger&#xA;desarrolló una mejora de mi esquema lo que permite automatizar aún más&#xA;el proceso.&lt;/p&gt;&#xA;&lt;p&gt;Mi prueba de concepto permite que dos programas distintos (uno &amp;ldquo;bueno&amp;rdquo;&#xA;y otro &amp;ldquo;malvado&amp;rdquo;) tengan la misma firma MD5.  Para que funcione mi&#xA;esquema se requiere un tercer programa extractor. Sin embargo, Selinger&#xA;mejoró mi esquema eliminando este tercer programa. En esencia lo que&#xA;hace Selinger es crear un &amp;ldquo;programa esquizofrénico&amp;rdquo;, que contiene las&#xA;dos personalidades del programa (la buena y la malvada).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Enigma de Turing</title>
+      <link>http://localhost:1313/posts/2012/el-enigma-de-turing/</link>
+      <pubDate>Sun, 24 Jun 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-enigma-de-turing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;turing-ratio-club.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El &lt;a href=&#34;http://localhost:1313/blog/2012/06/el-padre-de-a-computacion.html&#34;&gt;padre de la computación&lt;/a&gt;&#xA;era gay. El &lt;a href=&#34;http://www.lnds.net/blog/2012/06/mi-nombre-es-turing-alan-turing.html&#34;&gt;hacker que descifró los códigos secretos de los Nazis&lt;/a&gt; fue&#xA;juzgado y condenado en base a una serie de prejuicios e intolerancia. El&#xA;&lt;a href=&#34;http://localhost:1313/blog/2012/06/maquina-universal.html&#34;&gt;genio matemático&lt;/a&gt;&#xA;murió cuando tenía apenas 41 años de edad, si fue empujado al suicido o&#xA;por accidente, es &lt;a href=&#34;http://www.bbc.co.uk/news/science-environment-18561092&#34;&gt;una pregunta abierta&#xA;nuevamente&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Tradicionalmente se ha considerado su muerte un suicidio, aunque su&#xA;madre sostuvo por mucho tiempo que fue un accidente. El terreno queda&#xA;abierto para la especulación conspirativa, después de todo Turing&#xA;manejaba muchos secretos militares, después de todo su muerte era&#xA;conveniente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Máquina Universal</title>
+      <link>http://localhost:1313/posts/2012/maquina-universal/</link>
+      <pubDate>Sat, 23 Jun 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/maquina-universal/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;falla-informatica.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El diario de ayer titula &amp;ldquo;Falla informática paraliza el Metro y deja&#xA;sin servicio a 37 mil personas. Es entendible la molestia de los&#xA;usuarios, yo mismo me vi afectado. No voy a hablar de este fallo, pues&#xA;no se los detalles, puede ser desde un error de programación hasta el&#xA;corte de una línea de comunicación, pero como sea, este hecho refleja el&#xA;alto grado de dependencia de nuestra sociedad tiene con las&#xA;computadoras.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lo bueno y lo malo</title>
+      <link>http://localhost:1313/posts/2012/lo-bueno-y-lo-malo/</link>
+      <pubDate>Thu, 21 Jun 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/lo-bueno-y-lo-malo/</guid>
+      <description>&lt;p&gt;En la obra teatral Breaking The Code (rompiendo códigos), escrita por el&#xA;dramaturgo británico Hugh Whitemore, sobre la vida de Alan Turing hay&#xA;una escena que representa la entrevista que Dillwyn Knox le realiza&#xA;antes de reclutarlo en el equipo de Bletchey Park, para descifrar los&#xA;código Enigma.&lt;/p&gt;&#xA;&lt;p&gt;En esta escena Knox le pide que explique en términos simples su trabajo&#xA;teórico en matemáticas. Turing responde:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Es un documento técnico en lógica matemática. Pero también es acerca&#xA;de lo difícil que es determinar lo bueno de lo malo. Mire la gente&#xA;cree, bueno, la mayoría de la gente piensa que en matemáticas sabemos&#xA;lo que está bien, y lo que está mal. No es así, ya no. Es un problema&#xA;que ha ocupado a los matemáticos por 40 ó 50 años, cómo distinguir lo&#xA;que está bien y lo que está mal.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ajedrecistas</title>
+      <link>http://localhost:1313/posts/2012/ajedrecistas/</link>
+      <pubDate>Tue, 19 Jun 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/ajedrecistas/</guid>
+      <description>&lt;p&gt;Una de las pasiones de Alan Turing era el ajedrez, de hecho compartía&#xA;esta afición con Shannon y John Von Neumann, pero el desafío de este&#xA;juego ha estado presente en la mente de grandes pioneros de la&#xA;computación.&lt;/p&gt;&#xA;&lt;p&gt;La historia del ajedrez jugado por una máquina es de larga data, famosa&#xA;es la historia&#xA;del &lt;a href=&#34;http://localhost:1313/2005/11/inteligencia_artificial_artificial.html&#34;&gt;turco&lt;/a&gt; &lt;a href=&#34;http://www.portalajedrez.com/anecdotas/turco.php&#34;&gt;mecánico&lt;/a&gt;,&#xA;una máquina con aspecto de turco que se dice derrotó incluso a Napoleón&#xA;Bonaparte, en realidad no había ningún mecanismo, sino que en su&#xA;interior era operada por el campeón austriaco de ajedrez Johann&#xA;Allgaier.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Padre de la Computación</title>
+      <link>http://localhost:1313/posts/2012/el-padre-de-la-computacion/</link>
+      <pubDate>Sun, 17 Jun 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-padre-de-la-computacion/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;One day ladies will take their computers for walks in the park and&#xA;tell each other, &amp;ldquo;My little computer said such a funny thing this&#xA;morning.&amp;rdquo; -- Alan Turing&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;No puedo dejar de pensar en las palabras de Alan Turing al mirar esta&#xA;fotografía:&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2012/el-padre-de-la-computacion/turing-ladieso-young-female-friends-taking-photo-with-cellphone-in-the-park.jpg&#34;&#xA;    alt=&#34;Turing Ladies in The Park&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Turing Ladies in The Park&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA; &lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;lsquo;Un día las damas llevaran sus computadores mientras pasean por el parque y&#xA;se dirán unas a otras: &amp;ldquo;mi pequeña computadora dijo algo cómico esta&#xA;mañana&amp;rdquo;&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Semana de Turing</title>
+      <link>http://localhost:1313/posts/2012/semana-de-turing/</link>
+      <pubDate>Sat, 16 Jun 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/semana-de-turing/</guid>
+      <description>&lt;p&gt;El próximo sábado 23 de junio se cumplen 100 años del nacimiento de Alan&#xA;Turing, en La Naturaleza del Software celebraremos con una maratón de 7&#xA;posts a partir de mañana, pero para invitarlos les dejo este video donde&#xA;vemos al gran actor británico Derek Jacobi interpretando a Turing&#xA;explicando su gran aporte a las matemáticas, además les dejo un video y&#xA;texto escrito por Eduardo Galeano sobre este genio del siglo XX. Los&#xA;espero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El extraño caso de Ettore Majorana</title>
+      <link>http://localhost:1313/posts/2012/el-extrano-caso-de-ettore-majorana/</link>
+      <pubDate>Tue, 10 Apr 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-extrano-caso-de-ettore-majorana/</guid>
+      <description>&lt;p&gt;En 2006 al cumplirse el centenario del nacimiento del gran físico&#xA;italiano Ettore Majorana se estableció el Electronic Journal of&#xA;Theoretical Physics estableció un premio en memoria del científico&#xA;siciliano, la Medalla Majorana es un un premio anual para los&#xA;investigadores que muestren gran creatividad, sentido crítico y rigor&#xA;matemático en física teórica.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2012/el-extrano-caso-de-ettore-majorana/majoranaprize.jpg&#34;&#xA;    alt=&#34;La Medalla Majorana&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;La Medalla Majorana&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Su desconocida historia sería un argumento para una novela. Un verdadero&#xA;genio, de acuerdo a &lt;a href=&#34;http://es.wikipedia.org/wiki/Enrico_Fermi&#34;&gt;Enrico Fermi&lt;/a&gt; su inteligencia era&#xA;comparable a la de Newton o Galileo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un almuerzo en Lafayette Square</title>
+      <link>http://localhost:1313/posts/2012/un-almuerzo-en-lafayette-square/</link>
+      <pubDate>Sat, 31 Mar 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/un-almuerzo-en-lafayette-square/</guid>
+      <description>&lt;p&gt;En diciembre de 1942, la fecha es imposible de precisar, tres hombres se&#xA;juntaron a almorzar en el restaurante del hotel Hay-Adams en Lafayette&#xA;Square, Washington D.C. No se trataba de tres políticos, o generales&#xA;preocupados del avance de la Segunda Guerra Mundial. Eran tres genios&#xA;que estaban pensando en el futuro.&lt;/p&gt;&#xA;&lt;p&gt;Cada uno de ellos ya había realizado una gran contribución a la ciencia.&#xA;Aunque no sabemos de que hablaron en ese encuentro, probablemente esa&#xA;tarde  se establecieron las bases para el desarrollo del computador&#xA;digital moderno, y todo el desarrollo posterior de lo que conocemos como&#xA;tecnología de la  información. Los tres hombres que se reunieron a&#xA;almorzar en Lafayette Square eran nada menos que los padres fundadores&#xA;de la informática: Alan Turing, Claude Shannon y John Von Neumann.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calidad, Corrección y Elegancia una entrevista a Dijkstra</title>
+      <link>http://localhost:1313/posts/2009/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra/</link>
+      <pubDate>Sat, 03 Mar 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra/</guid>
+      <description>&lt;p&gt;Les dejo &lt;a href=&#34;https://www.youtube.com/watch?v=mLEOZO1GwVc&#34;&gt;este video&lt;/a&gt; con&#xA;una entrevista a Edsger Dijkstra (premio Turing 1972, fallecido en&#xA;agosto de 2002).&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mLEOZO1GwVc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Orígenes</title>
+      <link>http://localhost:1313/posts/2012/origenes/</link>
+      <pubDate>Sat, 03 Mar 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/origenes/</guid>
+      <description>&lt;p&gt;El primer lenguaje de programación que aprendí fue Basic, allá por 1981,&#xA;sobre un Sinclair ZX81. ¿Conocen lo que &lt;a href=&#34;http://localhost:1313/blog/2009/07/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra.html&#34;&gt;Dijkstra&lt;/a&gt;&#xA;dijo sobre Basic? Dijkstra dijo: &lt;em&gt;&amp;ldquo;La enseñanza de BASIC debería ser&#xA;considerada una ofensa criminal, mutila la mente más allá de toda&#xA;recuperación&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Comprenderán mi preocupación cuando supe que uno de los personajes que&#xA;más admiro pensaba así, ¿estaba mutilada mi mente para siempre?&lt;/p&gt;&#xA;&lt;p&gt;Pero ahí está otro de los grandes héroes de nuestro campo, Alan Kay, que&#xA;dijo: &lt;em&gt;&amp;ldquo;la arrogancia en ciencias de la computación se mide en&#xA;nano-dijktras&amp;rdquo;&lt;/em&gt; (ante lo cual alguien respondió &amp;ldquo;y en microkays).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Señor de los Archivos</title>
+      <link>http://localhost:1313/posts/2012/el-senor-de-los-archivos/</link>
+      <pubDate>Wed, 22 Feb 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-senor-de-los-archivos/</guid>
+      <description>&lt;p&gt;Esta es una traducción al artículo de Wired sobre GitHub titulado &amp;ldquo;The&#xA;Lord of The Files: How GitHub Tamed Free Software (And More)&amp;rdquo;,&#xA;publicado el 21 de febrero. El &amp;ldquo;código&amp;rdquo; de este artículo fue publicado&#xA;por Wired en el mismo GitHub con el permiso para ser re mezclado,&#xA;traducido usando una licencia creative commons. Mi traducción está&#xA;disponible en &lt;a href=&#34;https://github.com/lnds/Lord-of-the-Files&#34;&gt;una rama en mi cuenta en GitHub&lt;/a&gt;. Desde ya agradezco&#xA;los comentarios para mejorar esta traducción, pues requiere mucho&#xA;trabajo aún.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Balada de John Henry (reciclando)</title>
+      <link>http://localhost:1313/posts/2012/la-balada-de-john-henry-reciclando/</link>
+      <pubDate>Tue, 14 Feb 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/la-balada-de-john-henry-reciclando/</guid>
+      <description>&lt;p&gt;Cuenta la leyenda que John Henry era un esclavo negro liberado, un&#xA;hombre de una fuerza increible, quien, después de la guerra de secesión&#xA;norteamericana, ingresó a trabajar en la construcción del ferrocarril.&#xA;Era el mejor obrero en la vía del tren, el mas fuerte y veloz.&lt;/p&gt;&#xA;&lt;p&gt;Un día llega una máquina, un taladro a vapor, con el fin de abrir&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;john_henry.jpg&#34; alt=&#34;john_henry.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;un tunel, una máquina capaz de reemplazar a toda la cuadrilla de&#xA;obreros. John Henry, para defender su trabajo, y el de sus compañeros,&#xA;le propone un desafío al capataz, competir él contra la máquina&#xA;perforando la montaña.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El poder de la máquina</title>
+      <link>http://localhost:1313/posts/2012/el-poder-de-la-maquina/</link>
+      <pubDate>Fri, 10 Feb 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-poder-de-la-maquina/</guid>
+      <description>&lt;p&gt;Aunque la máquina recolectora de algodón fue inventada alrededor de&#xA;1850, no fue hasta 1943 que alcanzó un grado de utilidad como para ser&#xA;utilizada en las granjas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;800px-Baumwoll-Erntemaschine_auf_Feld.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Recién para principios de la década de 1950 la máquina empezó a ser&#xA;introducida en el sur de los Estados Unidos, rápidamente esta máquina&#xA;destruyó el mercado para la única cosa que vastas cantidades de&#xA;trabajadores negros del sur tenían para ofrecer: su esfuerzo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dos hombres y una máquina universal</title>
+      <link>http://localhost:1313/posts/2011/dos-hombres-y-una-maquina-universal/</link>
+      <pubDate>Sun, 17 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/dos-hombres-y-una-maquina-universal/</guid>
+      <description>&lt;h2 id=&#34;la-máquina-universal&#34;&gt;&lt;strong&gt;La máquina universal&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2011/dos-hombres-y-una-maquina-universal/Alan_Turing.jpg&#34;&#xA;    alt=&#34;Alan Turing el padre de la computación&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Alan Turing el padre de la computación&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;En 1931 un joven de 24 años, Alan Turing decidió reformular ciertos&#xA;resultados de la lógica matemática expresando las formulaciones de&#xA;teoremas en términos de algoritmos que podían ser interpretados por una&#xA;máquina teórica. Un algoritmo es &amp;ldquo;&lt;em&gt;un conjunto preescrito de&#xA;instrucciones o reglas bien definidas, ordenadas y finitas que permite&#xA;realizar una actividad mediante pasos sucesivos que no generen dudas a&#xA;quien deba realizar dicha actividad.&lt;/em&gt;&amp;rdquo;  Lo que pretendía Turing era&#xA;estudiar los límites de las máquinas que realizaban cálculos&#xA;automáticos. Era un tiempo en que se estaban sentando las bases de cómo&#xA;serían los computadores. Ya era posible contar con los elementos para&#xA;construir estas máquinas y Turing quería ver cual era el poder de estas&#xA;máquinas. Hasta que punto estas máquinas serían capaces de ayudarnos a&#xA;resolver problemas complejos. Turing describió una máquina teórica que&#xA;manipula los símbolos escritos una larga cinta de acuerdo a una tabla de&#xA;reglas. La máquina de Turing consta de un cabezal que puede leer y/o&#xA;escribir en una cinta infinita de papel. La máquina puede realizar sólo&#xA;las siguientes operaciones: avanzar el cabezal hacia la dercha, avanzar&#xA;el cabezal hacia la izquierda, leer el contenido de una celda de la&#xA;cinta, borrar el contenido de una celda y escribir en la cinta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Galeano sobre Alan Turing</title>
+      <link>http://localhost:1313/posts/2011/galeano-sobre-alan-turing/</link>
+      <pubDate>Tue, 01 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/galeano-sobre-alan-turing/</guid>
+      <description>&lt;p&gt;Este video es parte de una charla de Eduardo Galeano dada en Los Angeles&#xA;en junio de 2009, el texto de más abajo está tomado de su libro Espejos:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DF2K80SJ9Ag?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;por Eduardo Galeano&#xA;(&lt;a href=&#34;https://partido-pirata.blogspot.com/2010/07/un-homenaje-alan-turing-por-eduardo.html&#34;&gt;vía partido pirata argentino&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Por no ser macho, lo que se dice macho, hombre de pelo en pecho, Alan&#xA;Turing fue condenado. Él chillaba, graznaba, tartamudeaba. Usaba una&#xA;vieja corbata a modo e cinturón. Dormía poco y pasaba días sin&#xA;afeitarse y corriendo atravesaba las ciudades de punta a punta,&#xA;mientras mentalmente iba elaborando complicadas fórmulas matemáticas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Rey del Azúcar</title>
+      <link>http://localhost:1313/posts/2011/el-rey-del-azucar/</link>
+      <pubDate>Thu, 03 Feb 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-rey-del-azucar/</guid>
+      <description>&lt;p&gt;Dicen que antes de morir el Rey del Azúcar pensó en una historia de&#xA;Confucio y tomó la decisión de dejar toda su fortuna para educar a los&#xA;más pobres de su país. El relato  quedó registrado en los papeles que&#xA;dejó, y &amp;ldquo;contaba la historia de un caritativo viajero que se condolió&#xA;con la pobreza de los habitantes de una isla y les obsequió pescados.&#xA;Frente a este gesto, el filósofo chino dijo que había hecho mal porque&#xA;con su regalo comerían un día, pero si les hubiese enseñado a pescar&#xA;tendrían alimentos todos los días.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El hombre que salvó al mundo, por no hacer lo que debía</title>
+      <link>http://localhost:1313/posts/2011/el-hombre-que-salvo-al-mundo-por-no-hacer-lo-que-debia/</link>
+      <pubDate>Tue, 18 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-hombre-que-salvo-al-mundo-por-no-hacer-lo-que-debia/</guid>
+      <description>&lt;p&gt;Como es habitual en esta época de verano reciclo algunos artículos, en&#xA;este caso es un &lt;a href=&#34;http://localhost:1313/blog/2008/09/el-hombre-que-salvo-al-mundo-porque-no-hizo-lo-que-debia-hacer.html&#34;&gt;post de septiembre de 2008&lt;/a&gt;,&#xA;con la historia de Stalisnav Petrov:&lt;/p&gt;&#xA;&lt;h2 id=&#34;el-hombre-que-salvo-al-mundo-porque-no-hizo-lo-que-debía-hacer&#34;&gt;El hombre que salvo al mundo, porque no hizo lo que debía hacer&lt;/h2&gt;&#xA;&lt;p&gt;Era el 26 de septiembre de 1983, el teniente coronel Stanislav Petrov&#xA;estaba de guardia en , el bunker secreto a las afueras de Moscú que&#xA;monitoreaba el sistema de alerta temprana satelital sovietico, cuando&#xA;las alarmas saltaron poco después de la medianoche. Uno de los satélites&#xA;señalaba que los Estados Unidos habían lanzado cinco misiles balísticos&#xA;a Rusia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Memorándum</title>
+      <link>http://localhost:1313/posts/2011/el-memorandum/</link>
+      <pubDate>Mon, 03 Jan 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-memorandum/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Washington D.C. 23 de Abril de 1963&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Memorandum&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Para: Los Miembros y Afiliados de La Red Intergaláctica de&#xA;Computadores De: J. C. R. Licklider&lt;br&gt;&#xA;Asunto: Tópicos para Discusión en la Próxima Reunión&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Así empezaba uno de los documentos más interesantes, y problablemente&#xA;muy influyente, en la historia de la tecnología, el famoso &lt;a href=&#34;http://www.kurzweilai.net/memorandum-for-members-and-affiliates-of-the-intergalactic-computer-network&#34;&gt;Memorandum a los miembros de la red intergaláctica de computadores&lt;/a&gt;,&#xA;de Joseph Carl Robnett Licklider.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;licklider.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cuando leí este memorándum(1) me encontré con un caso de uso que&#xA;describe la necesidad de sistemas operativos distribuidos, de definir&#xA;&amp;ldquo;lenguajes&amp;rdquo; que permitan la interoperabilidad entre sistemas diversos,&#xA;RPC, ejecución remota de procesos, la descripción de una arquitectura&#xA;orientada a servicios, integración entre múltiples lenguajes de&#xA;programación (un programa en Fortran puede invocar rutinas escritas en&#xA;Algol que se encuentran disponibles en otra máquina en algún punto de la&#xA;red), la descripción de las máquinas virtuales (en el sentido de la JVM,&#xA;o el CLR de .Net), bibliotecas de carga dinámica en tiempo de ejecución&#xA;(DLLs, .so), ¡el concepto de MashUp!, el concepto de  la computación en&#xA;la nube (es transparente para el usuario en que nodo de la red se ejcuta&#xA;una tarea) y un sinfín de otros elementos, algunos que recién estamos&#xA;desarrollando. Por favor léanlo, &lt;a href=&#34;http://www.kurzweilai.net/memorandum-for-members-and-affiliates-of-the-intergalactic-computer-network&#34;&gt;acá está&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Dónde estudiaste?</title>
+      <link>http://localhost:1313/posts/2010/donde-estudiaste/</link>
+      <pubDate>Sun, 10 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/donde-estudiaste/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;&amp;hellip;E incluso los ricos lloran. El ex alumno de colegio británico de&#xA;La Dehesa tenderá a esconder su verdadero origen cuando se enfrente en&#xA;la universidad pública ante los del Latino, el Rubén Darío o el San&#xA;Juan &amp;ndash;o ni hablar de los pesotes del Lastarria o el Nacional, que se&#xA;comen vivo a cualquiera&amp;ndash;. Y dirá que estudió &amp;ldquo;en un colegio chico de&#xA;Lo Barnechea&amp;rdquo; antes que reconocer su raíz ante quienes desprecian los&#xA;privilegios. Como debe haber ocurrido con los MAPU en los años 60,&#xA;cuando decían haber estudiado en &amp;ldquo;un colegio de curas&amp;rdquo; antes que&#xA;reconocer que eran del Verbo Divino o del Saint George.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las programadoras del ENIAC</title>
+      <link>http://localhost:1313/posts/2010/las-programadoras-del-eniac/</link>
+      <pubDate>Tue, 03 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/las-programadoras-del-eniac/</guid>
+      <description>&lt;p&gt;La fotografía muestra a dos de las seis programadoras iniciales del&#xA;&lt;a href=&#34;httpss://en.wikipedia.org/wiki/ENIAC&#34;&gt;ENIAC&lt;/a&gt;, el primer computador&#xA;electrónico de uso general:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;programadoras.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las seis programadoras originales del ENIAC eran: &lt;a href=&#34;http://en.wikipedia.org/wiki/Kathleen_Antonelli&#34;&gt;Kay&#xA;Antonelli&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Jean_Bartik&#34;&gt;Jean&#xA;Bartik&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Betty_Holberton&#34;&gt;Betty&#xA;Holberton&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Marlyn_Meltzer&#34;&gt;Marlyn&#xA;Meltzer&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Frances_Spence&#34;&gt;Frances&#xA;Spence&lt;/a&gt; y &lt;a href=&#34;http://en.wikipedia.org/wiki/Ruth_Teitelbaum&#34;&gt;Ruth&#xA;Teitelbaum&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la segunda guerra mundial el ENIAC fue desarrollado para&#xA;facilitar  cálculos balísticos, aunque su principal uso estuvo en la&#xA;computación de los parámetros para la primera bomba de hidrógeno. Empezó&#xA;a construirse en 1943, y fue aceptado formalmente por la marina&#xA;norteamericana en julio de 1946, y operó continuamente hasta las 11:45&#xA;pm del 2 de octubre de 1955.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los panqueques de Bill Gates</title>
+      <link>http://localhost:1313/posts/2010/los-panqueques-de-bill-gates/</link>
+      <pubDate>Fri, 30 Jul 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/los-panqueques-de-bill-gates/</guid>
+      <description>&lt;p&gt;El &lt;a href=&#34;https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento&#34;&gt;problema de ordenar&lt;/a&gt; es uno&#xA;de los temas básicos en  la formación de todo programador. Pero quizás&#xA;este  conocido problema encierre la clave para entender como funciona la&#xA;evolución de la vida. ¿Cómo? Esa es una historia que involucra nada&#xA;menos que Bill Gates, pero antes de contarla repasemos este clásico&#xA;problema informático.&lt;/p&gt;&#xA;&lt;p&gt;¿Cómo ordenamos una serie de datos? Esta es una tarea tán básica, que la&#xA;damos casi por sentada, incluso viene incluida en nuestros lenguajes,&#xA;sistemas operativos, o incorporada como función estándar en todo&#xA;programa  de planillas de cálculos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Máquina de Turing explicada por él mismo Turing</title>
+      <link>http://localhost:1313/posts/2010/la-maquina-de-turing-explicada-por-el-mismo-turing/</link>
+      <pubDate>Sat, 12 Jun 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/la-maquina-de-turing-explicada-por-el-mismo-turing/</guid>
+      <description>&lt;p&gt;Les dejo este fragmento de la película &lt;a href=&#34;http://www.imdb.com/title/tt0115749/&#34;&gt;Breaking the Code&lt;/a&gt;, en que el actor inglés Derek Jacobi interpreta a Turing:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/6k2OUZdA7vQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>El manifiesto de un bombardero</title>
+      <link>http://localhost:1313/posts/2009/el-manifiesto-de-un-bombardero/</link>
+      <pubDate>Sun, 24 May 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-manifiesto-de-un-bombardero/</guid>
+      <description>&lt;p&gt;El 24 de abril de 1995, el New York Times recibe la carta del terrorista&#xA;conocido como Unabomber, indicando que el &amp;ldquo;desistiría del terrorismo&amp;rdquo;&#xA;si ese diario o el Washington Post publicaban su manifiesto, &amp;ldquo;La&#xA;sociedad industrial y su futuro&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Hasta ese momento, el Unabomber no había sido identificado por el FBI.&#xA;Este terrorista inicio sus acciones en 1978. Durante ese periodo envió&#xA;16 bombas a universidades y lineas aereas, de este modus operandi surgió&#xA;el nombre que lo hizo conocido (&amp;ldquo;UNiversity and Airline BOMber&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La primera analista de sistemas</title>
+      <link>http://localhost:1313/posts/2009/la-primera-analista-de-sistemas/</link>
+      <pubDate>Sat, 17 Jan 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-primera-analista-de-sistemas/</guid>
+      <description>&lt;p&gt;No se si ustedes sabían, pero la primera analista de sistemas, y&#xA;programadora, fue una mujer, la condesa &lt;a href=&#34;http://www.sdsc.edu/ScienceWomen/lovelace.html&#34;&gt;Ada Lovelace&lt;/a&gt;, hija del famoso poeta inglés, Lord Byron.&lt;/p&gt;&#xA;&lt;p&gt;Ella estudió los diseños de la máquina que Charles Babbage quería&#xA;construir, la famosa Máquina Analítica. Ella entendió tan bien el&#xA;dispositivo de Babbage que pudo articular mucho mejor que el inventor la&#xA;promesa de esta nueva máquina. Ella se dió cuenta que esta era lo que&#xA;hoy llamaríamos un computador de propósito general, capaz de&#xA;&amp;ldquo;desarrollar y tabular cualquier función... la máquina es la expresión&#xA;material de cualquier función indefinida de cualquier grado de&#xA;generalidad y complejidad&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El hombre que salvo al mundo, porque no hizo lo que debía hacer</title>
+      <link>http://localhost:1313/posts/2008/el-hombre-que-salvo-al-mundo-poque-no-hizo-lo-que-debia-hacer/</link>
+      <pubDate>Mon, 29 Sep 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/el-hombre-que-salvo-al-mundo-poque-no-hizo-lo-que-debia-hacer/</guid>
+      <description>&lt;p&gt;Era el 26 de septiembre de 1983, el teniente coronel Stanislav Petrov&#xA;estaba de guardia en , el bunker secreto a las afueras de Moscú que&#xA;monitoreaba el sistema de alerta temprana satelital sovietico, cuando&#xA;las alarmas saltaron poco después de la medianoche. Uno de los satélites&#xA;señalaba que los Estados Unidos habían lanzado cinco misiles balísticos&#xA;a Rusia.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;pushkino.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las tensiones entre los dos paises eran altas, la alarma coincidía con&#xA;el principio de unos provocativos ejercicios militares de la OTAN y&#xA;apenas tres semanas despus que los rusos derribaran un avión civil&#xA;surcoreano que había ingresado en el espacio aereo sovietico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mersenne, divertimento dominical para Nerds</title>
+      <link>http://localhost:1313/posts/2008/mersenne-divertimento-dominical-para-nerds/</link>
+      <pubDate>Sun, 31 Aug 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/mersenne-divertimento-dominical-para-nerds/</guid>
+      <description>&lt;p&gt;Los Nerds hemos estado desde siempre. En la antiguedad tenemos varios,&#xA;como &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/e/euclides.htm&#34;&gt;Euclides&lt;/a&gt;,&#xA;quien en vez de acompañar a sus amigos a dar unas vueltas por el Faro&#xA;(el lugar de moda de Alejandría), prefería quedarse resolviendo teoremas&#xA;geométricos.&lt;/p&gt;&#xA;&lt;p&gt;O &lt;a href=&#34;http://www.biografiasyvidas.com/biografia/a/arquimedes.htm&#34;&gt;Arquímides&lt;/a&gt;,&#xA;un geek que se puso a correr desnudo por las calles gritando &lt;strong&gt;Eureka&lt;/strong&gt;!&#xA;cuando descubrió el principio que permitía flotar a los trirremes (claro&#xA;que el principio para hundirlos ya había sido descubierto por los&#xA;romanos).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Todo por un condensador variable</title>
+      <link>http://localhost:1313/posts/2008/todo-por-un-condensador-variable/</link>
+      <pubDate>Fri, 18 Jan 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/todo-por-un-condensador-variable/</guid>
+      <description>&lt;p&gt;Esta fotografía corresponde a Leonard Kleinrock, al lado del IMP1,&#xA;Interface Message Processor, uno de los nodos de packet switching usados&#xA;en ARPANET, la antecesora de Internet.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;imp1-thumb-200x257.gif&#34; alt=&#34;imp1.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La historia cuenta que el pequeño Len Kleinrock recibió un ejemplar&#xA;del comic de Superman, en el cual encuentra las instrucciones para&#xA;construir una &amp;ldquo;radio de cristal&amp;rdquo;. Todo lo que necesitaba el niño era&#xA;una hoja de afeitar usada de su papá, una poco de grafito (de lapiz),&#xA;un rollo de papel higiénico vació, alambre, todos lo cual ya estaba en&#xA;su casa. Incluso pudo conseguir unos viejos audífonos, pero faltaba un&#xA;&amp;ldquo;condensador variable&amp;rdquo;. Para conseguirlo convenció a su madre de&#xA;viajar al centro de Manhattan a una tienda de radio y electrónica.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fortran</title>
+      <link>http://localhost:1313/posts/2007/fortran/</link>
+      <pubDate>Sat, 29 Dec 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/fortran/</guid>
+      <description>&lt;p&gt;Aprendí Fortran en la Universidad de Chile, cuando era mechón. Aunque&#xA;normalmente el curso se hacía con Ratfor, y al año después se empezó a&#xA;hacer con Pascal, a mi, por razones que no recuerdo, me tocó hacer&#xA;Fortran.&lt;/p&gt;&#xA;&lt;p&gt;Acostumbrado a programar en Basic, no fue dificil para mi aprender este&#xA;venerable lenguaje de programación.Hoy &lt;a href=&#34;http://linuxandcomputerscience.blogspot.com/2007/12/50-aos-con-fortran.html&#34;&gt;leí una&#xA;reseña&lt;/a&gt;&#xA;que en realidad nos muestra un Fortran bastante más moderno del que me&#xA;tocó, &lt;a href=&#34;http://csg.uwaterloo.ca/sdtp/watfor.html&#34;&gt;Watfor-77&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La misteriosa desaparición de Ettore Majorana</title>
+      <link>http://localhost:1313/posts/2007/la-misteriosa-desaparicion-de-ettore-majorana/</link>
+      <pubDate>Tue, 18 Dec 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/la-misteriosa-desaparicion-de-ettore-majorana/</guid>
+      <description>&lt;p&gt;Escuché sobre &lt;a href=&#34;http://en.wikipedia.org/wiki/Ettore_Majorana&#34;&gt;Ettore Majorana&lt;/a&gt; en el programa de televisión &lt;a href=&#34;http://www.unabellezanueva.org/&#34;&gt;Una Belleza Nueva&lt;/a&gt;, de&#xA;Cristan Warken.&lt;/p&gt;&#xA;&lt;p&gt;Al final de la interesante &lt;a href=&#34;http://www.unabellezanueva.org/2007/?p=393&#34;&gt;entrevista al físico frances Etienne Klein&lt;/a&gt;, Warken le pide que&#xA;comente sobre alguno de los personajes descritos en su libro: Il était 7&#xA;fois la révolution. Fue ahí cuando escuché por primera vez sobre&#xA;Majorana, y el misterio de su desaparación.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;majorana.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Su historia sería un argumento para una novela (y parece que ya la&#xA;escribieron). En la red encontré &lt;a href=&#34;http://www.geocities.com/Augusta/5130/majorana.htm&#34;&gt;esta interesante&#xA;reseña&lt;/a&gt; donde hablan&#xA;de la misteriosa desaparición de Majorana. Un verdadero genio, de&#xA;acuerdo a Enrico Fermi su inteligencia era comparable a la de Newton o&#xA;Galileo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adios Chuquicamata</title>
+      <link>http://localhost:1313/posts/2007/adios-chuquicamata/</link>
+      <pubDate>Sun, 02 Sep 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/adios-chuquicamata/</guid>
+      <description>&lt;p&gt;Querida Francisca:&lt;/p&gt;&#xA;&lt;p&gt;Hija mía, yo nací el siglo pasado, en un pueblo que ya no existe.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;chqui1-thumb-400x300.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;¿Cómo contarte la pena que siento en este momento?&lt;/p&gt;&#xA;&lt;p&gt;El pueblo donde nací, donde mis viejos me criaron, donde está enterrado&#xA;mi papá, ya no está.&lt;/p&gt;&#xA;&lt;p&gt;No podrás verlo, no alcanzaste a conocerlo como lo hicieron tus hermanos&#xA;mayores y tu madre. Muy poco queda ya, y desde ayer pasó a ser un pueblo&#xA;fantasma, como tantos que hay en el norte de nuestro país.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Primer Emprendedor Web Chileno</title>
+      <link>http://localhost:1313/posts/2006/el-primer-emprendedor-web-chileno/</link>
+      <pubDate>Tue, 05 Dec 2006 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2006/el-primer-emprendedor-web-chileno/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;galahad.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Cuando los caballeros del rey Arturo decidieron partir en busca del Santo&#xA;Grial, se juntaron en la entrada del bosque, y acordaron ingresar por&#xA;aquellos lugares que no tenían un sendero marcado, los más valientes&#xA;eligieron el lugar más frondoso y oscuro como punto de partida.&amp;rdquo; Los&#xA;caminos recorridos y seguros no presentan desafíos, son los desafíos los&#xA;que te hacen crecer, crear, innovar.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;El Caliz nunca fue encontrado, pero por siglos se hablo de las hazañas&#xA;de los caballeros del Rey Arturo en su búsqueda&amp;rdquo;&lt;br&gt;&#xA;Si fracasas en tu empresa, es mejor que tu fracaso sea grandioso!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Carta de Jefferson (1)</title>
+      <link>http://localhost:1313/posts/2006/la-carta-de-jefferson-1/</link>
+      <pubDate>Mon, 13 Nov 2006 00:22:57 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/la-carta-de-jefferson-1/</guid>
+      <description>&lt;p&gt;Ricardo Galli publica un artículo llamado &lt;a href=&#34;http://mnm.uib.es/gallir/posts/2006/11/10/862/&#34;&gt;Los empresarios y la “propiedad intelectual”&lt;/a&gt;. Hay elementos de su argumentación que son incorrectos, y me permito hacer precisiones en este artículo. No estoy acusando de nada a Ricardo Galli, porque es probable que no sepa que está en un error, pero pasa que la historia de la carta de Thomas Jefferson, usada tantas veces como argumento, tiene que ser re examinada, en base al contexto y a la historia de su gestación.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

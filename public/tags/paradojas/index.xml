@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paradojas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/paradojas/</link>
+    <description>Recent content in Paradojas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 06 Nov 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/paradojas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don Francisco y la Disonancia Cognitiva</title>
+      <link>http://localhost:1313/posts/2012/don-francisco-y-la-disonancia-cognitiva/</link>
+      <pubDate>Wed, 06 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/don-francisco-y-la-disonancia-cognitiva/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2012/don-francisco-y-la-disonancia-cognitiva/DonFrancisco.jpg&#34;&#xA;    alt=&#34;Don Francisco&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Don Francisco&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Cuando era chico no había mucho que ver en televisión, y &lt;a href=&#34;http://es.wikipedia.org/wiki/S%C3%A1bado_gigante&#34;&gt;Sábados&#xA;Gigantes&lt;/a&gt; (así se&#xA;llamaba en aquel entonces) dominaba la pantalla del fin de semana.&lt;/p&gt;&#xA;&lt;p&gt;Eran populares sus concursos, todos copias de programas norteamericanos,&#xA;claro que muchos de nosotros no lo sabíamos (eso explica el mote de&#xA;&amp;quot;Guatón Copión&amp;quot; que le dió a &lt;a href=&#34;http://es.wikipedia.org/wiki/Don_Francisco&#34;&gt;Don&#xA;Francisco&lt;/a&gt; el humorista&#xA;Fernando Alarcón, con el personaje Pepito TV, que se encargaba de&#xA;entretenernos el domingo).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La respuesta</title>
+      <link>http://localhost:1313/posts/2011/la-respuesta/</link>
+      <pubDate>Wed, 16 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/la-respuesta/</guid>
+      <description>&lt;p&gt;Dicen que al final de sus días Kurt Gödel trataba de demostrar la&#xA;existencia de Dios mediante un &lt;a href=&#34;http://en.wikipedia.org/wiki/G%C3%B6del&#39;s_ontological_proof&#34;&gt;razonamiento&#xA;ontológico&lt;/a&gt;.&#xA;En 1960 escribió en sus apuntes sus&#xA;&lt;a href=&#34;http://cs.nyu.edu/kandathi/goedel_viewpoint.html&#34;&gt;puntos de vista filosóficos&lt;/a&gt;, para él&#xA;el mundo debía ser racional. Supongo que no habría aceptado los&#xA;resultados actuales de las ciencias cognitivas. También se dice que era&#xA;un hombre tímido que vivía un tanto angustiado&amp;hellip; Me pregunto ¿Cuál&#xA;habría sido la respuesta de Gödel &lt;a href=&#34;http://www.lnds.net/blog/2011/11/desafio.html&#34;&gt;al problema que planteamos el&#xA;domingo&lt;/a&gt;?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Paradoja de la Estrategia</title>
+      <link>http://localhost:1313/posts/2011/la-paradoja-de-la-estrategia/</link>
+      <pubDate>Tue, 02 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/la-paradoja-de-la-estrategia/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La mejor forma de predecir el futuro es inventándolo&amp;rdquo; &amp;ndash; &lt;a href=&#34;http://localhost:1313/blog/2010/05/alan-kay.html&#34;&gt;Alan&#xA;Kay&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La historia de &lt;a href=&#34;http://es.wikipedia.org/wiki/Betamax&#34;&gt;Betamax&lt;/a&gt; versus&#xA;&lt;a href=&#34;http://es.wikipedia.org/wiki/VHS&#34;&gt;VHS&lt;/a&gt; es muy conocida. Sony se enfocó&#xA;en la calidad de la imagen, y desarrolló un formato cerrado. Matsushita&#xA;por otra parte, desarrolló una tecnología de más baja calidad con el&#xA;VHS, pero que permitía grabaciones de mayor duración, permitiendo grabar&#xA;películas enteras, además el estándar era abierto, lo que permitía que&#xA;multiples manufacturadores pudieran competir creando dispositivos, lo&#xA;que hizo que los precios bajaran. Cuando el mercado del arriendo de&#xA;videos explotó el VHS lideró el mercado ligeramente, y mediante un&#xA;proceso de ventaja acumulativa terminó imponiéndose.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La paradoja de la eficiencia energética</title>
+      <link>http://localhost:1313/posts/2011/la-paradoja-de-la-eficiencia-energetica/</link>
+      <pubDate>Tue, 05 Apr 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/la-paradoja-de-la-eficiencia-energetica/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;William_Stanley_Jevons.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En 1865 el economista inglés William Stanley Jevons observó que las mejoras&#xA;tecnológicas que incrementaban la eficiencia en el uso del carbón llevó&#xA;al aumento en el consumo de este mineral. Jevons argumentó que,&#xA;contrario a la intuición común, las mejoras tecnológicas no provocarían&#xA;una reducción del consumo de combustible.&lt;/p&gt;&#xA;&lt;p&gt;La &lt;strong&gt;paradoja de Jevon&lt;/strong&gt;s, o el &lt;strong&gt;efecto Jevons&lt;/strong&gt;,  dice que, en la&#xA;medida que se perfecciona la tecnología que aumenta la eficiencia del&#xA;uso de un recurso, lo más probable es que aumente el consumo de dicho&#xA;recurso, en vez de disminuir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Paradoja de Pinocho y el Origen de la Computación</title>
+      <link>http://localhost:1313/posts/2010/la-paradoja-de-pinocho-y-el-origen-de-la-computacion/</link>
+      <pubDate>Tue, 09 Nov 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/la-paradoja-de-pinocho-y-el-origen-de-la-computacion/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;paradojadepinocho2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Si Pinocho dice que su nariz crecerá, pero no lo hace, estaría mintiendo,&#xA;pero cuando Pinocho miente su nariz crece, pero al crecer su nariz&#xA;entonces estaría diciendo la verdad. Luego, ¿qué diablos debería pasar&#xA;después de que Pinocho dice esta frase?&lt;/p&gt;&#xA;&lt;p&gt;Esta es una reformulación de la vieja &lt;a href=&#34;http://es.wikipedia.org/wiki/Paradoja_del_mentiroso&#34;&gt;Paradoja del Mentiroso&lt;/a&gt;, lo&#xA;interesante es que esta paradoja juega un papel fundamental en la&#xA;solución de un importante problema de la lógica matemática, y de paso en&#xA;el desarrollo de la computación moderna (y sin esta no existirían los&#xA;computadores, la web,  este blog, twitter, y no estaríamos contando este&#xA;cuento).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paradoja</title>
+      <link>http://localhost:1313/posts/2009/paradoja/</link>
+      <pubDate>Fri, 16 Oct 2009 11:05:34 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/paradoja/</guid>
+      <description>&lt;p&gt;Lo malo es que hay algunos &lt;a href=&#34;http://etimologias.dechile.net/?esce.ptico&#34;&gt;escépticos &lt;/a&gt;que quieren buscar soluciones de este tipo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;llameya.png&#34; alt=&#34;llameya.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tomado de &lt;a href=&#34;http://lapulgasnob.blogspot.com/2009/10/llame-ya.html&#34;&gt;la pulga snob&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Paradoja de la certificación</title>
+      <link>http://localhost:1313/posts/2005/la-paradoja-de-la-certificacion/</link>
+      <pubDate>Thu, 04 Aug 2005 21:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-paradoja-de-la-certificacion/</guid>
+      <description>&lt;p&gt;Parto con una &lt;strong&gt;historia de la vida real&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Un muchacho me pregunto que programa de certificación sería adecuado&#xA;tomar, y yo le dije que tomara el DCE, por la simple razón de que además&#xA;de capacitarse es una vitrina para mostrarse a potenciales empleadores,&#xA;de hecho después de obtener su tercera estrella lo contactaron para un&#xA;buen trabajo y se está cambiando por un mejor sueldo :smile: Happy ending.&lt;/p&gt;&#xA;&lt;h2 id=&#34;antecedentes&#34;&gt;Antecedentes&lt;/h2&gt;&#xA;&lt;p&gt;El programa DCE de Microsoft es gratuito&#xA;&lt;a href=&#34;http://www.microsoft.com/spanish/msdn/comunidad/dce/default.asp&#34;&gt;http://www.microsoft.com/spanish/msdn/comunidad/dce/default.asp&lt;/a&gt;, y el&#xA;Empower ISV &lt;a href=&#34;https://partner.microsoft.com/global/40010429&#34;&gt;https://partner.microsoft.com/global/40010429&lt;/a&gt; de la tiene&#xA;un costo anual de US$ 500, con lo que Microsoft apuesta a aumentar su&#xA;base de desarrolladores.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Escepticismo on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/escepticismo/</link>
+    <description>Recent content in Escepticismo on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 16 Oct 2009 11:05:34 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/escepticismo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paradoja</title>
+      <link>http://localhost:1313/posts/2009/paradoja/</link>
+      <pubDate>Fri, 16 Oct 2009 11:05:34 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/paradoja/</guid>
+      <description>&lt;p&gt;Lo malo es que hay algunos &lt;a href=&#34;http://etimologias.dechile.net/?esce.ptico&#34;&gt;escépticos &lt;/a&gt;que quieren buscar soluciones de este tipo:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;llameya.png&#34; alt=&#34;llameya.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tomado de &lt;a href=&#34;http://lapulgasnob.blogspot.com/2009/10/llame-ya.html&#34;&gt;la pulga snob&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

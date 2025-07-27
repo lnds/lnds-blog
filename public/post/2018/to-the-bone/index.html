@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>To The Bone | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2018/to-the-bone/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="To The Bone">
+  <meta property="og:description" content="“Once we’ve made sense of our world,
+we wanna go fuck up everybody else’s
+because his or her truth doesn’t match mine.
+But this is the problem.
+Truth is individual calculation.
+Which means because we all have different perspectives,
+there isn&#39;t one singular truth, is there?”
+– Steven Wilson en “To the bone”
+Para Steven Wilson el sentido de muchas de las canciones de su quinto álbum, “To The Bone”, tienen que ver con la verdad, concebida como algo que puede ser manipulado y filtrado para significar lo que mejor nos convenga, ya seas un político, un terrorista o simplemente alguien que trata de autoconvencerse de que su relación está bien, a pesar de que no es así.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2018-01-28T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-01-28T08:25:11-03:00">
+    <meta property="article:tag" content="Blockchain">
+    <meta property="article:tag" content="Teorema Cap">
+    <meta property="article:tag" content="Consenso&#39;">
+    <meta property="article:tag" content="Sistemas Distribuidos">
+    <meta property="og:image" content="http://localhost:1313/post/2018/to-the-bone/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/post/2018/to-the-bone/featured.png">
+  <meta name="twitter:title" content="To The Bone">
+  <meta name="twitter:description" content="“Once we’ve made sense of our world,
+we wanna go fuck up everybody else’s
+because his or her truth doesn’t match mine.
+But this is the problem.
+Truth is individual calculation.
+Which means because we all have different perspectives,
+there isn&#39;t one singular truth, is there?”
+– Steven Wilson en “To the bone”
+Para Steven Wilson el sentido de muchas de las canciones de su quinto álbum, “To The Bone”, tienen que ver con la verdad, concebida como algo que puede ser manipulado y filtrado para significar lo que mejor nos convenga, ya seas un político, un terrorista o simplemente alguien que trata de autoconvencerse de que su relación está bien, a pesar de que no es así.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>To The Bone</h1><time class="dim" datetime="2018-01-28T08:25:11-03:00">January 28, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/blockchain/">#blockchain</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/teorema-cap/">#teorema cap</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/consenso/">#consenso&#39;</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/sistemas-distribuidos/">#sistemas distribuidos</a>
+      </div></ol></div>
+  <section class="page-section"><blockquote>
+<p><em>&ldquo;Once we&rsquo;ve made sense of our world,<br>
+we wanna go fuck up everybody else&rsquo;s<br>
+because his or her truth doesn&rsquo;t match mine.<br>
+But this is the problem.<br>
+Truth is individual calculation.<br>
+Which means because we all have different perspectives,<br>
+there isn't one singular truth, is there?&rdquo;<br>
+&ndash; Steven Wilson en &ldquo;To the bone&rdquo;</em></p></blockquote>
+<p>Para Steven Wilson el sentido de muchas de las canciones de su quinto
+álbum, &ldquo;To The Bone&rdquo;,  tienen que ver con la verdad, concebida como
+algo que puede ser manipulado y filtrado para significar lo que mejor
+nos convenga, ya seas un político, un terrorista o simplemente alguien
+que trata de autoconvencerse de que su relación está bien, a pesar de
+que no es así.</p>
+<p>Podríamos decir que de existir, la verdad debe ser algo en lo que
+estemos todos de acuerdo, es decir, nadie debería cuestionar una verdad,
+pero no es tan fácil. La verdad no se define por consenso, ¿o sí?</p>
+<p>Incluso en el mundo lógico y bi estable de los computadores el consenso
+no es algo fácil de definir. Y de eso vamos a hablar en esta
+oportunidad.</p>
+<h2 id="los-computadores-del-transbordador-espacial">Los computadores del transbordador espacial</h2>
+<p>Cuando era adolescente leí una nota sobre los transbordadores
+espaciales, en que se decía que estas naves espaciales contaban con un
+conjunto de cuatro computadores, trabajando de manera redundante, de
+este modo se le proporcionaba tolerancia a fallas a todo el sistema. Si
+un computador presentaba algún desperfecto, los otros tres detectaban
+esta situación y desconectaban al computador fallido. El mecanismo en
+que estos computadores detectaba esta situación era algo que me intrigó
+y que tardé varios años en conocer y comprender en detalle.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/f8920411-0425-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Lanzamiento de la misión STS-124 del Discovery, durante esta misión se produjo una falla bizantina entre sus cuatro computadores"><figcaption>
+      <p>Lanzamiento de la misión STS-124 del Discovery, durante esta misión se produjo una falla bizantina entre sus cuatro computadores</p>
+    </figcaption>
+</figure>
+
+<p>En la época en que se diseñaron los transbordadores espaciales la
+teoría de sistemas redundantes apenas existía. Se dice que la NASA
+estableció cómo prioridad el resolver el problema de sincronización
+entre estos computadores. En particular lo más complicado era
+determinar, de manera efectiva, cuándo uno de los computadores debía
+tomar el control y desactivar a los otros ante una falla.</p>
+<p>Una de las claves al planificar la redundancia es determinar cuántos
+computadores se requieren para alcanzar cierto nivel de seguridad. Una
+solución es considerar cinco computadores. Si uno falla, las operaciones
+siguen de forma normal. Cuando dos computadoras fallan estamos ante lo
+se llama una situación &ldquo;fail-safe&rdquo;, dado que los otros tres previenen
+la situación temida en sistemas computacionales duales (uno está
+fallando, pero, ¿cuál?)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. A pesar de estas consideraciones en la
+NASA usaron cuatro computadores y no cinco.</p>
+<p>El problema general es cómo manejar la situación en que componentes
+fallidas entregan información en conflicto a diferentes partes del
+sistema. En 1981 un grupo de investigadores de Stanford abordaron este
+problema en un famoso artículo con título curioso: &ldquo;El Problema de los
+Generales Bizantinos&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/42eb69b2-0427-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Leslie Lamport, ganador del Premio Turing, autor de LaTeX y coautor principal del artículo sobre los generales bizantinos"><figcaption>
+      <p>Leslie Lamport, ganador del Premio Turing, autor de LaTeX y coautor principal del artículo sobre los generales bizantinos</p>
+    </figcaption>
+</figure>
+
+<h2 id="el-problema-de-los-generales-bizantinos">El Problema de los Generales Bizantinos</h2>
+<blockquote>
+<p><em>&ldquo;We&rsquo;re drilling through their stone<br>
+Ho-oh, down through every fairy story&rdquo;</em></p></blockquote>
+<p>Leslie Lamport y sus colegas, autores del artículo mencionado,
+expresaron el problema mediante un experimento mental:</p>
+<blockquote>
+<p>&ldquo;Un grupo de generales del ejercito bizantino acampan sus tropas
+alrededor de una ciudad enemiga. La comunicación sólo se puede
+realizar a través de mensajeros, y los generales deben ponerse de
+acuerdo en un plan de batalla común. Sin embargo, uno o más de ellos
+pueden ser traidores que tratarán de confundir a los otros. El
+problema es encontrar un algoritmo que asegure los generales leales
+alcanzarán un acuerdo.&rdquo;</p></blockquote>
+<p>En conjunto con Robert Shostak y Marshall Pease, Lamport mostraron las
+condiciones que se deben cumplir para resolver este problema. En
+particular, el problema usando simples mensajes orales, sólo se puede
+resolver si más de dos tercios de los generales son leales.</p>
+<p>Para ordenar un poco las cosas, supondremos que hay n generales, uno de
+ello es el comandante, y los otros n-1 generales son sus tenientes. De
+este modo, una forma de expresar este problema es la siguiente:</p>
+<blockquote>
+<p>Un comandante general debe enviar una orden a sus n-1 tenientes
+generales de modo tal que:</p>
+<ul>
+<li>IC1: Todos los tenientes leales obedecen la misma orden.</li>
+<li>IC2: Si el general comandante es leal, entonces todo teniente leal
+obedece las ordenes que él envía.</li>
+</ul></blockquote>
+<p>Las condiciones IC1 e IC2 se les llama las condiciones de consistencia
+interactiva.</p>
+<p>Veamos cómo podría operar esto.</p>
+<p>Sabemos que hay <em><strong>n</strong></em> generales, un comandante y <em><strong>n-1</strong></em> tenientes,
+entonces el comandante envía un mensaje a cada teniente, y a su vez cada
+teniente comparte sus ordenes con cada colega. Dado esto, cada general
+debe revisar n-1 mensajes y actuar en base a los mensajes que ha
+recibido. Por ejemplo, si la mayoría dice que hay que atacar, entonces
+ataca, si la mayoría dice que hay que retirarse, entonces se retira.</p>
+<p>Veamos un ejemplo.  En la figura siguiente pueden notar el caso en que
+hay tres generales y uno de ellos es traidor (puede ser el comandante o
+uno de los tenientes), en esta configuración uno de los tenientes recibe
+dos ordenes contradictorias, y en por lo tanto no puede tomar una
+decisión, el traidor ha logrado paralizar al ejercito.</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/353518ed-03bb-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="El caso de tres generales y un traidor, tomado del paper original"><figcaption>
+      <p>El caso de tres generales y un traidor, tomado del paper original</p>
+    </figcaption>
+</figure>
+
+<p>La manera de solucionar el problema es usar mensajes infalibles, es
+decir, textos que no puedan ser alterados por los mensajeros. Para esto,
+debemos definir tres condiciones que se deben cumplir:</p>
+<blockquote>
+<p>A1. Todo mensaje que se envía es entregado correctamente (es decir, no
+se puede alterar).<br>
+A2. El receptor de un mensaje sabe quien lo despachó.<br>
+A3. La ausencia de un mensaje puede ser detectada.</p></blockquote>
+<p>Si se da esto, Lamport y sus colegas muestran que es posible resolver
+el problema con <em>n = 3m+1</em> generales. Dada esta condición, los autores
+muestran un primer algoritmo que garantiza solución si hay a lo más <em>m</em>
+generales traidores (en términos prácticos, deben haber cuatro o más
+generales para tener solución).</p>
+<p>Traduzcamos esto a la realidad del Tranbordador espacial,  donde habían
+cuatro computadores, y un quinto de reserva. En este contexto una
+&ldquo;traición&rdquo; se traduce como un computador fallando (por ejemplo,
+entrega información incoherente). Lo que queremos es determinar cuál
+computador apagar ante esta situación. La primera solución propuesta por
+Lamport sólo nos permite determinar a lo más la falla de un computador.</p>
+<p>Para mejorar esto, Lamport ofrece otra alternativa, un algoritmo en que
+los mensajes son firmados, en este caso, se puede resolver el caso de
+los tres generales.  Los algoritmos propuestos en el artículo requieren
+recibir mensajes de todos los generales, o definir una estrategia por
+defecto ante la pérdida de un mensaje. En el artículo se hace referencia
+al hecho de que cuando se trata de computadoras, es esencial que estas
+operen de la misma forma, estén sincronizadas y en lo posible compartan
+información de modo eficiente. En el caso del transbordador espacial,
+los procesadores comparte el BUS de datos y durante el desarrollo de
+este programa espacial se hicieron modificaciones para abordar diversas
+&ldquo;fallas bizantinas&rdquo; que se produjeron<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<h2 id="la-falla-bizantina-del-discovery">La Falla Bizantina del Discovery</h2>
+<p>Durante la misión STS-124 del transbordador Discovery, en 2008 se
+produjo una falla que podría haber derivado en un desastre. Durante la
+carga de combustible se produjo una discrepancia de 3-1 entre los
+computadores de la nave, esto es, los resultados de uno de los
+computadores no concordaba con lo informado por los otros tres. A los
+tres segundos se produjo una partición 2-1-1, es decir, sólo dos
+computadores estaban de acuerdo, y los otros dos presentaban
+discrepancias. Esto obligó a detener la cuenta regresiva de
+lanzamiento.</p>
+<p>Mientras se revisaba la situación se llegó a una partición 1-1-1-1, el
+peor estado posible, ningún computador estaba de acuerdo con los otros
+tres. Sin embargo, no había ningún problema en los computadores, el
+fallo estaba en otras componentes del sistema, denominadas MDM
+Multiplexer/DeMultiplexer. Los MDM son una especie de enrutadores
+remotos que canalizan todas las señales de I/O de la nave hacia los
+computadores. La causa del problema era una fractura física en un diodo
+dentro de uno de los MDM. La figura que sigue muestra la fotografía con
+la fractura del diodo (cariñosamente apodado &ldquo;el asesino bizantino&rdquo;).</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/b5ad5315-042b-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="La fotografía del Asesino Bizantino"><figcaption>
+      <p>La fotografía del Asesino Bizantino</p>
+    </figcaption>
+</figure>
+
+<h2 id="fallas-bizantinas">Fallas Bizantinas</h2>
+<blockquote>
+<p><em>&ldquo;But behind the closed doors<br>
+The bees were buzzing<br>
+Inciting me to war<br>
+You&rsquo;re penitent maybe<br>
+But it&rsquo;s really not your fault you fail to see&rdquo;</em></p></blockquote>
+<p>Decimos que la tolerancia a fallas es bizantina  cuando hay información
+imperfecta para  determinar si una componente está fallando. Esto se da
+principalmente en sistemas distribuidos.</p>
+<p>En una &ldquo;Falla Bizantina&rdquo;, una componente (por ejemplo, un servidor),
+puede aparecer de modo inconsistente como funcional o fallida a los
+sistemas de detección de fallos, es decir, presenta diferentes síntomas
+a diferentes observadores. En este caso es dificil para las otras
+componentes de la red declararla como fallida y desconectarla de la red,
+porque primero se debe alcanzar un consenso para decidir si la
+componente se considera fallida.</p>
+<p>En el caso de la falla en el STS-124 no había falla en ningún
+computador, pero durante la crisis era imposible determinar esa
+situación.</p>
+<p>Este tipo de fallas no sólo se da en sistemas distribuidos, hay un
+ejemplo que viene de la biología.</p>
+<h3 id="abejas-bizantinas">Abejas Bizantinas</h3>
+<p>Cuando las abejas deben elegir un nuevo hogar para sus reinas, envían
+exploradoras para buscar un lugar apropiado. Los científicos han
+encontrado que las abejas llegan a un consenso para decidir el nuevo
+lugar para la colmena. En diversos experimentos, se pudo determinar que
+cuando se les ofrece dos alternativas igual de atractivas, las abejas no
+pueden decidir, y el enjambre se divide y todas las abejas mueren.</p>
+<h2 id="consenso">Consenso</h2>
+<blockquote>
+<p><em>So pariah you'll begin again<br>
+Take comfort from me<br>
+And I will take comfort from you</em></p></blockquote>
+<p>Ahora vamos a discutir cómo evitar que nos ocurra el fatal destino de
+las abejas, pero antes tenemos que recordar un concepto que discutimos
+hace un tiempo.</p>
+<blockquote>
+<p>El teorema CAP</p></blockquote>
+<p>Cuando hablamos de sistemas distibuidos nos gustaría garantizar tres
+cosas:</p>
+<ol>
+<li> COHERENCIA: nos gustaría que todos los nodos tengan una visión
+coherente del sistema.</li>
+<li> DISPONIBILIDAD (AVAILABILITY): que toda petición sea atendida.</li>
+<li>TOLERANCIA A PARTICIONES: que el sistema funcione incluso si hay
+pérdida de mensajes.</li>
+</ol>
+<p>A estas tres garantias se les llama CAP por sus siglas en inglés
+(Consistency, Availability, Partitio Tolerance). He hablado antes de
+este tema en <a href="/blog/lnds/2012/05/25/dos-de-tres-el-teorema-cap">este artículo</a>.</p>
+<p>Lo importante a recordar acá es que existe un resultado que nos dice que
+no podemos contar con las tres garantías al mismo tiempo en un sistema
+distribuido, a lo más podemos garantizar  dos.</p>
+<p>Podemos tener estas combinaciones:</p>
+<ul>
+<li>CA: que garantiza sólo respuestas correctas mientras la conexión
+funcione bien, esto se da en los sistemas centralizados.</li>
+<li>CP: que garantiza respuestas correctas incluso si hay fallas en la
+conexión, pero la respuesta puede no estar (disponibilidad debil).</li>
+<li>AP: siempre se provee &ldquo;la mejor&rdquo; respuesta incluso en presencia de
+fallas en la conexión (en este caso la coherencia es eventual).</li>
+</ul>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/869f9eb6-042c-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="El Teorema CAP y los tipos de combinaciones disponibles sobre las que podemos operar nuestros sistemas distribuidos"><figcaption>
+      <p>El Teorema CAP y los tipos de combinaciones disponibles sobre las que podemos operar nuestros sistemas distribuidos</p>
+    </figcaption>
+</figure>
+
+<h2 id="fallas-bizantinas-y-tolerancia-a-particiones">Fallas Bizantinas y Tolerancia a Particiones</h2>
+<p>Cuando se produce una falla bizantina, estamos ante un escenario en que
+una máquina responde incorrectamente. Para  corregir una falla
+bizantina, en que hay <em><strong>f</strong></em> máquinas fallando, necesitaremos
+<em><strong>2f+1</strong></em> máquinas replicadas.</p>
+<p>Para decidir cuál máquina apagar ante una falla bizantina debemos
+encontrar el consenso. Hay varios tipos de consensos posibles:</p>
+<ul>
+<li><strong>Consenso Fuerte:</strong> todas las máquinas, o nodos, deben concordar en
+sus respuestas.</li>
+<li><strong>Consenso Mayoritario: debe</strong> haber concordancia en la mayoría.</li>
+<li><strong>Consenso Plural:</strong> cuando una pluralidad concuerda, no
+necesariamente la mayoría.</li>
+<li><strong>Consenso de Quorum:</strong> se define que <strong>n</strong> nodos deben concordar.</li>
+<li><strong>Consenso Deshabilitado:</strong> no nos importa el consenso, nos interesa
+la primera respuesta que recibamos de algún nodo.</li>
+</ul>
+<p>Cuando tenemos Consenso Fuerte el sistema es CP, cuando tenemos Consenso
+Deshabilitado nos encontramos ante un sistema AP. Y hay una gradualidad
+desde CP a AP en la medida que vamos relajando el nivel de consenso.</p>
+<h2 id="coherencia">Coherencia</h2>
+<blockquote>
+<p><em>&ldquo;A sea we can sail<br>
+Then sink like a stone<br>
+Down to the truth<br>
+Down to the bone&rdquo;</em></p></blockquote>
+<p>Ya definimos criterios para declarar el consenso, es evidente que no es
+posible alcanzar un consenso fuerte ante fallas bizantinas, así que a
+nivel operacional debemos definir un nivel de consenso deseado (por
+ejemplo, mayoritario, o de Quorum) y de Coherencia.</p>
+<p>Si queremos una Coherencia Fuerte (CP) vamos a sacrificar la
+Disponibilidad del sistema y requeriremos un mayor grado de replicación.
+Si optamos por la Alta Disponibilidad tenemos que sacrificar la
+coherencia y no necesitamos tanta replicación.</p>
+<p>Para alcanzar la coherencia necesitamos tener mecanismos de distribución
+de mensajes entre los nodos. Hay varias alternativas, una manera
+interesante de lograr esto son los <strong>protocolos de chismorreo</strong>.</p>
+<p>Para ejemplificar esto vamos a analizar el caso de Dynamo, un sistema de
+datos distribuidos creado por Amazon.</p>
+<p>Dynamo<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> es una base de datos distribuida, donde se puede elegir el factor
+de replicación por cada tabla. Para alcanzar consenso se utiliza un
+protocolo tipo Gossip (Chismorreo). Se utiliza Quorums, hay mútiples
+nodos para lectura (L) y escritura (E). En cada operación al menos L o E
+nodos deben confirmar la operación. Con L o E más alto se logra mayor
+coherencia, sacrificando disponibilidad.</p>
+<p>Un protocolo de chismorreo, o Protocolo Gossip, es una forma de esparcir
+los mensajes por la red del mismo modo en que funcionan los rumores, o
+cómo se distribuyen las epidemias.</p>
+<p>La idea es muy simple, veamos cómo se esparcen los rumores en una
+oficina, por ejemplo, Alicia decide esparcir un rumor, entonces se
+acerca a la cafetería del piso y encuentra a Benito y le cuenta el
+chisme. Ambos vuelven a sus puestos de trabajo, el algún momento Benito
+se encuentra con Carlos, o Alicia encuentra a Daniela y distribuyen el
+rumor, y así sigue propagándose a través de encuentros aleatorios.</p>
+<p>Un protocolo gossip es uno que satisface las siguientes condiciones:</p>
+<ul>
+<li>El núcleo del protcolo involucra interacciones periódicas entre
+pares..</li>
+<li>La información intercambiada durante estas interacciones es de un
+tamaño fijo y acotado.</li>
+<li>Cuando los participantes, o agentes, interactúan, el estado de un
+agente cambia para reflejas el estado del otro.</li>
+<li>No se debe asumir que las comunicaciones son confiables.</li>
+<li>La frecuencia de las interacciones es baja, comparada con la
+latencias de modo que los costos del protocolo son despreciables.</li>
+<li>Hay algún grado de azar en la selección de los pares. Los pares son
+seleccionados del conjunto de todos los nodos o de un conjunto
+pequeño de vecinos.</li>
+<li>Debido a la replicación a una redundancia implícita en el despliegue
+e la información.</li>
+</ul>
+<p>Los protocolos gossip son muy eficientes, sobretodo porque las
+estructuras de sistemas distibuidos masivos pueden ser complejas y
+enormes, y esta es una manera muy efectiva de diseminar información
+rápidamente a un costo razonable.</p>
+<h3 id="detectando-inconsistencias">Detectando inconsistencias</h3>
+<blockquote>
+<p>&ldquo;Hold on, down and deeper, down we&rsquo;re going<br>
+Way down through the floor<br>
+Oh, don&rsquo;t you wanna see what's at the core?&rdquo;</p></blockquote>
+<p>Cómo en Dynamo los datos se encuentran distribuidos puede ocurrir que
+dos nodos tengan datos inconsistente entre sí. Dynamo tiene un mecanismo
+para detectar esta inconsistencia e informarla, aunque el proceso de
+reconciliación, es decir, al decisión de cuál es el valor que debería
+considerarse como válido es algo que debe decidir la aplicación que usa
+Dynamo como almacenamiento.</p>
+<p>Para detectar inconsistencias Dynamo utiliza una estructura de datos
+conocida como Árboles de Merkle (Merkle Tree).</p>
+<p>Esta estructura de datos permite detectar inconsistencias rápidamente y
+minimizar la cantidad de datos a transferir. Un árbol de Merkle es un
+árbol que almacena los valores de una una función de hash aplicado a
+llaves individules. Los nodos padres de más arriba del árbol contienen
+el valor de hash de sus respectivos hijos. La ventaja principal del
+Arbol de Merkle, es que cada rama puede ser verificada
+independientemente, si que un nodo tenga que descargar el árbol entero o
+todo el conjunto de datos. Por ejemplo, si el valor de hasho de la raiz
+de dos árboles son iguales, entonces lo valores de los nodos hojas en el
+árbol son iguales y no se requiere sincronizar los nodos. Si no, esto
+implica que los valores de algunas réplicas son diferentes. En tal caso,
+los nodos pueden intercambiar los valores de hash de los hijos y el
+proceso continua hasta alcanzar las hojas del árbol. En ese punto los
+servidores pueden detectar las llaves que están desincronizadas.</p>
+<p>Dynamo usa los Arboles de Merkle como sigue: cada nodo mantiene un árbol
+de Merkle separado por cada rango de llaves cubiertas por el nodo. Esto
+le permite a los nodos comaprar si sus llaves están actualizadas. En
+este esquema, dos nodos intercambian las raices de sus árboles
+correspondientes a las llaves que mantienen en común. Y así,
+sucesivamente, atravesando el árbol del modo descrito recién, los nodos
+determinan si hay diferencias y se ejecutan las acciones de
+sincronización apropiadas. La desventaja de esto es que muchas llaves
+cambian cuando un nodo se uno o se aleja del sistema, lo que requiere
+que estos árboles sean recalculados.</p>
+<p>Las siguientes tres figuras<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>, muestran cómo se usa todo
+esto para mantener consistencia en Dynamo:</p>
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/1bbc5287-0433-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Árboles de Merkle usados en Dynamo"><figcaption>
+      <p>Árboles de Merkle usados en Dynamo</p>
+    </figcaption>
+</figure>
+
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/37fcaee8-0433-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="Protocolo anti entropía de Dynamo, los servidores intercambian sus árboles de Merkle, comparan primero las raices y luego revisan las inconsistencias navegando las ramas del árbol."><figcaption>
+      <p>Protocolo anti entropía de Dynamo, los servidores intercambian sus árboles de Merkle, comparan primero las raices y luego revisan las inconsistencias navegando las ramas del árbol.</p>
+    </figcaption>
+</figure>
+
+<figure><img src="https://d2dspjyoh5c79p.cloudfront.net/6c255829-0433-11e8-a030-2b5831f8ecb5-aa9f18b7"
+    alt="El protocolo Gossip asegura que eventualmente todos los nodos compartan la misma visión del sistema, o se detecte una falla o inconsistencia."><figcaption>
+      <p>El protocolo Gossip asegura que eventualmente todos los nodos compartan la misma visión del sistema, o se detecte una falla o inconsistencia.</p>
+    </figcaption>
+</figure>
+
+<h2 id="truth-is-individual-calculation">Truth is individual calculation</h2>
+<p>En los sistemas distribuidos no hay una fuente central de autoridad, el
+estado del sistema depende de resolver las inconsistencias que se pueden
+producir, En particular, ante la presencia de fallas bizantinas, se hace
+necesario definir mecanismos que permitan administrarlas y determinar
+esas situaciones. Hemos visto cómo un sistema distribuido, como Dynamo,
+aborda este problema de alcanzar consenso ante la posibilidad de fallas
+bizantinas. Cómo podrán notar es algo bastante complejo que ha requerido
+el desarrollo de técnicas bastante ingeniosas para resolverlo.</p>
+<p>Lo más importante que quiero transmitir en este post, es la idea que en
+sistemas distribuidos el consenso es el fruto del cálculo individual de
+cada nodo, o como dice Steven Wilson:</p>
+<blockquote>
+<p>Truth is individual calculation. Which means because we all have<br>
+different perspectives, there isn&rsquo;t one singular truth, is there</p></blockquote>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/c3pxj8LnruQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h3 id="notas">Notas:</h3>
+<p>Los epígrafes en inglés están tomados de las siguientes canciones del
+disco &ldquo;To The Bone&rdquo; de Steven Wilson: &ldquo;To The Bone&rdquo;, &ldquo;Pariah&rdquo; y
+&ldquo;People who eat darkness&rdquo;.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Computers in Spaceflight: The NASA Experience <a href="https://history.nasa.gov/computers/Ch4-4.html">https://history.nasa.gov/computers/Ch4-4.html</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The Byzantine Generals Problem, <a href="http://bnrg.cs.berkeley.edu/~adj/cs16x/hand-outs/Original_Byzantine.pdf">http://bnrg.cs.berkeley.edu/~adj/cs16x/hand-outs/Original_Byzantine.pdf</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://c3.nasa.gov/dashlink/projects/79/wiki/test_stories_split/">https://c3.nasa.gov/dashlink/projects/79/wiki/test_stories_split/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Dynamo: Amazon&rsquo;s Highly Available Key-value Store <a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.slideshare.net/yellow7/cassandra-backgroundandarchitecture%5D(https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)">https://www.slideshare.net/yellow7/cassandra-backgroundandarchitecture](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>3081 words</span>
+    <span>19 - 25 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#los-computadores-del-transbordador-espacial">Los computadores del transbordador espacial</a></li>
+    <li><a href="#el-problema-de-los-generales-bizantinos">El Problema de los Generales Bizantinos</a></li>
+    <li><a href="#la-falla-bizantina-del-discovery">La Falla Bizantina del Discovery</a></li>
+    <li><a href="#fallas-bizantinas">Fallas Bizantinas</a>
+      <ul>
+        <li><a href="#abejas-bizantinas">Abejas Bizantinas</a></li>
+      </ul>
+    </li>
+    <li><a href="#consenso">Consenso</a></li>
+    <li><a href="#fallas-bizantinas-y-tolerancia-a-particiones">Fallas Bizantinas y Tolerancia a Particiones</a></li>
+    <li><a href="#coherencia">Coherencia</a>
+      <ul>
+        <li><a href="#detectando-inconsistencias">Detectando inconsistencias</a></li>
+      </ul>
+    </li>
+    <li><a href="#truth-is-individual-calculation">Truth is individual calculation</a>
+      <ul>
+        <li><a href="#notas">Notas:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2018/to-the-bone/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2018/the-chain/">The Chain</a></li><li><a href="/post/2012/dos-de-tres-el-teorema-cap/">Dos de Tres: El Teorema CAP</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mejora Continua on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/mejora-continua/</link>
+    <description>Recent content in Mejora Continua on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 18 Dec 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mejora-continua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control</title>
+      <link>http://localhost:1313/posts/2014/control/</link>
+      <pubDate>Thu, 18 Dec 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/control/</guid>
+      <description>&lt;p&gt;featured_image: &amp;ldquo;&lt;a href=&#34;https://d2dspjyoh5c79p.cloudfront.net/eee339f2-86e1-11e4-ac78-df956de308ae-aa9f18b7%22&#34;&gt;https://d2dspjyoh5c79p.cloudfront.net/eee339f2-86e1-11e4-ac78-df956de308ae-aa9f18b7&amp;quot;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;If everything seems under control, you&#39;re just not going fast&#xA;enough.&amp;rdquo;&lt;br&gt;&#xA;&amp;ldquo;Si todo parece estar bajo control, entonces no estás yendo lo&#xA;suficientemente rápido&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Mario Andretti&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Agrega controles, uno tras otro, en una larga cadena, con el fin de que&#xA;todo salga sin errores y sólo lograrás que las cosas se vuelvan más&#xA;lentas.&lt;/p&gt;&#xA;&lt;p&gt;Agilidad es flexibilidad más rapidez, se puede ser rápido y flexible y&#xA;mantener el control, el truco es no excederse en los controles, trabajar&#xA;de manera incremental y aceptar un grado de incerteza o incertidumbre.&#xA;Acepta que no puedes controlarlo todo, acepta la posibilidad de la&#xA;falla.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

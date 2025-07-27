@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ya tenemos prototipo | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2005/ya-tenemos-prototipo/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Ya tenemos prototipo">
+  <meta property="og:description" content="Yo ya les había adelantado que el 16 de noviembre se lanzaba el poyecto ULPN en el marco de la WSIS (World Summit on Information Society) en Túnez. (En la cual también se discutió sobre el gobierno de internet). En la delegación chilena de los 7 magníficos, no había ningún funcionario del ministerio de educación, aunque sí uno de la subtel (que interesante es que podamos seguir los pasos de nuestros funcionarios de gobierno). El resto es personal de la misión permanente en Ginebra.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2005-11-16T18:15:10+00:00">
+    <meta property="article:modified_time" content="2005-11-16T18:15:10+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ya tenemos prototipo">
+  <meta name="twitter:description" content="Yo ya les había adelantado que el 16 de noviembre se lanzaba el poyecto ULPN en el marco de la WSIS (World Summit on Information Society) en Túnez. (En la cual también se discutió sobre el gobierno de internet). En la delegación chilena de los 7 magníficos, no había ningún funcionario del ministerio de educación, aunque sí uno de la subtel (que interesante es que podamos seguir los pasos de nuestros funcionarios de gobierno). El resto es personal de la misión permanente en Ginebra.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Ya tenemos prototipo</h1><time class="dim" datetime="2005-11-16T18:15:10&#43;00:00">November 16, 2005</time></div>
+  <section class="page-section"><p>Yo ya les había <a href="/2005/11/ulpn_2.html">adelantado </a> que el 16 de <strong>noviembre</strong> se lanzaba el poyecto ULPN en el marco de la <a href="http://www.itu.int/wsis/tunis/">WSIS </a>(World Summit on Information Society) en Túnez. (En la cual también se <a href="http://cdp.blogsome.com/2005/11/16/la-batalla-que-no-fue/">discutió sobre el gobierno de internet</a>). En la delegación chilena de los <a href="http://www.itu.int/wsis/participation/prepcom3/org_detail.asp?ID=916">7 magníficos</a>, no había ningún funcionario del ministerio de educación, aunque sí uno de la <a href="http://www.itu.int/wsis/participation/prepcom3/del_detail.asp?ID=96027#rep">subtel </a>(que interesante es que podamos seguir los pasos de nuestros funcionarios de gobierno). El resto es personal de la misión permanente en Ginebra.</p>
+<h2 id="sobre-el-lanzamiento">Sobre el lanzamiento</h2>
+<p>Hoy día pensaba en que se podían hacer muchos chistes jugando con el apellido Negroponte y con Kofi Annan, pero esto es serio, dejemóslo a la imaginación del lector.</p>
+<p><a href="http://nerdpride.org/blog/?p=26">Shezzo </a>y <a href="http://cdp.blogsome.com/2005/11/17/video-laptop-de-us100/">Carlos</a> me han recordado del tema, pero no he posteado porque la verdad es que aún no he podido ver el video, y además me he estado <a href="http://www.lnds.net/2005/11/movilidad.html">moviendo</a>, y lo poco que mostraron ayer en televisión fue un tanto decepcionante. Porque se veía como una <a href="http://www.fayerwayer.com/archivo/2005/11/lanzan_prototip.php">maquetas</a>, nada funcionando, aunque hay una foto por ahí de una persona que tiene conectado un teclado estándar al equipo, por lo que sospecho, que lo que Negroponte mostró era la maqueta, y que el prototipo debe estar cableado y funcionando en forma parcial, con apoyo externo, lo que no sería extraño, cuando se lanzó el Newton había un cable desde el Newton a un Mac, y el Newton sólo actuaba como dispositivo de input output.</p>
+<p>Así que cuando tenga por fin acceso a la información, con un ancho de banda más decente y barato, voy a escribir mis impresiones.</p>
+<p>Lo que importa es que varios <a href="http://blog.monkymotion.com/?p=70">están blogueando sobre el tema</a>, y se dan cuenta del rídiculo que ha hecho nuestro gobierno. Pero bueno, ya viene otro gobierno, y esperemos que las cosas cambien para mejor (estoy optimista hoy día).</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>303 words</span>
+    <span>2 - 2 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#sobre-el-lanzamiento">Sobre el lanzamiento</a></li>
+  </ul>
+</nav></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nokia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/nokia/</link>
+    <description>Recent content in Nokia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 08 Jan 2013 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nokia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Efecto Elop</title>
+      <link>http://localhost:1313/posts/2013/el-efecto-elop/</link>
+      <pubDate>Tue, 08 Jan 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/el-efecto-elop/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Si conoces a tu enemigo y te conoces a ti mismo, no temerás el&#xA;resultado de cien batallas. Si te conoces a ti mismo, pero no a tu&#xA;enemigo, por cada victoria lograda sufrirás una derrota. Si no te&#xA;conoces ni al enemigo ni a ti mismo, sucumbirás en cada batalla.&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; Sun Tzu&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El gráfico muestra los ingresos (revenue) de las divisiones de&#xA;Smartphones de tres grandes compañías, desde el primer trimestre de 2009&#xA;hasta el cuarto trimestre de 2010. ¿Cuál es Nokia?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

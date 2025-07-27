@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Linus Torvalds el Pragmático | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2006/linus-torvalds-el-pragmatico/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Linus Torvalds el Pragmático">
+  <meta property="og:description" content="Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está “agradeciendo” la recepción del primer “Linus Torvalds Award”, donde pronuncia una de sus inteligentes frases: “esto es como darle el Premio Han Solo a la Aliaza Rebelde” ( “like giving the Han Solo award to the Rebel Alliance.” ).
+Toda esta polémica es gasto de energía.
+Stallman ha insistido en hablar de “GNU más Linux”. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2006-11-30T20:14:29+00:00">
+    <meta property="article:modified_time" content="2006-11-30T20:14:29+00:00">
+    <meta property="article:tag" content="GPL3">
+    <meta property="article:tag" content="Linus Torvalds">
+    <meta property="article:tag" content="Linux">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Linus Torvalds el Pragmático">
+  <meta name="twitter:description" content="Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está “agradeciendo” la recepción del primer “Linus Torvalds Award”, donde pronuncia una de sus inteligentes frases: “esto es como darle el Premio Han Solo a la Aliaza Rebelde” ( “like giving the Han Solo award to the Rebel Alliance.” ).
+Toda esta polémica es gasto de energía.
+Stallman ha insistido en hablar de “GNU más Linux”. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Linus Torvalds el Pragmático</h1><time class="dim" datetime="2006-11-30T20:14:29&#43;00:00">November 30, 2006</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/gpl3/">#GPL3</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/linus-torvalds/">#Linus Torvalds</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/linux/">#linux</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hay una secuencia en el documental Revolution OS muy sugestiva. Stallman está &ldquo;agradeciendo&rdquo; la recepción del primer &ldquo;Linus Torvalds Award&rdquo;, donde pronuncia una de sus inteligentes frases: &ldquo;esto es como darle el Premio Han Solo a la Aliaza Rebelde&rdquo; ( &ldquo;like giving the Han Solo award to the Rebel Alliance.&rdquo; ).</p>
+<p>Toda esta polémica es gasto de energía.</p>
+<p>Stallman ha insistido en hablar de &ldquo;GNU más Linux&rdquo;. Considero que es mejor decir Linux más GNU, del mismo modo que podemos decir Linux más Apache, incluso tenemos el famoso acrónimo: LAMP (Linux Apache Mysql PHP).</p>
+<p>La verdad es que esta discusión es un tanto bizantina, aunque muy reveladora. Hay una división, una división fuerte. Cuando uno sigue leyendo <a href="http://lkml.org/lkml/2006/9/27/191">el hilo de la discusión en la lista del linux kernel</a>, nos topamos con otra de esas respuestas duras de Torvalds, para Linus es una discusión casi epistemológica, para él la gente de la FSF tiene una posición religiosa, pero el quiere dedicarse a hacer ciencia</p>
+<p>**Fecha **Mié 27 Sep <strong>2006</strong> 10:00:17 -0700 (PDT)
+<strong>De</strong>: Linus Torvalds &lt;&gt;
+**Asunto **Re: Declaración de Posición frente a GPLv3</p>
+<p>El miércoles 27 Sep <strong>2006</strong>, Jan Engelhardt escribió:</p>
+<blockquote>
+<p>Si por sistema operativo quieres referirte a las aplicaciones de &ldquo;la tierra de los usuarios&rdquo; (userland).
+entonces sí, ¿por qué debería haber problemas con un kernel GPL2 y un ambiente de usuarios GPL3?
+Después de todo, el ambiente usuario no sólo es GPL, sino que también BSD y otros.</p></blockquote>
+<p>Efectivamente.
+No tenemos problemas al ejecutar programas con licencias mucho peores que las de la GPLv3 (por ejemplo programas comerciales) No hay problems con que el espacio usuario sea v3.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>270 words</span>
+    <span>1 - 2 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/software-libre">Software libre</a></span></small>
+      </div></div><h3>Related</h3>
+    <ul><li><a href="/post/2006/linus-torvalds-y-la-gpl-v3/">Linus Torvalds y la GPL v3</a></li><li><a href="/post/2005/linux-en-retroceso/">Linux en retroceso</a></li><li><a href="/post/2005/nueva-version-del-kernel-de-linux-liberada/">Nueva versión del Kernel de Linux liberada</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

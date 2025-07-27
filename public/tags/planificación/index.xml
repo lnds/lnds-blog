@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Planificación on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/planificaci%C3%B3n/</link>
+    <description>Recent content in Planificación on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 05 Aug 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/planificaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planificadores y Buscadores </title>
+      <link>http://localhost:1313/posts/2011/planificadores-y-buscadores/</link>
+      <pubDate>Fri, 05 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/planificadores-y-buscadores/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;william_easterly.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Un &lt;strong&gt;planificador&lt;/strong&gt; piensa que él ya sabe la respuesta. Piensa en la&#xA;pobreza como problema técnico ingenieril y que sus respuestas lo&#xA;resolverán. Un &lt;strong&gt;buscador&lt;/strong&gt; admite que no sabe la respuesta de&#xA;antemano, él cree que la pobreza una maraña complicada de factores&#xA;políticos, sociales, históricos, institucionales y tecnológicos... y&#xA;tiene la esperanza de que encontrará la respuesta a los problemas&#xA;individuales por prueba y error... Un planificador cree que los&#xA;externos [outsiders] saben lo suficiente para imponer una solución.&#xA;Un buscador cree que  los internos [insiders] tienen suficientes&#xA;conocimiento para encontrar soluciones, y que muchas soluciones deben&#xA;originarse desde adentro.&amp;rdquo;&lt;br&gt;&#xA;&amp;ndash; &lt;a href=&#34;http://williameasterly.org/&#34;&gt;William  Easterly&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Administrar el momentum</title>
+      <link>http://localhost:1313/posts/2009/administrar-el-momentum/</link>
+      <pubDate>Sun, 06 Sep 2009 13:50:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/administrar-el-momentum/</guid>
+      <description>&lt;p&gt;Porqué los roadmaps, las cartas gantt, la planificación, los wireframes, la documentación, las especificaciones y todos esas abstracciones que hacemos para explicar lo que vamos a construir no son más que impedimentos (o excusas) para no empezar a construir realmente lo que se nos pidió.&lt;br&gt;&#xA;De eso trata esta charla de Jason Fried, de 37Signals:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

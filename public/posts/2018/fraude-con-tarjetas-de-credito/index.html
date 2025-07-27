@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fraude con tarjetas de crédito | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2018/fraude-con-tarjetas-de-credito/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Fraude con tarjetas de crédito">
+  <meta property="og:description" content="Las tarjetas de crédito nacieron en una época análoga, prácticamente desconectada, y por lo tanto son hoy en día mucho más vulnerables.
+Pero siempre han sido vulnerables.
+Antiguamente tu comprabas con tarjeta de crédito de manera física, llegabas a la tienda y el vendedor examinaba tu tarjeta, veía que no estuviera en una lista de tarjetas vencidas, y la colocaba sobre una curiosa máquina como esta1:
+Luego escribía en un formulario de papel especial auto copiativo el monto de la venta y lo colocaba encima de la tarjeta, de este modo:">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-07-29T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-07-29T08:25:11-03:00">
+    <meta property="article:tag" content="Seguridad">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fraude con tarjetas de crédito">
+  <meta name="twitter:description" content="Las tarjetas de crédito nacieron en una época análoga, prácticamente desconectada, y por lo tanto son hoy en día mucho más vulnerables.
+Pero siempre han sido vulnerables.
+Antiguamente tu comprabas con tarjeta de crédito de manera física, llegabas a la tienda y el vendedor examinaba tu tarjeta, veía que no estuviera en una lista de tarjetas vencidas, y la colocaba sobre una curiosa máquina como esta1:
+Luego escribía en un formulario de papel especial auto copiativo el monto de la venta y lo colocaba encima de la tarjeta, de este modo:">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Fraude con tarjetas de crédito</h1><time class="dim" datetime="2018-07-29T08:25:11-03:00">July 29, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/seguridad/">#seguridad</a>
+      </div></ol></div>
+  <section class="page-section"><p>Las tarjetas de crédito nacieron en una época análoga, prácticamente
+desconectada, y por lo tanto son hoy en día mucho más vulnerables.</p>
+<p>Pero siempre han sido vulnerables.</p>
+<p>Antiguamente tu comprabas con tarjeta de crédito de manera física,
+llegabas a la tienda y el vendedor examinaba tu tarjeta, veía que no
+estuviera en una lista de tarjetas vencidas, y la colocaba sobre una
+curiosa máquina como esta<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/20f20c4e-933a-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Luego escribía en un formulario de papel especial auto copiativo el
+monto de la venta y lo colocaba encima de la tarjeta, de este modo:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/3f4f071f-933a-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Luego corría el rodillo sobre el papel y la tarjeta, y quedaba impreso
+el número de la misma en el recibo. Tu firmabas el papel y la compra
+quedaba realizada.</p>
+<p>Esto duró muchos años, incluso este mecanismo convivió con los primeros
+días de internet. Recuerdo haber escuchado de un caso, durante los
+primeros años de internet en Chile, en que el administrador de un
+restaurante usaba estos recibos en papel para obtener números de tarjeta
+que usaba para pagar acceso a sitios porno en la web.</p>
+<h2 id="ingeniería-social">Ingeniería Social</h2>
+<p>La forma más fácil de obtener datos de las tarjetas de crédito es
+simplemente preguntando. La ingeniería social<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, en el contexto de la
+seguridad informática, es el conjunto de técnicas de manipulación de las
+personas que se usa para obtener información sensible, como claves,
+números de identificación y por supuesto datos financieros, como las
+tarjetas de crédito.</p>
+<p>Muchas veces no es necesario manipular, porque gracias a las redes
+sociales, ahora es posible obtener esto porque las mismas personas
+entregan su datos:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/3b401920-933b-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/44b47281-933b-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Es posible encontrar muchos datos sensibles, como los de las tarjetas en
+redes sociales.</p>
+<h2 id="carding">Carding</h2>
+<p>El Carding es el fraude asociado a la obtención de datos de tarjetas de
+crédito, se vale de diversas técnicas, cómo el robo de bases de datos,
+el phishing, la ingenierías social y la recolección de información en
+redes sociales<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<h2 id="hackeos-nacionales">&ldquo;Hackeos&rdquo; Nacionales</h2>
+<p>Esta semana se ha hablado de diversos &ldquo;hackeos&rdquo; a bancos nacionales
+donde supuestamente se robaron datos de tarjetas. En realidad estamos
+hablando de filtraciones de listas de tarjetas, eso corresponde a datos
+obtenidos por bandas dedicadas al carding. </p>
+<p>Es importante usar los términos precisos, primero porque la palabra
+hacker no tiene que ver con delicuencia <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> y porque es importante
+educar a la población.</p>
+<h2 id="todas-las-tarjetas-están-expuestas">Todas las tarjetas están expuestas</h2>
+<p>Hoy en día el carding alcanza niveles sofisticados, que hacen que las
+pobres medidas de seguridad de las tarjetas sean más evidentes.</p>
+<p>Tal como explican en un notable post[^5s] en el blog BlackPloit,
+existen manuales para hacer carding, los que califican a las tarjetas de
+crédito niveles según la dificultad con la que se pueden obtener datos y
+gastar dinero:</p>
+<p><strong>Level 1 (<em>Easy carding</em>)</strong>: Se puede gastar un máximo de 50 dólares.
+Se necesita:</p>
+<ul>
+<li>Tarjeta de crédito.</li>
+<li>Fecha de expiración.</li>
+</ul>
+<p><strong>Level 2 (Intermediate carding)</strong>: Se puede gastar un máximo de 2000
+dólares. Se necesita:</p>
+<ul>
+<li>Tarjeta de crédito</li>
+<li>Fecha de expiración</li>
+<li>Código CVV,</li>
+<li>Nombre del cliente</li>
+<li>Número de la cuenta bancaria.</li>
+</ul>
+<p><strong>Level 3 (Hard carding)</strong>: No hay limites establecidos de gasto. Se
+necesita:</p>
+<ul>
+<li>Tarjeta de crédito</li>
+<li>Fecha de expiración</li>
+<li>Código CVV,</li>
+<li>Nombre del propietario.</li>
+<li>Número de la cuenta bancaria.</li>
+<li>Cantidad de dinero en la cuenta.</li>
+<li>Número de teléfono.</li>
+<li>SSN.</li>
+<li>DOB.</li>
+</ul>
+<p>Los números de tarjeta pueden ser generados, y en realidad dadas las
+capacidades computacionales de hoy no es un gran problema esa parte.</p>
+<p>La seguridad de las tarjetas está dada por: la fecha de vencimiento y el
+código CVV, un número de 3 dígitos. Tampoco es complicado generar las
+combinaciones necesarias.</p>
+<p>Los emisores de tarjetas saben estas vulnerabilidades, pero prefieren
+ignorarlas en función de la facilidad de uso, difusión masiva y porque
+hay un negocio de seguros asociados, que pagan los miles de mini fraudes
+que suceden a diario. Seguramente te han llamado del banco preguntándote
+si autorizaste cierto pago, o para avisarte que deben renovar tu
+plástico por razones de seguridad. </p>
+<p>De acuerdo a Blackploit <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> cada entidad bancaria puede generar diez
+mil millones de números de tarjetas, un número que parece bastante
+grandes, pero que no representa un desafío a un computador. Pero además
+la forma de asignar números obedece a ciertos patrones. Súmenle que es
+posible generar el CVV, y eventualmente probar con micro transacciones
+la validez de las tarjetas. Este escenario es factible, y muestra que
+todas las tarjetas están expuestas en la
+práctica.</p>
+<p>Es tiempo de cambiar estos mecanismos de seguridad, y eso lo saben los
+emisores de tarjetas y los bancos. La pregunta es, ¿por qué no se
+hace?</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Fotografías tomadas de este
+artículo: <a href="http://fernandodecordoba.es/asi-se-cobraba-con-tarjeta-de-credito-en-los-80/">http://fernandodecordoba.es/asi-se-cobraba-con-tarjeta-de-credito-en-los-80/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p> <a href="https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)">https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Chema Alonso explica algunas técnicas en esta nota de
+2013: <a href="http://www.elladodelmal.com/2013/12/carding-basico-ojo-con-donde-metes-tu.html">http://www.elladodelmal.com/2013/12/carding-basico-ojo-con-donde-metes-tu.html</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>La palabra hack en el sentido puro se origina en el MIT: &ldquo;The
+word at <a href="http://web.mit.edu/">MIT</a> usually refers to a clever, benign, and
+<a href="http://hacks.mit.edu/Hacks/misc/ethics.html">ethical</a>
+prank or practical joke, which is both challenging for the perpetrators
+and amusing to the MIT community (and sometimes even the rest of the
+world!).&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p> <a href="https://www.blackploit.com/2018/07/hackeando-un-banco-3-hackear-14000.html">https://www.blackploit.com/2018/07/hackeando-un-banco-3-hackear-14000.html</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>818 words</span>
+    <span>5 - 7 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ingeniería-social">Ingeniería Social</a></li>
+    <li><a href="#carding">Carding</a></li>
+    <li><a href="#hackeos-nacionales">&ldquo;Hackeos&rdquo; Nacionales</a></li>
+    <li><a href="#todas-las-tarjetas-están-expuestas">Todas las tarjetas están expuestas</a></li>
+  </ul>
+</nav><h3>Related</h3>
+    <ul><li><a href="/posts/2014/el-ano-de-ssltls-villano-invitado/">2014, ¿el año de SSL/TLS? (villano invitado)</a></li><li><a href="/posts/2012/disclosure-no-es-llegar-y-hacerlo/">Disclosure no es llegar y hacerlo</a></li><li><a href="/posts/2012/prevenir-ataques-de-novatos-invitado/">Prevenir Ataques de Novatos (invitado)</a></li><li><a href="/posts/2012/about-speed-hashing/">About Speed Hashing</a></li><li><a href="/posts/2012/seguridad-y-oportunidad/">Seguridad y oportunidad</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apofenia on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/apofenia/</link>
+    <description>Recent content in Apofenia on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 06 Jul 2008 23:41:22 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/apofenia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>42</title>
+      <link>http://localhost:1313/posts/2008/42/</link>
+      <pubDate>Sun, 06 Jul 2008 23:41:22 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/42/</guid>
+      <description>&lt;p&gt;Este año cumpliré 42 años, y 42 es un &amp;ldquo;número extraordinario&amp;rdquo;, como todos saben (o deberían saber), 42 es es &lt;a href=&#34;http://localhost:1313/2006/10/resolviendo_problemas_2.html&#34;&gt;la respuesta a la pregunta sobre el sentido de la vida, el universo y todo lo demás&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Así que me voy a permitir practicar un poco la &lt;a href=&#34;http://es.wikipedia.org/wiki/Apofenia&#34;&gt;apofenia&lt;/a&gt; durante estos meses que quedan para llegar a mi cumpleaños, sólo por que es entretenido, no porque esté volviendome loco, o me rinda ante el anumerismo, así que no se preocupen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

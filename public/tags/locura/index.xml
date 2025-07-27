@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Locura on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/locura/</link>
+    <description>Recent content in Locura on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 09 Mar 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/locura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Locura</title>
+      <link>http://localhost:1313/posts/2011/locura/</link>
+      <pubDate>Wed, 09 Mar 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/locura/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La locura es hacer siempre lo mismo y esperar resultados&#xA;diferentes&amp;rdquo;. &amp;ndash; Albert Einstein*&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;EinsteinRockero-300x298.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

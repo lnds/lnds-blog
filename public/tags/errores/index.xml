@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Errores on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/errores/</link>
+    <description>Recent content in Errores on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 05 Mar 2016 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/errores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bugs Vergonzosos</title>
+      <link>http://localhost:1313/posts/2016/bugs-vergonzosos/</link>
+      <pubDate>Sat, 05 Mar 2016 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2016/bugs-vergonzosos/</guid>
+      <description>&lt;p&gt;La palabra Bug, literalmente &amp;ldquo;bicho&amp;rdquo;, usada para denotar un error&#xA;informático, tiene su origen en el hallazgo de una polilla por parte de&#xA;los operadores del Mark II, el hecho fue reportado por la famosa&#xA;&lt;a href=&#34;//es.wikipedia.org/wiki/Grace_Murray_Hopper&#34;&gt;Grace Hopper&lt;/a&gt;. &lt;/p&gt;&#xA;&lt;p&gt;La fotografía de abajo corresponde a una página de la bitácora de&#xA;operaciones del Harvard Mark II. La nota de Hopper hace mención al&#xA;&amp;ldquo;primer caso real de bicho encontrado&amp;rdquo;, denotando que el término bug&#xA;es mucho más antiguo, el mismo Tomas Alva Edison usa la palabra bug para&#xA;hablar de fallas mecánicas en sus&#xA;inventos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dolores de Cabeza</title>
+      <link>http://localhost:1313/posts/2014/dolores-de-cabeza/</link>
+      <pubDate>Sat, 22 Nov 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/dolores-de-cabeza/</guid>
+      <description>&lt;p&gt;Lo que les voy a contar es la pura verdad. No he inventado nada y he&#xA;decidido no cambiar los nombres porque acá no hay ningún&#xA;inocente.&lt;/p&gt;&#xA;&lt;p&gt;Hace unos días decidí hacer una compra en USA e importarla a través de&#xA;&lt;a href=&#34;https://www.chilexpress.cl/chilebox/Default.aspx&#34;&gt;ChileBox&lt;/a&gt;, el&#xA;servicio de casillas en Miami de&#xA;&lt;a href=&#34;https://www.chilexpress.cl/Views/ChilexpressCL/Home.aspx&#34;&gt;Chilexpress&lt;/a&gt;.&#xA;Todo iba bastante bien, el artículo llegó a Miami y me notificaron por&#xA;email que debía ingresar la factura en el sistema, junto con el valor&#xA;FOB del producto, para que fuera despachada lo más pronto posible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Error Monumental (o cuando MCMXXLLI = 1980)</title>
+      <link>http://localhost:1313/posts/2007/error-monumental/</link>
+      <pubDate>Fri, 14 Dec 2007 14:29:06 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/error-monumental/</guid>
+      <description>&lt;p&gt;Pueden decirme ¿cuál sería el número romano que intentaron colocar al pie de este monumento?:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Imagen022.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;La foto fue tomada por Hernán Cabrera, compañero dcciano 80-90, el 13 de &lt;strong&gt;diciembre&lt;/strong&gt; de &lt;strong&gt;2007&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Se trata del &lt;a href=&#34;http://www.viajeros.com/modules.php?name=Galeria&amp;amp;op=ver_foto&amp;amp;pid=35608&#34;&gt;Monumento a la Aviación&lt;/a&gt; en providencia, sí este mismo, que los santiaguinos conocemos bastante bien:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;hkgtme-bg.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yo digo que trataron de escribir 1981.&lt;/p&gt;&#xA;&lt;p&gt;ACTUALIZACION&lt;/p&gt;&#xA;&lt;p&gt;Me informan:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El monumento a LA AVIACION CHILENA diseñado por René Orellana y Beatriz Silva fue inagurado en 1980&amp;hellip;&amp;rdquo; &amp;hellip; &amp;ldquo;&amp;hellip; prolongación del Parque Balmaceda, con el cual muchas veces es confundida. En este sector encontramos el monumento a la aviación erigido en 1980, por el entonces Comandante en jefe de la FACH, General Mathei, de donde obtuvo su nombre.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

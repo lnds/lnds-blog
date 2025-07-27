@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seguridad on La Naturaleza del Software</title>
+    <link>http://localhost:1313/categories/seguridad/</link>
+    <description>Recent content in Seguridad on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 05 Apr 2020 08:38:01 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/seguridad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usabilidad, Seguridad Y Paranoia</title>
+      <link>http://localhost:1313/posts/2020/2020-04-05-usabilidad-seguridad-y-paranoia/</link>
+      <pubDate>Sun, 05 Apr 2020 08:38:01 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-04-05-usabilidad-seguridad-y-paranoia/</guid>
+      <description>Zoom y la gestión de riesgos en tiempos de pandemia</description>
+    </item>
+    <item>
+      <title>Fuerza bruta</title>
+      <link>http://localhost:1313/posts/2009/fuerza-bruta/</link>
+      <pubDate>Sun, 12 Jul 2009 20:19:13 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/fuerza-bruta/</guid>
+      <description>&lt;p&gt;Hay que &lt;a href=&#34;http://www.codinghorror.com/blog/archives/000631.html&#34;&gt;ser muy torpe&lt;/a&gt; para intentar un ataque de fuerza bruta sobre SHA-256. Cuando Leo Prieto intenta minimizar los alcances &lt;a href=&#34;http://leo.prie.to/2009/07/incidente-de-seguridad/&#34;&gt;de la intrusión a los sitios de Betazeta&lt;/a&gt; de este viernes, en realidad hunde más sus pies en el barro, y le &lt;a href=&#34;http://www.antronio.com/comunidad/f7/fayerwayer-hackeado-betazeta-owen-503370/index10.html#post15579254&#34;&gt;da más argumentos a los que justifican este ataque&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Antes de seguir, quiero decir que condeno estos defacement y ataques sitios web, como lo que le ocurrió a&lt;a href=&#34;http://www.betazeta.com/&#34;&gt;BetaZeta&lt;/a&gt; este fin de semana. /* Fayerwayer en todo caso ha &lt;a href=&#34;http://www.fayerwayer.com/2008/08/alerta-se-filtran-datos-personales-de-los-alumnos-de-la-usach/&#34;&gt;sido bastante sarcástico cuando esto le pasa a otros&lt;/a&gt;, pero dejemos esa polémica hasta acá. */&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El manejo informático de la identidad</title>
+      <link>http://localhost:1313/posts/2009/el-manejo-informatico-de-la-identidad-1/</link>
+      <pubDate>Thu, 14 May 2009 13:59:45 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-manejo-informatico-de-la-identidad-1/</guid>
+      <description>&lt;p&gt;El manejo de la identidad en la red es un tema que he abordado en este espacio, pero que me parece necesario y urgente retomar, dada ciertas coyunturas que se están dando. Es por esto que voy a iniciar una serie de artículos sobre el problema del manejo de la identidad, y parto con este artículo &lt;a href=&#34;http://localhost:1313/2007/07/los-meta-sistemas-de-identidad.html&#34;&gt;reciclado de julio de 2007&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Internet fue construida sin una manera de saber quien se conecta y a que se conecta.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trazabilidad</title>
+      <link>http://localhost:1313/posts/2009/trazabilidad/</link>
+      <pubDate>Tue, 07 Apr 2009 22:41:42 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/trazabilidad/</guid>
+      <description>&lt;p&gt;¿Quiere saber que significa trazabilidad en informática?&lt;/p&gt;&#xA;&lt;p&gt;Una explicación con ejemplos prácticos:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Receta con Descuento: Convenios con médicos o centros médicos suscritos por alguna de las grandes cadenas. Por esta vía, el médico receta un producto y manda al paciente a adquirirlo en los locales de una cadena específica, dado que allí obtendrá descuento por la compra.&lt;/p&gt;&#xA;&lt;p&gt;El médico, o el centro de salud, cuyo código de barra está impreso en la receta, recibe una comisión cuando esa recomendación se materializa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No Se Asusten</title>
+      <link>http://localhost:1313/posts/2008/no-se-asusten/</link>
+      <pubDate>Wed, 20 Aug 2008 22:48:49 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/no-se-asusten/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;La Guía del Autoestopista Galáctico ha superado a la Enciclopedia Galáctica como la fuente estándar de todo el conocimiento y sabiduría, por dos importantes razones. Primero, es ligeramente más barata, y luego,grabada en la portada con simpáticas letras grandes, ostenta la leyenda: NO SE ASUSTE.&lt;br&gt;&#xA;&amp;ndash; La Guía del Autoestopista Galáctico, Douglas Adams&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El problema con la exportación de cerdos a Corea es un tema delicado, en esto, el senador Girardi tiene razón, el gobierno debe invertir en un sistema de control propio para medir la cantidad de dioxinas en nuestros alimentos, que exportamos. Pero no tanto porque esta sea una amenaza real, sino porque hay estándares internacionales que afectan nuestras exportaciones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Sabes si la dirección web de tu banco es la dirección del sitio web de tu banco?</title>
+      <link>http://localhost:1313/posts/2008/%c2%bfsabes-si-la-direccion-web-de-tu-banco-es-la-direccion-del-sitio-web-de-tu-banco/</link>
+      <pubDate>Tue, 22 Jul 2008 22:08:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/%c2%bfsabes-si-la-direccion-web-de-tu-banco-es-la-direccion-del-sitio-web-de-tu-banco/</guid>
+      <description>&lt;p&gt;Probablemente un usuario novicio no sabrá cómo responder esta pregunta, pero si eres un usuario más avanzado me dirás que has revisado la barra de direcciones de tu navegador, que te has preocupado de no seguir un link que recibiste por email, o tuviste la precaución de escribir la dirección que te entregó tu banco, caracter a caracter, con mucho cuidado.&lt;/p&gt;&#xA;&lt;p&gt;¡Es más! Te entregaron un aparatito, que te dijieron que está sincronizado con un super califragilistico mecanismo al que sólo accede un servidor de tu banco, y que asegura que, si alguien llegase a adivinar tu clave, el numerito mágico que este dispositivo te entrega impide que otro pueda ingresar al web del banco haciendose pasar por tí.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guía para el analfabeto tecnológico angustiado</title>
+      <link>http://localhost:1313/posts/2008/guia-para-el-analfabeto-tecnologico-angustiado/</link>
+      <pubDate>Mon, 12 May 2008 22:10:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/guia-para-el-analfabeto-tecnologico-angustiado/</guid>
+      <description>&lt;p&gt;¡Todo mal! Resulta que ahora hasta los administradores de &lt;a href=&#34;http://www.fayerwayer.com/&#34;&gt;Fayerwayer&lt;/a&gt; se andan perdiendo con respecto a lo que &lt;a href=&#34;http://www.fayerwayer.com/2008/05/gobierno-comienza-investigacion-de-filtracion-de-datos-personales-de-6-millones-de-chilenos/&#34;&gt;pasó&lt;/a&gt;, por lo que se desprende de sus declaraciones en radios y televisión.&lt;/p&gt;&#xA;&lt;p&gt;Con el fin de evitar que se dispersen las ideas, y se cometan errores voy a enumerar algunos puntos que me parece deberían tener claros, &lt;a href=&#34;http://curvaspoliticas.blogspot.com/2008/05/microsoft-fracasa-con-los-impuestos.html&#34;&gt;no vayan a terminar pelando cables&lt;/a&gt; y en vez de analfabetos tecnológicos se transformen en analfabestias digitales. ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las huellas dactilares son un dato personal</title>
+      <link>http://localhost:1313/posts/2008/las-huellas-dactilares-son-un-dato-personal/</link>
+      <pubDate>Mon, 21 Apr 2008 13:26:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/las-huellas-dactilares-son-un-dato-personal/</guid>
+      <description>&lt;p&gt;El hecho de que las huellas dactilares, en realidad, las impresiones dactilares, &lt;a href=&#34;http://localhost:1313/2008/04/la_huella_del_ministro.html&#34;&gt;no son secretas&lt;/a&gt; no quita el hecho de que éstas son un datos personales.&lt;/p&gt;&#xA;&lt;p&gt;Esta aclaración es necesaria, porque Michael Chertoff, Secretario de Seguridad Interior de Estados Unidos, ha dicho que las huellas dactilares no son datos personales, y tal como &lt;a href=&#34;http://www.schneier.com/blog/archives/2008/04/chertoff_says_f.html&#34;&gt;dice Schneier&lt;/a&gt; es porque confunde datos secretos, con datos personales.&lt;/p&gt;&#xA;&lt;p&gt;Ustedes no se confundan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I thought Linux was secure</title>
+      <link>http://localhost:1313/posts/2008/i-thought-linux-was-secure/</link>
+      <pubDate>Thu, 14 Feb 2008 16:42:12 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/i-thought-linux-was-secure/</guid>
+      <description>&lt;p&gt;No sé si el comentario &lt;a href=&#34;http://www.theregister.co.uk/2008/02/14/claranet_linux_security_hole/comments/#c_155656_&#34;&gt;_I thought Linux was secure&lt;/a&gt;, tomado aisladamente, es inocente, o provocador.&lt;br&gt;&#xA;Pero deben haber usuarios que se sorprenderán al darse cuenta que linux sí puede ser atacado seriamente, y la seguridad se puede comprometer.&lt;/p&gt;&#xA;&lt;p&gt;Lo que pasó es que &lt;a href=&#34;http://www.theregister.co.uk/2008/02/14/claranet_linux_security_hole/&#34;&gt;un grupo de crackers británico&lt;/a&gt; usaron el exploit &lt;a href=&#34;http://www.lnds.net/2008/02/vmsplice_exploit_para_acceder_a_la_cuent.htmlpara&#34;&gt;vmsplice&lt;/a&gt; ganar el acceso a la cuenta root en varios servidores de Claranet, en Gran Bretaña.&lt;/p&gt;&#xA;&lt;p&gt;En realidad es bien sencillo, seguramente muchas personas tienen acceso a un servidor compartido (shared hosting), y desde sus cuentas ejecutan el código y ganan los privilegios de root.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>vmsplice, exploit para acceder a la cuenta root en linux</title>
+      <link>http://localhost:1313/posts/2008/vmsplice-exploit-para-acceder-a-la-cuenta-root-en-linux/</link>
+      <pubDate>Mon, 11 Feb 2008 13:54:36 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/vmsplice-exploit-para-acceder-a-la-cuenta-root-en-linux/</guid>
+      <description>&lt;p&gt;Via &lt;a href=&#34;http://www.kriptopolis.org/bug-kernel-linux&#34;&gt;Kriptópolis&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Como muchos ya sabréis, se ha descubierto una grave &lt;a href=&#34;http://www.securityfocus.com/bid/27704en&#34;&gt;vulnerabilidad&lt;/a&gt; el kernel linux (2.6.x - 2.6.24.1) que permite a un usuario con acceso local obtener privilegios de root ejecutando un simple exploit.&lt;/p&gt;&#xA;&lt;p&gt;En kriptópolis hay más detalles, y un enlace a donde se puede descargar el fuente del exploit.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Con esto se puede construir un virus bastante destructivo que ataque a los equipos que tengan este bug, algo que&lt;a href=&#34;http://www.lnds.net/2008/01/la_seguridad_de_linux.html#comments&#34;&gt;discutimos anteriormente&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡Cinco cortes!</title>
+      <link>http://localhost:1313/posts/2008/%c2%a1cinco-cortes/</link>
+      <pubDate>Fri, 08 Feb 2008 16:25:57 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/%c2%a1cinco-cortes/</guid>
+      <description>&lt;p&gt;Cinco cortes a los cables submarinos en Asia, ¿no será mucho?&lt;br&gt;&#xA;¿Cual es la probabilidad de que eso pase?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Más del 90% del tráfico mundial de datos viaja a través de los cables submarinos, frente al tráfico que absorben los satélites, menos de un 10%.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Fuente: &lt;a href=&#34;http://www.elmundo.es/navegante/2008/02/07/tecnologia/1202374126.html?a=c82d9f26dfe60133084d973fde3ee6fb&amp;amp;t=1202401324&#34;&gt;El Mundo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Seguridad de Linux</title>
+      <link>http://localhost:1313/posts/2008/la-seguridad-de-linux/</link>
+      <pubDate>Mon, 28 Jan 2008 12:47:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/la-seguridad-de-linux/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.kriptopolis.org/expertos-aconsejan-seguridad-linux&#34;&gt;Via Kriptópolis&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Linux no es un sistema a prueba de balas y su equipo no es seguro sólo por ejecutar Linux. Déjese guiar por el buen sentido. Para la mayoría de nosotros, eso significa situar el equipo detrás de un cortafuegos y aplicar regularmente los parches de seguridad. Para otros, habría que adoptar medidas defensivas adicionales.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Con respecto a la seguridad de linux, es muy importante recordarlo, porque no falta el diputado que anda diciendo que en linux no hay virus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vigilando la red en busca de terroristas</title>
+      <link>http://localhost:1313/posts/2006/vigilando-la-red-en-busca-de-terroristas/</link>
+      <pubDate>Tue, 11 Jul 2006 07:21:31 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/vigilando-la-red-en-busca-de-terroristas/</guid>
+      <description>&lt;p&gt;Bruce Schneier&lt;a href=&#34;http://replay.web.archive.org/20071017001140/http://www.schneier.com/blog/archives/2006/07/terrorists_data.html&#34;&gt; publica en su blog&lt;/a&gt; la demostración de porqué el análisis masivo de información, que usa la NSA (Agencia Nacional de Seguridad norteamericana), es inutil para detectar terroristas.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;El profesor noruego Floyd Rudmin aplica las matemáticas de la probabilidad condicional, conocido como el teorema de Bayes, para demostrar que la vigilancia de la NSA no puede detectar exitósamente terroristas, a menos que el porcentaje de terroristas en la población sea mayor, y la infalibilidad de los métodos sea mayor de lo que realmente es. Sin embargo, esta vigilancia es útil para monitorear la oposición política y el impacto de aquellos que no creen en la propaganda oficialista.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Por qué no me gusta ser víctima</title>
+      <link>http://localhost:1313/posts/2006/por-que-no-me-gusta-ser-victima/</link>
+      <pubDate>Tue, 27 Jun 2006 20:00:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/por-que-no-me-gusta-ser-victima/</guid>
+      <description>&lt;p&gt;A riesgo de meterme en otro tete, tengo que decir que me molesta este &lt;a href=&#34;http://replay.web.archive.org/20071016191444/http://www.victimasdeladelincuencia.cl/&#34;&gt;movimiento de las victimas de la delincuencia.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hoy en la mañana escuché en las noticias que &lt;a href=&#34;http://replay.web.archive.org/20071016191444/http://www.victimasdeladelincuencia.cl/img/060622.jpg&#34;&gt;Gonzalo Fuenzalida&lt;/a&gt;, estaba en el Parque Arauco cuando se produjo el &lt;a href=&#34;http://replay.web.archive.org/20071016191444/http://www.terra.cl/noticias/index.cfm?id_cat=1676&amp;amp;id_reg=641374&#34;&gt;asalto a la joyería Barros&lt;/a&gt;, y que ante el miedo decidió dejar de comprar y volver a su casa.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que yo también estaba entrando al Parque Arauco a esa hora, y justo frente a la mencionada joyería. Vi a los carabineros corriendo a 50 centimetros mío, persiguiendo a los ladrones, incluso me parece haber visto al valiente carabinero que frustró el asalto, todo muy cinematográfico, pensé en sacar fotos con mi teléfono, pero lo consideré mejor, y no lo hice, me pareció morboso. &lt;strong&gt;Y ¿saben qué? después del susto, seguí comprando.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Proteccion contra la ultima vulnerabilidad de Windows</title>
+      <link>http://localhost:1313/posts/2005/proteccion-contra-la-ultima-vulnerabilidad-de-windows/</link>
+      <pubDate>Fri, 30 Dec 2005 10:47:19 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/proteccion-contra-la-ultima-vulnerabilidad-de-windows/</guid>
+      <description>&lt;p&gt;Hay gente que dice que la mejor protección contra las múltilples vulnerabilidades en windows, es no usar windows.&#xA;Eso es como este viejo chiste:&lt;/p&gt;&#xA;&lt;p&gt;Paciente: Doctor, me duele cuando levanto los brazos.&#xA;Doctor: entonces no levante los brazos.&lt;/p&gt;&#xA;&lt;p&gt;Como mucha gente usa Windows (la mayoría en realidad) voy a darles una receta &lt;a href=&#34;http://web.archive.org/web/20090426080921/http://www.blogmemes.com/akarru/comment.php?meme_id=302&#34;&gt;contra la última vulnerabilidad de windows&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;la-vulnerabilidad-de-los-archivoswmf&#34;&gt;La vulnerabilidad de los archivos WMF&lt;/h2&gt;&#xA;&lt;p&gt;Los archivos con extensión WMF son archivos gráficos, en Office se usan mucho en los famosos cliparts. Estos archivos contienen instrucciones y se reportó que es posible ejecutar código en modo privilegiado en máquinas con WIndows 2003 y Windows XP.Esto permitiría instalar spyware, troyanos, virus, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux/lupper</title>
+      <link>http://localhost:1313/posts/2005/linuxlupper/</link>
+      <pubDate>Tue, 08 Nov 2005 20:56:55 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/linuxlupper/</guid>
+      <description>&lt;p&gt;Bueno, el nuevo gusano para linux esta explotando las vulnerabilidades de &lt;a href=&#34;http://www.securityfocus.com/bid/14088/&#34;&gt;XML-RPC &lt;/a&gt;que se conocen desde hace bastante tiempo.&lt;/p&gt;&#xA;&lt;p&gt;Afecta a sitios con Drupal, WordPress, Xoops y en general casi todo lo que tenga PHP y XML-RPC no actualizado.&lt;/p&gt;&#xA;&lt;p&gt;La mejor forma de comprobar si se está infectado es observar la existencia del fichero /tmp/lupii, así como de un puerto UDP 7222 a la escucha, donde el gusano abre una puerta trasera&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nuevos papers sobre colisiones MD5</title>
+      <link>http://localhost:1313/posts/2005/nuevos-papers-sobre-colisiones-md5/</link>
+      <pubDate>Tue, 01 Nov 2005 20:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/nuevos-papers-sobre-colisiones-md5/</guid>
+      <description>&lt;p&gt;El paper &lt;a href=&#34;http://eprint.iacr.org/2005/248&#34;&gt;&amp;ldquo;Collision-Resistant usage of MD5 and SHA-1 via Message Preprocessing,&amp;rdquo;&lt;/a&gt; por Szydlo and Yin presentado en el&lt;a href=&#34;http://www.csrc.nist.gov/pki/HashWorkshop/index.html&#34;&gt;NIST Hash Workshop&lt;/a&gt;, es importante por razones prácticas.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo a Niels Ferguson el gran problema es que &lt;a href=&#34;http://www.darksideprogramming.net/md5&#34;&gt;MD5&lt;/a&gt; aún se usa en muchas partes y toma mucho tiempo hacer el cambio de un algoritmo. Steve Bellovin apunta que toma un año lograr el cambio a través de la &lt;a href=&#34;http://www.ietf.org/&#34;&gt;IETF&lt;/a&gt; y entre cinco a siete años que este sea adoptado.&lt;br&gt;&#xA;Ya sabemos que al menos Microsoft ha decidido que &lt;a href=&#34;http://localhost:1313/2005/09/me_leeran_en_redmond.html&#34;&gt;MD5 no debe usarse en sus desarrollos internos&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Indolencia de Microsoft</title>
+      <link>http://localhost:1313/posts/2005/indolencia-de-microsoft/</link>
+      <pubDate>Tue, 04 Oct 2005 20:27:37 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/indolencia-de-microsoft/</guid>
+      <description>&lt;p&gt;Esa parece que es la manera en que Microsoft trata sus problemas de seguridad.&lt;/p&gt;&#xA;&lt;p&gt;Desde junio se conoce una vulnerabilidad descubierta por Secunia, que permite hacer spoofing y phishing usando java script.&#xA;Este esquema resume la vulnerabilidad.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;El Usuario Visita un Sitio Malicioso&lt;/li&gt;&#xA;&lt;li&gt;El usuario sigue un enlace confiable&lt;/li&gt;&#xA;&lt;li&gt;Mientras tanto un sitio web malicioso abre una ventana popup delante del browser, haciendose pasar como una ventana del sitio confiable.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.lnds.net/blog/wp-content/uploads/2011/07/dialog_origin.jpg&#34;&gt;&lt;img src=&#34;https://www.lnds.net/blog/wp-content/uploads/2011/07/dialog_origin.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La seguridad de SpreadFirefox comprometida de nuevo</title>
+      <link>http://localhost:1313/posts/2005/la-seguridad-de-spreadfirefox-comprometida-de-nuevo/</link>
+      <pubDate>Tue, 04 Oct 2005 17:47:33 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-seguridad-de-spreadfirefox-comprometida-de-nuevo/</guid>
+      <description>&lt;p&gt;El sitio &lt;a href=&#34;http://web.archive.org/web/20090426080911/http://www.spreadfirefox.com/&#34;&gt;SpreadFirefox&lt;/a&gt; ha sido comprometido, por segunda vez, y estará inactivo hasta el 15 de octubre.&#xA;El problema es que la base de datos de usuarios esta comprometida, de acuerdo al mensaje enviado a los usuarios registrados, el sitio almacena las claves en MD5, supongo que a estas alturas ustedes ya saben que eso es algo que no deben intentar en sus casas, sino lean &lt;a href=&#34;http://web.archive.org/web/20090426080911/http://www.lnds.net/archives/2005/09/me_leeran_en_re.html&#34;&gt;este post&lt;/a&gt;!!.&lt;/p&gt;&#xA;&lt;p&gt;Traducción de parte del &lt;a href=&#34;http://web.archive.org/web/20090426080911/http://www.darksideprogramming.org/archives/2005/10/spreadfirefox_p.html&#34;&gt;mensaje&lt;/a&gt; enviado por SpreadFirefox:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Biometría Cancelable</title>
+      <link>http://localhost:1313/posts/2005/biometria-cancelable/</link>
+      <pubDate>Sat, 01 Oct 2005 18:11:39 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/biometria-cancelable/</guid>
+      <description>&lt;p&gt;La buenas prácticas de la biometría deben asegurar que:&lt;/p&gt;&#xA;&lt;p&gt;1.- La muestra sólo puede ser capturada una vez, esto se llama biometría cancelable. Un avance en el area fue desarrollado por la gente de IBM.&lt;/p&gt;&#xA;&lt;p&gt;2.- La base de datos debe almacenar las características biométricas de una manera segura. Esto se logra usando criptografía y muchas técnicas conocidas para prevenir el tampering (alteración no autorizada).&lt;/p&gt;&#xA;&lt;p&gt;3.- Asegurar que se está capturando una muestra biométrica viva. Actualmente tenemos sensores que pueden sentir huellas dactilares vivas, leer el pulso, temperatura, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cual Browser es el más seguro?</title>
+      <link>http://localhost:1313/posts/2005/cual-browser-es-el-mas-seguro/</link>
+      <pubDate>Thu, 29 Sep 2005 19:32:59 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/cual-browser-es-el-mas-seguro/</guid>
+      <description>&lt;p&gt;¿Como juzgar a los browsers, de una manera más objetiva?&lt;/p&gt;&#xA;&lt;p&gt;Afortunadamente, &lt;a href=&#34;http://replay.waybackmachine.org/20060211180559/http://secunia.com/&#34;&gt;Secunia&lt;/a&gt; nos puede ayudar, los siguientes gráficos muestran la cantidad de fallas y el porcentaje de reparación de los problemas informados, para Internet Explorer 6, Firefox, y Opera.&#xA;(Estos gráficos pueden cambiar en el tiempo)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;secunia2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La seguridad es un proceso</title>
+      <link>http://localhost:1313/posts/2005/la-seguridad-es-un-proceso/</link>
+      <pubDate>Wed, 21 Sep 2005 02:35:59 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-seguridad-es-un-proceso/</guid>
+      <description>&lt;p&gt;Un interesante comentario a mi artículo &lt;a href=&#34;http://www.codeproject.com/useritems/HackingMd5.asp&#34;&gt;http://www.codeproject.com/useritems/HackingMd5.asp&lt;/a&gt; de parte de Erik Westermann &lt;a href=&#34;http://www.designs2solutions.com/blog&#34;&gt;{dispatches}&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;La siguiente es una traducción libre del comentario (el original se puede leer aquí:&lt;a href=&#34;http://www.codeproject.com/useritems/HackingMd5.asp#xx1231841xx&#34;&gt;http://www.codeproject.com/useritems/HackingMd5.asp#xx1231841xx&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Creo que la intención es demostrar un tipo muy específico de ataque que explota la inherente confianza en el hashMD5. Es una especie de ataque de ingenieria semi-social.&lt;/p&gt;&#xA;&lt;p&gt;El ataque mostrado en el artículo ilustra como el distribuidor-autor-etc puede distribuir una &amp;ldquo;buena&amp;rdquo; aplicación y luego empezar a distribuir una aplicación dañina explotanto la confianza dada al hash MD5 de la aplicación &amp;ldquo;buena&amp;rdquo;. De todas maneras, este es un escenario muy específico, y usa vectores predefinidos; sin embargo ayuda a reforzar una verdad fundamentas sobre seguridad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Firefox mas inseguro que Internet Explorer?</title>
+      <link>http://localhost:1313/posts/2005/firefox-mas-inseguro-que-internet-explorer/</link>
+      <pubDate>Tue, 20 Sep 2005 18:06:47 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/firefox-mas-inseguro-que-internet-explorer/</guid>
+      <description>&lt;p&gt;Symantec levanta la duda con su reporte de que Firefox tiene más vulnerabilidades que IE.&lt;/p&gt;&#xA;&lt;p&gt;Según el reporte, en el primer semestre de 2005 Firefox reporta 25 vulnerabilidades confirmadas por mozilla.&#xA;Mientras que IE reporta solo 13.&lt;/p&gt;&#xA;&lt;p&gt;Pero esto no es novedad para quienes me leen, yo vengo hablando de las vulnerabilidades de firefox hace rato.&lt;/p&gt;&#xA;&lt;p&gt;Hay que considerar lo siguiente:&lt;/p&gt;&#xA;&lt;p&gt;Las cantidades reportadas por Symantec corresponden a las vulnerabilidades aceptadas por los proveedores (Mozilla, y Microsoft)&#xA;No sabemos nada de las vulnerabilidades no aceptadas.&#xA;Es evidente que hay una mayor tendencia a atacar a Internet Explorer, pero esa tendencia variará con el tiempo al popularizarse el uso de Firefox.&#xA;El problema está en que los programadores no consideran la seguridad como un asunto prioritario.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Me leerán en Redmond? :)</title>
+      <link>http://localhost:1313/posts/2005/me-leeran-en-redmond/</link>
+      <pubDate>Fri, 16 Sep 2005 14:51:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/me-leeran-en-redmond/</guid>
+      <description>&lt;p&gt;Agradezco la elogiosa mención en &lt;a href=&#34;http://www.kriptopolis.org/node/1126&#34;&gt;Kriptópolis&lt;/a&gt;, acerca de mi anterior post: &lt;a href=&#34;http://www.lnds.net/archives/2005/09/explotando_las.html&#34;&gt;Explotando las colisiones de MD5&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Pero me entero a través del mismo sitio que Microsoft ha decidido abandonar el uso de las funciones de hash bajo ataque, e incluso la función criptográfica DES, mas detalles aquí: &lt;a href=&#34;http://www.kriptopolis.org/node/1126&#34;&gt;http://www.kriptopolis.org/node/1126&lt;/a&gt; y aquí:&lt;a href=&#34;http://www.eweek.com/article2/0,1759,1859751,00.asp&#34;&gt;http://www.eweek.com/article2/0,1759,1859751,00.asp&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me habrán leido en Redmond? :)&lt;/p&gt;&#xA;&lt;p&gt;Como saben, escribí un par de artículos en &lt;a href=&#34;http://64.233.163.132/www.codeproject.com&#34;&gt;CodeProject&lt;/a&gt;, el primero, &lt;a href=&#34;http://www.codeproject.com/useritems/GoodbyeMD5.asp&#34;&gt;Good Bye MD5&lt;/a&gt;, lleva menos de un mes y ya ha tenido cerca de 20.000 lecturas, incluso con un interesante debate.&lt;br&gt;&#xA;Mi segundo artículo &amp;ldquo;Exploiting MD5 collisions&amp;rdquo; en que muestro como explotar el ataque a MD5 para perturbar los sistemas de distribución de software, lleva cerca de las 2000 lecturas en menos de 48 horas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

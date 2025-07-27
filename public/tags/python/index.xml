@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 30 Oct 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bárbaros y Caballeros</title>
+      <link>http://localhost:1313/posts/2010/barbaros-y-caballeros/</link>
+      <pubDate>Sat, 30 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/barbaros-y-caballeros/</guid>
+      <description>&lt;p&gt;Los ingleses tienen una expresión: &lt;em&gt;&amp;ldquo;el rugby es un deporte para&#xA;bárbaros, que lo juegan los caballeros, mientras que el fútbol es un&#xA;deporte para caballeros, que lo juegan los bárbaros&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Con respecto a los lenguajes de programación, me parece que Java es como&#xA;el rugby, y C# el equivalente al fútbol.&lt;/p&gt;&#xA;&lt;p&gt;Por su parte, los ingleses que juegan cricket, alegan que: &lt;em&gt;&amp;ldquo;el&#xA;cricket es un deporte para caballeros que lo juegan los caballeros&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El fin de la conversación</title>
+      <link>http://localhost:1313/posts/2010/el-fin-de-la-conversacion/</link>
+      <pubDate>Mon, 25 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/el-fin-de-la-conversacion/</guid>
+      <description>&lt;p&gt;Los iPhone, iPods, iPads y otros dispositivos similares son altamente&#xA;regresivos, nos llevan de vuelta hacia el mundo del consumo pasivo, como&#xA;la televisión, me extraña que Clay Shirky no haya dicho nada aún (quizás&#xA;ya lo ha dicho y no me he enterado).&lt;/p&gt;&#xA;&lt;p&gt;Todo ese &lt;a href=&#34;http://localhost:1313/blog/2008/05/gin-television-y-superavit-social.html&#34;&gt;superavit cognitivo&lt;/a&gt;&#xA;que hay se va a evaporar por culpa de estos dispositivos, y Apple será&#xA;el principal culpable.&lt;/p&gt;&#xA;&lt;p&gt;Y si no logro convencerlos, &lt;a href=&#34;http://www.dilbert.com/blog/entry/the_amazingness_of_instant/&#34;&gt;déjenme citar a Scott Adams&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

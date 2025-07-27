@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingeniería De Software on La Naturaleza del Software</title>
+    <link>http://localhost:1313/categories/ingenier%C3%ADa-de-software/</link>
+    <description>Recent content in Ingeniería De Software on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 04 Oct 2020 09:48:32 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ingenier%C3%ADa-de-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esa Complejidad que tu jefe ignora</title>
+      <link>http://localhost:1313/posts/2020/2020-10-04-esa-complejidad-que-tu-jefe-ignora/</link>
+      <pubDate>Sun, 04 Oct 2020 09:48:32 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-10-04-esa-complejidad-que-tu-jefe-ignora/</guid>
+      <description>&lt;p&gt;Hay una metáfora muy adecuada para describir lo que ocurre en muchas empresas con respecto a la visión que tienen quienes las dirigen. Se habla del &amp;ldquo;Efecto Iceberg&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Se sabe que cuando miramos un iceberg sólo vemos una parte, la que está sobre la superficie que corresponde apenas a un décimo del tamaño real del bloque de hielo.&lt;/p&gt;&#xA;&lt;p&gt;Ernest Hemmingway, el famoso escritor norteamericano, acuñó el concepto de la &lt;a href=&#34;https://es.wikipedia.org/wiki/Teor%C3%ADa_del_iceberg&#34;&gt;Teoría del Iceberg&lt;/a&gt;, también conocida como Teoría de la Omisión&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manos a la obra</title>
+      <link>http://localhost:1313/posts/2020/2020-05-23-manos-a-la-obra/</link>
+      <pubDate>Sat, 23 May 2020 11:43:22 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-05-23-manos-a-la-obra/</guid>
+      <description>&lt;p&gt;En estos días de pandemia, de trabajo remoto y cuarentena, junto con cambiar varios de hábitos, hemos compartido mucho más tiempo con nuestras familias. Lo que es el lado positivo de toda esta situación.&lt;/p&gt;&#xA;&lt;p&gt;Entre esas actividades compartidas está el ver programas de televisión. Era muy raro que en mi casa prendieramos la TV para ver algún canal de cable, pero en estos días además de mantenernos informados, buscamos algo de distracción.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

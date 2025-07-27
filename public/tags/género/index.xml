@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Género on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/g%C3%A9nero/</link>
+    <description>Recent content in Género on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Jul 2022 12:37:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/g%C3%A9nero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Margaret Hamilton, la primera SRE</title>
+      <link>http://localhost:1313/posts/2022-07-24-margaret-hamilton/</link>
+      <pubDate>Sun, 24 Jul 2022 12:37:33 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2022-07-24-margaret-hamilton/</guid>
+      <description>&lt;p&gt;Hace unas semanas fui invitado al &lt;a href=&#34;https://algoritmo.buzzsprout.com&#34;&gt;podcast &amp;ldquo;Había una vez un Algoritmo&amp;rdquo;&lt;/a&gt; de &lt;a href=&#34;https://camilochs.github.io/web/&#34;&gt;Camilo Chacón Sartori&lt;/a&gt; (&#xA;pueden escuchar la entrevista en este link: &lt;a href=&#34;https://algoritmo.buzzsprout.com/758831/10810042)&#34;&gt;https://algoritmo.buzzsprout.com/758831/10810042)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante la entrevista Camilo me preguntó por algún personaje, del mundo de la informática, que admirara. Y ponderando diversas alternativas  expresé mi admiración creciente por &lt;a href=&#34;https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)&#34;&gt;Margaret Hamilton&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Me resultó curioso que Camilo expresara que no sabía mucho sobre ella, pero la verdad es que es casi seguro que quienes sepan algo de Margaret Hamilton sea en relación a esta fotografía:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diversidad en el Desarrollo de Software: ¡estamos muy mal!</title>
+      <link>http://localhost:1313/posts/2020/2020-05-31-demografia-de-los-desarrolladores/</link>
+      <pubDate>Sun, 31 May 2020 11:20:51 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-05-31-demografia-de-los-desarrolladores/</guid>
+      <description>&lt;p&gt;El 27 de mayo el popular sitio StackOverflow publicó los resultados de su &lt;a href=&#34;https://insights.stackoverflow.com/survey/2020&#34;&gt;encuesta para desarrolladores de software 2020&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;StackOverflow&lt;/a&gt; es un sitio muy popular en el mundo del desarrollo de software, para quienes no lo conozcan se trata de un foro abierto de preguntas y respuestas, desarrollado en 2008,  por &lt;a href=&#34;https://blog.codinghorror.com/&#34;&gt;Jeff Attwood&lt;/a&gt; y &lt;a href=&#34;https://www.joelonsoftware.com/&#34;&gt;Joel Spolsky&lt;/a&gt;, dos famosos e influyentes bloggers especialistas en TI,&lt;/p&gt;&#xA;&lt;p&gt;La idea original era crear un sitio de preguntas y respuestas para desarrolladores de software, que usara un mecanismo de reputación y reconocimiento para determinar la mejor respuesta. Con el tiempo el sitio se convirtió en una referencia muy usada por desarrolladores de todo el mundo, quienes acuden a este sitio para encontrar respuestas a sus problemas más habituales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Profesión sólo para hombres</title>
+      <link>http://localhost:1313/posts/2016/profesion-solo-para-hombres/</link>
+      <pubDate>Sat, 23 Jul 2016 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2016/profesion-solo-para-hombres/</guid>
+      <description>&lt;p&gt;Supe de una joven cuyo padre le prohibió estudiar ingeniería informática&#xA;por ser una &amp;ldquo;carrera sólo para hombres&amp;rdquo;. Por desgracia, esta&#xA;percepción errada sigue aferrada en la mente de muchas personas y peor&#xA;aún, en la mente de muchos de mis colegas.&lt;/p&gt;&#xA;&lt;p&gt;Miren este gráfico, obtenido &lt;a href=&#34;//blog.cleancoder.com/uncle-bob/2016/01/15/Manhandled.html&#34;&gt;del blog de Bob Martin (Uncle&#xA;Bob)&lt;/a&gt;, que&#xA;muestra la participación femenina en distintas carreras, incluyendo&#xA;computación.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;//d2dspjyoh5c79p.cloudfront.net/15d82cb1-50ff-11e6-aecf-c1145ad981b8-aa9f18b7&#34;&#xA;    alt=&#34;¿qué pasó con la participación de mujeres en computación?&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;¿qué pasó con la participación de mujeres en computación?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vista on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/vista/</link>
+    <description>Recent content in Vista on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 31 Jan 2007 10:18:36 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vista/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bella Vista</title>
+      <link>http://localhost:1313/posts/2007/bella-vista/</link>
+      <pubDate>Wed, 31 Jan 2007 10:18:36 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2007/bella-vista/</guid>
+      <description>&lt;p&gt;Mi oficina queda ubicada en la Avenida Los Conquistadores, por una razón que no alcanzo a comprender, en Santiago las calles cada tanto cambian de nombre. Así que esta Avenida Los Conquistadores pasa a llamarse BellaVista al acercarse a Plaza Italia, el punto más importante de Santiago.&lt;/p&gt;&#xA;&lt;p&gt;Claro, porque Plaza Italia es para los santiaguinos como la Plaza de La Cibeles, o La Puerta del Sol para los madrileños. Cuando se celebra un triunfo deportivo o un evento político las masas se reunen en Plaza Italia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

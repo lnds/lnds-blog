@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maldad on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/maldad/</link>
+    <description>Recent content in Maldad on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 17 Dec 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/maldad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El problema con la mentira</title>
+      <link>http://localhost:1313/posts/2017/el-problema-con-la-mentira/</link>
+      <pubDate>Sun, 17 Dec 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/el-problema-con-la-mentira/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Miente, miente, que al final algo queda&amp;rdquo; &amp;ndash; Göbels&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En Chile se miente, se miente mucho y descaradamente, sin que hayan&#xA;consecuencias. Todos lo sabemos, y lo dejamos pasar. El problema con&#xA;aceptar la mentira, así sin más, es que el costo lo absorbemos todos&#xA;como sociedad. &lt;/p&gt;&#xA;&lt;p&gt;Siempre que pienso en la mentira vuelvo a Samuel Clemens, el escritor&#xA;norteamericano conocido como Mark Twain. Reflexionando sobre su obra&#xA;&amp;ldquo;Huckleberry Finn&amp;rdquo;, este autor dice:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Las leyes fundamentales de la estupidez humana</title>
+      <link>http://localhost:1313/posts/2017/las-leyes-fundamentales-de-la-estupidez-humana/</link>
+      <pubDate>Sun, 26 Nov 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/las-leyes-fundamentales-de-la-estupidez-humana/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Contra la estupidez, los propios dioses luchan en vano&amp;rdquo;&#xA;&amp;ndash; Friedrich von Schiller&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Cuantas veces nos encontramos con actos estúpidos en nuestro día a día?&#xA;Me pasó con un encargo que debió llegar por correo el día 4 de&#xA;noviembre, el paquete, que venía desde el extranjero, estaba en el país&#xA;desde hacía dos días, fue imposible lograr agilizar el despacho,&#xA;finalmente el día 13 en la tarde la encomienda llegó a nuestra casa.&#xA;Pero lo más ridículo fue que el día 25 de noviembre recibo un email de&#xA;Correos de Chile informándome que mi encargo fue entregado el día 14!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

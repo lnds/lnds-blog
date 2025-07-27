@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Próceres on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/pr%C3%B3ceres/</link>
+    <description>Recent content in Próceres on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 15 Jun 2012 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pr%C3%B3ceres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El mundo es concurrente...</title>
+      <link>http://localhost:1313/posts/2012/el-mundo-es-concurrente/</link>
+      <pubDate>Fri, 15 Jun 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/el-mundo-es-concurrente/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;joe_armstrong.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El mundo es concurrente Las cosas en el mundo no comparten datos&lt;br&gt;&#xA;Las cosas se comunican con mensajes&lt;br&gt;&#xA;Las cosas fallan&amp;quot;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;quot;The world is concurrent&lt;br&gt;&#xA;Things in the world don&#39;t share data&lt;br&gt;&#xA;Things communicate with messages&lt;br&gt;&#xA;Things fail&amp;quot;&lt;br&gt;&#xA;&amp;ndash; Joe Armstrong&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Calidad, Corrección y Elegancia una entrevista a Dijkstra</title>
+      <link>http://localhost:1313/posts/2009/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra/</link>
+      <pubDate>Sat, 03 Mar 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra/</guid>
+      <description>&lt;p&gt;Les dejo &lt;a href=&#34;https://www.youtube.com/watch?v=mLEOZO1GwVc&#34;&gt;este video&lt;/a&gt; con&#xA;una entrevista a Edsger Dijkstra (premio Turing 1972, fallecido en&#xA;agosto de 2002).&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mLEOZO1GwVc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Vint Cerf</title>
+      <link>http://localhost:1313/posts/2011/vint-cerf/</link>
+      <pubDate>Mon, 21 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/vint-cerf/</guid>
+      <description>&lt;p&gt;En 1963 Joseph Licklider escribió su famoso memorandum, ¿lo recuerdan?&#xA;¿no? bueno, la historia la conté en &lt;a href=&#34;http://localhost:1313/blog/2011/01/el-memorandum.html&#34;&gt;este post&lt;/a&gt;. Su idea era&#xA;crear la &amp;ldquo;red intergaláctica de computadoras&amp;rdquo;, el era el hombre del&#xA;sueño. Leonard Kleinrock, el chico que quería un condensador para&#xA;construir la radio que salía en la contratapa del comic Superman&#xA;(&lt;a href=&#34;http://localhost:1313/blog/2008/04/todo-por-un-condensador-variable.html&#34;&gt;la historia está aquí&lt;/a&gt;),&#xA;nos dió la teoría matemática para poder construir una red basada en&#xA;packet switching, el fue el hombre de la teoría. Después Lawrence&#xA;Roberts dirigió al equipo que construyó ARPANET, la red predecesora de&#xA;internet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DMR</title>
+      <link>http://localhost:1313/posts/2011/dmr/</link>
+      <pubDate>Thu, 13 Oct 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/dmr/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/2011/dmr/1997_dennis_ritchie.jpg&#34;&#xA;    alt=&#34;Dennis MacAlistair Ritchie&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Dennis MacAlistair Ritchie&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;&amp;ldquo;C is quirky, flawed, and an enormous success.&amp;rdquo; - Dennis Ritche&lt;/p&gt;&#xA;&lt;p&gt;C es el lenguaje madre de todos los lenguajes de programación que&#xA;importan hoy en día.Si fueramos linguistas C sería como el&#xA;&lt;a href=&#34;http://es.wikipedia.org/wiki/Idioma_protoindoeuropeo&#34;&gt;protoindoeuropeo&lt;/a&gt;,&#xA;la teorica lengua que dio origen al sanscrito, el griego antiguo, el&#xA;germánico, el latín, y de ahí las lenguas romances...&lt;/p&gt;&#xA;&lt;p&gt;Conozco muchos lenguajes de programación, y he escrito miles de lineas&#xA;de código desde assembler hasta Groovy, pero mi &lt;em&gt;lenguaje matriz&lt;/em&gt; es C,&#xA;a pesar de que aprendí Ratfor, y Pascal antes. Hace poco escribí en mi&#xA;trabajo un programita en C que convirtió un proceso de 4 horas en una&#xA;tarea de segundos. No es que C sea rápido en si mismo, lo que pasa es&#xA;que  C me enseño a programar en forma disciplinada, porque debes ser muy&#xA;ordenado para escribir bien en este lenguaje, porque estás muy cerca de&#xA;la plataforma, de ahí proviene su poder.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alan Kay</title>
+      <link>http://localhost:1313/posts/2010/alan-kay/</link>
+      <pubDate>Wed, 26 May 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/alan-kay/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;AlanwithBorysGuitarCroppedAndSmaller.JPG&#34; alt=&#34;AlanwithBorysGuitarCroppedAndSmaller.JPG&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;El 17 de mayo de 2010 Alan Kay cumplió 70 años, y sus amigos le regalaron&#xA;&lt;a href=&#34;http://vpri.org/pov/&#34;&gt;un libro de ensayos&lt;/a&gt;, escritos por amigos de él y&#xA;gente que ha trabajado con él en distintos campos. Alan Kay es un&#xA;verdadero polímata, un artista, en el sentido descrito por&#xA;&lt;a href=&#34;https://es.wikipedia.org/wiki/Leon_Battista_Alberti&#34;&gt;Leon Batista Alberti&lt;/a&gt;:&#xA;&lt;em&gt;&amp;quot;.. el&#xA;artista en este contexto social no debe ser un simple artesano, sino un&#xA;intelectual preparado en todas las disciplinas y en todos los&#xA;terrenos.&amp;quot;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>James Randi, una lección de escepticismo</title>
+      <link>http://localhost:1313/posts/2010/james-randi-una-lecci%C3%B3n-de-escepticismo/</link>
+      <pubDate>Sun, 23 May 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/james-randi-una-lecci%C3%B3n-de-escepticismo/</guid>
+      <description>&lt;p&gt;Hace varios años atrás vi este documental de James Randi, y me gustó&#xA;mucho, se llama Más Allá de la Ciencia, y muestra muy bien lo que hace&#xA;James Randi. Los invito a verlo ahora que se puede ver a través de&#xA;youtube:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/koqIDFQK098?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Recuerden esto cuando lean o vean noticias sobre síquicos buscando a la&#xA;gente perdida en el terremto, por ejemplo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Martin Gardner</title>
+      <link>http://localhost:1313/posts/2010/martin-gardner/</link>
+      <pubDate>Sun, 23 May 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/martin-gardner/</guid>
+      <description>&lt;p&gt;Martin Gardner falleció ayer a la edad de 96 años. Para los que no lo&#xA;conocen, Gardner fue un gran divulgador cientifico, famoso por su&#xA;columna sobre matemáticas recreativas publicadas en la revista&#xA;Scientific&#xA;American.&lt;img src=&#34;Martin_Gardner.jpeg&#34; alt=&#34;Martin_Gardner.jpeg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Su principal aporte fue su lucha permanente en contra de los fraudes&#xA;seudo científicos. &lt;a href=&#34;http://localhost:1313/blog/2010/03/james-randi-una-leccion-de-escepticismo.html&#34;&gt;James Randi&lt;/a&gt;&#xA;le dedica &lt;a href=&#34;http://www.randi.org/site/index.php/swift-blog/995-my-world-is-a-little-darker.html&#34;&gt;un sentido homenaje en su blog&lt;/a&gt;.&#xA;Sin duda es una gran pérdida para la divulgación de la ciencia y los&#xA;movimientos escépticos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La primera analista de sistemas</title>
+      <link>http://localhost:1313/posts/2009/la-primera-analista-de-sistemas/</link>
+      <pubDate>Sat, 17 Jan 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-primera-analista-de-sistemas/</guid>
+      <description>&lt;p&gt;No se si ustedes sabían, pero la primera analista de sistemas, y&#xA;programadora, fue una mujer, la condesa &lt;a href=&#34;http://www.sdsc.edu/ScienceWomen/lovelace.html&#34;&gt;Ada Lovelace&lt;/a&gt;, hija del famoso poeta inglés, Lord Byron.&lt;/p&gt;&#xA;&lt;p&gt;Ella estudió los diseños de la máquina que Charles Babbage quería&#xA;construir, la famosa Máquina Analítica. Ella entendió tan bien el&#xA;dispositivo de Babbage que pudo articular mucho mejor que el inventor la&#xA;promesa de esta nueva máquina. Ella se dió cuenta que esta era lo que&#xA;hoy llamaríamos un computador de propósito general, capaz de&#xA;&amp;ldquo;desarrollar y tabular cualquier función... la máquina es la expresión&#xA;material de cualquier función indefinida de cualquier grado de&#xA;generalidad y complejidad&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Todo por un condensador variable</title>
+      <link>http://localhost:1313/posts/2008/todo-por-un-condensador-variable/</link>
+      <pubDate>Fri, 18 Jan 2008 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2008/todo-por-un-condensador-variable/</guid>
+      <description>&lt;p&gt;Esta fotografía corresponde a Leonard Kleinrock, al lado del IMP1,&#xA;Interface Message Processor, uno de los nodos de packet switching usados&#xA;en ARPANET, la antecesora de Internet.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;imp1-thumb-200x257.gif&#34; alt=&#34;imp1.gif&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La historia cuenta que el pequeño Len Kleinrock recibió un ejemplar&#xA;del comic de Superman, en el cual encuentra las instrucciones para&#xA;construir una &amp;ldquo;radio de cristal&amp;rdquo;. Todo lo que necesitaba el niño era&#xA;una hoja de afeitar usada de su papá, una poco de grafito (de lapiz),&#xA;un rollo de papel higiénico vació, alambre, todos lo cual ya estaba en&#xA;su casa. Incluso pudo conseguir unos viejos audífonos, pero faltaba un&#xA;&amp;ldquo;condensador variable&amp;rdquo;. Para conseguirlo convenció a su madre de&#xA;viajar al centro de Manhattan a una tienda de radio y electrónica.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

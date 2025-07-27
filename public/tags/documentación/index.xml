@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentación on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/documentaci%C3%B3n/</link>
+    <description>Recent content in Documentación on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Tue, 22 Jan 2008 10:57:44 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/documentaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Misterio de las Pirámides</title>
+      <link>http://localhost:1313/posts/2008/el-misterio-de-las-piramides/</link>
+      <pubDate>Tue, 22 Jan 2008 10:57:44 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/el-misterio-de-las-piramides/</guid>
+      <description>&lt;p&gt;&lt;em&gt;El misterio de la construcción de las pirámides no sería tal, si los ingenieros de ese tiempo hubieran dejado la documentación adecuada.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;piramides.jpeg&#34; alt=&#34;piramides.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

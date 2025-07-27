@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Seguridad y oportunidad | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2012/seguridad-y-oportunidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Seguridad y oportunidad">
+  <meta property="og:description" content="En 2005 publiqué una prueba de concepto que mostraba lo vulnerable que es MD5 para ser usado como “firma digital”, en 2007 Peter Selinger basándose en mi trabajo crea un mecanimos para automatizar el proceso de generar firmas falsas. En 2009 comenté que la vulnerabilidad seguía ahí. Y estamos en 2012 y aún MD5 está disponible y sigue siendo usado para generar claves y como mecanismo de firma electrónica. Incluso todavía sigue siendo recomendado por instituciones gubernamentales como mecanismo de verificación de integridad de archivos. De hecho hay muchos más usos de este algoritmo en distintos protocolos usados en diversos ambientes productivos en nuestro país.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2012-02-24T08:25:11-03:00">
+    <meta property="article:modified_time" content="2012-02-24T08:25:11-03:00">
+    <meta property="article:tag" content="Seguridad">
+    <meta property="article:tag" content="Md5">
+    <meta property="article:tag" content="Criptografía">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Seguridad y oportunidad">
+  <meta name="twitter:description" content="En 2005 publiqué una prueba de concepto que mostraba lo vulnerable que es MD5 para ser usado como “firma digital”, en 2007 Peter Selinger basándose en mi trabajo crea un mecanimos para automatizar el proceso de generar firmas falsas. En 2009 comenté que la vulnerabilidad seguía ahí. Y estamos en 2012 y aún MD5 está disponible y sigue siendo usado para generar claves y como mecanismo de firma electrónica. Incluso todavía sigue siendo recomendado por instituciones gubernamentales como mecanismo de verificación de integridad de archivos. De hecho hay muchos más usos de este algoritmo en distintos protocolos usados en diversos ambientes productivos en nuestro país.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Seguridad y oportunidad</h1><time class="dim" datetime="2012-02-24T08:25:11-03:00">February 24, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/seguridad/">#seguridad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/md5/">#md5</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/criptograf%C3%ADa/">#criptografía</a>
+      </div></ol></div>
+  <section class="page-section"><p>En 2005 <a href="http://it.slashdot.org/story/05/09/23/0618252/practical-exploits-of-broken-md5-algorithm">publiqué</a>
+una <a href="http://www.codeproject.com/Articles/11643/Exploiting-MD5-collisions-in-C">prueba de concepto</a>
+que mostraba lo vulnerable que es MD5 para ser usado como &ldquo;firma
+digital&rdquo;, en 2007 <a href="http://www.mathstat.dal.ca/~selinger/md5collision/">Peter Selinger</a> basándose
+en mi trabajo crea un mecanimos para automatizar el proceso de generar
+firmas falsas. En <a href="/blog/2009/01/md5-las-vulnerabilidades-siguen-ahi.html">2009 comenté</a>
+que la vulnerabilidad seguía ahí. Y estamos en 2012 y aún MD5 está
+disponible y sigue siendo usado para generar claves y como mecanismo de
+firma electrónica. Incluso todavía sigue siendo recomendado por
+instituciones gubernamentales como mecanismo de verificación de
+integridad de archivos. De hecho hay muchos más usos de este algoritmo
+en distintos protocolos usados en diversos ambientes productivos en
+nuestro país.</p>
+<p>Sabemos desde hace años que la firma MD5 puede ser a duplicada,
+técnicamente esto se llama una colisión, de modo que podemos reemplazar
+el archivo original por un archivo distinto y la firma se va a mantener
+intacta.</p>
+<p>¿Por qué sigue usándose este algoritmo de hash, siendo que está archi
+demostrado que es vulnerable?</p>
+<p>Razones hay muchas, por ejemplo, es muy dificil cambiar una normativa.
+Muchas veces implementar  esa modificación puede tener un costo total
+para  la industria altísimo, y probablemente es más sencillo implementar
+mecanismos alternativos, u otras capas de seguridad que permitan mitigar
+el riesgo. (Lo malo que en el caso chileno, muchas de esas normativas se
+crearon alreededor de 2008, ¡3 años después de que estas
+vulnerabilidades quedaran expuestas!, de  esto sólo hay que culpar al
+poco rigor técnico de los autores de estas normas).</p>
+<p>¿Desaparecerá el uso de MD5 alguna vez? Es difícil saber, pero sospecho
+que mientras estén allí disponibles esas funciones, se seguirá usando.</p>
+<p>En <a href="/blog/2009/01/md5-las-vulnerabilidades-siguen-ahi.html">mi post de 2009</a>
+comentaba como Ben Laurie, fundador de Apache, y miembro del core de
+OpenSSL, estaba considerando eliminar estas funciones de ese proyecto,
+pero que era muy dificil hacerlo sin romper SSL y TLS. Otra alternativa
+era cambiar el nombre a las funciones, para que de ese modo disminuyera
+su uso. Bueno, han pasado más de 3 años y no se ha hecho nada. Incluso
+el repositorio de openssl sigue usando MD5 como signature para sus
+archivos (claro que también incorporan sha-1).</p>
+<p>En 2005 yo estaba ocupado e interesado en este tipo de problemas,
+después de todo mi negocio en ese tiempo tenía que ver con sistemas de
+verificación de identidad. Fue en ese tiempo que investigué este asunto
+ y contribuí en la difusión del problema. Hoy estoy dedicado a otros
+temas, y tengo muy poco tiempo para investigar sobre criptografía
+(aunque el tema es apasionante). Escribo este post porque quiero decir
+que entiendo la frustración de muchas personas preocupadas de la
+seguridad informática, que ven como sus descubrimientos no son
+considerados por los desarrolladores, o las instituciones.</p>
+<p>Lo que se debe entender, en mi opinión, es que no hay desinterés por
+parte de los desarrolladores. El ejemplo del caso de Ben Laurie es
+significativo. Los desarrolladores pueden estar conscientes del
+problema, pero muchas veces es muy dificil, y a veces simplemente no es
+práctico llevar a cabo un cambio. Es probable que en 3 años más vuelva a
+escribir sobre esto y MD5 va a seguir vivito y coleando, a pesar de <a href="http://www.eweek.com/c/a/Security/Microsoft-Scraps-Old-Encryption-in-New-Code/">los
+intentos que se han hecho por
+matarlo</a>.</p>
+<p>Hay mil factores que explican la aparente desidia ante estos temas, pero
+si uno se pusiera a analizar internamente, si conociera la estructura
+interna, o la política interna de estas organizaciones entendería que
+muchas veces cuesta  mover los recursos, o que hay muchas prioridades
+antes. Por eso es que a veces los &ldquo;shocks&rdquo; tienen éxito, no es que la
+gente de esas organizaciones no quiera arreglar los problemas, pero
+cuando ocurre un incidente grave, que expone públicamente la
+vulnerabilidad las organizaciones corren para arreglarla. Lo malo es que
+esa doctrina de choque estresa a la organización, pospone otros
+proyectos. Esa es la razón por la que no me gusta ese modo de exponer
+riesgos, a la larga es destructivo.</p>
+<p>Por otro lado, las organizaciones deben invertir en educar a sus cuadros
+técnicos para incorporar la seguridad desde el principio en el
+desarrollo. En este sentido hay que explicar a la dirección de la
+empresa de la importancia, y del valor que tiene este tipo de
+soluciones. Pero debemos recordar que finalmente &ldquo;money talks&rdquo;, si el
+costo del riesgo multiplicado por la probabilidad de que ocurra es baja,
+entonces muchas veces las empresas optarán por otro mecanismo, para
+utilizar los recursos en otros elementos que aporten más valor a los
+negocios. Lo que un desarrollador, y un asesor de seguridad deben
+entender son los conceptos básicos de microeconomía, siempre está <strong>el
+costo de oportunidad</strong>.</p>
+<p>Si quiere vender seguridad, aprenda del negocio, su mensaje será mejor
+recibido.</p>
+<p>Por mi parte, realmente espero que este sea el último post sobre MD5 de
+este blog, pero sospecho que no va a ser así.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>798 words</span>
+    <span>4 - 6 minutes read</span></div><h3>Related</h3>
+    <ul><li><a href="/post/2009/md5-las-vulnerabilidades-siguen-ahi/">MD5: las vulnerabilidades siguen ahí</a></li><li><a href="/post/2007/mi-mayor-aporte-a-la-seguridad-informatica/">Mi mayor aporte a la seguridad informática</a></li><li><a href="/post/2005/usando-one-way-hash/">Usando one-way hash</a></li><li><a href="/post/2005/integrar-o-desarrollar/">¿Integrar o Desarrollar? </a></li><li><a href="/post/2005/adios-a-sha-1/">Adios a SHA-1</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

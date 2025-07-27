@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>¿Por qué falla el Software? | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2007/por-que-falla-el-software/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="¿Por qué falla el Software?">
+  <meta property="og:description" content="Leía la interesante nota de Christian los problemas que provoca OOXML, y encontré un comentario que me llamó la atención:
+pareciera que Microsoft hubiera acostumbrado a los usuarios a que los programas fallan, mucho y es normal.
+La verdad, es que como cualquier cosa hecha por el hombre, el software no está libre de errores. Pero pareciera que la calidad del software, comparado con otras construcciones humanas, es pésima. Algunos dirán que en el caso de Microsoft es aún peor.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2007-08-20T20:16:35+00:00">
+    <meta property="article:modified_time" content="2007-08-20T20:16:35+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="¿Por qué falla el Software?">
+  <meta name="twitter:description" content="Leía la interesante nota de Christian los problemas que provoca OOXML, y encontré un comentario que me llamó la atención:
+pareciera que Microsoft hubiera acostumbrado a los usuarios a que los programas fallan, mucho y es normal.
+La verdad, es que como cualquier cosa hecha por el hombre, el software no está libre de errores. Pero pareciera que la calidad del software, comparado con otras construcciones humanas, es pésima. Algunos dirán que en el caso de Microsoft es aún peor.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>¿Por qué falla el Software?</h1><time class="dim" datetime="2007-08-20T20:16:35&#43;00:00">August 20, 2007</time></div>
+  <section class="page-section"><p>Leía la interesante nota de Christian los problemas que provoca OOXML, y encontré un comentario que me llamó la atención:</p>
+<p>pareciera que Microsoft hubiera acostumbrado a los usuarios a que los programas fallan, mucho y es normal.</p>
+<p>La verdad, es que como cualquier cosa hecha por el hombre, el software no está libre de errores.
+Pero pareciera que la calidad del software, comparado con otras construcciones humanas, es pésima.
+Algunos dirán que en el caso de Microsoft es aún peor.</p>
+<p>¿Acaso el software es tan complejo que su tasa de errores siempre será mayor?</p>
+<p>La realidad es que no.</p>
+<p>El software puede construirse libre de fallas. Cuando decimos libre de fallas, queremos decir que la tasa de errores es tan baja como en otras actividades humanas, incluso más.</p>
+<h2 id="software-correcto-y-software-libre-de-errores">Software correcto y software libre de errores</h2>
+<blockquote>
+<p>&ldquo;Beware of bugs in the above code; I have only proved it correct, not tried it.&rdquo;
+&ndash; Donald Knuth</p></blockquote>
+<p>Existen métodos formales (es decir, matemáticos) que permiten demostrar que una pieza de software es correcta. Estos método por supuesto son trabajosos, pero se han hecho avances para automatizar estos problemas.</p>
+<p>Muchos lenguajes de programación contienen una serie de directivas que permiten demostrar que el software es correcto de acuerdo a las especificaciones.</p>
+<p>Esto no significa que el software esté libre de fallos, porque pueden pasar varias cosas.</p>
+<p>El hardware puede tener alguna falla.
+Los recursos necesarios no están disponibles, por ejemplo, no hay suficiente memoria RAM porque está siendo usada por otro proceso, o el espacio en disco no es suficiente.
+El software fue dimensionado para cierta carga de trabajo, y los usuarios han decidido aumentar las demandas sobre el mismo.
+Y un largo etcétera.</p>
+<p>Pero, ¿si uno puede establecer esta lista de posibles fallas a a priori, qué nos impide tomar las medidas para evitar estas fallas?</p>
+<p>La verdad es que nada.</p>
+<h2 id="errores-aceptables">Errores aceptables</h2>
+<p>Cada vez que nos encontramos ante una falla, estamos aprendiendo algo nuevo, algo que no sabíamos sobre el sistema.</p>
+<p>Esta ignorancia puede originarse porque no fuimos rigurosos en el análisis de requerimientos, o porque nadie conocía las condiciones que provocaron el fallo.</p>
+<p>Los errores revelan nueva información sobre el sistema. La corrección del bug es responder a una nueva pregunta que nos plantea el sistema.</p>
+<p>El único bug aceptable es aquel que nos revela algo que no sabíamos, todos los demás se pueden prevenir, ya sea programando en forma defensiva, o manejando las excepciones de manera adecuada.</p>
+<p>Cada vez que enfrentamos la corrección de un bug debemos realizar las pruebas de regresión adecuadas, agregar nuevos tests, que nos permitan asegurar que si arreglamos un bug no dejemos sin funcionar algo que estaba bien.</p>
+<p>Entonces ¿por qué falla tanto el software?</p>
+<p>Los usuarios han sido engañados todo este tiempo, el software no es más complejo que construir edificios, o automóviles.</p>
+<p>Lo que pasa es que los equipos de desarrollo del software comercial sufren de una serie de presiones del mercado que hacen que no se hagan todas las pruebas exhaustivas.</p>
+<p>Se insiste en sacar nuevas versiones anualmente, que agregan más y más características al software.
+Mientras más grande y complejo el software, más puntos de falla puede tener.</p>
+<p>La verdad, es que el software bien hecho no debería tener fallas.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>539 words</span>
+    <span>3 - 3 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#software-correcto-y-software-libre-de-errores">Software correcto y software libre de errores</a></li>
+    <li><a href="#errores-aceptables">Errores aceptables</a></li>
+  </ul>
+</nav></aside></div>
+  </div>
+</body>
+</html>

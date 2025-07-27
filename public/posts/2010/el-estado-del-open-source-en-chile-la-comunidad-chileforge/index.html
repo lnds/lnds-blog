@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>El estado del open source en Chile, la comunidad ChileForge | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="El estado del open source en Chile, la comunidad ChileForge">
+  <meta property="og:description" content="“Talk is cheap, show me the code” (hablar es barato, muéstrame el código) dice Linus Torvalds.
+Recientemente Marco Zúñiga ha levantado un desafío, un test de blancura para la comunidad open source chilena, la idea es poner a prueba lo que dice Linus Torvalds, si en realidad estas comunidades pasan del discurso a la acción.
+Resulta que hace unas semanas atrás decidí investigar los repositorios open source que tenemos en el país, principalmente motivado por un curioso incidente ocurrido con el sitio ChileForge (más antecedentes acá). Así que decidí revisar que es lo que había pasado con esta comunidad, y emprendí un análisis del repositorio ChileForge, A continuación comparto con ustedes el resultado. Creo que es un buen antecedente para aportar al debate sobre la viabilidad del open source en Chile, o al menos para los que están interesados en cobrarle la cena a Marco, ya sabrán donde no buscar ;)">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2010-09-19T08:25:11-03:00">
+    <meta property="article:modified_time" content="2010-09-19T08:25:11-03:00">
+    <meta property="article:tag" content="Opensource">
+    <meta property="article:tag" content="Chile">
+    <meta property="article:tag" content="Tecnología">
+    <meta property="article:tag" content="Software">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="El estado del open source en Chile, la comunidad ChileForge">
+  <meta name="twitter:description" content="“Talk is cheap, show me the code” (hablar es barato, muéstrame el código) dice Linus Torvalds.
+Recientemente Marco Zúñiga ha levantado un desafío, un test de blancura para la comunidad open source chilena, la idea es poner a prueba lo que dice Linus Torvalds, si en realidad estas comunidades pasan del discurso a la acción.
+Resulta que hace unas semanas atrás decidí investigar los repositorios open source que tenemos en el país, principalmente motivado por un curioso incidente ocurrido con el sitio ChileForge (más antecedentes acá). Así que decidí revisar que es lo que había pasado con esta comunidad, y emprendí un análisis del repositorio ChileForge, A continuación comparto con ustedes el resultado. Creo que es un buen antecedente para aportar al debate sobre la viabilidad del open source en Chile, o al menos para los que están interesados en cobrarle la cena a Marco, ya sabrán donde no buscar ;)">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>El estado del open source en Chile, la comunidad ChileForge</h1><time class="dim" datetime="2010-09-19T08:25:11-03:00">September 19, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/opensource/">#opensource</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/chile/">#Chile</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/tecnolog%C3%ADa/">#tecnología</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/software/">#software</a>
+      </div></ol></div>
+  <section class="page-section"><p>&ldquo;Talk is cheap, show me the code&rdquo; (hablar es barato, muéstrame el
+código) <a href="http://lkml.org/lkml/2000/8/25/132">dice Linus Torvalds</a>.</p>
+<p>Recientemente Marco Zúñiga ha levantado un desafío, un <a href="http://blog.maz.cl/2010/09/test-acido.html">test de blancura
+para la comunidad open source
+chilena</a>, la idea es poner a
+prueba lo que dice Linus Torvalds, si en realidad estas comunidades
+pasan <a href="/blog/2010/09/lo-que-cuenta-es-la-accion-no-las-palabras.html">del discurso a la acción</a>.</p>
+<p>Resulta que hace unas semanas atrás decidí investigar los repositorios
+open source que tenemos en el país, principalmente motivado por un
+<a href="http://groups.google.com/group/liberaciondigital/browse_thread/thread/bc1398b6f9524682/?pli=1">curioso incidente</a>
+ocurrido con el sitio ChileForge (más antecedentes
+<a href="http://www.malware.cl/?p=7364">acá</a>). Así que decidí revisar que es lo
+que había pasado con esta comunidad, y emprendí un  análisis del
+repositorio ChileForge, A continuación comparto con ustedes el
+resultado. Creo que es un buen antecedente para aportar al debate sobre
+la viabilidad del open source en Chile, o al menos para los que están
+interesados en cobrarle la cena a Marco, ya sabrán donde no buscar ;)</p>
+<p><img src="chileforge.gif" alt=""></p>
+<p>Descripción del Sitio, tomada desde su home page:</p>
+<blockquote>
+<p>*&ldquo;ChileForge es un proyecto impulsado por el _*Departamento de
+Ciencia de la Computación de la Pontificia Universidad Católica de
+Chile, que busca aportar a la difusión y desarrollo de software en
+Chile, bajo el modelo Open Source.&rdquo;_</p>
+<p>Fecha Cierre de este análisis: 16 de septiembre de 2010</p></blockquote>
+<p><strong>Resumen</strong>: el 52% de los proyectos ha liberado algún producto, lo que
+no garantiza que sea algo usable. El promedio de desarrolladores por
+proyectos es de 2.2. Desde hace 6 meses que no hay actividad en el
+sitio. Sólo 1 proyecto muestra actividad en el último año, sólo 2
+proyectos muestran actividad en los últimos dos años.</p>
+<p>Antecedentes:</p>
+<p><strong>Usuarios Registrados</strong>: 1.096</p>
+<p><strong>Proyectos Registrados</strong>: 193</p>
+<p><strong>Proyectos Catalogados</strong>: 106</p>
+<p>El análisis se continuó sobre la base de los 106 proyectos catalogados.</p>
+<p><strong>Desarrolladores</strong>: la idea es ver la participación por proyecto, para
+determinar que tan comunitarios son los proyectos.</p>
+<ul>
+<li>
+<p>Total de Desarrolladores: 235</p>
+</li>
+<li>
+<p>Tamaño promedio del equipo: 2.22 [desarrolladores / proyecto]</p>
+</li>
+<li>
+<p>El 58% de los proyectos tienen sólo 1 miembro</p>
+</li>
+<li>
+<p>El 22% de los proyectos tienes sólo 2 miembros</p>
+</li>
+<li>
+<p>La distrubución de desarrolladores por proyecto es la siguiente:</p>
+</li>
+</ul>
+<p>Este gráfico muestra la distribución:</p>
+<p><img src="dist-desarrolladores-chileforge1.png" alt=""></p>
+<p>El eje vertical es la cantidad de proyectos, el horizontal es la
+cantidad de desarrolladores (miembros) inscritos en cada proyecto.</p>
+<p>Los dos proyectos con más usuarios son:</p>
+<ul>
+<li>
+<p>Sistema Centro Médico 2005
+(<a href="http://chileforge.cl/projects/tec/">http://chileforge.cl/projects/tec</a>)
+con 16 miembros, creado el 7 de abril de 2005, y cuyo único archivo
+liberado corresponde a una clase en PHP para enviar mensajes usando
+SMTP (importada de una versión anterior del proyecto
+<a href="http://sourceforge.net/projects/phpmailer/">PHPMailer</a> en
+sourceforge).</p>
+</li>
+<li>
+<p>Rizoma (<a href="http://chileforge.cl/projects/rizoma/">http://chileforge.cl/projects/rizoma/</a>), tiene 15 miembros
+registros, pero es un proyecto que decidió migrar a
+<a href="http://savannah.nongnu.org/p/rizoma">Savannah</a>, al parecer por
+problemas de soporte con ChileForge. Este proyecto al parecer sigue
+vivo (tienen un <a href="http://www.rizoma.cl">blog</a> donde informan que la
+versión 1.0 fue liberada para la FLISoL Santiago 2009).</p>
+</li>
+</ul>
+<p><strong>Madurez de los Proyectos</strong></p>
+<p>El sitio permite catalogar los proyectos según el grado de madurez del
+proyecto, los estados posibles son: Planning (etapa de planificación),
+pre alfa (supongo que en este estado habrá algún prototipo), alfa (una
+primera versión sin mucha depuración), beta (con algunos errores, los
+usuarios ya empiezan a usarlo), production/stable (el proyecto ya está
+en producción), y mature (maduro, es decir, ya el producto se sostiene
+sólo y se aplican mantenciones, o se planifica nuevas versiones). La
+distribución se resume en el siguiente gráfico:</p>
+<p><img src="dist-estado-proyectos-chileforge.png" alt=""></p>
+<p>La clasificación es dudosa, por ejemplo, hay proyectos que han liberado
+código, que se ve bastante usable, pero aparecen como en etapa planning.
+En un caso (<a href="http://chileforge.cl/projects/xanubis/">xanubis</a>), el
+proyecto aparece catalogado como Production/Stable, sin embargo no ha
+liberado ningún archivo, y sólo tiene un mensaje que dice <em>&ldquo;Ya casi
+comenzamos el Proyecto Xanubis&rdquo;</em>.</p>
+<p>Lo interesante es ver cuantos proyectos han liberado algún producto
+(archivos descargables). Para esto contamos aquellos proyectos que
+tenían disponible algún archivo para descargar. Sólo el 52% ha liberado
+algún producto. Pero, insisto que la calidad de estos entregables es
+dudosa, habría que descargar los archivos y analizarlos para dar un
+diagnóstico más preciso de la madurez de los proyectos, de lo poco que
+revise, puedo decir que casi siempre eran archivos que estaban en su
+primera versión, o simplemente algunos archivos anexos (como el caso
+mencionado arriba).</p>
+<p><strong>Control de versiones</strong>: 7  proyectos (7%) no tienen control de
+versiones de ningún tipo, 86 proyectos (81%) tienen configurado CVS,
+pero los repositorios juntan telarañas, pues nunca se han usado. De los
+que quedan (13), el uso es mínimo, con no más de 2 o 3 commits por
+proyecto. En este punto donde más se nota la inmadurez técnica de la
+comunidad ChileForge.</p>
+<p><strong>Actividad</strong></p>
+<p>El 41% (43) de los proyectos se crearon el año 2004, el 28% en 2005. La
+siguiente es la distribución:</p>
+<p><img src="proyecto-per-year-chileforge.png" alt=""></p>
+<p>Para medir el tiempo de vida del proyecto medimos la cantidad de días
+desde que fue creado el proyecto, hasta que fue liberado la versión más
+reciente de cualquier entregable del proyecto. Por ejemplo, el proyecto
+de mayor tiempo de vida (reqadmin), fue inscrito el 30 de mayo de 2005,
+ha liberado 6 archivos, el último corresponde a la versión 0.4 beta con
+fecha 8 de junio de 2008, entre la fecha de inscripción y el último beta
+han pasado 1.105 días (37 meses).</p>
+<p>Usando este criterio, el tiempo de vida promedio es de 7,6 meses, la
+mediana es de 4.5 meses. La distribución del tiempo de vida de los
+proyectos se muestra en este gráfico (expresada en meses):</p>
+<p><img src="vida-proyectos-chileforge.png" alt=""></p>
+<p>La altura de las barras representa la cantidad de proyectos que caen en
+el rango. Los rangos son de 5 meses. Por ejemplo, la primera barra
+indica que 55 proyectos tienen una vida de entre 0 a 5 meses.</p>
+<p>El otro parámetro es ver cuanta actividad ha tenido el proyecto en los
+últimos meses, en este caso lo que medimos es la fecha del último
+producto liberado (el mismo parámetro usado para medir la &ldquo;vida&rdquo; del
+proyecto). En este punto los datos son desalentadores:</p>
+<ul>
+<li>
+<p>Actividad en los últimos 6 meses:  ningún proyecto presenta
+actividad.</p>
+</li>
+<li>
+<p>Actividad en el último año: 1 proyecto</p>
+</li>
+<li>
+<p>Actividad en los últimos 2 años: 2 proyectos</p>
+</li>
+</ul>
+<p>Si medimos las noticias publicadas en portada tenemos que:</p>
+<ul>
+<li>
+<p>Hay 1 noticia de 2010, informando que se ha recuperado el dominio
+Chileforge.cl</p>
+</li>
+<li>
+<p>Una noticia en 2009</p>
+</li>
+<li>
+<p>28 mensajes en 2008</p>
+</li>
+</ul>
+<p><strong>Conclusiones</strong></p>
+<p>ChileForge es  una comunidad con muy poca actividad en los últimos años,
+si bien en sus inicios (2004) mostró un gran impulso, con el tiempo fue
+decayendo su uso, al grado que este año estuvo varios meses inactivo.</p>
+<p>Para ser una comunidad de 6 años, el grado de inactividad es un mal
+indicador. Consideren que las comunidades open source tienen un alto
+grado de participación y actividad
+(<a href="http://sourceforge.net/">Sourceforge</a>, <a href="http://github.com/">GitHub</a>,
+incluso <a href="http://www.codeplex.com/">CodePlex</a>, el repositorio open source
+de Microsoft).</p>
+<p>¿Qué es lo que pasa con ChileForge? ¿Será que los usuarios prefieren
+<em>hostear</em> sus proyectos en los repositorios internacionales? ¿Falta de
+difusión? ¿O serán otras causas más profundas las que explican esta
+falta de actividad? Los invito a debatir este caso.</p>
+<p>De todas maneras, les prometo que el próximo año voy a repetir este
+ejercicio, y vamos a revisar nuevamente el estado de esta comunidad.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1172 words</span>
+    <span>7 - 9 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/chileforge.gif">chileforge.gif</a></li><li><a href="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/dist-desarrolladores-chileforge1.png">dist-desarrolladores-chileforge1.png</a></li><li><a href="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/dist-estado-proyectos-chileforge.png">dist-estado-proyectos-chileforge.png</a></li><li><a href="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/proyecto-per-year-chileforge.png">proyecto-per-year-chileforge.png</a></li><li><a href="http://localhost:1313/posts/2010/el-estado-del-open-source-en-chile-la-comunidad-chileforge/vida-proyectos-chileforge.png">vida-proyectos-chileforge.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2010/feliz-bicentenario/">¡Feliz Bicentenario!</a></li><li><a href="/posts/2010/no-es-el-codigo-estupido/">No es el código, estúpido!</a></li><li><a href="/posts/2010/un-nino-y-la-tecnologia/">Un niño y la tecnología</a></li><li><a href="/posts/2010/software-everywhere-la-internet-de-las-cosas-en-el-chile-post-bicentenario/">Software Everywhere: La Internet de las Cosas en el Chile Post-Bicentenario</a></li><li><a href="/posts/2010/como-desilusionar-a-tu-jefe/">Cómo desilusionar a tu jefe</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

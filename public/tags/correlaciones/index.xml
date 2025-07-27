@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Correlaciones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/correlaciones/</link>
+    <description>Recent content in Correlaciones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 17 Sep 2010 18:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/correlaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿No es gracioso?</title>
+      <link>http://localhost:1313/posts/2010/no-es-gracioso/</link>
+      <pubDate>Fri, 17 Sep 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/no-es-gracioso/</guid>
+      <description>&lt;p&gt;En  &lt;a href=&#34;http://www.manzanamecanica.org/2010/09/panorama_internacional_del_software_libre.html&#34;&gt;Manzana Mecánica&lt;/a&gt;s&#xA;mencionan un&#xA; &lt;a href=&#34;http://web.cenatic.es/web/index.php?option=com_phocadownload&amp;amp;view=category&amp;amp;id=1%3A&amp;amp;download=33%3A&amp;amp;Itemid=20&amp;amp;lang=es&#34;&gt;informe&lt;/a&gt;&#xA;sobre el panorama internacional del software  de Fuentes Abiertas 2010.&#xA;Bonito estudio, un tanto largo. Cuando empecé a hojearlo me llamó la&#xA;atención una serie de gráficos como este:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;cuadrantes1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;¿Qué significan esos gráficos? (hay varios en el informe)&lt;/p&gt;&#xA;&lt;p&gt;El eje horizontal es el indice de desarrollo de la sociedad de&#xA;información, y el eje vertical el índice de desarrollo de software de&#xA;fuente abierta (SFA), además se dividen los cuadrantes, la idea es&#xA;mostrarnos el cuadrante mágico (arriba derecha), que se supone es lo&#xA;mejor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Cómo somos los chilenos?</title>
+      <link>http://localhost:1313/posts/2010/como-somos-los-chilenos/</link>
+      <pubDate>Wed, 15 Sep 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/como-somos-los-chilenos/</guid>
+      <description>&lt;p&gt;Hector Veliz Meza, en &lt;a href=&#34;http://blogs.cooperativa.cl/velismeza/2010/09/14/%C2%BFcomo-creemos-que-somos-los-chilenos/&#34;&gt;¿Cómo creemos que somos los chilenos?.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;¿Cómo creemos que somos los chilenos? ¿Somos solidarios o creemos&#xA;que somos solidarios? ¿Existen pruebas concretas que demuestran que&#xA;somos solidarios, porque los aportes a la Teletón sólo representan una&#xA;realidad fragmentada y aislada? ¿Somos cultos, instruidos y preparados&#xA;o creemos que lo somos? No nos estaremos confundiendo y cuando nos&#xA;preguntan cómo somos respondemos lo que creemos que somos o cómo nos&#xA;gustaría ser.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nos quieren censurar</title>
+      <link>http://localhost:1313/posts/2010/nos-quieren-censurar/</link>
+      <pubDate>Sun, 29 Aug 2010 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/nos-quieren-censurar/</guid>
+      <description>&lt;p&gt;Tomado de la &lt;a href=&#34;http://senado.cl/prontus_galeria_noticias/site/artic/20100827/pags/20100827130757.html&#34;&gt;página del Senado de la República de Chile&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Administradores de sitios web podrían ser responsabilizados por&#xA;ofensas cometidas a través de Internet&lt;/strong&gt;&#xA;&amp;hellip;*&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;La iniciativa, que fue remitida a la Comisión de Constitución para su&#xA;estudio, modifica la legislación vigente estableciendo que &amp;ldquo;quienes&#xA;difundan a través de Internet contenidos u expresiones ofensivas al&#xA;honor y la honra de una persona serán responsables civilmente de los&#xA;daños y perjuicios que ocasionen&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Semántica on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/web-sem%C3%A1ntica/</link>
+    <description>Recent content in Web Semántica on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 21 Nov 2011 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web-sem%C3%A1ntica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charla: Web Semántica y Linked Data con Alvaro Graves</title>
+      <link>http://localhost:1313/posts/2011/charla-web-semantica-y-linked-data-con-alvaro-graves/</link>
+      <pubDate>Mon, 21 Nov 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/charla-web-semantica-y-linked-data-con-alvaro-graves/</guid>
+      <description>&lt;p&gt;Watch &lt;a href=&#34;http://www.livestream.com/?utm_source=lsplayer&amp;amp;utm_medium=embed&amp;amp;utm_campaign=footerlinks&#34;&gt;live streaming video&lt;/a&gt;&#xA;from &lt;a href=&#34;http://www.livestream.com/eltestacido?utm_source=lsplayer&amp;amp;utm_medium=embed&amp;amp;utm_campaign=footerlinks&#34;&gt;eltestacido&lt;/a&gt;&#xA;at livestream.com&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Folksonomias</title>
+      <link>http://localhost:1313/posts/2005/folksonomias-2/</link>
+      <pubDate>Sun, 30 Oct 2005 18:15:33 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/folksonomias-2/</guid>
+      <description>&lt;p&gt;Las taxonomias son esas arbitrarias clasificaciones que se dan en la ciencia, y en otras areas.&lt;/p&gt;&#xA;&lt;p&gt;Pero la Web 2.0 ha creado este neologismo, la Folsonomía. Al igual que Folklore denota al saber popular, la palabra folksonomia denota la manera en que el pueblo clasifica las cosas.&lt;/p&gt;&#xA;&lt;p&gt;Algo muy natural para los bloggers es clasificar sus escritos en categorias,  y &lt;a href=&#34;http://web.archive.org/web/20090426080911/http://www.technorati.com/&#34;&gt;technorati&lt;/a&gt; las convierte en TAGs, que son etiquetas para poder agrupar los tópicos explorados por miles de blogguers en el mundo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

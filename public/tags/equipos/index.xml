@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Equipos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/equipos/</link>
+    <description>Recent content in Equipos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 07 Sep 2014 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/equipos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un conjunto de conversaciones recurrentes</title>
+      <link>http://localhost:1313/posts/2014/un-conjunto-de-conversaciones-recurrentes/</link>
+      <pubDate>Sun, 07 Sep 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/un-conjunto-de-conversaciones-recurrentes/</guid>
+      <description>&lt;p&gt;Que fácil sería nuestra rol como administradores si pudiéramos instalar&#xA;las habilidades de liderazgo en nuestro cerebro del mismo modo que&#xA;instalamos una nueva pieza de software en nuestro computador.&lt;/p&gt;&#xA;&lt;p&gt;Hace exactamente seis años se me presentó uno de los desafíos más&#xA;importantes de mi vida profesional, formar un equipo desde cero. &lt;/p&gt;&#xA;&lt;p&gt;Ya me había tocado gestionar equipos antes, pero nunca me había tocado&#xA;formarlo desde el principio. Ha sido una experiencia enriquecedora y&#xA;extraordinaria. He tenido la suerte de trabajar con grandes&#xA;colaboradores&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

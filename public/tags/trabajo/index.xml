@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trabajo on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/trabajo/</link>
+    <description>Recent content in Trabajo on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 24 Apr 2022 11:35:58 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/trabajo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nómades</title>
+      <link>http://localhost:1313/posts/2022-04-24-nomades/</link>
+      <pubDate>Sun, 24 Apr 2022 11:35:58 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2022-04-24-nomades/</guid>
+      <description>&lt;p&gt;Creímos que la pandemia y el encierro nos llevaba a un mundo distópico, pero esa experiencia sirvió para darnos cuentas que estar encerrados dos o más horas en un auto o en el metro y pasar más tiempo en la oficina que con nuestra familia era la verdadera distopía.&lt;/p&gt;&#xA;&lt;p&gt;Recuerdo que varios años atrás un colega, o quizás un gerente de donde trabajaba, mencionó que era importante cuidar el clima laboral, y mantener un entorno armonioso porque después de todo pasábamos más tiempo en el trabajo que en nuestra propia casa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antes &#34;too&#34; esto era campo</title>
+      <link>http://localhost:1313/posts/2021/2021-07-11-antes-too-esto-era-campo/</link>
+      <pubDate>Sun, 11 Jul 2021 13:16:56 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2021/2021-07-11-antes-too-esto-era-campo/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;&amp;quot;La vida sólo puede ser comprendida mirando hacia atrás, pero ha de ser vivida mirando hacia adelante&amp;quot; -- Soren Kierkegaard&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Han pasado varias cosas interesantes en Cornershop, algo que seguro varios de ustedes ya saben. El otro día nos avisaron de un hito particular para Chile, en el canal respectivo de Slack, junto con las felicitaciones uno de los comentarios de un compañero fue: &amp;ldquo;antes too esto era campo&amp;rdquo; :smile:.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (XI)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Sun, 07 Jul 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;(para escuchar la banda sonora de este post haz click &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/7yfpyhyQ0QtajwIzfAXEcc?si=MsUgk62ZQB2nTOUiPD4KEQ&#34;&gt;en este&#xA;enlace&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Mission First&lt;br&gt;&#xA;People Alway&amp;rdquo;&lt;br&gt;&#xA;&amp;mdash; Us Air Force Mantra&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://es.wikipedia.org/wiki/CBGB&#34;&gt;CBGB OMFUG&lt;/a&gt; era un Club ubicado en&#xA;el 315 de Bowery entre la 1ª &amp;amp; 2ª Calle en el Lower East Side de&#xA;Manhattan, en Nueva York, que se convirtió en el epicentro del Punk y el&#xA;New Wave en los primeros años de la década del ochenta. En CBGB hicieron&#xA;su estreno Talking Heads, The Ramones y Blondie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (X)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Sun, 16 Jun 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;(para escuchar la banda sonora de este post haz click en &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/08fLYPWrAr9AQv5KxLwV2C?si=blthJlQjR1uw7M0M5ov-Wg&#34;&gt;este&#xA;enlace&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Spirit with a vision&lt;br&gt;&#xA;Is a dream with a mission &lt;br&gt;&#xA;&amp;ndash; Rush&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En febrero de 2011 habíamos pasado a producción uno de los proyectos más&#xA;ambiciosos abordados por mi equipo hasta ese momento. &lt;/p&gt;&#xA;&lt;p&gt;Cumplimos en los plazos, aunque el sistema técnicamente no estaba&#xA;terminado. Tal &lt;a href=&#34;http://localhost:1313/blog/lnds/2019/05/21/el-fin-de-la-agilidad&#34;&gt;como expliqué antes&lt;/a&gt;,&#xA;si nos comprometemos a una fecha nuestro foco es cumplir con el plazo.&#xA;La gestión se enfoca a lograr este hito primero, si eso requiere&#xA;recortar alcance, pues se recorta. Otra medida importante es la gestión&#xA;de los riesgos, mantener a todos informados de los impedimentos que no&#xA;permiten cumplir con la fecha y tomar medidas para mitigarlas. Así que&#xA;una vez cumplido el hito de paso a producción, empezaba una etapa&#xA;posterior de mejora continua para estabilizar el sistema para cubrir la&#xA;mayor cantidad de requisitos establecidos en el alcance&#xA;original.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (VI)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Sat, 06 Apr 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;(Para escuchar la banda sonora de este post haz click &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/0S3YXpEa5eGPZ6nSNbthvd?si=-wVKUGIpQyKz3a6jJD6owQ&#34;&gt;en este&#xA;enlace&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;quot;¿Cómo diablos llegué a este punto? ¿Qué hago acá en esta escalera en&#xA;el edificio de un cliente, discutiendo con este tipo por teléfono,&#xA;recibiendo sus insultos? ¡Es tiempo que lo mande a la cresta!&amp;quot;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;wake-up&#34;&gt;Wake Up!&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll give you a dose but it&amp;rsquo;ll never come close to the&lt;br&gt;&#xA;Rage built up inside of me&lt;br&gt;&#xA;&amp;mdash; Rage Against the Machine&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (V)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Sun, 31 Mar 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;(Para escuchar la banda sonora de este post haz click en &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/3P6ckP8nakFyt5mqHTALfa?si=qGxOEOpIRwmhMbGe8zjEvA&#34;&gt;este&#xA;enlace&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;m going to Wichita&lt;br&gt;&#xA;Far from this opera for evermore&lt;br&gt;&#xA;I&amp;rsquo;m gonna work the straw&lt;br&gt;&#xA;Make the sweat drip out of every pore &lt;br&gt;&#xA;&amp;mdash; The White Stripes&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Cuando estaba en el colegio formé parte de una banda en que tocábamos&#xA;rock latino. Participábamos en fiestas y eventos en Chuquicamata y&#xA;Calama. Varios años después todos los miembros del grupo estábamos en&#xA;Santiago, así que nos juntamos por unos meses a ensayar, en un garaje o&#xA;bodeguita, no recuerdo bien, en la casa del padre de nuestro segundo&#xA;guitarrista. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (IV)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Sat, 23 Mar 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;p&gt;(Para escuchar la banda sonora de este post haz click en &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/2gXGpqFGB3koMhwdCAaBEw?si=s_zCUh6yTc2IYbp1FQtDCw&#34;&gt;este&#xA;enlace&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Hold the line, love isn&amp;rsquo;t always on time&amp;rdquo; &amp;ndash; Toto&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El amor no siempre llega cuando tú quieres, hay veces que te esfuerzas&#xA;tanto en buscarlo que finalmente lo alejas, o lo dejas pasar sin darte&#xA;cuenta. Recuerdo que a principios de 1998 una amiga, sicóloga, con la&#xA;que aprendí a leer el Tarot, me dijo que yo debía dejar de estar tan&#xA;ansiosos por estar sin pareja, que dejara de buscar tan desesperadamente&#xA;la compañía, que esta llegaría cuando dejara de&#xA;buscar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Fin de la Agilidad (III)</title>
+      <link>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</link>
+      <pubDate>Tue, 19 Mar 2019 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2019/el-fin-de-la-agilidad/</guid>
+      <description>&lt;h2 id=&#34;parte-3-funkacid-jazz&#34;&gt;Parte 3: Funk/Acid Jazz&lt;/h2&gt;&#xA;&lt;p&gt;(Para escuchar la banda sonora de este post haz click en &lt;a href=&#34;https://open.spotify.com/user/ediazlnds/playlist/1TvRMobxeBojixmHLO20uR?si=HhmMQLRqRlWhQlCIvAelmg&#34;&gt;este&#xA;enlace&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Of this virtual insanity, we&amp;rsquo;re livin&amp;rsquo; in&lt;br&gt;&#xA;Has got to change, yeah&lt;br&gt;&#xA;Things, will never be the same&lt;br&gt;&#xA;     &amp;ndash; Jamiroquai&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Cuando te divorcias ocurre que a las esposas, o parejas, de tus amigos&#xA;como que les da pena. Es probable que sientan que el balance del&#xA;universo está mal y es su deber arreglar ese problema, así que lo que&#xA;hacen es presentarte amigas. Eso es lo normal. Pero la esposa de un&#xA;amigo hizo algo mejor, creo yo, algo de lo que siempre le estaré&#xA;agradecido, me enseñó a bailar merengue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>#NoAlBurnout</title>
+      <link>http://localhost:1313/posts/2018/noalburnout/</link>
+      <pubDate>Sun, 02 Sep 2018 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2018/noalburnout/</guid>
+      <description>&lt;p&gt;Trabajar muchas horas, sobre tiempo, aunque te lo traten de vender como&#xA;algo &amp;ldquo;bacán&amp;rdquo;, e innovador, no lo es. Eso no es ni agilidad ni&#xA;transformación, es todo lo contrario de lean.&lt;/p&gt;&#xA;&lt;p&gt;El burnout [1] corresponde al desgaste físico, mental o emocional&#xA;causado por el sobre esfuerzo o el estrés. Pero es más que estar&#xA;estresado o con exceso de trabajo. Este fenómeno hace que las cosas que&#xA;alguna vez amamos de nuestro trabajo o de nuestra vida pierdan sentido.&#xA;En general se manifiesta con un sentimiento de que no hay apoyo, o ayuda&#xA;para salir de esa situación.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Historias de Depuración</title>
+      <link>http://localhost:1313/posts/2010/historias-de-depuracion/</link>
+      <pubDate>Sat, 21 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/historias-de-depuracion/</guid>
+      <description>&lt;p&gt;La mejor herramienta de depuración de un programa (debugger) es la&#xA;mente. Aunque el oido también sirve.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2010/08/debugger.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Una vez un amigo programador tenía un problema con dos procedimientos&#xA;almacenados. Ambos eran casi idénticos, la diferencia estaba sólo en la&#xA;fuente desde donde obtenían información, el algoritmo era el mismo. El&#xA;primero entregaba la respuesta extremadamente rápido, y el otro se&#xA;demoraba una eternidad. El programador llevó una copia de la base de&#xA;datos a su PC y empezó a depurar. Cuando me puse a ayudarlo noté algo,&#xA;al ejecutar el procedimiento con problemas el  computador se ponía&#xA;ruidoso. &amp;ldquo;¿Por qué suena tu computador?&amp;rdquo; &amp;ldquo;Porque se activa el&#xA;ventilador&amp;rdquo;. &amp;ldquo;Sí, pero hay algo más&amp;rdquo;. Efectivamente, el disco también&#xA;sonaba porque empezaba a girar más de lo normal. Con el procedimiento&#xA;almacenado más rápido no había ruido alguno y el disco apenas se movía.&#xA;Ese ruido nos llevó a la pista correcta, el problema estaba en la tabla&#xA;principal usada por el segundo procedimiento, que era el principal&#xA;cambio entre uno y otro. Al principio pensamos que tenía más datos, pero&#xA;no, lo que pasaba es que le faltaba un índice. Esa fue la primera vez&#xA;que depuré de oido.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El efecto de la multi tarea</title>
+      <link>http://localhost:1313/posts/2009/el-efecto-de-la-multi-tarea/</link>
+      <pubDate>Sat, 11 Apr 2009 18:48:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-efecto-de-la-multi-tarea/</guid>
+      <description>&lt;p&gt;Si quieres ser efectivo con tu tiempo, entonces de inmediato ¡&lt;a href=&#34;http://www.habitosvitales.com/2009/02/04/un-pequeno-pero-importante-secreto-para-ser-mas-productivo/&#34;&gt;abandona la multitarea&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;Hay muchos que dicen que son capaces de hacer muchas cosas al mismo tiempo, y en realidad se están engañando. El problema de la multitarea es el constante cambio de contexto, lo que produce a la larga que te tomes más tiempo.&lt;/p&gt;&#xA;&lt;p&gt;Prueba el siguiente ejercicio, propuesto por Jon Cook, y que he traducido y adaptado de este &lt;a href=&#34;http://www.clarkeching.com/2007/09/multi-tasking-e.html&#34;&gt;post de Clark Ching&lt;/a&gt;, no te tomará más de 3 minutos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

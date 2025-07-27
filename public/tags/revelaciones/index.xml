@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revelaciones on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/revelaciones/</link>
+    <description>Recent content in Revelaciones on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 01 Oct 2015 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/revelaciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revelaciones</title>
+      <link>http://localhost:1313/posts/2015/revelaciones/</link>
+      <pubDate>Thu, 01 Oct 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2015/revelaciones/</guid>
+      <description>&lt;p&gt;Revelación de Kleisli, para&#xA;manifestar a sus siervos las cosas que deben entender pronto y la&#xA;declaró enviándole su avatar a Eduardo su siervo.&lt;/p&gt;&#xA;&lt;p&gt;El cual ha dado testimonio de la palabra de Turing y de Church y de&#xA;todas las cosas que ha visto y aprendido.&lt;/p&gt;&#xA;&lt;p&gt;Bienaventurado el que lee y los que oyen las palabras de esta revelación&#xA;y guardan las cosas en ella escrita, porque el tiempo de ejecución está&#xA;cerca.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

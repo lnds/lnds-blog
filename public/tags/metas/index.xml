@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/metas/</link>
+    <description>Recent content in Metas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 13 Jun 2015 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/metas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resultados vs Procesos</title>
+      <link>http://localhost:1313/posts/2015/resultados-vs-procesos/</link>
+      <pubDate>Sat, 13 Jun 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2015/resultados-vs-procesos/</guid>
+      <description>&lt;p&gt;Recuerdo un partido de futbol entre dos selecciones nacionales, una de&#xA;ellas tenía un director técnico que llegó vestido con un elegante traje,&#xA;como suelen hacerlo los entrenadores europeos. El otro DT en cambio&#xA;llevaba un buzo deportivo. &lt;/p&gt;&#xA;&lt;p&gt;El estilo de dirección de cada uno también era diferente. Mientras el&#xA;primero se mantuvo sentado en la banca durante todo el partido, el&#xA;segundo pasó casi todo el match gritando y dando órdenes desde el borde&#xA;de la cancha. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/hack/</link>
+    <description>Recent content in Hack on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Wed, 22 Feb 2006 10:27:48 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un hack en css</title>
+      <link>http://localhost:1313/posts/2006/un-hack-en-css/</link>
+      <pubDate>Wed, 22 Feb 2006 10:27:48 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/un-hack-en-css/</guid>
+      <description>&lt;p&gt;Este dato puede ser util para los diseñadores: acabo de escribir en métodos un &lt;a href=&#34;http://web.archive.org/web/20090426080931/http://metodos.lnds.net/2006/02/un_hack_simple_en_css.html&#34;&gt;hack&lt;/a&gt; para saltarse un bug de Internet explorer.&#xA;Resulta que IE no soporta el atributo &lt;strong&gt;min-height&lt;/strong&gt;, lo que provoca que muchos divs se &amp;ldquo;desarmen&amp;rdquo; en Internet Explorer.&lt;/p&gt;&#xA;&lt;p&gt;Era el caso de &lt;a href=&#34;http://web.archive.org/web/20090426080931/http://www.blogmemes.com/&#34;&gt;Blogmemes&lt;/a&gt;, que tenía este problema en varias páginas, con este &lt;a href=&#34;http://web.archive.org/web/20090426080931/http://metodos.lnds.net/2006/02/un_hack_simple_en_css.html&#34;&gt;simple hack &lt;/a&gt;queda resuelto, y con esto eliminamos un bichito que nos molestaba hace rato.&lt;/p&gt;&#xA;&lt;p&gt;El cambió aparecerá publicado pronto en el &lt;a href=&#34;http://web.archive.org/web/20090426080931/http://cvs.sourceforge.net/viewcvs.py/akarru/SRC/public_html/styles/&#34;&gt;repositorio cvs de akarru &lt;/a&gt;para los que estén usando el sistema. El próximo release será el fin de semana, para los que bajan el archivo tgz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

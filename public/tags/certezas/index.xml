@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certezas on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/certezas/</link>
+    <description>Recent content in Certezas on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 17 Oct 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/certezas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dudas, certezas e indecisión</title>
+      <link>http://localhost:1313/posts/2010/dudas-certezas-e-indecision/</link>
+      <pubDate>Sun, 17 Oct 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/dudas-certezas-e-indecision/</guid>
+      <description>&lt;p&gt;&amp;ldquo;One of the painful things about our time is that those who feel&#xA;certainty are stupid, and those with any imagination and understanding&#xA;are filled with doubt and indecision&amp;rdquo; &amp;ndash; Bertrand Russell&lt;/p&gt;&#xA;&lt;p&gt;Una de las cosas penosas de nuestro tiempo es que aquellos que sienten&#xA;certeza son estúpidos, y aquellos con algo de imaginación y&#xA;entendimiento están llenos de dudas e indecisión.&#xA;&amp;ndash; Bertrand Russell&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

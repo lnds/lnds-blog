@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cuando abierto en realidad significa cerrado | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2010/cuando-abierto-en-realidad-significa-cerrado/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Cuando abierto en realidad significa cerrado">
+  <meta property="og:description" content="En 2009 Andreas Constantinou cuestionó la noción de opensource en su artículo “Open is the new closed” (lo abierto es lo nuevo cerrado), al analizar en detalle un hecho que hemos comentado antes, que no basta con liberar el código, el control de cómo se desarrolla un producto de software abierto es tan o más importante que contar con el código fuente.
+La palabra abierto aparece como algo positivo, pasa con ella lo mismo que con la palabra transparencia, ambas son bonitas palabras que denotan buenas intenciones. Todos prometen apertura, transparencia, hasta crean comisiones y publican en su sitio web una página con información transparente, pero en el fondo no se cumple lo que todos esperamos cuando se habla transparencia. La palabra misma carece de sentido y nos sentimos engañados.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2010-04-21T18:25:11-03:00">
+    <meta property="article:modified_time" content="2010-04-21T18:25:11-03:00">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="Software Libre">
+    <meta property="article:tag" content="Gobernabilidad">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cuando abierto en realidad significa cerrado">
+  <meta name="twitter:description" content="En 2009 Andreas Constantinou cuestionó la noción de opensource en su artículo “Open is the new closed” (lo abierto es lo nuevo cerrado), al analizar en detalle un hecho que hemos comentado antes, que no basta con liberar el código, el control de cómo se desarrolla un producto de software abierto es tan o más importante que contar con el código fuente.
+La palabra abierto aparece como algo positivo, pasa con ella lo mismo que con la palabra transparencia, ambas son bonitas palabras que denotan buenas intenciones. Todos prometen apertura, transparencia, hasta crean comisiones y publican en su sitio web una página con información transparente, pero en el fondo no se cumple lo que todos esperamos cuando se habla transparencia. La palabra misma carece de sentido y nos sentimos engañados.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Cuando abierto en realidad significa cerrado</h1><time class="dim" datetime="2010-04-21T18:25:11-03:00">April 21, 2010</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/open-source/">#open source</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/software-libre/">#software libre</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/gobernabilidad/">#gobernabilidad</a>
+      </div></ol></div>
+  <section class="page-section"><p>En 2009 Andreas Constantinou cuestionó la noción de opensource en su
+artículo &ldquo;<a href="http://www.visionmobile.com/blog/2009/08/open-is-the-new-closed/">Open is the new closed&rdquo;</a>
+(lo abierto es lo nuevo cerrado), al analizar en detalle un hecho que
+hemos comentado antes, que no basta con liberar el código, el control de
+cómo se desarrolla un producto de software abierto es tan o más
+importante que contar con el código fuente.</p>
+<p>La palabra abierto aparece como algo positivo, pasa con ella lo mismo
+que con la palabra transparencia, ambas son bonitas palabras que denotan
+buenas intenciones. Todos prometen apertura, transparencia, hasta crean
+comisiones y publican en su sitio web una página con información
+transparente, pero en el fondo no se cumple lo que todos esperamos
+cuando se habla transparencia. La palabra misma carece de sentido y nos
+sentimos engañados.</p>
+<p>Con el software abierto, el opensource, y con el software libre pasa
+algo parecido, con el tiempo nos damos cuenta que no son tan libres, ni
+son tan abiertos.</p>
+<p>Porque si miramos los grandes proyectos, los proyectos exitosos de
+software libre, tienen detrás el apoyo de grandes empresas, o
+conglomerados de empresas con intereses bien específicos de control de
+estos productos, así que son libres en la medida que los auspiciadores
+se lo permitan.</p>
+<p>Consideremos el caso de Java o de MySQL, que parecen estar amenazados en
+estos momentos al estar en el control de un sólo gran sponsor, como
+Oracle.</p>
+<p>Es muy justo que pensemos que el futuro de estos proyectos se ve
+amenazado cuando su control, su gobierno (governance) ha caido en manos
+de una empresa que funciona en forma bastante agresiva en el mercado.</p>
+<p>Han habido problemas con IBM y las patentes que prometió no usar contra
+la comunidad opensource en el momento que ha visto amenazado su negocio
+en los mainframes.</p>
+<p>La razón de estos problemas, es que las licencias open source sólo
+cuentan la mitad e la historia, como bien apunta Constantinou.</p>
+<p>Las licencias gobiernan el control del código fuente. Pero en la
+industria móvil, por ejemplo, el código fuente y los productos son dos
+cosas muy diferentes. Por ejemplo, aunque puedes jugar con el código
+fuente de Android, ¿sabes si están visibles las últimas actualizaciones
+al código? ¿Quién decide que va en el último release de
+Symbian? Puedes crear tu propio browser basado en WebKit, pero ¿por qué
+cuesta tanto que tus contribuciones al código fuente lleguen a la cima
+del árbol?</p>
+<p>La otra mitad de la historia del opensource es el modelo de gobierno del
+proyecto, el governance model, del que habla Constantinou.</p>
+<p>Todo proyecto opensource debe tener un modelo de gobierno. El mismo
+kernel de linux, tiene un proceso para decidir qué va a la rama
+principal del fuente.</p>
+<p>Eso lo ha mapeado la empresa de Constantinou, <a href="http://www.visionmobile.com/">vision
+mobile</a>, en este gráfico:</p>
+<p><img src="licenses-vs-governance-models-21.png" alt="licenses-vs-governance-models-21.png"></p>
+<p>El eje vertical representa el tipo de licencia, desde las más
+permisivas, hasta las más propietarias (todas son licencias de código
+abierto). El eje horizontal muestra una variable del modelo de gobierno,
+que tiene que ver con el control de la rama principal del código y si
+esta es controlada por individuos, moderadores, un club cerrado o una
+compañía específica. Por ejemplo, en el caso del kernel de linux, el
+control lo ejecutan un grupo de lideres de opinión (Torvalds y sus
+tenientes), en el caso de Java y Android, hay una sóla compañía que
+decide lo que va finalmente en la rama central del código.</p>
+<p>En el mapa junto a cada proyecto aparecen unos puntos de colores que nos
+dicen que proporción de los desarrolladores de estos proyectos son
+pagados por trabajar en ellos, por ejemplo, en el kernel de linux 2/3
+son pagados (es decir, 2/3 de los desarrolladores del kernel de linux
+reciben un sueldo para dedicarse a contribuir en este proyecto).</p>
+<p>Qué interesante es este mapa, es muy revelador.</p>
+<p>Lo que descubrió Constantinou es que:</p>
+<ul>
+<li>
+<p>Las licencias open source (la letra grande que cubre el control de
+los fuentes) son ampliamente usadas, convergen y son bien entendidas</p>
+</li>
+<li>
+<p>El modelo de gobierno (la letra chica que controla el producto) son
+propietarias, divergen y se entienden muy poco.</p>
+</li>
+</ul>
+<p>Esto es importante, porque si no se nos revela la forma en que se
+gobierna el desarrollo de un producto, por muy abierto que esté su
+código, lo más probable que su modelo de desarrollo, de gobierno sea
+totalmente cerrado, y en el fondo, estamos siendo engañados, en realidad
+lo abierto está cerrado, y no es una paradoja.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>738 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2010/cuando-abierto-en-realidad-significa-cerrado/licenses-vs-governance-models-21.png">licenses-vs-governance-models-21.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2005/importa-si-el-software-es-abierto/">¿Importa si el software es abierto?</a></li><li><a href="/post/2005/es-bueno-el-open-source/">¿Es bueno el Open Source?</a></li><li><a href="/post/2009/etica-el-caso-de-los-hackers/">Etica, &#34;El caso de los hackers&#34;</a></li><li><a href="/post/2009/with-a-little-help-from-my-friends-innovacion-y-software-libre/">With a Little Help from My Friends, Innovación y Software Libre</a></li><li><a href="/post/2007/el-software-libre-no-es-amenaza/">El Software Libre no es amenaza</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Buenas prácticas para gestionar tu código | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2020/2020-08-21-buenas-practicas-para-gestionar-tu-codigo/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Buenas prácticas para gestionar tu código">
+  <meta property="og:description" content="Asegurar la comunicación es uno de los desafíos más importantes cuando trabajamos en equipo, o en un proyecto de código abierto. Algo que ayuda es mantener una serie de estándares, o prácticas comunes que faciliten la comunicación y el entendimiento compartido.
+Desde hace años las comunidades open source han adoptado una serie de prácticas muy sencillas, pero potentes, que ayudan a gestionar mejor su código.
+Entre estas hay algunas que me parece deberían ser adoptadas por todo tipo de equipo de desarrollo.">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-08-21T07:49:55-04:00">
+    <meta property="article:modified_time" content="2020-08-21T07:49:55-04:00">
+    <meta property="article:tag" content="Código">
+    <meta property="article:tag" content="Buensas Prácticas">
+    <meta property="article:tag" content="Desarrolllo">
+    <meta property="og:image" content="http://localhost:1313/posts/2020/2020-08-21-buenas-practicas-para-gestionar-tu-codigo/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2020/2020-08-21-buenas-practicas-para-gestionar-tu-codigo/featured.png">
+  <meta name="twitter:title" content="Buenas prácticas para gestionar tu código">
+  <meta name="twitter:description" content="Asegurar la comunicación es uno de los desafíos más importantes cuando trabajamos en equipo, o en un proyecto de código abierto. Algo que ayuda es mantener una serie de estándares, o prácticas comunes que faciliten la comunicación y el entendimiento compartido.
+Desde hace años las comunidades open source han adoptado una serie de prácticas muy sencillas, pero potentes, que ayudan a gestionar mejor su código.
+Entre estas hay algunas que me parece deberían ser adoptadas por todo tipo de equipo de desarrollo.">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Buenas prácticas para gestionar tu código</h1><time class="dim" datetime="2020-08-21T07:49:55-04:00">August 21, 2020</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/c%C3%B3digo/">#código</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/buensas-pr%C3%A1cticas/">#buensas prácticas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/desarrolllo/">#desarrolllo</a>
+      </div></ol></div>
+  <section class="page-section"><p>Asegurar la comunicación es uno de los desafíos más importantes cuando trabajamos en equipo, o en un proyecto de código abierto. Algo que ayuda es mantener una serie de estándares, o prácticas comunes que faciliten la comunicación y el entendimiento compartido.</p>
+<p>Desde hace años las comunidades open source han adoptado una serie de prácticas muy sencillas, pero potentes, que ayudan a gestionar mejor su código.</p>
+<p>Entre estas hay algunas que me parece  deberían ser adoptadas por todo tipo de equipo de desarrollo.</p>
+<h2 id="readme-first">ReadMe First</h2>
+<p>En su artículo <a href="https://tom.preston-werner.com/2010/08/23/readme-driven-development.html">&ldquo;Readme Driven Development&rdquo;</a> Tom Preston-Werner nos advierte:</p>
+<blockquote>
+<p>&ldquo;Una implementación perfecta de la especificación incorrecta no vale nada. Por el mismo principio, una biblioteca bellamente diseñada sin documentación es casi igual de inútil. Si su software resuelve el problema equivocado o nadie puede descubrir cómo usarlo, algo muy malo está pasando.&rdquo;</p></blockquote>
+<p>La solución propuesta por el fundador de GitHub es sencilla. Antes de empezar nuestro trabajo debemos escribir un documento, llamado README (léeme).</p>
+<p>En este documento especificamos lo que se construirá. Es una descripción del proyecto y de su implementación en código. Es usual que acá se describan  las interfaces públicas y la forma de ocuparlas. Junto con otras consideraciones, como el modo de instalar el software, pasos para ejecutarlo, etc.</p>
+<p>Lo normal es que este archivo se escriba en formato <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a>, que es soportado por los servicios de gestión de código más populares, como GitHub o GitLab.</p>
+<p>Pero, ¿por qué escribir este archivo antes de empezar a codificar?
+El fundador de GitHub nos explica las ventajas de hacer esto:</p>
+<blockquote>
+<p>Al escribir el archivo README primero, obtienes algunas ventajas bastante significativas:</p>
+<ul>
+<li>Lo más importante, te estás dando la oportunidad de pensar en el proyecto sin la sobrecarga de tener que cambiar el código cada vez que cambias de opinión sobre cómo se debe organizar algo o qué se debe incluir en la API pública. ¿Recuerdas esa sensación cuando comenzaste a escribir pruebas de código automatizadas y te diste cuenta de que detectaste todo tipo de errores que de otro modo se habrían colado en tu base de código? Esa es exactamente la misma sensación que tendrá si escribes el README para tu proyecto antes de escribir el código real.</li>
+<li>Como subproducto de escribir un README para saber lo que necesitas implementar, tendrás una muy buena documentación frente a ti. También encontrarás que es más fácil escribir este documento al comienzo del proyecto cuando tu entusiasmo y motivación están en su punto más alto. Escribir un archivo README de forma retroactiva es un lastre absoluto, y seguramente se perderá todo tipo de detalles importantes cuando lo hagas.</li>
+<li>Si está trabajando con un equipo de desarrolladores, obtendrás aún más valor de tu README. Si todos los demás miembros del equipo tienen acceso a esta información antes de que haya completado el proyecto, entonces pueden comenzar a trabajar con confianza en otros proyectos que interactuarán con tu código. Sin ningún tipo de interfaz definida, deben codificar en serie o enfrentar la reimplementación de grandes porciones de código.</li>
+<li>Es mucho más simple tener una discusión basada en algo escrito. Es fácil hablar interminablemente y en círculos sobre un problema si nunca se pone nada en el texto. El simple hecho de escribir una solución propuesta significa que todos tienen una idea concreta sobre la que se puede discutir y repetir.</li>
+</ul></blockquote>
+<p>Y esa es la clave. Cuando trabajamos en equipo es relevante tener una visión compartida, y una de las mejores forma es compartiendo un documento, que podemos discutir. Discutir largamente haciendo círculos con las manos en el aire no cuenta como una visión compartida.</p>
+<p>Hay equipos que escriben documentos más formales. Incluso hay metodologías dirigidas por el documento. A mí me parece esto último me parece un tanto extremo. Pero sí creo que es importante sentarse a pensar antes de construir, y dejar ese pensamiento plasmado en un escrito ayuda. Tú yo del futuro lo agradecerá.</p>
+<h2 id="mantener-una-bitácora-de-cambios">Mantener una bitácora de cambios</h2>
+<p>La bitácora de cambios, o changelog, es un archivo que describe todos los cambios importantes en un proyecto.
+Hay un proyecto que describe una forma estándar de mantener una bitácora de cambios, se trata de  <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>La idea es muy sencilla, debes mantener un archivo llamado <code>CHANGELOG.md</code>, que se trata de un simple archivo en <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a>
+que contiene todos los cambios valiosos, pero descritos de manera correlativa.</p>
+<p>Este es un fragmento de un típico archivo <code>CHANGELOG.md</code></p>
+<pre><code># Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.0.0] - 2017-06-20
+### Added
+- New visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
+- Version navigation.
+- Links to latest released version in previous versions.
+- &quot;Why keep a changelog?&quot; section.
+- &quot;Who needs a changelog?&quot; section.
+- &quot;How do I make a changelog?&quot; section.
+- &quot;Frequently Asked Questions&quot; section.
+</code></pre>
+<p>Todos los detalles de cómo gestionar este archivo están descritos en el sitio <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+así que su lectura es recomendada para tener claridad de cómo escribir este archivo.</p>
+<p>Pero notarán que el archivo marca las versiones según una notación, esta corresponde a Semantic Version, que es otra práctica que  voy a recomendar.</p>
+<h2 id="versionado-semántico">Versionado Semántico</h2>
+<p>El versionado semántico es una convención para enumerar las versiones de nuestro software.
+Su definición se mantiene en el sitio <a href="https://semver.org">SemVer.org</a>. Y en principio es muy sencilla.</p>
+<p>En SemVer usamos tres números para designar una nueva versión, estos números se separan con un punto, así que el formato es algo así:</p>
+<pre><code>1.0.1
+</code></pre>
+<p>Al primer número le llamamos MAJOR, al segundo MINOR, y al tercero PATCH. Así que el formato es:</p>
+<pre><code>MAJOR.MINOR.PATCH
+</code></pre>
+<ul>
+<li>MAJOR: se incrementa cuando se agrega un cambio que es incompatible con versiones anteriores.</li>
+<li>MINOR: se incrementa cuando se agrega funcionalidad, pero sigue siendo compatible con versiones anteriores.</li>
+<li>PATCH: se incrementa cuando se corrigen errores en la versión vigente.</li>
+</ul>
+<p>En el ejemplo anterior <code>1.0.1</code> podemos entender que corresponde a la versión 1.0 del producto; sin embargo, lleva una o varias correcciones a errores (bugs).</p>
+<p>Por cierto hay varios detalles sobre cómo gestionar las versiones, pero la guía en el sitio es bien completa, y se encuentra  disponible en español también: <a href="https://semver.org/lang/es/">https://semver.org/lang/es/</a></p>
+<h2 id="commits-convencionales">Commits Convencionales</h2>
+<p><a href="https://www.conventionalcommits.org/">Conventional Commits</a> es una forma de escribir los mensajes cada vez que hacemos un commit en GIT de una forma estructurada.</p>
+<p>La forma de un commit convencional es la siguiente:</p>
+<pre><code>&lt;tipo&gt;[ámbito opcional]: &lt;descripción&gt;
+
+[cuerpo opcional]
+
+[nota de pie opcional]
+</code></pre>
+<p>El <tipo> puede ser al menos uno de estos:</p>
+<ul>
+<li>fix: en que documentamos una corrección</li>
+<li>feat: en que introducimos nuevas características al software</li>
+<li>BREAKING CHANGE: es un cambio que rompe la compatibilidad hacia atrás (y, por lo tanto, debería afectar el valor MAJOR).</li>
+</ul>
+<p>Hay otros posibles tipos: chore, docs, style, refactor, perf, test y otros, que se describen en el sitio oficial de Conventional Commits.</p>
+<p>Un ejemplo de un commit convencional<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:</p>
+<pre><code>fix(core): corrige algunos errores de tipeo en el nombre de las clases
+
+Ver el issue #45 para más detalles
+
+Closes #45
+</code></pre>
+<h2 id="automatizar-todo-lo-anterior">Automatizar todo lo anterior</h2>
+<p>Hay herramientas que permiten integrar los commits semánticos, con CHANGELOG.md y SemVer.</p>
+<p>Una lista está descrita en el sitio de Semantic Commits: <a href="https://www.conventionalcommits.org/en/about/#tooling-for-conventional-commits">https://www.conventionalcommits.org/en/about/#tooling-for-conventional-commits</a></p>
+<p>La idea es que al usar conventional commits ayudas a estas herramientas a determinar cuál es el siguiente número de versión
+que deberías generar para tu siguiente liberación (versión o release).</p>
+<p>Además, estas herramientas mantienen actualizado el archivo CHANGELOG.md.</p>
+<p>Mi favorita es una que se llama commitizen, hay dos implementaciones, una para node: <a href="https://github.com/commitizen/cz-cli">https://github.com/commitizen/cz-cli</a>, y otra para python: <a href="https://github.com/commitizen-tools/commitizen">https://github.com/commitizen-tools/commitizen</a>.</p>
+<p>Cuando la instalas y la configuras adecuadamente, la herramienta te ayuda a escribir tus commits, y después mantener
+actualizado tu número de versión y CHANGELOG.md</p>
+<p><img src="commitizen.gif" alt=""></p>
+<h2 id="un-último-tip">Un último tip</h2>
+<p>Yo siempre recomiendo publicar el número de versión en el &ldquo;frontend&rdquo; de las aplicaciones.
+A veces puedes crear una página  &ldquo;about&rdquo; que contenga un listado de todos los módulos, APIs, usadas, y obtener el &ldquo;release number&rdquo; de cada una (usando SemVer) y mostrarlo en pantalla.</p>
+<p>Esta práctica ayuda mucho a verificar qué versión está instalada en producción y aclarar y resolver situaciones de fallo rápidamente.</p>
+<p>Automatizar el versionado es sencillo utilizando algo como commitizen, pero además puedes hacer que tu herramienta de integración continua recoja esa información y la deje disponible en el siguiente <code>build</code> de tu aplicación.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Está disponible en varios idiomas, este es el enlace a la documentación en español: <a href="https://keepachangelog.com/es-ES/1.0.0/">https://keepachangelog.com/es-ES/1.0.0/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Acá he incluido la frase <code>Closes #45</code>, que es muy útil si usas los <a href="https://guides.github.com/features/issues/">issues de GitHub</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1405 words</span>
+    <span>8 - 11 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#readme-first">ReadMe First</a></li>
+    <li><a href="#mantener-una-bitácora-de-cambios">Mantener una bitácora de cambios</a></li>
+    <li><a href="#versionado-semántico">Versionado Semántico</a></li>
+    <li><a href="#commits-convencionales">Commits Convencionales</a></li>
+    <li><a href="#automatizar-todo-lo-anterior">Automatizar todo lo anterior</a></li>
+    <li><a href="#un-último-tip">Un último tip</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2020/2020-08-21-buenas-practicas-para-gestionar-tu-codigo/commitizen.gif">commitizen.gif</a></li><li><a href="http://localhost:1313/posts/2020/2020-08-21-buenas-practicas-para-gestionar-tu-codigo/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2017/programar-es-un-arte-visual/">Programar es un Arte Visual</a></li><li><a href="/posts/2010/no-es-el-codigo-estupido/">No es el código, estúpido!</a></li><li><a href="/posts/2005/no-puedes-proteger-el-software/">No puedes proteger el software</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

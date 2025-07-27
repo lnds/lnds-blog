@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La Paradoja de Teseo y otras ideas sobre los cambios | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2012/la-paradoja-de-teseo-y-otras-ideas-sobre-los-cambios/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="La Paradoja de Teseo y otras ideas sobre los cambios">
+  <meta property="og:description" content="“El barco en el cual volvieron (desde Creta) Teseo y los jóvenes de Atenas tenía treinta remos, y los atenienses lo conservaban desde la época de Demetrio de Falero, ya que retiraban las tablas estropeadas y las reemplazaban por unas nuevas y más resistentes, de modo que este barco se había convertido en un ejemplo entre los filósofos sobre la identidad de las cosas que crecen; un grupo defendía que el barco continuaba siendo el mismo, mientras el otro aseguraba que no lo era.”
+– Plutarco, citado desde Wikipedia">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2012-12-01T12:25:11-03:00">
+    <meta property="article:modified_time" content="2012-12-01T12:25:11-03:00">
+    <meta property="article:tag" content="Causas">
+    <meta property="article:tag" content="Filosofía">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La Paradoja de Teseo y otras ideas sobre los cambios">
+  <meta name="twitter:description" content="“El barco en el cual volvieron (desde Creta) Teseo y los jóvenes de Atenas tenía treinta remos, y los atenienses lo conservaban desde la época de Demetrio de Falero, ya que retiraban las tablas estropeadas y las reemplazaban por unas nuevas y más resistentes, de modo que este barco se había convertido en un ejemplo entre los filósofos sobre la identidad de las cosas que crecen; un grupo defendía que el barco continuaba siendo el mismo, mientras el otro aseguraba que no lo era.”
+– Plutarco, citado desde Wikipedia">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>La Paradoja de Teseo y otras ideas sobre los cambios</h1><time class="dim" datetime="2012-12-01T12:25:11-03:00">December 1, 2012</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/causas/">#causas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/filosof%C3%ADa/">#filosofía</a>
+      </div></ol></div>
+  <section class="page-section"><blockquote>
+<p>&ldquo;El barco en el cual volvieron
+(desde <a href="http://es.wikipedia.org/wiki/Creta">Creta</a>) <a href="http://es.wikipedia.org/wiki/Teseo">Teseo</a> y
+los jóvenes de <a href="http://es.wikipedia.org/wiki/Atenas">Atenas</a> tenía
+treinta remos, y los atenienses lo conservaban desde la época
+de <a href="http://es.wikipedia.org/wiki/Demetrio_de_Falero">Demetrio de Falero</a>, ya que
+retiraban las tablas estropeadas y las reemplazaban por unas nuevas y
+más resistentes, de modo que este barco se había convertido en un
+ejemplo entre los filósofos sobre la identidad de las cosas que
+crecen; un grupo defendía que el barco continuaba siendo el mismo,
+mientras el otro aseguraba que no lo era.&rdquo;<br>
+&ndash; <a href="http://es.wikipedia.org/wiki/Paradoja_de_Teseo">Plutarco, citado desde Wikipedia</a></p></blockquote>
+<p>Dejen que las instituciones funcionen, es casi un lugar común en la
+política chilena, una frase que se sostiene en la idea de la perpetuidad
+y continuidad de las mismas, &ldquo;las personas cambian, las instituciones
+quedan&rdquo;.</p>
+<p>En uno de sus viajes el escritor inglés <a href="http://www.douglasadams.com/">Douglas
+Adams</a> visita el Golden Pavilion en Kioto,
+Japón, y relata la siguiente anécdota:</p>
+<blockquote>
+<p>&ldquo;Yo recuerdo que una vez en Japón, fui de visita al Gold Pavilion
+Temple en Kyoto y me sorprendí al observar lo bien que el templo había
+resistido el paso del tiempo desde que fuera construido en el siglo
+catorce.</p></blockquote>
+<p>Entonces me explicaron, que en realidad el edificio no había resistido,
+ya que de hecho se había quemado hasta los cimientos dos veces durante
+este siglo. Por lo que le pregunté a mi guía japonés &ldquo;¿O sea que no es
+el edificio original?&rdquo;.</p>
+<blockquote>
+<p>&ldquo;Al contrario, por supuesto que es el original&rdquo;, me contestó, un tanto
+sorprendido por mi pregunta.<br>
+&ldquo;¿Pero no se incendió?&rdquo;.<br>
+&ldquo;Sí&rdquo;.<br>
+&ldquo;Dos veces&rdquo;.<br>
+&ldquo;Muchas veces&rdquo;.<br>
+&ldquo;Y fue reconstruido&rdquo;.<br>
+&ldquo;Por supuesto. Es un edificio histórico importante&rdquo;.<br>
+&ldquo;Con materiales completamente nuevos&rdquo;.<br>
+&ldquo;Por supuesto. ¡Si se había incendiado!&rdquo;.<br>
+&ldquo;Pero entonces, ¿cómo es posible que sea el mismo edificio?&rdquo;<br>
+&ldquo;Siempre es el mismo edificio.&rdquo;</p></blockquote>
+<p><img src="golden_pavillion_428x269_to_468x312.jpg" alt=""></p>
+<p>Entonces, la pregunta es si los elementos cambian gradualmente, uno por
+uno, ¿cómo se mantiene la unidad, o la identidad de la institución?</p>
+<p>Aristóteles trata de resolver la paradoja alegando que hay cuatros
+causas o razones que describen una cosa.<br>
+Está la Causa Formal, o el diseño de la cosa, mientras que la Causa
+Materiasl es la materia de la que están hechas las cosas.<br>
+El Barco de Teseo, o el Golden Pavillion pueden ser descritos como la
+misma cosa debido a la causa formal, o diseño, que no cambia, aunque
+cambie el material usado para construirlos varíe con el tiempo. Del
+mismo modo que un río tiene la misma causa formal, aunque la causa
+material (el agua contenida en este) cambie en el tiempo.</p>
+<p>Otra causa de Aristóteles es el fin, o Causa Final, es el propósito
+previsto de una cosa. El Barco de Teseo podría tener el mismo fin,
+transportar a Teseo, incluso pese a que su causa material pudiera
+cambiar con el tiempo. Por último está la Causa Eficiente que es como y
+por quien está hecha una cosa, por ejemplo, la forma en que los
+artesanos fabricaron y montaron alguna cosa. En el caso de El Barco de
+Teseo, los trabajadores que construyeron el barco en primer lugar
+podrían haber usado las mismas herramientas y técnicas para reemplazar
+los tablones en el barco.</p>
+<p>Así que la respuesta de Aristóteles, nos lleva a concluir que  la
+esencia de las instituciones no necesariamente reside en las personas,
+sino que en los procedimientos, en las formalidades, las reglas, las
+leyes que las norman. O el fin para el que fueron concebidas. O a veces
+puede ser por la simple costumbre.</p>
+<p>Lo que me recuerda otra historia sobre unos monos:</p>
+<blockquote>
+<p>En un experimento, un grupo de científicos metieron cinco simios en
+una habitación. En el centro de la misma ubicaron una escalera tipo
+tijera, como la que utilizan los pintores o carpinteros de obra. En lo
+alto y sobre la escalera colocaron unas bananas. Cuando uno de los
+monos ascendía por la escalera para acceder a las bananas, los
+científicos aplicaban al resto de monos un chorro de agua helada. Al
+cabo de un tiempo, los monos relacionaron el uso de la escalera y el
+chorro de agua fría, de modo que cuando uno de ellos se aventuraba a
+ascender en busca de una banana, el resto de monos se lo impedían con
+violencia. Al final, e incluso ante la tentación del alimento, ningún
+mono se atrevía a subir por la escalera.</p></blockquote>
+<p><img src="monos.png" alt=""></p>
+<blockquote>
+<p>En ese momento, los científicos extrajeron al azar a uno de los cinco
+monos iniciales y lo sustituyeron por uno nuevo en la habitación.  El
+mono nuevo, naturalmente, trepó por la escalera en busca de las
+bananas. En cuanto los demás observaron sus intenciones, se
+abalanzaron sobre él y lo bajaron a golpes antes de que se descargara
+sobre ellos el chorro de agua fría. Después de repetirse la
+experiencia varias veces, el nuevo mono comprendió que era mejor para
+su integridad renunciar a ascender por la escalera.</p></blockquote>
+<p>Los investigadores sustituyeron otra vez a uno de los monos del grupo
+inicial. El mono que había sido sustituido participó con especial
+interés en las palizas al nuevo mono trepador.</p>
+<p>Posteriormente se repitió el proceso con los monos restantes, hasta que
+llegó un momento en que todos los monos del experimento inicial habían
+sido sustituidos.</p>
+<p>En ese momento, quienes realizaban la investigación se sorprendieron con
+los resultados. Ninguno de los monos que había en la habitación había
+sido sometido alguna vez al chorro de agua fría. Sin embargo, ninguno se
+atrevía a trepar para hacerse con las codiciadas bananas.</p>
+<p>Aunque <a href="http://skeptics.stackexchange.com/questions/6828/was-the-experiment-with-five-monkeys-a-ladder-a-banana-and-a-water-spray-cond">no tengo claro si esta es una historia real o apócrifa</a>,
+su lección es clara, y no pueden negar que refleja muchas veces lo que
+pasa en nuestras instituciones, u organizaciones. Lo mismo a una escala
+menor como nuestros equipos de trabajo. Cuantas veces pasa que alguien
+llega y no se le explica nada, pero se le pide que realice cierta labor
+de cierta manera, y en el fondo nadie sabe muy bien por qué. Como los
+monos de la historia, nadie se atrevió a experimentar el resultado de
+quebrantar la norma, o cuestionarla, nadie ni siquiera sabe que podría
+pasar, como los monos.</p>
+<p>Dicen que si los maderos originales del barco de Teseo se hubiesen
+guardado en otro lugar, algún intrepido habría sido capaz de
+reconstruirlo, y podría haber clamado, con mucha razón de que era el
+poseedor del verdadero Barco de Teseo. Salvo, por el pequeño detalle que
+no contaba con Teseo y sus amigos. Pero eso es tema para otra reflexión
+posterior.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1065 words</span>
+    <span>6 - 7 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2012/la-paradoja-de-teseo-y-otras-ideas-sobre-los-cambios/golden_pavillion_428x269_to_468x312.jpg">golden_pavillion_428x269_to_468x312.jpg</a></li><li><a href="http://localhost:1313/posts/2012/la-paradoja-de-teseo-y-otras-ideas-sobre-los-cambios/monos.png">monos.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2009/filosofia-y-matrix/">Filosofía y Matrix</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

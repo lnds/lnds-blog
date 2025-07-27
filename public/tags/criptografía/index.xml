@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Criptografía on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/criptograf%C3%ADa/</link>
+    <description>Recent content in Criptografía on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Fri, 13 Apr 2012 22:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/criptograf%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Speed Hashing</title>
+      <link>http://localhost:1313/posts/2012/about-speed-hashing/</link>
+      <pubDate>Fri, 13 Apr 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/about-speed-hashing/</guid>
+      <description>&lt;p&gt;Hace unos días atrás Jeff Atwood, el autor del famoso blog &lt;a href=&#34;http://www.codinghorror.com&#34;&gt;Coding&#xA;Horror&lt;/a&gt;  menciona mi trabajo de de 2005&#xA;sobre &lt;a href=&#34;http://www.codinghorror.com/blog/2012/04/speed-hashing.html&#34;&gt;las colisiones de MD5&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;coding-horror.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Eduardo Diaz has described&#xA;a &lt;a href=&#34;http://www.codeproject.com/dotnet/HackingMd5.asp&#34;&gt;scheme&lt;/a&gt; by&#xA;which two programs could be packed into two archives with identical&#xA;MD5 hash. A special &amp;ldquo;extractor&amp;rdquo; program turn one archive into a&#xA;&amp;ldquo;good&amp;rdquo; program and the other into an &amp;ldquo;evil&amp;rdquo; one.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Aparte de que me honra la mención, y el autobombo :),  hay dos cosas que&#xA;me gustaría comentar sobre &lt;a href=&#34;http://www.codinghorror.com/blog/2012/04/speed-hashing.html&#34;&gt;ese&#xA;post&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¡Bisiesto!</title>
+      <link>http://localhost:1313/posts/2012/bisiesto/</link>
+      <pubDate>Wed, 29 Feb 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/bisiesto/</guid>
+      <description>&lt;p&gt;29 de febrero de 2012, un proceso de validación se negó a funcionar&#xA;correctamente hoy en mi trabajo. Esencialmente el bug era el siguiente:&#xA;un programa debía confrontar con una fecha anterior a 10 años atrás. La&#xA;solución que el programador implementó consiste simplemente en restar 10&#xA;al año. Así, para calcular una fecha anterior a 10 años simplemente le&#xA;resta 10 al año, obteniendo la fecha imaginaria: 29 de febrero de 2002.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seguridad y oportunidad</title>
+      <link>http://localhost:1313/posts/2012/seguridad-y-oportunidad/</link>
+      <pubDate>Fri, 24 Feb 2012 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/seguridad-y-oportunidad/</guid>
+      <description>&lt;p&gt;En 2005 &lt;a href=&#34;http://it.slashdot.org/story/05/09/23/0618252/practical-exploits-of-broken-md5-algorithm&#34;&gt;publiqué&lt;/a&gt;&#xA;una &lt;a href=&#34;http://www.codeproject.com/Articles/11643/Exploiting-MD5-collisions-in-C&#34;&gt;prueba de concepto&lt;/a&gt;&#xA;que mostraba lo vulnerable que es MD5 para ser usado como &amp;ldquo;firma&#xA;digital&amp;rdquo;, en 2007 &lt;a href=&#34;http://www.mathstat.dal.ca/~selinger/md5collision/&#34;&gt;Peter Selinger&lt;/a&gt; basándose&#xA;en mi trabajo crea un mecanimos para automatizar el proceso de generar&#xA;firmas falsas. En &lt;a href=&#34;http://localhost:1313/blog/2009/01/md5-las-vulnerabilidades-siguen-ahi.html&#34;&gt;2009 comenté&lt;/a&gt;&#xA;que la vulnerabilidad seguía ahí. Y estamos en 2012 y aún MD5 está&#xA;disponible y sigue siendo usado para generar claves y como mecanismo de&#xA;firma electrónica. Incluso todavía sigue siendo recomendado por&#xA;instituciones gubernamentales como mecanismo de verificación de&#xA;integridad de archivos. De hecho hay muchos más usos de este algoritmo&#xA;en distintos protocolos usados en diversos ambientes productivos en&#xA;nuestro país.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MD5: las vulnerabilidades siguen ahí</title>
+      <link>http://localhost:1313/posts/2009/md5-las-vulnerabilidades-siguen-ahi/</link>
+      <pubDate>Mon, 05 Jan 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/md5-las-vulnerabilidades-siguen-ahi/</guid>
+      <description>&lt;p&gt;En 2005 escribí una &lt;a href=&#34;http://www.codeproject.com/KB/security/HackingMd5.aspx&#34;&gt;prueba de concepto&lt;/a&gt; aprovechando&#xA;la vulnerabilidad&#xA;de MD5 (&lt;a href=&#34;http://www.busindre.com/&#34;&gt;Busindre&lt;/a&gt; ha &#xA;&lt;a href=&#34;http://www.busindre.com/evilize-creando-distintos-ejecutables-con-identico-md5-colisiones/&#34;&gt;explicado mucho mejor&#xA;que yo&lt;/a&gt;,&#xA;en español, mi prueba de concepto), en realidad la prueba de concepto&#xA;tomaba las ideas expuestas por Dan Kaminsky en su ahora bastante famoso&#xA;paper &lt;a href=&#34;http://www.doxpara.com/md5_someday.pdf&#34;&gt;MD5 To Be Considered Harmful Someday&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Hace unos días un grupo de investigadores europeos publicaron otra&#xA;prueba de concepto igual de interesante, en un paper irónicamente&#xA;llamado: &lt;a href=&#34;http://www.win.tue.nl/hashclash/rogue-ca/&#34;&gt;MD5 considered harmful today&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi mayor aporte a la seguridad informática</title>
+      <link>http://localhost:1313/posts/2007/mi-mayor-aporte-a-la-seguridad-informatica/</link>
+      <pubDate>Tue, 30 Oct 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2007/mi-mayor-aporte-a-la-seguridad-informatica/</guid>
+      <description>&lt;p&gt;Escribo este artículo con orgullo y preocupación. Orgullo por el impacto&#xA;que logró mi trabajo y preocupación porque, bueno ya van a ver&#xA;porque.&lt;/p&gt;&#xA;&lt;p&gt;El año 2005 escribí un &lt;a href=&#34;http://www.codeproject.com/dotnet/HackingMd5.asp&#34;&gt;artículo en&#xA;codeproject&lt;/a&gt; donde&#xA;mostré un esquema práctico que explotaba una de las vulnerabilidades&#xA;encontradas en ese tiempo al algoritmo MD5. El artículo alcanzó&#xA;notoriedad al ser destacado&#xA;en &lt;a href=&#34;http://it.slashdot.org/article.pl?sid=05%2F09%2F23%2F0618252&amp;amp;tid=172&amp;amp;tid=93&amp;amp;tid=218&#34;&gt;Slashdot&lt;/a&gt;,&#xA;y en &lt;a href=&#34;http://www.kriptopolis.org/explotando-las-colisiones-de-md5&#34;&gt;Kriptópolis&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Mi artículo original está en inglés y hay un (muy&#xA;breve) &lt;a href=&#34;http://www.lnds.net/2005/09/explotando_las_colisiones_de_m.html&#34;&gt;resumen&lt;/a&gt;&#xA;en este mismo blog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cripto Biometria</title>
+      <link>http://localhost:1313/posts/2005/cripto-biometria/</link>
+      <pubDate>Mon, 14 Nov 2005 17:49:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2005/cripto-biometria/</guid>
+      <description>&lt;p&gt;La conjunción de Biometría con Criptografía ha dado un nuevo paso con la publicación del paper &lt;a href=&#34;http://biometrics.cse.msu.edu/fuzzy-fingerprint-avbpa05.pdf&#34;&gt;Fuzzy Vault for Fingerprints&lt;/a&gt; por U. Uludag, S. Pankanti y A. Jain. del &lt;a href=&#34;http://biometrics.cse.msu.edu/index.html&#34;&gt;Michigan State University Biometrics Research Group&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Esencialmente el algoritmo oculta una llave de 128 bits en una nueva estructura, el fuzzy vault, un almacén virtual que no contiene la llave en sí, sino que los coeficientes de un polinomio, que sólo puede ser reconstruido con la adquisición de las minucias de las huellas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Usando one-way hash</title>
+      <link>http://localhost:1313/posts/2005/usando-one-way-hash/</link>
+      <pubDate>Thu, 25 Aug 2005 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/usando-one-way-hash/</guid>
+      <description>&lt;p&gt;En &lt;a href=&#34;http://www.codeproject.com/useritems/GoodbyeMD5.asp&#34;&gt;codeproject&lt;/a&gt;,&#xA;escribí sobre este tema, voy a empezar escribir sobre lo mismo, pero en&#xA;cristiano (como decía mi abuelita), en este blog.&lt;/p&gt;&#xA;&lt;p&gt;La razón, es que hay muchas malas implementaciones y aplicaciones de de&#xA;la criptografía, y como mucha documentación está en inglés, muchos&#xA;programadores no tienen un acceso fácil a estos temas (aprendan inglés&#xA;muchachos).&lt;/p&gt;&#xA;&lt;p&gt;La crísis de las funciones de hash&lt;/p&gt;&#xA;&lt;p&gt;Se puede leer sobre la crisis de populares funciones de hash en toda la&#xA;internet, esto debido a los recientes descubrimientos en el campo de la&#xA;criptología, por ejemplo, en el sitio del&#xA;&lt;a href=&#34;http://www.schneier.com/blog/archives/2005/08/new_cryptanalyt.html&#34;&gt;Gurú Bruce Schneier&lt;/a&gt;,&#xA;se ha dado una interesante discusión sobre los resultados que permiten&#xA;&amp;ldquo;quebrar&amp;rdquo; los algoritmos como MD5 y SHA-1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿Integrar o Desarrollar? </title>
+      <link>http://localhost:1313/posts/2005/integrar-o-desarrollar/</link>
+      <pubDate>Sat, 20 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/integrar-o-desarrollar/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.mundoenlinea.cl/noticia.php?noticia_id=702&amp;amp;categoria_id=4&#34;&gt;&amp;ldquo;Nuestro rol es entregar herramientas y no poner un centro de desarrollo de software en Chile&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yo soy desarrollador de software, no integrador.&lt;br&gt;&#xA;Cada vez que leo integrar leo esclavitud tecnologica.&lt;/p&gt;&#xA;&lt;p&gt;Debemos ser siempre los subordinados de la tecnología norte americana?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adios a SHA-1</title>
+      <link>http://localhost:1313/posts/2005/adios-a-sha-1/</link>
+      <pubDate>Fri, 19 Aug 2005 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/adios-a-sha-1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.schneier.com/blog/archives/2005/08/new_cryptanalyt.html&#34;&gt;Schneier&lt;/a&gt;da&#xA;más detalles sobre el ataque de Wang, al algoritmo SHA-1.&lt;/p&gt;&#xA;&lt;p&gt;Claramente estamos ante una crísis de las funciones de Hash.&lt;/p&gt;&#xA;&lt;p&gt;El resultado de wang, muestra que pueden llegar a un ataque de&#xA;complejidad 2^63, el problema es que ya estamos en condiciones de&#xA;atacar problemas de complejidad 2^64.&lt;/p&gt;&#xA;&lt;p&gt;Los papers pueden leerse aquí:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://202.194.5.130/admin/infosec/download.php?id=1&#34;&gt;&amp;ldquo;Efficient Collision Search Attacks on SHA-0&amp;rdquo;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://202.194.5.130/admin/infosec/download.php?id=2&#34;&gt;&amp;ldquo;Finding Collisions in the Full SHA-1Collision Search Attacks on SHA1&amp;rdquo;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

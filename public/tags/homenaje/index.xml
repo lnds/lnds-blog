@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homenaje on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/homenaje/</link>
+    <description>Recent content in Homenaje on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 02 Mar 2015 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/homenaje/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Soy Spock</title>
+      <link>http://localhost:1313/posts/2015/no-soy-spock/</link>
+      <pubDate>Mon, 02 Mar 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2015/no-soy-spock/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;El cambio es el proceso esencial de toda la existencia&amp;rdquo; &amp;ndash; Spock&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;En 1975 el actor Leonard Nimoy publicó su primera autobiografía. El&#xA;libro llevaba el título de uno de sus capítulos: &amp;ldquo;&lt;strong&gt;No Soy Spock&lt;/strong&gt;&amp;rdquo;.&#xA;La frase surge de un incidente en un aeropuerto. Al encontrarse con el&#xA;actor, una madre le cuenta a su hija que ante ellas se encontraba Spock.&#xA;La niña no parecía muy convencida, así que Nimoy le explica que él en&#xA;realidad no es Spock, sino que el actor que encarnaba a ese personaje.&#xA;En base  a esa anécdota, Nimoy elabora un texto donde cuenta la manera&#xA;en que llegó a desarrollar este personaje. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

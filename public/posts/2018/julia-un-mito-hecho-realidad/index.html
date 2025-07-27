@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Julia: ¿Un mito hecho realidad? | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2018/julia-un-mito-hecho-realidad/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Julia: ¿Un mito hecho realidad?">
+  <meta property="og:description" content="Julia es una de esas apariciones inesperadas en el panorama de los lenguajes de programación que vale la pena explorar. Es por esto que esta vez he recurrido a un “villano invitado” para que nos muestre de qué se trata. Camilo Chacón (@cchaconsartori) ha tenido la gentileza de escribir este artículo en exclusiva para La Naturaleza del Software sobre el lenguaje Julia, que lo disfruten.
+Julia: ¿Un mito hecho realidad? por Camilo Chacón">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-04-01T08:25:11-03:00">
+    <meta property="article:modified_time" content="2018-04-01T08:25:11-03:00">
+    <meta property="article:tag" content="Julia">
+    <meta property="article:tag" content="Lenguajes De Programación">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Villano Invitado">
+    <meta property="og:image" content="http://localhost:1313/posts/2018/julia-un-mito-hecho-realidad/featured.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2018/julia-un-mito-hecho-realidad/featured.png">
+  <meta name="twitter:title" content="Julia: ¿Un mito hecho realidad?">
+  <meta name="twitter:description" content="Julia es una de esas apariciones inesperadas en el panorama de los lenguajes de programación que vale la pena explorar. Es por esto que esta vez he recurrido a un “villano invitado” para que nos muestre de qué se trata. Camilo Chacón (@cchaconsartori) ha tenido la gentileza de escribir este artículo en exclusiva para La Naturaleza del Software sobre el lenguaje Julia, que lo disfruten.
+Julia: ¿Un mito hecho realidad? por Camilo Chacón">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Julia: ¿Un mito hecho realidad?</h1><time class="dim" datetime="2018-04-01T08:25:11-03:00">April 1, 2018</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/julia/">#julia</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/lenguajes-de-programaci%C3%B3n/">#lenguajes de programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/villano-invitado/">#villano invitado</a>
+      </div></ol></div>
+  <section class="page-section"><p>Julia es una de esas apariciones inesperadas en el panorama de los
+lenguajes de programación que vale la pena explorar. Es por esto que
+esta vez he recurrido a un &ldquo;villano invitado&rdquo; para que nos muestre de
+qué se trata. Camilo Chacón
+(<a href="https://twitter.com/cchaconsartori">@cchaconsartori</a>) ha tenido la
+gentileza de escribir este artículo en exclusiva para La Naturaleza del
+Software sobre el lenguaje Julia, que lo disfruten.</p>
+<h1 id="julia-un-mito-hecho-realidad">Julia: ¿Un mito hecho realidad?</h1>
+<p>por Camilo Chacón</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/ae33fa07-35fd-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Para los que llevamos varios años desarrollando con diferentes lenguajes
+de programación, sabemos que existe la creencia de que es muy poco
+probable que exista un lenguaje dinámico y flexible como Python, y a la
+vez rápido y eficiente como C++. ¿Pero sí quizás esto fuera solo un
+mito?</p>
+<p>Julia promete algo bastante desafiante <strong>Looks like Python, feels like
+Lisp, runs like Fortran</strong> (Se ve como Python, se siente como Lisp, y
+funciona como Fortran).</p>
+<p>Y como soy algo incrédulo quise llevarlo a la práctica para comprobar si
+esto es real. A continuación conoceremos las características principales
+de Julia junto a benchmarks contra C++1x, que es unos de los principales
+lenguajes para programación de alto rendimiento.</p>
+<h2 id="introducción-a-julia">Introducción a Julia</h2>
+<p>Julia es un lenguaje dinámico pero que fue diseñado con la eficiencia en
+mente a diferencia de otros como Python. Su enfoque principal es la
+computación científica, esto significa que fue diseñado para operaciones
+matemáticas, típicamente se refiere a computar operaciones intensivas de
+cálculo numérico(matrices, tensores, etc). Todo lo referente a trabajar
+con operaciones de álgebra lineal en Julia viene integrado de manera
+natural, un campo de principal interés seria Machine learning.</p>
+<p>Y claro, si un lenguaje promete eficiencia debe ser probado en entornos
+con paralelismo, Julia fue diseñado para trabajar sobre dichos entornos
+donde por defecto se necesita de paralelismo, para sacar el mayor
+provecho a todos los núcleos del cpu.</p>
+<h2 id="características-básicas">Características básicas</h2>
+<p>Julia es un lenguaje JIT(just in time)[6] que le permite compilar en
+tiempo de ejecución, utiliza LLVM[7] como plataforma de compilación.
+Esto le permite a Julia ser dinámico sin tener <strong>un consumo excesivo de
+recursos</strong> como los típicos lenguajes interpretados.</p>
+<h3 id="variables">Variables</h3>
+<p>Julia utiliza inferencia de tipos para declarar variables(también se
+puede asignar el tipo de dato de manera explicita, en algunos casos esto
+mejora la eficiencia), por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> y<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">10</span>
+</span></span></code></pre></div><p>Ahora veamos tipos de datos que son interesante para operaciones
+matemáticas, números racionales(forma de fracción) y complejos(con su
+parte real e imaginaria).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">2</span><span style="color:#f92672">//</span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">-</span><span style="color:#ae81ff">2</span><span style="color:#f92672">//</span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> typeof(a)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Rational</span>{<span style="color:#66d9ef">Int64</span>}
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.0</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span>im
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2.0</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5.0</span>im
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> typeof(b)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Complex</span>{<span style="color:#66d9ef">Float64</span>}
+</span></span></code></pre></div><p>El <code>im</code> se le agrega al final de un número para indicar que se trata
+de un número complejo.</p>
+<p>En la siguiente imagen se aprecia el sistema de tipo numéricos de Julia,
+con sus jerarquías correspondiente, esto lo veremos más adelante en la
+sección <strong>sistema de tipos</strong>.</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/ffb54d78-35fd-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<h3 id="arreglos-de-múltiples-dimensiones">Arreglos de múltiples dimensiones</h3>
+<p>Una característica destacable de Julia es su manejo con estructuras de
+múltiples dimensiones, inspirado en lenguajes como Matlab y R es muy
+simple operar sobre dichas estructuras.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> a <span style="color:#f92672">=</span> ones(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">×</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Float64</span>,<span style="color:#ae81ff">2</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>  <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>a
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">×</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Float64</span>,<span style="color:#ae81ff">2</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>  <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>a <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">×</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Float64</span>,<span style="color:#ae81ff">2</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>  <span style="color:#ae81ff">6.0</span>
+</span></span></code></pre></div><p>Algo interesante es que si se antepone un número antes de una variable,
+se multiplica, según el ejemplo anterior seria lo mismo que escribir
+5*a. Esto permite realizar ecuaciones de manera muy fácil(como veremos
+en la sección de funciones).</p>
+<p>Al igual que con Matlab, en Julia se puede cambiar desde un vector
+columna a vector fila de manera muy simple con el carácter `'` al
+final de la variable.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> v <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> v<span style="color:#f92672">&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">1</span><span style="color:#f92672">×</span><span style="color:#ae81ff">5</span> <span style="color:#66d9ef">RowVector</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1</span>  <span style="color:#ae81ff">2</span>  <span style="color:#ae81ff">3</span>  <span style="color:#ae81ff">4</span>  <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Para los programadores de Python la compresión de listas es algo que
+entrega mucha simpleza y flexibilidad(sino se utiliza en exceso) en los
+programas, igual está incorporado en Julia.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">4</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> [e<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">for</span> e <span style="color:#66d9ef">in</span> a <span style="color:#66d9ef">if</span> e <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">12</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">20</span>
+</span></span></code></pre></div><h3 id="funciones">Funciones</h3>
+<p>Las funciones son un gran tema en Julia. A diferencia de Python no es
+necesario ni obligatorio la indentación, sino más bien todos los bloques
+de código tienen una clausula de cierre <strong>end</strong>. Por ejemplo veamos una
+simple función a continuación:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">function</span> max_number(a<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, b<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>)
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">if</span>(a <span style="color:#f92672">&gt;</span> b)
+</span></span><span style="display:flex;"><span>                 println(<span style="color:#e6db74">&#34;a es </span><span style="color:#e6db74">$a</span><span style="color:#e6db74">, por lo tanto es mayor.&#34;</span>)
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">elseif</span>(b <span style="color:#f92672">&gt;</span> a)
+</span></span><span style="display:flex;"><span>                   println(<span style="color:#e6db74">&#34;b es </span><span style="color:#e6db74">$b</span><span style="color:#e6db74">, por lo tanto es mayor.&#34;</span>)
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>                   println(<span style="color:#e6db74">&#34;a y b son iguales&#34;</span>)
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    max_number (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> max_number(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    a es <span style="color:#ae81ff">10</span>, por lo tanto es mayor<span style="color:#f92672">.</span>
+</span></span></code></pre></div><p>Como se puede ver en el código superior, la función creada
+<strong>max_number</strong> tiene los argumentos con los tipos de datos declarados
+de manera explicita, lo cual es posible en Julia. Otro detalle es la
+interpolación en los string, algo similar ocurre en php [8] para
+incluir el valor de una variable dentro de un string anteponiendo el
+símbolo `$` antes del nombre de variable.</p>
+<p>También es posible crear funciones en una sola linea de manera muy
+limpia.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(x) <span style="color:#f92672">=</span> x<span style="color:#f92672">^</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    f (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(<span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">100</span>
+</span></span></code></pre></div><p>Otro ejemplo de flexibilidad en la declaración de funciones, es cuando
+podemos declarar un retorno de múltiples elementos:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">function</span> multi_op(a, b)
+</span></span><span style="display:flex;"><span>                   a <span style="color:#f92672">*</span> b, a <span style="color:#f92672">/</span> b, a <span style="color:#f92672">%</span> b, a <span style="color:#f92672">^</span> b
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    multi_op (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> multi_op(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    (<span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">0.6666666666666666</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">8</span>)
+</span></span></code></pre></div><p>En la función <strong>multi_op</strong> la última expresión `a * b, a / b, a % b,
+a ^ b` es una tupla con 4 elementos, y es valor inferido que retorna
+la función(sin necesidad de escribir el return), algo similar a como
+maneja <strong>Scala</strong> los valores de retorno.</p>
+<p>Julia permite pasar funciones como argumento de otra función(funciones
+de orden superior)[9] como en lenguajes como Python y Haskell, además
+cada función en Julia es definida como genérica por defecto.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> sum_number(n) <span style="color:#f92672">=</span> n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">?</span> sum(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> n <span style="color:#f92672">:</span> n
+</span></span><span style="display:flex;"><span>    sum_number (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">function</span> test_sum(f, num)
+</span></span><span style="display:flex;"><span>              println(f(num))  
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    test_sum (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> test_sum(sum_number, <span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">19</span>
+</span></span></code></pre></div><p>Algo típico en lenguajes funcionales son las operaciones **map **y
+<strong>filter</strong>, estas son muy simple de utilizar en Julia:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> a <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> map(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">*</span> <span style="color:#ae81ff">1.0</span>, a)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Float64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">3.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4.0</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">5.0</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> filter(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>, a)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><p>Cabe señalar que las funciones que son parte de Julia y manipulan
+estructuras de datos son <em><strong>inmutables</strong></em>, entonces para el caso de
+<em>filter</em> y <em>map</em> si se quiere modificar los elementos se debe agregar el
+símbolo ! al final de cada función. Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> filter!(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>, a)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>     julia<span style="color:#f92672">&gt;</span> a
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">4</span>
+</span></span></code></pre></div><h3 id="multiple-dispatch">Multiple Dispatch</h3>
+<p>Julia tiene una cualidad que lo diferencia de lenguaje como C, Python y
+Java(que son single dispatch [10]), y es que tiene lo que se llama
+**multiple dispatch **[11] algo similar a lo que conocemos como
+<strong>métodos sobrecargados</strong> en lenguajes orientados a objetos, pero en
+Julia tienen otro tipo de implementación y objetivo.</p>
+<p>Esto permite definir una función con un mismo nombre pero con diferente
+tipos de datos en los argumentos(o cantidad), hasta aquí nada nuevo,
+pero Julia permite llamar una función desde múltiples lugares sin
+necesidad de tener un <strong>solicitante</strong> que en otros lenguajes se refiere
+a la instancia de un objeto, ejemplo <em>obj_inst.method()</em> esto provoca
+que una vez se llame y se ejecute el <em>method()</em> vuelve la referencia a
+la instancia <em>obj_inst</em>, esto en Julia no sucede, dado que posee lo que
+se conoce como <strong>vtable</strong>, una tabla virtual que contiene una lista de
+funciones con el mismo nombre, que se van añadiendo a medida se define
+una nueva función, veamos un ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(x) <span style="color:#f92672">=</span> x <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    f (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(x, y) <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> y
+</span></span><span style="display:flex;"><span>    f (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">2</span> methods)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> methods(f)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 2 methods for generic function &#34;f&#34;:</span>
+</span></span><span style="display:flex;"><span>    f(x) <span style="color:#66d9ef">in</span> Main at REPL[<span style="color:#ae81ff">7</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    f(x, y) <span style="color:#66d9ef">in</span> Main at REPL[<span style="color:#ae81ff">2</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(<span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">20</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> f(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">15</span>
+</span></span></code></pre></div><p>La tabla virtual de `f` tiene dos valores con diferentes argumentos:</p>
+<p>`f(x)` y `f(x, y)`</p>
+<p>Cada función tiene una tabla asociada con las alternativas de argumentos
+que tiene dicha función, que se van eligiendo en tiempo de ejecución,
+sin necesidad de tener algo como un <strong>tipo de instancia de clase</strong> para
+mantener los métodos asociados a ella. La función <em><strong>methods</strong></em> nos
+permite conocer la lista de argumentos de una función.</p>
+<p>Otro lenguaje que tiene <strong>multiple dispatch</strong> es Lisp[2].</p>
+<h2 id="meta-programación">Meta-programación</h2>
+<h3 id="expresiones">Expresiones</h3>
+<p>La capacidad de definir expresiones es una característica que le da un
+gran poder a Julia. Por ejemplo si definimos una expresión <em>(1 + 3 *
+5)</em>, con Julia debemos anteponer el signo `:` para que se asigne como
+expresión(tipo `Expr`) y no la ejecute:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">:</span>(<span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span>(<span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> typeof(a)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Expr</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> dump(a)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Expr</span>
+</span></span><span style="display:flex;"><span>      head<span style="color:#f92672">:</span> <span style="color:#66d9ef">Symbol</span> call
+</span></span><span style="display:flex;"><span>      args<span style="color:#f92672">:</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Any</span>}((<span style="color:#ae81ff">3</span>,))
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Symbol</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">2</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Int64</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">3</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Expr</span>
+</span></span><span style="display:flex;"><span>          head<span style="color:#f92672">:</span> <span style="color:#66d9ef">Symbol</span> call
+</span></span><span style="display:flex;"><span>          args<span style="color:#f92672">:</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Any</span>}((<span style="color:#ae81ff">3</span>,))
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Symbol</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">2</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Int64</span> <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ae81ff">3</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">Int64</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>          typ<span style="color:#f92672">:</span> <span style="color:#66d9ef">Any</span>
+</span></span><span style="display:flex;"><span>      typ<span style="color:#f92672">:</span> <span style="color:#66d9ef">Any</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> eval(a)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">16</span>
+</span></span></code></pre></div><p>Como se puede apreciar en el código superior se utiliza la función
+`eval` para evaluar dicha expresión(algo similar a lo que tiene
+javascript). Otra forma de definir una expresión es utilizando un string
+como argumento de la función `parse`:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> e <span style="color:#f92672">=</span> parse(<span style="color:#e6db74">&#34;if(10 &gt; 0)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                       println(10)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                      else
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                       println(0)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                      end&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">:</span>(<span style="color:#66d9ef">if</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#75715e"># none, line 2:</span>
+</span></span><span style="display:flex;"><span>            println(<span style="color:#ae81ff">10</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>  <span style="color:#75715e"># none, line 4:</span>
+</span></span><span style="display:flex;"><span>            println(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> eval(e)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">10</span>
+</span></span></code></pre></div><p>Esta característica podría permitir crear <strong>lenguajes de dominio
+especifico</strong> dentro de Julia de una manera mucho más simple que con
+otros lenguajes, dado el soporte a <strong>meta-programación</strong> y al tener los
+tipo de datos `Expr` que permitiría crear nuevos tipos de expresiones
+dentro de Julia.</p>
+<h3 id="macros">Macros</h3>
+<p>Las macros son algo muy poderoso que tiene Julia, y a diferencia de las
+funciones que utilizan valores como datos de entrada, las macros usan
+<em><strong>expresiones</strong></em>.</p>
+<p>Las macros se define con una `@` previo al nombre, veamos algunas
+macros que vienen por defecto en Julia, primero definiremos una función
+`factorial`, y ocuparemos distintas macros para obtener información de
+la misma.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> factorial(n<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>) <span style="color:#f92672">=</span> n <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">?</span> factorial(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> n <span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    factorial (generic <span style="color:#66d9ef">function</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">@timev</span> factorial(<span style="color:#ae81ff">20</span>) <span style="color:#75715e">#Información del tiempo de ejecución.</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">0.000007</span> seconds (<span style="color:#ae81ff">5</span> allocations<span style="color:#f92672">:</span> <span style="color:#ae81ff">176</span> bytes)
+</span></span><span style="display:flex;"><span>    elapsed time (ns)<span style="color:#f92672">:</span> <span style="color:#ae81ff">6653</span>
+</span></span><span style="display:flex;"><span>    bytes allocated<span style="color:#f92672">:</span>   <span style="color:#ae81ff">176</span>
+</span></span><span style="display:flex;"><span>    pool allocs<span style="color:#f92672">:</span>       <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2432902008176640000</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">@which</span> factorial(<span style="color:#ae81ff">20</span>) <span style="color:#75715e">#Estructura de la función.</span>
+</span></span><span style="display:flex;"><span>    factorial(n<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>) <span style="color:#66d9ef">in</span> Main at REPL[<span style="color:#ae81ff">32</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">@code_native</span> factorial(<span style="color:#ae81ff">20</span>) <span style="color:#75715e">#Código nativo generado.</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span>section    __TEXT,__text,regular,pure_instructions
+</span></span><span style="display:flex;"><span>    Filename<span style="color:#f92672">:</span> REPL[<span style="color:#ae81ff">32</span>]
+</span></span><span style="display:flex;"><span>       pushq   <span style="color:#f92672">%</span>rbp
+</span></span><span style="display:flex;"><span>        movq    <span style="color:#f92672">%</span>rsp, <span style="color:#f92672">%</span>rbp
+</span></span><span style="display:flex;"><span>      pushq   <span style="color:#f92672">%</span>rbx
+</span></span><span style="display:flex;"><span>        pushq   <span style="color:#f92672">%</span>rax
+</span></span><span style="display:flex;"><span>        movq    <span style="color:#f92672">%</span>rdi, <span style="color:#f92672">%</span>rbx
+</span></span><span style="display:flex;"><span>    Source line<span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        testq   <span style="color:#f92672">%</span>rbx, <span style="color:#f92672">%</span>rbx
+</span></span><span style="display:flex;"><span>      jle L41
+</span></span><span style="display:flex;"><span>     leaq    <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>(<span style="color:#f92672">%</span>rbx), <span style="color:#f92672">%</span>rdi
+</span></span><span style="display:flex;"><span>      movabsq <span style="color:#f92672">$</span>factorial, <span style="color:#f92672">%</span>rax
+</span></span><span style="display:flex;"><span>        callq   <span style="color:#f92672">*%</span>rax
+</span></span><span style="display:flex;"><span>       imulq   <span style="color:#f92672">%</span>rbx, <span style="color:#f92672">%</span>rax
+</span></span><span style="display:flex;"><span>      addq    <span style="color:#f92672">$</span><span style="color:#ae81ff">8</span>, <span style="color:#f92672">%</span>rsp
+</span></span><span style="display:flex;"><span>        popq    <span style="color:#f92672">%</span>rbx
+</span></span><span style="display:flex;"><span>        popq    <span style="color:#f92672">%</span>rbp
+</span></span><span style="display:flex;"><span>        retq
+</span></span><span style="display:flex;"><span>    L41<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>        movl    <span style="color:#f92672">$</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">%</span>eax
+</span></span><span style="display:flex;"><span>        addq    <span style="color:#f92672">$</span><span style="color:#ae81ff">8</span>, <span style="color:#f92672">%</span>rsp
+</span></span><span style="display:flex;"><span>        popq    <span style="color:#f92672">%</span>rbx
+</span></span><span style="display:flex;"><span>        popq    <span style="color:#f92672">%</span>rbp
+</span></span><span style="display:flex;"><span>        retq
+</span></span><span style="display:flex;"><span>        nopw    <span style="color:#f92672">%</span>cs<span style="color:#f92672">:</span>(<span style="color:#f92672">%</span>rax,<span style="color:#f92672">%</span>rax)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">@code_llvm</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> <span style="color:#75715e">#Código LLVM generado.</span>
+</span></span><span style="display:flex;"><span>    define i64 <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#e6db74">&#34;jlsys_+_60880&#34;</span>(i64, i64) <span style="color:#75715e">#0 !dbg !5 {</span>
+</span></span><span style="display:flex;"><span>    top<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">%</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">=</span> add i64 <span style="color:#f92672">%</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">%</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>      ret i64 <span style="color:#f92672">%</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><p>Las macros `@code_native` y `@code_llvm` son muy útiles en caso
+de querer optimizar el código y tener control sobre lo que Julia esta
+generando[1]. La primera permite visualizar el código nativo que
+genera el código de Julia, y la segunda el código que LLVM esta
+generando.</p>
+<p>Julia también permite crear nuevas macros personalizadas, supongamos que
+queremos crear la macro `@special_print` que lo único que hace es
+recibir una expresión y antes de ejecutarla imprime `begin` y en el
+termino `end`, la expresión está definida dentro de un bloque
+`quote`, este bloque permite definir expresiones en multiples lineas:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">macro</span> special_print(ex)
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">quote</span>
+</span></span><span style="display:flex;"><span>               println(<span style="color:#e6db74">&#34;begin&#34;</span>)
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">local</span> val <span style="color:#f92672">=</span> <span style="color:#f92672">$</span>ex
+</span></span><span style="display:flex;"><span>               println(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">end&#34;</span>)
+</span></span><span style="display:flex;"><span>               val
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@special_print</span> (<span style="color:#66d9ef">macro</span> with <span style="color:#ae81ff">1</span> method)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">@special_print</span>(println(<span style="color:#e6db74">&#34;lnds&#34;</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">begin</span>
+</span></span><span style="display:flex;"><span>    lnds
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>Una representación visual de esta macro:</p>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/c40a3a59-35fe-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>Esto al igual como mencionamos en el apartado anterior de expresiones,
+da una gran flexibilidad de Julia, donde utiliza el concepto de
+<strong>Homoiconicidad</strong> [3] para poder utilizar macros, trata básicamente
+que un bloque de código también representa una estructura de datos con
+tipos de datos primarios del lenguaje en si mismo, o sea la <em><strong>habilidad
+de extender el propio lenguaje</strong></em>.</p>
+<h2 id="características-avanzadas">Características Avanzadas</h2>
+<h3 id="paralelismo">Paralelismo</h3>
+<p>Julia tiene como fortaleza manejar paralelismo en entornos distribuidos.
+Al igual que lenguajes como Erlang, Dart, y Elixir, Julia usa un patrón
+de mensajería entre procesos[5], los cuales puede ser locales o
+remotos.</p>
+<p>En Julia estos procesos son llamados <strong>workers</strong> y se pueden iniciar con
+dicho entorno solo abriendo la REPL, `julia -p n` donde n es número de
+workers a crear. Estos workers son procesos independientes(no thread),
+por lo cual la memoria no es compartida. Generalmente este `n` hace
+referencia a los números de núcleos del cpu que quieres utilizar.</p>
+<p>Cada workers se comunica y se ejecuta a través del protocolo TCP a nivel
+local. Para ejecutar Julia en un <strong>cluster</strong>, se debe hacer utilizar el
+siguiente comando `julia --machinefile machines test.jl` donde
+`--machinefile machines` es el archivo que contiene los nombres de
+los computadores distribuidos(nodos), y `test.jl` es el script que
+realiza el cálculo.</p>
+<p>Para hacer ciclos paralelos en Julia se debe utilizar el macro
+`@parallel` antes del for, y `(+)` que hace referencia a una
+reducción.</p>
+<p>En el siguiente ejemplo se crea un vector columna de una dimensión, con
+`5x10^10` elementos donde existen dos funciones, las cuales
+acumularan los datos en simples operaciones matemáticas, una en paralelo
+y la otra no. Para esto ocuparemos un servidor con las siguientes
+características:</p>
+<pre><code>Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    1
+Core(s) per socket:    16
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 79
+Model name:            Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz
+Stepping:              1
+CPU MHz:               2294.687
+BogoMIPS:              4589.37
+Hypervisor vendor:     Microsoft
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              51200K
+NUMA node0 CPU(s):     0-15
+</code></pre>
+<p>Utilizaremos el package `BenchmarkTools`, que sirve para hacer
+benchmark sobre una función utilizando la macro `@btime`,
+ejecutándola varias veces y sacando el promedio del tiempo de
+ejecución(esto hace más preciso el benchmark).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    <span style="color:#66d9ef">using</span> BenchmarkTools, Compat
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> getdata(mode)
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">if</span> mode <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;parallel&#34;</span>
+</span></span><span style="display:flex;"><span>           data <span style="color:#f92672">=</span> <span style="color:#66d9ef">SharedArray</span>{<span style="color:#66d9ef">Float64</span>, <span style="color:#ae81ff">1</span>}(<span style="color:#ae81ff">5000000000</span>)
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">@parallel</span> <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(data)
+</span></span><span style="display:flex;"><span>                data[i] <span style="color:#f92672">=</span> i <span style="color:#f92672">/</span> <span style="color:#ae81ff">10.0</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elseif</span> mode <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;no-parallel&#34;</span>
+</span></span><span style="display:flex;"><span>            data <span style="color:#f92672">=</span> <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Float64</span>, <span style="color:#ae81ff">1</span>}(<span style="color:#ae81ff">5000000000</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(data)
+</span></span><span style="display:flex;"><span>                data[i] <span style="color:#f92672">=</span> i <span style="color:#f92672">/</span> <span style="color:#ae81ff">10.0</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        data
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> parallel(data)
+</span></span><span style="display:flex;"><span>        acum <span style="color:#f92672">=</span>  <span style="color:#a6e22e">@parallel</span> (<span style="color:#f92672">+</span>) <span style="color:#66d9ef">for</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(data)
+</span></span><span style="display:flex;"><span>            data[i] <span style="color:#f92672">+</span>  <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> sqrt(i) <span style="color:#f92672">/</span> <span style="color:#ae81ff">10.0</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> no_parallel(data)
+</span></span><span style="display:flex;"><span>        acum<span style="color:#f92672">::</span><span style="color:#66d9ef">Float64</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.0</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(data)
+</span></span><span style="display:flex;"><span>           acum <span style="color:#f92672">=</span> acum <span style="color:#f92672">+</span> data[i] <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> sqrt(i) <span style="color:#f92672">/</span> <span style="color:#ae81ff">10.0</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    data <span style="color:#f92672">=</span> getdata(ARGS[<span style="color:#ae81ff">1</span>])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ARGS[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;parallel&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@btime</span> parallel(data)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> ARGS[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;no-parallel&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@btime</span> no_parallel(data)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>Resultados del bechmark entre la función `parallel(data)` y
+`no_parallel(data)`, demuestra lo esperado que la versión paralela
+sea más rápida, también cabe señalar que en el caso de la función
+`getdata(mode)` la versión paralela es muy superior en tiempo de
+ejecución, esto porque usa una estructura de dato `SharedArray`
+diseñada para trabajar en entorno de múltiples procesos de memoria
+compartida, como sucede en este caso. Los resultados:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    cc<span style="color:#a6e22e">@vm</span><span style="color:#f92672">-</span>app3<span style="color:#f92672">:~/</span>test_julia<span style="color:#f92672">$</span> julia <span style="color:#f92672">-</span>p <span style="color:#ae81ff">16</span> <span style="color:#f92672">--</span>optimize<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span> <span style="color:#f92672">--</span>compile<span style="color:#f92672">=</span>yes <span style="color:#f92672">--</span>precompiled<span style="color:#f92672">=</span>yes test<span style="color:#f92672">.</span>jl parallel
+</span></span><span style="display:flex;"><span>     <span style="color:#ae81ff">1.573</span> s (<span style="color:#ae81ff">2398</span> allocations<span style="color:#f92672">:</span> <span style="color:#ae81ff">194.28</span> KiB)
+</span></span><span style="display:flex;"><span>    cc<span style="color:#a6e22e">@vm</span><span style="color:#f92672">-</span>app3<span style="color:#f92672">:~/</span>test_julia<span style="color:#f92672">$</span> julia <span style="color:#f92672">--</span>optimize<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span> <span style="color:#f92672">--</span>compile<span style="color:#f92672">=</span>yes <span style="color:#f92672">--</span>precompiled<span style="color:#f92672">=</span>yes test<span style="color:#f92672">.</span>jl no<span style="color:#f92672">-</span>parallel
+</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">2.454</span> s (<span style="color:#ae81ff">0</span> allocations<span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> bytes)
+</span></span></code></pre></div><h3 id="sistema-de-tipos">Sistema de Tipos</h3>
+<p>Después de ver algunas características de Julia, podemos apreciar que el
+sistema de tipo es muy relevante, nos permite bastante flexibilidad al
+momento de programar.</p>
+<p>Para encapsular variables existen las `struct`, las cuales nos da la
+posibilidad de agregar restricciones de tipos al momento de crear el
+objeto:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Test</span>
+</span></span><span style="display:flex;"><span>                      x<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
+</span></span><span style="display:flex;"><span>                      y<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
+</span></span><span style="display:flex;"><span>                      z<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t <span style="color:#f92672">=</span> Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t <span style="color:#f92672">=</span> Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3.5</span>) <span style="color:#75715e">#Se intenta ingresar un valor Float.</span>
+</span></span><span style="display:flex;"><span>    ERROR<span style="color:#f92672">:</span> <span style="color:#66d9ef">InexactError</span>()
+</span></span><span style="display:flex;"><span>    Stacktrace<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     [<span style="color:#ae81ff">1</span>] convert(<span style="color:#f92672">::</span><span style="color:#66d9ef">Type</span>{<span style="color:#66d9ef">Int64</span>}, <span style="color:#f92672">::</span><span style="color:#66d9ef">Float64</span>) at <span style="color:#f92672">./</span>float<span style="color:#f92672">.</span>jl<span style="color:#f92672">:</span><span style="color:#ae81ff">679</span>
+</span></span><span style="display:flex;"><span>     [<span style="color:#ae81ff">2</span>] Test(<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">Float64</span>) at <span style="color:#f92672">./</span>REPL[<span style="color:#ae81ff">134</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t <span style="color:#f92672">=</span> Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#34;hi&#34;</span>) <span style="color:#75715e">#Se intenta ingresar un valor String.</span>
+</span></span><span style="display:flex;"><span>    ERROR<span style="color:#f92672">:</span> <span style="color:#66d9ef">MethodError</span><span style="color:#f92672">:</span> Cannot <span style="color:#e6db74">`convert`</span> an object of type <span style="color:#66d9ef">String</span> to an object of type <span style="color:#66d9ef">Int64</span>
+</span></span><span style="display:flex;"><span>    This may have arisen from a call to the constructor <span style="color:#66d9ef">Int64</span>(<span style="color:#f92672">...</span>),
+</span></span><span style="display:flex;"><span>    since type constructors fall back to convert methods<span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>    Stacktrace<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     [<span style="color:#ae81ff">1</span>] Test(<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>) at <span style="color:#f92672">./</span>REPL[<span style="color:#ae81ff">134</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">2</span>
+</span></span></code></pre></div><p>Como se puede apreciar en el ejemplo anterior, el compilador reclama
+cuando se intenta violar una restricción de tipo.</p>
+<p>Otro dato interesante es que se pueda obtener la información de los
+atributos de una `struct` con la función `fieldnames`:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t <span style="color:#f92672">=</span> Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    Test(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> fieldnames(t)
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">3</span><span style="color:#f92672">-</span>element <span style="color:#66d9ef">Array</span>{<span style="color:#66d9ef">Symbol</span>,<span style="color:#ae81ff">1</span>}<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#e6db74">:x</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#e6db74">:y</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#e6db74">:z</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t<span style="color:#f92672">.</span>x
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t<span style="color:#f92672">.</span>y
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> t<span style="color:#f92672">.</span>z
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>También se puede definir una `struct` con <strong>tipos compuestos
+paramétrico</strong>, algo probablemente similar a lo que se conoce como
+<strong>programación genérica</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Pair</span>{<span style="color:#66d9ef">T</span>}
+</span></span><span style="display:flex;"><span>                      p1<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>
+</span></span><span style="display:flex;"><span>                      p2<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">Pair</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Pair</span>{<span style="color:#66d9ef">Int64</span>}(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">Pair</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2.0</span>)
+</span></span><span style="display:flex;"><span>    ERROR<span style="color:#f92672">:</span> <span style="color:#66d9ef">MethodError</span><span style="color:#f92672">:</span> no method matching <span style="color:#66d9ef">Pair</span>(<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">Float64</span>)
+</span></span><span style="display:flex;"><span>    Closest candidates are<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">Pair</span>(<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>) <span style="color:#66d9ef">where</span> <span style="color:#66d9ef">T</span> at REPL[<span style="color:#ae81ff">154</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">2</span>
+</span></span></code></pre></div><p>Una `struct` puede tener múltiples tipos paramétrico:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Pair2</span>{<span style="color:#66d9ef">T</span>, <span style="color:#66d9ef">T2</span>}
+</span></span><span style="display:flex;"><span>                      p1<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>
+</span></span><span style="display:flex;"><span>                      p2<span style="color:#f92672">::</span><span style="color:#66d9ef">T2</span>
+</span></span><span style="display:flex;"><span>                  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> Pair2(<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;hi&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Pair2</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#66d9ef">String</span>}(<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;hi&#34;</span>)
+</span></span></code></pre></div><p>Ahora para crear una restricción desde un sub-tipo, se puede crear un
+`abstract type` para definir un nuevo tipo `abstract type
+Point{T&lt;:Real, T2&lt;:Real} end` donde el símbolo `&lt;:` significa `T
+es sub-tipo de Real`, entonces cualquier estructura que implemente
+`Point` podrá solo inicializarse con valores que sea sub-tipo de
+`Real`, por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Point</span>{<span style="color:#66d9ef">T</span><span style="color:#f92672">&lt;:</span><span style="color:#66d9ef">Real</span>, <span style="color:#66d9ef">T2</span><span style="color:#f92672">&lt;:</span><span style="color:#66d9ef">Real</span>} <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Pair</span>{<span style="color:#66d9ef">T</span>, <span style="color:#66d9ef">T2</span>} <span style="color:#f92672">&lt;:</span> <span style="color:#66d9ef">Point</span>{<span style="color:#66d9ef">T</span>, <span style="color:#66d9ef">T2</span>}
+</span></span><span style="display:flex;"><span>                   x<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>
+</span></span><span style="display:flex;"><span>                   y<span style="color:#f92672">::</span><span style="color:#66d9ef">T2</span>
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">Int</span> <span style="color:#f92672">&lt;:</span> <span style="color:#66d9ef">Real</span>
+</span></span><span style="display:flex;"><span>    true
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">Pair</span>(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Pair</span>{<span style="color:#66d9ef">Int64</span>,<span style="color:#66d9ef">Int64</span>}(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    julia<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">Pair</span>(<span style="color:#e6db74">&#34;hi&#34;</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>    ERROR<span style="color:#f92672">:</span> <span style="color:#66d9ef">TypeError</span><span style="color:#f92672">:</span> Point<span style="color:#f92672">:</span> <span style="color:#66d9ef">in</span> T, expected <span style="color:#66d9ef">T</span><span style="color:#f92672">&lt;:</span><span style="color:#66d9ef">Real</span>, got <span style="color:#66d9ef">Type</span>{<span style="color:#66d9ef">String</span>}
+</span></span><span style="display:flex;"><span>    Stacktrace<span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>     [<span style="color:#ae81ff">1</span>] <span style="color:#66d9ef">Pair</span>(<span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>, <span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>) at <span style="color:#f92672">./</span>REPL[<span style="color:#ae81ff">4</span>]<span style="color:#f92672">:</span><span style="color:#ae81ff">2</span>
+</span></span></code></pre></div><p>En el código superior ocurre un error al intentar crear un objeto
+`Pair` con una variable del tipo `String`, dado que `String &lt;:
+Real` es falso, porque `String` no es sub-tipo de `Real`.</p>
+<h2 id="benchmark---julia-vs-c1x">Benchmark - Julia vs C++1x</h2>
+<h3 id="multiplicación-de-matrices">Multiplicación de Matrices</h3>
+<p>El siguiente benchmark(prueba de rendimiento) multiplicaremos dos
+matrices de `2000x2000` que contienen valores `Ìnt64`, este es un
+ejemplo típico para comprobar la velocidad de computo entre diferentes
+lenguajes, no utilizaremos bibliotecas externas.</p>
+<h3 id="un-nucleo">Un nucleo</h3>
+<ul>
+<li>En C++ usaremos `gcc 4.6` con optimización en la
+compilación(`-O3`).\</li>
+<li>En Julia usaremos la versión 0.6.2 del lenguaje.\</li>
+</ul>
+<h3 id="c">C++</h3>
+<p>Compilación:</p>
+<pre><code>- `g++  -std=c++11 -O3 -o mult_matrix mult_matrix.cpp`
+- `time ./mult_matrix`
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>    <span style="color:#75715e">//Archivo: mult_matrix.cpp
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> <span style="color:#66d9ef">const</span> size <span style="color:#f92672">=</span> <span style="color:#ae81ff">2000</span>;
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> matrix1(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> matrix2(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> matrix3(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> size; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>           {
+</span></span><span style="display:flex;"><span>                matrix1[i][j] <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span>j;
+</span></span><span style="display:flex;"><span>                matrix2[i][j] <span style="color:#f92672">=</span> i<span style="color:#f92672">-</span>j;
+</span></span><span style="display:flex;"><span>           }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> size; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>           {
+</span></span><span style="display:flex;"><span>              matrix3[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> size; k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>               matrix3[i][j] <span style="color:#f92672">+=</span> matrix1[i][k] <span style="color:#f92672">*</span> matrix2[k][j];
+</span></span><span style="display:flex;"><span>           }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><h3 id="julia">Julia</h3>
+<p>Compilación:</p>
+<pre><code>- `time julia mult_matrix.jl`
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    <span style="color:#75715e">#Archivo mult_matrix.jl</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> calculation(size<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>)
+</span></span><span style="display:flex;"><span>        matrix1 <span style="color:#f92672">=</span> zeros(<span style="color:#66d9ef">Int</span>, size, size)
+</span></span><span style="display:flex;"><span>        matrix2 <span style="color:#f92672">=</span> zeros(<span style="color:#66d9ef">Int</span>, size, size)
+</span></span><span style="display:flex;"><span>        matrix3 <span style="color:#f92672">=</span> zeros(<span style="color:#66d9ef">Int</span>, size, size)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">@inbounds</span> <span style="color:#66d9ef">for</span> j <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>                matrix1[i,j] <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span>j
+</span></span><span style="display:flex;"><span>                matrix2[i,j] <span style="color:#f92672">=</span> i<span style="color:#f92672">-</span>j
+</span></span><span style="display:flex;"><span>           <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> j <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>                matrix3[i,j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">@inbounds</span> <span style="color:#66d9ef">for</span> k <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>                    matrix3[i,j] <span style="color:#f92672">+=</span> matrix1[i,k] <span style="color:#f92672">*</span> matrix2[k,j]
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    calculation(<span style="color:#ae81ff">2000</span>)
+</span></span></code></pre></div><p>Algunas cosas interesante del código de Julia es que utilizando la macro
+`@inbounds` le decíamos al compilador que no realice comprobaciones
+en el indices de los arreglos, por ende el código assembly generado es
+menor(esto lo puedes comprobar con la macro `@code_native`),
+claramente se debe utilizar con cuidado. Por otra parte la función
+`zeros(:type, :row_dim, :col_dim)`, nos permite crear una matriz con
+un tipo de dato especifico y con el tamaño de la misma.</p>
+<h3 id="resultados">Resultados</h3>
+<pre><code>| Lenguaje          |Tiempo(segundos)|
+| ----------------- |:--------------:|
+| C++/gcc 4.6         |33.252             | 
+| Julia 0.6.2       |16.059           | 
+</code></pre>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/8a56d88b-35ff-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<h3 id="multiples-núcleos">Multiples núcleos</h3>
+<p>Para esto, usaremos C++ con OpenMP(una biblioteca para paralelismo de
+memoria compartida)[4] y al igual que la prueba anterior Julia 0.6.2,
+el servidor de prueba es el mismo que mencionamos previamente en la
+sección de <em><strong>paralelismo</strong></em>, un servidor Intel(R) Xeon(R) de 16 núcleos
+cpu.</p>
+<h3 id="c-1">C++</h3>
+<p>Compilación:</p>
+<pre><code>- `g++ -fopenmp -std=c++11 -O3 -o mult_matrix_parallel mult_matrix_parallel.cpp`
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>    <span style="color:#75715e">//Archivo: mult_matrix_parallel.cpp
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">int</span> <span style="color:#66d9ef">const</span> size <span style="color:#f92672">=</span> <span style="color:#ae81ff">2000</span>;
+</span></span><span style="display:flex;"><span>      vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;&gt;</span> Mat1(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>      vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;&gt;</span> Mat2(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>      vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;&gt;</span> Mat3(size, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">long</span><span style="color:#f92672">&gt;</span>(size));
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">#pragma omp parallel
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        {
+</span></span><span style="display:flex;"><span>           <span style="color:#75715e">#pragma omp for
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>         <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>           {
+</span></span><span style="display:flex;"><span>               <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> size; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                    Mat1[i][j] <span style="color:#f92672">=</span> (i<span style="color:#f92672">+</span>j)<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>                   Mat2[i][j] <span style="color:#f92672">=</span> (i<span style="color:#f92672">-</span>j)<span style="color:#f92672">+</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>           <span style="color:#75715e">#pragma omp for
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>         <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> size; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>           {
+</span></span><span style="display:flex;"><span>              <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> size; j<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>               {
+</span></span><span style="display:flex;"><span>                  Mat3[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>                 <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> size; k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>                     Mat3[i][j] <span style="color:#f92672">+=</span> Mat1[i][k] <span style="color:#f92672">*</span> Mat2[k][j];
+</span></span><span style="display:flex;"><span>             }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>       }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><h3 id="julia-1">Julia</h3>
+<p>Compilación:</p>
+<pre><code>- `julia -p 16 -O3 mult_matrix_parallel.jl`
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>    <span style="color:#75715e">#//Archivo: mult_matrix_parallel.jl</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">using</span> BenchmarkTools, Compat
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> calculation(size<span style="color:#f92672">::</span><span style="color:#66d9ef">Int64</span>)
+</span></span><span style="display:flex;"><span>        matrix1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">SharedArray</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#ae81ff">2</span>}(size, size)
+</span></span><span style="display:flex;"><span>       matrix2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">SharedArray</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#ae81ff">2</span>}(size, size)
+</span></span><span style="display:flex;"><span>       matrix3 <span style="color:#f92672">=</span> <span style="color:#66d9ef">SharedArray</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#ae81ff">2</span>}(size, size)
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">@sync</span> <span style="color:#a6e22e">@parallel</span> <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">@inbounds</span> <span style="color:#66d9ef">for</span> j <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>               matrix1[i,j] <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span>j
+</span></span><span style="display:flex;"><span>              matrix2[i,j] <span style="color:#f92672">=</span> i<span style="color:#f92672">-</span>j
+</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">@sync</span> <span style="color:#a6e22e">@parallel</span> <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>              matrix3[i,j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#a6e22e">@inbounds</span> <span style="color:#66d9ef">for</span> k <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>size
+</span></span><span style="display:flex;"><span>                   matrix3[i,j] <span style="color:#f92672">+=</span> matrix1[i,k] <span style="color:#f92672">*</span> matrix2[k,j]
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    size <span style="color:#f92672">=</span> <span style="color:#ae81ff">2000</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@btime</span> calculation(size)
+</span></span></code></pre></div><p>Algo importante a mencionar del código superior de Julia, es que se
+agrega la macro `@sync` previo al `@parallel` para obligar a
+esperar que se termine todo el computo en paralelo para continuar al
+siguiente bloque.</p>
+<h3 id="resultados-1">Resultados</h3>
+<pre><code>| Lenguaje          |Tiempo(segundos)|
+| ----------------- |:--------------:|
+| C++/openmp/gcc 4.6|3.600        | 
+| Julia 0.6         |5.938           | 
+</code></pre>
+<p><img src="https://d2dspjyoh5c79p.cloudfront.net/d1ed1bfc-35ff-11e8-a030-2b5831f8ecb5-aa9f18b7" alt=""></p>
+<p>C++ y OpenMP superan a Julia en esta prueba, ahora, <em>no deja de ser
+sorprendente que la diferencia no es tan grande</em>.</p>
+<p><strong>Nota:</strong> En el caso de C++/OpenMP probablemente exista una manera de
+hacer más eficiente el código.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Julia representa una interesante propuesta para todo lo referente a
+ciencia de datos, y a pesar de que es nuevo(aún no esta en su versión
+1.0), no deja de sorprender el rendimiento comparado a C++. A pesar de
+eso, C++ es un lenguaje para el desarrollo de sistemas(bajo nivel y de
+alto rendimiento), y Julia no esta enfocado en competir en esa área,
+sino más bien en todo lo referente al análisis de datos.</p>
+<p>Para terminar, dejo algunas ventajas y desventajas que encontré del
+lenguaje:</p>
+<h3 id="ventajas">Ventajas</h3>
+<ul>
+<li>Posee las ventajas de un lenguaje dinámico con la velocidad de
+computo de un lenguaje compilado.</li>
+<li>Interesante sistema de tipos y meta-programación.</li>
+<li>Incorpora facilidades para manejar operaciones matemáticas, lo cual
+permite una fácil adopción para <strong>científicos de datos</strong>, sin
+sacrificar la velocidad de computo.</li>
+</ul>
+<h3 id="desventajas">Desventajas</h3>
+<ul>
+<li>Comparado a C++ ocupa más ram, casi el doble en algunos casos. Esto
+podría ser un problema si se quiere utilizar Julia en sistemas
+embebidos(empíricamente no lo comprobé).</li>
+<li>La comunidad es aún pequeña si le compara a lenguajes ya
+establecidos como Python. Esto podria ser solo una desventaja
+temporal.</li>
+<li>El sistema de instalación de paquetes aún no es robusto como otros,
+tales como `pip` y `npm`.</li>
+</ul>
+<h2 id="referencias">Referencias</h2>
+<p>[1]: <a href="https://www.amazon.com/Julia-Performance-Programming-Ivo-Balbaert-ebook/dp/B01MXS4IPT">Julia: High Performance Programming. Ivo Balbaert, Avik Sengupta, Malcolm Sherrington</a></p>
+<p>[2]: <a href="https://www.amazon.com/Mastering-Julia-Contemporary-Challenges-Programming-ebook/dp/B010T266RY/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1521246511&amp;sr=1-1&amp;keywords=mastering+julia">Mastering Julia</a>.
+Malcolm Sherrington.</p>
+<p>[3]: <a href="https://es.wikipedia.org/wiki/Homoiconicidad">https://es.wikipedia.org/wiki/Homoiconicidad</a></p>
+<p>[4]: <a href="https://www.dartmouth.edu/~rc/classes/intro_openmp">What is OpenMP?</a></p>
+<p>[5]: <a href="https://docs.julialang.org/en/stable/manual/parallel-computing">https://docs.julialang.org/en/stable/manual/parallel-computing</a></p>
+<p>[6]: <a href="https://es.wikipedia.org/wiki/M%C3%A9todo_justo_a_tiempo">https://es.wikipedia.org/wiki/M%C3%A9todo_justo_a_tiempo</a> </p>
+<p>[7]: <a href="https://es.wikipedia.org/wiki/LLVM">https://es.wikipedia.org/wiki/LLVM</a> </p>
+<p>[8]: <a href="http://php.net/manual/es/language.types.string.php">http://php.net/manual/es/language.types.string.php</a></p>
+<p>[9]: <a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_de_orden_superior">https://es.wikipedia.org/wiki/Funci%C3%B3n_de_orden_superior</a></p>
+<p>[10]: <a href="https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch">https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch</a> </p>
+<p>[11]: <a href="https://en.wikipedia.org/wiki/Multiple_dispatch">https://en.wikipedia.org/wiki/Multiple_dispatch</a> </p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>3922 words</span>
+    <span>28 - 36 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción-a-julia">Introducción a Julia</a></li>
+    <li><a href="#características-básicas">Características básicas</a>
+      <ul>
+        <li><a href="#variables">Variables</a></li>
+        <li><a href="#arreglos-de-múltiples-dimensiones">Arreglos de múltiples dimensiones</a></li>
+        <li><a href="#funciones">Funciones</a></li>
+        <li><a href="#multiple-dispatch">Multiple Dispatch</a></li>
+      </ul>
+    </li>
+    <li><a href="#meta-programación">Meta-programación</a>
+      <ul>
+        <li><a href="#expresiones">Expresiones</a></li>
+        <li><a href="#macros">Macros</a></li>
+      </ul>
+    </li>
+    <li><a href="#características-avanzadas">Características Avanzadas</a>
+      <ul>
+        <li><a href="#paralelismo">Paralelismo</a></li>
+        <li><a href="#sistema-de-tipos">Sistema de Tipos</a></li>
+      </ul>
+    </li>
+    <li><a href="#benchmark---julia-vs-c1x">Benchmark - Julia vs C++1x</a>
+      <ul>
+        <li><a href="#multiplicación-de-matrices">Multiplicación de Matrices</a></li>
+        <li><a href="#un-nucleo">Un nucleo</a></li>
+        <li><a href="#c">C++</a></li>
+        <li><a href="#julia">Julia</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#multiples-núcleos">Multiples núcleos</a></li>
+        <li><a href="#c-1">C++</a></li>
+        <li><a href="#julia-1">Julia</a></li>
+        <li><a href="#resultados-1">Resultados</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusión">Conclusión</a>
+      <ul>
+        <li><a href="#ventajas">Ventajas</a></li>
+        <li><a href="#desventajas">Desventajas</a></li>
+      </ul>
+    </li>
+    <li><a href="#referencias">Referencias</a></li>
+  </ul>
+</nav><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2018/julia-un-mito-hecho-realidad/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2017/snow-goose/">Snow Goose</a></li><li><a href="/posts/2017/red-barcheta/">Red Barchetta</a></li><li><a href="/posts/2017/occams-razor/">Occam&#39;s Razor</a></li><li><a href="/posts/2017/close-to-the-edge-down-to-the-river/">Close to the Edge, down by the river</a></li><li><a href="/posts/2017/pour-some-syntactic-sugar-on-me/">Pour Some Syntactic Sugar on Me</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desastres on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/desastres/</link>
+    <description>Recent content in Desastres on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sun, 14 Mar 2010 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/desastres/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yo y mi bocota...</title>
+      <link>http://localhost:1313/posts/2010/yo-y-mi-bocota/</link>
+      <pubDate>Sun, 14 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/yo-y-mi-bocota/</guid>
+      <description>&lt;p&gt;En mi trabajo existen planes de recuperación de desastres, sitios de&#xA;contingencia, y son sometidos a pruebas al menos un par de veces al año,&#xA;todos debidamente auditados porque hay exigencias gubernamentales y más&#xA;fuerte, hay exigencias con las instituciones extranjeras que son&#xA;propietarias. No es un trabajo que a uno le guste hacer, pero cuando&#xA;pasa un incidente como un terremoto la verdad es que ayuda bastante, y&#xA;permite que nuestra gente TI esté bastante tranquila, durante ese&#xA;momento. En el último terremoto todo anduvo bien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desastres Naturales</title>
+      <link>http://localhost:1313/posts/2005/desastres-naturales/</link>
+      <pubDate>Fri, 09 Sep 2005 08:50:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/desastres-naturales/</guid>
+      <description>&lt;p&gt;No hay desastres naturales, el efecto de Katrina o de otros fenomenos&#xA;naturales se conviertes en desastres cuando afectan a la humanidad. Para&#xA;la naturaleza nuestras construcciones son insignificantes.&lt;/p&gt;&#xA;&lt;p&gt;Los desastres de este tipo son culturales, o son el resultado previsible&#xA;de &lt;a href=&#34;http://laotraorilla.blog-city.com/el_verdadero_rostro_de_la_tragedia.htm&#34;&gt;consecuencias decisiones&#xA;políticas&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Lamentablemente, los que toman las decisiones siguen sus propias agendas&#xA;y no consideran las consecuencias de los&lt;a href=&#34;http://www.globalwarming.org/&#34;&gt;cambios&#xA;climáticos&lt;/a&gt; que estamos sufriendo. A&#xA;pesar del &lt;a href=&#34;http://unfccc.int/essential_background/kyoto_protocol/items/2830.php&#34;&gt;acuerdo de&#xA;Kyoto&lt;/a&gt;,&#xA;las emisiones de gases de invernadero &lt;a href=&#34;http://reports.eea.eu.int/technical_report_2005_4/en&#34;&gt;han aumentado en&#xA;Europa&lt;/a&gt;. La&#xA;tragedia Nueva Orleans no es la primera, pero tampoco la última, el&#xA;problema es que las cosas empeorarán.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Katrina and the waves</title>
+      <link>http://localhost:1313/posts/2005/katrina-and-the-waves/</link>
+      <pubDate>Fri, 09 Sep 2005 08:50:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/katrina-and-the-waves/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.katw.com/&#34;&gt;Katrina and the waves&lt;/a&gt; El nombre de este grupo&#xA;ochentero, suena hoy como una una extraña premonición, curiosidades de&#xA;la vida.&lt;/p&gt;&#xA;&lt;p&gt;Pero lo cierteo es que el huracán Katrina ha levantado olas (waves).&lt;/p&gt;&#xA;&lt;p&gt;Recientemente escribí que no existen &lt;a href=&#34;http://localhost:1313/archives/2005/09/desastres_natur.html&#34;&gt;los desastres naturales&lt;/a&gt;,&#xA;sino que son consecuencias de las políticas. Y también hable sobre el&#xA;calentamiento global.&lt;/p&gt;&#xA;&lt;p&gt;Leyendo el post, en realidad parece que estuviera estableciendo una&#xA;relación directa entre el calentamiento global, y el huracán Katrina.&lt;br&gt;&#xA;La que no era mi intención, como muy bien apunta&#xA;&lt;a href=&#34;http://cdp.blogsome.com/2005/09/11/katrina-y-el-cambio-climatico-global/&#34;&gt;Carlos&lt;/a&gt;,&#xA;no podemos establecer una relación directa, de que el huracán katrina&#xA;tenga algo que ver con el calentamiento global. Aunque tampoco podemos&#xA;descartarlo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

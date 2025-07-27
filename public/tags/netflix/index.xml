@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netflix on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/netflix/</link>
+    <description>Recent content in Netflix on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 25 Dec 2017 08:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/netflix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo ganarle a Santa Claus</title>
+      <link>http://localhost:1313/posts/2017/como-ganarle-a-santa-claus/</link>
+      <pubDate>Mon, 25 Dec 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/como-ganarle-a-santa-claus/</guid>
+      <description>&lt;p&gt;No hay nadie que supere en logística a Santa Claus, también conocido&#xA;como Papá Noel, o Viejito Pascuero en Chile. Es decir, ¿quién podría&#xA;repartir regalos a todos los niños del mundo durante una noche? Por&#xA;supuesto que tiene veinticuatro horas para hacerlo, pero aún así, para&#xA;cubrir cada zona horaria tiene apenas sesenta minutos, para poder&#xA;aterrizar en cada casa, dejar los regalos y luego re emprender vuelo.&lt;/p&gt;&#xA;&lt;p&gt;El truco es que Santa Claus usa magia, así que hay poco que podamos&#xA;hacer al respecto, hasta que no hayamos alcanzado tal nivel de&#xA;desarrollo tecnológico no podremos superarlo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El camino de la innovación</title>
+      <link>http://localhost:1313/posts/2013/el-camino-de-la-innovacion/</link>
+      <pubDate>Fri, 15 Feb 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/el-camino-de-la-innovacion/</guid>
+      <description>&lt;p&gt;Adrian Cockcroft es el &amp;ldquo;arquitecto de nube&amp;rdquo; en Netflix, sí, cloud&#xA;architect. ¿Qué diablos es eso? En otra oportunidad les voy a explicar.&#xA;Lo importante es que escribe &lt;a href=&#34;http://perfcap.blogspot.com/&#34;&gt;un blog&lt;/a&gt;&#xA;bien interesante, sobre el cual se basa casi todo lo que voy a escribir&#xA;hoy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;netflix.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En diciembre de 2011 escribió un post titulado&#xA;&lt;a href=&#34;http://perfcap.blogspot.com/2011/12/how-netflix-gets-out-of-way-of.html&#34;&gt;&amp;ldquo;How Netflix gets out of the way of innovation&amp;rdquo;&lt;/a&gt;,&#xA;que les sugiero que lean. Es en realidad el &amp;ldquo;script&amp;rdquo; de una&#xA;presentación sobre la cultura de Netflix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jugar bien sus cartas</title>
+      <link>http://localhost:1313/posts/2013/jugar-bien-sus-cartas/</link>
+      <pubDate>Wed, 13 Feb 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/jugar-bien-sus-cartas/</guid>
+      <description>&lt;p&gt;Me gusta &lt;a href=&#34;http://www.netflix.com&#34;&gt;Netflix&lt;/a&gt;. No me gusta la TV, quiero&#xA;decir la televisión pública actual, hace rato que no la veo, y yo era un&#xA;verdadero &amp;ldquo;tevito&amp;rdquo;, pero hace tiempo que me aburrió con sus realities&#xA;y sus pésimos noticiarios. Crecí en los setenta, donde la televisión&#xA;significaba, al menos en Chile, series yankis como Star Trek, El Hombre&#xA;Nuclear, Bonanza, y &amp;ldquo;Tardes de Cine&amp;rdquo;, con películas de Abbot y&#xA;Costello o de Dean Martin con Jerry Lewis, pero de vez en cuando algún&#xA;clásico del cine de terror, como la Momia con Boris Karloff, o Drácula&#xA;con Bela Lugosi. Incluso recuerdo haber visto PSicósis de Hitchcock en&#xA;Televisión Nacional una noche de verano cuando tenía unos trece o&#xA;catorce años. Así que no vi tan mal cine :wink: Al menos cuando la&#xA;televisión era pública, de verdad.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

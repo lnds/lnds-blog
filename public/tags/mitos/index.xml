@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mitos on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/mitos/</link>
+    <description>Recent content in Mitos on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Thu, 04 Aug 2005 20:25:11 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mitos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La leyenda del bolígrafo espacial</title>
+      <link>http://localhost:1313/posts/2005/la-leyenda-del-bol%C3%ADgrafo-espacial/</link>
+      <pubDate>Thu, 04 Aug 2005 20:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-leyenda-del-bol%C3%ADgrafo-espacial/</guid>
+      <description>&lt;p&gt;Hay un mito que cuenta que durante la carrera espacial, los&#xA;norteamericanos se enfrentaron al dilema de crear un bolígrafo que fuera&#xA;capaz de escribir en el vacío. Entonces la NASA invirtió 1.5 millones de&#xA;dolares para desarrollar el boligrafo espacial. Los rusos enfrentaban el&#xA;mismo dilema, lo resolvieron usando lápices de grafito.&lt;/p&gt;&#xA;&lt;p&gt;Este es el texto original que circulaba por emails por allá en 1999:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;During the space race back in the 1960&#39;s, NASA was faced with a major&#xA;problem. The astronaut needed a pen that would write in the vacuum of&#xA;space. NASA went to work. At a cost of $1.5 million they developed&#xA;the &amp;ldquo;Astronaut Pen&amp;rdquo;. Some of you may remember. It enjoyed minor&#xA;success on the commercial market.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

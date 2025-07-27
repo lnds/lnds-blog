@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 31 Jul 2021 19:33:19 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dieciseis Años</title>
+      <link>http://localhost:1313/posts/2021/2021-08-01-dieciseis/</link>
+      <pubDate>Sat, 31 Jul 2021 19:33:19 -0400</pubDate>
+      <guid>http://localhost:1313/posts/2021/2021-08-01-dieciseis/</guid>
+      <description>&lt;p&gt;¿En qué estabas a tus dieciseis años de edad?&lt;/p&gt;&#xA;&lt;p&gt;En algunos paises a los dieciseis años ya puedes sacar licencia de conducir, o incluso votar, incluso se te considera responsable penalmente. Lo más seguro es que estabas terminando tu educación secundaria.&lt;/p&gt;&#xA;&lt;p&gt;Dieciseis es un número muy importante para los programadores de sistemas. Usamos esta base para expresar números porque facilita su &lt;a href=&#34;https://www.programando.org/blog/2011/03/06/partir-desde-cero/&#34;&gt;traducción al binario&lt;/a&gt;. Dieciseis es el peso atómico del azufre. Se usa para definir la cantidad de participantes en muchos torneos deportivos. El último rey de Francia fue el decimosexto Luis. Dieciseis son las horas que pasamos activos en el día.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iPad es mi Copiloto</title>
+      <link>http://localhost:1313/posts/2021/2021-03-20-ipad-es-mi-copiloto/</link>
+      <pubDate>Tue, 16 Mar 2021 14:00:44 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2021/2021-03-20-ipad-es-mi-copiloto/</guid>
+      <description>&lt;p&gt;Hasta hace poco tiempo consideraba al iPad más una herramienta de consumo de contenido que un apoyo en mi productividad. Es cool tener un iPad pero igual es un aparato caro para usarlo sólo para consumir contenido de la web, a pesar del sonido y la calidad de imagen, no me sentía cómodo con el uso que le daba. Por otro lado, he tenido algunos modelos previos del iPad con la idea de usarlos en mi trabajo o cuando estudiaba, para tomar notas y todo eso. Incluso como una herramienta para escribir borradores de mis blogs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bisiesto</title>
+      <link>http://localhost:1313/posts/2020/2020-02-29-bisiesto/</link>
+      <pubDate>Sat, 29 Feb 2020 19:55:47 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/2020-02-29-bisiesto/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Esta es una noche para recordar… ella es el comienzo de siempre&amp;rdquo; &amp;ndash; Dante&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Veintinueve de febrero. Cada cuatro años agregamos este día especial especial para poder ajustar nuestros calendarios y asegurar que las estaciones empiecen cuando se supone que deben.&lt;/p&gt;&#xA;&lt;p&gt;Es casi seguro que más de algún sistema informático &lt;a href=&#34;http://localhost:1313/blog/lnds/2012/02/29/bisiesto&#34;&gt;ha fallado por manejar mal esta fecha&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El tiempo es, de muchas formas, una mera convención. La órbita de la tierra alrededor del sol no toma 365 días, ni tampoco el día 24 horas. Podrían ser cualquier valor arbitrario. Nos reconforta tener estas convenciones. Los meses, los días, nos ordenan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Decimo Quinto Año</title>
+      <link>http://localhost:1313/posts/2020/el-decimo-quinto/</link>
+      <pubDate>Sun, 02 Feb 2020 13:56:06 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2020/el-decimo-quinto/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Two Steps Back&lt;br&gt;&#xA;One Leap Forward&lt;br&gt;&#xA;&amp;ndash; Earthrise, Haken&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;El décimo cuarto año no terminó muy bien. No voy a entrar en detalles ahora. ¿Para qué?&lt;/p&gt;&#xA;&lt;p&gt;Supongo que para muchos de ustedes fue igual. Hay lecciones que tomar con calma. Aún hay procesos que están sucediendo.&lt;/p&gt;&#xA;&lt;p&gt;Es fuerte cuando el tejido social que estaba deshilachado se termina desarmando completamente. Porque te das cuenta que esa red que nos sostenía a todos no solo ya no está, sino que estaba sostenida por débiles hebras. ¿Qué puedes hacer?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Doce años</title>
+      <link>http://localhost:1313/posts/2017/doce-anos/</link>
+      <pubDate>Tue, 01 Aug 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/doce-anos/</guid>
+      <description>&lt;p&gt;Hoy La Naturaleza del Software cumple doce años de existencia. Es&#xA;increíble que aún siga con la motivación de escribir, siendo que en 2005&#xA;nacieron miles de blogs, de los cuales quedan muy pocos.&lt;/p&gt;&#xA;&lt;p&gt;Pero acá estamos, vivitos y coleando, después de doce años. Para&#xA;celebrarlo les dejaré una selección de doce artículos, uno por año,&#xA;espero que los disfrute, y espero seguir doce años más con esto:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2017: &lt;a href=&#34;http://localhost:1313/blog/lnds/2017/06/26/paseando-con-dromedarios&#34;&gt;Paseando con Dromedarios, reflexiones sobre la Ley de Conway&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;2016: &lt;a href=&#34;http://localhost:1313/blog/lnds/2016/8/30/toda-empresa-es-de-software-o-lo-sera&#34;&gt;Toda empresa es de software, o lo será&lt;/a&gt;,&#xA;una reflexión sobre las leyes de la computación, la complejidad y el&#xA;emprendimiento. O de otra manera, cómo el teorema de Gödel garantiza&#xA;que siempre habrá algo para emprender.&lt;/li&gt;&#xA;&lt;li&gt;2015: &lt;a href=&#34;http://localhost:1313/blog/lnds/2015/10/1/revelaciones&#34;&gt;Revelaciones&lt;/a&gt;,&#xA;una noche recibí una visita y fui arrebatado a un estado de&#xA;iluminación apocalíptico.&lt;/li&gt;&#xA;&lt;li&gt;2014: &lt;a href=&#34;http://localhost:1313/blog/lnds/2014/10/21/vica&#34;&gt;VICA&lt;/a&gt;,&#xA;Volatilidad, Incerteza, Complejidad y Ambigüedad.&lt;/li&gt;&#xA;&lt;li&gt;2013: &lt;a href=&#34;http://localhost:1313/blog/lnds/2013/9/8/marte-necesita-mujeres&#34;&gt;Marte necesita mujeres&lt;/a&gt;,&#xA;por qué los equipos mixtos son mejores.&lt;/li&gt;&#xA;&lt;li&gt;2012: &lt;a href=&#34;http://localhost:1313/blog/lnds/2012/12/29/dichos-locos-y-trenes&#34;&gt;Dichos, locos y trenes&lt;/a&gt;,&#xA;donde cuento un par de chistes.&lt;/li&gt;&#xA;&lt;li&gt;2011: &lt;a href=&#34;http://localhost:1313/blog/lnds/2011/11/12/comprension-de-lectura&#34;&gt;Comprensión de lectura&lt;/a&gt;,&#xA;un error que ha generado muchos dolores de cabeza&lt;/li&gt;&#xA;&lt;li&gt;2010: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2010/12/26/como-contratar-malabaristas&#34;&gt;Cómo contratar malabaristas&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;2009: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2009/11/14/las-tecnicas-de-dreystadt&#34;&gt;Las Técnicas de Deystradt&lt;/a&gt;,&#xA;una historia de dulce y de agraz.&lt;/li&gt;&#xA;&lt;li&gt;2008: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2008/10/5/los-hackers-del-5-de-octubre&#34;&gt;Los hackers del 5 de octubre&lt;/a&gt;, un homenaje a dos grandes amigos.&lt;/li&gt;&#xA;&lt;li&gt;2007: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2007/7/1/lecciones-de-ratatouille&#34;&gt;Lecciones de Ratatouille&lt;/a&gt;,&#xA;cómo ese filme nos enseña un par de cositas sobre el talento.&lt;/li&gt;&#xA;&lt;li&gt;2006: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2006/12/5/el-primer-emprendedor-web-chileno&#34;&gt;El primer emprendedor web chileno&lt;/a&gt;,&#xA;un pequeño homenaje.&lt;/li&gt;&#xA;&lt;li&gt;2005: &lt;a href=&#34;http://www.prosa.io/blog/lnds/2006/4/16/las-maquinas-del-fin-del-mundo&#34;&gt;Las máquinas del fin del mundo&lt;/a&gt;,&#xA;por si les dan miedo las IA.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Rock and Roll is a Risk</title>
+      <link>http://localhost:1313/posts/2017/rock-and-roll-is-a-risk/</link>
+      <pubDate>Sat, 17 Jun 2017 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2017/rock-and-roll-is-a-risk/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Rock and Roll is a risk&lt;br&gt;&#xA;You Risk Being Ridiculed\&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Brendan, en Sing Street&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hay una escena en &lt;a href=&#34;https://www.netflix.com/watch/80096631?trackId=13752289&amp;amp;tctx=0%2C0%2C9774cc65ff4b9c9745420253756142671001b728%3A4c434a35e0d2f505c34bb43480723ddbf90141be&#34;&gt;Sing Street&lt;/a&gt;&#xA;en que el hermano mayor le dice al protagonista que el rock se trata de&#xA;arriesgarse, arriesgarse incluso a ser ridiculizado. Hay miles de bandas&#xA;de cover, le dice, todo el mundo hace bandas de cover y en estas siempre&#xA;hay un hombre de edad mediana arrepentido de no haber tenido las bolas&#xA;de componer su propia canción.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diez años</title>
+      <link>http://localhost:1313/posts/2015/diez-anos/</link>
+      <pubDate>Sat, 01 Aug 2015 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2015/diez-anos/</guid>
+      <description>&lt;p&gt;Diez años cumple hoy este blog. Algunos dicen que los blogs nacieron en&#xA;2005 y murieron en 2006 con la llegada de Facebook y el boom de las&#xA;redes sociales.&lt;/p&gt;&#xA;&lt;p&gt;Lo cierto es que para el 2008 muchos bloggers nacionales ya habían&#xA;abandonado. En Chile, de la &lt;em&gt;&amp;ldquo;explosión cámbrica bloguera&amp;rdquo;&lt;/em&gt;  de 2005&#xA;y en particular en el &lt;em&gt;filum&lt;/em&gt; de los blogs&#xA;personales técnicos, me parece que sólo sobrevivimos&#xA;&lt;a href=&#34;//www.alejandrobarros.com/una-decada-de-mi-blog&#34;&gt;Alejandro Barros&lt;/a&gt;,&#xA;quien cumplió&#xA;diez años con su blog en junio, y yo.&#xA;Aunque reconozco&#xA;que Alejandro ha mantenido una mayor regularidad en su publicación. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prosa</title>
+      <link>http://localhost:1313/posts/2014/prosa/</link>
+      <pubDate>Wed, 16 Jul 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/prosa/</guid>
+      <description>&lt;p&gt;En los últimos dos meses he estado trabajando en un proyecto personal&#xA;secreto, construir un &amp;ldquo;servidor de blogs&amp;rdquo; en el espíritu de&#xA;&lt;a href=&#34;http://medium.com&#34;&gt;Medium&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El fruto de este trabajo es &lt;a href=&#34;http://prosa.io&#34;&gt;Prosa&lt;/a&gt;, mi propia&#xA;plataforma de edición de contenido, que cumple con mis necesidades.&lt;/p&gt;&#xA;&lt;p&gt;Este blog cumplirá nueve años el 1 de agosto, a partir de esa fecha será&#xA;publicado usando Prosa. Ese día también publicaré el código fuente de&#xA;esta herramienta. Así que estén atentos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Razones</title>
+      <link>http://localhost:1313/posts/2014/razones/</link>
+      <pubDate>Wed, 16 Jul 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/razones/</guid>
+      <description>&lt;p&gt;Después de programar, escribir es una de las cosas que más me gusta&#xA;hacer. Desde hace ocho años que publico el blog&#xA;&amp;ldquo;&lt;a href=&#34;https://www.lnds.net/&#34;&gt;La Naturaleza Del Software&lt;/a&gt;&amp;rdquo;.&#xA;En el último tiempo la frecuencia de&#xA;escritura en ese blog fue bajando, algo que puede parecer bastante&#xA;natural, puesto que escribir blogs no es una actividad muy popular hoy&#xA;en día. Hay grandes &amp;ldquo;bloggers&amp;rdquo; que tienen casi abandonadas sus&#xA;bitácoras.&lt;/p&gt;&#xA;&lt;p&gt;Pero la verdad es que mi caso no sólo tenía relación con la falta de&#xA;motivación, o la escasez de tiempo. El problema tenía que ver con la&#xA;herramienta para publicar posts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comentarios</title>
+      <link>http://localhost:1313/posts/2014/comentarios/</link>
+      <pubDate>Wed, 26 Mar 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/comentarios/</guid>
+      <description>&lt;p&gt;A estas alturas debería quedarles claro que&#xA;&lt;a href=&#34;http://localhost:1313/blog/lnds/2014/03/20/respeto/&#34;&gt;mi último post&lt;/a&gt; fue bastante&#xA;&lt;strong&gt;&amp;ldquo;catártico&amp;rdquo;&lt;/strong&gt;...&lt;/p&gt;&#xA;&lt;p&gt;O como se diga. Lo que pasó es que me sentí molesto por una discusión,&#xA;por dos discusiones en realidad, que llegaron al mismo final. Como sea,&#xA;igual yo también tengo algo de culpa por no aprender nunca la&#xA;lección... En fin, al final para controlar mi enojo seguí el consejo de&#xA;uno de mis filósofos favoritos &lt;a href=&#34;http://akarru.org/blog/2011/03/27/cioran/&#34;&gt;Emile&#xA;Cioran&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I&#39;m back!</title>
+      <link>http://localhost:1313/posts/2014/im-back/</link>
+      <pubDate>Fri, 07 Mar 2014 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2014/im-back/</guid>
+      <description>&lt;p&gt;Después de leer a &lt;a href=&#34;http://blog.codinghorror.com/&#34;&gt;Jeff Atwood&lt;/a&gt;, a&#xA;propósito de &lt;a href=&#34;http://blog.codinghorror.com/10-years-of-coding-horror/&#34;&gt;los diez años de su blog&lt;/a&gt;, quedé&#xA;meditando sobre el último año de La Naturaleza del Software.&lt;/p&gt;&#xA;&lt;p&gt;El cumplir ocho años fue un hito importante, que incluso me animó a&#xA;recopilar y publicar un &lt;a href=&#34;http://localhost:1313/books&#34;&gt;libro&lt;/a&gt;. Pero aparte&#xA;de eso, la verdad es que el último año fue muy &amp;ldquo;flojo&amp;rdquo; para el&#xA;estándar de este blog.&lt;/p&gt;&#xA;&lt;p&gt;Esto me preocupaba, por supuesto, pero fue esta esta reflexión de Atwood&#xA;la que me remeció:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedades</title>
+      <link>http://localhost:1313/posts/2013/novedades/</link>
+      <pubDate>Sat, 16 Nov 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/novedades/</guid>
+      <description>&lt;p&gt;Quería compartir varias buenas noticias con ustedes amigos. Primero, al&#xA;momento de escribir este post mi primer ebook &lt;a href=&#34;http://amzn.to/17bKPdO&#34;&gt;&amp;ldquo;La Naturaleza Del Software - volumen 1&amp;rdquo;&lt;/a&gt; ha cumplido 12 días&#xA;publicado, está acercándose a las 400 descargas y se encuentra #1 en el&#xA;entre los &lt;a href=&#34;http://www.amazon.com/gp/bestsellers/books/301742/ref=pd_zg_hrsr_b_2_3_last&#34;&gt;bestsellers en computación en internet&lt;/a&gt;&#xA;para libros en español de Kindle.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;lnds_libro.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;(&lt;a href=&#34;http://amzn.to/17bKPdO&#34;&gt;http://amzn.to/17bKPdO&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Por cierto que estoy muy contento y&#xA;&lt;a href=&#34;http://akarru.org/blog/2010/12/11/arete/&#34;&gt;orgulloso&lt;/a&gt;, se que varios de&#xA;ustedes han ayudado a lograr este hito, se los agradezco muchísimo. Para&#xA;los que no lo han comprado aún, les comunico que hasta el próximo&#xA;viernes 22 de noviembre de 2013 el libro se encuentra en un precio&#xA;oferta especial, casi a un tercio de su valor original, pueden&#xA;adquirirlo en amazón &lt;a href=&#34;http://amzn.to/17bKPdO&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ocho años</title>
+      <link>http://localhost:1313/posts/2013/ocho-anos/</link>
+      <pubDate>Thu, 01 Aug 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/ocho-anos/</guid>
+      <description>&lt;p&gt;Así, como si nada, sin darme cuenta, este blog ha cumplido ocho años, o&#xA;2 elevado a 3, para los aficionados a la matemática binaria.&lt;/p&gt;&#xA;&lt;p&gt;Es bastante tiempo, poco frecuente, quedamos pocos blogueros&#xA;persistentes. Es cierto que en el último tiempo la frecuencia de mis&#xA;escritos ha disminuidos, pero seguimos aquí, y lo importante es que&#xA;varios de ustedes, mis amigos lectores, siguen acá también,&#xA;acompañándome. Muchas gracias por vuestra paciencia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Style</title>
+      <link>http://localhost:1313/posts/2013/new-style/</link>
+      <pubDate>Tue, 15 Jan 2013 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2013/new-style/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;psy-gangnam-style-8.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Año nuevo, estilo nuevo y cambio en la plataforma de publicación.&lt;/p&gt;&#xA;&lt;p&gt;A contar de hoy este blog usará &lt;a href=&#34;http:///www.octopress.org&#34;&gt;octopress&lt;/a&gt;&#xA;como su plataforma de generación de contenido.&lt;/p&gt;&#xA;&lt;p&gt;Otra novedad de este año es que todo el contenido se encuentra&#xA;disponible en &lt;a href=&#34;https://github.com/lnds/lnds-content&#34;&gt;este repositorio github&lt;/a&gt;, bajo licencia creative&#xA;commons 3.0.&lt;/p&gt;&#xA;&lt;p&gt;No sólo es por tener un respaldo, sino que además es un medio de&#xA;preservar y difundir el contenido de este blog. Estando todo el &amp;ldquo;código&#xA;fuente&amp;rdquo; de mis contenidos durante estos años disponible, ustedes pueden&#xA;ayudarme a mejorarlo, y a difundirlo. Si han usado github saben que si&#xA;encuentran un &amp;ldquo;bug&amp;rdquo; (error) en mis posts pueden obtener la fuente y&#xA;corregirlo directamente en github y avisarme mediante un &amp;ldquo;pull&#xA;request&amp;rdquo;. Es la magia de github y la podemos usar para mejorar la&#xA;calidad del contenido.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LNDS Está de Cumpleaños!</title>
+      <link>http://localhost:1313/posts/2012/lnds-est%C3%A1-de-cumpleanos/</link>
+      <pubDate>Wed, 15 Aug 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/lnds-est%C3%A1-de-cumpleanos/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.alejandrobarros.com/&#34;&gt;Alejandro Barros&lt;/a&gt; es uno de los pocos&#xA;blogueros persistentes de esa camada que surgió en 2005. Su blog es uno&#xA;de los más importantes en temas tecnológicos en Latino América, él ha&#xA;sido tan amable de unirse a esta banda de &amp;quot;&lt;a href=&#34;http://www.lnds.net/blog/villano-invitado/&#34;&gt;villanos invitados&lt;/a&gt;&amp;quot; que pasan a&#xA;saludar el aniversario de este blog. ¡Muchas Gracias Alejandro!&lt;/p&gt;&#xA;&lt;h1 id=&#34;lnds-está-de-cumpleaños&#34;&gt;LNDS Está de Cumpleaños&lt;/h1&gt;&#xA;&lt;p&gt;Por Alejandro Barros&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.alejandrobarros.com&#34;&gt;www.alejandrobarros.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace unos días recibí una grata invitación a escribir unas líneas por el&#xA;séptimo aniversario del blog de Eduardo Díaz &amp;ndash; La Naturaleza del&#xA;Software (&lt;a href=&#34;https://twitter.com/lnds&#34;&gt;@lnds&lt;/a&gt;), invitación que agradezco&#xA;y me honra.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prevenir Ataques de Novatos (invitado)</title>
+      <link>http://localhost:1313/posts/2012/prevenir-ataques-de-novatos-invitado/</link>
+      <pubDate>Thu, 02 Aug 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/prevenir-ataques-de-novatos-invitado/</guid>
+      <description>&lt;p&gt;Durante este mes de aniversario tendremos el aporte de varios amigos que&#xA;han aceptado amablemente enviar sus contribuciones a este post.&#xA;Empezaremos con este interesante y muy útil artículo escrito por Daniel&#xA;Molina Wegener (&lt;a href=&#34;https://twitter.com/damowe&#34;&gt;@damowe&lt;/a&gt;), arquitecto de&#xA;software, gran programador, y autor de &lt;a href=&#34;http://coder.cl/&#34;&gt;coder.cl&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;¡Gracias Daniel! Los dejo disfrutando de este excelente post (al menos&#xA;yo voy a revisar este sitio y aplicar algunos de estos consejos):&lt;/p&gt;&#xA;&lt;h2 id=&#34;prevenir-ataques-de-novatos&#34;&gt;prevenir ataques de novatos&lt;/h2&gt;&#xA;&lt;p&gt;por &lt;a href=&#34;http://coder.cl/&#34;&gt;Daniel Molina Wegener&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Séptimo Aniversario</title>
+      <link>http://localhost:1313/posts/2012/septimo-aniversario/</link>
+      <pubDate>Wed, 01 Aug 2012 22:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2012/septimo-aniversario/</guid>
+      <description>&lt;p&gt;Tras varias partidas en falso, el 1 de agosto de 2005 publiqué el&#xA;&lt;a href=&#34;http://localhost:1313/blog/2005/08/no-puedes-proteger-el-software.html&#34;&gt;primer post&lt;/a&gt;&#xA;en este blog.&lt;/p&gt;&#xA;&lt;p&gt;Hoy este espacio ¡cumple siete años!&lt;/p&gt;&#xA;&lt;p&gt;Así que celebraremos estos siete años con la participación de varios&#xA;amigos que han accedido a colaborar con algunos artículos, los que iré&#xA;publicando en los próximos días, a todos ellos desde ya les agradezco su&#xA;disponibilidad.&lt;/p&gt;&#xA;&lt;p&gt;También revisitaremos algunos textos antiguos, y por supuesto habrán&#xA;nuevos temas para compartir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sexto Aniversario</title>
+      <link>http://localhost:1313/posts/2011/sexto-aniversario/</link>
+      <pubDate>Mon, 01 Aug 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/sexto-aniversario/</guid>
+      <description>&lt;p&gt;El uno de agosto de 2005 comenzaron las &amp;ldquo;transmisiones oficiales&amp;rdquo; de&#xA;este sitio/blog, así que estamos de aniversario, cumplimos seis años.&lt;/p&gt;&#xA;&lt;p&gt;Estoy muy contento y orgulloso de mantener este espacio, hay muy pocos&#xA;blogs que se mantengan desde esa época, lamentablemente muchos espacios&#xA;que eran bien interesantes fueron &amp;ldquo;apagándose&amp;rdquo; y sus autores migraron&#xA;a twiter, donde sus ideas se pierden en el ruido de la marea de&#xA;balbuceos digitales.&lt;/p&gt;&#xA;&lt;p&gt;Así que este blog creo que es único en su especie, y sigue&#xA;evolucionando, lo que incluso me sorprende como su autor. En este último&#xA;año ha crecido en contenido más allá de lo esperado, junto con sus dos&#xA;blogs hermanos y mi incursión en el web casting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>¿No te aburre escribir un blog?</title>
+      <link>http://localhost:1313/posts/2011/no-te-aburre-escribir-un-blog/</link>
+      <pubDate>Fri, 04 Feb 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/no-te-aburre-escribir-un-blog/</guid>
+      <description>&lt;p&gt;No es que me hayan hecho la pregunta, pero la cito  a propósito de este&#xA;post de &lt;a href=&#34;http://www.avc.com/a_vc/about.html&#34;&gt;Fred Wilson&lt;/a&gt;: &#xA;&lt;a href=&#34;http://www.avc.com/a_vc/2011/02/do-you-ever-get-bored-of-blogging.html&#34;&gt;Do You Ever Get Bored Of Blogging?&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La verdad es que nunca me aburro de escribir. Es algo que vino&#xA;relativamente tarde en mi vida.&amp;hellip; Es un hobby, algo que hago para&#xA;entretenerme y educarme y lo disfruto mucho. Amo colocar el puzzle de&#xA;mis pensamientos juntos cada día&amp;rdquo;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Pero resulta que se produce un efecto colateral:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cinco años</title>
+      <link>http://localhost:1313/posts/2010/cinco-anos/</link>
+      <pubDate>Sun, 01 Aug 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/cinco-anos/</guid>
+      <description>&lt;p&gt;Hoy La Naturaleza Del Software (LNDS) cumple 5 años. Durante este tiempo&#xA;he escrito más de 900 entradas, con un promedio de 4 posts semanales&#xA;(*).&lt;/p&gt;&#xA;&lt;p&gt;He empezado este nuevo año con cambio de plataforma y de look. Hoy&#xA;empieza  un mes de celebración, de nuestro quinto aniversario, tendremos&#xA;algunos invitados y por primera vez habrá al menos un post cada día.&#xA;Vamos a reciclar lo mejor que hemos publicado en este tiempo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un nuevo blog</title>
+      <link>http://localhost:1313/posts/2010/un-nuevo-blog/</link>
+      <pubDate>Mon, 05 Apr 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/un-nuevo-blog/</guid>
+      <description>&lt;p&gt;Ayer empecé a escribir un &lt;a href=&#34;http://www.akarru.com/&#34;&gt;nuevo blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;La razón es bien simple, hay muchos temas sobre los que me gustaría&#xA;escribir que siento no pueden ir en La Naturaleza del Software, porque&#xA;se desvían demasiado de lo que discutimos acá. Así que reutilizando un&#xA;dominio que no tenía mucho uso, he creado&#xA;&lt;a href=&#34;http://www.akarru.com/&#34;&gt;Akarrú&lt;/a&gt;, los espero allá.&lt;/p&gt;&#xA;&lt;p&gt;Por supuesto LNDS seguirá actualizándose, como siempre.&lt;/p&gt;&#xA;&lt;p&gt;Gracias por leerme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yo y mi bocota...</title>
+      <link>http://localhost:1313/posts/2010/yo-y-mi-bocota/</link>
+      <pubDate>Sun, 14 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/yo-y-mi-bocota/</guid>
+      <description>&lt;p&gt;En mi trabajo existen planes de recuperación de desastres, sitios de&#xA;contingencia, y son sometidos a pruebas al menos un par de veces al año,&#xA;todos debidamente auditados porque hay exigencias gubernamentales y más&#xA;fuerte, hay exigencias con las instituciones extranjeras que son&#xA;propietarias. No es un trabajo que a uno le guste hacer, pero cuando&#xA;pasa un incidente como un terremoto la verdad es que ayuda bastante, y&#xA;permite que nuestra gente TI esté bastante tranquila, durante ese&#xA;momento. En el último terremoto todo anduvo bien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cuatro años</title>
+      <link>http://localhost:1313/posts/2009/cuatro-anos/</link>
+      <pubDate>Thu, 30 Jul 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/cuatro-anos/</guid>
+      <description>&lt;p&gt;Si recuerdan los inicios del humorista &lt;a href=&#34;http://www.facebook.com/pages/BOMBO-FICA/31802343888&#34;&gt;Bombo Fica&lt;/a&gt;, él llegaba&#xA;al escenario con un bombo legüero, se suponía que iba a dar una&#xA;disertación sobre este instrumento, y terminaba hablando de cualquier&#xA;otra cosa, todas graciosas, por supuesto. Un tipo vestido de blanco,&#xA;disertando sobre las propiedades del bombo legüero, ¡era algo gracioso!,&#xA;o al menos a mi me lo parecía.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;bombo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Eso me pasa con este blog,se supone que la intención inicial era hablar de&#xA;la &amp;ldquo;naturaleza del software&amp;rdquo;, y la verdad es que terminé escribiendo&#xA;de un montón de otras cosas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cambios</title>
+      <link>http://localhost:1313/posts/2010/cambios/</link>
+      <pubDate>Fri, 27 Jul 2007 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/cambios/</guid>
+      <description>&lt;p&gt;Después de casi 5 años usando MovableType este blog ha cambiado de&#xA;tecnología y de look. Así que espero que les guste el nuevo diseño, y&#xA;disculpen las molestias que este cambio pueda causar.&lt;/p&gt;&#xA;&lt;p&gt;Próximamente retomamos las &amp;ldquo;transmisiones&amp;rdquo;. Gracias por leer este&#xA;blog, y si tienen comentarios, o indicaciones sobre el nuevo look se los&#xA;agradeceré.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La inflación de la blogosfera</title>
+      <link>http://localhost:1313/posts/2005/la-inflaci%C3%B3n-de-la-blogosfera/</link>
+      <pubDate>Tue, 16 Aug 2005 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-inflaci%C3%B3n-de-la-blogosfera/</guid>
+      <description>&lt;p&gt;Con una mezlca de preocupación y simpatía leos sobre iniciativas de&#xA;emprendimiento basados en el blog, como el caso de&#xA;&lt;a href=&#34;http://hipertextual.com/&#34;&gt;Hipertextual&lt;/a&gt;, a quienes les deseo toda la&#xA;suerte del mundo.&lt;/p&gt;&#xA;&lt;p&gt;Como nos cuenta Stephen Jay Gould en su libro The Wonderful Life,&#xA;durante el precámbrico se produjo una de las explosiones de vida más&#xA;extraordinarias de las que se tenga registro. Parece que la vida exploró&#xA;todo diseño viable. Sin embargo, en un suceso hasta ahora no&#xA;completamente explicado, el &lt;strong&gt;90% de las formas de vida&lt;/strong&gt; se extinguió.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Blogosfera se duplica cada 5 meses</title>
+      <link>http://localhost:1313/posts/2005/la-blogosfera-se-duplica-cada-5-meses/</link>
+      <pubDate>Thu, 04 Aug 2005 18:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2005/la-blogosfera-se-duplica-cada-5-meses/</guid>
+      <description>&lt;p&gt;La Blogosfera se duplica cada 5 meses!!! Guau!&lt;br&gt;&#xA;Fuente: &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://www.fernandoflores.cl/node/523&#34;&gt;http://www.fernandoflores.cl/node/523&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Parece que siempre los crecimientos son de este estilo, misteriosamente&#xA;análogos a la &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://en.wikipedia.org/wiki/Moores_Law&#34;&gt;Ley de Moore&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;No estaremos ante la aplicación de la &lt;a href=&#34;http://replay.waybackmachine.org/20060211180549/http://en.wikipedia.org/wiki/Moron%27s_law&#34;&gt;Ley de Moron&lt;/a&gt;,&#xA;que nos dice que el número de observaciones incorrectas de la ley de&#xA;Moore se duplica cada 18 meses.&lt;/p&gt;&#xA;&lt;p&gt;Lo que interesa de verdad es el grado de actividad, según technorati el&#xA;55% de los blogs se mantiene activo, una estadística consistente a lo&#xA;largo de un año. El 13% se actualiza semanalmente.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

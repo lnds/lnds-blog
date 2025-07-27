@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tiempos Modernos | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2017/tiempos-modernos/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Tiempos Modernos">
+  <meta property="og:description" content="Hay empresas, o mejor, para ser más precisos, hay gerentes, ejecutivos, empresarios, que oyen hablar de “Transformación Digital” en algún seminario y llegan a hablar con su encargado TI (CIO, CTO, Gerente de Finanzas (sí, eso sigue pasando)) y exigen que se establezca una estrategia de Transformación Digital. – ¿Y eso qué es?
+– No sé, ¡pero lo queremos ya!
+Y sin demora se recurre a las consultoras reconocidas, o a las grandes empresas de tres letras, que llegan con sus armadas de especialistas, expertos en las mejores prácticas, a ofrecer las bondades de la transformación digital (lease, venta de productos y facturación de horas de consultoría).">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-08-06T08:25:11-03:00">
+    <meta property="article:modified_time" content="2017-08-06T08:25:11-03:00">
+    <meta property="article:tag" content="Transformación Digital">
+    <meta property="article:tag" content="Agilidad">
+    <meta property="article:tag" content="DevOps">
+    <meta property="article:tag" content="Innovación">
+    <meta property="og:image" content="http://localhost:1313/posts/2017/tiempos-modernos/featured.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/2017/tiempos-modernos/featured.jpg">
+  <meta name="twitter:title" content="Tiempos Modernos">
+  <meta name="twitter:description" content="Hay empresas, o mejor, para ser más precisos, hay gerentes, ejecutivos, empresarios, que oyen hablar de “Transformación Digital” en algún seminario y llegan a hablar con su encargado TI (CIO, CTO, Gerente de Finanzas (sí, eso sigue pasando)) y exigen que se establezca una estrategia de Transformación Digital. – ¿Y eso qué es?
+– No sé, ¡pero lo queremos ya!
+Y sin demora se recurre a las consultoras reconocidas, o a las grandes empresas de tres letras, que llegan con sus armadas de especialistas, expertos en las mejores prácticas, a ofrecer las bondades de la transformación digital (lease, venta de productos y facturación de horas de consultoría).">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Tiempos Modernos</h1><time class="dim" datetime="2017-08-06T08:25:11-03:00">August 6, 2017</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/transformaci%C3%B3n-digital/">#transformación digital</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/agilidad/">#agilidad</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/devops/">#devops</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/innovaci%C3%B3n/">#innovación</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hay empresas, o mejor, para ser más precisos, hay gerentes, ejecutivos,
+empresarios, que oyen hablar de <strong>&ldquo;Transformación Digital&rdquo;</strong> en algún
+seminario y llegan a hablar con su encargado TI (CIO, CTO, Gerente de
+Finanzas (sí, eso sigue pasando)) y exigen que se establezca una
+estrategia de Transformación Digital. </p>
+<p>&ndash; ¿Y eso qué es?<br>
+&ndash; No sé, ¡pero lo queremos ya!</p>
+<p>Y sin demora se recurre a las consultoras reconocidas, o a las grandes
+empresas de tres letras, que llegan con sus armadas de especialistas,
+expertos en las mejores prácticas, a ofrecer las bondades de la
+transformación digital (lease, venta de productos y facturación de horas
+de consultoría).</p>
+<p>Y uno de los tema favoritos del último tiempo parece ser DevOps. </p>
+<p><em>¡Hay que crear una unidad de DevOps! ¡Debes reemplazar a tus ingenieros
+de sistemas por DevOps!</em></p>
+<p>Y ni siquiera se han enterado de que DevOps es una filosofía, no un
+cargo o una tarea que se deba ejecutar.</p>
+<blockquote>
+<p><em>!Es que se trata de automatizar, de optimizar procesos!
+&ldquo;Ustedes deben usar esta herramienta para agilizar sus
+proceso de desarrollo y apuntar a la transformación digital.&rdquo;</em></p></blockquote>
+<p>Y para &ldquo;facilitar la toma de decisión&rdquo;, estos consultores proponen
+hacer una prueba de concepto.</p>
+<p>Y ocurre esto:</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rmqSzTBbbN4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Recordemos, ¿qué nos dice el primer principio del
+<a href="http://agilemanifesto.org/iso/es/manifesto.html">Manifiesto Ágil</a>?</p>
+<blockquote>
+<p>Individuos e Interacciones, por sobre procesos y herramientas.</p></blockquote>
+<p>Así que amigos, no se trata de comprar las últimas tecnologías, o de
+automatizar por automatizar. Se trata de entender cómo se relacionan los
+equipos en pos de obtener un producto, o brindar un servicio.</p>
+<p>No dejes que te pase lo que le ocurre a Charlot en Tiempos Modernos, tú
+puedes hacerlo mejor. </p>
+<p>No siempre la solución está en esas prestigiosas consultoras, busca un
+<a href="https://www.meetup.com/">Meetup</a>, o una comunidad de desarrolladores en
+tu ciudad, encontrarás gente dispuesta a ayudarte, y a aprender. </p>
+<p>¡Experimenta! </p>
+<p>Prueba cosas nuevas con tu equipo, lee, estudia por tu cuenta, no
+esperes que todo venga desde arriba. </p>
+<p>El verdadero cambio ocurre cuando tú te haces cargo de tu vida, y esa es
+la transformación que vale la pena.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>340 words</span>
+    <span>2 - 2 minutes read</span></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/posts/2017/tiempos-modernos/featured.jpg">featured.jpg</a></li><li><a href="http://localhost:1313/posts/2017/tiempos-modernos/featured.png">featured.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/posts/2014/control/">Control</a></li><li><a href="/posts/2013/no-se-puede/">¡No se puede!</a></li><li><a href="/posts/2013/el-camino-de-la-innovacion/">El camino de la innovación</a></li><li><a href="/posts/2013/jugar-bien-sus-cartas/">Jugar bien sus cartas</a></li><li><a href="/posts/2012/dichos-locos-y-trenes/">Dichos, Locos y Trenes</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

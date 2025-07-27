@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arte on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/arte/</link>
+    <description>Recent content in Arte on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Sat, 05 Feb 2022 12:22:16 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estafadores</title>
+      <link>http://localhost:1313/posts/2022-02-05-estafadores/</link>
+      <pubDate>Sat, 05 Feb 2022 12:22:16 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-05-estafadores/</guid>
+      <description>&lt;p&gt;El placer que debe haber sentido Herman Göring al apreciar el cuadro &amp;ldquo;Cristo y la Mujer Adúltera&amp;rdquo;, de Johannes Vermeer, solo se compara con el escalofrío que debió sentir al desembolsar los casi dos millones de florines que pagó por el mismo (casi siete millones de dólares actuales).&lt;/p&gt;&#xA;&lt;p&gt;No sabemos si alguna vez colgó la pintura en algún salón u oficina, o si pudo mostrárselo al mismísimo Führer. Quizás pensaba regalárselo o vendérselo. El hecho es que la obra fue escondida en una mina de sal en Austria.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poesía, Caligramas y la Belleza del Código</title>
+      <link>http://localhost:1313/posts/2011/poesia-caligramas-y-la-belleza-del-codigo/</link>
+      <pubDate>Sun, 11 Sep 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/poesia-caligramas-y-la-belleza-del-codigo/</guid>
+      <description>&lt;p&gt;La lectura de un párrafo de texto  requiere un recorrido lineal de&#xA;izquierda a derecha. Esto debido a la conformación de nuestro sistema de&#xA;escritura, si estuvieramos en el oriente medio el sentido sería el&#xA;contrario, de derecha a izquierda. La lectura es lineal, en una&#xA;dimensión. A diferencia de la comunicación oral, por ejemplo, que tiene&#xA;2 ó quizás más dimensiones. Al conversar no sólo usamos el habla, está&#xA;el lenguaje corporal, los gestos que acompañan nuestra expresión, la&#xA;respuesta límbica, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El Arte de Don Hsi-Yun Yang</title>
+      <link>http://localhost:1313/posts/2011/el-arte-de-t-don-hsi-yun-yang/</link>
+      <pubDate>Fri, 10 Jun 2011 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2011/el-arte-de-t-don-hsi-yun-yang/</guid>
+      <description>&lt;p&gt;Prueben esto:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;curl http://www.de.ioccc.org/2000/dhyang.c &amp;gt; dhyang.c&#xA;&#xA;cat dhyang.c&#xA;&#xA;cc dhyang.c -o saitou &#xA;&#xA;./saitou &amp;gt; aku.c&#xA;&#xA;cat aku.c &#xA;&#xA;cc aku.c -o soku &#xA;&#xA;./soku &amp;gt; soku.c &#xA;&#xA;cat soku.c &#xA;&#xA;cc soku.c -o zan &#xA;&#xA;./zan &amp;gt; zan.c &#xA;&#xA;cat zan.c &#xA;&#xA;cc zan.c -o aku &#xA;&#xA;./aku | diff - aku.c&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Hay más arte de este estilo en &lt;a href=&#34;http://uguu.org/omoikane.html&#34;&gt;http://uguu.org/omoikane.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un video imperdible</title>
+      <link>http://localhost:1313/posts/2010/un-video-imperdible/</link>
+      <pubDate>Sun, 28 Mar 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/un-video-imperdible/</guid>
+      <description>&lt;p&gt;Este clip es una animación stop-motion realizada por Bang-yao Liu&#xA;estudiante del Savannah College of Art and Design.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Nlb-QLkjbZU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Nlb-QLkjbZU&#34;&gt;https://www.youtube.com/watch?v=Nlb-QLkjbZU&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;(Asegúrense de ver el &lt;a href=&#34;http://www.youtube.com/watch?v=ArJYvaCCB3c&#34;&gt;making of&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Naturaleza de Avatar, segunda parte, ¿hacia donde vamos?</title>
+      <link>http://localhost:1313/posts/2010/la-naturaleza-de-avatar-segunda-parte-hacia-donde-vamos/</link>
+      <pubDate>Sat, 06 Feb 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/la-naturaleza-de-avatar-segunda-parte-hacia-donde-vamos/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Andy_Serkis&#34;&gt;Andy Serkis&lt;/a&gt; es un experto en&#xA;el arte de &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Motion_capture&#34;&gt;performance capture&lt;/a&gt;&amp;rdquo; (conocida también como Motion Capture, o Mocap), algo así como la captura digital&#xA;de la actuación. No sólo ha ayudado a los técnicos de&#xA;&lt;a href=&#34;http://www.wetafx.co.nz/&#34;&gt;WETA&lt;/a&gt; a desarrollar la técnica de captura de&#xA;movimientos, sino que llevó esta técnica al estado de arte con su&#xA;performance como Gollum, en The Lord of The Rings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;gollumserkis.jpg&#34; alt=&#34;gollumserkis.jpg&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tanto es así, que varios críticos sugirieron que Serkis fuera nominado a&#xA;los Oscar como mejor actor de reparto por este papel, y Sir Peter&#xA;Jackson (sí, ahora es Sir), apoyó esta idea pues alegó que el único&#xA;detalle que lo diferenciaba de una &amp;ldquo;actuación normal&amp;rdquo; era que el&#xA;maquillaje se aplicaba digitalmente en la post producción.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Naturaleza de Avatar, primera parte, ¿donde estoy?</title>
+      <link>http://localhost:1313/posts/2010/la-naturaleza-de-avatar-primera-parte-donde-estoy/</link>
+      <pubDate>Mon, 01 Feb 2010 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2010/la-naturaleza-de-avatar-primera-parte-donde-estoy/</guid>
+      <description>&lt;p&gt;Tenía que hablar de Avatar. Aunque fui a verla el día después de su&#xA;estreno, no había tenido tiempo de escribir nada sobre esta película,&#xA;además es algo que le prometí a &lt;a href=&#34;http://www.d3ne.net/&#34;&gt;mi hijo&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ahora que me puedo hacer un tiempito voy a escribir un par de cosas&#xA;sobre Avatar, he decidido atacar por varios puntos de vista, así que es&#xA;probable que escriba más de un artículo.&lt;/p&gt;&#xA;&lt;p&gt;Esto que viene no es crítica de cine, es tecnología, es mi visión como&#xA;desarrollador de software sobre Avatar, y sus propuestas. Estos&#xA;artículillos asumen que ya vieron Avatar, y si no la han visto véanla,&#xA;ojalá en 3D.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte V y final)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-v-y-final/</link>
+      <pubDate>Wed, 09 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-v-y-final/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth, 1974&lt;/p&gt;&#xA;&lt;p&gt;(Lee las partes&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;I&lt;/a&gt;,&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-ii.html&#34;&gt;II&lt;/a&gt;,&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-iii.html&#34;&gt;III&lt;/a&gt;&#xA;y&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-iv.html&#34;&gt;IV&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Menos Facilidades: Más Diversión&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Una cosa bastante curiosa que he notado sobre la satisfacción estética&#xA;es que nuestro placer es significativamente mayor cuando logramos algo&#xA;con herramientas limitadas. Por ejemplo, el programa del que&#xA;personalmente estoy muy contento y orgulloso es un compilador de que una&#xA;vez escribí para una minicomputadora primitiva, que sólo tenía 4096&#xA;palabras de memoria, 16 bits por palabra. Una persona se siente como un&#xA;virtuoso real al lograr algo con tan severas restricciones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte IV)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iv/</link>
+      <pubDate>Tue, 08 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iv/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth, 1974&lt;/p&gt;&#xA;&lt;p&gt;(Lee las partes&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;I&lt;/a&gt;,&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-ii.html&#34;&gt;II&lt;/a&gt;,&#xA;y&#xA;&lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-iii.html&#34;&gt;III&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;obras-de-arte&#34;&gt;Obras de Arte&lt;/h2&gt;&#xA;&lt;p&gt;**Cuando estoy sentado en la audiencia escuchando una larga charla,&#xA;mi atención usualmente empieza a desvanecerse en este punto, cerca de la&#xA;hora. Así que ¿me pregunto si se están cansando de mi arenga sobre&#xA;&amp;ldquo;ciencia&amp;rdquo; y &amp;ldquo;arte&amp;rdquo;? Realmente espero que sean capaces de escuchar&#xA;atentamente el resto de esto, de todos modos, porque ahora viene la&#xA;parte sobre la cual tengo sentimientos más profundos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte III)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iii/</link>
+      <pubDate>Sun, 06 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iii/</guid>
+      <description>&lt;p&gt;La programación de computadores como un arte&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth, 1974&lt;/p&gt;&#xA;&lt;p&gt;(Lee las partes &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;I&lt;/a&gt;,&#xA;y &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-ii.html&#34;&gt;II&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;ciencia-y-arte&#34;&gt;&lt;strong&gt;Ciencia y Arte&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Nuestra discusión indica que la programación de computadores es para&#xA;ahora ambas: una ciencia y un arte, y que los dos aspectos se&#xA;complementan bien una con otra. Aparentemente muchos autores que&#xA;examinan tal pregunta llegan a la misma conclusión, que su área de&#xA;estudio es ambas una ciencia y un arte, cualquiera sea esta área.&#xA;Encontré un libro sobre fotografía elemental, escrito en 1893, que decía&#xA;&amp;ldquo;el desarrollo de la imagen fotográfica es ambas un arte y una&#xA;ciencia.&amp;rdquo; De hecho, cuando tomé primero un diccionario para estudiar&#xA;las palabras &amp;ldquo;arte&amp;rdquo; y &amp;ldquo;ciencia&amp;rdquo; le eché un vistazo al prefacio del&#xA;editor, el que empezaba diciendo, &amp;ldquo;la construcción de un diccionario es&#xA;una ciencia y un arte a la vez&amp;rdquo;. El editor del diccionario de Funk &amp;amp;&#xA;Wagnall&#39;s dictionary observaba que la penosa acumulación y&#xA;clasificación de los datos sobre las palabras tiene un carácter&#xA;científico, mientras que un fraseo bien escogido para la definición&#xA;demanda la habilidad de escribir con la economía y la precisión: &amp;ldquo;La&#xA;ciencia sin este arte es probablemente inefectiva, el arte sin la&#xA;ciencia es ciertamante inexacto.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte II)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-ii/</link>
+      <pubDate>Fri, 04 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-ii/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth&lt;/p&gt;&#xA;&lt;p&gt;(lee &lt;a href=&#34;http://localhost:1313/2009/12/la-programacion-como-un-arte-parte-i.html&#34;&gt;la primera parte&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h2 id=&#34;ciencia-versus-arte&#34;&gt;&lt;strong&gt;Ciencia versus Arte&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;La palabra &amp;ldquo;ciencia&amp;rdquo; parece haber sido usada por muchos años en el&#xA;mismo sentido que &amp;ldquo;arte&amp;rdquo;; por ejemplo, la gente hablaba también de las&#xA;siete ciencias liberales, que eran las mismas siete artes liberales.&#xA;Duns Scotus en el siglo trece llamaba a la lógica &amp;ldquo;la ciencia de las&#xA;ciencias, y el arte de los artes&amp;rdquo;. Como la civilización y la enseñanza&#xA;se desarrollaron, las palabras tomaron más y más sentidos&#xA;independientes, &amp;ldquo;ciencia&amp;rdquo; se empezó a usar para el conocimiento, y&#xA;&amp;ldquo;arte&amp;rdquo; para la aplicación del conocimiento. Luego, la ciencia de la&#xA;astronomía era la base para el arte de la navegación. La situación era&#xA;casi exactamente como la manera en que nosotros ahora distinguimos entre&#xA;&amp;ldquo;ciencia&amp;rdquo; e &amp;ldquo;ingeniería&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La programación como un Arte (Parte I)</title>
+      <link>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-i/</link>
+      <pubDate>Tue, 01 Dec 2009 08:25:11 -0300</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-i/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La programación de computadores como un arte&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por Donald Knuth&lt;/p&gt;&#xA;&lt;p&gt;CACM, &lt;strong&gt;Diciembre&lt;/strong&gt; de 1974&lt;/p&gt;&#xA;&lt;p&gt;Cuando &lt;em&gt;Communications of the ACM&lt;/em&gt; comenzó su publicación en 1959, los&#xA;miembros del Comité Editorial de la ACM hicieron la siguiente&#xA;observación al describir el propósito de las publicaciones periódicas de&#xA;la ACM:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Si la programación de computadores será una importante parte de la&#xA;investigación y desarrollo de los computadores, se debe efectuar una&#xA;transición de la programación de un arte a una ciencia disciplinada&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La naturaleza del software, según Octavio Paz</title>
+      <link>http://localhost:1313/posts/2009/la-naturaleza-del-software-segun-octavio-paz/</link>
+      <pubDate>Thu, 22 Oct 2009 13:01:57 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/la-naturaleza-del-software-segun-octavio-paz/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;Octavio_Paz.gif&#34; alt=&#34;Octavio Paz&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La revelación de nuestra condición es, asimismo creación de nostros mismos. Según se ha visto, esa revelación puede darse de muchas formas e incluso no recibir formulación verbal alguna. Pero aun entonces implica una creación de aquello mismo que revela: el hombre. Nuestra condición original es, por esencia, algo que siempre esta haciéndose a sí mismo&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Así comienza Octavio Paz el capítulo &amp;ldquo;Inspiración&amp;rdquo;, en su libro el &amp;ldquo;Arco y La Lira&amp;rdquo;, y acudo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El arte de no leer</title>
+      <link>http://localhost:1313/posts/2009/el-arte-de-no-leer/</link>
+      <pubDate>Sat, 05 Sep 2009 22:39:46 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2009/el-arte-de-no-leer/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Para leer lo bueno es necesario no leer lo malo, por que la vida es corta y el tiempo y las fuerzas limitadas.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Por eso es muy importante conocer el arte de no leer. Consiste en no leer lo que preocupa momentáneamente al gran público, como libelos políticos y eclesiásticos, novelas, poesías, etc., algunos de los cuales alcanzan varias ediciones&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ndash; Arthur Schoppenahuer&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Hot Rods</title>
+      <link>http://localhost:1313/posts/2006/hot-rods/</link>
+      <pubDate>Sun, 19 Nov 2006 19:27:40 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2006/hot-rods/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;250px-T-Bucket.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Los &lt;a href=&#34;http://replay.waybackmachine.org/20071029084924/http://www.hotrod.com/&#34;&gt;Hot Rods&lt;/a&gt; son autos hechos a mano, normalmente a partir de algún auto viejo (normalmente un Ford). La idea original era mejorar el desempeño del auto, reduciendo su peso (quitando el techo, los parabrisas, etc), bajándole la altura, cambiando el motor o afinándolo, colocándole ruedas más anchas, y por supuesto pintándolo con mucho colorido.&lt;/p&gt;&#xA;&lt;p&gt;Hay toda una sub cultura alrededor de este &amp;ldquo;arte&amp;rdquo;, y está llegando a nuestro país, principalmente por la popularidad de varios programas de cable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La programación como un Arte (Parte III) | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/posts/2009/la-programacion-como-un-arte-parte-iii/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="La programación como un Arte (Parte III)">
+  <meta property="og:description" content="La programación de computadores como un arte
+Por Donald Knuth, 1974
+(Lee las partes I, y II)
+Ciencia y Arte Nuestra discusión indica que la programación de computadores es para ahora ambas: una ciencia y un arte, y que los dos aspectos se complementan bien una con otra. Aparentemente muchos autores que examinan tal pregunta llegan a la misma conclusión, que su área de estudio es ambas una ciencia y un arte, cualquiera sea esta área. Encontré un libro sobre fotografía elemental, escrito en 1893, que decía “el desarrollo de la imagen fotográfica es ambas un arte y una ciencia.” De hecho, cuando tomé primero un diccionario para estudiar las palabras “arte” y “ciencia” le eché un vistazo al prefacio del editor, el que empezaba diciendo, “la construcción de un diccionario es una ciencia y un arte a la vez”. El editor del diccionario de Funk &amp; Wagnall&#39;s dictionary observaba que la penosa acumulación y clasificación de los datos sobre las palabras tiene un carácter científico, mientras que un fraseo bien escogido para la definición demanda la habilidad de escribir con la economía y la precisión: “La ciencia sin este arte es probablemente inefectiva, el arte sin la ciencia es ciertamante inexacto.”">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2009-12-06T08:25:11-03:00">
+    <meta property="article:modified_time" content="2009-12-06T08:25:11-03:00">
+    <meta property="article:tag" content="Programación">
+    <meta property="article:tag" content="Arte">
+    <meta property="article:tag" content="Donald Knuth">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="La programación como un Arte (Parte III)">
+  <meta name="twitter:description" content="La programación de computadores como un arte
+Por Donald Knuth, 1974
+(Lee las partes I, y II)
+Ciencia y Arte Nuestra discusión indica que la programación de computadores es para ahora ambas: una ciencia y un arte, y que los dos aspectos se complementan bien una con otra. Aparentemente muchos autores que examinan tal pregunta llegan a la misma conclusión, que su área de estudio es ambas una ciencia y un arte, cualquiera sea esta área. Encontré un libro sobre fotografía elemental, escrito en 1893, que decía “el desarrollo de la imagen fotográfica es ambas un arte y una ciencia.” De hecho, cuando tomé primero un diccionario para estudiar las palabras “arte” y “ciencia” le eché un vistazo al prefacio del editor, el que empezaba diciendo, “la construcción de un diccionario es una ciencia y un arte a la vez”. El editor del diccionario de Funk &amp; Wagnall&#39;s dictionary observaba que la penosa acumulación y clasificación de los datos sobre las palabras tiene un carácter científico, mientras que un fraseo bien escogido para la definición demanda la habilidad de escribir con la economía y la precisión: “La ciencia sin este arte es probablemente inefectiva, el arte sin la ciencia es ciertamante inexacto.”">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a aria-current="true" class="ancestor" href="/posts/"
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/posts/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>La programación como un Arte (Parte III)</h1><time class="dim" datetime="2009-12-06T08:25:11-03:00">December 6, 2009</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/programaci%C3%B3n/">#programación</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/arte/">#arte</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/donald-knuth/">#Donald Knuth</a>
+      </div></ol></div>
+  <section class="page-section"><p>La programación de computadores como un arte</p>
+<p>Por Donald Knuth, 1974</p>
+<p>(Lee las partes <a href="/2009/12/la-programacion-como-un-arte-parte-i.html">I</a>,
+y <a href="/2009/12/la-programacion-como-un-arte-parte-ii.html">II</a>)</p>
+<h2 id="ciencia-y-arte"><strong>Ciencia y Arte</strong></h2>
+<p>Nuestra discusión indica que la programación de computadores es para
+ahora ambas: una ciencia y un arte, y que los dos aspectos se
+complementan bien una con otra. Aparentemente muchos autores que
+examinan tal pregunta llegan a la misma conclusión, que su área de
+estudio es ambas una ciencia y un arte, cualquiera sea esta área.
+Encontré un libro sobre fotografía elemental, escrito en 1893, que decía
+&ldquo;el desarrollo de la imagen fotográfica es ambas un arte y una
+ciencia.&rdquo; De hecho, cuando tomé primero un diccionario para estudiar
+las palabras &ldquo;arte&rdquo; y &ldquo;ciencia&rdquo; le eché un vistazo al prefacio del
+editor, el que empezaba diciendo, &ldquo;la construcción de un diccionario es
+una ciencia y un arte a la vez&rdquo;. El editor del diccionario de Funk &amp;
+Wagnall's dictionary observaba que la penosa acumulación y
+clasificación de los datos sobre las palabras tiene un carácter
+científico, mientras que un fraseo bien escogido para la definición
+demanda la habilidad de escribir con la economía y la precisión: &ldquo;La
+ciencia sin este arte es probablemente inefectiva, el arte sin la
+ciencia es ciertamante inexacto.&rdquo;</p>
+<p>Cuando preparaba esta charla miré las tarjetas del catálogo en la
+biblioteca de Standford para ver como otras personas han usado las
+palabras &ldquo;arte&rdquo; y &ldquo;ciencia&rdquo; en los títulos de sus libros. Esto
+resultó bastante interesante.</p>
+<p>Por ejemplo, encontré dos libros titulados &ldquo;<em>El arte de Tocar el
+Piano&rdquo; y</em> otros llamados <em>La Ciencia de la Técnica del Pianoforte</em>, <em>La
+Ciencia de la Práctica del Pianoforte</em>. Hay también un libro llamado <em>El
+Arte de tocar Piano: Una Aproximación Científica</em>.</p>
+<p>Entonces encontré un simpático librillo titulado <em>El Gentil Arte de las
+Matemáticas</em>, el que me puso algo tristre ya que honestamente no puedo
+describir la programación de computadores como un &ldquo;arte gentil&rdquo;. He
+sabido por muchos años de un libro llamado <em>El Arte de la Computación</em>,
+publicado en San Francisco en 1879, por un hombre llamado C. Frusher
+Howard. Era un libro sobre aritmética práctica para los negocios que ha
+vendido sobre 400.00 copias en varias ediciones hacia 1890. Me asombré
+al leer el prefacio, pues muestra que la filosofía de Howard y la
+intención del título era bastante diferente de la mía, el escribe: &ldquo;El
+conocimiento de la ciencia de los números es de la menor importancia, el
+arte de ajustar las cuentas es absolutamente indispensable.&rdquo;</p>
+<p>Varios libros mencionan a ambas la ciencia y el arte en sus títulos,
+notablemente <em>La Ciencia del Ser y el Arte de Vivir</em> por el Maharishi
+Mahesh Yogi. Hay también un libro llamado <em>El Arte del Descubrimiento
+Científico</em>, el que analiza como algunos de los grandes descubrimientos
+de la ciencia se han hecho.</p>
+<p>Suficiente de la palabra &ldquo;arte&rdquo; en su sentido clásico. Realmente
+cuando escogí el título de mis libros, yo no estaba pensando
+principalmente en arte en este sentido, estaba pensando más en sus
+connotaciones actuales. Probablemente el libro más interesante que
+inició mi búsqueda fue un trabajo reciente de Robert E. Mueller llamado
+<em>La Ciencia del Arte</em>. De todos los libros que he mencionado, el de
+Mueller es el que más se acerca a expresar lo que quiero hacer el tema
+central de mi charla hoy, en términos artísticos reales tales como
+entendemos ahora el término. El observa: &ldquo;Una vez se pensó que las
+perspectivas imaginativas del artista eran la muetre del científico. Y
+la lógica de la ciencia parecía significar la perdición a todos los
+posibles vuelos de la imaginación artística.&rdquo; El continúa explorando
+las ventajas que resultan de la síntesis de la ciencia y el arte.</p>
+<p>Una aproximación científica es caracterizada generalmente por las
+palabras lógica, sistemática, impersonal, calma, racional, mientras que
+la aproximación artística se caracteriza por la palabras estética,
+creativa, humanitaria, ansiosa, irracional. Me parece que esta aparente
+contradicción de aproximaciones tiene gran valor con respecto a la
+programación de los computadores.</p>
+<p>Emma Lehmer escribió en 1956 que había encontrado que la programación
+era &ldquo;una ciencia exacta junto con un arte intrigante.&rdquo; H.S.M. Coxeter
+recordaba en 1957 que a veces se sentía &ldquo;más como un artista que como
+un científico&rdquo;. Estos eran los tiempos en que .P. Snow empezó a vocear
+su alarma sobre la creciente polarización de &ldquo;las dos culturas&rdquo; entre
+la gente educada. El apuntó que necesitamos combinar los valores
+científicos y artistico y queremos hacer progresos reales.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>733 words</span>
+    <span>4 - 5 minutes read</span></div><h3>Table Of Contents</h3><nav id="TableOfContents">
+  <ul>
+    <li><a href="#ciencia-y-arte"><strong>Ciencia y Arte</strong></a></li>
+  </ul>
+</nav><h3>Related</h3>
+    <ul><li><a href="/posts/2009/la-programacion-como-un-arte-parte-ii/">La programación como un Arte (Parte II)</a></li><li><a href="/posts/2009/la-programacion-como-un-arte-parte-i/">La programación como un Arte (Parte I)</a></li><li><a href="/posts/2009/la-naturaleza-del-software-segun-octavio-paz/">La naturaleza del software, según Octavio Paz</a></li><li><a href="/posts/2009/el-arte-de-no-leer/">El arte de no leer</a></li><li><a href="/posts/2008/epigramas-de-la-programacion/">Epigramas de la Programación</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

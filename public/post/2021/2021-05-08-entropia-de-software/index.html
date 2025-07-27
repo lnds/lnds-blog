@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es-cl" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hablemos de Entropía de Software | La Naturaleza del Software</title>
+<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" /><meta property="og:url" content="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/">
+  <meta property="og:site_name" content="La Naturaleza del Software">
+  <meta property="og:title" content="Hablemos de Entropía de Software">
+  <meta property="og:description" content="Hay un problema importante en ingeniería de software al que he dedicado parte de mi tiempo durante al menos los últimos cuatro o cinco años. Se trata de una idea, o intuición que por ahora vamos a denominar “entropía de software”. Y para motivar la conversación les mostraré algunos tweets y memes:
+Explaining legacy code to new employees pic.twitter.com/pfXnNK5FMI
+— Jen Gentleman 🌺 (@JenMsft) April 2, 2021 Maintaining the monolith. pic.twitter.com/cmnogXqh6n
+— Allen Holub. https://linkedIn.com/in/allenholub (@allenholub) April 4, 2021">
+  <meta property="og:locale" content="es_cl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-05-08T12:37:49-04:00">
+    <meta property="article:modified_time" content="2021-05-08T12:37:49-04:00">
+    <meta property="article:tag" content="Evolución">
+    <meta property="article:tag" content="Software">
+    <meta property="article:tag" content="Desarrollo">
+    <meta property="article:tag" content="Ingeniería De Software">
+    <meta property="article:tag" content="Programas">
+    <meta property="article:tag" content="Sistemas">
+    <meta property="og:image" content="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/featured.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/featured.jpg">
+  <meta name="twitter:title" content="Hablemos de Entropía de Software">
+  <meta name="twitter:description" content="Hay un problema importante en ingeniería de software al que he dedicado parte de mi tiempo durante al menos los últimos cuatro o cinco años. Se trata de una idea, o intuición que por ahora vamos a denominar “entropía de software”. Y para motivar la conversación les mostraré algunos tweets y memes:
+Explaining legacy code to new employees pic.twitter.com/pfXnNK5FMI
+— Jen Gentleman 🌺 (@JenMsft) April 2, 2021 Maintaining the monolith. pic.twitter.com/cmnogXqh6n
+— Allen Holub. https://linkedIn.com/in/allenholub (@allenholub) April 4, 2021">
+
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/bundle.css">
+
+      <script src="/js/bundle.js"></script><script defer src="/js/search/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js" integrity="sha256-ZFlLEl97eL30&#43;oMWlVkiu&#43;uxzWuu8/FmVL/KIDCfGPg="></script>
+<script defer src="/js/search/search.1d980f84df11f3eb7c8c5f17f541d49a0611608df179dd74fa7f06225eb56ace.js" integrity="sha256-HZgPhN8R8&#43;t8jF8X9UHUmgYRYI3xed10&#43;n8GIl61as4="></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="notransition">
+  <div id="container">
+    <header id="main-header"><div role="navigation" aria-label="Main">
+  <div class="nav-left">
+    <a href="http://localhost:1313/" style="color: inherit;">La Naturaleza del Software</a>
+  </div>
+  <div class="nav-right">
+    <div style="position:absolute;width:0px;height:0px;">
+      <div id="nav-dropdown-menu" class="hidden" href="#">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    </div>
+    <a id="nav-dropdown-button" href="#"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+    <div id="nav-menu">
+    <div class="nav-item">
+      <a
+      >Posts</a>
+    </div>
+</div>
+    <a id="theme-switcher" href="#">
+<svg class="light-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 3V4M12 20V21M4 12H3M6.31412 6.31412L5.5 5.5M17.6859 6.31412L18.5 5.5M6.31412 17.69L5.5 18.5001M17.6859 17.69L18.5 18.5001M21 12H20M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<svg class="dark-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.32031 11.6835C3.32031 16.6541 7.34975 20.6835 12.3203 20.6835C16.1075 20.6835 19.3483 18.3443 20.6768 15.032C19.6402 15.4486 18.5059 15.6834 17.3203 15.6834C12.3497 15.6834 8.32031 11.654 8.32031 6.68342C8.32031 5.50338 8.55165 4.36259 8.96453 3.32996C5.65605 4.66028 3.32031 7.89912 3.32031 11.6835Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+  </div>
+</div>
+</header>
+    <div class="flex grow">
+      <div id="main-pane">
+        <main id="main-content"><div class="single-header">
+<ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content='1' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="http://localhost:1313/post/">
+        <span itemprop="name">Posts</span>
+      </a>
+      <meta itemprop="position" content='2' />
+    </li>
+    <span>&nbsp»&nbsp</span>
+</ol>
+<h1>Hablemos de Entropía de Software</h1><time class="dim" datetime="2021-05-08T12:37:49-04:00">May 8, 2021</time><div class="term-container"><div class="tag">
+        <a href="http://localhost:1313/tags/evoluci%C3%B3n/">#evolución</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/software/">#software</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/desarrollo/">#desarrollo</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/ingenier%C3%ADa-de-software/">#ingeniería de software</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/programas/">#programas</a>
+      </div><div class="tag">
+        <a href="http://localhost:1313/tags/sistemas/">#sistemas</a>
+      </div></ol></div>
+  <section class="page-section"><p>Hay un problema importante en ingeniería de software al que he dedicado parte de mi tiempo durante al menos los últimos cuatro o cinco años. Se trata de una idea, o intuición que por ahora vamos a denominar &ldquo;entropía de software&rdquo;. Y para motivar la conversación les mostraré algunos tweets y memes:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Explaining legacy code to new employees <a href="https://t.co/pfXnNK5FMI">pic.twitter.com/pfXnNK5FMI</a></p>&mdash; Jen Gentleman 🌺 (@JenMsft) <a href="https://twitter.com/JenMsft/status/1378090993744977920?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Maintaining the monolith. <a href="https://t.co/cmnogXqh6n">pic.twitter.com/cmnogXqh6n</a></p>&mdash; Allen Holub. https://linkedIn.com/in/allenholub (@allenholub) <a href="https://twitter.com/allenholub/status/1378753907157962756?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><img src="legacy.jpeg" alt=""></p>
+<p><img src="code.jpeg" alt=""></p>
+<p>Voy a partir con el aspecto más teórico del problema. Para esto revisaremos primero el trabajo de Lehman y Bélády que se remonta a las décadas de 1970 y 1980.</p>
+<figure><img src="/post/2021/2021-05-08-entropia-de-software/lehman.jpg"
+    alt="Meir Manny Lehman"><figcaption>
+      <p>Meir Manny Lehman</p>
+    </figcaption>
+</figure>
+
+<p>Meir M. Lehman junto con Lázló Bélády formularon en aquella época una serie de proposiciones que terminaron conociéndose como las &ldquo;Leyes de la evolución del software de Lehman&rdquo;.</p>
+<p>Estas &ldquo;leyes&rdquo; describen cierto equilibrio de fuerzas que dirigen el desarrollo de nuevo software. Por un lado tenemos fuerzas que empujan nuevos desarrollos y por otro lado fuerzas que enlentecen el progreso.</p>
+<p>Para entender el contexto de estas afirmaciones partiremos revisando un artículo de Lehman de 1980, donde introduce ciertas categorías, o clases de software.</p>
+<p>Hasta ese entonces los programas se clasificaban sólo por su envergadura, es decir, programas grandes (large) y pequeños (non large). Esta clasificación no resultaba satisfactoria en ese tiempo (y mucho menos ahora).</p>
+<p>Lehman parte reconociendo que todo programa es un modelo de la realidad. O como él dice: <em>&ldquo;al menos, cualquier programa es un modelo de un modelo dentro de una teoría de un modelo de una abstracción de alguna porción del mundo o de algún universo de discurso&rdquo;</em> 🤯.</p>
+<p>Las clases introducidas por Lehman son tres: S, P y E.</p>
+<p>Los S-programs corresponden al software cuya funcionalidad se define formalmente por una especificación S (specification). Es el programa que surge de la adherencia a un método formal, o proceso de desarrollo de software que contempla la elaboración de estas especificaciones. La especificación es muy precisa en este caso: &ldquo;dadas estas entradas esperamos estas salidas&rdquo;.</p>
+<p>Según Lehman en la medida que las metodologías de desarrollo de software evolucionen todos los sistemas serán construidos como estructuras de s-programs. Este diagrama, tomado del paper de Lehman, muestra esta clase de programas:</p>
+<figure><img src="/post/2021/2021-05-08-entropia-de-software/s-program.png"
+    alt="s-program"><figcaption>
+      <p>s-program</p>
+    </figcaption>
+</figure>
+
+<p>En la visión de Lehman la especificación, que es una definición formal del problema, dirige y controla el trabajo del programador hacia la creación de un programa que define la solución deseada. En este caso la solución y su especificación son estáticas. Si el problema es reformulado entonces se debe escribir un nuevo programa (aunque para ahorrar tiempo podemos derivar el nuevo programa a partir del existentes). En esta clase de programas el código puede modificarse internamente, para mejorar su desempeño o su claridad, pero sigue preservando su adherencia a la especificación, dadas las mismas entradas se esperan las mismas salidas.</p>
+<p>La siguiente clase de programas de Lehman corresponde a aquellos en que la especificación no es precisa. Esta especificación es un modelo de una abstracción de una situación del mundo real que contiene incertezas, incógnitas, criterios arbitrarios, variaciones, etc. En cierto punto refleja la visión personal del analista que la redacta. En este caso tanto la formulación del problema como su solución son una aproximación a la realidad del mundo. A estos tipos de programas Lehman los llamó P-programs (&ldquo;real world problem solutions&rdquo;).</p>
+<figure><img src="/post/2021/2021-05-08-entropia-de-software/p-program.png"
+    alt="P-program"><figcaption>
+      <p>P-program</p>
+    </figcaption>
+</figure>
+
+<p>En este caso existe un ciclo de comparaciones de esta solución con el entorno real. En los s-program la comparación es contra la especificación, en este otro caso la comparación es contra la realidad, verificamos si los valores obtenidos por el programa son válidos en el contexto del mundo real. Las diferencias entre la data derivada de la observación y la derivada de la computación causan cambios en nuestra visión del mundo, en la percepción del problema, su formulación, el modelo, la especificación  y/o la implementación del programa. Cualquiera sea la causa de la diferencia provoca que el código y eventualmente su documentación deban cambiar. Este efecto no puede ser eliminado declarando que el problema es un nuevo problema (como hacemos con los s-programs), lo que ha cambiado es la percepción que tenemos del mismo problema.</p>
+<p>Pero hay otro hecho relevante que debemos considerar. La insatisfacción surgirá no sólo porque la información recibida desde el programa es incompleta o incorrecta, o porque el modelo original era imperfecto. Esas imperfecciones se pueden superar con el tiempo. Lo que ocurre es que el mundo también cambia y esos cambios generan presión. Así que los <em>p-programs</em> sufrirán cambios de forma permanente o se volverán de modo paulatino cada vez menos efectivos en resultados y en costos.</p>
+<p>La tercera clase de programas son inherentemente más expuestos al cambio. Son los que Lehman llama E-programs. Consideremos el caso de un problema logístico. Donde tenemos a distintos operadores en terreno que reciben instrucciones a través de la aplicación (en sus móviles por ejemplo), en que además ellos proveen de nueva información al sistema.  En este caso, la instalación del programa junto con todo el sistema asociado (dispositivos, redes, etc.) cambia la misma naturaleza del problema a ser resuelto. El programa pasa a ser parte del mundo que modela.</p>
+<figure><img src="/post/2021/2021-05-08-entropia-de-software/e-program-1.png"
+    alt="e-program ciclo inicial"><figcaption>
+      <p>e-program ciclo inicial</p>
+    </figcaption>
+</figure>
+
+<p>Aunque no consideremos la evaluación de los resultados de ejecución del programa en su ambiente operacional, este tiene un ciclo de retro alimentación intrínseco como el que se muestra en la figura <em>Fig. 3</em>. El análisis inicial de esta solución requiere hacer predicciones de las consecuencias de introducir este programa y de su potencial evolución.</p>
+<figure><img src="/post/2021/2021-05-08-entropia-de-software/e-program-2.png"
+    alt="e-program"><figcaption>
+      <p>e-program</p>
+    </figcaption>
+</figure>
+
+<p>Ejemplos de e-programs abundan, desde los sistema operativos hasta sistemas de control de tráfico aereo. En todos estos casos el comportamiento de la aplicación, las demandas de los usuarios y el soporte requerido dependerán de las características del programa. Esto llevará a que los usuarios modifiquen su comportamiento para adaptarse al sistema con el fin de minimizar el esfuerzo y maximizar su efectividad. Es inevitable que esto lleve a presiones por cambios. Adicionalmente las presiones exógenas también causan cambios en el ambiente donde la aplicación opera. Nuevo hardware, avances tecnológicos e incluso la evolución de la sociedad introducen también cambios. Más aún la naturaleza y la tasa de esta evolución estará fuertemente influenciada por las características del programa, en la medida que se liberan nuevas versiones del mismo. A diferencia de otros sistemas, acá la presión por el cambio es permanente e interna, es intrínseca a estos sistemas.</p>
+<p>Es claro que los programas tipo P y E están relacionados, a la unión de estas dos clases Lehman los llama los programas de tipo A. Su gran diferencia con respecto a los tipo S es su aplicación e interacción con el mundo real.</p>
+<p>Es claro que los s-program surgen en contextos formales, como las matemáticas por ejemplo. Un s-program puede ser la implementación de un algoritmo matemático o formal. Un autómata, o por ejemplo, una función específica. La gracia de los s-program es que pueden ser probados de forma rigurosa a partir de su especificación. Muchas componentes básicas de programas extensos son del tipo S. Por ejemplo algunas funciones o procedimientos matemáticos.  Se puede postular que los sistemas A pueden particionarse en sub programas tipo S, esa es parte de la tesis de Lehman y es algo en lo que confiamos en la construcción de nuestros sistemas, descomponemos nuestros sistemas en módulos o funciones que podamos especificar de manera formal. Ese es al meno la aspiración de casi todas las metodologías rigurosas de desarrollo de software.</p>
+<p>Lehman postula que siempre es posible descomponer programas de tipo A en muchos elementos de tipo S. Pero sabemos que el esfuerzo para lograr esto es enorme. Porque un s-program no sólo debería estar especificado de manera completa y precisa, sino que debería ser posible verificarlo también formalmente a partir de la especificación. Pero hacer esto no sería costo efectivo dada la complejidad intrínseca que el mismo Lehman identifica.</p>
+<p>De todas maneras, Lehman sí identifica correctamente que la evolución es una propiedad intrínseca y dirigida por la retroalimentación del software. Con esto establece lo que él denomina las Leyes de la Evolución de un Programa (Laws of Program Evolution), que resumimos a continuación:</p>
+<p>I. <strong>Cambio Continuo:</strong> Un programa que es usado sufrirá cambios continuos o se volverá progresivamente menos útil.</p>
+<p>II. <strong>Complejidad Creciente:</strong> en la medida que evoluciona un programa este es continuamente modificado. Su complejidad, que refleja el deterioro en su estructura, aumentará a menos que se realicen trabajos para mantenerla o disminuirla.</p>
+<p>III. <strong>Ley Fundamental de la Evolución de un Programa:</strong> La evolución del programa está sujeta a una dinámica que hace que el proceso de programación, y por lo tanto las medidas de los atributos globales del proyecto y del sistema, se autorregulen con tendencias e invariancias estadísticamente determinables.</p>
+<p>IV. <strong>Conservación de la Estabilidad Organizacional (Tasa de Trabajo Invariante):</strong> Durante la vida activa de un programa la tasa global de actividad en un proyecto de programación es estadísticamente invariante.</p>
+<p>V. <strong>Conservación de la Familiaridad (Complejidad Percibida):</strong> Durante la vida activa de un programa la liberación de contenido (cambios, adiciones, eliminaciones) de las sucesivas entregas de un programa que evoluciona es estadísticamente invariante.</p>
+<p>Hoy en día se consideran como vigentes las primeras dos leyes de Lehman. Las otras son algo que obtuvo Lehman de la observación de distintos sistemas y procesos en ese tiempo. Su validez es algo que vamos a explorar más adelante.</p>
+<p>La segunda ley es interesante en este contexto, puesto que se puede asimilar al concepto de entropía de la termodinámica, y es el aspecto que me parece más relevante de lo que plantea Lehman. En los siguientes artículos de esta serie vamos a explorar en profundidad estas ideas y ver si es posible medir la entropía del software y de qué manera esto nos puede ser útil.</p>
+</section></main>
+        <footer id="main-footer"><div class="footer">
+  <a href="#">Scroll to Top</a>
+  <div class="footer-copyright">
+    <div class="dim">© 2025 </div>
+    <div>Made with ❤️ and powered by <a href="https://github.com/math-queiroz/rusty-typewriter" target="_blank">Rusty Typewriter</a> theme for <a href="https://gohugo.io/" target="_blank">Hugo</a></div>
+  </div>
+</div>
+</footer>
+      </div><aside id="side-pane" class="side-sticky"><div class="side-details">
+    <span>1629 words</span>
+    <span>9 - 12 minutes read</span><div class="side-details-taxonomy">
+        <small>categories: 
+          <span class="details-taxonomy"><a href="http://localhost:1313/categories/entrop%C3%ADa-de-software">entropía de software</a></span></small>
+      </div></div><h3>Attachments</h3>
+    <ul><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/code.jpeg">code.jpeg</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/e-program-1.png">e-program-1.png</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/e-program-2.png">e-program-2.png</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/featured.jpg">featured.jpg</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/lazlo.jpg">lazlo.jpg</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/legacy.jpeg">legacy.jpeg</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/lehman.jpg">lehman.jpg</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/p-program.png">p-program.png</a></li><li><a href="http://localhost:1313/post/2021/2021-05-08-entropia-de-software/s-program.png">s-program.png</a></li></ul><h3>Related</h3>
+    <ul><li><a href="/post/2010/mantencion-del-software-2/">Mantención del Software</a></li><li><a href="/post/2010/de-que-deuda-me-hablan/">¿De que deuda me hablan?</a></li><li><a href="/post/2013/cuatro-cosas-minimas/">Cuatro cosas mínimas</a></li><li><a href="/post/2010/como-estimar-software/">Cómo estimar software</a></li><li><a href="/post/2010/control-de-versiones-distribuido/">Control de Versiones Distribuido</a></li></ul></aside></div>
+  </div>
+</body>
+</html>

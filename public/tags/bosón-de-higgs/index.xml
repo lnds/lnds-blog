@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bosón De Higgs on La Naturaleza del Software</title>
+    <link>http://localhost:1313/tags/bos%C3%B3n-de-higgs/</link>
+    <description>Recent content in Bosón De Higgs on La Naturaleza del Software</description>
+    <generator>Hugo</generator>
+    <language>es-cl</language>
+    <lastBuildDate>Mon, 07 Jul 2008 22:40:25 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bos%C3%B3n-de-higgs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El Bosón de Higgs y el Fin del Mundo</title>
+      <link>http://localhost:1313/posts/2008/el-boson-de-higgs-y-el-fin-del-mundo/</link>
+      <pubDate>Mon, 07 Jul 2008 22:40:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2008/el-boson-de-higgs-y-el-fin-del-mundo/</guid>
+      <description>&lt;p&gt;Este año se acaba el mundo (otra vez).&lt;/p&gt;&#xA;&lt;p&gt;Bueno, ya hemos hablado sobre &lt;a href=&#34;http://localhost:1313/2006/04/las_maquinas_del_fin_del_mundo.html&#34;&gt;el fin del mundo&lt;/a&gt; por culpa de la tecnología. Pero esta nueva &amp;ldquo;amenaza&amp;rdquo; es bastante interesante.&lt;/p&gt;&#xA;&lt;p&gt;La causa sería la activación del Large Hadron Collider, el acelerador de partículas más grande construido hasta ahora. El LHC es el proyecto más importante de la Organización Europea para la Investigación Nuclear (CERN).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;Construction_of_LHC_at_CERN-thumb-300x400.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;En el CERN es donde nació la Web, que fue un proyecto propuesto por Tim Berners Lee con el fin de compartir el trabajo de los investigadores a través del mundo usando internet, pero esa es otra historia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
