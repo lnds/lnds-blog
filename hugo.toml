@@ -5,6 +5,10 @@ theme = 'rusty-typewriter'
 
 ignoreLogs = ['shortcode-x-getremote']
 defaultContentLanguage = "es"
+[services]
+[services.disqus]
+shortname = 'lnds'
+
 [permalinks]
 posts = "/blog/lnds/:year/:month/:day/:slug"
 event = "/talk/:slug/"
