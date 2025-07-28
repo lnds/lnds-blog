@@ -1,7 +1,7 @@
 +++
 date = '2025-07-27T18:46:02-04:00'
 draft = false 
-title = 'Al principio fue la linea de comandos...'
+title = 'Al principio fue la línea de comandos...'
 tags = ['Ingeligencia Artificial', 'IA', 'Ingeniería de software']
 serie = 'IA en mi flujo de trabajo'
 categories = []
