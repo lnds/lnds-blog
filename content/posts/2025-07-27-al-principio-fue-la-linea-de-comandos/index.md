@@ -1,12 +1,15 @@
 +++
 date = '2025-07-27T18:46:02-04:00'
 draft = false 
-title = 'Al Principio Fue La Linea De Comandos'
+title = 'Al principio fue la linea de comandos...'
+tags = ['Ingeligencia Artificial', 'IA', 'Ingeniería de software']
+serie = 'IA en mi flujo de trabajo'
+categories = []
+featured = false
+projects = []
 +++
- 
-En su ensayo titulado "In the Beginning... Was the Command Line" (1999),
-Neil Stephenson plantea que la GUI es una metáfora de la interposición de
-abstracciones entre los humanos y la forma en que realmente actúan los computadores.
+
+En su ensayo titulado "In the Beginning... Was the Command Line" (1999), Neil Stephenson plantea que la GUI es una interposición de abstracciones entre los humanos y la forma en que realmente operan los computadores.
 
 Una GUI muy popular entre programadores es el IDE, el Entorno  Integrado de Desarrollo,
 lo llamamos. Existe porque programar se empezó a hacer cada vez más complicado.

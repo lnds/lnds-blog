@@ -4,7 +4,7 @@ title = 'La Naturaleza del Software'
 theme = 'rusty-typewriter'
 
 ignoreLogs = ['shortcode-x-getremote']
-
+defaultContentLanguage = "es"
 [permalinks]
 posts = "/blog/lnds/:year/:month/:day/:slug"
 event = "/talk/:slug/"
@@ -55,3 +55,10 @@ suffixes = ["json"]
 [outputs]
 home = ["HTML", "RSS", "SearchIndex"]
 # ===================================
+
+
+[taxonomies]
+tag = 'tags'
+topic = 'topics'
+series = 'series'
+categoy = 'categories'
