@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lnds.net/'
 languageCode = 'es-cl'
 title = 'La Naturaleza del Software'
 theme = 'rusty-typewriter'
