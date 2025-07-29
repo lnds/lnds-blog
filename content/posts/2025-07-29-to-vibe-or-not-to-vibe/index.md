@@ -177,7 +177,8 @@ Por ahora los dejo con mi proyecto: [Daily-Log](https://github.com/lnds/daily-lo
 que si se animan pueden usar y me comentan si les sirve.
 
 También los invito a compartir este post a sus colegas y amigos, a inscribirse
-a mi newsletter para apoyarme, es gratis, pero también hay una versión de pago
-que pueden suscribir si quieren apoyarme.
+en mi [newsletter](https://newsletter.lnds.net/) para apoyar mi trabajo,
+es gratis, pero también hay una versión de pago que pueden suscribir si se animan.
 
-Gracias por leer, y espero tus comentarios, comparte tu experiencia con la IAprogramando, estamos todos aprendiendo y compartir nos hace crecer a todos.
+Gracias por leer, y espero tus comentarios, comparte tu experiencia con la IA programando,
+estamos todos aprendiendo y compartir nos hace crecer a todos.
