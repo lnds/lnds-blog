@@ -173,8 +173,8 @@ Hasta ahora he hablado sobre cómo he usado la IA en proyectos personales, pero
 no les he comentado como la uso en mi trabajo. Un tema que mencionaré en el
 tercer capítulo de esta serie.
 
-Por ahora los dejo con mi proyecto: Daily-Log que pueden clonar y probar y mejorar,
-y si se animan pueden usar y me comentan si les sirve.
+Por ahora los dejo con mi proyecto: [Daily-Log](https://github.com/lnds/daily-log)
+que si se animan pueden usar y me comentan si les sirve.
 
 También los invito a compartir este post a sus colegas y amigos, a inscribirse
 a mi newsletter para apoyarme, es gratis, pero también hay una versión de pago
