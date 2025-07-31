@@ -72,4 +72,4 @@ herramientas, considera entre 50 y 200 dólares al mes por cada uno.
 
 Esta es solo una idea, cada empresa tiene sus desafíos, pero se puede lograr muchas mejoras adoptando la IA en tu ciclo de desarrollo.
 
-Me gustaría leer sus opiniones, pueden comentar acá o en el [newsletter].
+Me gustaría leer sus opiniones, pueden comentar acá o en el [newsletter](https://newsletter.lnds.net).
