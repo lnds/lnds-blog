@@ -7,7 +7,7 @@ slug = '2025-08-01-aniversario-20'
 
 Este blog cumple 20 años hoy.
 
-El 1 de agosto de 2005 publiqué [el primer post oficial](blog/lnds/2005/08/01/desarrollar-software-es-como-hacer-una-pelicula/) de La Naturaleza del Software.
+El 1 de agosto de 2005 publiqué [el primer post oficial](/blog/lnds/2005/08/01/desarrollar-software-es-como-hacer-una-pelicula/) de La Naturaleza del Software.
 
 Era el boom de los blogs, aún faltaban unos años para
 que llegaran las redes sociales y arruinaran nuestra
