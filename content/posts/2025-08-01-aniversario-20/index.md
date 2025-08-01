@@ -66,3 +66,5 @@ Será una aventura interesante la que nos espera en los próximos veinte años.
 
 Te invito a acompañarme, y gracias por seguir ahí leyendo.
 ![poster 2: la aventura continúa](poster2.png)
+
+(*) imágenes del post generadas con IA usando ChatGPT.
