@@ -38,7 +38,7 @@ Si les interesa leerlos, la serie consiste de los siguiente artículos:
 En cada artículo exploro algún aspecto del uso de la IA para desarrollar software.
 En particular mis observaciones usando Claude Code.
 
-![poster](poster.png)
+![poster 1: por unos tokens más](poster1.png)
 
 Vivimos tiempos interesantes, eso es bueno y malo. Recordemos que hay
 una vieja maldición china que justamente habla de vivir tiempos interesantes.
@@ -65,3 +65,4 @@ pues siento que los valores de Substack no está alineado con los míos.
 Será una aventura interesante la que nos espera en los próximos veinte años.
 
 Te invito a acompañarme, y gracias por seguir ahí leyendo.
+![poster 2: la aventura continúa](poster2.png)
