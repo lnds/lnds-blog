@@ -14,7 +14,7 @@ que llegaran las redes sociales y arruinaran nuestra
 vida digital.
 
 Somos pocos los que aún mantenemos blogs personales en Chile.
-Y si no estoy equivocado, junto con el de Alejandro Barros,
+Y si no estoy equivocado, junto con [el de Alejandro Barros](https://www.alejandrobarros.com/),
 este es el blog más antiguo en nuestro país.
 
 Si bien es cierto en el último par de años moví mucho
