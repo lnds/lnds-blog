@@ -15,7 +15,7 @@ vida digital.
 
 Somos pocos los que aún mantenemos blogs personales en Chile.
 Y si no estoy equivocado, junto con [el de Alejandro Barros](https://www.alejandrobarros.com/),
-este es el blog más antiguo en nuestro país.
+este es uno de los blogs más antiguos en nuestro país.
 
 Si bien es cierto en el último par de años moví mucho
 de mis publicaciones a mi [Newsletter](https://newsletter.lnds.net), nunca pensé en
