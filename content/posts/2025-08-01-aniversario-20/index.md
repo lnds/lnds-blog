@@ -18,7 +18,7 @@ Y si no estoy equivocado, junto con el de Alejandro Barros,
 este es el blog más antiguo en nuestro país.
 
 Si bien es cierto en el último par de años moví mucho
-de mis publicaciones a mi Newsletter, nunca pensé en
+de mis publicaciones a mi [Newsletter](https://newsletter.lnds.net), nunca pensé en
 abandonar este espacio. Pero no me había tomado el
 tiempo y tampoco tenía la motivación para poder seguir
 escribiendo.
