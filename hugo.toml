@@ -2,6 +2,7 @@ baseURL = 'https://lnds.net/'
 languageCode = 'es-cl'
 title = 'La Naturaleza del Software'
 theme = 'rusty-typewriter'
+enableRobotsTXT = true
 
 ignoreLogs = ['shortcode-x-getremote']
 defaultContentLanguage = "es"
@@ -57,7 +58,7 @@ notAlternative = true
 suffixes = ["json"]
 
 [outputs]
-home = ["HTML", "RSS", "SearchIndex"]
+home = ["HTML", "RSS", "JSON", "SearchIndex"]
 # ===================================
 
 
