@@ -1,6 +1,7 @@
 +++
 date = '2025-07-29T08:13:42-04:00'
 draft = false 
+tags = ['IA', 'Claude Code', 'Agentes', 'Vibe Coding', 'Ingeniería de software']
 title = 'To Vibe or not to Vibe, that is the question'
 +++
 

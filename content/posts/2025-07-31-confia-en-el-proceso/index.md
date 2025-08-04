@@ -2,6 +2,7 @@
 date = '2025-07-31T18:38:58-04:00'
 draft = false
 title = 'Confía en el Proceso'
+tags = ['IA', 'Claude Code', 'Agentes', 'Vibe Coding', 'Ingeniería de software']
 slug = '2025-07-31-confia-en-el-proceso'
 +++
 

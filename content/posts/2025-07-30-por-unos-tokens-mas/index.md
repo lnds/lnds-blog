@@ -1,6 +1,7 @@
 +++
 date = '2025-07-30T09:10:15-04:00'
 draft = false
+tags = ['IA', 'Claude Code', 'Agentes', 'Vibe Coding', 'Ingeniería de software']
 title = 'Por unos pocos tokens más'
 +++
 
