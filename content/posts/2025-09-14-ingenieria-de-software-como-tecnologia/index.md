@@ -6,7 +6,7 @@ tags = ['ingeniería de software', 'IA', 'verificación', 'Bertrand Meyer', 'his
 slug = 'ingenieria-de-software-como-tecnologia'
 +++
 
-"La ingeniería de software no será solo un proceso, sino que una tecnología." Así predecía Bertrand Meyer en 2010 cómo sería la programación una década más tarde.
+"La ingeniería de software no será solo un proceso, sino que una tecnología." Así [predecía Bertrand Meyer en 2010](https://lnds.net/blog/lnds/2010/03/30/la-programaci%C3%B3n-en-10-anos-mas/) cómo sería la programación una década más tarde.
 
 Quince años después, esa predicción resuena con una ironía que Meyer probablemente no anticipó. Ya saben, es mejor no hacer predicciones, o si queremos asegurarnos, seguir el consejo de Alan Kay, más que predecirlo hay que crearlo.
 
