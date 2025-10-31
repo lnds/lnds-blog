@@ -5,7 +5,6 @@ title: "Equilibrio y Entropía de Software"
 authors: [admin]
 subtitle: "Hablemos de entropía de software (parte 2)"
 summary: ""
-authors: [admin]
 tags: [evolución, software, desarrollo, "ingeniería de software", programas, sistemas]
 categories: ["entropía de software"]
 date: 2021-05-16T10:49:02-04:00
@@ -36,7 +35,7 @@ Este es el segundo artículo de [esta serie](/categories/entropia-de-software/),
 Para continuar he elegido un ejercicio muy sencillo, que tomé de [Project Euler](https://projecteuler.net). En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:
 
 > "Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5 y 9. La suma de estos múltiplos es 23.
-> 
+>
 > Encuentre la suma de todos los múltiplos de 3 ó 5 menores a 1000."
 
 Vamos a generalizar este problema y definiremos nuestra especificación de la siguiente manera:
@@ -88,7 +87,7 @@ def main(n: int) -> int:
   return sum
 ```
 
-Pueden probar esta solución en el siguiente Replit: https://replit.com/@lnds/lndssoftwareentropy1.
+Pueden probar esta solución en el siguiente Replit: <https://replit.com/@lnds/lndssoftwareentropy1>.
 
 Usemos GIT para controlar los cambios en este programa:
 
@@ -105,9 +104,9 @@ Así que nuestro programa tiene 15 líneas de código (sin considerar los tests)
 
 Ya tenemos una solución, pero ¿podemos darla por finalizada?
 
-Diremos que un programa  es **final** si cumple con su especificación y el código ya no sufre modificaciones. Siempre que los requisitos se mantengan inmutables. 
+Diremos que un programa  es **final** si cumple con su especificación y el código ya no sufre modificaciones. Siempre que los requisitos se mantengan inmutables.
 
-Si hacemos una análisis del algoritmo veremos que esta solución ejecuta `n` iteraciones. 
+Si hacemos una análisis del algoritmo veremos que esta solución ejecuta `n` iteraciones.
 
 ¿Podemos hacerlo mejor? Por supuesto, de hecho podemos reducir la cantidad de iteraciones aprovechando el hecho de que no tenemos que revisar todos los números, basta ir contando cada 3 y cada 5.
 Sin embargo, esta solución tiene un problema: el número 15, por ejemplo, será contado dos veces, así que debemos restar la suma de las cuentas de 15 en 15.
@@ -127,7 +126,7 @@ def main(n: int) -> int:
   return sum_step(3) + sum_step(5) - sum_step(3*5)
 ```
 
-Se puede mostrar que esta solución ejecuta del orden $0,6 \times  n$ iteraciones, es decir, para n = 1000 ejecuta unas 600 iteraciones. 
+Se puede mostrar que esta solución ejecuta del orden $0,6 \times  n$ iteraciones, es decir, para n = 1000 ejecuta unas 600 iteraciones.
 Eso es una optimización de un 40%, nada mal.
 
 Si usamos GIT para hacer un commit de esta nueva versión, esta herramienta  nos informa que hemos insertado 7 líneas de código y eliminado 5 lineas de código para lograr esta nueva versión más óptima:
@@ -213,7 +212,7 @@ Pero el programa no opera igual. Esta solución no ejecuta ninguna iteración, t
 
 Hay un resultado de [Gregory Chaitin](https://es.wikipedia.org/wiki/Gregory_Chaitin) que es relevante en este contexto. Chaitin define el concepto de **"programa elegante"** como el programa más corto que produce una determinada salida, es decir que no existe un programa más pequeño que genere esa misma salida.
 
-Este filósofo y matemático demuestra que no es posible saber si hemos encontrado un programa elegante a partir de cierto umbral[^2]. 
+Este filósofo y matemático demuestra que no es posible saber si hemos encontrado un programa elegante a partir de cierto umbral[^2].
 
 Sin cambiar de lenguaje de programación, es muy poco lo que podemos hacer y creo que hemos encontrado el umbral del que habla Chaitin, así que para todos los efectos prácticos diremos que esta es la solución final.
 
@@ -311,20 +310,19 @@ index 8e35a13..d3b7ed7 100644
 
 Antes teníamos 4 eliminaciones y dos inserciones, ahora tenemos dos eliminaciones y 4 inserciones.
 
-
 ## Equilibrio
 
 Diremos que un programa está en **equilibrio** para una especificación $R$ si:
 
   $$ V(s_j, R) = V(\\delta(s_j, c_i), R) \\, \\, \\, {\\forall c_i \\in C \land s_j \\in S } $$
 
-Es decir, que si seguimos aplicando cambios a nuestro programa y este sigue siendo válido para los requisitos, el programa está en equilibrio. 
+Es decir, que si seguimos aplicando cambios a nuestro programa y este sigue siendo válido para los requisitos, el programa está en equilibrio.
 
 Como en el caso que analizamos en ese caso tenemos:
 
 $$C = \\{C_{47f88eb}, C_{629ee77}, C_{bb6855a}\\} $$
 
-$$ V = \text{class Euler1Test} $$ 
+$$ V = \text{class Euler1Test} $$
 
 $$ \\delta = \text{git apply} $$
 
@@ -341,7 +339,7 @@ Según nuestra definición el programa está en equilibrio, pero además los cam
 Hemos analizado el caso de un s-program, pero en los otros casos  las especificaciones cambian continuamente, dada la natureza de los problemas que resuelven.
 
 En ese caso tenemos una función de verificación más compleja, que varía con cada cambio en la especificación.
-Es más, existe también una función $\\delta'$ similar a la función de cambios sobre un programa, pero que aplica a cambios en la especificación, podemos suponer que la función $\\delta'$ para un `p-program` es más simple que para un `e-program`. 
+Es más, existe también una función $\\delta'$ similar a la función de cambios sobre un programa, pero que aplica a cambios en la especificación, podemos suponer que la función $\\delta'$ para un `p-program` es más simple que para un `e-program`.
 
 Todo esto nos revela que el análisis y el modelo construido hasta ahora es demasiado simple. Pero nos permite intuir lo que ocurre en la realidad y explica un hecho relevante: la entropía en un `p-program` y un `e-program` está siempre en aumento, y se logra el equilibrio cuando el programa deja de evolucionar. Si eso ocurre es porque el programa ya no es relevante, se ha vuelto obsoleto, o ha alcanzado un nicho de aplicación tan específico que ya no requiere más cambios (como ciertos utilitarios en algunos sistemas operativos).
 
@@ -360,7 +358,6 @@ Por otro lado hemos descubierto que el programa está en equilibrio, e incluso h
 Hay una forma de medir la entropía que nos la entregó Claude Shannon, que corresponde a [la entropía de la información](https://es.wikipedia.org/wiki/Entrop%C3%ADa_(información)).
 
 La definición de Shannon de la Entropía es una fórmula que implica el cálculo de las probabilidad de todas las configuraciones de los estados posibles de un sistema. Pero por fortuna tenemos una aplicación práctica de la teoría de Shannon en el algoritmo de [codificación de Huffman](https://es.wikipedia.org/wiki/Codificación_Huffman). La entropía, en bits, de un texto $A$, que contiene los símbolos $a_i$ con "pesos" $w_i$ respectivamente, estaría dada por la fórmula:
-
 
 $$ H(A) = - \\sum_{w_i > 0} w_i \\log_2 w_i $$
 
@@ -387,7 +384,7 @@ if __name__ == '__main__' and len(sys.argv) == 2:
 
 Si aplicamos esta función a las tres versiones del programa obtenemos los valores: (4.2970074650902, 4.344081081107001, 4.484216162332524), el tamaño de los archivos es: (310, 375, 348).
 
-Lo que voy a decir es sólo anecdótico, y no podemos sacar ninguna generalización a partir de esto, pero vemos que la entropía es máxima con la solución final. 
+Lo que voy a decir es sólo anecdótico, y no podemos sacar ninguna generalización a partir de esto, pero vemos que la entropía es máxima con la solución final.
 
 La entropía de Shannon nos dice que podemos comprimir nuestro programa y en promedio usaremos entre 4 a 5 bits para representar los símbolos que están en nuestro programa. Esto nos dice que requerimos unos 32 símbolos distintos para representar el programa que hemos escrito. Este valor puede reducirse si modificaramos nuestro programa para considerar ciertas palabras claves y operadores, por ejemplo `for` e `if` pueden ser considerados como símbolos únicos. En ese caso la entropía se reduce, en el caso particular hice un ensayo con este programa y obtuve valores alrededor de 3.7, o que nos permite decir que el programa se puede representar con un alfabeto de 16 caracteres.
 
@@ -401,12 +398,11 @@ Hay otra forma de medir la entropía, y acá recurrimos nuevamente a Chaitin y a
 
 Kolmogorov diría que la complejidad en este caso sería 310 * 8 ó 2480, porque la complejidad de Kolmogorov se expresa en bits, y ese es el tamaño del programa más corto que hemos encontrado para representar a esta secuencia de números. Se dice que la entropía de la fuente (en este caso los números que cumplen la propiedad representada por nuestros programas) converge a la complejidad de Kolmogorov. Esto nos habla de la entropía de las salida de nuestro programa, no de la entropía de los programas en si mismo. Así que este no parece ser una solución satisfactoria, aunque nos prepara para entender y quizás aceptar nuestra última propuesta.
 
-
-## Entropía y tamaño de un programa 
+## Entropía y tamaño de un programa
 
 El cambio de entropía podría ser una función del tamaño del programa. En particular mi me gusta pensar que la entropía de un programa es proporcional al tamaño en líneas de código del mismo.
 
-En astrofísica se usa un resultado similar con los agujeros negros. Lo primero que se observa  es que el área de un agujero negro no puede decrecer, y lo segundo es que se ha determinado que la entropía de un agujero negro es proporcional a su área. La entropía de un agujero negro se obtiene con esta simple fórmula[^5]: $$ S = {A \over 4 } $$ 
+En astrofísica se usa un resultado similar con los agujeros negros. Lo primero que se observa  es que el área de un agujero negro no puede decrecer, y lo segundo es que se ha determinado que la entropía de un agujero negro es proporcional a su área. La entropía de un agujero negro se obtiene con esta simple fórmula[^5]: $$ S = {A \over 4 } $$
 
 Bueno, el área de un programa puede ser la cantidad de líneas de código de este, o los bytes que ocupa en disco. Vamos a definir la entropía de una base de código diciendo que  es proporcional a la cantidad de líneas de código contenidas, tan simple como eso. O sea:
 
@@ -432,22 +428,20 @@ En general es un error ver a la entropía sólo como desorden, pero mejor les de
 
 Pueden revisar las tres versiones de este programa en los siguientes Replits:
 
-- Versión inicial: https://replit.com/@lnds/lndssoftwareentropy1
+- Versión inicial: <https://replit.com/@lnds/lndssoftwareentropy1>
 
-- Loop mejorado: https://replit.com/@lnds/lndssoftwareentropy2
+- Loop mejorado: <https://replit.com/@lnds/lndssoftwareentropy2>
 
-- Usando la fórmula de la Gauss: https://replit.com/@lnds/lndssoftwareentropy3
+- Usando la fórmula de la Gauss: <https://replit.com/@lnds/lndssoftwareentropy3>
 
-El repositorio de con el código mostrado se encuentra acá: https://github.com/lnds/entropia_software
-
-
+El repositorio de con el código mostrado se encuentra acá: <https://github.com/lnds/entropia_software>
 
 [^1]: La suma de los primeros $n$ dígitos es $sum(n) = n * (n + 1) / 2$. Entonces para calcular la suma de los múltiplos de 3 menores a n hacemos $p = n / 3 \land sum_3(n) = p * (p + 1) / 2$ y para los múltiplos de 5: $p = n / 5 \land sum_5(n) = p * (p + 1) / 2$
 
-[^2]: Ver https://es.wikibooks.org/wiki/Chaitin,_Omega_y_otras_curiosidades_matemáticas
+[^2]: Ver <https://es.wikibooks.org/wiki/Chaitin,_Omega_y_otras_curiosidades_matemáticas>
 
-[^3]: Fíjense que en esta discusión he dejado fuera los llamados "requisitos no funcionales", como por ejemplo, "que la solución sea rápida", sospecho que Lehman hizo lo mismo, dada su forma de definir los _s-programs_.
+[^3]: Fíjense que en esta discusión he dejado fuera los llamados "requisitos no funcionales", como por ejemplo, "que la solución sea rápida", sospecho que Lehman hizo lo mismo, dada su forma de definir los *s-programs*.
 
-[^4]: Ya discutí antes en este blog sobre la complejidad de Kolmogorov en este texto: https://lnds.net/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/
+[^4]: Ya discutí antes en este blog sobre la complejidad de Kolmogorov en este texto: <https://lnds.net/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado/>
 
-[^5]: https://cuentos-cuanticos.com/2011/08/05/principio-holografico/
+[^5]: <https://cuentos-cuanticos.com/2011/08/05/principio-holografico/>

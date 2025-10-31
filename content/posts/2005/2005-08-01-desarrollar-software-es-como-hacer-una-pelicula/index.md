@@ -6,11 +6,9 @@ slug: "desarrollar-software-es-como-hacer-una-pelicula"
 aliases: [/2005/08/desarrollar-software-es-como-hacer-una-pelicula.html, /blog/2005/08/desarrollar-software-es-como-hacer-una-pelicula.html]
 tags: ["desarrollo", "software", "cine"]
 draft: false
-image:
-  placement: 3
 ---
 
-##  Arte+Técnica+Logística
+## Arte+Técnica+Logística
 
 Al igual que en el desarrollo de un filme, cuando construimos software
 tenemos una etapa de Pre-Producción, donde elaboramos el guión, esto es

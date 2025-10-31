@@ -5,8 +5,6 @@ date: 2005-08-01T18:25:11-03:00
 slug: "es-bueno-el-open-source"
 draft: false
 tags: ['software libre', 'floss', 'open source']
-image:
-  placement: 3
 ---
 
 Parece que la bala mágica para eliminar la brecha digital es el open

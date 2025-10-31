@@ -5,7 +5,6 @@ title: "iPad es mi Copiloto"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [blogging, iPad, productividad, apple]
 categories: []
 date: 2021-03-16T14:00:44-03:00
@@ -34,17 +33,17 @@ projects: []
 
 Hasta hace poco tiempo consideraba al iPad más una herramienta de consumo de contenido que un apoyo en mi productividad. Es cool tener un iPad pero igual es un aparato caro para usarlo sólo para consumir contenido de la web, a pesar del sonido y la calidad de imagen, no me sentía cómodo con el uso que le daba. Por otro lado, he tenido algunos modelos previos del iPad con la idea de usarlos en mi trabajo o cuando estudiaba, para tomar notas y todo eso. Incluso como una herramienta para escribir borradores de mis blogs.
 
-Pero a pesar de las buenas intenciones no lograba cubrir esos objetivos. Aún así el año pasado consideré la idea de comprar el iPad Pro y darle un uso más continuo. Todo dentro de un entorno de pandemia. 
+Pero a pesar de las buenas intenciones no lograba cubrir esos objetivos. Aún así el año pasado consideré la idea de comprar el iPad Pro y darle un uso más continuo. Todo dentro de un entorno de pandemia.
 
 Aunque parezca raro, es justo en pandemia que le he dado más uso a este dispositivo que todos mis intentos anteriores. No sé si es porque ahora el iPad está más cerca de ser un notebook, pero además he encontrado herramientas más útiles que incluso me han permitido programar usando este pequeño aparato. Bueno, el iPad ya no es tan pequeño, pero creo que se entiende a que voy.
 
 Voy a compartirles algunas de mis experiencias usando el iPad y las motivaciones para usarlo cada día más. Quizás esto sirva para algunos que no se deciden a tener uno, o que teniendo uno piensan en deshacerse de este por no encontrarlo tan útil como pensaban.
 
-Una de las primera razones por las que sucedíó este cambio en mi percepción fue el modelo 2020 del iPad que tiene este teclado maravilloso, con trackpad. Eso fue un gran cambio. Yo trabajo normalmente con un Mac de 15 o 16 pulgadas, porque es el tamaño de pantalla que me resulta más cómodo, en mi escritorio lo tengo conectado además a un monitor de 27 pulgadas (porque mientras más píxeles tienes todo es mejor). 
+Una de las primera razones por las que sucedíó este cambio en mi percepción fue el modelo 2020 del iPad que tiene este teclado maravilloso, con trackpad. Eso fue un gran cambio. Yo trabajo normalmente con un Mac de 15 o 16 pulgadas, porque es el tamaño de pantalla que me resulta más cómodo, en mi escritorio lo tengo conectado además a un monitor de 27 pulgadas (porque mientras más píxeles tienes todo es mejor).
 
 Nunca me acomodó el formato de 13 pulgadas para un notebook. Pero ese formato tiene una ventaja, la movilidad, y el peso del aparato. Y estaba cansado de tener que llevar un equipo así de pesado y moverme por mi casa para trabajar enfocado en algún tema. Fue ese el nicho que empezó a ocupar el iPad Pro.
 
-Hoy dejo el Mac en mi oficina y el iPad lo puedo llevar a un sofá, la terraza del jardín o a la cama. Además en el iPad ejecuto tareas más enfocadas. 
+Hoy dejo el Mac en mi oficina y el iPad lo puedo llevar a un sofá, la terraza del jardín o a la cama. Además en el iPad ejecuto tareas más enfocadas.
 
 ## Fuera distracciones
 
@@ -91,10 +90,9 @@ Es un protocolo que mejora la experiencia de conexión remota por sobre lo que t
 
 {{< youtube XsIxNYl0oyU >}}
 
-
 Cuando uso Blink en el host al que me conecto tengo VIM y TMUX que son herramientas que permiten trabajar con tranquilidad de forma remota. He aprendido a re apreciar VIM, que como saben [es uno de mis editores favoritos](https://lnds.net/blog/lnds/2012/04/05/el-mejor-editor-de-texto-de-todo-el-mundo-mundial/).
 
-Otro utilitario que uso es [Mocha WOL](https://apps.apple.com/es/app/mocha-wol/id422625778), una aplicación simple que sirve para “despertar” a algún PC cuando está inactivo. 
+Otro utilitario que uso es [Mocha WOL](https://apps.apple.com/es/app/mocha-wol/id422625778), una aplicación simple que sirve para “despertar” a algún PC cuando está inactivo.
 
 Si usas MacOS debes habilitar el acceso remoto a los mismos y asegurar que los filtros de firewall no bloqueen puertos importantes. Es fácil, por ejemplo si levantas una aplicación Dango debes asegurarte el binding al address 0.0.0.0. En ese momento MacOS te preguntará si quieres recibir conexiones entrantes, aceptas y a partir de ese momento quedará configurada una regla para que puedas acceder a tu sitio desde tu iPad. Por supuesto debes saber la IP del servidor o PC al que accedes. Muchos routers tienen la posibilidad de dejar fija la IP de los dispositivos, así que es algo que es bueno considerar para facilitarte la vida. Blink mantiene una lista de los servidores comunes a los que accede así que ahí puedes aprovechar de colocar las IP de los PC locales a los que accederás.
 
@@ -118,7 +116,7 @@ Mi workflow para bloguear desde el iPad sería así:
 
 No les voy a mentir, esto lo hago pocas veces. Lo que realmente aplico es escribir en Notion y terminar de preparar el post en mi PC, porque es mucho más rápido y sencillo. Pero les conté cómo se puede hacer si usas una herramienta como Hugo y no quieres abandonar el iPad.
 
-Este workflow de blogging puede resultar excesivamente complicado para el 99.9% de las personas que quieren publicar su blog, pero si les gusta este tipo de contenido, entonces les contaré más adelante cómo pueden bloguear de mil formas más sencillas que la descrita recién. 
+Este workflow de blogging puede resultar excesivamente complicado para el 99.9% de las personas que quieren publicar su blog, pero si les gusta este tipo de contenido, entonces les contaré más adelante cómo pueden bloguear de mil formas más sencillas que la descrita recién.
 
 Usar Hugo me acomoda y agrada, además que es una forma más hacker de bloguear y eso es cool 😎. Pero no es para todos.
 

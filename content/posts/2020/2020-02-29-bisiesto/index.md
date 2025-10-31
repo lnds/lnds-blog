@@ -5,7 +5,6 @@ title: "Bisiesto"
 authors: [admin]
 subtitle: "Retomando transmisiones"
 summary: ""
-authors: [admin]
 tags: [reflexiones, blogging]
 categories: []
 date: 2020-02-29T19:55:47-03:00
@@ -49,7 +48,7 @@ Helps me pass the time
 Concentrate my mind
 Helps me to sleep_
 
-La rutina dice que el verano se acaba, llega el otoño. El año empieza en Chile en marzo. Todo se reactiva. Las clases comienzan, la gente vuelve de vacaciones. 
+La rutina dice que el verano se acaba, llega el otoño. El año empieza en Chile en marzo. Todo se reactiva. Las clases comienzan, la gente vuelve de vacaciones.
 
 Pero hay épocas en que esta rutina se rompe. Y este 2020 no será para nada rutinario en Chile.
 
@@ -59,9 +58,9 @@ Pero hay épocas en que esta rutina se rompe. Y este 2020 no será para nada rut
 
 Y si la rutina, que nos ordena, que concentra nuestra mente, se pierde, ¿qué podemos hacer?
 
-Me ha costado volver a escribir con periodicidad en este blog. 
+Me ha costado volver a escribir con periodicidad en este blog.
 
-Por mientras, estos últimos tres meses he dedicado parte de mi tiempo a migrar de plataforma todo el contenido escrito en estos [últimos quince años](https://lnds.net/blog/lnds/2020/02/02/el-decimo-quinto/). En este proceso he vuelto a leer muchos de esos escritos, y he descubierto cosas sobre mi mismo en el proceso. Algunas fueron sorpresas agradables, otras no me gustaron para nada. 
+Por mientras, estos últimos tres meses he dedicado parte de mi tiempo a migrar de plataforma todo el contenido escrito en estos [últimos quince años](https://lnds.net/blog/lnds/2020/02/02/el-decimo-quinto/). En este proceso he vuelto a leer muchos de esos escritos, y he descubierto cosas sobre mi mismo en el proceso. Algunas fueron sorpresas agradables, otras no me gustaron para nada.
 
 En 2006 [escribí](/blog/lnds/2006/08/21/motivacion/):
 
@@ -90,7 +89,6 @@ Muchos de los que escribimos bitácoras, lo hacemos más por vanidad, que por ot
 
 Por otro lado, en febrero de 2019 escribí en [mi Patreon](https://www.patreon.com/posts/la-trampa-de-la-24998702) sobre la "trampa de la motivación".
 
-
 > _"La motivación está sobrevalorada, lo importante es el compromiso: El compromiso te permite dar lo mejor cuando no estás motivado." - Del muro de Facebook de  Leonardo Jofré_
 >
 > El problema con motivar es qué es una forma de empujar a las personas a que hagan algo, que quizás no quieren hacer, porque no le encuentran sentido, o porque están interesados en otras cosas.
@@ -106,9 +104,9 @@ Por otro lado, en febrero de 2019 escribí en [mi Patreon](https://www.patreon.c
 
 En septiembre de 2019 tomé unas largas vacaciones por Europa, muchas ideas de artículos surgieron en esas semanas que compartí con mi mujer recorriendo el viejo mundo. Pero no vieron la luz. Llegamos a Chile justo dos semanas antes del estallido social. Pero aparte de ese aspecto externo, me enfrenté a los errores que cometí como lider de mi equipo. Vino una crisis, sobre la que hablaré de seguro más adelante.
 
-La vida está llena de crisis, sociales o personales. La forma en que las enfrentamos y superamos es la que nos muestra quienes somos. Es la prueba suprema. 
+La vida está llena de crisis, sociales o personales. La forma en que las enfrentamos y superamos es la que nos muestra quienes somos. Es la prueba suprema.
 
-En 2006 atravesaba una crisis, a fines de 2019 también. Pero los contextos son distintos. Las formas de solucionarlas también. 
+En 2006 atravesaba una crisis, a fines de 2019 también. Pero los contextos son distintos. Las formas de solucionarlas también.
 
 Este es un año en que estaremos expectantes. Sólo nos queda tratar de hacer lo mejor en nuestro micro cosmos personal y aportar en el cosmos social.
 
@@ -128,49 +126,47 @@ Las palabras de Dante son inmortales. Porque Dante vivió tiempos complejos, de 
 
 Desde 2010 mantengo tres blogs: ["Akarrú"](https://www.akarru.com/), ["La Sombra de Dijkstra"](https://www.programando.org/) y este ["La Naturaleza del Software"](https://www.lnds.net/).
 
-En estas últimas semanas, para retomar el hábito, la rutina de la escritura, publiqué algunos desafíos en ["La Sombra de Dijkstra"](https://www.programando.org/). 
+En estas últimas semanas, para retomar el hábito, la rutina de la escritura, publiqué algunos desafíos en ["La Sombra de Dijkstra"](https://www.programando.org/).
 
 En Akarrú publiqué [un pequeño homenaje a Neil Peart](https://www.akarru.com/blog/2020/01/11/neil-peart/), tras su fallecimiento. Hace dos semanas agregué un [pequeño relato de ciencia ficción](https://www.akarru.com/blog/2020/02/16/la-nina-relato/).
 
-Poco a poco retomaré la rutina de escribir posts en este blog, a veces un aforismo, de vez en cuando un largo y documentado artículo técnico. Mis reflexiones más personale irán a ["Akarrú"](https://www.akarru.com/), todo lo que tenga que ver con tecnología, reflexiones sobre el arte de desarrollar software, y alguna que otra reflexión de tipo epistemológico, irán acá. Por último todo lo que tenga que ver con programación y arquitectura de software será publicado en ["La Sombra de Dijkstra"](https://www.programando.org/). 
+Poco a poco retomaré la rutina de escribir posts en este blog, a veces un aforismo, de vez en cuando un largo y documentado artículo técnico. Mis reflexiones más personale irán a ["Akarrú"](https://www.akarru.com/), todo lo que tenga que ver con tecnología, reflexiones sobre el arte de desarrollar software, y alguna que otra reflexión de tipo epistemológico, irán acá. Por último todo lo que tenga que ver con programación y arquitectura de software será publicado en ["La Sombra de Dijkstra"](https://www.programando.org/).
 
 ## Empieza una nueva jornada
 
 > _"Incipit Vita Nova"_
 
-Cuando Dante desciende a los infiernos consigue la compañía de Virgilio, que lo orienta dentro de los círculos que componen el infra mundo, y que le explica lo que ve. Al ascender al cielo, la anfitriona es su amada Beatrice. 
+Cuando Dante desciende a los infiernos consigue la compañía de Virgilio, que lo orienta dentro de los círculos que componen el infra mundo, y que le explica lo que ve. Al ascender al cielo, la anfitriona es su amada Beatrice.
 
-El Vate Florentino transmite en su obra su larga reflexión sobre su propio crecimiento moral y ético, critica y nos transmite en modo alegórico las crisis que le tocó observar. Es un testigo de su tiempo y nos deja un relato de las bajezas y grandezas humanas que le toca observar. 
+El Vate Florentino transmite en su obra su larga reflexión sobre su propio crecimiento moral y ético, critica y nos transmite en modo alegórico las crisis que le tocó observar. Es un testigo de su tiempo y nos deja un relato de las bajezas y grandezas humanas que le toca observar.
 
 Estoy al inicio de una nueva jornada. Un reinicio donde me acompañan nuevos aliados. Hay ciclos que se cumplen, y necesitas formar nuevos equipos para asumir nuevos desafíos. Contextos diferentes.
-
 
 ## Contra la rutina
 
 > _"Un poderoso fuego es solo la continuación de una pequeña chispa"_ -- Dante
 
-La rutina no nos ordena. No calma nuestra mente. La canción homónima de Steven Wilson habla desde la perspectiva de una persona atormentada, que se refugia en la rutina porque le cuesta aceptar la terrible realidad a la que se vio expuesta. 
+La rutina no nos ordena. No calma nuestra mente. La canción homónima de Steven Wilson habla desde la perspectiva de una persona atormentada, que se refugia en la rutina porque le cuesta aceptar la terrible realidad a la que se vio expuesta.
 
-No es que me guste la rutina, aunque sí soy amigo de tener cierta disciplina, ritmo y rito para trabajar y abordar mi vida. 
+No es que me guste la rutina, aunque sí soy amigo de tener cierta disciplina, ritmo y rito para trabajar y abordar mi vida.
 
 Descubrí que en los primeros años de este blog habia un ritmo asombroso de publicación, aunque el contenido muchas veces era bastante pobre. En esa época los blogs eran la tendencia en "social media". Hoy usamos las redes sociales. Así que ahí volcamos mucho del contenido contingente. Pero en el 2005, o el 2006, era normal que se usaran los blogs para discutir sobre la coyuntura nacional.
 
-
-## Objetivos 
+## Objetivos
 
 > _"El secreto para que las cosas sean hechas está en hacerlas"_ -- Dante
 
+Hoy hay muchas personas que usan Medium para publicar posts más extensos, para superar la barrera del espacio que imponen las redes sociales. Pero también ocurre que hay mucho contenido que es pura vanidad, o venta de humo.
 
-Hoy hay muchas personas que usan Medium para publicar posts más extensos, para superar la barrera del espacio que imponen las redes sociales. Pero también ocurre que hay mucho contenido que es pura vanidad, o venta de humo. 
-
-No es el objetivo de este blog, al menos no en esta época o contexto. Lo que yo espero aportar es contenido de calidad, desde mi experiencia, mi nivel de conocimiento. También uso este medio como un mecanismo para aprender, y mejorar. Cuando descubro algo me gusta expplicarlo para asegurarme que lo entiendo. Ese es objetivo principal de "La Naturaleza del Software", ese es el compromiso final. Es la idea que se mantendrá vigente en estos textos que vendrán. Vamos a avanzar. 
+No es el objetivo de este blog, al menos no en esta época o contexto. Lo que yo espero aportar es contenido de calidad, desde mi experiencia, mi nivel de conocimiento. También uso este medio como un mecanismo para aprender, y mejorar. Cuando descubro algo me gusta expplicarlo para asegurarme que lo entiendo. Ese es objetivo principal de "La Naturaleza del Software", ese es el compromiso final. Es la idea que se mantendrá vigente en estos textos que vendrán. Vamos a avanzar.
 
 Recordemos a Dante, "el secreto para que las cosas sean hechas, es hacerlas". Así que acá estamos de nuevo. Vamos a volver a escribir.
 
 Ritmo y Rito.
 
-Una palabra tras otra, una idea y después la siguiente. 
+Una palabra tras otra, una idea y después la siguiente.
 
 ![](escaleras.png)
 
 (*) Todas las fotos tomadas por el autor
+

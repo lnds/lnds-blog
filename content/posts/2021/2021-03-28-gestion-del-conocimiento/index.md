@@ -5,7 +5,6 @@ title: "Por qué y cómo gestionar el conocimiento"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: ['conocimiento', 'gestión del conocimiento']
 categories: []
 date: 2021-03-28T12:04:23-03:00
@@ -31,7 +30,7 @@ image:
 projects: []
 ---
 
-Hay una historia, probablemente apócrifa[^1], que dice que Federico II de Prusia advertido de las virtudes de la papa, el tubérculo traido desde América, ordena que sus súbditos las planten y se alimenten con estas. La gente obedece la orden de su emperador pero al comer las plantas enferman. Es entonces que el gobernante se da cuenta del error y decide ayudarlos explicándoles cómo se debía consumir correctamente la patata. 
+Hay una historia, probablemente apócrifa[^1], que dice que Federico II de Prusia advertido de las virtudes de la papa, el tubérculo traido desde América, ordena que sus súbditos las planten y se alimenten con estas. La gente obedece la orden de su emperador pero al comer las plantas enferman. Es entonces que el gobernante se da cuenta del error y decide ayudarlos explicándoles cómo se debía consumir correctamente la patata.
 
 Puede que la realidad fuera otra. El hecho es que había una hambruna y se consideraba que la papa era una forma de salvar a Europa de la inanición. Hay historias que dicen que Federico obligó a los campesinos a sembrarlas a riesgo de perder las orejas si no lo hacían.
 
@@ -39,7 +38,7 @@ También se dice que en Francia había reticencia de consumirlas y que un noble 
 
 Como sea, tenemos esta idea de que la papa salvó a Europa del hambre. Y puede que sea cierto. Pero no es el punto de este post. Quiero volver a la idea del emperador de Prusia dando la orden de que el pueblo siembre papas y se alimente con ellas.
 
-Notarán que una orden así es muy imprecisa, y puede dar origen a que la gente se alimente mal, se pierda precioso alimento e incluso se enfermen. 
+Notarán que una orden así es muy imprecisa, y puede dar origen a que la gente se alimente mal, se pierda precioso alimento e incluso se enfermen.
 
 Pasa lo mismo cuando implantamos una política o queremos introducir una tecnología nueva. No basta con decir "implanten DevOps", por ejemplo. De alguna forma hay que introducir el conocimiento necesario al equipo y validar si este nuevo conocimiento tendrá alguna utilidad.
 
@@ -61,7 +60,6 @@ Para entender sobre qué es realmente gestionar conocimiento vamos a recurrir a 
 
 ![](que_gestionar.png)
 
-
 En la figura de arriba he puesto los tres aspectos que debemos gestionar cuando gestionamos conocimiento.
 
 Los datos son el estrato más bajo de lo que debemos gestionar. Los datos vienen del entorno, o son producidos por nuestras construcciones. La forma inicial que inventamos en informática para organizarlos son las bases de datos.
@@ -80,7 +78,7 @@ Lo primero que debemos entender es que el conocimiento no se puede almacenar en 
 
 Pero, ¿para qué gestionar el conocimiento?
 
-La respuesta tradicional es que es el conocimiento es la llave para la innovación. Alguien más ambicioso puede decir que "conocimiento es poder". Lo importante es  entender que no puedes pensar en términos egoistas cuando se trata del conocimiento, es es un grave error. El conocimiento adquiere más fuerza cuando es compartido. 
+La respuesta tradicional es que es el conocimiento es la llave para la innovación. Alguien más ambicioso puede decir que "conocimiento es poder". Lo importante es  entender que no puedes pensar en términos egoistas cuando se trata del conocimiento, es es un grave error. El conocimiento adquiere más fuerza cuando es compartido.
 
 Hace unos años hablé sobre los conceptos de inteligencia potencial e inteligencia cinética (Ver ["Sobre la inteligencia del coyote"](https://lnds.net/blog/lnds/2012/04/17/sobre-la-inteligencia-del-coyote/)), este post es tributario de aquel, así que recomiendo leerlo. La diferencia es que acá les hablaré de cómo administrar eso que llamé inteligencia potencial en aquel post, y que en suma es el conocimiento.
 
@@ -89,7 +87,6 @@ Hace unos años hablé sobre los conceptos de inteligencia potencial e inteligen
 Veamos que ocurre en muchas empresas. Cuando se gestiona el activo más importante que es el código fuente de las aplicaciones, ocurre esto:
 
 ![](handover.png)
-
 
 Muchos creen que con tener el código en un repositorio Git compartido la gestión del código es completa. Eso es gestión de bajo nivel, o falta de gestión. Lo que es peor, aún en pleno siglo XXI hay empresas que ni siquiera tienen repositorios de código fuente distribuidos, ¡ni siquiera saben qué son los gestores de código!
 
@@ -105,7 +102,7 @@ Si no te convences que la gestión de conocimiento es importante, entonces estab
 
 Déjenme contarles otra historia, o más bien volver a contarles esta historia[^3]:
 
-En 1940 Alemania era el país lider en óptica, con fábricas como la de Carl Zeiss en Jena y Ernst Leitz en Wetzlar. No había nada mejor fuera de Alemania, y esto era crucial para desarrollar instrumentos ópticos usados, por ejemplo, en los bombardeos de precisión. 
+En 1940 Alemania era el país lider en óptica, con fábricas como la de Carl Zeiss en Jena y Ernst Leitz en Wetzlar. No había nada mejor fuera de Alemania, y esto era crucial para desarrollar instrumentos ópticos usados, por ejemplo, en los bombardeos de precisión.
 
 Es por esto que el ejercito alemán consideraba a la óptica como uno de sus recursos estratégicos. Los militares alemanes creían que a los aliados les tomaría una generación preparar “artesanos ópticos” capaces de producir visores de bombardeo de alta calidad como los de ellos.
 
@@ -115,16 +112,16 @@ De acuerdo a Peter Drucker, en esa época el jefe de la división Cadillac de Ge
 
 Estas son las palabras de Drucker en sus memorias:
 
-> "La única mano de obra que se encontraba disponible en Detroit eran viejas prostitutas negras. 
+> "La única mano de obra que se encontraba disponible en Detroit eran viejas prostitutas negras.
 > Ante el horror de todos Nick Dreystadt contrató a 2.000 de ellas.
 > [...]
->  Muy pocas de estas mujeres podían leer y el trabajo requería seguir largas instrucciones. “No tenemos tiempo para enseñarles a leer”, dijo Nick, “y pocas aprenderán de todas maneras.” Así que fue al mesón de trabajo y por si mismo construyó una docena de visores. 
+> Muy pocas de estas mujeres podían leer y el trabajo requería seguir largas instrucciones. “No tenemos tiempo para enseñarles a leer”, dijo Nick, “y pocas aprenderán de todas maneras.” Así que fue al mesón de trabajo y por si mismo construyó una docena de visores.
 >
-> Cuando supo cómo hacerlo, tomó una cámara y filmó el proceso. Montó los cuadros de la película separadamente en un proyector y los sincronizó con un diagrama de flujo, en el cual una luz roja se encendía para mostrarle a la operadora lo que ya había hecho, una luz verde para indicarle lo que tenía que hacer a continuación, y una amarilla para mostrarle lo que tenía que revisar antes de tomar el siguiente paso. 
+> Cuando supo cómo hacerlo, tomó una cámara y filmó el proceso. Montó los cuadros de la película separadamente en un proyector y los sincronizó con un diagrama de flujo, en el cual una luz roja se encendía para mostrarle a la operadora lo que ya había hecho, una luz verde para indicarle lo que tenía que hacer a continuación, y una amarilla para mostrarle lo que tenía que revisar antes de tomar el siguiente paso.
 >
 > Este es el procedimiento estándar actual para un proceso masivo de ensamblado; fue Dreystad quien lo inventó. En pocas semanas estas operarias analfabetas y no calificadas fueron produciendo un mejor trabajo que los mecánicos altamente calificados habían hecho antes."
 
-Hoy en día se considera que hay mucho sesgo en el relato de Drucker. Tampoco hay claridad de la cantidad de mujeres afro americanas que fueron contratadas, pero sí es efectivo que Dreystadt inventó una técnica para capacitar a obreros y obreras con poca calificación, e incluso analfabetos, usando películas y técnicas de producción en cadena. Por desgracia también es cierto que estas mujeres perdieron sus empleos en favor de los veteranos que volvieron de la guerra. 
+Hoy en día se considera que hay mucho sesgo en el relato de Drucker. Tampoco hay claridad de la cantidad de mujeres afro americanas que fueron contratadas, pero sí es efectivo que Dreystadt inventó una técnica para capacitar a obreros y obreras con poca calificación, e incluso analfabetos, usando películas y técnicas de producción en cadena. Por desgracia también es cierto que estas mujeres perdieron sus empleos en favor de los veteranos que volvieron de la guerra.
 
 ![](technicians.png)
 
@@ -147,7 +144,6 @@ Entonces partimos con que el conocimiento de una persona es tácito y queremos q
 Después lo que queremos es que ese conocimiento tácito sea explícito. Acá es cuando externalizamos nuestro conocimiento compartiéndolo con todos y empezamos a elaborar conceptos que resuman nuestro conocimiento, y nos permitan compartirlo de forma fácil con los demás y los que recién llegan, un ejemplo de esto son las metáforas.
 
 ![](cuadro3.png)
-
 
 Cuando combinamos conocimiento explícito con otro conocimiento explícito estamos generando nuevo conocimiento. Esto es lo que se conoce como conocimiento sistemático, este es un punto crítico en la gestión del conocimiento. Acá es cuando creamos nuevas cosas, como productos o nuevas tecnologías.
 
@@ -212,7 +208,7 @@ Por cada fase en la gestión del conocimiento hay una serie de acciones, técnic
   - Experiencia de Usuario
   - Planning, Estimation Poker
   - Diseños y Arquitecturas
-  - Bloques de Construcción 
+  - Bloques de Construcción
   - Guías de Desarrollo
   - Documentación del Proyecto
   - Manuales de Uso
@@ -229,12 +225,11 @@ Por cada fase en la gestión del conocimiento hay una serie de acciones, técnic
   - Reducción de Deuda Técnica
   - Mejora continua, Ciclo de Demming, Teoría de Restricciones de Goldratt
 
-Tal como Nonaka y Takeuchi indican, esto es esencial para sostener una empresa u organización moderna. 
+Tal como Nonaka y Takeuchi indican, esto es esencial para sostener una empresa u organización moderna.
 
 Así que sería bueno empezar ya.
 
 ¿Cómo? Bueno, una forma es leer este artículo, difundirlo, combinarlo e internalizarlo en tu propia organización :wink:.
-
 
 [^1]: O quizás me la inventé de un recuerdo construido, porque me parece que esta historia sale mencionada en esa serie de dibujos animados "Érase una vez el hombre" que vi cuando niño.
 

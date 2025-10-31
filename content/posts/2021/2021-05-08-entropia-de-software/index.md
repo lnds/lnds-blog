@@ -5,7 +5,6 @@ title: "Hablemos de Entropía de Software"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [evolución, software, desarrollo, "ingeniería de software", programas, sistemas]
 categories: ["entropía de software"]
 date: 2021-05-08T12:37:49-04:00
@@ -103,5 +102,3 @@ De todas maneras, Lehman sí identifica correctamente que la evolución es una p
 Hoy en día se consideran como vigentes las primeras dos leyes de Lehman. Las otras son algo que obtuvo Lehman de la observación de distintos sistemas y procesos en ese tiempo. Su validez es algo que vamos a explorar más adelante.
 
 La segunda ley es interesante en este contexto, puesto que se puede asimilar al concepto de entropía de la termodinámica, y es el aspecto que me parece más relevante de lo que plantea Lehman. En los siguientes artículos de esta serie vamos a explorar en profundidad estas ideas y ver si es posible medir la entropía del software y de qué manera esto nos puede ser útil.
-
-

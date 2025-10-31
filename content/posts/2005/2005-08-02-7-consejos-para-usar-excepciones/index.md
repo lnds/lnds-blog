@@ -1,15 +1,13 @@
 ---
 title: "7 Consejos para usar excepciones"
 authors: [admin]
-date: 2005-08-02T08:25:11-03:00
-slug: "7-consejos-para-usar-excepciones"
+date: '2005-08-02T08:25:11-03:00'
+slug: '7-consejos-para-usar-excepciones'
 tags: ["programación", "excepciones", "csharp"]
 draft: false
-image:
-  placement: 3
 ---
 
-Aqui hay 7 consejos para el uso de excepciones en C\#
+Aquí hay 7 consejos para el uso de excepciones en C\#
 
 1) No utilice las excepciones para controlar el flujo de la
 aplicación.
@@ -24,4 +22,4 @@ manejadores de excepciones. Esto es util para efectos de depurar.
 CLR.
 
 Gracias a Juan Daria Tempesta (Instructor DCE) por inspirar este
-artículo
+artículo.

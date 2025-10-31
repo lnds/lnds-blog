@@ -5,7 +5,6 @@ title: "Goodbye Stranger"
 authors: [admin]
 subtitle: "lo único constante es el cambio"
 summary: ""
-authors: [admin]
 tags: [cambios, profesión, cornershop, previred]
 categories: [carrera, evolución]
 date: 2020-12-13T09:31:34-03:00
@@ -37,13 +36,13 @@ projects: []
 > But I must be moving on\
 > -- "Good by Stranger", Supertramp
 
-El viernes fue mi último día de trabajo en Previred, fueron doce años, así que fui parte de esa organización más de la mitad de su vida. 
+El viernes fue mi último día de trabajo en Previred, fueron doce años, así que fui parte de esa organización más de la mitad de su vida.
 
 Nunca había estado tanto tiempo en un trabajo. Pasaron los años tan rápido y estaba tan entretenido en lo que hacía que no me di cuenta.
 
 Consideren que este blog tiene poco más de quince años, así que gran parte de las reflexiones que he escrito en este espacio han estado en el contexto de mi trabajo en Previred.
 
-Un resumen de mi experiencia la conté en los últimos artículo de la serie que llamé ["El fin de la agilidad"](/blog/lnds/2019/03/17/el-fin-de-la-agilidad/). 
+Un resumen de mi experiencia la conté en los últimos artículo de la serie que llamé ["El fin de la agilidad"](/blog/lnds/2019/03/17/el-fin-de-la-agilidad/).
 
 > Like a king without a castle\
 > Like a queen without a throne\
@@ -63,7 +62,7 @@ Todo tiene su límite o su fin. Llegan los momentos en que ya no sientes la mism
 
 Alguien escribió que las corporaciones son seres vivos con conciencia propia. Mal que mal en nuestra legislación las dotamos de personalidad. Son organismos cuya mente colectiva sigue ciertas directrices y  esas directrices cambian.
 
-En los últimos dos años me senti desgastado, cansado y a veces aburrido. Pero no se trata de que se haya convertido en un lugar desagradable para trabajar. Nunca diré eso de Previred. Tampoco es que haya estado exento de problemas y disputas, creo que ese aspecto está todo dentro de lo normal de cualquier organización humana. 
+En los últimos dos años me senti desgastado, cansado y a veces aburrido. Pero no se trata de que se haya convertido en un lugar desagradable para trabajar. Nunca diré eso de Previred. Tampoco es que haya estado exento de problemas y disputas, creo que ese aspecto está todo dentro de lo normal de cualquier organización humana.
 
 Sólo ocurre que llega un momento en que no te sientes alineado con el resto de la dirección de la organización.
 
@@ -80,8 +79,6 @@ A veces sin proponertelo la solución se presenta a tu puerta, como una generosa
 
 Quieres abrirte camino como esos exploradores portugueses del siglo XVI, que se aventuraban a abrir nuevas cartografías de territorios desconocidos y míticos. Quieres ir en busca del unicornio o la mítica quimera.
 
-
-
 > And I will go on shining\
 > Shining like brand new\
 > I'll never look behind me\
@@ -92,7 +89,6 @@ Así que hace unas semanas atrás tuve una conversación muy relevante para el r
 Así es, me uno al equipo de Cornershop.
 
 ![](cornershop.png)
-
 
 > Sweet devotion (Goodbye, Mary)\
 > It's not for me (Goodbye, Jane)\
@@ -116,3 +112,4 @@ Estaré en nuevos desafíos muy interesantes, seguro que les contaré sobre esto
 > I've got to go
 
 {{<youtube u8pVZ5hTGJQ>}}
+

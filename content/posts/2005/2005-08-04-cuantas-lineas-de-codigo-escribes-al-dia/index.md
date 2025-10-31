@@ -5,8 +5,6 @@ date: 2005-08-04T08:25:11-03:00
 slug: "cuantas-lineas-de-codigo-escribes-al-dia"
 tags: ["programar", "agilidad", "rant"]
 draft: false
-image:
-  placement: 3
 ---
 Creo que la razón de que muchos proyectos de desarrollo de software se
 producen por la separación entre los arquitectos, los analistas y los

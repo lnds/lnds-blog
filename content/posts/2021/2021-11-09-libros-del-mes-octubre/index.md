@@ -5,7 +5,6 @@ title: "Libros del Mes: Octubre 2021"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [libros, lectura, ficción, divulgación, novelas]
 categories: ['libros del mes', 'libros']
 date: 2021-11-08T11:41:10-03:00
@@ -35,10 +34,9 @@ Continuamo con el registro de los libros leidos este año, esta vez cubriendo el
 
 ### Máquinas como yo - Ian McEwan
 
-Ian McEwan es, se supone, uno de los escritores británicos más importantes desde 1945, de acuerdo a The Times. Si es así no se nota con esta novela. Realmente de lo más irregular que he leido en el último tiempo, me sentí casi estafado. Porque hay una promesa interesante. Se trata de una suerte de ucronía, en que Alan Turing no ha muerto y se desarrolla la inteligencia artificial muchas décadas antes, de modo que en 1982 ya existen androides inteligentes. 
+Ian McEwan es, se supone, uno de los escritores británicos más importantes desde 1945, de acuerdo a The Times. Si es así no se nota con esta novela. Realmente de lo más irregular que he leido en el último tiempo, me sentí casi estafado. Porque hay una promesa interesante. Se trata de una suerte de ucronía, en que Alan Turing no ha muerto y se desarrolla la inteligencia artificial muchas décadas antes, de modo que en 1982 ya existen androides inteligentes.
 
 Es un mundo donde Inglaterra pierde en Las Malvinas, donde Turing es millonario y vive abiertamente su homosexualidad, y la historia se desarrolla de una manera distinta. Pero el personaje principal es soso, una persona que ha ejercido varios oficios ad hoc para ajustarse a las necesidades de la novela, un hombre de unos treinta y dos, enamorado de una vecina diez años menor, ella con una historia extraña y un tanto escabrosa. Este personaje tiene algo de dinero porque invierte en la bolsa, se supone que a eso se dedica, pero de una manera bien poco profesional, en realidad es como esos personajes de teleseries latinas, en la práctica no trabaja. Bueno, con ese excedente de dinero se compra un androide, y ahí se arma un seudo triángulo, y empiezan dramas de teleserie barata. En realidad podría haber sido interesante, pero incluso el androide y las reflexiones sobre computación e inteligencia artificial son muy básicas y algunas bastante erradas. También se mete en el tema del abuso sexual a mujeres, pero de una manera entre inadecuada y bastante simplista en mi opinión. Habrá gente que le guste, pero creo que tiene profundos fallos narrativos y temáticos, como investigó muy por encima algunos temas.
-
 
 [Disponible en Amazon >>](https://amzn.to/3H1ZlaV)
 
@@ -52,11 +50,9 @@ En realidad es una relectura (en Kindle), de este libro, que adquirí hace un pa
 
 [![](sprint.jpeg)](https://amzn.to/3khcbsp)
 
-
 ### The Ugly Truth: Inside Facebook's Battle for Domination - Sheera Frenkel & Cecilia Kang
 
 El libro es de dos periodistas del New York Times, y muestra una serie de incidentes de Facebook, que han sido cubiertos en distintas fuentes, pero para mi fue interesante leerlas en este libro, porque había algunos que no conocía. Se supone que las autoras se documentaron en cientos de entrevistas y fuentes públicas y anónimas. Encontré el libro breve y que le faltó profundidad. No está totalmente al día, pero si bastante cercano a recientes eventos de fuga de información de empleados de Facebook. La conclusión a la que llegas es que la gestiónde Zuckerberg es pésima, y que le importa un bledo hacerse cargo de esto temas. Es probable que eso sea cierto, a juzgar por lo que está pasando. Recomendable, aunque insisto que me habría gustado algo más extenso y con más detalles.
-
 
 [Disponible en Amazon >>](https://amzn.to/3kiBU3p)
 

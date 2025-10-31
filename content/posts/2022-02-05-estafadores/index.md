@@ -3,7 +3,6 @@ title: "Estafadores"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [nft, estafas, historia, nazis, arte, cripto, web3]
 categories: [historia, arte, cripto, web3]
 date: 2022-02-05T12:22:16-03:00
@@ -70,15 +69,15 @@ Y por último lo que verá en su *"wallet"* quien adquiera el NFT:
 
 Con esto nos muestra de forma muy clara que el NFT no es lo que algunos creen que es. Un modo de tener "arte" o lo que sea de manera única. Porque el NFT tiene un fallo fundamental en su implementación, de acuerdo a lo que nos explica Marlinspike en su artículo:
 
-> En lugar de almacenar los datos en la cadena, los NFT contienen una URL que _apunta a_ los datos. Lo que me sorprendió de los estándares fue que no hay ninguna firma hash para los datos ubicados en la URL. Al observar muchos de los NFT en los mercados populares que se venden por decenas, cientos o millones de dólares, esa URL a menudo solo apunta a algún VPS que ejecuta Apache en algún sitio. Cualquiera que tenga acceso a esa máquina, cualquiera que compre ese nombre de dominio en el futuro o cualquier persona que comprometa esa máquina puede cambiar la imagen, el título, la descripción, etc. de la NFT a lo que quiera en cualquier momento (independientemente de si no "poseen" el token). No hay nada en la especificación de NFT que le diga cuál "debería" ser la imagen, o incluso le permita confirmar si algo es la imagen "correcta".
-
+> En lugar de almacenar los datos en la cadena, los NFT contienen una URL que *apunta a* los datos. Lo que me sorprendió de los estándares fue que no hay ninguna firma hash para los datos ubicados en la URL. Al observar muchos de los NFT en los mercados populares que se venden por decenas, cientos o millones de dólares, esa URL a menudo solo apunta a algún VPS que ejecuta Apache en algún sitio. Cualquiera que tenga acceso a esa máquina, cualquiera que compre ese nombre de dominio en el futuro o cualquier persona que comprometa esa máquina puede cambiar la imagen, el título, la descripción, etc. de la NFT a lo que quiera en cualquier momento (independientemente de si no "poseen" el token). No hay nada en la especificación de NFT que le diga cuál "debería" ser la imagen, o incluso le permita confirmar si algo es la imagen "correcta".
 
 Es decir, podemos publicar una imagen en un sitio, con no sé, digamos que una fotografía, luego vender el NFT y después bajamos el sitio.
 
-Ahora bien, lo que venden en realidad es el NFT, el Non Fungible Token, que no es más que un registro en el blockchain, que tiene una URL, pero solo eso, una cadena de caracteres que corresponde a la URL. 
+Ahora bien, lo que venden en realidad es el NFT, el Non Fungible Token, que no es más que un registro en el blockchain, que tiene una URL, pero solo eso, una cadena de caracteres que corresponde a la URL.
 
 En rigor pueden decir que no te han estafado, porque te vendieron el token, ese registro en el blockchain, no la imagen, la que después de todo, cualquiera puede descargar.
 
 Quienes entendieron bien esto se dieron cuenta de que es una forma fácil de ganar dinero con sus obras sin desprenderse de ellas. Como por ejemplo, el hijo de John Lennon, [quien subastará NFT de su colección privada de objetos de los Beatles](https://www.elfinanciero.com.mx/espectaculos/2022/01/26/julian-hijo-de-john-lennon-subastara-nft-de-su-coleccion-personal-de-the-beatles/).
 
 Pienso como habría sido la historia si en vez del cuadro Göring hubiese comprado el NFT del "Cristo y la Mujer Adúltera", de ese modo el cuadro nunca habría abandonado Holanda, y quien sabe si algún tribunal se hubiera molestado en hacer un juicio por tan ridícula transacción.
+

@@ -5,7 +5,6 @@ title: "Diversidad en el Desarrollo de Software: ¡estamos muy mal!"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: ['desarrolladores', 'stack overflow', 'estudios', 'género', 'mujeres en tecnología', 'diversidad']
 categories: ['estudios']
 date: 2020-05-31T11:20:51-04:00
@@ -32,7 +31,6 @@ projects: []
 
 El 27 de mayo el popular sitio StackOverflow publicó los resultados de su [encuesta para desarrolladores de software 2020](https://insights.stackoverflow.com/survey/2020).
 
-
 [StackOverflow](https://stackoverflow.com/) es un sitio muy popular en el mundo del desarrollo de software, para quienes no lo conozcan se trata de un foro abierto de preguntas y respuestas, desarrollado en 2008,  por [Jeff Attwood](https://blog.codinghorror.com/) y [Joel Spolsky](https://www.joelonsoftware.com/), dos famosos e influyentes bloggers especialistas en TI,  
 
 La idea original era crear un sitio de preguntas y respuestas para desarrolladores de software, que usara un mecanismo de reputación y reconocimiento para determinar la mejor respuesta. Con el tiempo el sitio se convirtió en una referencia muy usada por desarrolladores de todo el mundo, quienes acuden a este sitio para encontrar respuestas a sus problemas más habituales.
@@ -51,10 +49,9 @@ Y aunque hay que considerar que hay un sesgo importante, de todas maneras entreg
 
 Este año hicieron un esfuerzo por alcanzar una representación más diversa de desarrolaldores, y para eso promocionaron mucho menos la encuesta en sus propios canales, y la publicaron en diversos lugares. A pesar del esfuerzo, no lograron un aumnento significativo de representación como esperaban, aunque lograron algunos aumentos en la representación de latinos y afro descendientes, otras razas y etnias se mantuvieron e incluso bajaron en su representación. Lo mismo en cuanto a representación de género, tuvieron un leve aumento en la representación femennina, anque los que se identifican como no binarios, y de otros géneros se mantuvieron. Lo positivo es que en StackOverflow reconocen que tienen mucho que hacer para aumentar la inclusión en su comunidad.
 
-Pero veamos algunos datos  encontrados por este sitio[^3]. 
+Pero veamos algunos datos  encontrados por este sitio[^3].
 
 Ignoraré por esta vez las preguntas más técnicas, y sólo me concentraré en aspectos demográficos y socio económicos, en un próximo post hablaré sobre los otros hallazgos.
-
 
 ## Raza y Etnia
 
@@ -80,7 +77,6 @@ Con respecto a la orientación sexual el 92.1% se identificón como hetero sexua
 
 El siguiente gráfico muestra la participació por género en distintas especialidades:
 
-
 {{<svg src="devtype_ratio-1.svg" caption="La linea punteada muestra la razón promedio entre la participación de hombres vs mujeres">}}
 
 En el eje vertical vemos la proporción hombres / mujeres según especialidad, y en el eje horizontal la cantidad de desarrolladores, que contestaron la encuesta.
@@ -99,7 +95,7 @@ Y si esta proporción es preocupante, porque muestra una baja particpiación que
 
 Estos hallazgos son consistentes con otros estudios que muestran que las mujeres abandonan el área de tecnología a los 14 años en promedio.
 
-Es claro que tenemos mucho que hacer aún. 
+Es claro que tenemos mucho que hacer aún.
 
 El desarrollo de software sigue siendo un entorno hostil para otros géneros distinto al masculino. Es un entorno blanco, hetero normado, y muy poco tolerante
 a la diversidad. Y eso es algo grave.
@@ -108,14 +104,13 @@ La tecnología afecta la vida de todos y todas, por lo tanto requiere más repre
 
 Los invito a discutir estos hallazgos y compartir ideas sobre qué hacer.
 
-El análisis de la encuesta la pueden encontrar en este enlace: https://insights.stackoverflow.com/survey/2020#overview
+El análisis de la encuesta la pueden encontrar en este enlace: <https://insights.stackoverflow.com/survey/2020#overview>
 
+[^1]: Ricardo Baeza, Diego Saze: "Wisdom of the Crowd or Wisdom of a Few?" disponible en <https://www.researchgate.net/publication/299867310_Wisdom_of_the_Crowd_or_Wisdom_of_a_Few>
 
+[^2]: Muchas de estas observaciones son recogidas en este artículo de Wikipedia: <https://en.wikipedia.org/wiki/Stack_Overflow>.
 
-[^1]: Ricardo Baeza, Diego Saze: "Wisdom of the Crowd or Wisdom of a Few?" disponible en https://www.researchgate.net/publication/299867310_Wisdom_of_the_Crowd_or_Wisdom_of_a_Few
+[^3]: Datos y hallazgos extraidos de <https://insights.stackoverflow.com/survey/2020#overview>
 
-[^2]: Muchas de estas observaciones son recogidas en este artículo de Wikipedia: https://en.wikipedia.org/wiki/Stack_Overflow.
+[^4]: Marte necesita mujeres: <https://lnds.net/blog/lnds/2013/09/08/marte-necesita-mujeres/>
 
-[^3]: Datos y hallazgos extraidos de https://insights.stackoverflow.com/survey/2020#overview
-
-[^4]: Marte necesita mujeres: https://lnds.net/blog/lnds/2013/09/08/marte-necesita-mujeres/

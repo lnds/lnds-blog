@@ -5,7 +5,6 @@ title: "Antes \"too\" esto era campo"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [cornershop, desarrollo, evolución, trabajo, reflexiones, emprendimiento]
 categories: []
 date: 2021-07-11T13:16:56-04:00
@@ -33,9 +32,9 @@ projects: []
 
 Han pasado varias cosas interesantes en Cornershop, algo que seguro varios de ustedes ya saben. El otro día nos avisaron de un hito particular para Chile, en el canal respectivo de Slack, junto con las felicitaciones uno de los comentarios de un compañero fue: "antes too esto era campo" :smile:.
 
-Lo curioso es que cuando leí eso yo estaba literalmente en el campo. 
+Lo curioso es que cuando leí eso yo estaba literalmente en el campo.
 
-Ventajas del tele trabajo. 
+Ventajas del tele trabajo.
 
 O producto de la conectividad, porque yo recuerdo cuando "todo esto era campo", al menos en lo referente a telecomunicaciones.
 
@@ -45,11 +44,11 @@ No, no he migrado al campo aún, aunque las posibilidades están, y seguro será
 
 Estoy presenciando el nacimiento de algo nuevo para nuestra familia. Por supuesto que ahora todo es campo, pero en unos meses, esperamos, será un agradable refugio.
 
-Pero muchas cosas están cambiando a mi alrededor. Mi país, por ejemplo, pasa por un momento de tranformaciones profundas y estamos iniciando una etapa de re escritura de las reglas de nuestra convivencia. Hay gente que está expectante, algunos asustados e incluso no faltan los que ven todo con mucho pesimismo. Sospecho que los que más temen es porque no entienden estos movimientos históricos. 
+Pero muchas cosas están cambiando a mi alrededor. Mi país, por ejemplo, pasa por un momento de tranformaciones profundas y estamos iniciando una etapa de re escritura de las reglas de nuestra convivencia. Hay gente que está expectante, algunos asustados e incluso no faltan los que ven todo con mucho pesimismo. Sospecho que los que más temen es porque no entienden estos movimientos históricos.
 
-Algo curioso es el hecho que algunos creen que se trata de un simple proceso técnico. Como si fuera cosa de sentarse y escribir un simple algoritmo de comportamiento ciudadano. 
+Algo curioso es el hecho que algunos creen que se trata de un simple proceso técnico. Como si fuera cosa de sentarse y escribir un simple algoritmo de comportamiento ciudadano.
 
-Lo que está ocurriendo es la redacción de una propuesta para la "Constitución **Política** de Chile". Lo dice en el título: "política". ¿Cómo esperan que no sea político el proceso? 
+Lo que está ocurriendo es la redacción de una propuesta para la "Constitución **Política** de Chile". Lo dice en el título: "política". ¿Cómo esperan que no sea político el proceso?
 
 ![](khaby.jpg)
 
@@ -59,16 +58,15 @@ Yo estoy tranquilo.
 
 Los mitos griegos nos dicen que el Orden, el Cosmos, surgió del Caos.
 
-Las cosas al principio son así, caóticas, casi sin sentido aparente. 
+Las cosas al principio son así, caóticas, casi sin sentido aparente.
 
-Hay urgencia por empezar y damos varios pasos en falso, cometemos errores, tomamos decisiones rápidas, quizás no muy meditadas, pero vamos avanzando, a la velocidad que queramos darle, dependiendo de nuestro espíritu y nuestra necesidad. 
+Hay urgencia por empezar y damos varios pasos en falso, cometemos errores, tomamos decisiones rápidas, quizás no muy meditadas, pero vamos avanzando, a la velocidad que queramos darle, dependiendo de nuestro espíritu y nuestra necesidad.
 
 Pero no es fácil cuando en una organización participan personas de muchas sensibilidades e intereses. Y aún más cuando están esos que, como decimos en Chile, "atornillan al revés" y quieren que todo fracase.
 
-
 # E-Programs y el Juego Infinito
 
-Otra cosa interesante son los cambios en mi vida laboral. Tengo que decir que me gusta mucho mi trabajo actual. 
+Otra cosa interesante son los cambios en mi vida laboral. Tengo que decir que me gusta mucho mi trabajo actual.
 
 He estado reflexionando mucho en estos meses y una de las conclusiones a las que he llegado es que en mi vida profesional nunca había trabajdo en desafíos como los que me encuentro ahora. No estoy subestimando mis anteriores trabajos, lo que estoy diciendo es que me encuentro frente a una naturaleza distinta de desafíos.
 
@@ -76,11 +74,11 @@ Si recuerdan lo que he escrito sobre las [ideas de Lehman](/blog/lnds/2021/05/08
 
 Como ingeniero me ha tocado desarrollar muchos sistemas de tipo S o P, como los llama Lehman. En estos programas lo que ocurre es que debemos adaptar nuestra solución a nuevas abstracciones más refinadas del mundo. Esto pasa porque en general estas nuevas abstracciones surgen de normas, leyes, decretos, o nuevos procedimientos dictados por quienes pretenden normar la complejidad de la sociedad humana. No son sistemas evolutivos en si mismos, son sistemas normados. Su complejidad reside en la mayor o menor arbitrariedad de los requisitos. Pero no alteran fundamentalmente ni al entorno ni a las personas.
 
-Pero Cornershop funciona como un  `E-Program`, igual que muchas startups y empresas innovadoras. Sus productos o servicios crean nuevas realidades de operación, otras formas distintas de hacer las cosas, y esto genera nuevas necesidades e impulsa cambios de comportamientos de sociedades enteras. Cornershop nació como una forma de ahorrarle tiempo a las personas. Pero la pandemia también cambió a Cornershop, porque debía responder a los cambios que la pandemia demandaba. Y esos cambios a su vez modificaron hábitos y generaron nuevos comportamientos en las personas que usan el servicio. Esto produce nuevos desafíos y cambios que afectan a la sociedad. 
+Pero Cornershop funciona como un  `E-Program`, igual que muchas startups y empresas innovadoras. Sus productos o servicios crean nuevas realidades de operación, otras formas distintas de hacer las cosas, y esto genera nuevas necesidades e impulsa cambios de comportamientos de sociedades enteras. Cornershop nació como una forma de ahorrarle tiempo a las personas. Pero la pandemia también cambió a Cornershop, porque debía responder a los cambios que la pandemia demandaba. Y esos cambios a su vez modificaron hábitos y generaron nuevos comportamientos en las personas que usan el servicio. Esto produce nuevos desafíos y cambios que afectan a la sociedad.
 
 Zoom, Cornershop, Teams,  Miró, y tantas otras herramientas y servicios que hemos incorporado a nuestras vidas llegaron y nos cambiaron. Son parte de nuestra vida y han cambiado muchas dinámicas que tenemos para organizar nuestra vida y nuestro trabajo. Son fuerzas nuevas que generan nuevos desafíos. El E-Program altera a la sociedad, y la sociedad altera el E-Program. ¿Si ya puedes entregarme el producto en el día, por qué no puedes entregármelo de forma más inmediata? Las barreras se corren. Los objetivos se desplazan. Las reglas cambian y los sistemas E hacen que esos cambios se aceleren.
 
-Viviremos una nueva sociedad, más acostumbrada a las mascarillas en público (aunque esa idea no les guste a los gobiernos). Con vacunas cada seis meses, y anuncios de una nueva pandemia cada dos años. Y estas tecnologías estarán acompañándonos. También surgirán nuevas soluciones. Algunas serán normativas, otras evolutivas. Soluciones tipo P, soluciones tipo E. Hay que estar atentos a las tipo E, esas son las más valiosas. 
+Viviremos una nueva sociedad, más acostumbrada a las mascarillas en público (aunque esa idea no les guste a los gobiernos). Con vacunas cada seis meses, y anuncios de una nueva pandemia cada dos años. Y estas tecnologías estarán acompañándonos. También surgirán nuevas soluciones. Algunas serán normativas, otras evolutivas. Soluciones tipo P, soluciones tipo E. Hay que estar atentos a las tipo E, esas son las más valiosas.
 
 Otra forma de verlo es que Cornershop, junto a varias startups, en especial esas que llaman unicornios, juegan lo que algunos llaman un "Juego Infinito".
 
@@ -94,7 +92,7 @@ Por otro lado, los juegos infinitos son jugados sólo con el propósito de segui
 
 Alex Danco, en su artículo ["Why The Canadian Tech Scene Doesn't Work"](https://alexdanco.com/2021/01/11/why-the-canadian-tech-scene-doesnt-work/) explica como esta idea del juego infinito es la que motiva a cierto tipo de emprendedores e inversores ángeles, y es la que distingue a los ecosistemas de emprendimiento exitosos de los que no lo son tanto.
 
-Leyendo el artículo veo mucho de la realidad chilena. Hace poco un economista de derecha trató de hacer un punto político usando el éxito de Cornershop para denostar el rol de estado. Opino que ese economista no entiende nada ([¿cuando han entendido algo?](https://lnds.net/blog/lnds/2011/07/28/expertos-zorros-y-erizos/)). Cornershop tuvo éxito _a pesar_ del entorno privado y público chileno. La clave para entender esto está en entender esta idea del juego infinito. 
+Leyendo el artículo veo mucho de la realidad chilena. Hace poco un economista de derecha trató de hacer un punto político usando el éxito de Cornershop para denostar el rol de estado. Opino que ese economista no entiende nada ([¿cuando han entendido algo?](https://lnds.net/blog/lnds/2011/07/28/expertos-zorros-y-erizos/)). Cornershop tuvo éxito _a pesar_ del entorno privado y público chileno. La clave para entender esto está en entender esta idea del juego infinito.
 
 El juego infinito no es privilegio de los emprendedores, ni de las empresas unicornios. Tiene que ver con tu decisión de seguir jugando una y otra vez con el fin de crecer, de cultivarte más allá de los límites que te imponen otros o que tu mismo te impones. Es dejar de pensar en ganar, es disfrutar del placer de jugar.
 
@@ -117,12 +115,12 @@ Eso ha pasado con Cornershop. Para entender como funciona yo pienso en este conc
 Voy a tratar de explicarlo a través de uno de los aspectos que más contrasta, y es fácil de explicar.
 
 Antes [les he contado sobre mi vida profesional](https://lnds.net/categories/el-fin-de-la-agilidad/) y en particular de Previred.
-Tal como conté antes, en Previred tuve la suerte de formar, con mucha libertad, [mi propia unidad de desarrollo](https://lnds.net/blog/lnds/2019/08/15/el-fin-de-la-agilidad/). Así que pude probar distintos procesos de desarrollo, más o menos ágiles. Con el tiempo algo nos caracterizaba como equipo. 
-Aunque eramos un equipo pequeño estabamos enfocados en construir varios productos o servicios nuevos. 
+Tal como conté antes, en Previred tuve la suerte de formar, con mucha libertad, [mi propia unidad de desarrollo](https://lnds.net/blog/lnds/2019/08/15/el-fin-de-la-agilidad/). Así que pude probar distintos procesos de desarrollo, más o menos ágiles. Con el tiempo algo nos caracterizaba como equipo.
+Aunque eramos un equipo pequeño estabamos enfocados en construir varios productos o servicios nuevos.
 
-Teníamos algo de esta mentalidad de juego infinito, dentro de un juego finito, por cierto. 
+Teníamos algo de esta mentalidad de juego infinito, dentro de un juego finito, por cierto.
 
-Sin embargo, chocabamos con algunas formas de operación que ya estaban establecidas en el modo de operar que traía la empresa. 
+Sin embargo, chocabamos con algunas formas de operación que ya estaban establecidas en el modo de operar que traía la empresa.
 
 Una de estas ideas era la oposición a ejecutar muchos pasos a producción. Era un concepto que incluso algunos veían como algo inadecuado, desordenado, caótico,  incluso peligroso. Cuando alcanzamos los sesenta pasos al año nos miraron como bichos raros. Pero aún así siempre encontré esa cantidad de cambios anuales como algo insuficiente, e invertí  tiempo y esfuerzo durante los años que pasé en la empresa, en tratar de mostrar lo importante que es la entrega continua.
 
@@ -134,7 +132,7 @@ Estoy seguro que Osvaldo no sospechaba lo que ocurriría apenas un par de años 
 
 Cuando al fin llegué a Cornershop me quedé corto, la realidad era que la cantidad de cambios en producción había pasado al siguiente orden de magnitud.
 
-Voy a explicarlo con calma, porque para mi fue un shock. Incluso, lo he comentado en las clases que dicto para alumnos de magister. 
+Voy a explicarlo con calma, porque para mi fue un shock. Incluso, lo he comentado en las clases que dicto para alumnos de magister.
 
 Yo había impulsado un proceso de desarrollo en que logramos alrededor de quinientos cambios en producción **al año**. Cuando ingresé a Cornershop y vi como se operaba con los cambios en producción, toda esa cifra que logramos en una docena de años, en Cornershop lo superaban con creces pero **todos los días**. Y todo eso lo lograron en menos de dos años.
 
@@ -166,7 +164,7 @@ En uno de mis primeros proyectos, en los que he participado en estos meses, come
 
 La organización fue algo que me costó entender al principio. No, no vas a encontrar un organigrama en Cornershop. Hay líderes, por supuesto, esto no es anarquía. Pero debo comentar, que para mi delicia,  en muchos aspectos la operación tiene mucho de anarquía, pero en el buen sentido de la palabra.
 
-Es esta idea de "caos controlado". Es una organización en que se están ejecutando al mismo tiempo cientos de proyectos. Entonces, un equipo puede estar desarrollando algo que puede interferir con el trabajo de otro equipo, o pueden beneficiarse de la sinergía. Todo esto hace necesario que tengamos que conversar y coordinar mucho. 
+Es esta idea de "caos controlado". Es una organización en que se están ejecutando al mismo tiempo cientos de proyectos. Entonces, un equipo puede estar desarrollando algo que puede interferir con el trabajo de otro equipo, o pueden beneficiarse de la sinergía. Todo esto hace necesario que tengamos que conversar y coordinar mucho.
 
 ![](anarchy.png)
 
@@ -174,7 +172,7 @@ Somos bien auto críticos, y respetuosos del trabajo y expertise de otros. Pero 
 
 Lo más importante es que los líderes no sólo saben. Nuestro líderes más técnicos no sólo escribieron las primera lineas de código de Cornershop, sino que aún lo siguen haciendo.
 
-Eso a mi me inspira. Para mi es relevante que un líder sea respetado no sólo por su habilidad de alinear al equipo, si además sabe muy bien lo que hay que hacer, y cómo hacerlo, mejor. Pero además lo que importa es que confían en tí, te respetan, te entienden y te escuchan. Mantener eso y crecer al mismo tiempo es un desafío. Pero saben lo que necesitan para lograr escalar y han traido a las personas adecuadas que pueden ayudar a lograr esto. 
+Eso a mi me inspira. Para mi es relevante que un líder sea respetado no sólo por su habilidad de alinear al equipo, si además sabe muy bien lo que hay que hacer, y cómo hacerlo, mejor. Pero además lo que importa es que confían en tí, te respetan, te entienden y te escuchan. Mantener eso y crecer al mismo tiempo es un desafío. Pero saben lo que necesitan para lograr escalar y han traido a las personas adecuadas que pueden ayudar a lograr esto.
 
 Porque estamos creciendo mucho, ya somos cientos de ingenieros aportando miles de líneas de códigos, diseños, arquitecturas, servicios, procesos, documentación, todos los días. Jugando todos el juego infinito. Así que seguiremos creciendo. Estoy seguro que miles de cambios al día será la norma en unos meses más.
 
@@ -186,13 +184,12 @@ Entonces, estoy en un proceso de cambio y de reinvención, pero en un entorno mu
 
 Por todo lo anterior y dada mi experiencia en estos meses en Cornershop, voy a mejorar la definición, más que "Caos Organizado", usaré la expresión "Caos Constructivo".
 
-Estoy en medio de un torbellino de cambios, de crecimiento, de expansión, de integración. De incertezas, de fuerte competencia, de incertidumbres, de temores y esperanzas. 
+Estoy en medio de un torbellino de cambios, de crecimiento, de expansión, de integración. De incertezas, de fuerte competencia, de incertidumbres, de temores y esperanzas.
 
-Entonces sé lo que puede lograr el caos, no le temo al caos. Me anima el caos. 
+Entonces sé lo que puede lograr el caos, no le temo al caos. Me anima el caos.
 
 La gente que le teme al caos, los que abogan por el orden permanente, son personas que no entienden el poder creativo del caos.
 
 El poder del caos constructivo.
 
 No le teman al caos constructivo, recuerden que antes too esto era campo...
-

@@ -5,7 +5,6 @@ title: "Veintinueve Años De Linux"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [linux, 'open source']
 categories: []
 date: 2020-08-25T09:17:18-04:00
@@ -32,7 +31,6 @@ projects: []
 
 Linux cumple vientinueve años hoy.
 
-
 En rigor hay dos celebraciones de Linux, la del 25 de agosto que celebra el anuncio original de Linus Torvalds en el grupo de "news" comp.os.minix:
 
     Hello everybody out there using minix –
@@ -45,13 +43,13 @@ La segunda celebración es el 5 de octubre, cuando realizó la primera liberaci�
 
 De todas maneras, ¡cómo pasa el tiempo!
 
-Recuerdo que [eran mis primero años laborales](https://lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad/), pero seguía asistiendo a los últimos años de universidad, y seguía relacionado con varios amigos en el DCC de la Universidad de Chile, fue alguien allí (probablemente Willy), quien me pasó una caja (¿o varias?)  de disquettes, para que instalara una distribución de Linux. Era Slackware y probablemente a fines de 1993 o inicio de 1994. 
+Recuerdo que [eran mis primero años laborales](https://lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad/), pero seguía asistiendo a los últimos años de universidad, y seguía relacionado con varios amigos en el DCC de la Universidad de Chile, fue alguien allí (probablemente Willy), quien me pasó una caja (¿o varias?)  de disquettes, para que instalara una distribución de Linux. Era Slackware y probablemente a fines de 1993 o inicio de 1994.
 
 {{<figure caption="Tux con una pipa, la mascota original de Slackware" src="Slackware-mascot.jpg">}}
 
 Lo instalé en una PC en mi casa, y no recuerdo muy bien si pude correr X-Windows en ese momento, pero estaba feliz, por que tenía [Unix](https://lnds.net/blog/lnds/2020/03/29/entusiasmo-selectivo/) en mi computadora[^1].
 
-Hoy Linux está en casi todos lados. Si usas Android, o incluso si lees este post, el servidor en que está instalado el gesto de contenidos de este blog, está basado en Linux. Tu televisor seguramente tiene alguna versión de Linux. 
+Hoy Linux está en casi todos lados. Si usas Android, o incluso si lees este post, el servidor en que está instalado el gesto de contenidos de este blog, está basado en Linux. Tu televisor seguramente tiene alguna versión de Linux.
 
 Desde que empezaste a leer este post, seguro que más de cien dispositivos con Linux se activaron.
 
@@ -70,5 +68,5 @@ Les dejaré un video, que muestra cómo se construye Linux. Es de 2012, así que
 
  {{<youtube "yVpbFMhOAwE" >}}
 
-
 [^1]: Técnicamente no es Unix, pero es un sistema operativo bastante cercano.
+

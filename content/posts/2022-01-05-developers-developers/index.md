@@ -5,7 +5,6 @@ title: "Developers, Developers, Developers..."
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [desarrollo, 'ingeniería de software', software, developers, código, 'entropía de software']
 categories: []
 date: 2022-01-05T19:30:44-03:00
@@ -42,14 +41,13 @@ Ahora bien, de acuerdo a mis observaciones y experiencia personal,  una base de 
 
 Yo inventé una regla para estimar la necesidad de desarrolladores: divide la cantidad de líneas de código de tu base de código y divídela por diez mil. El número resultante es una estimación de la cantidad **mínima** de desarrolladores  que requieres para mantenerla  e incorporar nuevas características.
 
-En otras palabras, por cada millón de líneas de código ya escrito, necesitas cien desarrolladores, mínimo, para mantener y mejorar tu código. 
+En otras palabras, por cada millón de líneas de código ya escrito, necesitas cien desarrolladores, mínimo, para mantener y mejorar tu código.
 
 Otra forma de verlo es, si no tienes esa cantidad de desarrolladores entonces tu código ya es obsoleto, inútil, y tu negocio está en peligro.
 
 Voy a dejar que esa idea se asiente en tu cabeza un rato.
 
-Piénsalo, porque es importante. Y si no me crees que es importante considerar el valor de los desarrolladores, quizás le creas a otros: https://plata.news/blog/el-computin-que-tiene-el-2/
-
+Piénsalo, porque es importante. Y si no me crees que es importante considerar el valor de los desarrolladores, quizás le creas a otros: <https://plata.news/blog/el-computin-que-tiene-el-2/>
 
 Bueno, esa es una regla a la que he llegado observando y analizando diversas bases de código a lo largo de unos 5 años, en que empecé a investigar sobre estos temas. ¿Puedo demostrar fehacientemente esta regla? No, todavía. Pero he deslizado algunos fundamentos en artículos anteriores en este blog. Y espero seguir escribiendo al respecto más adelante.
 
@@ -57,7 +55,7 @@ Pero, si estás creando nueva tecnología, y además  quieres crecer con tu nego
 
 A menos que empieces a aplicar copy/paste a gran escala.
 
-Se puede sobrevivir con menos desarrolladores, puedes tener unas pocas decenas, por varios años, sin embargo, a punta de copy paste, un aumento del código duplicado, un deterioro en la calidad y mantenibilidad del mismo. 
+Se puede sobrevivir con menos desarrolladores, puedes tener unas pocas decenas, por varios años, sin embargo, a punta de copy paste, un aumento del código duplicado, un deterioro en la calidad y mantenibilidad del mismo.
 
 Yo he visto eso, y no es lindo, es como sentarse sobre una bomba de tiempo, o construir directamente sobre una falla geológica.
 
@@ -67,11 +65,11 @@ En [Cornershop](/blog/lnds/2021/07/11/antes-too-esto-era-campo/) somos varios ci
 
 Recomiendo leer como Google gestiona su gigantesco mono repo en ese paper: [Why Google Stores Billions of Line of Code in a Single Repository](https://dl.acm.org/doi/pdf/10.1145/2854146)
 
-O este paper de Uber: [Keeping master green at scale](https://eng.uber.com/research/keeping-master-green-at-scale/) (hay un video también acá: https://vimeo.com/358691692)
+O este paper de Uber: [Keeping master green at scale](https://eng.uber.com/research/keeping-master-green-at-scale/) (hay un video también acá: <https://vimeo.com/358691692>)
 
-El software [se sigue comiendo al mundo](/blog/lnds/2016/08/30/toda-empresa-es-de-software-o-lo-sera/), y seguro que ya se comió a tu negocio. 
+El software [se sigue comiendo al mundo](/blog/lnds/2016/08/30/toda-empresa-es-de-software-o-lo-sera/), y seguro que ya se comió a tu negocio.
 
 Ahora dime, ¿cuántos desarrolladores mantienen tu negocio y por qué tan pocos?
 
-
 [^1]: [Hablemos de Entropía de Software](/blog/lnds/2021/05/08/hablemos-de-entropia-de-software/)
+

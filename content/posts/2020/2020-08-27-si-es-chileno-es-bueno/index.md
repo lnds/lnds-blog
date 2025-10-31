@@ -5,7 +5,6 @@ title: "Si es chileno, ¿es bueno?"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: []
 categories: []
 date: 2020-08-27T09:40:23-04:00
@@ -30,13 +29,13 @@ image:
 projects: []
 ---
 
-En estos tiempos de pandemia he realizado una serie de compras para mejorar mi entorno de trabajo en casa. Por fortuna tengo el espacio y los recurso para invertir en la ergonomía de mi pequeña "factoría digital". Así que empecé a invertir en diversos artefactos y accesorios. 
+En estos tiempos de pandemia he realizado una serie de compras para mejorar mi entorno de trabajo en casa. Por fortuna tengo el espacio y los recurso para invertir en la ergonomía de mi pequeña "factoría digital". Así que empecé a invertir en diversos artefactos y accesorios.
 
-Con el tiempo me di cuenta que me salía más rápido y seguro comprar fuera de Chile. Las demoras y la incerteza en la entrega de los productos, junto con malos ratos, me impulsaron a ir por ese camino. Incluso en costos incluyendo el mayor pago por fletes rápidos, sale más conveniente. Pareciera que el retail chileno para lo único que es bueno es para cobrar. 
+Con el tiempo me di cuenta que me salía más rápido y seguro comprar fuera de Chile. Las demoras y la incerteza en la entrega de los productos, junto con malos ratos, me impulsaron a ir por ese camino. Incluso en costos incluyendo el mayor pago por fletes rápidos, sale más conveniente. Pareciera que el retail chileno para lo único que es bueno es para cobrar.
 
-Así que empecé a comprar en Amazon, varios artículos electrónicos sobretodo. Y la entrega muchas veces es más rápida que hacerla con un proveedor local. En varias ocasiones evalué el tiempo de entrega y Amazon los superaba con holgura. 
+Así que empecé a comprar en Amazon, varios artículos electrónicos sobretodo. Y la entrega muchas veces es más rápida que hacerla con un proveedor local. En varias ocasiones evalué el tiempo de entrega y Amazon los superaba con holgura.
 
-Pero no todo es perfecto. He observado que la entrega en Amazon depende del carrier que seleccione para el envío. Esto se nota más si te toca que el envío es por DHL, UPS o por ChileExpress. Cuando el envío viene por los primeros las fechas se cumplen, incluso hasta llegan antes. Pero si me toca el último, es probable que tenga una total incerteza sobre el cumplimiento de la fecha, y lo que es peor, ¡hasta Amazon les pierde la traza! 
+Pero no todo es perfecto. He observado que la entrega en Amazon depende del carrier que seleccione para el envío. Esto se nota más si te toca que el envío es por DHL, UPS o por ChileExpress. Cuando el envío viene por los primeros las fechas se cumplen, incluso hasta llegan antes. Pero si me toca el último, es probable que tenga una total incerteza sobre el cumplimiento de la fecha, y lo que es peor, ¡hasta Amazon les pierde la traza!
 
 ![](facepalm.jpg)
 
@@ -56,5 +55,5 @@ Debemos desterrar la mediocridad de nuestros trabajos, de nuestras culturas. Hay
 
 Es una cuestión de sobrevivencia, y más para un país tan pequeño y frágil económicamente como Chile. Tenemos que volver ser buenos, para poder recuperarnos, para poder salir de las crisis que estamos pasando. Y ese cambio parte en cada uno de nosotros, debemos exigir y también autoexigirnos. De ese modo volveremos a decir con orgullo: "¡si es chileno, es bueno!".
 
-
 [^1]: Este post es un rant, así que no hice mucha investigación, si algún amable lector sabe el origen de la frase agradeceré que lo indique en los comentarios.
+

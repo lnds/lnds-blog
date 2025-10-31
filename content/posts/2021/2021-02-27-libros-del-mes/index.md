@@ -5,7 +5,6 @@ title: "Libros del Mes: enero y febrero 2021"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [libros, lectura, ficción, divulgación, novelas]
 categories: ['libros del mes', 'libros']
 date: 2021-02-27T12:17:22-03:00
@@ -31,9 +30,9 @@ projects: []
 ---
 Leer es muy importante para mi. Leo mucho y sobre distintas cosas. También como muchos lectores compro libros que quedan ahí almacenados acumulando polvo, o ocupando espacio en mi kindle. Desde hace años uso el servicio [Good Reads](https://www.goodreads.com) para llevar un seguimiento de los libros que leo, y aprovecho de calificarlos, pero soy muy malo para escribir reseñas de los mismos, algo que debería hacer pues es la idea de esa aplicación, que también funciona como red social.
 
-Por otro lado quiero mantener la disciplina de escribir, y las reseñas son un buen ejercicio. Así que mataré dos pájaros de un tiro, escribiré las reseñas acá, para quienes no tienen acceso a [Good Reads](https://www.goodreads.com), y luego trataré de copiarlas allá. Esto también me permite tener una ayuda memoria de esos libros y quizás pueda aportar información a quienes busquen algo para leer. 
+Por otro lado quiero mantener la disciplina de escribir, y las reseñas son un buen ejercicio. Así que mataré dos pájaros de un tiro, escribiré las reseñas acá, para quienes no tienen acceso a [Good Reads](https://www.goodreads.com), y luego trataré de copiarlas allá. Esto también me permite tener una ayuda memoria de esos libros y quizás pueda aportar información a quienes busquen algo para leer.
 
-Así empezaré una nueva sección en este blog con un post mensual, en que incluiré los libros que haya leido en el periodo. Como enero ya pasó incluiré esta vez los de enero y febrero. 
+Así empezaré una nueva sección en este blog con un post mensual, en que incluiré los libros que haya leido en el periodo. Como enero ya pasó incluiré esta vez los de enero y febrero.
 
 # Enero 2021
 
@@ -41,7 +40,7 @@ Así empezaré una nueva sección en este blog con un post mensual, en que inclu
 
 ![](escuadron.jpg)
 
-- ["Estelar"](https://amzn.to/3szfAEo), de Brandon Sanderson (Starsight en inglés), la continuación de Escuadrón. Acá salimos del mundo de la anterior novela y la protagonista espía a los extra terrestres que mantienen a los humanos sometidos en el planeta Detritus. Entendemos el por qué el resto del universo teme a los humanos, y aparecen otros misterios. La protagonista con una ayuda de personajes bien especiales resuelve estos misterios y lucha por detener esta guerra. Casi lo logra, pero nuevamente tenemos un buen enganche para la tercera parte de la saga, que por desgracia no ha salido aún. Está mejor que la primera parte, aunque repite el esquema de academia del espacio, pero muestra gran imaginación en la concepción de algunas razas extra terrestres. Así que quedé esperando a la tercera parte que sale este año. (Sanderson mantiene informado a sus fans de sus proyectos en su sitio web: https://www.brandonsanderson.com, lo que se agradece). 
+- ["Estelar"](https://amzn.to/3szfAEo), de Brandon Sanderson (Starsight en inglés), la continuación de Escuadrón. Acá salimos del mundo de la anterior novela y la protagonista espía a los extra terrestres que mantienen a los humanos sometidos en el planeta Detritus. Entendemos el por qué el resto del universo teme a los humanos, y aparecen otros misterios. La protagonista con una ayuda de personajes bien especiales resuelve estos misterios y lucha por detener esta guerra. Casi lo logra, pero nuevamente tenemos un buen enganche para la tercera parte de la saga, que por desgracia no ha salido aún. Está mejor que la primera parte, aunque repite el esquema de academia del espacio, pero muestra gran imaginación en la concepción de algunas razas extra terrestres. Así que quedé esperando a la tercera parte que sale este año. (Sanderson mantiene informado a sus fans de sus proyectos en su sitio web: <https://www.brandonsanderson.com>, lo que se agradece).
 
 ![](estelar.jpg)
 
@@ -59,10 +58,9 @@ Así empezaré una nueva sección en este blog con un post mensual, en que inclu
 
 # Febrero 2021
 
-- ["La Vieja Guardia"](https://amzn.to/3bOygZY), John Scalzi. Ciencia ficción militar, otra vez. Pero con un giro. Acá los soldados son reclutados entre los mayores de 75 años de la Tierra, para ser parte de la Fuerzas de Defensa Coloniales. Es la primera de una saga famosa de Scalzi. De este autor he leido antes Red Shirts, una novela parodia a Star Trek, muy recomendable (aunque no tan graciosa como anuncian). Pero esta novela me gustó, mucho más que Escuadrón. Así que en la cola de libros están las que le siguen. El autor tiene un estilo muy dinámico, y seguro que estas novelas terminarán en una película o serie de TV en Netflix o Amazon. 
+- ["La Vieja Guardia"](https://amzn.to/3bOygZY), John Scalzi. Ciencia ficción militar, otra vez. Pero con un giro. Acá los soldados son reclutados entre los mayores de 75 años de la Tierra, para ser parte de la Fuerzas de Defensa Coloniales. Es la primera de una saga famosa de Scalzi. De este autor he leido antes Red Shirts, una novela parodia a Star Trek, muy recomendable (aunque no tan graciosa como anuncian). Pero esta novela me gustó, mucho más que Escuadrón. Así que en la cola de libros están las que le siguen. El autor tiene un estilo muy dinámico, y seguro que estas novelas terminarán en una película o serie de TV en Netflix o Amazon.
 
 ![](viejaguardia.jpg)
-
 
 - ["Agujeros negros y tiempo curvo: El escandaloso legado de Einstein"](https://amzn.to/3dQL4lt), Kip S. Thorne. Este científico tuvo notoriedad pública  hace unos años por asesorar a Christopher Nolan en la película Interestellar. Thorne tiene el premio Nobel por su contribución en la construcción del detector de ondas gravitacionales LIGO. El libro es de 1994, así que a esas alturas LIGO era un proyecto en sus primeras etapas y se estaba más de 20 años de la primera fotografía a un agujero negro, pero es batante entretenido. Me salté varias secciones más técnicas y profundizaciones, ocurre que en mi época de estudiante tuve que leer el libro de Stephen Hawking "La historia del tiempo", para salvar el curso de física moderna, así que este libro no me aporta cosas especialmente nuevas sobre estos temas, y tampoco es que fuera  a entenderlas :p. Me interesaron más las anécdotas y la pequeña historia, como el desaire de Eddington a Chandrasekhar (¿habría algo de racismo?), las curiosas apuestas entre Thorne y Hawking, o las aventuras con los científicos rusos en plena guerra fría. Curioso que el proyecto LIGO, aunque sale mencionado, no destaca tanto en este libro, siendo que fue por lo que terminó recibiendo el Nobel. Llegué a este libro por [esta recomendación](https://www.youtube.com/watch?v=NT3BqfQd7cU) del científico y YouTuber Javier Santaolalla. El libro es bueno, pero me gustaría leer algo más moderno sobre el tema, en particular sobre la historia tras la famosa fotografía de 2019, así que si algún lector de este post tiene un dato, se lo agradeceré.
 
@@ -72,7 +70,7 @@ Así empezaré una nueva sección en este blog con un post mensual, en que inclu
 
 ![](reasonml.jpg)
 
-
 Y esta es la primera lista, a fines de marzo agregaremos más libros leidos con sus breves reseñas. Si tienen recomendaciones de lecturas, son bienvenidas.
 
 Aprovecho de comentarles que estoy escribiendo un nuevo libro técnico y que ya pueden empezar a leer porque es una serie que estoy publicando en mi blog ["La Sombra de Dijkstra"](https://www.programando.org), se trata de ["El Camino del Backend Developer"](https://www.programando.org/category/backend-developer/), los invito a leerlo.
+

@@ -5,7 +5,6 @@ title: "Libros del mes: junio y julio"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [libros, lectura, ficción, divulgación, novelas, periodismo]
 categories: ['libros del mes', 'libros']
 date: 2021-07-31T11:58:04-04:00
@@ -33,9 +32,9 @@ projects: []
 
 Recordaba hoy que originalmente los blogs eran similares a diarios de vida digitales, o bitácoras personales. El término viene de WebLog, es decir, bitácora en la web que después se abrevió en el neologismo Blog. Entonces como esta es mi bitácora personal, tiene mucho sentido que siga llevando este registro de los libros que he leido.
 
-Claro que originalmente la periodicidad prometida era de un post mensual con mis lecturas del periodo, algo que me ha costado mantener, ya van dos posts que contienen las listas para dos meses. Pero bueno, algo a mejorar, al gual que mi frecuencia escribiendo para esta bitácora. 
+Claro que originalmente la periodicidad prometida era de un post mensual con mis lecturas del periodo, algo que me ha costado mantener, ya van dos posts que contienen las listas para dos meses. Pero bueno, algo a mejorar, al gual que mi frecuencia escribiendo para esta bitácora.
 
-Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: https://lnds.net/categories/libros-del-mes/. 
+Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: <https://lnds.net/categories/libros-del-mes/>.
 
 Vamos por la lista de libros leidos estos últimos dos meses.
 
@@ -43,7 +42,7 @@ Vamos por la lista de libros leidos estos últimos dos meses.
 
 ### _"La Historia de Zöe"_ ---   John Scalzi
 
-Esta es la cuarta entrega de las saga de las Fuerzas de Defensa Coloniales, también conocida como "La Vieja Guardia", ya he hablado de los libros previos de esta saga. Acá vemos la historia de "La Colonia Perdida" pero contada desde la perspectiva de otro personaje, Zöe, una adolescente que carga con la tremenda responsabilidad de ser venerada casi como una deidad por toda una especie alienígena. Este libro cuenta la misma historia, pero esclarece un par de aspectos que nos quedan ocultos en "La Colonia Perdida". Es arriesgada la jugada del autor al hacer esto, pero de todas maneras logra mantenerte entretenido al contarte básicamente la misma historia, pero con detalles que no podías saber antes y agregando la perspectiva de otras razas y personajes fuera de los referentes de los primeros libros de la saga. Scalzi sigue entreteniendo y explorando este universo. Así que logra mantener el interés por la saga. 
+Esta es la cuarta entrega de las saga de las Fuerzas de Defensa Coloniales, también conocida como "La Vieja Guardia", ya he hablado de los libros previos de esta saga. Acá vemos la historia de "La Colonia Perdida" pero contada desde la perspectiva de otro personaje, Zöe, una adolescente que carga con la tremenda responsabilidad de ser venerada casi como una deidad por toda una especie alienígena. Este libro cuenta la misma historia, pero esclarece un par de aspectos que nos quedan ocultos en "La Colonia Perdida". Es arriesgada la jugada del autor al hacer esto, pero de todas maneras logra mantenerte entretenido al contarte básicamente la misma historia, pero con detalles que no podías saber antes y agregando la perspectiva de otras razas y personajes fuera de los referentes de los primeros libros de la saga. Scalzi sigue entreteniendo y explorando este universo. Así que logra mantener el interés por la saga.
 
 [Disponible en Amazon >>](https://amzn.to/3C25p0H)
 
@@ -93,7 +92,7 @@ El mejor libro que he leido este año, hasta ahora. Me gustó mucho, pero no soy
 
 ### _"Finite and Infinite Games"_ --- James P. Carse
 
-Este es un libro un tanto "filosófico", que tiene una sola idea muy sencilla: "hay juegos finitos y juegos infinitos", de estos  [hablé en mi anterior post](/blog/lnds/2021/07/11/antes-too-esto-era-campo/). Esta idea es interesante e incluso brillante, pero el libro no tanto. Después del primer capítulo el resto lo encontré aburrido, incluso pretencioso. Pero sospecho que hay gente a las cuales les puede resonar bastante, porque de todas maneras la idea del juego infinito es muy potente. 
+Este es un libro un tanto "filosófico", que tiene una sola idea muy sencilla: "hay juegos finitos y juegos infinitos", de estos  [hablé en mi anterior post](/blog/lnds/2021/07/11/antes-too-esto-era-campo/). Esta idea es interesante e incluso brillante, pero el libro no tanto. Después del primer capítulo el resto lo encontré aburrido, incluso pretencioso. Pero sospecho que hay gente a las cuales les puede resonar bastante, porque de todas maneras la idea del juego infinito es muy potente.
 
 [Disponible en Amazon >>](https://amzn.to/3C09e6G)
 
@@ -107,16 +106,13 @@ Un libro periodístico, escrito por el reportero del Times que siguió muy de ce
 
 [![](pumped.jpg)](https://amzn.to/3llopRV)
 
-
-
 ### _"Technically Wrong"_ --- Sara Watcher-Boettcher
 
 Este libro es una crítica a los algoritmos sesgados, al sexismo en las apps, a la falta de diversidad en el mundo de la tecnología. Tiene varias reflexiones interesantes, así que recomiendo mucho este libro a quienes diseñamos apps o sitios webs, expertos en UX, diseñadores y arquitectos. Su crítica al uso de "Personas" en el diseño de interacciones, por ejemplo, es notable, pero ella propone formas de hacerlo mejor. No es un libro técnico, pero tiene varias recomendaciones de cómo podemos mejorar nuestros diseños para evitar en sesgos o generar experiencias ofensivas o desagradables para nuestros usuarios. Muy recomendable para estar atentos a lo que hacemos mal  en tecnología y que puede tener efectos tóxicos en la sociedad.
-
 
 [Disponible en Amazon >>](https://amzn.to/3jcy1vJ)
 
 [![](wrong.jpg)](https://amzn.to/3jcy1vJ)
 
-
 Y esos son los libros que he leido estos dos últimos meses. Me agradaría escuchar de sus lecturas y ojalá me recomendaran libros para leer y reseñar.
+

@@ -5,7 +5,6 @@ title: "El Decimo Quinto Año"
 authors: [admin]
 subtitle: "re inicio"
 summary: ""
-authors: [admin]
 slug: "el-decimo-quinto"
 tags: ["blogging", "La Naturaleza del Software", "escribir", "reflexiones"]
 date: 2020-02-02T13:56:06-03:00
@@ -33,7 +32,7 @@ projects: []
 One Leap Forward\
 > -- Earthrise, Haken
 
-El décimo cuarto año no terminó muy bien. No voy a entrar en detalles ahora. ¿Para qué? 
+El décimo cuarto año no terminó muy bien. No voy a entrar en detalles ahora. ¿Para qué?
 
 Supongo que para muchos de ustedes fue igual. Hay lecciones que tomar con calma. Aún hay procesos que están sucediendo.
 
@@ -41,14 +40,13 @@ Es fuerte cuando el tejido social que estaba deshilachado se termina desarmando 
 
 Lo que te mantiene vital, lo que se convierte en los pilares fuertes que sostienen tu vida son tu familia, tus amigos, y las personas que te quieren.
 
-
 > Resolve to carry on!\
 Another life awaits beyond the horizon.\
 Evolve and we'll ensure our survival.\
 We are the revolution!\
 > -- Earthrise, Haken
 
-Hay veces que es mejor retroceder para poder tomar otro camino, porque el que tomaste era el incorrecto, o el inadecuado para el momento. 
+Hay veces que es mejor retroceder para poder tomar otro camino, porque el que tomaste era el incorrecto, o el inadecuado para el momento.
 
 Marcha atrás, con cuidado mirando el retrovisor, y viras hacia el otro lado.
 
@@ -58,7 +56,7 @@ Por meses no he escrito en este blog, ya irán sabiendo algunas causas, pero ya 
 
 La Naturaleza del Software cumple quince años en agosto de este año, y vale la pena seguir escribiendo.
 
-Notarán que la casa está cambiando. Estoy remodelando. Migrando el contenido a una nueva plataforma, así que algunas cosas estarán desaparecidas por algunos días. 
+Notarán que la casa está cambiando. Estoy remodelando. Migrando el contenido a una nueva plataforma, así que algunas cosas estarán desaparecidas por algunos días.
 
 > Keep reaching through horizons,\
 to leave our past behind us.\
@@ -67,12 +65,13 @@ We turn toward the earthrise!\
 
 He retomado también mis otros blogs, en estos meses he escrito algunas cosas en [La Sombra de Dijkstra](https://www.programando.org/), y en [Akarrú](https://www.akarru.com/). Los invito a visitar esos sitios que complementan a este en otros aspectos de mis gustos y aficiones.
 
-Además los invito a sumarse como auspiciadores a través de [Patreon](https://patreon.com/lnds). Si quieres apoyar mi trabajo en este blog y los otros blogs que publico, es una de las formas. Hace tiempo decidí dejar de poner publicidad en este blog, pero mantenerlo tiene costos que espero poder solventar  con el apoyo de ustedes. 
+Además los invito a sumarse como auspiciadores a través de [Patreon](https://patreon.com/lnds). Si quieres apoyar mi trabajo en este blog y los otros blogs que publico, es una de las formas. Hace tiempo decidí dejar de poner publicidad en este blog, pero mantenerlo tiene costos que espero poder solventar  con el apoyo de ustedes.
 
-Hay un proyecto que estoy preparando que verá la luz pronto en este espacio. Espero que les guste. 
+Hay un proyecto que estoy preparando que verá la luz pronto en este espacio. Espero que les guste.
 
-El decimo quinto año presenta grandes desafíos, pero no soy de los que esquiva los desafíos. Veamos que nos depara el 2020. 
+El decimo quinto año presenta grandes desafíos, pero no soy de los que esquiva los desafíos. Veamos que nos depara el 2020.
 
 Pero como la música siempre ha sido parte de este blog, partiremos con una canción que nos de una dosis de merecido optimismo.
 
 {{<youtube hQ8KqJJJJhk>}}
+

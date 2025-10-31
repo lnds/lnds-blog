@@ -5,7 +5,6 @@ title: "Niebla De Guerra"
 authors: [admin]
 subtitle: "decisiones en medio de la confusión"
 summary: ""
-authors: [admin]
 tags: []
 categories: []
 date: 2020-04-29T09:34:14-04:00
@@ -60,12 +59,11 @@ Sumemos que los comandantes tienen una capacidad limitada de absorber tanta info
 
 ## Fricción
 
-El otro elemento que identificó Clasewitz es la fricción de guerra. 
+El otro elemento que identificó Clasewitz es la fricción de guerra.
 
 Al problema de que cuesta tomar decisiones estratégicas o tácticas debido a la niebla de guerra, se le suma que cuesta que las órdenes emitidas se cumplan adecuadamente, por culpa del fenómeno de la fricción.
 
 Clausewitz dice: "todo en la guerra es muy simple, pero la cosa más simple es dificil. Las dificultades se acumulan y terminan produciendo una especie de fricción". Y continua ilustrándonos que esta fricción afecta la oportunidad, resultando en efectos cuya determinación no es posible dado que son generados por la casualidad. Simplemente, "la fricción es la fuerza que hace que lo aparentemente simple sea dificultoso". [^4]
-
 
 Clausewitz identifica ocho fuentes mayores de "gran fricción"[^5]:
 
@@ -78,7 +76,7 @@ Clausewitz identifica ocho fuentes mayores de "gran fricción"[^5]:
 - las dificultades de mantener los suministros del ejército
 - la tendencia a cambiar o abandonar planes bien pensados cuando se confrontan  con las imágenes físicas vívidas y la percepción del campo de batalla
 
-Hay una cierta sobre posición y redundancia en esta lista, pero consideremos que es una obra completa y póstuma. 
+Hay una cierta sobre posición y redundancia en esta lista, pero consideremos que es una obra completa y póstuma.
 
 ## Ni los mejores planes salen cómo se espera
 
@@ -100,22 +98,20 @@ Es cosa de ver la historia de las guerras acometidas por Estados Unidos desde Vi
 
 Los oponentes usan tácticas sencillas, sin una coordinación sofisticadas, muchas veces son células pequeñas que recurren a tácticas de guerrillas o guerra urbana. Sin mucha tecnología de comunicaciones, y mucho fanatismo o patriotismo, con la motivación de luchar por una causa que consideran justa, contra un adversario superior, lleno de tecnología.
 
-Esto me recuerda la vieja discusión entre el modelo de gestión de Comando y Control, versus la gestión ágil o lean. 
+Esto me recuerda la vieja discusión entre el modelo de gestión de Comando y Control, versus la gestión ágil o lean.
 
 La gestión vía Comando y Control topa con los fenómenos identificados por Clausewitz hace ya 200 años. Y lo que es peor, provoca mayor fricción, generando un círculo vicioso.
 
 De seguro ustedes son capaces de identificar muchas fuentes de fricción en su trabajo, esas son parte de las causas de lo que en Lean llaman "Waste"[^6], esta identificación puede quizás ser el primer paso para mejorar.
 
-
-
 [^1]: Wikipedia: ["Niebla de guerra"](https://es.wikipedia.org/wiki/Niebla_de_guerra)
 
-[^2]: "The Relevance of Clausewitz’s Fog and Friction in a Digital Age Essay", en linea https://ivypanda.com/essays/the-relevance-of-clausewitzs-fog-and-friction-in-a-digital-age/, visitado el 26 de abril de 2020.
+[^2]: "The Relevance of Clausewitz’s Fog and Friction in a Digital Age Essay", en linea <https://ivypanda.com/essays/the-relevance-of-clausewitzs-fog-and-friction-in-a-digital-age/>, visitado el 26 de abril de 2020.
 
 [^3]: Matt M. Matthews, "Operation Al Fajr: A Study in Arm and Marine Corps Joint Operations". Occasional Paper, (Fort Leavenworth, KS: Combat Studies Institute), 79. Citado en [^2].
 
 [^4]:  Carl Von Clausewitz, C. On War. Ed. by Michael Howard and Peter Paret (Princeton: University Press, 1984). Citado en [^2].
 
-[^5]: Barry D. Watts, "Clausewitzian Friction and Future War", revised edition, PDF online: https://apps.dtic.mil/dtic/tr/fulltext/u2/a427577.pdf
+[^5]: Barry D. Watts, "Clausewitzian Friction and Future War", revised edition, PDF online: <https://apps.dtic.mil/dtic/tr/fulltext/u2/a427577.pdf>
 
-[^6]: Curiosamente en The Lean Way identifican ocho fuentes de Waste, del mismo modo que Clausewitz identificó ocho fuentes de fricción: https://theleanway.net/The-8-Wastes-of-Lean
+[^6]: Curiosamente en The Lean Way identifican ocho fuentes de Waste, del mismo modo que Clausewitz identificó ocho fuentes de fricción: <https://theleanway.net/The-8-Wastes-of-Lean>

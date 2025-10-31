@@ -6,8 +6,6 @@ slug: "no-puedes-proteger-el-software"
 aliases: [/blog/2005/08/no-puedes-proteger-el-software.html]
 draft: false
 tags: ['software', 'código']
-image:
-  placement: 3
 ---
 Si escribes un programa, e implementas algún mecanismo de protección,
 siempre es posible alterar el programa para que se salte tu mecanismo de

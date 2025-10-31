@@ -5,7 +5,6 @@ title: "Entusiasmo selectivo"
 authors: [admin]
 subtitle: "Innovación y el origen de Unix"
 summary: ""
-authors: [admin]
 tags: [libros, unix, historia, innovación]
 categories: []
 date: 2020-03-29T08:35:24-03:00
@@ -32,13 +31,13 @@ projects: []
 
 > _Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway._ -- Brian Kernighan
 
-Unix es el sistema operativo más exitoso de la historia. Una variante de Unix se encuentra disponible en casi todos los dispositivos que se conectan a internet hoy. 
+Unix es el sistema operativo más exitoso de la historia. Una variante de Unix se encuentra disponible en casi todos los dispositivos que se conectan a internet hoy.
 
 En efecto, si usas un teléfono Android usas como base el [Kernel de Linux](https://es.wikipedia.org/wiki/GNU/Linux), por otro lado si tu teléfono es un iPhone estás usando iOS, que tiene como base un kernel [XNU](https://es.wikipedia.org/wiki/XNU).  Ambos pertenecen a la familia de Unix.
 
 Por otro lado, es muy probable que los servicios en internet a los que accedes sean soportados por servidores operando alguna variante de Unix o de Linux.
 
-¿Cómo podemos explicar este éxito? 
+¿Cómo podemos explicar este éxito?
 
 Una forma es indagar en lo que nos cuenta una de las personas que estuvo involucrada en la creación de Unix.
 
@@ -46,15 +45,13 @@ Una forma es indagar en lo que nos cuenta una de las personas que estuvo involuc
 
 La historia de Unix ha sido contada muchas veces, pero en octubre del año pasado se publicó una fuente definitiva del origen de este exitoso sistema operativo, relatada por alguien que estuvo involucrado directamente en su creación: Brian Kernighan.
 
-
 {{<figure src="Brian_kernighan2.gif" caption="Brian Kernighan - Por Thiele41 - Trabajo propio, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=25384745">}}
 
 Este investigador y pionero informático es reconocido, entre otras cosas, por su gran habilidad como divulgador y escritor.
 
-Kernighan tiene una gran pluma y entre sus libros más vendidos se encuentra ["The C Programming Language"](https://amzn.to/2WNPj8G), que fue el que introdujo este importnate lenguaje de programación al mundo. Este trabajo fue co-escrito con el creador del lenguaje, [Dennis Ritchie](/blog/lnds/2011/10/13/dmr), y es uno de los mejores libros técnicos que he leido personalmente, además de serconsiderado un verdadero clásico. 
+Kernighan tiene una gran pluma y entre sus libros más vendidos se encuentra ["The C Programming Language"](https://amzn.to/2WNPj8G), que fue el que introdujo este importnate lenguaje de programación al mundo. Este trabajo fue co-escrito con el creador del lenguaje, [Dennis Ritchie](/blog/lnds/2011/10/13/dmr), y es uno de los mejores libros técnicos que he leido personalmente, además de serconsiderado un verdadero clásico.
 
 Es en este libro que se introduce al mundo el famoso programa ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-
 
 ```c
 main( ) {
@@ -68,12 +65,11 @@ Otro de los libros escritos por Kernighan, [que siempre recomiendo a los nuevos 
 
 Pero hablemos de ["UNIX: A History and a Memoir"](https://amzn.to/2WM44ZT), un texto publicado en octubre de 2019. Se trata de una memoria personal del autor sobre sus años en Bell Labs y el origen y la evolución de de Unix.
 
-
 ## Unix: A History and a Memoir
 
 ![](libro.jpg)
 
-Hay varias anécdotas interesantes en este volumen. Se trata de un texto entretenido de lectura rápida, de no más de 190 páginas. 
+Hay varias anécdotas interesantes en este volumen. Se trata de un texto entretenido de lectura rápida, de no más de 190 páginas.
 
 En los primeros capítulos el autor nos introduce a Bell Labs y su cultura. Tal como el escritor dice, para entender Unix hay que entender a Bell Labs, cómo operaba y el ambiente creativo que este entorno proveía.
 
@@ -81,8 +77,7 @@ En los primeros capítulos el autor nos introduce a Bell Labs y su cultura. Tal 
 
 Fundado en 1925, los Laboratorios Bell fueron creados para fomentar la innovación en telefonía a través de la investigación científica. Durante la Segunda Guerra Mundial, Bell Labs prestó importantes aportes al gobierno norteamericano, no sólo en sistemas de comunicaciones, sino que en computadores de control de fuego, desarrollo del radar y criptografía.
 
-
-En Bell Labs, por ejemplo, se desarrolló el transistor, un invento de [John Bardeen](https://es.wikipedia.org/wiki/John_Bardeen), quien recibiría el premio Nobel por este descubrimiento. 
+En Bell Labs, por ejemplo, se desarrolló el transistor, un invento de [John Bardeen](https://es.wikipedia.org/wiki/John_Bardeen), quien recibiría el premio Nobel por este descubrimiento.
 
 Otros ganadores del Nobel, que trabajaron en Bell Labs fueron [Penzias](https://es.wikipedia.org/wiki/Arno_Allan_Penzias) y [Wilson](https://es.wikipedia.org/wiki/Robert_Woodrow_Wilson), quienes descubrieron accidentalmente la radiación de fondo generada por el Big Bang, trabajando en la mejora de antenas de telecomunicaciones.
 
@@ -90,9 +85,9 @@ Durante mucho tiempo AT&T, la empresa propietaria de Bell Labs, llegó a inverti
 
 ### Computación en Bell Labs
 
-Entre los investigadores que destacaron en Bell Labs estaba Claude Shannon, el padre de la Teoría de la Información [(del que he hablado antes)](/blog/lnds/2011/04/23/tambores-parlantes). 
+Entre los investigadores que destacaron en Bell Labs estaba Claude Shannon, el padre de la Teoría de la Información [(del que he hablado antes)](/blog/lnds/2011/04/23/tambores-parlantes).
 
-A principio de la década de 1960 se creó un grupo de investigación en computación. Y en 1967 Brian Kernighan se incorporó al Computing Science Research Center, bajo la guía de Doug McIlroy. 
+A principio de la década de 1960 se creó un grupo de investigación en computación. Y en 1967 Brian Kernighan se incorporó al Computing Science Research Center, bajo la guía de Doug McIlroy.
 
 Kernighan cuenta que tenía la suerte de estar muy cerca de varios próceres de área que tenían sus oficinas muy cerca a la suya. Entre los famosos investigadores que trabajaban en esa época estaba Richard Hamming, autor, entre otras cosas, del [famoso código de corrección de errores que lleva su nombre](/blog/lnds/2018/10/21/corrigiendo-errores), que permite que tengamos comunicaciones confiables de alta velocidad.
 
@@ -145,12 +140,11 @@ En los primeros computadores esto se transcribía a tarjetas perforadas como la 
 
 ![](punchcard.jpg)
 
-
 Típicamente cada tarjeta contenía una linea de código. También en estas tarjetas se almacenaban los datos.
 En nuestro ejemplo, si habían 100 alumnos, habría una tarjeta por cada dato.
 Estas tarjetas se entregaban a un operador quien cargaba tanto el programa como los datos en un lector de tarjetas, esta máquina se encargaba de leer las tarjetas y almacenarlas en la memoria del computador. Después el operador ejecutaba el programa, y el resultado normalmente quedaba impreso en papel. Después de un tiempo el programador pasaba a retirar el resultado solicitándoselo al operador.
 
-Como pueden ver, esta forma de trabajar obligaba a que sólo un usuario podía ocupar el computador a la vez. A esta modalidad se le llama *"batch processing"*.
+Como pueden ver, esta forma de trabajar obligaba a que sólo un usuario podía ocupar el computador a la vez. A esta modalidad se le llama _"batch processing"_.
 
 Por otro lado, cuando automatizamos esta labor aparece el concepto de Sistema Operativo. En cierta manera, el sistema operativo es el reemplazo del operador humano.
 
@@ -159,7 +153,7 @@ En 1964 uno de los sistemas operativos más innovadores era CTSS: ["Compatible T
 En este sistema no era necesario usar tarjetas perforadas. Los programadores podían tipear sus programas en terminales que estaban conectados directamente, o por líneas telefónicas a un gran computador, el IBM 7094.
 
 El sistema operativo dividía su atención entre los usuarios conectados, cambiando rápidamente de un usuario activo al otro, dando a cada usuario la ilusión de que tenía el computador a su entera disposición. Esto se
-denominó *"time sharing"* (tiempo compartido), y era percibido en esa época como mucho más agradable y productivo que el _batch processing_.
+denominó _"time sharing"_ (tiempo compartido), y era percibido en esa época como mucho más agradable y productivo que el _batch processing_.
 
 CTSS fue tan exitoso y productivo que en 1965 el MIT decidió crear una versión mejorada que llamaron Multics, por Multiplexed Information and Computing Service.
 
@@ -178,7 +172,7 @@ Thompson describió su trabajo en Multic como _"una muesca en una enorme rueda y
 
 En 1969 Bell Labs decide retirar su apoyo al proyecto.
 
-Multics fue finalizado eventualmente. De acuerdo a Kernighan fue usado y soportado hasta el año 2000. 
+Multics fue finalizado eventualmente. De acuerdo a Kernighan fue usado y soportado hasta el año 2000.
 
 De todas maneras fue la fuente de varias ideas y una influencia, aunque sea por reacción, en la creación de Unix.
 
@@ -210,7 +204,6 @@ Esta historia se puede ver en una entrevista que Kernighan le hizo a Thomposon e
 
 {{<youtube EY6q5dv_B-o>}}
 
-
 En 2003 Kernighan le preguntó via email sobre el origen de Unix a Thompson, y este respondió lo siguiente:
 
 {{<figure src="email.png" caption="Email que Thompson le envió a Brian Kernighan en 2003, tomado [2]">}}
@@ -230,7 +223,7 @@ Pero DEC anunció la disponibilidad de un mini computador, el PDP-11 con un cost
 En [^1] Sam Morgan expresa:
 
 > El principio de administración acá es que contratas gente brillante y los introduces al ambiente, y les das direcciones generales del tipo de cosas que se requieren, y les das un montón de libertad.
-Esto no significa que necesariamente le das todo el dinero que ellos quieran. 
+Esto no significa que necesariamente le das todo el dinero que ellos quieran.
 Entonces ejercitas entusiasmo selectivo sobre lo que hacen.
 Y si equivocadamente desalientas o fallas en responder a algo que posteriormente resulta ser bueno,
 si es realmente una idea fuerte volverá.
@@ -259,10 +252,9 @@ Hacia la mitad de 1971 se estaba usando Unix para generar las patentes de Bell L
 
 La experiencia fue tan exitosa que el departamento de patentes compró otro PDP-11 para que el equipo de Unix mejorara el sistema operativo.
 
-
 ## El entorno Unix
 
-Unix fue creciendo poco a poco mediante la colaboración de varios investigadores de Bell Labs. 
+Unix fue creciendo poco a poco mediante la colaboración de varios investigadores de Bell Labs.
 
 Una de las innovaciones más importantes fue el concepto de pipes.
 
@@ -305,7 +297,7 @@ Además Unix fue distribuido en forma gratuita a las universidades, bajo un simp
 
 Esto permitió que el sistema se difundiera en entornos comerciales, pues los graduados de informática querían seguir usando el mismo entorno que usaron mientras estudiaban.
 
-Pero lo principal era la facilidad e innovación que giraba alrededor de Unix. Una cultura libre que se fue perdiendo con los avatares que sufrió AT&T en la década de 1980. 
+Pero lo principal era la facilidad e innovación que giraba alrededor de Unix. Una cultura libre que se fue perdiendo con los avatares que sufrió AT&T en la década de 1980.
 
 Finalmente Unix fue vendido a Novell en 1992, la que posteriormente la vendió a [SCO](https://en.wikipedia.org/wiki/Santa_Cruz_Operation).
 
@@ -317,12 +309,11 @@ La figura que encabeza este post muestra esta especie de árbol genealógico de 
 
 En 1989 [Richard P. Gabriel](http://dreamsongs.com/) en su artículo [The Rise of Worse is Better](http://www.jwz.org/doc/worse-is-better.html) explica el éxito de la filosofía de Unix
 
-
 En el ensayo Richard Gabriel plantea que existe un estilo de diseño de
 software que el denomina el estilo MIT/Stanford (es decir, un estilo académico) que básicamente tiene las siguientes características:
 
-* *Simplicidad:* el diseño debe ser simple, tanto en implementación como interfaz. Es más importante que la interfaz sea simple que la implementación.
-* *Correctitud:* el diseño debe ser correcto en todos los aspectos observables. La incorrectitud simplemente no está permitida.
+* _Simplicidad:_ el diseño debe ser simple, tanto en implementación como interfaz. Es más importante que la interfaz sea simple que la implementación.
+* _Correctitud:_ el diseño debe ser correcto en todos los aspectos observables. La incorrectitud simplemente no está permitida.
 * Consistencia: el diseño no puede ser inconsistente. Se permite que un diseño sea ligeramente menos simple y menos completo para evitar incosistencia. La consistencia es tan importante como la correctitud.
 * Completitud: el diseño debe cubrir tantas situaciones importantes como sea práctico. Todos los casos razonablemente esperados deben estar cubiertos.  A la simplicidad no se permite reducir excesivamente la completitud.
 
@@ -332,10 +323,10 @@ Por otro lado, la filosofía **Worse Is Better**, Peor es mejor, o estilo
 New Jersey, en referencia a los Bell Labs, la cuna de C y Unix es
 ligeramente diferente en los siguientes aspectos:
 
-* *Simplicidad:* el diseño debe ser simple,tanto en implementación como interfaz. Es más importante que la implementación sea simplea que la interfaz. La simpliciddad es la consideración más importante en el diseño.
-* *Correctitud:* el diseño debe ser correcto en todos los aspectos observables. Es ligeramente mejor ser simple que correcto.
-* *Consistencia:* el diseño no debe ser demasiado incosistente. La consistencia puede ser sacrificada por la simplicidad en algunos casos, pero es mejor eliminar partes del diseño que tienen que ver con circunstancias menos comunes que introducir complejidad en la implementación o inconsistencias.
-* *Completitud:* el diseño debe cubrir tantas situaciones importantes como sea práctico. Todos los casos razonablemente esperados deben estar cubierntos. La completitud puede ser sacrificada en favor de cualquier otra cualidad.
+* _Simplicidad:_ el diseño debe ser simple,tanto en implementación como interfaz. Es más importante que la implementación sea simplea que la interfaz. La simpliciddad es la consideración más importante en el diseño.
+* _Correctitud:_ el diseño debe ser correcto en todos los aspectos observables. Es ligeramente mejor ser simple que correcto.
+* _Consistencia:_ el diseño no debe ser demasiado incosistente. La consistencia puede ser sacrificada por la simplicidad en algunos casos, pero es mejor eliminar partes del diseño que tienen que ver con circunstancias menos comunes que introducir complejidad en la implementación o inconsistencias.
+* _Completitud:_ el diseño debe cubrir tantas situaciones importantes como sea práctico. Todos los casos razonablemente esperados deben estar cubierntos. La completitud puede ser sacrificada en favor de cualquier otra cualidad.
 
 De hecho, la completitud puede ser sacrificada siempre que la
 simplicidad de implementación esté amenazada. La consistencia puede ser
@@ -346,10 +337,9 @@ Para mi esto se traduce en construir servicios, lenguajes, o programas simples q
 
 Súmenle esto al precepto de administración de "entusiasmo selectivo", en que cuentas con equipos brillantes que son libres de innovar dentro de ciertas restricciones, y tendrás un entorno de innovación tan exitoso como lo fue Bell Labs en las décadas de 1960 y 1970.
 
-
-
-[^1]: http://gromnitsky.users.sourceforge.net/lit/an-oral-history-of-unix/morgan.html
+[^1]: <http://gromnitsky.users.sourceforge.net/lit/an-oral-history-of-unix/morgan.html>
 
 [^2]: ["UNIX: A History and a Memoir"](https://amzn.to/2WM44ZT), capítulo 2.
 
 [^3]: Daniel Borrow fue el autor del [sistema operativo Tenex](https://en.wikipedia.org/wiki/TENEX_(operating_system)), escrito en un PDP-10 en 1969.
+

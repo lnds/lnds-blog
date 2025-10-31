@@ -5,7 +5,6 @@ title: "55"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: [55, 'cumpleaños', 'reflexiones', regalos, música, 'Steely Dan']
 categories: []
 date: 2021-11-11T11:02:07-03:00
@@ -33,7 +32,7 @@ projects: []
 Con los años he comprendido que cuando he soltado, cuando he dejado de seguir ambiciosos planes, cuando dejo de buscar desesperadamente algo, es cuando obtengo lo que realmente necesito y quiero.
 
 He aprendido que si das recibes de vuelta mucho más. Parece que estuviera escribiendo una de esas chácharas motivacionales que pone la gente en sus muros de Facebook o Instagram, pero es lo que siento ahora.
- 
+
 Cuando me di cuenta que no se puede ser feliz la felicidad llegó a mi vida. Cuando descubrí que la búsqueda del poder sólo trae desdicha y destrucción, abandoné ese camino y pude encontrarme y descubrir a quienes de verdad estaban conmigo.
 
 Hasta ahora tengo una vida plena.  Hago lo que me gusta, siempre junto a gente brillante que me inspira. Tengo además una familia maravillosa que me hace sentir orgulloso. No tengo que andar mostrando ni demostrando nada a nadie. Me reconocen por lo que soy, y eso que lo más emocionante que publico en Instagram son fotos de lagartijas.
@@ -47,10 +46,10 @@ Mi regalo para ustedes este año será una gran canción de Steely Dan, una que 
 
 Nos vemos en la próxima vuelta al sol.
 
-
 {{<spotify  61AK5ICbKk20h1dFS3mXuu >}}
 
 Acá les dejo la letra:
+
 ## Deacon Blues
 
 > This is the day of the expanding man\
@@ -128,3 +127,4 @@ Acá les dejo la letra:
 > They call Alabama the Crimson Tide\
 > Call me Deacon Blues\
 > (Deacon Blues)
+

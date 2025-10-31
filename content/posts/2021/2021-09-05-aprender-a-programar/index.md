@@ -5,7 +5,6 @@ title: "Cómo aprender a programar en un nuevo Lenguaje"
 authors: [admin]
 subtitle: ""
 summary: ""
-authors: [admin]
 tags: ['lenguajes de programación', 'desafíos', 'aprendizaje', desarrollo]
 categories: []
 date: 2021-09-05T11:25:13-03:00
