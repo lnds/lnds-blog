@@ -61,13 +61,13 @@ sin saber cómo.
 Un ingeniero sabe que debe tener una aproximación sistemática y que mitigue riesgos,
 cuando aborda cualquier proyecto.
 
-Cuando uno habla de riego, la mayoría de las personas piensa en que
+Cuando uno habla de riesgo, la mayoría de las personas piensa en que
 no pase nada malo, como que el software no destruya algo, no tenga vulnerabilidades,
 etc.
 
 Pero en gestión de proyectos, riesgo también significa todo aquello que no nos
 permita alcanzar los objetivos que hemos establecido para nuestro proyecto.
-Siendo uno de estos riegos que gastemos mucho tiempo y dinero.
+Siendo uno de estos riesgos que gastemos mucho tiempo y dinero.
 
 El "vibe coding" es demasiado riesgoso para considerarlo seriamente desde una
 perspectiva ingenieril, salvo para prototipar, donde sí aporta valor.
