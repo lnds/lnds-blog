@@ -3,7 +3,7 @@ date = '2025-12-25T10:00:00-03:00'
 draft = false 
 title = 'Juguetes'
 slug = 'juguetes'
-tags = ['IA', 'contratación', 'entrevistas', 'ingeniería de software']
+tags = ['Navidad', 'personal', 'juguetes']
 +++
 
 Hace unos años empecé una tradición, que consiste  publicar para estas fechas fotografías de juguetes que he ido coleccionando y que me acompañan en mi entorno de trabajo.
