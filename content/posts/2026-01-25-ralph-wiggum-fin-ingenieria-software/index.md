@@ -12,6 +12,8 @@ categories: ["programación", "la naturaleza del software"]
 
 Ralph Wiggum es el hijo del jefe de policía de Springfield, en la serie animada The Simpsons, te lo cuento por si has vivido bajo una piedra durante los últimos 35 años (o nunca prendiste el televidor sintonizando canal 13 en Chile).
 
+![](ralph.png)
+
 El pequeño Ralph ds, digamos, un niño especial. Su ingenuidad roza lo absurdo, pero ocasionalmente suelta frases que revelan verdades inesperadas. "Me fail English? That's unpossible!" es una de sus líneas más famosas: la frase demuestra exactamente lo que niega.
 
 No es casualidad que alguien decidiera nombrar así a un plugin para agentes de código. [Ralph Wiggum](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum) es un script que ejecuta Claude Code en un bucle infinito, alimentándolo con prompts generados por IA, hasta resolver un problema o agotar el presupuesto. La técnica original viene de Geoff Huntley, quien la describió como "brute force exploration".
