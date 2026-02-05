@@ -3,6 +3,7 @@ date = '2026-02-04T21:30:00-03:00'
 title = 'El Poder de los Agentes'
 slug = "el-poder-de-los-agentes"
 tags = ["ia", "agentes", "claude", "desarrollo", "productividad"]
+images = ["espectro-ia.png"]
 +++
 
 Mientras escribo esto, tengo dos agentes de Claude trabajando en un proyecto personal de código abierto. Uno está revisando vulnerabilidades y problemas de arquitectura. El otro está escribiendo un par de features nuevas. Y sí, hay un tercer agente ayudándome a estructurar y corregir este post.
