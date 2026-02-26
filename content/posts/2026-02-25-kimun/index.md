@@ -3,7 +3,7 @@ date = '2026-02-25T10:00:00-03:00'
 title = 'Kimun: midiendo la calidad del código generado por la IA'
 slug = "kimun-midiendo-la-calidad-del-codigo-generado-por-la-ia"
 tags = ["ia", "calidad", "desarrollo", "herramientas", "kimun", "claude", "metricas"]
-images = []
+images = ["kimun.png"]
 +++
 
 > "No puedes controlar lo que no puedes medir." -- Tom DeMarco
@@ -23,6 +23,8 @@ Lo que necesitamos son herramientas que nos permitan **evaluar objetivamente** l
 Existen productos comerciales para esto. Codacy, SonarQube, CodeClimate, todos hacen un trabajo respetable. Pero quería algo diferente: una herramienta que fuera **rápida, que corriera en la terminal, que pudiera integrarse directamente con agentes de IA**, y que estuviera basada en investigación sólida, no en reglas arbitrarias inventadas por un comité.
 
 Así nació **Kimun**.
+
+{{< figure src="kimun.png" >}}
 
 ## ¿Qué es Kimun?
 
