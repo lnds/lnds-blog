@@ -123,7 +123,7 @@ La gracia de esto es que **cierra el ciclo**: usas IA para generar código, y lu
 La forma más sencilla es usando Homebrew:
 
 ```bash
-brew install lnds/tap/km
+brew tap lnds/kimun && brew install kimun
 ```
 
 Si ya tienes el toolchain de Rust instalado, también puedes usar Cargo:
