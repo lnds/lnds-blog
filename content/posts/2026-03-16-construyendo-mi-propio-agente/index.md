@@ -34,51 +34,7 @@ La base es el [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/o
 
 El diseño es simple y deliberado. Un bus de mensajes conecta los canales de entrada (CLI para desarrollo, Telegram para uso diario) con un loop principal que alimenta al orquestador. El orquestador envuelve el Agent SDK y gestiona el contexto, las sesiones y las herramientas disponibles.
 
-```mermaid
-graph TB
-    subgraph Canales
-        CLI[CLI]
-        TG[Telegram]
-    end
-
-    subgraph Nucleo["Núcleo"]
-        direction TB
-        BUS[Bus de Mensajes]
-        LOOP[Agent Loop]
-        ORCH[Orquestador]
-        BUS --> LOOP --> ORCH
-    end
-
-    subgraph Contexto
-        direction TB
-        SOUL[Personalidad]
-        ID[Identidad]
-        USER[Perfil]
-        SKILLS[Habilidades]
-    end
-
-    subgraph HerramientasMCP["Herramientas MCP"]
-        direction TB
-        MEM[Memoria]
-        SCHED[Programador]
-        TTS[Texto a Voz]
-        POD[Podcast]
-        TOKI[Proyectos]
-    end
-
-    subgraph TareasFondo["Tareas de Fondo"]
-        direction TB
-        HB[Heartbeat]
-        CONS["Consolidación"]
-        DIG[Resumen Diario]
-    end
-
-    CLI --> BUS
-    TG --> BUS
-    ORCH --> Contexto
-    ORCH -->|Claude Agent SDK| HerramientasMCP
-    SCHED -.-> TareasFondo
-```
+{{< figure src="arquitectura.jpg" caption="Arquitectura del agente personal" >}}
 
 Lo que hace diferente a este agente de un simple wrapper de LLM es la **personalidad configurable**. El contexto se construye a partir de archivos markdown que definen quién es el agente, cómo se comporta, qué sabe del usuario, y qué herramientas tiene disponibles. Estos archivos son editables, incluso el propio agente, con mi autorización, puede modificarlos durante la conversación, lo que le permite actualizar su memoria y adaptar su comportamiento.
 
