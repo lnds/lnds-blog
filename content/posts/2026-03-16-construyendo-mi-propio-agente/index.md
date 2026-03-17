@@ -28,7 +28,7 @@ No fue una decisión impulsiva. Tomé notas de lo que funcionaba y lo que no en 
 
 Sabía qué necesitaba: un agente personal que pudiera conversar conmigo por Telegram, que tuviera memoria persistente, que pudiera ejecutar tareas programadas, y sobre todo, que yo pudiera auditar y controlar completamente.
 
-La base es el [Claude Agent SDK](https://docs.anthropic.com/en/docs/agents-and-tools/claude-agent-sdk), el framework de Anthropic para construir agentes. Es relativamente nuevo, pero sólido. Un solo proceso Python asincrónico, sin la complejidad innecesaria de microservicios o colas de mensajería externas.
+La base es el [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview), el framework de Anthropic para construir agentes. Es relativamente nuevo, pero sólido. Un solo proceso Python asincrónico, sin la complejidad innecesaria de microservicios o colas de mensajería externas.
 
 ## La arquitectura
 
