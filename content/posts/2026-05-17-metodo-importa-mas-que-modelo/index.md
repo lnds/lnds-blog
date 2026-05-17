@@ -3,7 +3,7 @@ date = '2026-05-17T10:00:00-03:00'
 title = 'El método importa más que el modelo'
 slug = "metodo-importa-mas-que-modelo"
 tags = ["IA", "programación agéntica", "ELP", "BMAD", "SDD", "SPDD", "metodología", "compiladores"]
-draft = true
+draft = false
 +++
 
 Satya Nadella, el CEO de Microsoft, definió la AGI como esa etapa en que el uso de la IA genera un impacto masivo en el PIB mundial. Para Altman el éxito está en el surgimiento de la primera startup unicornio de una persona: una empresa de un solo individuo valorada en mil millones de dólares.
