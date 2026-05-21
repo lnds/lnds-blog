@@ -28,5 +28,15 @@
     mermaid.initialize({ startOnLoad: true });
   </script>
   {{- end }}
+  {{- if .Store.Get "hasKaikai" }}
+  <link rel="stylesheet" href="/css/prism-kaikai.css">
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="/js/prism-kaikai.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.Prism) { Prism.highlightAll(); }
+    });
+  </script>
+  {{- end }}
 </body>
 </html>

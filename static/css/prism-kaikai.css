@@ -1,0 +1,180 @@
+/* Tema para bloques de código kaikai.
+ * Inspirado en la paleta del tmLanguage oficial; sobrio para combinar con el blog. */
+
+pre.language-kaikai,
+pre.language-kai {
+  background: #1e1e2e;
+  color: #d4d4dc;
+  padding: 1em 1.1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: ui-monospace, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  line-height: 1.5;
+  border: 1px solid #2a2a3a;
+}
+
+pre.language-kaikai code,
+pre.language-kai code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Tokens */
+.language-kaikai .token.comment,
+.language-kai .token.comment {
+  color: #6a737d;
+  font-style: italic;
+}
+.language-kaikai .token.comment .token.codetag,
+.language-kai .token.comment .token.codetag {
+  color: #e0af68;
+  font-weight: 600;
+}
+
+.language-kaikai .token.attribute,
+.language-kai .token.attribute {
+  color: #c586c0;
+}
+
+.language-kaikai .token.string,
+.language-kaikai .token.triple-string,
+.language-kaikai .token.char,
+.language-kai .token.string,
+.language-kai .token.triple-string,
+.language-kai .token.char {
+  color: #a6da95;
+}
+
+.language-kaikai .token.string .token.escape,
+.language-kai .token.string .token.escape {
+  color: #f5a97f;
+}
+
+.language-kaikai .token.string .token.interpolation,
+.language-kai .token.string .token.interpolation {
+  color: #d4d4dc;
+}
+
+.language-kaikai .token.string .token.interpolation-punctuation,
+.language-kai .token.string .token.interpolation-punctuation {
+  color: #f5a97f;
+}
+
+.language-kaikai .token.number,
+.language-kai .token.number {
+  color: #f5a97f;
+}
+
+.language-kaikai .token.boolean,
+.language-kai .token.boolean {
+  color: #f5a97f;
+  font-weight: 600;
+}
+
+.language-kaikai .token.keyword,
+.language-kaikai .token.keyword-control,
+.language-kaikai .token.keyword-storage,
+.language-kaikai .token.keyword-modifier,
+.language-kaikai .token.keyword-logical,
+.language-kai .token.keyword,
+.language-kai .token.keyword-control,
+.language-kai .token.keyword-storage,
+.language-kai .token.keyword-modifier,
+.language-kai .token.keyword-logical {
+  color: #c586c0;
+  font-weight: 600;
+}
+
+.language-kaikai .token.function-definition .token.function,
+.language-kai .token.function-definition .token.function {
+  color: #8aadf4;
+}
+
+.language-kaikai .token.type-definition .token.class-name,
+.language-kaikai .token.builtin-type,
+.language-kaikai .token.constructor,
+.language-kai .token.type-definition .token.class-name,
+.language-kai .token.builtin-type,
+.language-kai .token.constructor {
+  color: #eed49f;
+}
+
+.language-kaikai .token.builtin-effect,
+.language-kai .token.builtin-effect {
+  color: #91d7e3;
+  font-style: italic;
+}
+
+.language-kaikai .token.hole,
+.language-kai .token.hole {
+  color: #ed8796;
+  font-weight: 600;
+}
+
+.language-kaikai .token.operator,
+.language-kai .token.operator {
+  color: #f5bde6;
+}
+
+.language-kaikai .token.punctuation,
+.language-kai .token.punctuation {
+  color: #939ab7;
+}
+
+.language-kaikai .token.todo-bang,
+.language-kai .token.todo-bang {
+  color: #ed8796;
+  text-decoration: underline wavy;
+}
+
+/* Variante para modo claro: el blog define data-theme="light" en :root o body */
+@media (prefers-color-scheme: light) {
+  pre.language-kaikai,
+  pre.language-kai {
+    background: #f7f4ef;
+    color: #2a2a32;
+    border-color: #e3ddd1;
+  }
+  .language-kaikai .token.comment,
+  .language-kai .token.comment { color: #8a8f98; }
+  .language-kaikai .token.string,
+  .language-kaikai .token.triple-string,
+  .language-kaikai .token.char,
+  .language-kai .token.string,
+  .language-kai .token.triple-string,
+  .language-kai .token.char { color: #486f3a; }
+  .language-kaikai .token.keyword,
+  .language-kaikai .token.keyword-control,
+  .language-kaikai .token.keyword-storage,
+  .language-kaikai .token.keyword-modifier,
+  .language-kaikai .token.keyword-logical,
+  .language-kai .token.keyword,
+  .language-kai .token.keyword-control,
+  .language-kai .token.keyword-storage,
+  .language-kai .token.keyword-modifier,
+  .language-kai .token.keyword-logical { color: #8b3a8b; }
+  .language-kaikai .token.function-definition .token.function,
+  .language-kai .token.function-definition .token.function { color: #2c5fad; }
+  .language-kaikai .token.type-definition .token.class-name,
+  .language-kaikai .token.builtin-type,
+  .language-kaikai .token.constructor,
+  .language-kai .token.type-definition .token.class-name,
+  .language-kai .token.builtin-type,
+  .language-kai .token.constructor { color: #8a6a18; }
+  .language-kaikai .token.builtin-effect,
+  .language-kai .token.builtin-effect { color: #1f6b76; }
+  .language-kaikai .token.number,
+  .language-kaikai .token.boolean,
+  .language-kai .token.number,
+  .language-kai .token.boolean { color: #b25a26; }
+  .language-kaikai .token.operator,
+  .language-kai .token.operator { color: #a13e8d; }
+  .language-kaikai .token.punctuation,
+  .language-kai .token.punctuation { color: #6c7280; }
+  .language-kaikai .token.hole,
+  .language-kai .token.hole { color: #b3324b; }
+}
