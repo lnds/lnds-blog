@@ -1,0 +1,43 @@
+/* Banner del curso, para el shortcode {{< curso >}}.
+   Los colores salen de las variables del tema: sigue el modo claro u oscuro. */
+
+.curso-banner {
+  display: block; text-decoration: none; color: inherit;
+  border: 2px solid var(--primary-color); border-radius: 10px;
+  padding: 1.4rem 1.6rem; margin: 2rem 0;
+  background: var(--body-background-color);
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.curso-banner:hover { transform: translateY(-2px); box-shadow: 0 6px 20px var(--dim-color); }
+.curso-banner .cb-kicker {
+  font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--primary-color); margin: 0;
+}
+.curso-banner .cb-titulo {
+  font-size: 1.45rem; font-weight: 700; line-height: 1.2; margin: .5rem 0 0;
+  color: var(--body-text-color);
+}
+.curso-banner .cb-bajada { font-size: .95rem; margin: .6rem 0 0; opacity: .8; }
+.curso-banner .cb-datos {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; padding: 0; list-style: none;
+}
+.curso-banner .cb-datos li {
+  font-size: .8rem; font-weight: 600; padding: .35rem .8rem;
+  border: 1px solid var(--dim-color); border-radius: 999px;
+}
+.curso-banner .cb-pie {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 1rem;
+  margin: 1.2rem 0 0; padding-top: 1rem; border-top: 1px solid var(--dim-color);
+}
+.curso-banner .cb-boton {
+  font-size: .9rem; font-weight: 700; padding: .6rem 1.3rem; border-radius: 999px;
+  background: var(--primary-color); color: var(--body-background-color); white-space: nowrap;
+}
+.curso-banner .cb-precio { font-size: .9rem; font-weight: 700; }
+.curso-banner .cb-precio s { font-weight: 400; opacity: .55; margin-left: .3rem; }
+
+@media (max-width: 480px) {
+  .curso-banner { padding: 1.2rem; }
+  .curso-banner .cb-titulo { font-size: 1.2rem; }
+  .curso-banner .cb-boton { display: block; width: 100%; text-align: center; }
+}

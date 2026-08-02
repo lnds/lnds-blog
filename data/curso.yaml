@@ -1,0 +1,20 @@
+# Datos de la edición vigente del curso, para el banner {{< curso >}}.
+# Al cambiar de edición se edita solo este archivo: todos los posts que usen
+# el banner quedan al día sin tocarlos uno por uno.
+
+url: https://ediaz.dev/cursos/ia-profesionales/
+titulo: IA aplicada al trabajo profesional con Claude
+bajada: >-
+  Los fundamentos para trabajar con agentes de IA, demostrados con el ecosistema
+  Claude de Anthropic. No se requiere programar.
+
+inicio: martes 11 de agosto
+cuando: Martes y jueves, 19:00 a 20:30
+formato: 4 sesiones en vivo por Zoom
+cupos: 20 cupos
+
+precio: $150.000
+# Precio de referencia, va tachado junto al vigente. Vacío si no hay descuento.
+antes: $200.000
+
+cta: Ver el programa e inscribirme

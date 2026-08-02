@@ -1,0 +1,58 @@
+{{- /*
+  Banner del curso en vivo. Uso: {{< curso >}}
+
+  Las fechas, el precio y el resto de los datos salen de data/curso.yaml: al
+  cambiar de edición se edita ese archivo y todos los posts quedan al día.
+  Cualquier dato se puede sobrescribir en un post concreto:
+
+    {{< curso precio="$180.000" inicio="martes 6 de octubre" >}}
+
+  Los colores salen de las variables del tema, así que sigue el modo claro u
+  oscuro que tenga elegido quien lee.
+*/ -}}
+
+{{- $d := hugo.Data.curso | default dict -}}
+{{- /* Sin parámetros con nombre, .Params es un slice y no sirve para isset. */ -}}
+{{- $p := dict -}}
+{{- if .IsNamedParams -}}{{- $p = .Params -}}{{- end -}}
+
+{{- /* isset y no default: así `antes=""` quita el precio tachado en vez de
+       caer al valor del archivo de datos, que es lo que hace `default`. */ -}}
+{{- $url     := cond (isset $p "url")     (.Get "url")     $d.url -}}
+{{- $titulo  := cond (isset $p "titulo")  (.Get "titulo")  $d.titulo -}}
+{{- $bajada  := cond (isset $p "bajada")  (.Get "bajada")  $d.bajada -}}
+{{- $inicio  := cond (isset $p "inicio")  (.Get "inicio")  $d.inicio -}}
+{{- $cuando  := cond (isset $p "cuando")  (.Get "cuando")  $d.cuando -}}
+{{- $formato := cond (isset $p "formato") (.Get "formato") $d.formato -}}
+{{- $precio  := cond (isset $p "precio")  (.Get "precio")  $d.precio -}}
+{{- $antes   := cond (isset $p "antes")   (.Get "antes")   $d.antes -}}
+{{- $cupos   := cond (isset $p "cupos")   (.Get "cupos")   $d.cupos -}}
+{{- $cta     := cond (isset $p "cta")     (.Get "cta")     $d.cta -}}
+
+{{- if not $titulo -}}
+  {{- errorf "shortcode curso: falta data/curso.yaml o está incompleto (%s)" .Position -}}
+{{- end -}}
+
+{{- /* El CSS vive en assets/css/curso-banner.css. Hugo no garantiza el orden de
+       los shortcodes, así que el Store no siempre deduplica: con el enlace lo
+       peor que puede pasar es un <link> repetido, no el CSS entero. */ -}}
+{{- if not (.Page.Store.Get "curso-css") -}}
+{{- .Page.Store.Set "curso-css" true -}}
+{{- with resources.Get "css/curso-banner.css" -}}
+<link rel="stylesheet" href="{{ (. | minify | fingerprint).RelPermalink }}">
+{{- end -}}
+{{- end }}
+<a class="curso-banner" href="{{ $url }}" target="_blank" rel="noopener">
+  <p class="cb-kicker">Curso en vivo · Comienza el {{ $inicio }}</p>
+  <p class="cb-titulo">{{ $titulo }}</p>
+  <p class="cb-bajada">{{ $bajada }}</p>
+  <ul class="cb-datos">
+    <li>{{ $cuando }}</li>
+    <li>{{ $formato }}</li>
+    <li>{{ $cupos }}</li>
+  </ul>
+  <div class="cb-pie">
+    <span class="cb-boton">{{ $cta }}</span>
+    <span class="cb-precio">{{ $precio }}{{ with $antes }} <s>{{ . }}</s>{{ end }}</span>
+  </div>
+</a>
