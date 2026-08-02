@@ -1,6 +1,6 @@
 +++
 date = '2026-08-02T11:14:55-04:00'
-draft = true
+draft = false
 title = 'El fin de semana que nunca tuve'
 slug = '2026-08-02-aniversario-21'
 tags = ['IA', 'Claude', 'Ingeniería de software', 'Blog', 'Cursos']
