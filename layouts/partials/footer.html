@@ -1,0 +1,12 @@
+<p class="eof" aria-hidden="true">[EOF]</p>
+<p class="footer-line">
+  <span>© 2005–{{ now.Year }} {{ site.Params.author.name }}</span>
+  {{- with site.Home.OutputFormats.Get "rss" }}
+  <a href="{{ .RelPermalink }}">rss</a>
+  {{- end }}
+  {{- with site.Params.github }}
+  <a href="{{ . }}" rel="me noopener">github</a>
+  {{- end }}
+  <span>{{ i18n "footer_built" (dict "Hugo" `<a href="https://gohugo.io/" rel="noopener">Hugo</a>`) | safeHTML }}</span>
+  <a href="#">{{ i18n "scroll_top" }} ↑</a>
+</p>

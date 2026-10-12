@@ -1,37 +1,45 @@
-# Root
-theme_light: Tema Claro
-theme_dark: Tema Oscuro
+# Cabecera
+skip_to_content: Saltar al contenido
+theme_to_light: claro
+theme_to_dark: oscuro
+theme_toggle: Cambiar entre tema claro y oscuro
+language_switch: Idioma
+search_label: Buscar en el blog
+search_placeholder: buscar...
+search_hint: "↑↓ para moverte · enter para abrir · esc para salir"
+search_loading: Cargando el índice...
+search_empty: Sin resultados.
+search_error: No se pudo cargar el índice de búsqueda.
 
-# Not found (404)
-not_found_title: Oops, página no encontrada!
-not_found_desc: No todos los que vagan están perdidos, pero no hay nada que ver por acá
-not_found_home_link: Volver al Inicio
+# Portada
+tagline: Un blog sobre tecnología y su impacto en las personas.
+hero_meta: Escrito por {{ .Author }} desde 2005. {{ .Count }} posts y contando.
+all_posts: Ver todos los posts
+all_tags: Ver todos los tags
 
-# Footer
-scroll_top: Volver al inicio
-footer: Hecho con ❤️ usando el tema {{ .ThemeAnchor }} para {{ .HugoAnchor }}
+# Listas
+page_of: página {{ .Page }} de {{ .Total }}
+newer: más nuevos
+older: más antiguos
+empty_list: Todavía no hay nada aquí.
 
-# Home
-featured_posts: Destacados
-recent_posts: Recientes
-
-# Search
-js_required: Es necesario activar Javascript
-search_loading: Cargando...
-search_placeholder: Buscar...
-
-# SidePane for home
-see_all: Ver todo...
-
-# Page
-breadcrumb_home: Inicio
-
-# SidePane for single pages
+# Post
 details_words: palabras
-details_read_time: minutos de lectura
-side_table_of_contents: Tabla de Contenido
-side_attachments: Anexos
+details_read_time: min de lectura
+toc: Tabla de contenido
 side_related: Relacionados
-
-# Comments
+previous_post: anterior
+next_post: siguiente
 comments: Comentarios
+
+# Banner del curso
+course_kicker: Curso en vivo · Comienza el {{ .Start }}
+
+# 404
+not_found_title: No such file or directory
+not_found_desc: No todos los que vagan están perdidos, pero aquí no hay nada que ver.
+not_found_home_link: Volver al inicio
+
+# Pie
+scroll_top: volver arriba
+footer_built: Hecho con {{ .Hugo }}

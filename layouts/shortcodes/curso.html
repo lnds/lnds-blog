@@ -42,8 +42,8 @@
 <link rel="stylesheet" href="{{ (. | minify | fingerprint).RelPermalink }}">
 {{- end -}}
 {{- end }}
-<a class="curso-banner" href="{{ $url }}" target="_blank" rel="noopener">
-  <p class="cb-kicker">Curso en vivo · Comienza el {{ $inicio }}</p>
+<a class="curso-banner" href="{{ $url }}" target="_blank" rel="noopener" lang="es">
+  <p class="cb-kicker">{{ i18n "course_kicker" (dict "Start" $inicio) }}</p>
   <p class="cb-titulo">{{ $titulo }}</p>
   <p class="cb-bajada">{{ $bajada }}</p>
   <ul class="cb-datos">

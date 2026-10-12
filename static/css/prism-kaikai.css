@@ -131,8 +131,8 @@ pre.language-kai code {
   text-decoration: underline wavy;
 }
 
-/* Variante para modo claro: el blog define data-theme="light" en :root o body */
-@media (prefers-color-scheme: light) {
+/* Variante para modo claro: sigue al atributo data-theme de <html>. */
+:root[data-theme="light"] {
   pre.language-kaikai,
   pre.language-kai {
     background: #f7f4ef;

@@ -1,23 +1,66 @@
 {{- define "main" -}}
-  <div class="single-header">
-    {{- partial "components/breadcrumbs.html" . -}}
-    <h1>{{- partial "title.html" . -}}</h1>
-    {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
-    {{- $dateHuman := .Date | time.Format ":date_long" -}}
-    <time class="dim" datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
-    {{- partial "components/tags.html" . -}}
-  </div>
-  <section class="page-section">
-    {{- .Content -}}
-  </section>
-  <section class="page-comments">
-  <h2>{{- i18n "comments" -}}</h2>
-  {{ partial "disqus.html" . }}
-  </section>
-{{- end -}}
+  {{- $isPost := eq .Section "posts" -}}
+  <article class="post">
+    <header class="post-head">
+      <p class="cmd">
+        <span class="ps">$</span> cat
+        {{- with .Parent }}{{ if not .IsHome }} <a href="{{ .RelPermalink }}">{{ .Section }}</a>/{{ else }} {{ end }}{{ end -}}
+        {{- with .File }}{{ $.Slug | default .ContentBaseName }}{{ end }}.md
+      </p>
+      <h1>{{ partial "title.html" . }}</h1>
+      {{- with .Params.subtitle }}
+      <p class="subtitle">{{ . }}</p>
+      {{- end }}
+      {{- if $isPost }}
+      <p class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <span>{{ .WordCount }} {{ i18n "details_words" }}</span>
+        <span>{{ .ReadingTime }} {{ i18n "details_read_time" }}</span>
+      </p>
+      {{- partial "tags.html" . }}
+      {{- end }}
+      {{- range .Translations }}
+      <p class="translation">
+        <span class="badge">{{ .Language.Lang }}</span>
+        <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}">{{ .Site.Params.readPrompt }} →</a>
+      </p>
+      {{- end }}
+    </header>
 
-{{- define "side" -}}
-  <aside id="side-pane" class="{{- cond site.Params.rtwt.side.single.sidePaneSticky "side-sticky" "" -}}">
-    {{- partial "side/single.html" . -}} 
-  </aside>
+    {{- if and $isPost (ge (len (findRE `<h[23]` .Content)) 3) }}
+    <details class="toc">
+      <summary>{{ i18n "toc" }}</summary>
+      {{ .TableOfContents }}
+    </details>
+    {{- end }}
+
+    <section class="prose page-section">
+      {{- .Content -}}
+    </section>
+
+    {{- if $isPost }}
+    <footer class="post-foot">
+      {{- $related := site.RegularPages.Related . | first 5 }}
+      {{- with $related }}
+      <p class="cmd"><span class="ps">$</span> ls {{ i18n "side_related" | lower }}/</p>
+      <ol class="post-list">
+        {{- range . }}
+          {{- partial "post-row.html" (dict "page" .) }}
+        {{- end }}
+      </ol>
+      {{- end }}
+      <nav class="pager" aria-label="Posts">
+        {{- with .PrevInSection }}<a href="{{ .RelPermalink }}" rel="prev" title="{{ .Title }}">← {{ i18n "previous_post" }}</a>{{ else }}<span></span>{{ end }}
+        {{- with .NextInSection }}<a href="{{ .RelPermalink }}" rel="next" title="{{ .Title }}">{{ i18n "next_post" }} →</a>{{ else }}<span></span>{{ end }}
+      </nav>
+    </footer>
+    {{- end }}
+  </article>
+
+  {{- if ne .Params.comments false }}
+  <section class="page-comments">
+    <h2>{{ i18n "comments" }}</h2>
+    {{ partial "disqus.html" . }}
+  </section>
+  {{- end }}
 {{- end -}}

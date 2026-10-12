@@ -1,37 +1,45 @@
-# Root
-theme_light: Light Theme
-theme_dark: Dark Theme
-
-# Not found (404)
-not_found_title: Whoops, page not found!
-not_found_desc: Not all who wander are lost, but there's nothing left to explore here
-not_found_home_link: Go Home
-
-# Footer
-scroll_top: Scroll to Top
-footer: Made with ❤️ and powered by {{ .ThemeAnchor }} theme for {{ .HugoAnchor }}
+# Header
+skip_to_content: Skip to content
+theme_to_light: light
+theme_to_dark: dark
+theme_toggle: Switch between light and dark theme
+language_switch: Language
+search_label: Search the blog
+search_placeholder: search...
+search_hint: "↑↓ to move · enter to open · esc to leave"
+search_loading: Loading the index...
+search_empty: No results.
+search_error: Could not load the search index.
 
 # Home
-featured_posts: Featured Posts
-recent_posts: Recent Posts
-#
-# Search
-js_required: It's necessary to enable Javascript
-search_loading: Loading...
-search_placeholder: Search...
+tagline: The Nature of Software. A blog about technology and its impact on people.
+hero_meta: Written by {{ .Author }} since 2005. {{ .Count }} posts translated so far; the <a href="{{ .Archive }}" hreflang="es">full archive</a> is in Spanish.
+all_posts: See all posts
+all_tags: See all tags
 
-# SidePane for home
-see_all: See all...
+# Lists
+page_of: page {{ .Page }} of {{ .Total }}
+newer: newer
+older: older
+empty_list: Nothing here yet.
 
-# Page
-breadcrumb_home: Home
-
-# SidePane for single pages
+# Post
 details_words: words
-details_read_time: minutes read
-side_table_of_contents: Table Of Contents
-side_attachments: Attachments
+details_read_time: min read
+toc: Table of contents
 side_related: Related
-
-# Comments
+previous_post: previous
+next_post: next
 comments: Comments
+
+# Course banner
+course_kicker: Live course (in Spanish) · Starts {{ .Start }}
+
+# 404
+not_found_title: No such file or directory
+not_found_desc: Not all those who wander are lost, but there is nothing to see here.
+not_found_home_link: Back to home
+
+# Footer
+scroll_top: back to top
+footer_built: Built with {{ .Hugo }}

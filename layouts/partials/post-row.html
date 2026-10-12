@@ -1,0 +1,11 @@
+{{- /* Fila de un listado de posts. Uso: partial "post-row.html" (dict "page" . "summary" true) */ -}}
+{{- $page := .page -}}
+<li class="post-row">
+  <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+  <div>
+    <a href="{{ $page.RelPermalink }}">{{ partial "title.html" $page }}</a>
+    {{- if .summary }}
+    <p class="post-row-summary">{{ partial "summary.html" $page }}</p>
+    {{- end }}
+  </div>
+</li>

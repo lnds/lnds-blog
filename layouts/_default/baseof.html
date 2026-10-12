@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}" data-theme="dark">
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="notransition">
-  <div id="container">
-    <header id="main-header">
+<body>
+  <a class="skip-link" href="#main-content">{{ i18n "skip_to_content" }}</a>
+  <div class="wrap">
+    <header id="site-header">
       {{- partial "header.html" . -}}
     </header>
-    <div class="flex grow">
-      <div id="main-pane">
-        <main id="main-content">
-          {{- block "main" . -}}{{- end -}}
-        </main>
-        <footer id="main-footer">
-          {{- partial "footer.html" . -}}
-        </footer>
-      </div>
-      {{- if (and (default true .Params.rtwt.sidePane) site.Params.rtwt.sidePane) -}}
-        {{- block "side" . -}}{{- end -}}
-      {{- end -}}
-    </div>
+    <main id="main-content">
+      {{- block "main" . -}}{{- end -}}
+    </main>
+    <footer id="site-footer">
+      {{- partial "footer.html" . -}}
+    </footer>
   </div>
+  {{- with resources.Get "js/site.js" | js.Build (dict "minify" (not hugo.IsDevelopment)) | fingerprint }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end }}
   {{- if .Store.Get "hasMermaid" }}
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';

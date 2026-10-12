@@ -1,0 +1,12 @@
+{{- /* Índice del buscador. Solo título, tags y resumen: con el texto completo
+       de todos los posts pesaría decenas de MB. */ -}}
+{{- $index := slice -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $index = $index | append (dict
+      "t" (partial "title.html" .)
+      "u" .RelPermalink
+      "d" (.Date.Format "2006-01-02")
+      "g" (delimit (.Params.tags | default slice) " ")
+      "s" (partial "summary.html" .)) -}}
+{{- end -}}
+{{- $index | jsonify -}}

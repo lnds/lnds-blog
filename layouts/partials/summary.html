@@ -1,0 +1,8 @@
+{{- /* Resumen en texto plano: el del front matter o el comienzo del post. */ -}}
+{{- $summary := "" -}}
+{{- with .Params.summary -}}
+  {{- $summary = . -}}
+{{- else -}}
+  {{- $summary = .Summary | plainify | htmlUnescape | truncate 180 -}}
+{{- end -}}
+{{- return (trim $summary " \n") -}}

@@ -1,0 +1,6 @@
+{{- /* Título de la página; las que no lo declaran usan el nombre de su carpeta. */ -}}
+{{- $title := .Title -}}
+{{- if not $title -}}
+  {{- with .File -}}{{- $title = .ContentBaseName | humanize | title -}}{{- end -}}
+{{- end -}}
+{{- return $title -}}

@@ -1,0 +1,44 @@
+<nav class="site-nav" aria-label="Main">
+  {{- /* El prompt es el buscador: site.js carga el índice al primer uso. */ -}}
+  <div class="prompt">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }}">
+      <span class="brand-user">lnds</span><span class="brand-sep">@</span><span class="brand-host">net</span><span class="brand-sep">:</span><span class="brand-path">~</span><span class="brand-sep">$</span>
+    </a>
+    <label class="prompt-input">
+      <span class="visually-hidden">{{ i18n "search_label" }}</span>
+      <input id="search-input" type="search" role="combobox" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list" aria-keyshortcuts="/" autocomplete="off" spellcheck="false" placeholder="{{ i18n "search_placeholder" }}"
+        data-index="{{ with site.Home.OutputFormats.Get "SearchIndex" }}{{ .RelPermalink }}{{ end }}"
+        data-loading="{{ i18n "search_loading" }}"
+        data-empty="{{ i18n "search_empty" }}"
+        data-error="{{ i18n "search_error" }}"
+        data-hint="{{ i18n "search_hint" }}">
+      <span class="cursor" aria-hidden="true"></span>
+    </label>
+  </div>
+  <ul class="nav-links">
+    {{- $page := . -}}
+    {{- range site.Menus.main }}
+    <li><a href="{{ .URL }}"{{ if or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+    {{- end }}
+  </ul>
+  <div class="nav-tools">
+    <span class="lang-switch" role="group" aria-label="{{ i18n "language_switch" }}">
+      {{- /* Cada idioma apunta a la traducción de esta página o, si no existe, a su portada. */ -}}
+      {{- range hugo.Sites -}}
+        {{- $lang := .Language.Lang -}}
+        {{- $target := .Home -}}
+        {{- range $page.AllTranslations -}}
+          {{- if eq .Language.Lang $lang }}{{ $target = . }}{{ end -}}
+        {{- end -}}
+        <a href="{{ $target.RelPermalink }}" lang="{{ $lang }}" hreflang="{{ $lang }}" title="{{ .Language.Label }}"{{ if eq $lang $page.Language.Lang }} class="active" aria-current="true"{{ end }}>{{ $lang }}</a>
+      {{- end -}}
+    </span>
+    <button type="button" id="theme-toggle" class="tool" aria-label="{{ i18n "theme_toggle" }}">
+      <span class="when-dark">{{ i18n "theme_to_light" }}</span><span class="when-light">{{ i18n "theme_to_dark" }}</span>
+    </button>
+  </div>
+</nav>
+<div id="search-panel" hidden>
+  <ol id="search-results" role="listbox"></ol>
+  <p id="search-status" class="dim" role="status"></p>
+</div>

@@ -1,0 +1,11 @@
+{{- define "main" -}}
+  <section class="not-found">
+    <p class="cmd"><span class="ps">$</span> cat <span id="missing-path">404</span></p>
+    <h1>cat: {{ i18n "not_found_title" }}</h1>
+    <p class="dim">{{ i18n "not_found_desc" }}</p>
+    <p class="more"><a href="{{ site.Home.RelPermalink }}">← {{ i18n "not_found_home_link" }}</a></p>
+  </section>
+  <script>
+    document.getElementById('missing-path').textContent = location.pathname;
+  </script>
+{{- end -}}

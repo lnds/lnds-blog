@@ -1,7 +1,5 @@
 baseURL = 'https://lnds.net/'
-languageCode = 'es-cl'
 title = 'La Naturaleza del Software'
-theme = 'rusty-typewriter'
 enableRobotsTXT = true
 
 ignoreLogs = ['shortcode-x-getremote']
@@ -20,6 +18,17 @@ publication_types = "/publication-type/:slug/"
 [markup.goldmark.renderer]
 unsafe = true
 
+# Las imágenes de un post traducido se copian también bajo /en/, así las rutas
+# relativas funcionan igual en ambos idiomas, incluso en HTML crudo. Por eso no
+# hacen falta los render hooks que Hugo activa solo en sitios multilingües, y
+# que además abortan el build ante cualquier URL mal formada del archivo antiguo.
+[markup.goldmark]
+duplicateResourceFiles = true
+[markup.goldmark.renderHooks.image]
+useEmbedded = 'never'
+[markup.goldmark.renderHooks.link]
+useEmbedded = 'never'
+
 [markup.goldmark.extensions.passthrough]
 enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
@@ -27,28 +36,76 @@ block = [['$$', '$$'], ['\[', '\]']]
 inline = [['$', '$'], ['\(', '\)']]
 
 
+[params]
+github = 'https://github.com/lnds'
 [params.author]
 name = 'Eduardo Díaz'
 
-[[menus.main]]
-name = 'Posts'
+# Los colores del resaltado salen de assets/css/chroma.css, que tiene una
+# paleta por tema; con estilos en línea no habría modo claro.
+[markup.highlight]
+noClasses = false
+
+[related]
+includeNewer = true
+[[related.indices]]
+name = 'tags'
+weight = 100
+
+# El español vive en la raíz, para no mover ninguna URL existente; el inglés
+# cuelga de /en/. Una traducción es un index.en.md junto al index.md del post.
+[languages.es]
+locale = 'es-cl'
+label = 'Español'
+weight = 1
+[languages.es.params]
+readPrompt = 'Leer este post en español'
+
+[[languages.es.menus.main]]
+name = 'posts'
 pageRef = '/posts'
 weight = 1
 
-[[menus.main]]
-name = 'Newsletter'
-url = 'https://Newsletter.lnds.net'
+[[languages.es.menus.main]]
+name = 'newsletter'
+url = 'https://newsletter.lnds.net'
 weight = 2
 
-[[menus.main]]
-name = 'Books'
+[[languages.es.menus.main]]
+name = 'libros'
 pageRef = '/books'
 weight = 3
 
+[[languages.es.menus.main]]
+name = 'about'
+pageRef = '/about'
+weight = 4
 
-[[menus.main]]
-name = 'About'
-pageRef = '/about.md'
+[languages.en]
+locale = 'en'
+label = 'English'
+weight = 2
+[languages.en.params]
+readPrompt = 'Read this post in English'
+
+[[languages.en.menus.main]]
+name = 'posts'
+pageRef = '/posts'
+weight = 1
+
+[[languages.en.menus.main]]
+name = 'newsletter'
+url = 'https://newsletter.lnds.net'
+weight = 2
+
+[[languages.en.menus.main]]
+name = 'books'
+pageRef = '/books'
+weight = 3
+
+[[languages.en.menus.main]]
+name = 'about'
+pageRef = '/about'
 weight = 4
 
 # build search index ================

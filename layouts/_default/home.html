@@ -1,0 +1,39 @@
+{{- define "main" -}}
+  {{- $posts := where site.RegularPages "Section" "posts" -}}
+  {{- $section := site.GetPage "/posts" -}}
+  <section class="hero">
+    <p class="cmd"><span class="ps">$</span> cat README.md</p>
+    <h1>{{ site.Title }}</h1>
+    <p class="hero-tagline">{{ i18n "tagline" }}</p>
+    <p class="dim">
+      {{- i18n "hero_meta" (dict "Author" site.Params.author.name "Count" (len $posts) "Archive" (index hugo.Sites 0).Home.RelPermalink) | safeHTML -}}
+    </p>
+    {{- with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  </section>
+
+  <section>
+    <p class="cmd"><span class="ps">$</span> ls -t posts/ | head -n 10</p>
+    <ol class="post-list">
+      {{- range first 10 $posts }}
+        {{- partial "post-row.html" (dict "page" . "summary" true) }}
+      {{- end }}
+    </ol>
+    {{- with $section }}
+    <p class="more"><a href="{{ .RelPermalink }}">{{ i18n "all_posts" }} →</a></p>
+    {{- end }}
+  </section>
+
+  {{- with site.Taxonomies.tags }}
+  <section>
+    <p class="cmd"><span class="ps">$</span> ls tags/ | sort -rn | head -n 16</p>
+    <ul class="tags tags-counted">
+      {{- range first 16 .ByCount }}
+      <li><a href="{{ .Page.RelPermalink }}">#{{ .Page.LinkTitle | lower }}</a><span class="dim">{{ .Count }}</span></li>
+      {{- end }}
+    </ul>
+    {{- with site.GetPage "/tags" }}
+    <p class="more"><a href="{{ .RelPermalink }}">{{ i18n "all_tags" }} →</a></p>
+    {{- end }}
+  </section>
+  {{- end }}
+{{- end -}}

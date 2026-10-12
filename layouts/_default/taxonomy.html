@@ -1,0 +1,18 @@
+{{- define "main" -}}
+  <header class="page-head">
+    <p class="cmd"><span class="ps">$</span> ls {{ strings.TrimPrefix "/" .RelPermalink }} | sort -rn</p>
+    <h1>{{ partial "title.html" . }}</h1>
+  </header>
+  {{- with .Content }}
+  <section class="prose page-section">{{ . }}</section>
+  {{- end }}
+  {{- with .Data.Terms.ByCount }}
+  <ul class="tags tags-counted">
+    {{- range . }}
+    <li><a href="{{ .Page.RelPermalink }}">#{{ .Page.LinkTitle | lower }}</a><span class="dim">{{ .Count }}</span></li>
+    {{- end }}
+  </ul>
+  {{- else }}
+  <p class="dim">{{ i18n "empty_list" }}</p>
+  {{- end }}
+{{- end -}}
