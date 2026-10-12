@@ -70,7 +70,7 @@ $$Producto = F(Usabilidad)$$
 
 O, como lo expresa [Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge)[^1]:
 
-> [...] argumentaré que la _Usabilidad_ es realmente más importante que la Seguridad porque llevando Usabilidad a cero significa que no tienes producto, mientras que dejando Seguridad en cero puedes tener un producto razonablemente seguro tal como la Playstation Network.
+> [...] argumentaré que la _Usabilidad_ es realmente más importante que la Seguridad porque llevando Usabilidad a cero significa que no tienes producto, mientras que dejando Seguridad en cero puedes tener un producto razonablemente exitoso tal como la Playstation Network.
 
 Yegge se refiere al fiasco de seguridad de 2011 de la Playstation Network[^2] que revelaba datos personales de unos 77 millones de usuarios.
 

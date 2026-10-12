@@ -208,7 +208,7 @@ El software se debe hacer bien desde el principio, no se trata de liberar funcio
 > "La simplicidad, o el arte de maximizar la cantidad de
 > trabajo no realizado, es esencial."
 
-Me gusta decir que "la mejor linea de código es aquella que no se escribe". Hay que saber descartar. Cuando hablan de maximizar la cantidad de trabajo realizado lo que nos están diciendo es que no es necesario hacerlo todo.
+Me gusta decir que "la mejor linea de código es aquella que no se escribe". Hay que saber descartar. Cuando hablan de maximizar la cantidad de trabajo no realizado lo que nos están diciendo es que no es necesario hacerlo todo.
 
 Hay gente que tiene más apetito en sus ojos, y van a un restaurant y ordenan un menú enorme y apetitoso para sólo comer una fracción del alimento, y el resto se pierde. Es común que se pida más de lo que realmente se necesita. O se diseñe con un afán de generalizar que después nunca se da. Aprender a descartar, a resistir la tentación de generalizar, a llenarnos de trabajo que no vale la pena, eso es lo esencial.
 

@@ -34,7 +34,7 @@ What were you up to when you were sixteen?
 
 In some countries, at sixteen you can already get a driver's license, or even vote, and you can even be held criminally responsible. Most likely you were finishing high school.
 
-Sixteen is a very important number for systems programmers. We use it as a base for writing numbers because it makes the [translation to binary](https://www.programando.org/blog/2011/03/06/partir-desde-cero/) easier. Sixteen is the atomic weight of sulfur. It's used to set the number of participants in many sports tournaments. The last king of France was the sixteenth Louis. Sixteen is the number of hours we spend awake each day.
+Sixteen is a very important number for systems programmers. We use it as a base for writing numbers because it makes the [translation to binary](https://www.programando.org/blog/2011/03/06/partir-desde-cero/) easier. Sixteen is the atomic number of sulfur. It's used to set the number of participants in many sports tournaments. The last king of France before the Revolution was the sixteenth Louis. Sixteen is the number of hours we spend awake each day.
 
 At sixteen I had my first contact with a computer and learned to program in Basic. I also [had my own FM transmitter](https://www.akarru.com/blog/2010/09/23/el-espiritu-de-la-radio/) and was the one who played the music at parties.
 

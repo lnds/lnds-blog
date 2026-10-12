@@ -33,7 +33,7 @@ projects: []
 
 En algunos paises a los dieciseis años ya puedes sacar licencia de conducir, o incluso votar, incluso se te considera responsable penalmente. Lo más seguro es que estabas terminando tu educación secundaria.
 
-Dieciseis es un número muy importante para los programadores de sistemas. Usamos esta base para expresar números porque facilita su [traducción al binario](https://www.programando.org/blog/2011/03/06/partir-desde-cero/). Dieciseis es el peso atómico del azufre. Se usa para definir la cantidad de participantes en muchos torneos deportivos. El último rey de Francia fue el decimosexto Luis. Dieciseis son las horas que pasamos activos en el día.
+Dieciseis es un número muy importante para los programadores de sistemas. Usamos esta base para expresar números porque facilita su [traducción al binario](https://www.programando.org/blog/2011/03/06/partir-desde-cero/). Dieciseis es el número atómico del azufre. Se usa para definir la cantidad de participantes en muchos torneos deportivos. El último rey de Francia antes de la Revolución fue el decimosexto Luis. Dieciseis son las horas que pasamos activos en el día.
 
 A los dieciseis tuve contacto por primera vez con un computador y aprendí a programar en Basic. También [tenía mi propio transmisor en FM](https://www.akarru.com/blog/2010/09/23/el-espiritu-de-la-radio/) y era el que ponía la música en las fiestas.
 

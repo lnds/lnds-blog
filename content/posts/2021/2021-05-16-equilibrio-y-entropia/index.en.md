@@ -231,7 +231,7 @@ On the other hand we'll have a set of changes: $$C = \\{ c_1, c_2, ..., c_i, c_{
 
 We say a program is in state $s_i$, and we denote this $P(s_i)$.
 
-In our case we have $C_{47f88eb} = (+15, -0)$, $C_{629ee77} = (+7, -5)$ and $C_{bb6855a} = (+3, -4)$. Here I've summarized each change as a tuple holding the number of insertions (+) and deletions (-), without spelling them out, to keep the notation simple.
+In our case we have $C_{47f88eb} = (+15, -0)$, $C_{629ee77} = (+7, -5)$ and $C_{bb6855a} = (+2, -4)$. Here I've summarized each change as a tuple holding the number of insertions (+) and deletions (-), without spelling them out, to keep the notation simple.
 
 In GIT we can get the changes to apply by producing, for example, a patch:
 

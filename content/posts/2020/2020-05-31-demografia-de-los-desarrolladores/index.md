@@ -93,7 +93,7 @@ Y si esta proporción es preocupante, porque muestra una baja particpiación que
 
 {{<figure caption="Años de expeiencia de las mujeres en el área" src="experiencia.png">}}
 
-Estos hallazgos son consistentes con otros estudios que muestran que las mujeres abandonan el área de tecnología a los 14 años en promedio.
+Estos hallazgos son consistentes con otros estudios que muestran que las mujeres abandonan el área de tecnología tras 14 años de carrera en promedio.
 
 Es claro que tenemos mucho que hacer aún.
 

@@ -94,7 +94,7 @@ And if this ratio is worrying, because it shows a low level of participation tha
 
 {{<figure caption="Years of experience of women in the field" src="experiencia.png">}}
 
-These findings are consistent with other studies showing that women leave the technology field at 14 years on average.
+These findings are consistent with other studies showing that women leave the technology field after 14 years in it, on average.
 
 It's clear we still have a lot to do.
 

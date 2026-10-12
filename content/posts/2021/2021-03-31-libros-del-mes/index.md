@@ -78,7 +78,7 @@ Al final todo tiene que ver con la pasión que pongas en lo que haces, así que 
 
 Esta es una ucronía co escrita por William Gibson y Bruce Sterling. Esta es una de las primeras novelas del sub genero Steam Punk. Nos muestra un mundo en que [Charles Babbage](https://lnds.net/blog/lnds/2011/10/18/desde-siempre/) tiene éxito en crear su máquina computadora, y [Ada](https://lnds.net/blog/lnds/2009/01/17/la-primera-analista-de-sistemas/) es la respetada hija de Lord Byron, quien no la ha abandonado e incluso es el primer ministro de Gran Bretaña.
 
-Es un thriller, con reminiscencias a las obras de Julio Verne. La novela se sostiene en  una conspiración que me pareció algo artificiosa, pero tiene una vuelta de tuerca al final que es interesante. Es fascinante pensar cómo sería todo si las computadoras se hubieran creado cien años antes de que Turing estableciera su primer modelo teórico de computación. Gibson y Sterling se lucen en esta novela, la que recibió el premio Nébula en 1991. Muy recomendable.
+Es un thriller, con reminiscencias a las obras de Julio Verne. La novela se sostiene en  una conspiración que me pareció algo artificiosa, pero tiene una vuelta de tuerca al final que es interesante. Es fascinante pensar cómo sería todo si las computadoras se hubieran creado cien años antes de que Turing estableciera su primer modelo teórico de computación. Gibson y Sterling se lucen en esta novela, la que fue nominada al premio Nébula en 1991. Muy recomendable.
 
 ![](libro5.jpg)
 

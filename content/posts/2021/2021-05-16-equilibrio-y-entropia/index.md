@@ -34,7 +34,7 @@ Este es el segundo artículo de [esta serie](/category/entrop%C3%ADa-de-software
 
 Para continuar he elegido un ejercicio muy sencillo, que tomé de [Project Euler](https://projecteuler.net). En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:
 
-> "Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5 y 9. La suma de estos múltiplos es 23.
+> "Si listamos todos los números naturales menores a 10 que son múltiplos de 3 ó 5, obtenemos 3, 5, 6 y 9. La suma de estos múltiplos es 23.
 >
 > Encuentre la suma de todos los múltiplos de 3 ó 5 menores a 1000."
 
@@ -230,7 +230,7 @@ Por otro lado tendremos un conjunto de cambios: $$C = \\{ c_1, c_2, ..., c_i, c_
 
 Decimos que un programa está en el estado $s_i$, esto lo denotamos $P(s_i)$.
 
-En nuestro caso tenemos $C_{47f88eb} = (+15, -0)$, $C_{629ee77} = (+7, -5)$ y $C_{bb6855a} = (+3, -4)$. Acá he resumido cada cambio expresándolo como una tupla en que colocamos la cantidad de inserciones (+) y eliminaciones (-), sin detallarlas para simplificar la notación.
+En nuestro caso tenemos $C_{47f88eb} = (+15, -0)$, $C_{629ee77} = (+7, -5)$ y $C_{bb6855a} = (+2, -4)$. Acá he resumido cada cambio expresándolo como una tupla en que colocamos la cantidad de inserciones (+) y eliminaciones (-), sin detallarlas para simplificar la notación.
 
 En GIT podemos obtener los cambios a aplicar obteniendo por ejemplo un patch:
 
