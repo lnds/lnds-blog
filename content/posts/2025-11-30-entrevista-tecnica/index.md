@@ -67,7 +67,7 @@ En la era del vibe coding, cualquiera puede generar código. La pregunta ya no e
 
 ## Nuevas competencias, nuevos procesos de entrevista
 
-En posts recientes he hablado de [plotters vs pantsers](/blog/lnds/2025/10/31/mapas-o-brujulas/), de cómo la [programación agéntica eficienta el estilo plotter](/blog/lnds/2025/11/20/programacion-agentica-es-plotter/), de cómo estamos viviendo [el fin del software artesanal](/blog/lnds/2025/08/27/el-fin-del-software-artesanal/).
+En posts recientes he hablado de [plotters vs pantsers](/blog/lnds/2025/10/31/mapas-o-brujulas/), de cómo la [programación agéntica eficienta el estilo plotter](/blog/lnds/2025/11/20/programacion-agentica-es-plotter/), de cómo estamos viviendo [el fin del software artesanal](/blog/lnds/2025/08/27/2025-08-27-el-fin-del-software-artesanal/).
 
 Si el código se puede generar automáticamente, ¿qué distingue a un buen ingeniero de software de alguien que solo sabe escribir prompts?
 

@@ -84,7 +84,7 @@ El caso ilustra tres patologías del ecosistema actual:
 
 Hay un detalle interesantes en toda esta historia: [Jeff Dean](https://es.wikipedia.org/wiki/Jeff_Dean), el legendario ingeniero de Google, uno de sus primeros empleados y figura venerada en la comunidad de IA, nunca pudo superar el paper de "Stochastic Parrots".
 
-Años después del despido de Gebru, Dean seguía obsesionado con una sección específica: el cálculo de la huella de carbono del modelo Evolved Transformer, basado en la investigación de [Emma Strubell](https://es.wikipedia.org/wiki/Jeff_Dean).
+Años después del despido de Gebru, Dean seguía obsesionado con una sección específica: el cálculo de la huella de carbono del modelo Evolved Transformer, basado en la investigación de [Emma Strubell](https://arxiv.org/abs/1906.02243).
 
 Dean argumentaba que Strubell había sobreestimado las emisiones de Google 88 veces porque usó GPUs estándar en sus cálculos, cuando Google usaba TPUs más eficientes. Empleados de Google se burlaban en privado diciendo que esta objeción estaría inscrita en su tumba.
 
@@ -136,4 +136,4 @@ Y nosotros solo podemos confiar en su palabra.
 
 *Este artículo está basado en el capítulo 7 "Science in Captivity" del libro ["Empire of AI"](https://amzn.to/46JUBWE) de Karen Hao, que documenta en detalle el caso Timnit Gebru y sus implicaciones para el futuro de la investigación en IA.*
 
-*Si te interesa recibir análisis como este directamente en tu correo, suscríbete a mi [newsletter](newsletter.lnds.net/).*
+*Si te interesa recibir análisis como este directamente en tu correo, suscríbete a mi [newsletter](https://newsletter.lnds.net/).*

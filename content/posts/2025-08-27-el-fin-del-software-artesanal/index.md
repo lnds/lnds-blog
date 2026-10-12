@@ -58,7 +58,7 @@ Ambos tienen razón.
 
 En la transición a la era industrial siempre hay pérdidas. Se pierde el conocimiento tácito, la intuición que viene de años de práctica, el orgullo del artesano. Pero se gana en productividad, en accesibilidad, en velocidad.
 
-Los militares alemanes en 1940, como [mencioné en otro post](/blog/lnds/2021/03/28/gestion-del-conocimiento/), creían que les tomaría a los aliados una generación formar "artesanos ópticos" capaces de igualar su calidad. No contaban con que los americanos industrializarían el proceso. No necesitaron artesanos; necesitaron fábricas.
+Los militares alemanes en 1940, como [mencioné en otro post](/blog/lnds/2021/03/28/por-qu%C3%A9-y-c%C3%B3mo-gestionar-el-conocimiento/), creían que les tomaría a los aliados una generación formar "artesanos ópticos" capaces de igualar su calidad. No contaban con que los americanos industrializarían el proceso. No necesitaron artesanos; necesitaron fábricas.
 
 # El futuro es industrial, nos guste o no
 

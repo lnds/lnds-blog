@@ -34,7 +34,7 @@ Luego, Ryan Dahl, el creador de Node.js y Deno:
 
 {{<x user="rough__sea" id="2013280952370573666" >}}
 
-"The era of mass human-written software is over." Punto. Sin matices. El código escrito por humanos será cada vez más raro, reservado para "proyectos de vanidad" y sistemas críticos.
+"The era of humans writing code is over." Punto. Perturbador para quienes nos identificamos como ingenieros de software, admite, pero no menos cierto: seguiremos teniendo trabajo, pero ya no será escribir sintaxis directamente.
 
 Y finalmente, Grady Booch, uno de los padres del UML y la ingeniería de software moderna:
 

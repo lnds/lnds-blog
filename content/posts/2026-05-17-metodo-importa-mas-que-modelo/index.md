@@ -43,7 +43,7 @@ Sobre este espectro voy a ubicar los cuatro métodos: SDD, SPDD, BMAD y ELP. Y a
 
 ## Método 0: Vibe Coding
 
-Karpathy lo bautizó en 2024. El humano describe la vibra (the vibe), el como espera lo que quiere, lo que siente con el resultado, etc. El modelo implementa, casi no se revisa. Sirve para prototipos descartables, guiones de fin de semana, exploraciones rápidas. Falla, sin matices, en cualquier cosa que vaya a producción.
+Karpathy lo bautizó en 2025. El humano describe la vibra (the vibe), el como espera lo que quiere, lo que siente con el resultado, etc. El modelo implementa, casi no se revisa. Sirve para prototipos descartables, guiones de fin de semana, exploraciones rápidas. Falla, sin matices, en cualquier cosa que vaya a producción.
 
 Steve Krouse lo expuso claramente: *vibe code is legacy code*. Lo que escribes sin método hoy es la deuda técnica del próximo trimestre. Contra esta "joya" vamos a comparar los métodos que siguen.
 

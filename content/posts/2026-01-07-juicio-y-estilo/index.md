@@ -154,9 +154,9 @@ El futuro pertenece a quienes entienden sus sistemas. No a quienes generan más 
 
 ## La síntesis y el juicio
 
-Nations cierra su charla con una reflexión que merece repetirse:
+Hacia el final de su charla, Nations deja una reflexión que merece repetirse:
 
-> "No estamos usando IA para pensar por nosotros. La estamos usando para acelerar las partes mecánicas. El pensamiento, la síntesis y el juicio siguen siendo nuestros."
+> "No estamos usando IA para pensar por nosotros. La estamos usando para acelerar las partes mecánicas. [...] El pensamiento, la síntesis y el juicio siguen siendo nuestros."
 
 La inteligencia artificial ha hecho progresos significativos. Pero, citando a Knuth, aún hay una brecha enorme entre lo que los computadores pueden hacer y lo que las personas comunes pueden hacer. Las misteriosas ideas que la gente tiene al hablar, escuchar, crear, e incluso cuando están programando, siguen estando fuera del alcance de la IA. Aún mucho de lo que hacemos sigue siendo un arte.
 

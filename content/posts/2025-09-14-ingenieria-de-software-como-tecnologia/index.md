@@ -22,7 +22,7 @@ Meyer no hablaba de artesanos ni de arte. Hablaba de tecnología.
 
 Hoy, en 2025, efectivamente la ingeniería de software se ha convertido en una tecnología. Pero no como Meyer imaginaba.
 
-Claude Code, Cursor y otras herramientas han transformado el acto de programar en algo que se parece más a operar una máquina que a practicar un oficio. Como escribí en mi [último post](/blog/lnds/2025/08/27/el-fin-del-software-artesanal/), los telares de Jacquard del siglo XXI han llegado.
+Claude Code, Cursor y otras herramientas han transformado el acto de programar en algo que se parece más a operar una máquina que a practicar un oficio. Como escribí en mi [último post](/blog/lnds/2025/08/27/2025-08-27-el-fin-del-software-artesanal/), los telares de Jacquard del siglo XXI han llegado.
 
 La verificación que Meyer promovía, como una búsqueda obsesiva por la corrección formal, ha sido reemplazada por el "parece que funciona" del vibe coding. La concurrencia está casi en todas partes, pero escondidad en frameworks que pocos entienden realmente. Las interfaces web son comunes, pero generadas por LLMs que producen código que nadie revisará línea por línea.
 

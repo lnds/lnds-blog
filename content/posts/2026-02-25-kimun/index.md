@@ -152,4 +152,4 @@ Corre `km score .` en tu proyecto. Mira la nota. Si te sorprende, bien, para eso
 
 ---
 
-Si este tipo de contenido te interesa, suscríbete a mi [newsletter](https://lnds.net/newsletter/). Escribo sobre desarrollo, IA y las cosas que realmente importan en nuestra profesión.
+Si este tipo de contenido te interesa, suscríbete a mi [newsletter](https://newsletter.lnds.net/). Escribo sobre desarrollo, IA y las cosas que realmente importan en nuestra profesión.
