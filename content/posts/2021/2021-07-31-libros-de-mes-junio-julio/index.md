@@ -34,7 +34,7 @@ Recordaba hoy que originalmente los blogs eran similares a diarios de vida digit
 
 Claro que originalmente la periodicidad prometida era de un post mensual con mis lecturas del periodo, algo que me ha costado mantener, ya van dos posts que contienen las listas para dos meses. Pero bueno, algo a mejorar, al gual que mi frecuencia escribiendo para esta bitácora.
 
-Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: <https://lnds.net/categories/libros-del-mes/>.
+Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: <https://lnds.net/category/libros-del-mes/>.
 
 Vamos por la lista de libros leidos estos últimos dos meses.
 

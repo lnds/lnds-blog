@@ -71,5 +71,5 @@ El software [se sigue comiendo al mundo](/blog/lnds/2016/08/30/toda-empresa-es-d
 
 Ahora dime, ¿cuántos desarrolladores mantienen tu negocio y por qué tan pocos?
 
-[^1]: [Hablemos de Entropía de Software](/blog/lnds/2021/05/08/hablemos-de-entropia-de-software/)
+[^1]: [Hablemos de Entropía de Software](/blog/lnds/2021/05/08/hablemos-de-entrop%C3%ADa-de-software/)
 

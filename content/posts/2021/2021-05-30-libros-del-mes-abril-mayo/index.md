@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-Me [comprometí](/blog/lnds/2021/02/27/libros-del-mes/) a llevar este registro de los libros leidos en el mes, y me salté abril, así que vamos a recuperarnos con este post.
+Me [comprometí](/blog/lnds/2021/02/27/libros-del-mes-enero-y-febrero-2021/) a llevar este registro de los libros leidos en el mes, y me salté abril, así que vamos a recuperarnos con este post.
 
 El hecho de escribir estas reseñas me ayuda a sintetizar y recordar lo leido. Puedes leer para aprender, para pasar un buen momento, pero también, al menos en mi caso, para enseñar. Este año por primera vez estoy enseñando a alumnos de pregrado, así que  hay varias lecturas que he escogido para mantener mis conocimientos vigentes en el ámbito de ciberserguridad e ingeniería de software, que eso el ámbito donde principalmente me ha tocado enseñar. Así que vamos con la lista.
 
@@ -87,7 +87,7 @@ Link en Amazon: <https://amzn.to/34teMqR>
 
 ## Las Brigadas Fantasma
 
-De John Scalzi, la segunda parte de la saga de la [Vieja Guardia](https://lnds.net/blog/lnds/2021/02/27/libros-del-mes/#febrero-2021). Esta vez es una historia que involucra a un soldado de las brigadas fantasma, que se mencionan en la primera novela de la saga. El protagonista de la primera parte no aparece, pero sí su interés romántico, la Teniente Jane Sagan, aunque ella no es la protagonista. Hay menos acción que en La Vieja Guardia, pero una intriga interesante, e introduce los elementos que serán centrales en la tercera parte de la saga. A mi me gustó mucho los aspectos sobre la transferencia de la conciencia a cuerpos clonados, acá elabora un poco más los conceptos que introduce en la primera parte, pero brillan más en el libro que sigue.
+De John Scalzi, la segunda parte de la saga de la [Vieja Guardia](/blog/lnds/2021/02/27/libros-del-mes-enero-y-febrero-2021/#febrero-2021). Esta vez es una historia que involucra a un soldado de las brigadas fantasma, que se mencionan en la primera novela de la saga. El protagonista de la primera parte no aparece, pero sí su interés romántico, la Teniente Jane Sagan, aunque ella no es la protagonista. Hay menos acción que en La Vieja Guardia, pero una intriga interesante, e introduce los elementos que serán centrales en la tercera parte de la saga. A mi me gustó mucho los aspectos sobre la transferencia de la conciencia a cuerpos clonados, acá elabora un poco más los conceptos que introduce en la primera parte, pero brillan más en el libro que sigue.
 
 Link en Amazon: <https://amzn.to/2TorBjH>
 

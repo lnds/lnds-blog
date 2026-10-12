@@ -29,7 +29,7 @@ projects: []
 ---
 
 Me ha costado escribir en este blog, creo que debo organizar mi tiempo y encontrar espacio para publicar mis notas e ideas, pero ya estamos trabajando en eso. Mientras tanto, y para ejercitar el músculo acá va el avance de las lecturas mensuales, que prometí que registraría en esta bitácora.
-Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: <https://lnds.net/categories/libros-del-mes/>.
+Si les interesa revisar la lista de todos libros previos pueden revisarlos en esta enlace a la categoría: <https://lnds.net/category/libros-del-mes/>.
 
 ## Agosto 2021
 

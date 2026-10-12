@@ -59,7 +59,7 @@ Esta imagen se muestra en el sitio de ventas de NFT [Opensea](https://opensea.io
 
 ![](nft-opensea.png)
 
-La siguiente es la versión que verán quienes quieran adquirirlo en [Rarible](https://app-raribles.com):
+La siguiente es la versión que verán quienes quieran adquirirlo en [Rarible](https://rarible.com):
 
 ![](nft-rarible.png)
 

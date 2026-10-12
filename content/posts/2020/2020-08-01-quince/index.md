@@ -67,13 +67,13 @@ Y reflejan el problema de administrar un sitio tipo red social, consume mucho ti
 
 ## 2008
 
-- ["Atolondrados tecnológicos"](/blog/lnds/2008/05/25/atolondrados/tecnologicos): "Un [atolondrado](https://www.rae2.es/atolondrado) es aquel que procede sin reflexión, en eso estamos convirtiéndonos cuando no nos esforzamos por entender lo que estamos haciendo. Copiar y pegar no es la forma más eficiente de resolver un problema"
+- ["Atolondrados tecnológicos"](/blog/lnds/2008/05/25/atolondrados-tecnologicos): "Un [atolondrado](https://www.rae2.es/atolondrado) es aquel que procede sin reflexión, en eso estamos convirtiéndonos cuando no nos esforzamos por entender lo que estamos haciendo. Copiar y pegar no es la forma más eficiente de resolver un problema"
 
-- ["Los hackers del 5 de octubre"](/blog/lnds/2008/10/05/los-hacker-del-5-de-octubre): Un recuerdo y homenaje a dos grandes amigos.
+- ["Los hackers del 5 de octubre"](/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre): Un recuerdo y homenaje a dos grandes amigos.
 
 ## 2009
 
-- ["Cómo diseñar una API"](/blog/lnds/2009/03/23/como): hay algunas cosas que digo en este texto que me gustaría cambiar, pero sigue siendo una guía válida en 2020.
+- ["Cómo diseñar una API"](/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/): hay algunas cosas que digo en este texto que me gustaría cambiar, pero sigue siendo una guía válida en 2020.
 
 - ["El manejo informático de la identidad"](/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1): para manejar la identidad hay leyes y debemos respetarlas. Es una lástima que este modelo no haya prosperado.
 
@@ -97,7 +97,7 @@ Y reflejan el problema de administrar un sitio tipo red social, consume mucho ti
 
 - ["Un almuerzo en Lafayette Square"](/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square): si pudiera viaja en el tiempo visitaría este lugar en este instante para espiar esta conversación de Von Neummann con dos de sus alumnos más brillantes.
 
-![](/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square/neumann-alumnos_hu49cdc7c9fb8728c1e80c34ecb8cca4b2_170908_2000x2000_fit_q90_lanczos.jpg)
+![](/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square/neumann-alumnos.jpg)
 
 ## 2013
 

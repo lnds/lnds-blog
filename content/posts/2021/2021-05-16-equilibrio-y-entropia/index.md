@@ -30,7 +30,7 @@ image:
 projects: []
 ---
 
-Este es el segundo artículo de [esta serie](/categories/entropia-de-software/), en que estoy investigando el concepto de entropía de software.
+Este es el segundo artículo de [esta serie](/category/entrop%C3%ADa-de-software/), en que estoy investigando el concepto de entropía de software.
 
 Para continuar he elegido un ejercicio muy sencillo, que tomé de [Project Euler](https://projecteuler.net). En ese sitio tenemos una lista de problemas que se proponen para ser resueltos en diversos lenguajes de programación. Vamos a tomar el número uno, que nos dice lo siguiente:
 
@@ -73,7 +73,7 @@ class Euler1Test(unittest.TestCase):
     self.assertEqual(main(1000), 233168)
 ```
 
-Si recuerdan nuestra discusión en [el artículo anterior](/blog/lnds/2021/05/08/hablemos-de-entropia-de-software/) estamos ante la presencia de un programa tipo S, o `s-program`. La especificación es formal y podemos definir cuál es la salida esperada para cada entrada. Eso lo expresamos con algunos casos de prueba en nuestro test unitario.
+Si recuerdan nuestra discusión en [el artículo anterior](/blog/lnds/2021/05/08/hablemos-de-entrop%C3%ADa-de-software/) estamos ante la presencia de un programa tipo S, o `s-program`. La especificación es formal y podemos definir cuál es la salida esperada para cada entrada. Eso lo expresamos con algunos casos de prueba en nuestro test unitario.
 
 Resolveremos el problema, escribiendo la función `main` de la siguiente forma:
 

@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-Tal como [prometí](/blog/lnds/2021/02/27/libros-del-mes/), al final de cada mes publicaré los libros que he leido en el periodo. Así que sin mayores trámites acá van los libros del mes de marzo de 2021.
+Tal como [prometí](/blog/lnds/2021/02/27/libros-del-mes-enero-y-febrero-2021/), al final de cada mes publicaré los libros que he leido en el periodo. Así que sin mayores trámites acá van los libros del mes de marzo de 2021.
 
 ## The Murderbot Diaries
 

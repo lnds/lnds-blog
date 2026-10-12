@@ -139,7 +139,7 @@ Podemos ver a cada casa que Mina y Karen recuperan, como una componente de nuest
 
 Depende de la calidad de tu diseño. Si hay una buena modularización, la tendrás más fácil. Si no, tienes mucho trabajo (como tratar de enderezar el muro de la figura).
 
-Cada módulo se relaciona con otro mediante una interfaz, algo que llamamos [API](/blog/lnds/2009/03/20/como-disenar-una-api/).
+Cada módulo se relaciona con otro mediante una interfaz, algo que llamamos [API](/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/).
 
 Hoy en día hay mucha gente que cuando hablamos de API piensa en endpoint usando el protocolo REST. Pero el concepto de API es muy antiguo, existe desde al menos la década de 1970.  Se consolidó en la década de 1980 con el surgimiento de la Programación Orientada al Objeto y el desarrollo de componentes.
 

@@ -70,7 +70,7 @@ Otra cosa interesante son los cambios en mi vida laboral. Tengo que decir que me
 
 He estado reflexionando mucho en estos meses y una de las conclusiones a las que he llegado es que en mi vida profesional nunca había trabajdo en desafíos como los que me encuentro ahora. No estoy subestimando mis anteriores trabajos, lo que estoy diciendo es que me encuentro frente a una naturaleza distinta de desafíos.
 
-Si recuerdan lo que he escrito sobre las [ideas de Lehman](/blog/lnds/2021/05/08/hablemos-de-entropia-de-software/), ahí vimos que existen ciertos tipos de sistemas, que el autor llama `E-Programs` que corresponden a aquellos soluciones que no sólo evolucionan para atender nuevas necesidades externas, sino que estos sistemas alteran de manera profunda el entorno y a las personas que los operan,  generando un ciclo de retro alimentación que hace aumentar la complejidad intrínseca de los mismos.
+Si recuerdan lo que he escrito sobre las [ideas de Lehman](/blog/lnds/2021/05/08/hablemos-de-entrop%C3%ADa-de-software/), ahí vimos que existen ciertos tipos de sistemas, que el autor llama `E-Programs` que corresponden a aquellos soluciones que no sólo evolucionan para atender nuevas necesidades externas, sino que estos sistemas alteran de manera profunda el entorno y a las personas que los operan,  generando un ciclo de retro alimentación que hace aumentar la complejidad intrínseca de los mismos.
 
 Como ingeniero me ha tocado desarrollar muchos sistemas de tipo S o P, como los llama Lehman. En estos programas lo que ocurre es que debemos adaptar nuestra solución a nuevas abstracciones más refinadas del mundo. Esto pasa porque en general estas nuevas abstracciones surgen de normas, leyes, decretos, o nuevos procedimientos dictados por quienes pretenden normar la complejidad de la sociedad humana. No son sistemas evolutivos en si mismos, son sistemas normados. Su complejidad reside en la mayor o menor arbitrariedad de los requisitos. Pero no alteran fundamentalmente ni al entorno ni a las personas.
 
@@ -114,7 +114,7 @@ Eso ha pasado con Cornershop. Para entender como funciona yo pienso en este conc
 
 Voy a tratar de explicarlo a través de uno de los aspectos que más contrasta, y es fácil de explicar.
 
-Antes [les he contado sobre mi vida profesional](https://lnds.net/categories/el-fin-de-la-agilidad/) y en particular de Previred.
+Antes [les he contado sobre mi vida profesional](/category/el-fin-de-la-agilidad/) y en particular de Previred.
 Tal como conté antes, en Previred tuve la suerte de formar, con mucha libertad, [mi propia unidad de desarrollo](https://lnds.net/blog/lnds/2019/08/15/el-fin-de-la-agilidad/). Así que pude probar distintos procesos de desarrollo, más o menos ágiles. Con el tiempo algo nos caracterizaba como equipo.
 Aunque eramos un equipo pequeño estabamos enfocados en construir varios productos o servicios nuevos.
 
