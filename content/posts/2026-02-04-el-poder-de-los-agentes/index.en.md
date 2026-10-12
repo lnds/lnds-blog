@@ -24,7 +24,7 @@ Hahaha, back to programming by hand...
 
 Or not?
 
-I recently discovered that you can try other models as good as Anthropic's, and they're open source. The problem is the cost (those [few tokens more](/blog/lnds/2025/07/30/por-unos-pocos-tokens-más)). But I've been experimenting with [Synthetic](https://synthetic.new/) and [OpenCode](https://opencode.ai/) as an alternative (for personal projects).
+I recently discovered that you can try other models as good as Anthropic's, and they're open source. The problem is the cost (those [few tokens more](/en/blog/lnds/2025/07/30/for-a-few-tokens-more/)). But I've been experimenting with [Synthetic](https://synthetic.new/) and [OpenCode](https://opencode.ai/) as an alternative (for personal projects).
 
 The interesting part is how you keep learning, and little by little, with [deer steps](/en/blog/lnds/2025/10/31/maps-or-compasses/), you build mastery.
 
@@ -60,7 +60,7 @@ I implemented a system to remember the things I need to do, with reminders. A mo
 
 {{< figure src="jaime2.jpg" caption="13:19 - Fifteen minutes later, playing chess with Jaime" >}}
 
-From the idea to the first move: fifteen minutes. That includes Jaime understanding the requirement, generating the code for the algebraic notation interpreter, testing it, and leaving it running. Vibe coding at its finest. Although, as I wrote in [Trust the process](/blog/lnds/2025/07/31/2025-07-31-confia-en-el-proceso), this works because there's someone who knows how to orchestrate.
+From the idea to the first move: fifteen minutes. That includes Jaime understanding the requirement, generating the code for the algebraic notation interpreter, testing it, and leaving it running. Vibe coding at its finest. Although, as I wrote in [Trust the process](/en/blog/lnds/2025/07/31/trust-the-process/), this works because there's someone who knows how to orchestrate.
 
 Since I'm a programmer, I've thought about writing the plugins and tools the agent uses myself. In fact it's already using a tool I'm writing to manage my to-do lists. I'll automate other tasks slowly, as I gain confidence in the tool and the tool gains maturity. It's mostly a hobby, but a hobby I treat with production discipline.
 

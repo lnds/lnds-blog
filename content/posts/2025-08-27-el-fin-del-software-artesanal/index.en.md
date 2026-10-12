@@ -58,7 +58,7 @@ Both are right.
 
 In the transition to the industrial era there are always losses. Tacit knowledge is lost, the intuition that comes from years of practice, the artisan's pride. But we gain productivity, accessibility, speed.
 
-The German military in 1940, as [I mentioned in another post](/blog/lnds/2021/03/28/por-qu%C3%A9-y-c%C3%B3mo-gestionar-el-conocimiento/), believed it would take the Allies a generation to train "optical craftsmen" capable of matching their quality. They didn't count on the Americans industrializing the process. They didn't need craftsmen; they needed factories.
+The German military in 1940, as [I mentioned in another post](/en/blog/lnds/2021/03/28/why-and-how-to-manage-knowledge/), believed it would take the Allies a generation to train "optical craftsmen" capable of matching their quality. They didn't count on the Americans industrializing the process. They didn't need craftsmen; they needed factories.
 
 # The future is industrial, like it or not
 

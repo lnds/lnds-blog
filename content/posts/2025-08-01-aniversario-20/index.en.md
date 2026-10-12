@@ -19,10 +19,10 @@ That has changed. I'm very motivated, and you can tell: this week I've published
 
 If you're interested in reading them, the series consists of the following articles:
 
-- [In the beginning was the command line](/blog/lnds/2025/07/27/al-principio-fue-la-l%C3%ADnea-de-comandos.../)
-- [To Vibe or not To Vibe](/blog/lnds/2025/07/29/to-vibe-or-not-to-vibe-that-is-the-question/)
-- [For a few tokens more](/blog/lnds/2025/07/30/por-unos-pocos-tokens-m%C3%A1s/)
-- [Trust the process](/blog/lnds/2025/07/31/2025-07-31-confia-en-el-proceso/)
+- [In the beginning was the command line](/en/blog/lnds/2025/07/27/in-the-beginning-was-the-command-line/)
+- [To vibe or not to vibe, that is the question](/en/blog/lnds/2025/07/29/to-vibe-or-not-to-vibe/)
+- [For a few tokens more](/en/blog/lnds/2025/07/30/for-a-few-tokens-more/)
+- [Trust the process](/en/blog/lnds/2025/07/31/trust-the-process/)
 
 In each article I explore some aspect of using AI to build software. In particular, my observations from using Claude Code.
 
