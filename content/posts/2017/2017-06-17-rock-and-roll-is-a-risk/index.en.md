@@ -36,9 +36,9 @@ technology and science from my own perspective. Write my own rock
 song, risk being ridiculed.
 
 But writing has an opportunity cost, and a blog has other
-needs on top of that. For example, years ago I decided to [abandon Wordpress](/blog/lnds/2014/07/16/razones),
+needs on top of that. For example, years ago I decided to [abandon Wordpress](/en/blog/lnds/2014/07/16/reasons-for-prosa/),
  and I couldn't find any platform that gave me what I needed, 
- [so I built my own blog server](/blog/lnds/2014/07/16/prosa), but that
+ [so I built my own blog server](/en/blog/lnds/2014/07/16/prosa/), but that
 took extra effort I never counted on when I got into this.
 
 > You can never do anything by half. Do you understand that?\

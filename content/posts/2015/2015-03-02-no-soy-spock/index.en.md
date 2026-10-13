@@ -128,7 +128,7 @@ them, and trying to repress them is not good.
 
 What we should take from the character is his wisdom and his ability to look for
 peaceful solutions to problems. Sometimes it's good to step back,
-think with a cooler head and [use logic](/blog/lnds/2010/7/17/logico-y-razonable),
+think with a cooler head and [use logic](/en/blog/lnds/2010/07/17/logical-and-reasonable/),
 which is nothing more than looking for the most reasonable solution.
 
 This post is to express my affection for the character and for the man who played him, the

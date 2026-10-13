@@ -47,10 +47,10 @@ happy.
 
 The event was interesting, because there I got to attend [the launch of
 the first version of
-Openshift](https://www.lnds.net/blog/2011/05/red-hat-jboss-summit-2011.html).
+Openshift](/en/blog/lnds/2011/05/04/red-hat-jboss-summit-2011/).
 
 That is how the memories of what I saw on [that visit to
-Borland in the 90s](https://www.lnds.net/blog/lnds/2019/3/18/el-fin-de-la-agilidad)
+Borland in the 90s](/en/blog/lnds/2019/03/18/the-end-of-agile-ii/)
 came back to life. I wanted us to work with continuous integration. It
 would still be a couple of years before we started implementing this
 technology in our company.

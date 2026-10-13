@@ -31,7 +31,7 @@ So I had to relearn a lot of things, and improve my practices as a software engi
 That's how, 3 years ago, I made the decision to make the terminal my main
 work tool. I wanted to boost my productivity, and that's when
 I went back to one of my
-[favorite text editors](/blog/lnds/2012/04/05/el-mejor-editor-de-texto-de-todo-el-mundo-mundial),
+[favorite text editors](/en/blog/lnds/2012/04/05/the-best-text-editor-in-the-whole-wide-world/),
 but in its new incarnation: [NeoVim](https://neovim.io/).
 
 ![What NeoVim looks like in my terminal](term.gif "NeoVim in my terminal")

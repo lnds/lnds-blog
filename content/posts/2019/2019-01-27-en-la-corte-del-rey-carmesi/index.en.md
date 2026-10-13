@@ -484,7 +484,7 @@ The latest incarnation of King Crimson has the peculiarity of including
 three drummers. Among them is Gavin Harrison, the former drummer of
 Porcupine Tree (whom we talked about before, [when we solved this
 problem in
-Clojure](/blog/lnds/2017/8/29/occams-razor)). Robert
+Clojure](/en/blog/lnds/2017/08/29/occams-razor/)). Robert
 Fripp collaborated with Porcupine Tree on the album Fear of a Blank
 Planet.
 

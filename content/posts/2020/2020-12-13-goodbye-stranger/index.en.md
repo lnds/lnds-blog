@@ -67,7 +67,7 @@ Over the last two years I felt worn out, tired and sometimes bored. But it's not
 
 It just happens that a moment comes when you don't feel aligned with the rest of the organization's leadership.
 
-That's when you start complaining, and I've told you before what I think [about complaining](/blog/lnds/2012/03/15/filoctetes/). The organization has its truth, and I have mine, and as Supertramp says, I have to have things my own way, to keep me in my youth.
+That's when you start complaining, and I've told you before what I think [about complaining](/en/blog/lnds/2012/03/15/philoctetes/). The organization has its truth, and I have mine, and as Supertramp says, I have to have things my own way, to keep me in my youth.
 
 >Like a ship without an anchor\
 >Like a slave without a chain\

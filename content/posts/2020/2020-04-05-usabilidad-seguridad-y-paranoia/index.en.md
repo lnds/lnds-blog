@@ -37,7 +37,7 @@ You're quite safe here\
 
 Some eight or nine years ago we were about to migrate from [SVN](https://subversion.apache.org/) to [GIT](https://git-scm.com/) at my job.
 
-We did some estimates and figured that in a couple of weeks we could migrate all our repositories to this new [distributed version control system](/blog/lnds/2010/07/11/control-de-versiones-distribuido/).
+We did some estimates and figured that in a couple of weeks we could migrate all our repositories to this new [distributed version control system](/en/blog/lnds/2010/07/11/distributed-version-control/).
 
 Given that, I asked for GIT to be installed on the computers of the development team. The surprise was that the internal IT team refused, saying they couldn't install software "with serious security vulnerabilities" on our machines.
 

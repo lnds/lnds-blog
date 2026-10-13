@@ -65,7 +65,7 @@ But he also described the professional programmer, and the difference is crucial
 
 > "The professional regards programming as a means toward an end, not as an end in itself. **His satisfaction comes from having solved a substantive problem, not from having bent a computer to his will.**"
 
-I've quoted Weizenbaum in earlier posts, in ["Creators of universes"](/blog/lnds/2011/10/11/creadores-de-universos) as well as in ["We are not cooks"](/blog/lnds/2013/03/08/no-somos-cocineros). I think his warning is more urgent today. Because with generative AI, the risk of compulsion multiplies.
+I've quoted Weizenbaum in earlier posts, in ["Creators of universes"](/en/blog/lnds/2011/10/11/creators-of-universes/) as well as in ["We are not cooks"](/en/blog/lnds/2013/03/08/we-are-not-cooks/). I think his warning is more urgent today. Because with generative AI, the risk of compulsion multiplies.
 
 When Weizenbaum was writing, interaction with the computer had natural friction: slow compilers, long feedback cycles, forced time to reflect. Today that friction is gone. The code appears instantly. The temptation to keep generating, to add one more thing, to "improve" something that already works, is constant.
 
@@ -81,7 +81,7 @@ I'm lucky to work with very sharp people, like Leo Soto, who put it this way:
 
 > "The initiative over what to build, how to build it and how to verify that we built it right is still on our side. And that is still programming."
 
-This is exactly something we already discussed in 2012 in ["What is programming?"](/blog/lnds/2012/05/09/que-es-programar): **programming is design**. The source code is the final design, not a separate construction artifact.
+This is exactly something we already discussed in 2012 in ["What is programming?"](/en/blog/lnds/2012/05/09/what-is-programming/): **programming is design**. The source code is the final design, not a separate construction artifact.
 If you're one of those old-timers who still sees the programmer as a *code monkey*, a code grinder who has to be told the steps in a flowchart, let me tell you that you're very wrong.
 
 AI doesn't change this. It accentuates it.
@@ -136,7 +136,7 @@ As Nations says: "Every time we skip thinking to keep up with generation speed, 
 
 ## Beauty, goodness and truth
 
-In ["We are not cooks"](/blog/lnds/2013/03/08/no-somos-cocineros) I wrote that if there's no beauty, goodness and truth in the professional's work, and only the compulsive desire to please, then the profession is no longer worth pursuing.
+In ["We are not cooks"](/en/blog/lnds/2013/03/08/we-are-not-cooks/) I wrote that if there's no beauty, goodness and truth in the professional's work, and only the compulsive desire to please, then the profession is no longer worth pursuing.
 
 As Dijkstra would say: "Beauty is our business."
 
@@ -190,9 +190,9 @@ Here's Jake Nations's talk:
 
 **Related posts on this blog:**
 
-- [Creators of universes](/blog/lnds/2011/10/11/creadores-de-universos) (2011)
-- [What is programming?](/blog/lnds/2012/05/09/que-es-programar) (2012)
-- [We are not cooks](/blog/lnds/2013/03/08/no-somos-cocineros) (2013)
+- [Creators of universes](/en/blog/lnds/2011/10/11/creators-of-universes/) (2011)
+- [What is programming?](/en/blog/lnds/2012/05/09/what-is-programming/) (2012)
+- [We are not cooks](/en/blog/lnds/2013/03/08/we-are-not-cooks/) (2013)
 - [Every company is a software company (or will be)](/en/blog/lnds/2016/08/30/every-company-is-a-software-company/) (2016)
 - [Occam's Razor](/en/blog/lnds/2017/08/29/occams-razor/) (2017)
 - [The end of artisanal software](/en/blog/lnds/2025/08/27/the-end-of-artisanal-software/) (2025)

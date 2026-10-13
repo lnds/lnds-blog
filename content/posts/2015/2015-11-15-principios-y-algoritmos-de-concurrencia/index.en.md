@@ -24,7 +24,7 @@ APIs that had serious issues handling concurrency.
 
 It wasn't the first time I had dealt with these problems in my
 professional life. A few years ago I told you
-["some debugging stories"](/blog/lnds/2010/08/21/historias-de-depuracion),
+["some debugging stories"](/en/blog/lnds/2010/08/21/debugging-stories/),
 one of which involved a
 ["race condition"](//es.wikipedia.org/wiki/Condici%C3%B3n_de_carrera).
 Also, not long ago, I ran into a synchronization problem

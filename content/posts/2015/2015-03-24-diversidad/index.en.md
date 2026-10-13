@@ -13,7 +13,7 @@ US\$ 300 million fund to promote diversity in technology.
 I'm only going to comment on this with two photographs.
 
 The first one is from around 1940 and shows two of
-[the women who were the original ENIAC programmers](/blog/2010/08/las-programadoras-del-eniac.html):
+[the women who were the original ENIAC programmers](/en/blog/lnds/2010/08/03/the-eniac-programmers/):
 
 ![](https://d2dspjyoh5c79p.cloudfront.net/f688fc7a-d295-11e4-b8cf-a5fa7563263c-aa9f18b7)
 

@@ -10,7 +10,7 @@ The Argentine rock band Los Enanitos Verdes have a song that says "adding up tim
 
 What makes you a senior developer is gaining relevant experiences, ones that have made you grow as a professional. I know plenty of people who have accumulated time, but not experience.
 
-That's why a job interview shouldn't consist only of going over the résumé and asking questions. You have to see whether a ["juggler knows how to juggle"](/blog/lnds/2010/12/26/como-contratar-malabaristas/), as I wrote in 2010.
+That's why a job interview shouldn't consist only of going over the résumé and asking questions. You have to see whether a ["juggler knows how to juggle"](/en/blog/lnds/2010/12/26/how-to-hire-jugglers/), as I wrote in 2010.
 
 In that article I quoted DeMarco and Lister, authors of "Peopleware": "you wouldn't hire a juggler without seeing him juggle, but we hire engineers without seeing them program".
 

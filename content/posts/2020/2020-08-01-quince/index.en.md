@@ -80,41 +80,41 @@ And they reflect the problem of running a social-network kind of site: it eats u
 
 ## 2010
 
-- ["Can I trust you? (Ethics as a new level of competitive advantage)"](/blog/lnds/2010/01/20/puedo-confiar-en-ti-la-etica-como-un-nuevo-nivel-de-ventaja-competitiva): although we've seen Google pick up questionable practices, the essence of what this article talks about still holds, and we must see to it that it's honored.
+- ["Can I trust you? (Ethics as a new level of competitive advantage)"](/en/blog/lnds/2010/01/20/can-i-trust-you-ethics-as-competitive-advantage/): although we've seen Google pick up questionable practices, the essence of what this article talks about still holds, and we must see to it that it's honored.
 
-- ["Stop the clock, squash the bug"](/blog/lnds/2010/05/27/deten-el-reloj-aplasta-al-bicho): strictly speaking this article is a translation of a post from an English blog called ["Word Aligned"](https://wordaligned.org) by Thomas Guest. There are many truths in this article, and it's also a lot of fun (if you're a programmer :wink:).
+- ["Stop the clock, squash the bug"](/en/blog/lnds/2010/05/27/stop-the-clock-squash-the-bug/): strictly speaking this article is a translation of a post from an English blog called ["Word Aligned"](https://wordaligned.org) by Thomas Guest. There are many truths in this article, and it's also a lot of fun (if you're a programmer :wink:).
 
 ![](/blog/lnds/2010/05/27/deten-el-reloj-aplasta-al-bicho/spider.jpg)
 
 ## 2011
 
-- ["Measure and react"](/blog/lnds/2011/08/04/medir-y-reaccionar): without knowing it, I wrote a post about one of the most important principles behind why companies should adopt agile.
+- ["Measure and react"](/en/blog/lnds/2011/08/04/measure-and-react/): without knowing it, I wrote a post about one of the most important principles behind why companies should adopt agile.
 
-- ["Irrational decisions"](/blog/lnds/2011/07/05/decisiones-irracionales): this is the first article in a series I wrote that year about the rationality of our decisions and the fallacy of common sense. I never put it in a book; I think that's something I should fix.
+- ["Irrational decisions"](/en/blog/lnds/2011/07/05/irrational-decisions/): this is the first article in a series I wrote that year about the rationality of our decisions and the fallacy of common sense. I never put it in a book; I think that's something I should fix.
 
 ## 2012
 
-- ["What is the truth?"](/blog/lnds/2012/03/05/cual-es-la-verdad): this is a post about post-truth, before that term became popular and people started using it.
+- ["What is the truth?"](/en/blog/lnds/2012/03/05/what-is-the-truth/): this is a post about post-truth, before that term became popular and people started using it.
 
-- ["A lunch at Lafayette Square"](/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square): if I could travel in time I would visit this place at this exact moment to eavesdrop on this conversation between Von Neumann and two of his most brilliant students.
+- ["A lunch at Lafayette Square"](/en/blog/lnds/2012/03/31/a-lunch-in-lafayette-square/): if I could travel in time I would visit this place at this exact moment to eavesdrop on this conversation between Von Neumann and two of his most brilliant students.
 
 ![](/blog/lnds/2012/03/31/un-almuerzo-en-lafayette-square/neumann-alumnos.jpg)
 
 ## 2013
 
-- ["We are not cooks"](/blog/lnds/2013/03/08/no-somos-cocineros): a long post, and I mean long, written to answer an academic's thesis that I thought was wrong at the time, a position I still largely hold. Courage to whoever dares to read it and comment on it.
+- ["We are not cooks"](/en/blog/lnds/2013/03/08/we-are-not-cooks/): a long post, and I mean long, written to answer an academic's thesis that I thought was wrong at the time, a position I still largely hold. Courage to whoever dares to read it and comment on it.
 
 ![](/blog/lnds/2013/03/08/no-somos-cocineros/duty_calls.png)
 
-- ["It can't be done!"](/blog/lnds/2013/08/08/no-se-puede): seven years have gone by and I'm still fighting with Grumpy Cat.
+- ["It can't be done!"](/en/blog/lnds/2013/08/08/it-cant-be-done/): seven years have gone by and I'm still fighting with Grumpy Cat.
 
 ## 2014
 
-- ["Sex, pianos and WiFi"](/blog/lnds/2014/03/10/sexo-pianos-y-wifi): talking about Hedy Lamarr's contribution to technology has become a commonplace, but in 2014 few people knew her story. In fact, even today the story gets told incompletely, leaving out George Antheil's contribution and the strange relationship between these two artists who, united in frivolity, ended up developing such a momentous technology. This must be one of the few texts on the subject that tells the whole story.
+- ["Sex, pianos and WiFi"](/en/blog/lnds/2014/03/10/sex-pianos-and-wifi/): talking about Hedy Lamarr's contribution to technology has become a commonplace, but in 2014 few people knew her story. In fact, even today the story gets told incompletely, leaving out George Antheil's contribution and the strange relationship between these two artists who, united in frivolity, ended up developing such a momentous technology. This must be one of the few texts on the subject that tells the whole story.
 
 ![](/blog/lnds/2014/03/10/sexo-pianos-y-wifi/hedy_lamarr2.jpg)
 
-- ["A set of recurring conversations"](/blog/lnds/2014/09/07/un-conjunto-de-conversaciones-recurrentes): my favorite definition of a team. And when those conversations stop happening, or turn dissonant, the team ceases to exist.
+- ["A set of recurring conversations"](/en/blog/lnds/2014/09/07/a-set-of-recurring-conversations/): my favorite definition of a team. And when those conversations stop happening, or turn dissonant, the team ceases to exist.
 
 ## 2015
 

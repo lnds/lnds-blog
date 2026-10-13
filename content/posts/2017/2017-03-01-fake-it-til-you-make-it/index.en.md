@@ -23,7 +23,7 @@ goes back even further.
 I named the language Ogú, after the character created by
 [Themo Lobos](//es.wikipedia.org/wiki/Themo_Lobos), the Chilean cartoonist: the likable
 caveman who is Mampato's friend. I also
-[told you](/blog/lnds/2012/07/25/gracias-themo) how I met the
+[told you](/en/blog/lnds/2012/07/25/thank-you-themo/) how I met the
 illustrator's daughter to get permission to use an image of Ogú
 as the project's mascot.
 

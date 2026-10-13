@@ -26,7 +26,7 @@ second is the inability to deal with what is complex.
 ## Complex versus complicated
 
 We've already talked about this topic several times on this blog. In
-the article ["Lo simple, lo complejo, lo complicado"](/blog/lnds/2010/06/02/lo-simple-lo-complejo-y-lo-complicado) ("The simple, the complex, the complicated") I say the following:
+the article ["Lo simple, lo complejo, lo complicado"](/en/blog/lnds/2010/06/02/the-simple-the-complex-and-the-complicated/) ("The simple, the complex, the complicated") I say the following:
 
 > When we say something is complex we mean to suggest that it is the
 > inevitable result of combining the elements, and that this doesn't

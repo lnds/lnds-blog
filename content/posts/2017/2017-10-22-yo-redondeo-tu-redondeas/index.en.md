@@ -65,7 +65,7 @@ on many occasions the Chilean government has set strange
 standards without measuring the impact on the IT industry, for example in
 the handling of time zones, which I have written about
 before 
-("[time as a parameter [2011]"](/blog/lnds/2011/03/30/la-hora-como-un-parametro)).
+("[time as a parameter [2011]"](/en/blog/lnds/2011/03/30/time-as-a-parameter/)).
 
 One of the criticisms of this rounding measure comes from Alejandro Barros,
 with whom I have complained about the authorities' arbitrary decisions on

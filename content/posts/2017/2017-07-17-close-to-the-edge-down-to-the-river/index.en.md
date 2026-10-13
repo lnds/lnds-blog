@@ -96,7 +96,7 @@ compression using Huffman coding. You can read the explanation
 of this challenge in [my previous article](/en/blog/lnds/2017/06/10/pour-some-syntactic-sugar-on-me/).
 
 My first solution in Scala is a straight translation of the
-Kotlin version [described earlier](/blog/lnds/2017/6/10/pour-some-syntactic-sugar-on-me).
+Kotlin version [described earlier](/en/blog/lnds/2017/06/10/pour-some-syntactic-sugar-on-me/).
 
 Of course, doing that is a bit of a letdown. For example,
 consider this code fragment:

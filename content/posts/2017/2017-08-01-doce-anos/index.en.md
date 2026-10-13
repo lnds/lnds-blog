@@ -18,22 +18,22 @@ celebrate, I'll leave you a selection of twelve articles, one per year.
 I hope you enjoy them, and I hope to keep at this for twelve more years:
 
 -   2017: [Walking with dromedaries, reflections on Conway's Law](/en/blog/lnds/2017/06/26/walking-with-dromedaries/)
--   2016: [Every company is a software company, or will be](/blog/lnds/2016/8/30/toda-empresa-es-de-software-o-lo-sera),
+-   2016: [Every company is a software company, or will be](/en/blog/lnds/2016/08/30/every-company-is-a-software-company/),
     a reflection on the laws of computing, complexity and
     entrepreneurship. Or put another way, how Gödel's theorem guarantees
     there will always be something to start a business on.
--   2015: [Revelations](/blog/lnds/2015/10/1/revelaciones),
+-   2015: [Revelations](/en/blog/lnds/2015/10/01/revelations/),
     one night I received a visit and was swept up into a state of
     apocalyptic enlightenment.
--   2014: [VUCA](/blog/lnds/2014/10/21/vica),
+-   2014: [VUCA](/en/blog/lnds/2014/10/21/vuca/),
     Volatility, Uncertainty, Complexity and Ambiguity.
--   2013: [Mars needs women](/blog/lnds/2013/9/8/marte-necesita-mujeres),
+-   2013: [Mars needs women](/en/blog/lnds/2013/09/08/mars-needs-women/),
     why mixed teams are better.
 -   2012: [Sayings, madmen and trains]( /blog/lnds/2012/12/29/dichos-locos-y-trenes),
     where I tell a couple of jokes.
--   2011: [Reading comprehension](/blog/lnds/2011/11/12/comprension-de-lectura),
+-   2011: [Reading comprehension](/en/blog/lnds/2011/11/12/reading-comprehension/),
     a mistake that has caused plenty of headaches
--   2010: [How to hire jugglers](http://www.prosa.io/blog/lnds/2010/12/26/como-contratar-malabaristas)
+-   2010: [How to hire jugglers](/en/blog/lnds/2010/12/26/how-to-hire-jugglers/)
 -   2009: [The Dreystadt techniques](http://www.prosa.io/blog/lnds/2009/11/14/las-tecnicas-de-dreystadt),
     a bittersweet story.
 -   2008: [The hackers of October 5](http://www.prosa.io/blog/lnds/2008/10/5/los-hackers-del-5-de-octubre), a tribute to two great friends.

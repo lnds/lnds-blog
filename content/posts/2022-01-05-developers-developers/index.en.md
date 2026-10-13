@@ -34,7 +34,7 @@ Even though it became a meme, and we all laughed at him, it looks like Ballmer w
 
 Let's do an exercise. Suppose a developer writes, on average, between 20 and 100 useful lines of code a day, depending on the programming language, of course. The truth is they read and edit (add and delete) probably more lines than that. But let's set an average value, say 60 lines of useful code, and then penalize that average down to 40, because not every day is that “productive”.
 
-Suppose we get that poor developer to concentrate and work on the code for about 4 hours (a high number, because it's hard to [get in the zone](/blog/lnds/2010/08/09/estado-de-flujo/), and on top of that to avoid being interrupted). That would give us about 10 lines per hour.
+Suppose we get that poor developer to concentrate and work on the code for about 4 hours (a high number, because it's hard to [get in the zone](/en/blog/lnds/2010/08/09/flow-state/), and on top of that to avoid being interrupted). That would give us about 10 lines per hour.
 
 Over a year that comes to about 9,800 lines (the math is 4x5=20 hours a week editing code, 20x49=980 hours => 9,800 lines).
 

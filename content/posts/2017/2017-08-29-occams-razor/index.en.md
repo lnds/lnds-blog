@@ -104,7 +104,7 @@ solve our challenge number four.
 
 In the [first part](/en/blog/lnds/2017/06/10/pour-some-syntactic-sugar-on-me/)
 of this series I introduced the problem and presented the solution in Kotlin. In
-the [second part](/blog/lnds/2017/7/17/close-to-the-edge-down-to-the-river)
+the [second part](/en/blog/lnds/2017/07/17/close-to-the-edge-down-by-the-river/)
 I showed the solution in Scala.
 
 Now it's time to solve Huffman coding using Clojure, the
@@ -359,7 +359,7 @@ that's more conducive to experimentation and innovation."
 I believe there is a difference between the programmer (who is an artist
 in my view) and the coder. The programmer goes beyond pleasing the
 user; he doesn't give users what they ask for, but what they need 
-([I've talked about this before](/blog/lnds/2013/03/23/expectativas)). In that
+([I've talked about this before](/en/blog/lnds/2013/03/23/expectations/)). In that
 sense the coder is like the entertainer Wilson talks about. The
 artist and the programmer, on the other hand, are innovators and surprise the
 people on the receiving end of their work.

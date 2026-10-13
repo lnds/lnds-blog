@@ -189,7 +189,7 @@ getting to know Matías and Javiera, Kika's two young children. With
 little Javiera it was easier: she was sweet to me, loved playing
 with my hair and welcomed me from the start. Matías, the older one, was more
 jealous. When he turned 21 he wrote our story on this very
-blog; you can read it here: [A boy and technology](/blog/lnds/2010/09/04/un-nino-y-la-tecnologia).
+blog; you can read it here: [A boy and technology](/en/blog/lnds/2010/09/04/a-kid-and-technology/).
 
 
 I remember telling them mythology stories at night, before

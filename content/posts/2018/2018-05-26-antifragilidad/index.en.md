@@ -15,7 +15,7 @@ soundly, secure in the knowledge that every process and system was
 running without problems.
 
 I don't agree with that; I think it's a futile ambition. It's the same
-thing that happens with people who only want [to be happy](/blog/lnds/2010/10/02/ser-y-estar). 
+thing that happens with people who only want [to be happy](/en/blog/lnds/2010/10/02/ser-and-estar/). 
 Those aspirations strike me as childish, and they keep you from growing,
 from developing. But in the world of business, and of the technology
 that supports the business, that outlook can even be counterproductive.

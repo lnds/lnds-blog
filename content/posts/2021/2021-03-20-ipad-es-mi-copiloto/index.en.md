@@ -91,7 +91,7 @@ It's a protocol that improves the remote connection experience over what SSH giv
 
 {{< youtube XsIxNYl0oyU >}}
 
-When I use Blink, on the host I connect to I have VIM and TMUX, tools that let you work remotely in peace. I've learned to appreciate VIM all over again, which as you know [is one of my favorite editors](https://lnds.net/blog/lnds/2012/04/05/el-mejor-editor-de-texto-de-todo-el-mundo-mundial/).
+When I use Blink, on the host I connect to I have VIM and TMUX, tools that let you work remotely in peace. I've learned to appreciate VIM all over again, which as you know [is one of my favorite editors](/en/blog/lnds/2012/04/05/the-best-text-editor-in-the-whole-wide-world/).
 
 Another utility I use is [Mocha WOL](https://apps.apple.com/es/app/mocha-wol/id422625778), a simple app for "waking up" a computer when it's idle.
 

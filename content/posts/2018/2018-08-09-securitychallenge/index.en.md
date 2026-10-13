@@ -34,7 +34,7 @@ society in the subject.
 
 For me these last few months have been months of reflection on how we
 have handled cybersecurity. I have watched incidents, vulnerabilities,
-[botched disclosures](/blog/lnds/2012/11/20/disclosure-no-es-llegar-y-hacerlo),
+[botched disclosures](/en/blog/lnds/2012/11/20/disclosure-you-cant-just-go-and-do-it/),
 the recent interest of Whatsapp/Telegram/[Signal](https://signal.org/)
 groups in cybersecurity (when it used to be a subject they didn't much
 care about), but I have also witnessed false prophets. With the recent

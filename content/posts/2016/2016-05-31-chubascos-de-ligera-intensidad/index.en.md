@@ -22,7 +22,7 @@ research and write the code. I hope to get back to my publishing
 pace in the coming challenges.
 
 But the important thing is to finish what you start, so here goes the second
-part of the [Weather report](/blog/lnds/2016/3/31/reporte-del-clima).
+part of the [Weather report](/en/blog/lnds/2016/03/31/weather-report/).
 
 ![Lee Sklar](//d2dspjyoh5c79p.cloudfront.net/ba9ce4db-25ed-11e6-a13c-3371c0364c63-aa9f18b7)
 
@@ -241,7 +241,7 @@ What happens is that getLine is not a pure function, something we don't
 like in Haskell. A pure function has no side effects, but
 getLine is a function that interacts with the outside world; it is what
 is called a destructive action
-(see [revelations](/lnds/2015/10/1/revelaciones)).
+(see [revelations](/en/blog/lnds/2015/10/01/revelations/)).
 Haskell protects us from the outside world through monads. In
 particular, instead of returning a String, what the getLine function
 does is return an IO String monad.

@@ -22,7 +22,7 @@ rests, taking care of her eyes and her hands.
 
 The thing is, when you're doing what you love, time flies, especially
 when you get into the
-[zone](/blog/lnds/2010/08/09/estado-de-flujo).
+[zone](/en/blog/lnds/2010/08/09/flow-state/).
 
 ![](https://d2dspjyoh5c79p.cloudfront.net/3356928e-303d-11e8-a030-2b5831f8ecb5-aa9f18b7)
 

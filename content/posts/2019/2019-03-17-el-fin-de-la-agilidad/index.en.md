@@ -87,7 +87,7 @@ I remember that we once developed an [SLR](https://en.wikipedia.org/wiki/Simple_
 or HTML. We also designed cryptographic solutions for banking and for
 other customers I'm not sure I can mention (I don't want men in black
 knocking on my door). We also implemented many SCADA projects; I have
-[written a bit about that before](/blog/lnds/2010/08/21/historias-de-depuracion).
+[written a bit about that before](/en/blog/lnds/2010/08/21/debugging-stories/).
 
 One of the great things about that small company was that every design
 was discussed by all the partners. I remember [Marco and Ricardo](/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre) with their cigarettes, asking hard questions and arguing with each other.

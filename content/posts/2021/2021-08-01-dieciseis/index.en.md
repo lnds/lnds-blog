@@ -45,11 +45,11 @@ Sixteen is how old this blog is turning. So to celebrate I've picked sixteen art
 3. ["The mysterious disappearance of Ettore Majorana"](/blog/lnds/2007/12/18/la-misteriosa-desaparicion-de-ettore-majorana), published in December 2007
 4. ["Chess"](/blog/lnds/2008/01/18/ajedrez), published in January 2008
 5. ["Ask Parnas"](/blog/lnds/2009/06/09/preguntale-a-parnas), published in June 2009
-6. ["Stop the clock, squash the bug"](/blog/lnds/2010/05/27/deten-el-reloj-aplasta-al-bicho), published in May 2010
-7. ["The sugar king"](/blog/lnds/2011/02/03/el-rey-del-azucar), published in February 2011
-8. ["Two out of three: the CAP theorem"](/blog/lnds/2012/05/25/dos-de-tres-el-teorema-cap), published in May 2012
-9. ["Defining the problem"](/blog/lnds/2013/04/28/definir-el-problema), published in April 2013
-10. ["Sex, pianos and wireless networks"](/blog/lnds/2014/03/10/sexo-pianos-y-wifi), published in March 2014
+6. ["Stop the clock, squash the bug"](/en/blog/lnds/2010/05/27/stop-the-clock-squash-the-bug/), published in May 2010
+7. ["The sugar king"](/en/blog/lnds/2011/02/03/the-sugar-king/), published in February 2011
+8. ["Two out of three: the CAP theorem"](/en/blog/lnds/2012/05/25/two-out-of-three-the-cap-theorem/), published in May 2012
+9. ["Defining the problem"](/en/blog/lnds/2013/04/28/defining-the-problem/), published in April 2013
+10. ["Sex, pianos and wireless networks"](/en/blog/lnds/2014/03/10/sex-pianos-and-wifi/), published in March 2014
 11. ["Revelations"](/en/blog/lnds/2015/10/01/revelations/), published in October 2015
 12. ["A profession for men only"](/en/blog/lnds/2016/07/23/a-profession-for-men-only/), published in July 2016
 13. ["The 300 million dollar button"](/en/blog/lnds/2017/07/23/the-300-million-dollar-button/), published in July 2017

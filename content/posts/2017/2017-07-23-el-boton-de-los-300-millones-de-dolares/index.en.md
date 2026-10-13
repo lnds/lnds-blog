@@ -12,7 +12,7 @@ image:
 ---
 Sometimes we engineers are so focused on functionality that we don't
 bother with usability. Let me see if I can explain:  
-[we put the focus on defining the use case](/blog/lnds/2013/03/23/expectativas), we concentrate
+[we put the focus on defining the use case](/en/blog/lnds/2013/03/23/expectations/), we concentrate
 on giving users what they ask for, but not what they need.
 
 But do we ever observe how users actually use our

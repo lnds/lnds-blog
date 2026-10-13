@@ -40,7 +40,7 @@ the dramatic loss of his wife and daughter, a ride of more than 150,000
 kilometers by motorcycle. It is a road diary in which we see
 how, little by little, kilometer by kilometer, Neil Peart heals from the
 pain, the rage and the grief of having lost the most important women
-in his life ([we've talked about this before](/blog/lnds/2012/01/14/album-conceptual)).
+in his life ([we've talked about this before](/en/blog/lnds/2012/01/14/concept-album/)).
 
 Foster read the book and found it very moving, so in December
 2006 he decided to write Peart a letter, explaining that he was the

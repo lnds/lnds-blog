@@ -124,7 +124,7 @@ For this we'll use a classic algorithm called Huffman Coding.
 At least in theory, Huffman Coding is the compression that guarantees
 each symbol is represented with the optimal number of bits,
 according to Shannon's information theory 
-([which we've talked about before](/blog/lnds/2011/04/23/tambores-parlantes/)).
+([which we've talked about before](/en/blog/lnds/2011/04/23/talking-drums/)).
 
 In Huffman Encoding what we do is count the frequency of the
 symbols in the text we want to compress, and based on that we build

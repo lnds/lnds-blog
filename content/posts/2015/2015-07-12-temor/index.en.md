@@ -183,7 +183,7 @@ albums.
 Today we know there is some truth to this idea. Fear is
 a very strong emotion, [and emotions drive our actions far
 more than we
-suspect](/blog/lnds/2011/08/22/el-problema-con-la-razon/).
+suspect](/en/blog/lnds/2011/08/22/the-problem-with-reason/).
 
 In 2002 Neil Peart added a fourth song, Freeze, to the original
 trilogy. I leave them with you to close this post. Fear sometimes

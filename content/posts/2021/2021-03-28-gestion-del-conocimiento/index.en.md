@@ -81,7 +81,7 @@ But why manage knowledge?
 
 The traditional answer is that knowledge is the key to innovation. Someone more ambitious might say that "knowledge is power". The important thing is to understand that you can't think in selfish terms when it comes to knowledge. That's a serious mistake. Knowledge gains strength when it's shared.
 
-A few years ago I talked about the concepts of potential intelligence and kinetic intelligence (see ["On the coyote's intelligence"](https://lnds.net/blog/lnds/2012/04/17/sobre-la-inteligencia-del-coyote/)). This post owes a debt to that one, so I recommend reading it. The difference is that here I'll talk about how to manage what I called potential intelligence in that post, which in short is knowledge.
+A few years ago I talked about the concepts of potential intelligence and kinetic intelligence (see ["On the coyote's intelligence"](/en/blog/lnds/2012/04/17/on-the-intelligence-of-the-coyote/)). This post owes a debt to that one, so I recommend reading it. The difference is that here I'll talk about how to manage what I called potential intelligence in that post, which in short is knowledge.
 
 ## Knowledge management and software development
 

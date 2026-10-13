@@ -243,7 +243,7 @@ things:
 
 These three guarantees are called CAP, after their initials
 (Consistency, Availability, Partition Tolerance). I have talked about
-this topic before in [this article](/blog/lnds/2012/05/25/dos-de-tres-el-teorema-cap).
+this topic before in [this article](/en/blog/lnds/2012/05/25/two-out-of-three-the-cap-theorem/).
 
 The important thing to remember here is that there is a result telling us that
 we cannot have all three guarantees at the same time in a distributed

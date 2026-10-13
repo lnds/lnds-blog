@@ -36,7 +36,7 @@ the advantages and disadvantages of having a central intermediary to
 guarantee the consistency of operations. All set to the music of
 Fleetwood Mac, of course.
 
-The second post, [To The Bone](/blog/lnds/2018/1/28/to-the-bone), is
+The second post, [To The Bone](/en/blog/lnds/2018/01/28/to-the-bone/), is
 about distributed computing, and introduces the famous Byzantine
 generals problem, something blockchain supposedly solves. The name
 refers to a Steven Wilson song with a line that goes "Truth is

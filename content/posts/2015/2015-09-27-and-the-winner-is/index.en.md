@@ -8,7 +8,7 @@ draft: false
 ---
 
 The two weeks I gave to solve [the Programmers'
-Day challenge](//www.lnds.net/blog/lnds/2015/9/13/feliz-dia-de-los-programadores) are up.
+Day challenge](/en/blog/lnds/2015/09/13/happy-programmers-day/) are up.
 Seven contestants entered:
 
 \- Daniel Martinez [\@edmt](//github.com/edmt) with a [solution in

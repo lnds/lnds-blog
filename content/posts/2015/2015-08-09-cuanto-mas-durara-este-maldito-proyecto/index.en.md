@@ -124,7 +124,7 @@ keep dragging on. "What doesn't kill you makes you stronger", says Nietzsche,
 and it seems projects are very tough beasts.
 
 The trick is to turn a project into something perishable. As
-[Zed Shaw advises](/blog/lnds/2012/10/26/matalo-tempranamente),
+[Zed Shaw advises](/en/blog/lnds/2012/10/26/kill-it-early/),
 it's better to kill a project early. If you don't, you will face
 the Lindy effect.
 

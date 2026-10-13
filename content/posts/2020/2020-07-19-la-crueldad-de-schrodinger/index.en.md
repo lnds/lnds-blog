@@ -89,7 +89,7 @@ On the other hand, the Penrose-Lucas argument[^3] states that, since we humans a
 
 If the Penrose-Lucas argument is true, we would have to find the mechanism that explains this advantage of our mind over any computer built on formal systems.
 
-However, it is accepted today that most of the laws of physics are computable (that is, algorithmic), as [I've told you on another occasion](http://lnds.net/blog/lnds/2012/05/18/todo-es-software/)[^4].
+However, it is accepted today that most of the laws of physics are computable (that is, algorithmic), as [I've told you on another occasion](/en/blog/lnds/2012/05/18/everything-is-software/)[^4].
 
 And here comes Penrose's clever move: for the physicist, the "collapse of the wave function" is a non-computable process.
 

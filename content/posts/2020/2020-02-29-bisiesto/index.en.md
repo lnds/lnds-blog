@@ -34,7 +34,7 @@ projects: []
 
 February twenty-ninth. Every four years we add this special day so we can adjust our calendars and make sure the seasons start when they're supposed to.
 
-It's almost certain that more than one computer system [has failed for mishandling this date](/blog/lnds/2012/02/29/bisiesto).
+It's almost certain that more than one computer system [has failed for mishandling this date](/en/blog/lnds/2012/02/29/leap-year/).
 
 Time is, in many ways, a mere convention. The Earth's orbit around the sun doesn't take 365 days, nor does a day take 24 hours. They could be any arbitrary value. We find comfort in having these conventions. Months and days keep us in order.
 

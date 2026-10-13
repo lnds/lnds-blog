@@ -134,5 +134,5 @@ Or at least it is for as long as you have the judgment to tell good from bad, an
 - [The end of artisanal software](/en/blog/lnds/2025/08/27/the-end-of-artisanal-software/) (2025)
 - [Judgment and taste](/en/blog/lnds/2026/01/07/judgment-and-taste/) (2026)
 - [Maps or compasses](/en/blog/lnds/2025/10/31/maps-or-compasses/) (2025)
-- [We are not cooks](/blog/lnds/2013/03/08/no-somos-cocineros) (2013)
-- [Creators of universes](/blog/lnds/2011/10/11/creadores-de-universos) (2011)
+- [We are not cooks](/en/blog/lnds/2013/03/08/we-are-not-cooks/) (2013)
+- [Creators of universes](/en/blog/lnds/2011/10/11/creators-of-universes/) (2011)

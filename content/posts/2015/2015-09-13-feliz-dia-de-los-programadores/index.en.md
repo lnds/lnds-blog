@@ -26,7 +26,7 @@ who read this blog. Let's celebrate together.
 
 I single out the women because, as everybody should know by
 now, among the pioneers of this discipline
-[there were many women](/blog/2010/08/las-programadoras-del-eniac.html).
+[there were many women](/en/blog/lnds/2010/08/03/the-eniac-programmers/).
 
 ![](//d2dspjyoh5c79p.cloudfront.net/16b06953-5a33-11e5-a640-83ed6ac97527-aa9f18b7)
 

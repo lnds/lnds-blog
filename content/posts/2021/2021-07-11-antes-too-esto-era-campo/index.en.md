@@ -93,7 +93,7 @@ Infinite games, on the other hand, are played only for the purpose of continuing
 
 Alex Danco, in his article ["Why The Canadian Tech Scene Doesn't Work"](https://alexdanco.com/2021/01/11/why-the-canadian-tech-scene-doesnt-work/), explains how this idea of the infinite game is what motivates a certain kind of entrepreneur and angel investor, and what separates successful startup ecosystems from the not-so-successful ones.
 
-Reading the article I see a lot of the Chilean reality. Not long ago a right-wing economist tried to score a political point by using Cornershop's success to disparage the role of the state. In my opinion that economist understands nothing ([when have they ever understood anything?](https://lnds.net/blog/lnds/2011/07/28/expertos-zorros-y-erizos/)). Cornershop succeeded _in spite of_ the Chilean private and public environment. The key to understanding this is understanding the idea of the infinite game.
+Reading the article I see a lot of the Chilean reality. Not long ago a right-wing economist tried to score a political point by using Cornershop's success to disparage the role of the state. In my opinion that economist understands nothing ([when have they ever understood anything?](/en/blog/lnds/2011/07/28/experts-foxes-and-hedgehogs/)). Cornershop succeeded _in spite of_ the Chilean private and public environment. The key to understanding this is understanding the idea of the infinite game.
 
 The infinite game is not the privilege of entrepreneurs, or of unicorn companies. It has to do with your decision to keep playing again and again in order to grow, to cultivate yourself beyond the limits that others impose on you or that you impose on yourself. It means you stop thinking about winning; it means enjoying the pleasure of playing.
 
@@ -155,7 +155,7 @@ And when something happens, everybody helps. What's more, it's very common for s
 
 There's a very strong SRE team. There's no such thing here as the "sysadmin", or the misnamed "devops". These are engineers who don't just build tooling and support operations, but can fix bugs, write code and contribute very sharp observations about the code or the architecture.
 
-Everything gets discussed very frankly and straight to the point. Nobody wastes your time on irrelevant things. There are none of those controls on top of controls that only serve to dilute responsibility. Here [No Bullshit](https://lnds.net/blog/lnds/2013/02/15/el-camino-de-la-innovacion/) is for real.
+Everything gets discussed very frankly and straight to the point. Nobody wastes your time on irrelevant things. There are none of those controls on top of controls that only serve to dilute responsibility. Here [No Bullshit](/en/blog/lnds/2013/02/15/the-road-to-innovation/) is for real.
 
 ![](bullshit.jpg)
 

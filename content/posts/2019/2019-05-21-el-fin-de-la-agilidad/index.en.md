@@ -210,7 +210,7 @@ potential there, and luckily I wasn't wrong.
 [Years later I wrote about this idea of bringing more women onto teams.
 It turns out that what happened with Fleetwood Mac was no accident. As
 I explain in detail in this article,
-[Mars needs women](/blog/lnds/2013/09/08/marte-necesita-mujeres),
+[Mars needs women](/en/blog/lnds/2013/09/08/mars-needs-women/),
 female participation in high-performance teams matters a great deal.
 
 This chart is taken from that post:

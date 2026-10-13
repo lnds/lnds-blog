@@ -6,7 +6,7 @@ tags = ['software engineering', 'AI', 'verification', 'Bertrand Meyer', 'history
 slug = 'software-engineering-as-a-technology'
 +++
 
-"Software engineering: not just process but technology." That's how [Bertrand Meyer predicted in 2010](https://lnds.net/blog/lnds/2010/03/30/la-programaci%C3%B3n-en-10-anos-mas/) what programming would look like a decade later.
+"Software engineering: not just process but technology." That's how [Bertrand Meyer predicted in 2010](/en/blog/lnds/2010/03/30/programming-10-years-from-now/) what programming would look like a decade later.
 
 Fifteen years on, that prediction resonates with an irony Meyer probably didn't anticipate. You know how it goes: better not to make predictions, or, if we want to be safe, follow Alan Kay's advice: rather than predict it, invent it.
 

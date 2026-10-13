@@ -50,7 +50,7 @@ The story of Unix has been told many times, but in October of last year a defini
 
 This researcher and computing pioneer is known, among other things, for his great skill as a communicator and writer.
 
-Kernighan writes beautifully, and among his best-selling books is ["The C Programming Language"](https://amzn.to/2WNPj8G), the one that introduced this important programming language to the world. It was co-written with the language's creator, [Dennis Ritchie](/blog/lnds/2011/10/13/dmr), and it's one of the best technical books I've personally read, besides being considered a true classic.
+Kernighan writes beautifully, and among his best-selling books is ["The C Programming Language"](https://amzn.to/2WNPj8G), the one that introduced this important programming language to the world. It was co-written with the language's creator, [Dennis Ritchie](/en/blog/lnds/2011/10/13/dmr/), and it's one of the best technical books I've personally read, besides being considered a true classic.
 
 It's in this book that the famous ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program is introduced to the world.
 
@@ -86,7 +86,7 @@ For a long time AT&T, the company that owned Bell Labs, invested as much as 2.8%
 
 ### Computing at Bell Labs
 
-Among the researchers who stood out at Bell Labs was Claude Shannon, the father of Information Theory [(whom I've talked about before)](/blog/lnds/2011/04/23/tambores-parlantes).
+Among the researchers who stood out at Bell Labs was Claude Shannon, the father of Information Theory [(whom I've talked about before)](/en/blog/lnds/2011/04/23/talking-drums/).
 
 In the early 1960s a computing research group was created. And in 1967 Brian Kernighan joined the Computing Science Research Center, under the guidance of Doug McIlroy.
 
@@ -162,7 +162,7 @@ CTSS was so successful and productive that in 1965 MIT decided to create an impr
 
 Multics would be a large-scale effort, requiring the construction of quite ambitious software and of the hardware to support it. So MIT reached an agreement with General Electric and Bell Labs to back them on the project.
 
-The project was too ambitious and fell into the ["second-system effect"](/blog/lnds/2012/01/14/album-conceptual), a trap in which you set out to fix every problem of the first system and also to add everyone's favorite features. The result is often an overly complicated, over-engineered system. In Sam Morgan's words, it was an attempt "to climb too many trees at once"[^1].
+The project was too ambitious and fell into the ["second-system effect"](/en/blog/lnds/2012/01/14/concept-album/), a trap in which you set out to fix every problem of the first system and also to add everyone's favorite features. The result is often an overly complicated, over-engineered system. In Sam Morgan's words, it was an attempt "to climb too many trees at once"[^1].
 
 Half a dozen Bell Labs researchers worked on Multics, including Doug McIlroy, Dennis Ritchie, Ken Thompson and Peter Neumann.
 

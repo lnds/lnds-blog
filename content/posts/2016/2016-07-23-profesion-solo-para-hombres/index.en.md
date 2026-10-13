@@ -36,7 +36,7 @@ is not by chance; there is a conscious decision to keep a team with
 an even gender split. It is a decision I made years
 ago and so far it has served me well.
 
-I explained the reasons years ago in [this other post](/blog/lnds/2013/09/08/marte-necesita-mujeres);
+I explained the reasons years ago in [this other post](/en/blog/lnds/2013/09/08/mars-needs-women/);
 I think it is what we should do. Computing is not the exclusive
 domain of men, and it never was.
 
@@ -57,7 +57,7 @@ did the calculations for several NASA missions.
 {{<figure caption="The group led by Macie Roberts; she is toward the upper right, standing and talking with one of the women on the team. The photograph is from 1955." src="//d2dspjyoh5c79p.cloudfront.net/beed6ee8-5100-11e6-aecf-c1145ad981b8-aa9f18b7">}}
 
 During the Manhattan Project, a group of women,
-[led by Richard Feynman](/blog/lnds/2011/04/17/dos-hombres-y-una-maquina-universal),
+[led by Richard Feynman](/en/blog/lnds/2011/04/17/two-men-and-a-universal-machine/),
 worked as human computers to carry out the complex calculations
 needed to build the atomic bomb. Those women later programmed
 the digital computers that replaced them.
@@ -80,7 +80,7 @@ link:[ https://vimeo.com/ondemand/eniac6](//vimeo.com/ondemand/eniac6)
 {{<figure caption="Apparently what they are holding in their hands are different generations of a bit" src="//d2dspjyoh5c79p.cloudfront.net/a214869b-5101-11e6-aecf-c1145ad981b8-aa9f18b7">}}
 
 And finally, Lady Ada Lovelace,
-[who worked with Charles Babbage designing a computer in the first half of the 19th century](/blog/lnds/2012/06/17/el-padre-de-la-computacion).
+[who worked with Charles Babbage designing a computer in the first half of the 19th century](/en/blog/lnds/2012/06/17/the-father-of-computing/).
 
 ![Lady Ada](ada.jpg "Lady Ada Lovelace")
 

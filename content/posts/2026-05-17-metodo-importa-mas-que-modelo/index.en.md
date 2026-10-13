@@ -214,11 +214,11 @@ Paying that 14% of documentation up front is what keeps fixes at 7%.
 
 What does something like this normally cost? Public points of comparison: Roc, about 5 years of research; Koka, more than 10 academic years; Effekt, about 5 years with a team of PhDs; Crystal, about 3 years with its core team. The human equivalent to reach the same technical scope is on the order of **3 to 4 experienced compiler engineers, for 12 to 18 months, at between USD 1.0 and 1.5 million in salaries**.
 
-One thing I said when I started this project was: "the AI has already read all the papers I need." And it's that bottled [potential intelligence](/blog/lnds/2012/04/17/sobre-la-inteligencia-del-coyote/) that I'm tapping into.
+One thing I said when I started this project was: "the AI has already read all the papers I need." And it's that bottled [potential intelligence](/en/blog/lnds/2012/04/17/on-the-intelligence-of-the-coyote/) that I'm tapping into.
 
 ELP got to the same point in 27 days, with one human (the architect), one integrator agent and parallel lanes. The original target is May 21 and there are still four days of margin left to close out the version that covers 90% of the language.
 
-This is [method](/blog/lnds/2012/05/19/conoces-a-pin-pon/). Every discarded issue, every lane closed as a negative, was ruled out by empirical audit before being implemented and is documented with its retro. Every failure hands us data.
+This is [method](/en/blog/lnds/2012/05/19/do-you-know-pin-pon/). Every discarded issue, every lane closed as a negative, was ruled out by empirical audit before being implemented and is documented with its retro. Every failure hands us data.
 
 ## When to apply ELP, and when not to
 

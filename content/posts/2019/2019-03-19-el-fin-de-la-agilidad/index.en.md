@@ -251,7 +251,7 @@ and worked to hit the delivery date.
 I remember a team member once asking me whether I would define a
 development methodology for the department. I never did. My
 answer was surely:
-["we write down everything that needs doing in a list, and we do it"](/blog/lnds/2012/12/29/el-mejor-proceso-de-desarrollo-de-software/).
+["we write down everything that needs doing in a list, and we do it"](/en/blog/lnds/2012/12/29/the-best-software-development-process/).
 
 
 So 1998 ended pretty well for me. [Not only did I find love
