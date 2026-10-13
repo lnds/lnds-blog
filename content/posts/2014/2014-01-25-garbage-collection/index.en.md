@@ -49,7 +49,7 @@ who need to fall back in love.
 
 If the work is worth it, if what you do makes sense, and you are with
 people committed to the result, if you find yourself among
-[cathedral builders](/blog/2009/12/motivacion-personal.html) and not mere
+[cathedral builders](/en/blog/lnds/2009/12/11/personal-motivation/) and not mere
 stonecutters, then working will be a pleasure.
 
 As [I said recently](/en/blog/lnds/2013/11/11/satisfaction-2013/), what we seek as
@@ -58,7 +58,7 @@ we want to be recognized.
 
 If your job doesn't give you that, then instead of
 [complaining](/en/blog/lnds/2012/03/15/philoctetes/),
-[quit](/blog/2009/03/nada.html)!
+[quit](/en/blog/lnds/2009/03/13/nothing/)!
 
 Let go of the fear. Twitter is the wailing wall; stop tweeting and take
 charge of your life. Don't ask others to make you fall back in love; the
@@ -156,7 +156,7 @@ Related posts:
 
 -   [What is programming?](/en/blog/lnds/2012/05/09/what-is-programming/)
 
--   [The practice of programming](/2007/07/12/la-practica-de-la-programacion)
+-   [The practice of programming](/en/blog/lnds/2007/07/12/the-practice-of-programming/)
 
 -   [Mars needs women](/en/blog/lnds/2013/09/08/mars-needs-women/)
 

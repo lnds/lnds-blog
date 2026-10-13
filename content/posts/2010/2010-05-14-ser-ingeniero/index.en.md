@@ -15,13 +15,13 @@ deployed, the programmer, the software developer, gives way to the
 systems engineer.
 
 When we worry about deployment problems, when we
-[fight to bring latency down](/blog/2009/03/latencia-seguimos-reciclando.html),
+[fight to bring latency down](/en/blog/lnds/2009/03/06/latency-still-recycling/),
 when we face [the fallacies of distributed
-computing](/blog/2009/03/las-ocho-falacias-de-la-computacion-distribuida-reciclando.html),
+computing](/en/blog/lnds/2009/03/05/eight-fallacies-of-distributed-computing-recycled/),
 when we try to [cheat the limits of Amdahl's
-Law](/2009/09/el-problema-de-paralelizar.html), or
-[take advantage of the elasticity of the cloud](/blog/2009/02/cloud-computing-de-acuerdo-a-berkeley-rad-lab.html),
+Law](/en/blog/lnds/2009/09/13/the-problem-with-parallelizing/), or
+[take advantage of the elasticity of the cloud](/en/blog/lnds/2009/02/16/cloud-computing-according-to-berkeley-rad-lab/),
 at that moment we are being pure engineers.
 
-Don't forget that [a programmer is an artist](/2009/12/la-programacion-como-un-arte-parte-i.html),
+Don't forget that [a programmer is an artist](/en/blog/lnds/2009/12/01/programming-as-an-art-part-i/),
 but also an engineer. Happy Engineering Day.

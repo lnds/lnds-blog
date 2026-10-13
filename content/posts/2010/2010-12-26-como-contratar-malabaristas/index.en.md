@@ -88,9 +88,9 @@ paraphrase Franco Catrin.
 For me it is important that engineers develop communication skills;
 that is what I have been paying the most attention to lately. I'm no
 longer interested in hiring the smartest ones; [I prefer the least
-self-absorbed](/blog/2008/11/cuidado-con-los-ensimismados.html).
+self-absorbed](/en/blog/lnds/2008/11/30/beware-of-the-self-absorbed/).
 The other thing I care about is that 
-[they not be reckless](/blog/2008/05/atolondrados-tecnologicos.html);
+[they not be reckless](/en/blog/lnds/2008/05/25/technological-scatterbrains/);
 I'm tired of suffering through the maintenance of code badly 
 _copy-pasted_ from Google.
 

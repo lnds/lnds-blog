@@ -147,7 +147,7 @@ additional clue, remember to let me know. :)
 
 ## Sources:
 
-My original post from 2007: [The mysterious disappearance of Ettore Majorana](/blog/2007/12/la-misteriosa-desaparicion-de-ettore-majorana.html).
+My original post from 2007: [The mysterious disappearance of Ettore Majorana](/en/blog/lnds/2007/12/18/the-mysterious-disappearance-of-ettore-majorana/).
 
 [El misterioso caso de Ettore Majorana](http://mezvan.blogsome.com/2008/01/30/el-misterioso-caso-ettore-majorana-2/),
 visited on April 9, 2012.

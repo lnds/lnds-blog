@@ -196,7 +196,7 @@ Method
 > **LF**: With soap and water!!!\
 > **GM**: Yes, he washes his little face!!!
 
-[Jorge Guerra](/blog/2009/02/adios-pin-pon.html) used to tell how a
+[Jorge Guerra](/en/blog/lnds/2009/02/06/goodbye-pin-pon/) used to tell how a
 woman once came up to him in the street; she was a lawyer and she told
 him she had managed to finish her degree and was successful in life
 thanks to a song he composed, and which he sang on his children's TV
@@ -238,7 +238,7 @@ método método método método método.
 
 And if you notice, everything I'm telling you about DOM is a method :)
 
-It's all very simple. As [Brad Bird](/blog/2007/07/ratatouille-lecciones-de-ingenieria-de-s.html) says,
+It's all very simple. As [Brad Bird](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/) says,
 "If you think there's some sophisticated recipe for success, then I
 think you are doomed. You're making it too complicated."
 

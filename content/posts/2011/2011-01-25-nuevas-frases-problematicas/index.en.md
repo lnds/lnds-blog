@@ -9,7 +9,7 @@ image:
   placement: 3
 ---
 
-A new, extended edition of [problematic sayings](/blog/lnds/2006/10/12/frases-problematicas/):
+A new, extended edition of [problematic sayings](/en/blog/lnds/2006/10/12/problematic-sayings/):
 
 > Every problem has a solution; if not, it isn't a problem\...
 

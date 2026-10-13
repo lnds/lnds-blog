@@ -77,7 +77,7 @@ Now, more than a few of you will wonder why all the complication.
 To understand it, I have to explain how I publish my blog.
 
 1. The content of my blog is in [Markdown](https://es.wikipedia.org/wiki/Markdown) format, or to be more precise, in a variant supported by [Hugo](https://gohugo.io)
-2. Markdown files are plain text files, but they have a markup language that lets you set up their appearance in a relatively simple way. It's like [LaTeX](https://lnds.net/blog/lnds/2008/01/14/latex/), but much simpler (and in my opinion just as powerful, maybe more)
+2. Markdown files are plain text files, but they have a markup language that lets you set up their appearance in a relatively simple way. It's like [LaTeX](/en/blog/lnds/2008/01/14/latex/), but much simpler (and in my opinion just as powerful, maybe more)
 3. [Hugo](https://gohugo.io) is the tool I use to convert these Markdown files into HTML files that can then be published anywhere. Hugo is what's known as a static site generator, and it's a very useful content manager because this approach gets you the best possible performance on a website with static content (like news sites, blogs, or company information pages). If your content isn't going to change much it's the best alternative, far better than other [CMSs](https://es.wikipedia.org/wiki/Sistema_de_gestión_de_contenidos) like [WordPress](https://wordpress.com) or [Liferay](https://www.liferay.com) (the horror; seriously, don't use Liferay, do it for the planet)
 4. My idea is to manage my content myself. I don't want to use platforms that are free or that lock you in, like Medium, for example.
 5. Since the content of my blog is text files, I can version it with Git, and that way I can publish it anywhere; in particular I have it on GitHub in this repo: <https://github.com/lnds/lnds-site>. If one day I get mad at GitHub, I move all my content somewhere else. Actually I already do that, because I have a copy that is automatically backed up on GitLab: <https://gitlab.com/lnds/lnds-site>
@@ -104,13 +104,13 @@ So the modern programmer has this great freedom, and with it a great power, but 
 
 The year was 2005 and we were all publishing blogs. That led to the rise of a special kind of application, the "social news aggregators", sites dedicated to curating and spreading content published on web pages.
 
-It was the time of applications like [Slashdot](http://slashdot.org), created by [Rob Malda](https://en.wikipedia.org/wiki/Rob_Malda), or [Digg](https://digg.com) by [Kevin Rose](https://lnds.net/blog/lnds/2006/01/23/una-entrevista-con-el-fundador-de-digg-com/).
+It was the time of applications like [Slashdot](http://slashdot.org), created by [Rob Malda](https://en.wikipedia.org/wiki/Rob_Malda), or [Digg](https://digg.com) by [Kevin Rose](/en/blog/lnds/2006/01/23/an-interview-with-the-founder-of-digg/).
 
 These were a sort of primitive social network, or proto-social-networks. Facebook existed, but it was still restricted to universities and wasn't exactly the same kind of thing.
 
 The idea was to share interesting content: people posted a short text and the link to the site they wanted to promote. Through a mix of votes and selection algorithms, the content made its way to the front pages.
 
-Inspired by those sites, in December 2005 I launched [BlogMemes](https://lnds.net/blog/lnds/2005/12/07/blog-memes/). That project was in turn the evolution of another project called [America Escribe](http://web.archive.org/web/20060319054125/http://www.americaescribe.org/).
+Inspired by those sites, in December 2005 I launched [BlogMemes](/en/blog/lnds/2005/12/07/blog-memes/). That project was in turn the evolution of another project called [America Escribe](http://web.archive.org/web/20060319054125/http://www.americaescribe.org/).
 
 ![](blogmemes.jpg)
 
@@ -155,7 +155,7 @@ Every time you put your content on a platform you're handing it over to that pla
 
 Still, you can't avoid having a presence on those networks; after all, if you manage your own content, as I do, you still need people to find it. That was the idea behind the social news aggregators, but that system failed; only a few are still useful, because they're consumed by narrower communities (I'm thinking of [Hacker News](https://news.ycombinator.com)).
 
-Maybe the solution is to go back to the origins of the web, and remember that the Net is a [world of ends](https://lnds.net/blog/lnds/2008/06/30/un-mundo-de-extremos/):
+Maybe the solution is to go back to the origins of the web, and remember that the Net is a [world of ends](/en/blog/lnds/2008/06/30/a-world-of-ends/):
 
   When it comes to the Net, a lot of us suffer from **Repetitive Mistake Syndrome**. This is especially true for magazine and newspaper publishing, broadcasting, cable television, the record industry, the movie industry, and the telephone industry, to name just six.
 

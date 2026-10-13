@@ -33,7 +33,7 @@ exactly the same and was somewhat amazed to find someone with
 the same idea. Later, talking with my friend, we realized it was
 no simple coincidence: he had read this blog (to be precise:
 [Developing software is like making a
-movie](/blog/2005/08/desarrollar-software-es-como-hacer-una-pelicula.html))
+movie](/en/blog/lnds/2005/08/01/developing-software-is-like-making-a-movie/))
 and that is why we had discussed the subject.
 
 It is a great honor for me to take part in the anniversary of this blog which,

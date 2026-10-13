@@ -93,7 +93,7 @@ plenty to chew on.
 
 One last thing. I think I have said this more than once: learning to
 program is easier than learning mathematics, and by programming
-[we can learn mathematics much better](/blog/2009/02/un-programa-para-ensenar-matematicas.html),
+[we can learn mathematics much better](/en/blog/lnds/2009/02/01/a-program-for-teaching-math/),
 and perhaps more deeply, so Chaitin's path opens the door to
 understanding the laws of nature through programming.
 

@@ -11,4 +11,4 @@ draft: false
 > write, even more when you can teach, but certain when you can
 > program.*
 
-*Alan Perlis, [epigram 116](/blog/2008/02/epigramas-de-la-programacion.html)*
+*Alan Perlis, [epigram 116](/en/blog/lnds/2008/02/28/epigrams-in-programming/)*

@@ -82,7 +82,7 @@ savings. Again and again arguments are brandished that rest on
 sloppy arithmetic.
 
 Numbers don't lie, right? As I showed a few years ago
-(in the post [numerical deceptions](/blog/2009/08/enganos-numericos.html)), a
+(in the post [numerical deceptions](/en/blog/lnds/2009/08/23/numerical-deceptions/)), a
 badly framed calculation can be the foundation for the ruin of a public
 policy. What's more, numbers can be presented in such a way that they
 make us take decisions that can be very costly (one example is

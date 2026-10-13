@@ -12,7 +12,7 @@ regressive. They take us back to the world of passive consumption, like
 television. I'm surprised Clay Shirky hasn't said anything yet (maybe
 he has and I just haven't heard).
 
-All that [cognitive surplus](/blog/2008/05/gin-television-y-superavit-social.html)
+All that [cognitive surplus](/en/blog/lnds/2008/05/28/gin-television-and-social-surplus/)
 out there is going to evaporate because of these devices, and Apple will be
 the main culprit.
 

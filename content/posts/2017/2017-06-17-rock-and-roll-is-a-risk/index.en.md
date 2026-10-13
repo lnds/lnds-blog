@@ -128,7 +128,7 @@ ads.
 
 The problem with ads is that they clutter the site. I remember
 writing a post criticizing the 
-[evangelizers who despise science](/blog/lnds/2009/02/15/contra-la-ignorancia)
+[evangelizers who despise science](/en/blog/lnds/2009/02/15/against-ignorance/)
 and my site filled up with religious ads.
 
 But I also see crowdfunding as a way to build ties with

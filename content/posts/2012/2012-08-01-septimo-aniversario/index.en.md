@@ -8,7 +8,7 @@ draft: false
 math: false
 ---
 After several false starts, on August 1, 2005 I published the
-[first post](/blog/2005/08/no-puedes-proteger-el-software.html)
+[first post](/en/blog/lnds/2005/08/01/you-cant-protect-software/)
 on this blog.
 
 Today this space turns seven!

@@ -9,7 +9,7 @@ draft: false
 
 It's easy to fool yourself when trying to optimize. What seems logical, and
 even numerically plausible, can blow up in our faces when
-[we analyze it in detail](/blog/2009/08/enganos-numericos.html),
+[we analyze it in detail](/en/blog/lnds/2009/08/23/numerical-deceptions/),
 especially when we put it to the test in practice.
 
 It's typical for some expert to advise us to use a certain technique

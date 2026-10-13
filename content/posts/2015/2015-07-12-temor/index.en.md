@@ -113,7 +113,7 @@ you have an excellent breeding ground for sowing fear.
 ## **FUD**
 
 In 1975
-[Gene Amdahl coined the term FUD](/blog/2009/09/el-problema-de-paralelizar-3.html):
+[Gene Amdahl coined the term FUD](/en/blog/lnds/2009/09/28/the-problem-with-parallelizing-3/):
 Fear, Uncertainty and Doubt, to refer to
 IBM's strategy of sowing doubt among its customers and competing
 unfairly with his company, Amdahl Corporation.

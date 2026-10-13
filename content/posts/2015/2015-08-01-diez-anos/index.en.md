@@ -60,7 +60,7 @@ blogging. Your comments on Twitter make you a
 microblogger. Or if you post a video on YouTube you are video
 blogging. Just as happened with life on this planet, blogs did not go
 extinct, they just turned into new species. That is called
-[evolution](/blog/lnds/2009/8/12/cuestion-de-evolucion).
+[evolution](/en/blog/lnds/2009/08/12/a-matter-of-evolution/).
 
 As *"la Mercedes"* (Mercedes Sosa) sings, *everything changes, but my love
 doesn't change, no matter how far away I am*. Although I don't write

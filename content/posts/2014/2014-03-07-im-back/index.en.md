@@ -40,7 +40,7 @@ was the platform I decided to use last year.
 [Octopress](http://octopress.org/) is cool, it's hipster. A tool designed
 by programmers for programmers. But that's also the problem. It's the
 same thing that happens with
-[LaTeX](/blog/lnds/2008/01/14/latex/), for example.
+[LaTeX](/en/blog/lnds/2008/01/14/latex/), for example.
 
 They are wonderful tools, but they force you into a workflow that doesn't
 fit the kind of writing I try to do on this blog.

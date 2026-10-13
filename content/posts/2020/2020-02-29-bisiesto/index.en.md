@@ -63,7 +63,7 @@ It's been hard for me to get back to writing regularly on this blog.
 
 Meanwhile, these last three months I've spent part of my time migrating everything written over these [last fifteen years](/en/blog/lnds/2020/02/02/the-fifteenth-year/) to a new platform. In the process I've reread many of those pieces, and I've discovered things about myself along the way. Some were pleasant surprises; others I didn't like at all.
 
-In 2006 [I wrote](/blog/lnds/2006/08/21/motivacion/):
+In 2006 [I wrote](/en/blog/lnds/2006/08/21/motivation/):
 
 > I haven't written on this blog in a long time, almost two months now. We're not always motivated, or we have problems, or we simply lack the time.
 >

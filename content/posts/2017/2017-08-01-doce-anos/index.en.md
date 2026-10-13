@@ -34,13 +34,13 @@ I hope you enjoy them, and I hope to keep at this for twelve more years:
 -   2011: [Reading comprehension](/en/blog/lnds/2011/11/12/reading-comprehension/),
     a mistake that has caused plenty of headaches
 -   2010: [How to hire jugglers](/en/blog/lnds/2010/12/26/how-to-hire-jugglers/)
--   2009: [The Dreystadt techniques](http://www.prosa.io/blog/lnds/2009/11/14/las-tecnicas-de-dreystadt),
+-   2009: [The Dreystadt techniques](/en/blog/lnds/2009/11/14/dreystadts-techniques/),
     a bittersweet story.
--   2008: [The hackers of October 5](http://www.prosa.io/blog/lnds/2008/10/5/los-hackers-del-5-de-octubre), a tribute to two great friends.
--   2007: [Lessons from Ratatouille](http://www.prosa.io/blog/lnds/2007/7/1/lecciones-de-ratatouille),
+-   2008: [The hackers of October 5](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/), a tribute to two great friends.
+-   2007: [Lessons from Ratatouille](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/),
     how that film teaches us a thing or two about talent.
--   2006: [The first Chilean web entrepreneur](http://www.prosa.io/blog/lnds/2006/12/5/el-primer-emprendedor-web-chileno),
+-   2006: [The first Chilean web entrepreneur](/en/blog/lnds/2006/12/05/the-first-chilean-web-entrepreneur/),
     a small tribute.
--   2005: [The doomsday machines](http://www.prosa.io/blog/lnds/2006/4/16/las-maquinas-del-fin-del-mundo),
+-   2005: [The doomsday machines](/en/blog/lnds/2006/04/16/the-doomsday-machines/),
     in case AIs scare you.
 

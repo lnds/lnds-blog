@@ -123,7 +123,7 @@ science tackles today.
 Professor Gutierrez argues that it's all a matter of computational
 power, and that this will make reasoning unnecessary,
 precisely the opposite of Chu-Carroll. And to back up his point,
-Gutierrez offers the example of the [game of chess](/blog/2008/01/ajedrez.html), confusing a brute-force search algorithm with simulation, and boldly
+Gutierrez offers the example of the [game of chess](/en/blog/lnds/2008/01/18/chess/), confusing a brute-force search algorithm with simulation, and boldly
 extrapolating that this will be the end of science. There are other problems
 with the arguments presented (such as the contrast with 
 [Chaitin's model of the laws of nature](/en/blog/lnds/2012/05/18/everything-is-software/)), but we'll leave it here.

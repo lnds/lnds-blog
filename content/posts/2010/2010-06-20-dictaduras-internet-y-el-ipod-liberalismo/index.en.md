@@ -41,7 +41,7 @@ it, so it's good to spell out the errors in this kind of thinking.
 The problem is confusing the intended use of technology with its actual
 use.
 
-For every "[digital native](/blog/2007/11/nativos-digitales.html)" who
+For every "[digital native](/en/blog/lnds/2007/11/14/digital-natives/)" who
 takes to the streets there are two trapped in World of Warcraft.
 The internet is used mainly for cyber-hedonism, and that is something
 we have to accept and add to the analysis.
@@ -74,7 +74,7 @@ give it pretty names, like digital activism or cyber-activism). The
 truth is that this is a delusion, it is virtual activism (***virtual
 means it doesn't actually exist***). I suggest you contrast Morozov's
 ideas with
-[the new Luddite's challenge](/2009/05/el-desafio-del-nuevo-ludita.html).
+[the new Luddite's challenge](/en/blog/lnds/2009/05/22/the-new-luddite-challenge/).
 
 Everything dictatorships do here can also be used effectively in our
 "participatory democracies".

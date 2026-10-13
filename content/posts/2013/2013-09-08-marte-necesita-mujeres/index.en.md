@@ -49,7 +49,7 @@ so-called "social sciences." The hard sciences and the technical fields, being
 more individualistic by nature and more centered on structured
 knowledge, are not to women's taste. If that is the case, the fact
 that fewer women are developing software is a great mystery,
-because software development is a ["social science"](/blog/lnds/2009/04/22/la-computacion-como-una-ciencia-social).
+because software development is a ["social science"](/en/blog/lnds/2009/04/22/computing-as-a-social-science/).
 
 Let's clear up once and for all the myth that women do not have the
 ability to study the hard sciences. It is a stereotype that must be

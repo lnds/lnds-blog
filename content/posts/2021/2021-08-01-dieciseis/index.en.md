@@ -40,11 +40,11 @@ At sixteen I had my first contact with a computer and learned to program in Basi
 
 Sixteen is how old this blog is turning. So to celebrate I've picked sixteen articles published over that time, and I hope you enjoy them:
 
-1. ["The doomsday machines"](/blog/lnds/2006/04/16/las-maquinas-del-fin-del-mundo/), published in April 2006.
-2. ["Lessons from Ratatouille"](/blog/lnds/2007/07/01/lecciones-de-ratatouille), published in July 2007
-3. ["The mysterious disappearance of Ettore Majorana"](/blog/lnds/2007/12/18/la-misteriosa-desaparicion-de-ettore-majorana), published in December 2007
-4. ["Chess"](/blog/lnds/2008/01/18/ajedrez), published in January 2008
-5. ["Ask Parnas"](/blog/lnds/2009/06/09/preguntale-a-parnas), published in June 2009
+1. ["The doomsday machines"](/en/blog/lnds/2006/04/16/the-doomsday-machines/), published in April 2006.
+2. ["Lessons from Ratatouille"](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/), published in July 2007
+3. ["The mysterious disappearance of Ettore Majorana"](/en/blog/lnds/2007/12/18/the-mysterious-disappearance-of-ettore-majorana/), published in December 2007
+4. ["Chess"](/en/blog/lnds/2008/01/18/chess/), published in January 2008
+5. ["Ask Parnas"](/en/blog/lnds/2009/06/09/ask-parnas/), published in June 2009
 6. ["Stop the clock, squash the bug"](/en/blog/lnds/2010/05/27/stop-the-clock-squash-the-bug/), published in May 2010
 7. ["The sugar king"](/en/blog/lnds/2011/02/03/the-sugar-king/), published in February 2011
 8. ["Two out of three: the CAP theorem"](/en/blog/lnds/2012/05/25/two-out-of-three-the-cap-theorem/), published in May 2012

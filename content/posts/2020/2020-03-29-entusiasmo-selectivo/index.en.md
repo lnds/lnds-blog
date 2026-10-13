@@ -62,7 +62,7 @@ main( ) {
 
 It's worth noting that this program first appears in a 1974 internal Bell Labs memorandum, written by Kernighan himself, titled ["Programming in C: A Tutorial"](https://www.bell-labs.com/usr/dmr/www/ctut.pdf). Today it's a tradition to introduce a new programming language with this program, and it's also good practice to run it the first time we try a new language or programming environment.
 
-Another of Kernighan's books, [one I always recommend to new programmers](/blog/lnds/2007/07/12/la-practica-de-la-programacion), is [The Practice of Programming](https://amzn.to/2xrulC1).
+Another of Kernighan's books, [one I always recommend to new programmers](/en/blog/lnds/2007/07/12/the-practice-of-programming/), is [The Practice of Programming](https://amzn.to/2xrulC1).
 
 But let's talk about ["UNIX: A History and a Memoir"](https://amzn.to/2WM44ZT), published in October 2019. It's the author's personal memoir of his years at Bell Labs and of the origin and evolution of Unix.
 

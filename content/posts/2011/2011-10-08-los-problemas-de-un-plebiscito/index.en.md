@@ -19,7 +19,7 @@ Years ago I took part in one of the official vote-counting processes, during
 the presidential election that Eduardo Frei won, and there I got a
 firsthand feel for the technological and logistical difficulties of running a
 vote, and that was with a team led by friends who
-[were already experts in this kind of thing](/blog/2008/10/los-hackers-del-5-de-octubre.html).
+[were already experts in this kind of thing](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/).
 
 Around that time we also explored the possibilities of electronic
 voting. Personally, I believe there is no technical way to do

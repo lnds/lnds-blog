@@ -38,7 +38,7 @@ biggest trucks in the world, like the ones used at Chuquicamata, carry
 between 300 and 450 tons).
 
 I remember that in 2005 I told you about the case of a 
-[story taken as true by EMOL](/blog/2005/08/el-hombre-embarazado-y-raton-transgenico.html)
+[story taken as true by EMOL](/en/blog/lnds/2005/08/08/the-pregnant-man-and-the-transgenic-mouse/)
 about the development of technology that allowed men to get
 pregnant.
 

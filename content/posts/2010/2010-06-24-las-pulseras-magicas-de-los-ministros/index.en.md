@@ -8,7 +8,7 @@ draft: false
 ---
  
 > A couple of years ago we were complaining about [a minister's digital
-> illiteracy](/blog/lnds/2008/05/11/el-analfabetismo-digital-del-ministro/).
+> illiteracy](/en/blog/lnds/2008/05/11/the-ministers-digital-illiteracy/).
 > Now it seems we are facing something worse. I read this gem on [Luis
 > Ramirez's blog](http://luisramirez.cl/blog/?p=3109):
 

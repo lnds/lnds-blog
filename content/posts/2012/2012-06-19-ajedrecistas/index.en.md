@@ -14,7 +14,7 @@ computing.
 
 The history of chess played by a machine goes way back. The famous
 case is the
-[Mechanical](http://www.portalajedrez.com/anecdotas/turco.php) [Turk](/blog/lnds/2005/11/04/inteligencia-artificial-artificial/),
+[Mechanical](http://www.portalajedrez.com/anecdotas/turco.php) [Turk](/en/blog/lnds/2005/11/04/artificial-artificial-intelligence/),
 a machine dressed up as a Turk that is said to have beaten even Napoleon
 Bonaparte. In reality there was no mechanism at all: it was
 operated from the inside by the Austrian chess champion Johann

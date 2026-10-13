@@ -39,15 +39,15 @@ I've written so many things on this blog that putting together an anthology is h
 
 ## 2005
 
-- ["Developing software is like making a movie"](/blog/lnds/2005/08/01/desarrollar-software-es-como-hacer-una-pelicula): the first post on this blog, very short, simple, starting out very timidly.
+- ["Developing software is like making a movie"](/en/blog/lnds/2005/08/01/developing-software-is-like-making-a-movie/): the first post on this blog, very short, simple, starting out very timidly.
 
-- ["Tropically tolerant"](/blog/lnds/2005/11/07/tropicalmente-tolerante): the story of Herman Chinery-Hesse, an African hacker in Ghana. Today he is known as the African Bill Gates (<https://en.wikipedia.org/wiki/Herman_Chinery-Hesse>).
+- ["Tropically tolerant"](/en/blog/lnds/2005/11/07/tropically-tolerant/): the story of Herman Chinery-Hesse, an African hacker in Ghana. Today he is known as the African Bill Gates (<https://en.wikipedia.org/wiki/Herman_Chinery-Hesse>).
 
 ![](/blog/lnds/2005/11/07/tropicalmente-tolerante/african.waves.jpg)
 
 ## 2006
 
-- ["Blogmemes and Meneame, two different systems"](/blog/lnds/2006/02/01/blogmemes-y-meneame-dos-sistemas-distintos): in 2006 I built a site called blogmemes, a sort of shared news aggregator. The site got to more than 50,000 users, but I took it down some time later. There were several similar sites imitating Digg.com, at the height of the blog boom. In Spain there was Meneame, a site created by Ricardo Galli. There was some competition at the beginning and a few comparisons, but I didn't pursue the idea and BlogMemes was shut down. Meneame is still going: <https://www.meneame.net/>.
+- ["Blogmemes and Meneame, two different systems"](/en/blog/lnds/2006/02/01/blogmemes-and-meneame-two-different-systems/): in 2006 I built a site called blogmemes, a sort of shared news aggregator. The site got to more than 50,000 users, but I took it down some time later. There were several similar sites imitating Digg.com, at the height of the blog boom. In Spain there was Meneame, a site created by Ricardo Galli. There was some competition at the beginning and a few comparisons, but I didn't pursue the idea and BlogMemes was shut down. Meneame is still going: <https://www.meneame.net/>.
 Today I read this pair of tweets from Ricardo Galli, creator of Meneame:
 
 {{<x user="gallir" id="1289518983935270914" >}}
@@ -56,27 +56,27 @@ Today I read this pair of tweets from Ricardo Galli, creator of Meneame:
 
 And they reflect the problem of running a social-network kind of site: it eats up a lot of time and effort, and it's sure to be the target of unfair criticism. Back then I wasn't up for adding those worries to my life.
 
-- ["Wikipedia Man, or the rise of the new pseudo-intellectual pedant"](/blog/lnds/2006/10/08/wikipediaman-o-el-surgimiento-del-nuevo-pedante-seudo-intelectual): a pedantic article criticizing pedantry :shrug:
+- ["Wikipedia Man, or the rise of the new pseudo-intellectual pedant"](/en/blog/lnds/2006/10/08/wikipediaman-the-new-pseudo-intellectual-pedant/): a pedantic article criticizing pedantry :shrug:
 
 ## 2007
 
-- ["Lessons from Ratatouille"](/blog/lnds/2007/07/01/lecciones-de-ratatouille): my admiration for Brad Bird and why that is a great movie.
+- ["Lessons from Ratatouille"](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/): my admiration for Brad Bird and why that is a great movie.
 
 ![](/blog/lnds/2007/07/01/lecciones-de-ratatouille/featured_image.jpg)
 
-- ["Why does software fail?"](/blog/lnds/2007/08/20/por-que-falla-el-software): this short post has one devastating line: "The truth is that well-made software shouldn't fail".
+- ["Why does software fail?"](/en/blog/lnds/2007/08/20/why-does-software-fail/): this short post has one devastating line: "The truth is that well-made software shouldn't fail".
 
 ## 2008
 
-- ["Technological scatterbrains"](/blog/lnds/2008/05/25/atolondrados-tecnologicos): "An [atolondrado](https://www.rae2.es/atolondrado), a scatterbrain, is someone who acts without thinking, and that's what we're turning into when we don't make the effort to understand what we're doing. Copy and paste is not the most efficient way to solve a problem"
+- ["Technological scatterbrains"](/en/blog/lnds/2008/05/25/technological-scatterbrains/): "An [atolondrado](https://www.rae2.es/atolondrado), a scatterbrain, is someone who acts without thinking, and that's what we're turning into when we don't make the effort to understand what we're doing. Copy and paste is not the most efficient way to solve a problem"
 
-- ["The hackers of October 5"](/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre): a remembrance of and tribute to two great friends.
+- ["The hackers of October 5"](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/): a remembrance of and tribute to two great friends.
 
 ## 2009
 
-- ["How to design an API"](/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/): there are a few things I say in this text that I'd like to change, but it's still a valid guide in 2020.
+- ["How to design an API"](/en/blog/lnds/2009/03/20/how-to-design-an-api/): there are a few things I say in this text that I'd like to change, but it's still a valid guide in 2020.
 
-- ["Handling identity in software"](/blog/lnds/2009/05/14/el-manejo-informatico-de-la-identidad-1): there are laws for handling identity and we must respect them. It's a shame this model never took off.
+- ["Handling identity in software"](/en/blog/lnds/2009/05/14/managing-identity-in-software/): there are laws for handling identity and we must respect them. It's a shame this model never took off.
 
 ## 2010
 

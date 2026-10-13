@@ -26,7 +26,7 @@ inevitable:
 >
 > **U. Eco.** It is the positive side.
 
-That reminds me of [Clay Shirky's idea of cognitive surplus](/blog/2008/05/gin-television-y-superavit-social.html):
+That reminds me of [Clay Shirky's idea of cognitive surplus](/en/blog/lnds/2008/05/28/gin-television-and-social-surplus/):
 television is the great time sink for a lot of people, but the internet
 has the potential to generate more participation, and so,
 in a sense, it is a new round of literacy. Gutenberg
@@ -87,7 +87,7 @@ someone. To exist for someone\...
 That explanation is ingenious. It is an unconscious motivator, impossible to
 prove, and like all numinous explanations it has the charm of being
 irrefutable. But this generation's need to be seen has
-[future consequences](/blog/2009/02/tatuajes-digitales.html), and
+[future consequences](/en/blog/lnds/2009/02/04/digital-tattoos/), and
 that is what needs a warning.
 
 > **J. Marías.** People now say, instead of "I want to tell you",

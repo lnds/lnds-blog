@@ -13,7 +13,7 @@ a [proof of concept](http://www.codeproject.com/Articles/11643/Exploiting-MD5-co
 showing how vulnerable MD5 is when used as a "digital signature"; in
 2007 [Peter Selinger](http://www.mathstat.dal.ca/~selinger/md5collision/), building
 on my work, created a mechanism to automate the process of generating
-fake signatures. In [2009 I noted](/blog/2009/01/md5-las-vulnerabilidades-siguen-ahi.html)
+fake signatures. In [2009 I noted](/en/blog/lnds/2009/01/05/md5-the-vulnerabilities-are-still-there/)
 that the vulnerability was still there. And here we are in 2012, and MD5
 is still available and still being used to generate keys and as an
 electronic signature mechanism. It is even still recommended by
@@ -41,7 +41,7 @@ Will the use of MD5 ever go away? Hard to say, but I suspect that as
 long as those functions are sitting there available, it will keep being
 used.
 
-In [my 2009 post](/blog/2009/01/md5-las-vulnerabilidades-siguen-ahi.html)
+In [my 2009 post](/en/blog/lnds/2009/01/05/md5-the-vulnerabilities-are-still-there/)
 I mentioned how Ben Laurie, Apache founder and OpenSSL core member, was
 considering removing these functions from that project, but that it was
 very hard to do without breaking SSL and TLS. Another alternative was to

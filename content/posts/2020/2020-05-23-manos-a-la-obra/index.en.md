@@ -140,7 +140,7 @@ But what would the "good bones" be?
 
 It depends on the quality of your design. If it's well modularized, you'll have an easier time. If not, you have a lot of work ahead (like trying to straighten the wall in the picture).
 
-Each module relates to another through an interface, something we call an [API](/blog/lnds/2009/03/20/como-dise%C3%B1ar-una-api/).
+Each module relates to another through an interface, something we call an [API](/en/blog/lnds/2009/03/20/how-to-design-an-api/).
 
 These days a lot of people hear API and think of an endpoint using the REST protocol. But the concept of an API is very old; it has been around since at least the 1970s. It took hold in the 1980s with the rise of Object-Oriented Programming and component development.
 

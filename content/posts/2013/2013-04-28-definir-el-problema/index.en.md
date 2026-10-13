@@ -49,7 +49,7 @@ tends to be.
 
 It comes down to a lack of reflection on the meaning, the direction of
 the work. In some cases it takes the form of [Prodan's
-Law](/blog/2009/03/latencia-seguimos-reciclando.html):
+Law](/en/blog/lnds/2009/03/06/latency-still-recycling/):
 **"I don't know what I want, but I want it now!"**.
 
 I say that what fails there is leadership, which is what defines the

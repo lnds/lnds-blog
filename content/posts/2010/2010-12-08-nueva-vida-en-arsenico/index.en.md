@@ -8,7 +8,7 @@ draft: false
 ---
 
 Since I grew up in
-[Chuquicamata](/blog/lnds/2007/08/02/adios-chuquicamata/),
+[Chuquicamata](/en/blog/lnds/2007/08/02/goodbye-chuquicamata/),
 the copper mining town in northern Chile, at a time when pollution was
 pretty high, mainly from the fumes coming out of the copper smelter's
 smokestacks, I was always told that I had been exposed to arsenic

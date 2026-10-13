@@ -109,5 +109,5 @@ many things we need to do first, and the best of our young people
 should put off their dreams of academic glory for a while and devote
 themselves to building things and preparing the ground so the unicorns
 can graze. Otherwise we will just have pretty unicorns locked up behind
-the gates of the [Lagado Zoo](/blog/2009/08/la-academia.html), without
+the gates of the [Lagado Zoo](/en/blog/lnds/2009/08/01/the-academy/), without
 our benefiting from their magical powers.

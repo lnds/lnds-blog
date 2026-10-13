@@ -40,7 +40,7 @@ complex programs with it.
 Going through Eduardo's blog, what surprises you is his capacity to produce new
 entries (he even has days with two!), starting with very
 short posts like the one that opened his blog, "[You can't protect
-software](/blog/2005/08/no-puedes-proteger-el-software.html)",
+software](/en/blog/lnds/2005/08/01/you-cant-protect-software/)",
  back on August 1, 2005. Let me tell you, Eduardo, we started almost
 simultaneously; mine dates from June 23 of the same year. And as if
 one blog weren't enough, Eduardo has two more,
@@ -86,7 +86,7 @@ which I find remarkable.
 Having read some of \@lnds's posts, I will venture
 to recommend him a couple of books. First, in connection with his
 entry "[Atheist summer
-camp](/blog/2009/07/campamento-de-verano-ateo.html)"
+camp](/en/blog/lnds/2009/07/01/atheist-summer-camp/)"
  from July 2009 and his taste for algorithms, I will venture to
 suggest a book for him to analyze and then post about: [The
 Meme Machine, by Susan

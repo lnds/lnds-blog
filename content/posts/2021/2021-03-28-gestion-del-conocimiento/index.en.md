@@ -236,6 +236,6 @@ How? Well, one way is to read this article, spread it, combine it and internaliz
 
 [^2]: There are versions of this story in which the French nobleman is replaced by Frederick II himself.
 
-[^3]: I originally talked about Dreystadt in this post: ["Dreystadt's techniques"](https://lnds.net/blog/lnds/2009/11/14/las-tecnicas-de-dreystadt/).
+[^3]: I originally talked about Dreystadt in this post: ["Dreystadt's techniques"](/en/blog/lnds/2009/11/14/dreystadts-techniques/).
 
 [^4]: In an article titled "The New New Product Development Game".

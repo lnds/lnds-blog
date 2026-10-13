@@ -9,7 +9,7 @@ math: false
 ---
 
 The first programming language I learned was Basic, back around 1981,
-on a Sinclair ZX81. Do you know what [Dijkstra](/blog/2009/07/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra.html)
+on a Sinclair ZX81. Do you know what [Dijkstra](/en/blog/lnds/2012/03/03/quality-correctness-and-elegance-dijkstra-interview/)
 said about Basic? Dijkstra said: *"The teaching of BASIC should be
 rated as a criminal offence: it mutilates the mind beyond recovery"*.
 

@@ -11,7 +11,7 @@ image:
 
 It's a funny thing, but it turns out that now every Chilean who
 lived through those days voted No, so I don't know what's so special
-about [this story](/blog/2008/10/los-hackers-del-5-de-octubre.html)
+about [this story](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/)
 that I published a few years ago. At least last year it was
 remembered by the students of the computer science department at the
 Universidad de Chile, as this photo from that event shows, where

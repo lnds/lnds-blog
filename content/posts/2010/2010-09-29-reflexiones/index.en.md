@@ -36,7 +36,7 @@ was banned. Years later I bought a copy in Mexico, which is where
 I took the passage above from. In 1998 that particular passage
 hit me hard, because I was obsessed with creating a programming
 language. I had already 
-[built one, and managed to sell it](/blog/2007/12/fortran.html), with a
+[built one, and managed to sell it](/en/blog/lnds/2007/12/29/fortran/), with a
 virtual machine included (before Java existed), and I believed in the
 promise of free software, at least as we understood it back then.
 Free software was the way to achieve technological independence.

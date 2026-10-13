@@ -234,12 +234,12 @@ chef would surely defend that point.
 
 When cooking goes beyond mere technique, and is [much more than
 mixing
-ingredients](/blog/2007/07/ratatouille-lecciones-de-ingenieria-de-s.html),
+ingredients](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/),
 it does more than please the user's request, and it is the art of the
 chef to surprise us, let's not forget that. (I recommend reading
-[my reflection on the movie Ratatouille](/blog/2007/07/ratatouille-lecciones-de-ingenieria-de-s.html)
+[my reflection on the movie Ratatouille](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/)
 where I elaborate on this point a bit more, and reinforce my idea that
-programming is actually [more like making movies](/2005/08/desarrollar-software-es-como-hacer-una-pelicula.html)
+programming is actually [more like making movies](/en/blog/lnds/2005/08/01/developing-software-is-like-making-a-movie/)
 than like cooking).
 
 So only if cooking goes beyond pleasing the user could we begin to
@@ -301,7 +301,7 @@ you can draw your own conclusions.
 
 But to clarify my point I am going to quote Donald Knuth, who puts it
 quite well in his beautiful lecture on
-[the art of programming](/blog/lnds/2009/12/01/la-programacion-como-un-arte-parte-i/).
+[the art of programming](/en/blog/lnds/2009/12/01/programming-as-an-art-part-i/).
 
 > If we go back to the Latin roots, we find ars, artis,
 meaning "skill". It is perhaps significant that the corresponding Greek

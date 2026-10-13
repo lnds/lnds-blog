@@ -11,13 +11,13 @@ The design principles of the internet protocols assume that the
 network infrastructure is inherently unreliable, and dynamic in
 terms of availability and nodes. To reduce the complexity of
 the network, the intelligence is left at the edges ([the network is a world of
-ends](/2008/06/un-mundo-de-extremos.html)).
+ends](/en/blog/lnds/2008/06/30/a-world-of-ends/)).
 
 The IP protocol doesn't guarantee a quality of service; it offers its "best
 effort" to deliver the information. And it works quite well,
 thanks to the concept of packet switching, the idea of Leonard Kleinrock
 ([the little 6-year-old boy who wanted to buy a variable
-capacitor](/2008/04/todo-por-un-condensador-variable.html)).
+capacitor](/en/blog/lnds/2008/01/18/all-for-a-variable-capacitor/)).
 
 Does it work? Does it hold up in a catastrophe, like the earthquake
 we had the other day? Does it pass the test? In theory yes, but in Chile? That

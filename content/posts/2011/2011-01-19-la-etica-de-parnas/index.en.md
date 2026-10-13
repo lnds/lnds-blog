@@ -10,7 +10,7 @@ image:
 ---
 
 A post related to the [story of Stanislav Petrov](/en/blog/lnds/2011/01/18/the-man-who-saved-the-world-by-not-doing-what-he-was-supposed-to/)
-is this other one, which [I wrote in 2009](/blog/2009/06/preguntale-a-parnas.html) and which
+is this other one, which [I wrote in 2009](/en/blog/lnds/2009/06/09/ask-parnas/) and which
 I am adding to this series of recycled summer articles:
 
 # Ask Parnas 

@@ -40,7 +40,7 @@ But we changed. We adapted. We understood that we had been fooled,
 that the waterfall method was one big joke, [a reading
 comprehension
 mistake](/en/blog/lnds/2011/11/12/reading-comprehension/), and
-we [went agile](/blog/2009/09/que-es-agilidad.html).
+we [went agile](/en/blog/lnds/2009/09/12/what-is-agility/).
 
 ![](tigre_en_la_nieve.jpg)
 

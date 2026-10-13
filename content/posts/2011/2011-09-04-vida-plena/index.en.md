@@ -12,7 +12,7 @@ draft: false
 > -- Felipe Camiroaga on Twitter, quoting the poet Gonzalo Rojas
 
 Over the last few hours there was an unusual spike in visits to this blog.
-The reason is [this 2008 post](/blog/2008/05/luciano-bello-encuentra-falla-de-seguridad-en-sistema-operativo-debian-ubuntu-y-derivados.html),
+The reason is [this 2008 post](/en/blog/lnds/2008/05/16/luciano-bello-finds-security-flaw-in-debian-ubuntu/),
 which carries a picture of Luciano Bello, the character created by the TV host Felipe
 Camiroaga; it is probably what comes up when you search for the image on
 Google. That is an indirect reflection of the impact this news has

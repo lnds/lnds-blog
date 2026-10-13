@@ -185,7 +185,7 @@ they always had in the past. Johnny von Neumann, who knew how to live so
 fully, did not know how to die."
 
 Alan Turing went on doing research on various subjects. In 1952 he wrote
-[a chess program](/blog/lnds/2008/01/18/ajedrez),
+[a chess program](/en/blog/lnds/2008/01/18/chess/),
 but it was impossible to run it on any computer of that era, and he acted
 as the human CPU. He devoted his last years to mathematical biology,
 trying to understand why sequences of Fibonacci numbers appear in plant

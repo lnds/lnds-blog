@@ -22,7 +22,7 @@ My name is Eduardo Díaz. I hold a degree in computer engineering and a master's
 
 My book "La Naturaleza del Software" is available on Amazon at this URL: <https://amzn.to/2RcA9W6>
 
-**A note on the English version.** The blog is written in Spanish. Posts from August 2025 onward are also available in English; the rest of the archive, twenty years of it, is only in [Spanish](/).
+**A note on the English version.** The blog is written in Spanish. The English posts are translations of the [Spanish originals](/), made with the help of AI. If you spot an error, a pull request or an issue on the <a href="https://github.com/lnds/lnds-blog">blog's repository</a> is welcome.
 
 (cc) Eduardo Díaz Cortés
 

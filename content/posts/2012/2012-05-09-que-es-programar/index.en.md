@@ -12,7 +12,7 @@ draft: false
 > of engineering that people without the concept of the arch did.
 
 > Most software today is very much like an [Egyptian
-> pyramid](http://www.lnds.net/2008/01/el_misterio_de_las_piramides.html) with
+> pyramid](/en/blog/lnds/2008/01/22/the-mystery-of-the-pyramids/) with
 > millions of bricks piled on top of each other, with no structural
 > integrity, but just done by brute force and thousands of slaves." \--
 > Alan Kay
@@ -148,7 +148,7 @@ do something else.
 
 The view that programmers are antisocial autistics who just pound the
 keyboard churning out code must be eradicated. As I
-[said a while ago](/blog/2008/11/cuidado-con-los-ensimismados.html):
+[said a while ago](/en/blog/lnds/2008/11/30/beware-of-the-self-absorbed/):
 "Developing software is a social endeavor. You can't build good
 software with a bunch of engineers with zero social skills."
 

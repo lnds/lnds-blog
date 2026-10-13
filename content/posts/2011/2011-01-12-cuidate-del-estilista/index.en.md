@@ -14,7 +14,7 @@ haircut**," [Chato advises us](http://manzanamecanica.org/2011/01/no_le_pregunte
 a reflection that grew out of some conversation with patent lawyers.
 Well, it's true that we can regard many practitioners of the law
 as [the cause of most
-evils](/blog/lnds/2006/01/27/la-raiz-de-todos-los-males/),
+evils](/en/blog/lnds/2006/01/27/the-root-of-all-evil/),
 but let's not get carried away either.
 
 Carlos wrote a [nice post](http://manzanamecanica.org/2011/01/no_le_preguntes_al_peluquero.html),

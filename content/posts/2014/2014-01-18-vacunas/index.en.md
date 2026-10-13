@@ -236,7 +236,7 @@ government decided to promote mass vaccination to prevent H1N1, or swine
 flu. Some 120 million doses were needed, but it was decided that
 thimerosal would not be used as a preservative. That decision meant only
 16 million doses could be acquired. (Well, in any case, we know that H1N1
-[was not as catastrophic as suspected](/blog/2009/05/gripe-porcina-eso-es-todo-eso-es-todo-amigos.html);
+[was not as catastrophic as suspected](/en/blog/lnds/2009/05/01/swine-flu-thats-all-folks/);
 in fact, the common flu still kills more people.)
 
 Chile has decided, by law, to squander 6 times more money on vaccination
@@ -282,7 +282,7 @@ Taken from Wikipedia:
 This principle has been argued in favor of no longer using vaccines.
 
 This principle reminds me a lot of the discussion we had about
-["the morning-after pill"](/blog/lnds/2008/04/30/el-doctor-horacio-croxatto-y-la-pildora-del-d%C3%ADa-despu%C3%A9s/),
+["the morning-after pill"](/en/blog/lnds/2008/04/30/dr-horacio-croxatto-and-the-morning-after-pill/),
 because it was argued that this pill could be abortive, and so, on the
 basis of the precautionary principle, the distribution of this
 contraceptive should have been banned.

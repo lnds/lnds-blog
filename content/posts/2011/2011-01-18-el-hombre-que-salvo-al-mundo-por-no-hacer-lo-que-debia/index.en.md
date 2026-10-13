@@ -10,7 +10,7 @@ image:
 ---
 
 As usual during the summer I recycle a few articles. This time
-it is a [post from September 2008](/blog/2008/09/el-hombre-que-salvo-al-mundo-porque-no-hizo-lo-que-debia-hacer.html),
+it is a [post from September 2008](/en/blog/lnds/2008/09/29/the-man-who-saved-the-world-by-not-doing-his-job/),
 with the story of Stanislav Petrov:
 
 ## The man who saved the world because he didn't do what he was supposed to do 

@@ -8,7 +8,7 @@ draft: false
 ---
 Since Christmas is coming, and I'm not sure I'll be able to update the
 blog these days, allow me to send my greeting early by 
-[recycling this standard greeting](/blog/2008/12/saludo-navideno-con-reserva-legal.html)
+[recycling this standard greeting](/en/blog/lnds/2008/12/24/christmas-greeting-with-legal-disclaimer/)
 
 Merry Christmas and a Happy New Year to all of you!
 
@@ -78,7 +78,7 @@ year or whichever one may replace it in the future.
 > this message.
 
 Thanks to Sergio Miranda, who originally sent me this message, which
-was published at [Christmas 2008](/blog/2008/12/saludo-navideno-con-reserva-legal.html).
+was published at [Christmas 2008](/en/blog/lnds/2008/12/24/christmas-greeting-with-legal-disclaimer/).
 To this day I don't know who the author of this greeting is, and I hope
 I don't get sued for plagiarism.
 

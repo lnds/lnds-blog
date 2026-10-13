@@ -77,7 +77,7 @@ In the end it all comes down to the passion you put into what you do, so you pro
 
 ## The Difference Engine
 
-This is an alternate history co-written by William Gibson and Bruce Sterling. It's one of the first novels of the steampunk subgenre. It shows us a world in which [Charles Babbage](/en/blog/lnds/2011/10/18/since-forever/) succeeds in building his computing machine, and [Ada](https://lnds.net/blog/lnds/2009/01/17/la-primera-analista-de-sistemas/) is the respected daughter of Lord Byron, who has not abandoned her and is even the prime minister of Great Britain.
+This is an alternate history co-written by William Gibson and Bruce Sterling. It's one of the first novels of the steampunk subgenre. It shows us a world in which [Charles Babbage](/en/blog/lnds/2011/10/18/since-forever/) succeeds in building his computing machine, and [Ada](/en/blog/lnds/2009/01/17/the-first-systems-analyst/) is the respected daughter of Lord Byron, who has not abandoned her and is even the prime minister of Great Britain.
 
 It's a thriller, with echoes of the works of Jules Verne. The novel rests on a conspiracy that struck me as somewhat contrived, but it has a twist at the end that's interesting. It's fascinating to think about how everything would be if computers had been created a hundred years before Turing laid out his first theoretical model of computation. Gibson and Sterling shine in this novel, which was nominated for the Nebula award in 1991. Highly recommended.
 

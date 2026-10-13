@@ -11,7 +11,7 @@ image:
 
 I think one of the best arguments against the notion of a
 software crisis was given, indirectly, by
-[Edsger W. Dijkstra](/blog/lnds/2012/03/03/calidad-correccion-y-elegancia-una-entrevista-a-dijkstra/),
+[Edsger W. Dijkstra](/en/blog/lnds/2012/03/03/quality-correctness-and-elegance-dijkstra-interview/),
 in his 1988 talk "[ON THE CRUELTY OF REALLY TEACHING COMPUTING
 SCIENCE](http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1036.PDF)"
 

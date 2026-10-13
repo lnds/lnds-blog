@@ -159,9 +159,9 @@ calculating this parameter:
 
 If you don't understand what all this is about, I suggest reading my posts
 on Amdahl's Law
-([here](/blog/2009/09/el-problema-de-paralelizar.html),
-[here](/blog/2009/09/el-problema-de-paralelizar-2.html) and
-[here](/blog/2009/09/el-problema-de-paralelizar-3.html)), or
+([here](/en/blog/lnds/2009/09/13/the-problem-with-parallelizing/),
+[here](/en/blog/lnds/2009/09/23/the-problem-with-parallelizing-2/) and
+[here](/en/blog/lnds/2009/09/28/the-problem-with-parallelizing-3/)), or
 better yet, the corresponding chapter in [my
 book](//amzn.to/17bKPdO) 😜
 

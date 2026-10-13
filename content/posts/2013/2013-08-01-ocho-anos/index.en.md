@@ -18,7 +18,7 @@ many of you, my reader friends, are still here too,
 keeping me company. Thank you very much for your patience.
 
 This blog started on August 1, 2005 with a very simple
-[post](/blog/2005/08/desarrollar-software-es-como-hacer-una-pelicula.html)
+[post](/en/blog/lnds/2005/08/01/developing-software-is-like-making-a-movie/)
 that began like this:
 
 > **Developing software is like making a movie**

@@ -104,7 +104,7 @@ For Remis Ramos the movie is not spiritualist:
 I think there is something left unsaid in the movie, and it has to do
 with the key Remis Ramos talks about. I suspect Cameron has something
 up his sleeve, and that he is really applying [Clarke's third
-law](/blog/lnds/2008/03/18/arthur-clarke/): "Any
+law](/en/blog/lnds/2008/03/18/arthur-clarke/): "Any
 sufficiently advanced technology is indistinguishable from magic".
 
 I have the feeling, because I share [J.C.

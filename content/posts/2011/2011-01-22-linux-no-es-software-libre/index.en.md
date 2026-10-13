@@ -9,7 +9,7 @@ image:
   placement: 3
 ---
 
-Another recycled text, [from November 2006](/blog/2006/11/linus-torvalds-y-la-fsf.html),
+Another recycled text, [from November 2006](/en/blog/lnds/2006/11/28/linus-torvalds-and-the-gpl-v3/),
 which I am including in this summer series of articles rescued from the
 LNDS archives. This one is actually the translation of a text by Linus
 Torvalds that matters because it clears up a lot about Linux's

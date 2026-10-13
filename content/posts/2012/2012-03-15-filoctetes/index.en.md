@@ -92,6 +92,6 @@ bitterly like Philoctetes, ignoring the power they have inherited.
 
 Are you bored with your job? Quit. Or could it be that the problem is
 you? Use the marvelous weapons you have inherited, and be careful, or
-you might get abandoned on Lemnos. [Take charge of your life](/blog/2009/03/nada.html).
+you might get abandoned on Lemnos. [Take charge of your life](/en/blog/lnds/2009/03/13/nothing/).
 
 ![](798px-Brauron_-_Marble_slab_with_the_Recall_of_Philoctetes.jpg)

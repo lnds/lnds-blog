@@ -90,7 +90,7 @@ knocking on my door). We also implemented many SCADA projects; I have
 [written a bit about that before](/en/blog/lnds/2010/08/21/debugging-stories/).
 
 One of the great things about that small company was that every design
-was discussed by all the partners. I remember [Marco and Ricardo](/blog/lnds/2008/10/05/los-hackers-del-5-de-octubre) with their cigarettes, asking hard questions and arguing with each other.
+was discussed by all the partners. I remember [Marco and Ricardo](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/) with their cigarettes, asking hard questions and arguing with each other.
 Or Rodrigo, who made his case in front of the screen, writing code.
 Jorge, who preferred to show a proof of concept. They all looked at me
 funny when I wrote the proposals to customers in LaTeX, and wrote my

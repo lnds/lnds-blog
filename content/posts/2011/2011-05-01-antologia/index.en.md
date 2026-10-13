@@ -19,45 +19,45 @@ publication, with a cap of 6 per year :confused:, I hope you enjoy them.
 
 ## **2005**
 
--   [The legend of the space pen](/blog/2005/08/la-leyenda-del-boligrafo-espacial.html),  sometimes the most effective solutions are the simplest ones.
+-   [The legend of the space pen](/en/blog/lnds/2005/08/04/the-legend-of-the-space-pen/),  sometimes the most effective solutions are the simplest ones.
 
--   [The legs of salamanders](/blog/2005/11/las-patas-de-las-salamandras.html), from Alzheimer's to the future of genetic engineering.
+-   [The legs of salamanders](/en/blog/lnds/2005/11/21/salamander-legs/), from Alzheimer's to the future of genetic engineering.
 
 ## **2006** 
 
--   [The doomsday machines](/blog/2006/04/las-maquinas-del-fin-del-mundo.html),  remember that the world was going to end on 6/6/6?
+-   [The doomsday machines](/en/blog/lnds/2006/04/16/the-doomsday-machines/),  remember that the world was going to end on 6/6/6?
 
--   [Eppur si muove](/blog/2006/08/eppur-si-muove.html). Astronomers, give us back the planet Pluto!
+-   [Eppur si muove](/en/blog/lnds/2006/08/27/eppur-si-muove/). Astronomers, give us back the planet Pluto!
 
--   [WikipediaMan](/blog/2006/10/wikipediaman-o-el-surgimiento-del-nuevo-pedante-seudo-intelectual.html),
+-   [WikipediaMan](/en/blog/lnds/2006/10/08/wikipediaman-the-new-pseudo-intellectual-pedant/),
     a rant, I probably inspired Nicholas Carr ;)
 
--   [The first Chilean web entrepreneur](/blog/2006/12/el-primer-emprendedor-web-chileno.html), a tribute to my friend Wenukura.
+-   [The first Chilean web entrepreneur](/en/blog/lnds/2006/12/05/the-first-chilean-web-entrepreneur/), a tribute to my friend Wenukura.
 
 ## **2007**
--   [The lessons of Ratatouille](/blog/2007/07/ratatouille-lecciones-de-ingenieria-de-s.html), how that wonderful Pixar movie teaches us something about software engineering.
+-   [The lessons of Ratatouille](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/), how that wonderful Pixar movie teaches us something about software engineering.
 
--   [Goodbye Chuquicamata](/blog/2007/09/adios-chuquicamata-2.html),
+-   [Goodbye Chuquicamata](/en/blog/lnds/2007/09/02/goodbye-chuquicamata/),
     I was born last century in a city that no longer exists\...
 
--   [The mysterious disappearance of Ettore Majorana](/blog/2007/12/la-misteriosa-desaparicion-de-ettore-majorana.html),
+-   [The mysterious disappearance of Ettore Majorana](/en/blog/lnds/2007/12/18/the-mysterious-disappearance-of-ettore-majorana/),
     how did the most brilliant physicist in history disappear?
 
 ## **2008**
 
--   [Chess](/blog/2008/01/ajedrez.html), the
+-   [Chess](/en/blog/lnds/2008/01/18/chess/), the
     story of how computers learned to play this game.
 
--   [All for a variable capacitor](/blog/2008/04/todo-por-un-condensador-variable.html), that restless little boy who would help us get the internet.
+-   [All for a variable capacitor](/en/blog/lnds/2008/01/18/all-for-a-variable-capacitor/), that restless little boy who would help us get the internet.
 
--   [Pigs and dioxins](/blog/2008/07/cerdos-y-dioxinas.html),
+-   [Pigs and dioxins](/en/blog/lnds/2008/07/31/pigs-and-dioxins/),
     or how not to lose sleep over a politician's alarmism.
 
--   [Mersenne, a Sunday divertimento for nerds](/blog/2008/08/mersenne-divertimento-dominical-para-nerds.html), it's more fun than The Solitude of Prime Numbers.
+-   [Mersenne, a Sunday divertimento for nerds](/en/blog/lnds/2008/08/31/mersenne-a-sunday-diversion-for-nerds/), it's more fun than The Solitude of Prime Numbers.
 
--   [The man who saved the world because he didn't do what he was supposed to](/blog/2008/09/el-hombre-que-salvo-al-mundo-porque-no-hizo-lo-que-debia-hacer.html), the remarkable story of Stanislav Petrov
+-   [The man who saved the world because he didn't do what he was supposed to](/en/blog/lnds/2008/09/29/the-man-who-saved-the-world-by-not-doing-his-job/), the remarkable story of Stanislav Petrov
 
--   [The hackers of October 5](/blog/2008/10/los-hackers-del-5-de-octubre.html),
+-   [The hackers of October 5](/en/blog/lnds/2008/10/05/the-hackers-of-october-5/),
     another tribute to a couple of friends, and a bit of the political
     history of our Chile
 
@@ -68,21 +68,21 @@ This year has many articles I like, but I set myself a
 limit of 6 per year; I'm going to publish another anthology with the ones
 left out.
 
--   [With a Little Help from My Friends](/blog/2009/01/with-a-little-help-from-my-friends-innovacion-y-software-libre.html),
+-   [With a Little Help from My Friends](/en/blog/lnds/2009/01/14/with-a-little-help-from-my-friends-innovation-and-free-software/),
     innovation and free software
 
--   [The copyright of silence](/blog/2009/02/el-copyright-del-silencio.html),
+-   [The copyright of silence](/en/blog/lnds/2009/02/05/the-copyright-on-silence/),
     yes, silence is copyrighted.
 
--   [A program for teaching mathematics](/blog/2009/02/un-programa-para-ensenar-matematicas.html),
+-   [A program for teaching mathematics](/en/blog/lnds/2009/02/01/a-program-for-teaching-math/),
     and I'm more and more convinced it would work.
 
--   [Digital tattoos](/blog/2009/02/tatuajes-digitales.html),
+-   [Digital tattoos](/en/blog/lnds/2009/02/04/digital-tattoos/),
     a reflection on forgetting and social networks
 
--   [How to design an API](/blog/2009/03/como-disenar-una-api.html), I think it's a good guide
+-   [How to design an API](/en/blog/lnds/2009/03/20/how-to-design-an-api/), I think it's a good guide
 
--   [A bomber's manifesto](/blog/2009/05/el-manifiesto-de-un-bombardero.html), Luddites and the story of Theodore Kaczynski
+-   [A bomber's manifesto](/en/blog/lnds/2009/05/24/a-bombers-manifesto/), Luddites and the story of Theodore Kaczynski
 
 2010 {#2010}
 ----

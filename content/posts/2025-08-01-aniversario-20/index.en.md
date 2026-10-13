@@ -7,7 +7,7 @@ slug = '20-years'
 
 This blog turns 20 today.
 
-On August 1, 2005, I published [the first official post](/blog/lnds/2005/08/01/desarrollar-software-es-como-hacer-una-pelicula/) of La Naturaleza del Software (The Nature of Software).
+On August 1, 2005, I published [the first official post](/en/blog/lnds/2005/08/01/developing-software-is-like-making-a-movie/) of La Naturaleza del Software (The Nature of Software).
 
 It was the blog boom. Social networks were still a few years away from showing up and ruining our digital lives.
 

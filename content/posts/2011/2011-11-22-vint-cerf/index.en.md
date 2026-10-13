@@ -12,7 +12,7 @@ No? Well, I told the story in [this post](/en/blog/lnds/2011/01/03/the-memorandu
 to create the "intergalactic computer network"; he was the man with the
 dream. Leonard Kleinrock, the kid who wanted a capacitor to
 build the radio shown on the back cover of a Superman comic
-([the story is here](/blog/2008/04/todo-por-un-condensador-variable.html)),
+([the story is here](/en/blog/lnds/2008/01/18/all-for-a-variable-capacitor/)),
 gave us the mathematical theory for building a network based on
 packet switching; he was the man with the theory. Then Lawrence
 Roberts led the team that built ARPANET, the network that preceded

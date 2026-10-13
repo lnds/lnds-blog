@@ -125,7 +125,7 @@ and convey the idea that our business is [the management of
 intelligence](/en/blog/lnds/2012/04/17/on-the-intelligence-of-the-coyote/). 
 
 It's not about solving problems,
-[it's about improving people's lives](/blog/2009/04/la-computacion-como-una-ciencia-social.html).
+[it's about improving people's lives](/en/blog/lnds/2009/04/22/computing-as-a-social-science/).
 
 In that spirit I propose the following syllabus:
 

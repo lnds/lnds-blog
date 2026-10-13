@@ -14,7 +14,7 @@ technology](http://findingada.com/about/).
 The spirit of Ada Lovelace Day is to promote and recognize the
 outstanding work of our female colleagues in the field.
 
-Last year my tribute went to [María Cecilia Rivara](/blog/2009/03/mujeres-en-tecnologia-el-dia-de-ada-lovelace.html).
+Last year my tribute went to [María Cecilia Rivara](/en/blog/lnds/2009/03/24/women-in-tech-ada-lovelace-day/).
 
 This year my recognition goes to **Marcela Larenas and Paulina Lopez**,
 and through them to a special group of talented colleagues who work

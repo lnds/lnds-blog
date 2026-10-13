@@ -13,7 +13,7 @@ search_error: Could not load the search index.
 
 # Home
 tagline: The Nature of Software. A blog about technology and its impact on people.
-hero_meta: Written by {{ .Author }} since 2005. {{ .Count }} posts translated so far; the <a href="{{ .Archive }}" hreflang="es">full archive</a> is in Spanish.
+hero_meta: Written by {{ .Author }} since 2005. {{ .Count }} posts, translated from the <a href="{{ .Archive }}" hreflang="es">Spanish original</a>.
 all_posts: See all posts
 all_tags: See all tags
 

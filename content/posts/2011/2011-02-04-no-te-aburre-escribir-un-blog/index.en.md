@@ -36,7 +36,7 @@ while.
 
 I hope I never have to feel obligated to write for others, for you, my
 300 subscribers. I like sharing what I write and think with you,
-sharing [this box of chocolates](/blog/2009/07/cuatro-anos.html) that
+sharing [this box of chocolates](/en/blog/lnds/2009/07/30/four-years/) that
 is my blog, now in its sixth year.
 
 Well, all of this is to tell you that I am going on vacation, so I will

@@ -9,7 +9,7 @@ image:
   placement: 3
 ---
 A few years ago, probably inspired by
-[Ratatouille](/blog/2007/07/ratatouille-lecciones-de-ingenieria-de-s.html),
+[Ratatouille](/en/blog/lnds/2007/07/01/lessons-from-ratatouille/),
 I took up cooking. My wife says I don't cook badly, but I turn out to be
 a rather expensive "chef", and a messy one (something to work on). Still,
 I've learned to make a few dishes and experimented with others. It's
@@ -120,9 +120,9 @@ the cost, sometimes, of greater implementation complexity in programming
 terms).
 
 Careful: the degree of parallelization will always be subject to
-[Amdahl's law](/blog/2009/09/el-problema-de-paralelizar.html).
+[Amdahl's law](/en/blog/lnds/2009/09/13/the-problem-with-parallelizing/).
 Fortunately, many of the problems you can tackle with MapReduce are
-*[embarrassingly parallel](http://www.lnds.net/blog/2009/09/el-problema-de-paralelizar-2.html)*
+*[embarrassingly parallel](/en/blog/lnds/2009/09/23/the-problem-with-parallelizing-2/)*
 (like making salads, computing word frequencies across many
 texts, or
 [computing the PageRank of the web pages indexed by Google](http://michaelnielsen.org/blog/using-mapreduce-to-compute-pagerank/)).

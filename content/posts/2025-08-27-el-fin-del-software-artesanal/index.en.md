@@ -34,7 +34,7 @@ Not all of them disappeared. The best adapted. They became pattern designers, sp
 
 Claude Code, Cursor, Copilot, and all the generative AI tools are our Jacquard looms. And we are the weavers.
 
-In [2009 I wrote about programming as an art](/blog/lnds/2009/12/01/la-programacion-como-un-arte-parte-i/), translating Knuth. I distinguished between the artisan, who uses his tools to serve himself, and the artist, who transcends the medium. But now we face something different: the mass industrialization of the act of coding.
+In [2009 I wrote about programming as an art](/en/blog/lnds/2009/12/01/programming-as-an-art-part-i/), translating Knuth. I distinguished between the artisan, who uses his tools to serve himself, and the artist, who transcends the medium. But now we face something different: the mass industrialization of the act of coding.
 
 ![Artisan loom](artesania.jpg)
 

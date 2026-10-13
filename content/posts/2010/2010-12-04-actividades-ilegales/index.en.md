@@ -32,7 +32,7 @@ particular seems to me to apply here).
 Well, this is a case for [the World Privacy Forum's
 recommendations](http://www.worldprivacyforum.org/cloudprivacy.html),
 which we talked about in March 2009 when I published the [tips for using
-cloud computing](/blog/2009/03/tips-para-usar-el-cloud-computing.html):
+cloud computing](/en/blog/lnds/2010/12/04/tips-for-using-cloud-computing/):
 
 -   Read the Terms of Service before placing any information in the
     cloud. If you don't understand the Terms of Service, consider using

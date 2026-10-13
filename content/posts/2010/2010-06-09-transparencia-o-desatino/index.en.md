@@ -19,7 +19,7 @@ this the Transparency Council has made it even worse.
 
 Personal data cannot be passed around like this. The big problem we have
 in Chile is the existence of a single identifier, the
-[RUT](/blog/2009/05/deme-su-rut.html) (the national ID number), which
+[RUT](/en/blog/lnds/2009/05/19/your-id-number-please/) (the national ID number), which
 makes it possible to identify people and cross-reference their
 information. Add to that the fact that it can now be completed with
 people's home addresses (a field present in the electoral roll
