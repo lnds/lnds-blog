@@ -37,7 +37,7 @@ El principal compositor era McDonald con aportes de Fripp, y las letras
 de Sinfield. Fripp una vez dijo que incorporar letras a la música de
 King Crimson era "una imposibilidad funcional". Trabajaron intensamente,
 buscando nuevos sonidos y complicadas armonías, hasta que en octubre de
-1968 estrenaron "In The Court of the Crimson King".
+1969 estrenaron "In The Court of the Crimson King".
 
 {{<figure src="https://d2dspjyoh5c79p.cloudfront.net/3e6deba1-2280-11e9-a030-2b5831f8ecb5-aa9f18b7" caption="Imagen de la portada del primer álbum de King Crimson, la pintura es obra de Barry Godber, un programador de computadores.">}}
 
@@ -544,7 +544,7 @@ Por lineas de código
  9 | Go       |    338 
 
 Con esto avanzamos en un proyecto iniciado hace ya tres años
-(https://www.lnds.net/blog/lnds/2016/1/9/esos-raros-lenguajes-nuevos).
+(<https://lnds.net/blog/lnds/2016/01/09/esos-raros-lenguajes-nuevos/>).
 Espero este año recuperar el tiempo perdido y terminar de una vez estos
 9 desafíos. Los espero.
 

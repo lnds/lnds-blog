@@ -253,7 +253,7 @@ y trabajábamos para poder cumplir con la fecha de entrega.
 Recuerdo que una vez un miembro del equipo me preguntó si definiría una
 metodología de desarrollo para el área, nunca lo hice. De seguro que mi
 respuesta fue: 
-["anotamos todo lo que hay que hacer en una lista, y lo hacemos"](https://www.lnds.net/blog/lnds/2011/9/29/el-mejor-proceso-de-desarrollo-de-software).
+["anotamos todo lo que hay que hacer en una lista, y lo hacemos"](/blog/lnds/2012/12/29/el-mejor-proceso-de-desarrollo-de-software/).
 
 
 Así que 1998 terminó bastante bien para mí. [No sólo encontré el amor

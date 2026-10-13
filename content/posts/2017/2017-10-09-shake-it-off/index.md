@@ -61,7 +61,7 @@ eso.
 
 Así que Swift es, siguiendo esta analogía con estrellas del rock, un
 lenguaje que se aleja la linea de otros lenguajes que hemos analizado en
-estos desafíos, sobre ["esos raros lenguajes nuevos"](https://www.lnds.net/blog/lnds/2016/1/9/esos-raros-lenguajes-nuevos). 
+estos desafíos, sobre ["esos raros lenguajes nuevos"](https://lnds.net/blog/lnds/2016/01/09/esos-raros-lenguajes-nuevos/). 
 
 En términos de las analogías que hemos realizado hasta ahora, que es más
 cercano al pop, así que sumado a su juventud y orientación a facilitar
@@ -309,7 +309,7 @@ La clausula indirect permite crear una estructura recursiva. 
 
 
 En base a esto se puede construir una solución muy parecida a la que
-[implementé en Rust](/sblog/lnds/2017/09/24/red-barchetta). Esto lo
+[implementé en Rust](/blog/lnds/2017/09/24/red-barcheta/). Esto lo
 pueden desarrollar por su cuenta, y si a alguien le interesa me puede
 enviar su solución como un pull request. Quizás en algún momento me
 anime y la implemente por mi cuenta, pero me agradaría recibir una

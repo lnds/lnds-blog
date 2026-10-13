@@ -18,7 +18,7 @@ como sociedad. 
 
 Siempre que pienso en la mentira vuelvo a Samuel Clemens, el escritor
 norteamericano conocido como Mark Twain. Reflexionando sobre su obra
-"Huckleberry Finn", este autor dice:
+"Huckleberry Finn", Joaquín Mª Aguirre Romero dice:
 
 > "Huck es un muchacho a medio socializar. Está en el escalón más bajo
 > que puede estar un blanco en la sociedad norteamericana del momento,

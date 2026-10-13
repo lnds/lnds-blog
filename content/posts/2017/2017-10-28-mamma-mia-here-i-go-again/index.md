@@ -187,7 +187,7 @@ El AXD301, con más de dos millones de lineas de código, es un sistema
 que logró un 99.9999999% de confiabilidad. 
 
 Así como lo leen,  99.9999999% (esos son nueve nueves), esto quiere
-decir que en este sistema se tiene 0,3 segundos de indisponibilidad en
+decir que en este sistema se tiene 0,03 segundos de indisponibilidad en
 todo el año. Esta cifra fue medida en British Telecom durante un periodo
 de ocho meses. Lo que expresa esta cifra es el uptime del servicio en su
 totalidad, no de sus partes.

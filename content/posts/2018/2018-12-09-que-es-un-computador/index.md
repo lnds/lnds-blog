@@ -94,7 +94,7 @@ automatización es la gran ventaja que los computadores tienen que
 ofrecer a la humanidad.
 
 Charles Babbage, quien intentó infructuosamente crear un computador a
-inicios del siglo XVIII, dijo:
+inicios del siglo XIX, dijo:
 
 > "La economía del tiempo humano es la siguiente ventaja de las
 > maquinarias en la manufactura"

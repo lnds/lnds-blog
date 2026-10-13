@@ -125,7 +125,7 @@ Para esto usaremos un algoritmo clásico llamado Huffman Coding.
 Al menos teóricamente, el Huffman Coding es la compresión que asegura
 que cada símbolo es represantado con la cantidad óptima de bits, de
 acuerdo a la teoría de la información de Shannon 
-([de la que hemos hablado antes](/blog/2011/04/tambores-parlantes)).
+([de la que hemos hablado antes](/blog/lnds/2011/04/23/tambores-parlantes/)).
 
 En el Huffman Encoding lo que hacemos es contar la frecuencia de los
 símbolos en el texto que queremos comprimir, en base a eso construimos

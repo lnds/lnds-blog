@@ -150,7 +150,7 @@ costoso.
 
 ## AntiAgil
 
-Nassim Taleb inventa el término [Antifragilidad](blog/lnds/2018/05/26/antifragilidad)
+Nassim Taleb inventa el término [Antifragilidad](/blog/lnds/2018/05/26/antifragilidad/)
 porque no encuentra uno que refleje lo opuesto a lo frágil.
 
 > ¿Qué es lo opuesto de lo frágil?\

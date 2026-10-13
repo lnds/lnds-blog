@@ -61,7 +61,7 @@ estaba fuera de mis escasas posibilidades como baterista.
 Habíamos decidido empezar nuestra presentación con una versión
 instrumental de [Maniac](https://www.youtube.com/watch?v=6Vx4J_NtNPk),
 un conocido tema de la banda sonora de
-[Flashdance](https://en.wik%0Aipedia.org/wiki/Flashdance), una pieza
+[Flashdance](https://en.wikipedia.org/wiki/Flashdance), una pieza
 que al inicio tiene una secuencia de percusión electrónica que debía
 emular con un hit hat y un cencerro envuelto en tela. Cuando cuentas
 sólo con una vieja batería de jazz de la banda del colegio tienes que
@@ -150,7 +150,7 @@ Ahora los invito a aportar con una pequeña colaboración monetaria.
 
 Lo mejor es que todos los que aporten recibirán un regalo periódico en
 su buzón de correo electrónico. A través de
-[Patreon](https://www.pat%0Areon.com/lnds) compartiré contenidos
+[Patreon](https://www.patreon.com/lnds) compartiré contenidos
 exclusivos, que no serán publicados en este sitio, junto con adelantos
 de algunos de mis proyectos (como mis próximos libros).
 

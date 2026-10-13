@@ -75,7 +75,7 @@ autoridad?
 > bajado completamente el perfil (\...) por ejemplo, el sitio en el que
 > millones de chilenos han puesto
 > sus datos en los últimos dos meses, que es el
-> sitio [micompensacion.cl](micompensacion.cl),
+> sitio [micompensacion.cl](https://micompensacion.cl),
 > ha sido hackeado varias veces.
 >
 > Patricia Politzer, Mesa Central, Canal 13, 29 de julio de 2018.

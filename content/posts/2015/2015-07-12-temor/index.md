@@ -160,7 +160,7 @@ como arma contra nosotros.
 **The Fear Tetralogy**
 
 > "And the things that we fear are a weapon to be held against
-> us\..." --Freeze, Rush
+> us\..." --The Weapon, Rush
 
 En una entrevista de 1994, Neil Peart el baterista y letrista de la
 banda de rock progresivo Rush explicaba la inspiración para la [Fear
@@ -184,9 +184,9 @@ canciones que el grupo compuso e incorporó a lo largo de diversos
 Hoy sabemos que algo de cierto hay en esta idea, el miedo, el temor es
 una emoción muy fuerte, [y las emociones guían nuestra acciones mucho
 más allá de lo que
-sospechamos](/blog/lnds/2011/8/22/el-problema-con-la-razon).
+sospechamos](/blog/lnds/2011/08/22/el-problema-con-la-razon/).
 
-En 2002 Neil Peart agregó una cuarta canción, Fear, a la trilogía
+En 2002 Neil Peart agregó una cuarta canción, Freeze, a la trilogía
 original. Se las dejo para cerrar este post, el miedo a veces nos
 congela, el miedo es usado contra nosotros. Debemos reflexionar sobre
 nuestros temores, es bueno ser cauto, pero ser temeroso no lo es.

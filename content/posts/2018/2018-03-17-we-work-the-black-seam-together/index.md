@@ -27,7 +27,7 @@ una vez y dejemos de hablar de blockchain en este blog por un buen
 tiempo.
 
 Primero repasemos lo escrito hasta ahora. En mi primer post: 
-[The Chain](/http://www.lnds.net/blog/lnds/2018/01/6/the-chain), hablé de
+[The Chain](/blog/lnds/2018/01/06/the-chain/), hablé de
 cadenas, y de su uso en distintos aspectos del desarrollo de software,
 en particular sobre su uso para arquitecturar soluciones de software,
 pero el foco de ese artículo era la idea de trabajo colectivo y

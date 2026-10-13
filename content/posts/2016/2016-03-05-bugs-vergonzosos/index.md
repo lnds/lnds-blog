@@ -66,9 +66,10 @@ internet.
 
 Estos sistemas son "tolerantes a fallas", es decir, están diseñados
 para ser resilientes a errores en el entorno, sobrecarga de trabajo,
-etc. Durante su trabajo, los investigadores lograron provocar un total
-de 17,216 fallas al sistema, pero 48 fueron catastróficas, es decir,
-lograron dejar inoperante el sistema. (En un caso la recuperación
+etc. Durante su trabajo, los investigadores revisaron un total
+de 17,216 reportes de fallas de estos sistemas y analizaron en detalle
+198, de las cuales 48 fueron catastróficas, es decir,
+dejaron inoperante el sistema. (En un caso la recuperación
 implicó establecer sesiones SSH manuales a más de 4.000 nodos para
 detener los procesos).
 

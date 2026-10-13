@@ -40,7 +40,7 @@ persona que conocí a través de CEO. Él dirigía una exitosa agencia de
 diseño web, tenía varios contratos importantes, la mayor parte con
 gobierno. Sus oficinas estaban en una hermosa casona en Providencia,
 donde a veces se realizaban algunos de los almuerzos con emprendedores
-que les conté en [la parte 5](https://www.lnds.net/blog/lnds/2019/3/31/el-fin-de-la-agilidad)
+que les conté en [la parte 5](/blog/lnds/2019/03/31/el-fin-de-la-agilidad/)
 
 Cuando llegué a trabajar la Startup aún no se constituía. Así que
 trabajé con el equipo de la agencia, reemplazando al encargado de
@@ -208,7 +208,7 @@ Parecía que los socios estaban más preocupados de pasar a las siguientes
 rondas de inversión, que de vender algo. Insisto, todo lo que no debe
 hacerse se hacía en esta empresa.
 
-En febrero de 2002 se destapa el hecho de que la secretaria de Carlos
+En febrero de 2003 se destapa el hecho de que la secretaria de Carlos
 Massad, director del Banco Central, le enviaba emails con información
 privilegiada a Enzo Bertinelli, con quien sostenía un romance. Esto
 desató una investigación que destapó uno de los mayores fraudes al fisco

@@ -97,8 +97,8 @@ actual [ANSI](https://www.ansi.org/) (American
 National Standards Institute).
 
 La novedad de EBCDIC y [ASCII](https://es.wikipedia.org/wiki/ASCII) es
-que incorporaban las letras minúsculas y por lo tanto requerían una
-codificación de 7 bits.
+que incorporaban las letras minúsculas y por lo tanto requerían más bits:
+7 en el caso de ASCII y 8 en el de EBCDIC.
 
 Lo curioso es que IBM fue uno de los principales impulsores de ASCII,
 pero sus productos tardaron varios años en adoptar
@@ -119,7 +119,7 @@ Latino America, pero es distinta de la codificación para Francia (EBCDIC
 297).
 
 En EBCDIC-284 la eñe tiene el código 106, mientras que en EBCDIC-297 la
-misma é tiene el código 73. El código 106 en EBCDIC 297 es ù. Entonces
+misma eñe tiene el código 73. El código 106 en EBCDIC 297 es ù. Entonces
 si usted codificó un texto en Chile en EBCDIC 284 y lo envía a Francia
 la palabra niño será recibido como niùo.
 
@@ -205,8 +205,8 @@ bastaría con usar Unicode en todas las aplicaciones del estado,
 
 En principio la respuesta es sí, pero no es tan simple.
 
-Porque, el problema con Unicode es que requiere que todos los símbolos
-sean representados en 32 bits, es decir, ocupan 4 veces el tamaño
+Porque, el problema con Unicode es que, codificado en forma directa (UTF-32),
+requiere que todos los símbolos sean representados en 32 bits, es decir, ocupan 4 veces el tamaño
 actual, eso implicaría multiplicar por 4 los tamaños de las bases de
 datos que actualmente guardan todo en alguna variante de la codificación
 ANSI (ASCII extendido).
@@ -225,7 +225,7 @@ En Unicode la eñe es el código 241, en binario esto se representa así:
 **0000 0000 1111 0001**
 
 Las reglas de codificación de UTF-8 indican que al ser un número
-superior a 128 se debe codificar usando una serie de transformaciones,
+superior a 127 se debe codificar usando una serie de transformaciones,
 que se traducen en que nuestra eñe queda codificada de la siguiente
 manera:
 

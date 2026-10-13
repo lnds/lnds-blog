@@ -67,7 +67,7 @@ todos los usuarios?
 4. ¿Haz esperado semanas o meses para que cambios simples sean
 publicados en vivo a tus clientes?
 
-Como decía Crush, en Buscando a Nemo, "si no quieres que nada le pase,
+Como decía Dory, en Buscando a Nemo, "si no quieres que nada le pase,
 entonces nada pasará con él". Es lo mismo con tu equipo de desarrollo,
 si no enfrenta alguna vez uno de los cuatro escenarios de arriba,
 entonces nunca podrá llegar a ser un equipo de alto desempeño y de alta
