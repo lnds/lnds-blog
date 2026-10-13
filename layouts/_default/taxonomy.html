@@ -1,4 +1,9 @@
+{{- /* Hugo usa esta plantilla tanto para el índice de una taxonomía (todos los
+       tags) como para cada término (un tag), así que se distingue por .Kind. */ -}}
 {{- define "main" -}}
+  {{- if eq .Kind "term" -}}
+    {{- partial "list-body.html" . -}}
+  {{- else -}}
   <header class="page-head">
     <p class="cmd"><span class="ps">$</span> ls {{ strings.TrimPrefix "/" .RelPermalink }} | sort -rn</p>
     <h1>{{ partial "title.html" . }}</h1>
@@ -15,4 +20,5 @@
   {{- else }}
   <p class="dim">{{ i18n "empty_list" }}</p>
   {{- end }}
+  {{- end -}}
 {{- end -}}
