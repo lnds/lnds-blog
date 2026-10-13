@@ -30,7 +30,7 @@ URIs don't change: people change them.
 
 [Tim Berners Lee](http://www.w3.org/People/Berners-Lee/) nos advierte sobre la falta de persistencia de los URI (Uniform Resource Identificator), los enlaces son URIs, y cuando estos desaparecen se provocan problemas.
 
-Personalmente he cometido el pecado de cambiar blogs completamente, y después he recibido reclamos de usuarios que siguieron un enlace en technorati, u otro sitio y fueron a dar al Limbo (perdonen que hable de algo que [ya no existe](http://www.lnds.net/2005/12/dante_se_equivocaba_el_limbo_no_existe.html)).
+Personalmente he cometido el pecado de cambiar blogs completamente, y después he recibido reclamos de usuarios que siguieron un enlace en technorati, u otro sitio y fueron a dar al Limbo (perdonen que hable de algo que [ya no existe](/blog/lnds/2006/08/27/dante-se-equivocaba-el-limbo-no-existe/)).
 
 Sugiero leer el artículo de Berners Lee: [Cool URIs don't change](http://www.w3.org/Provider/Style/URI.html).
 

@@ -23,7 +23,7 @@ tags:
 
 Probablemente el concepto de la Web 2.0, no sea más que una movida para crear una nueva burbuja. Carlota Perez nos dice que estos fenomenos no solo no son nuevos, sino que positivos. Al menos para los que estan interesados en levantar capital semilla, el[artículo](http://www.carlotaperez.org/Articulos/TRFC-TOCeng.htm) de la investigadora de Harvard pueda ser una buena guía.
 
-De todas maneras hay cosas que están cambiando en la web, y en ese sentido si que podemos hablar de una [web 2.0](http://www.lnds.net/2005/10/web_20_y_las_nuevas_generacion.html). Al menos el nombre tiene esa designación a las que hemos acostumbrado a los usuarios, y que los ingenieros comerciales convirtieron en herramienta de marketing.
+De todas maneras hay cosas que están cambiando en la web, y en ese sentido si que podemos hablar de una [web 2.0](/blog/lnds/2005/10/25/web-2-0-y-las-nuevas-generaciones-del-software/). Al menos el nombre tiene esa designación a las que hemos acostumbrado a los usuarios, y que los ingenieros comerciales convirtieron en herramienta de marketing.
 
 ## El software evoluciona
 

@@ -13,7 +13,7 @@ categories:
 El proyecto OLPC ha perdido a dos grandes figuras técnicas, Walter Bender, e Ivan Krstic.  
 Seguramente recordarán a Krstic, pues una vez coloqué un [video](/2007/05/google_y_el_olpc.html) de su charla de divulgación del proyecto en GOOGLE, y en otra nota escribí sobre su trabajo instalando OLPC en Perú.
 
-Walter Bender tuvo la gentileza de [responderme una consulta](/2007/06/puede_cuba_tener_acceso_al_olpc_posicion.html) sobre la situación del OLPC en Cuba.
+Walter Bender tuvo la gentileza de [responderme una consulta](/blog/lnds/2007/06/29/puede-cuba-tener-acceso-al-olpc-posicion-oficial-de-la-olpc/) sobre la situación del OLPC en Cuba.
 
 Walter era Director de Contenido, y presidente de la OLPC.
 

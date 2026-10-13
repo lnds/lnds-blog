@@ -22,7 +22,7 @@ Pero una cosa que falta mencionar es el enorme gasto energético que los usuario
 Cuando yo empecé a trabajar, a fines de los 80, existían muy pocos computadores, en ese tiempo aún reinaban los mini computadores, o los mainframes, con algunos terminales. La llegada del PC cambió todo, y con esto aumento el gasto energético asociado a la computación.  
 Ahora casi todos los empleados de las empresas tienen PCs en sus escritorios, aunque se usan en un 80% para enviar y recibir emails, y ver LUN o Facebook.
 
-En nuestras escuelas se están instalando computadores que gastan mucha energía, sin considerarse un aumento en el presupuesto de electricidad, y menos el impacto en el calentamiento global, y sin embargo uno de los computadores más "verdes" que existe en este momento es el XO, de OLPC ([con gastos que apenas bordean los 3 watts](/2007/05/xo-energia-medio-ambiente-y-el-mito-de-l.html)).
+En nuestras escuelas se están instalando computadores que gastan mucha energía, sin considerarse un aumento en el presupuesto de electricidad, y menos el impacto en el calentamiento global, y sin embargo uno de los computadores más "verdes" que existe en este momento es el XO, de OLPC ([con gastos que apenas bordean los 3 watts](/blog/lnds/2007/05/02/xo-energia-medio-ambiente-y-el-mito-de-la-ley-de-moore/)).
 
 Es relativamente fácil medir el gasto de Google, y la industria TI a nivel de Datacenters, pero ¿qué pasa en el otro extremo?, me pregunto yo,
 

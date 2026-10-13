@@ -18,7 +18,7 @@ Este año mi cumpleaños me encontró atrapado con mucho trabajo. Apenas con tie
 
 Estoy hecho un robot corporativo.
 
-Así que les dejo el regalo de este año, esta vez es Yo Robot interpretado en vivo por al gran [AP](http://www.lnds.net/2008/12/algunos-consejos-de-alan-parson-para-des.htmlen) Madrid.
+Así que les dejo el regalo de este año, esta vez es Yo Robot interpretado en vivo por al gran [AP](/blog/lnds/2008/12/14/algunos-consejos-de-alan-parson-para-desarrollar-software/) Madrid.
 
 {{<youtube NQi-OSXznrY>}}
 

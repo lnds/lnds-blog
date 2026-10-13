@@ -17,11 +17,11 @@ La verdad, es que frente a varios CAPTCHAS me he sentido como un verdadero idiot
 
 En el [Factor Humano](http://www.webstudio.cl/blog/) hay un completisimo artículo sobre los CAPTCHAS desde el punto de vista de la accesibilidad:[http://www.webstudio.cl/blog/captchas-y-accesibilidad/](http://www.webstudio.cl/blog/captchas-y-accesibilidad/).
 
-Hay otras maneras de combatir el spam. Si lo que te preocupa es la seguridad, los captchas no son para eso, como[explique anteriormente](http://www.lnds.net/archives/2005/08/no_comprometas.html),
+Hay otras maneras de combatir el spam. Si lo que te preocupa es la seguridad, los captchas no son para eso, como[explique anteriormente](/blog/lnds/2005/08/10/no-comprometas-la-seguridad-de-tu-sitio/),
 
 De todas maneras, si lo que quieres es verificar que al otro lado hay un humano hay 2 maneras.
 
-  * La más cara es usar biometría, sobre todo [biometría cancelable](http://www.lnds.net/archives/2005/10/biometria_cance.html).
+  * La más cara es usar biometría, sobre todo [biometría cancelable](/blog/lnds/2005/10/01/biometria-cancelable/).
   * La más barata, es que puedes usar los eventos de movimiento del mouse, por ejemplo puedes dibujar una matriz con números sobre celdas de colores y solicitar al usuario que haga click sobre uno de los números, o sobre una secuencia específica.
 
 Uno de los mejores CAPTCHAS que he visto es, irónicamente, el usado por ese generador de SPAM, llamado BlogClicker. La imagen muestra el concepto:

@@ -11,7 +11,7 @@ image:
 ---
 NOTA IMPORTANTE: Este artículo es de **2005** y habla de una instalación
 artística, es probable que quieras saber del caso caso de Thomas Beatie,
-que es una mujer transexual que ha decidido embarazarse, sobre eso no se
+que es un hombre trans que ha decidido embarazarse, sobre eso no se
 habla acá, te sugiero ver [este artículo del diario el mundo](http://www.elmundo.es/suplementos/cronica/2008/651/1207432815.html),
 si es eso lo que te interesa.
 

@@ -9,7 +9,7 @@ draft: false
 Distribuir es mejor
 
 En mi anterior post:
-[Sindicar](/archives/2005/08/sindicar.html),
+[Sindicar](/blog/lnds/2005/08/04/sindicar/),
 planteaba que no existe esta palabra en español, y que por último
 podriamos usar el término Sindicación Web.
 

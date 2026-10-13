@@ -14,7 +14,7 @@ tags: ['privacidad']
 
 Al parecer la privacidad no ha muerto, simplemente [está algo confundida](http://www.sxsw.com/interactive/talks/panels/?action=show&id=IAP0901329).
 
-Una de las principales amenazas a la privacidad es [la terrible capacidad de recordar de la web](http://www.lnds.net/2009/02/tatuajes-digitales-1.html).
+Una de las principales amenazas a la privacidad es [la terrible capacidad de recordar de la web](/blog/lnds/2009/02/04/tatuajes-digitales/).
 
 Como [dice Bruce Schneier](http://www.schneier.com/blog/archives/2009/02/privacy_in_the.html), en una de las más claras reflexiones sobre el problema que enfrentaremos:
 

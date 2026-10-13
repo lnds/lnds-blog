@@ -8,7 +8,7 @@ authors: [admin]
 wordpress_id: 282
 ---
 
-Me escribe un [comentarista](/2005/08/sindicar-1.html#comment-77488), en respuesta a uno de los primeros posts que escribí (2005), sobre la palabra [sindicación](/2005/08/sindicar-1.html):
+Me escribe un [comentarista](/blog/lnds/2005/08/04/sindicar/#comment-77488), en respuesta a uno de los primeros posts que escribí (2005), sobre la palabra [sindicación](/blog/lnds/2005/08/04/sindicar/):
 
 > "adhocracia tampoco figura en el diccionar (RAE)".
 
@@ -26,7 +26,7 @@ En este sentido, aplico lo que [dice Carlos](http://eldiabloenlosdetalles.net/20
 
 Ustedes pueden quejarse, y con razón, de que soy bastante pesado con esto del uso adecuado de palabras. Pero no soy alguien que esté cerrado al uso de nuevos términos.
 
-Si leen mi post sobre [Sindicación](/2005/08/sindicar-1.html), me pregunto ¿qué hacer con este neologismo?, y hasta propongo usar "sindicación web", como una alternativa.  Pero, eso es lo que pensaba en 2005, ahora este tema ya no me preocupa, y es bastante habitual que la palabra sindicación se use en el sentido de syndicate, y es probable que más adelante la RAE incluya una acepción adicional a la palabra. Nunca se sabe.
+Si leen mi post sobre [Sindicación](/blog/lnds/2005/08/04/sindicar/), me pregunto ¿qué hacer con este neologismo?, y hasta propongo usar "sindicación web", como una alternativa.  Pero, eso es lo que pensaba en 2005, ahora este tema ya no me preocupa, y es bastante habitual que la palabra sindicación se use en el sentido de syndicate, y es probable que más adelante la RAE incluya una acepción adicional a la palabra. Nunca se sabe.
 
 El lenguaje es algo vivo, ¡pero eso no significa que tengamos que matarlo!.
 

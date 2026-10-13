@@ -469,7 +469,7 @@ advantages of either could still be retained.
 
 A Russian engineer, G. Polyakov had the same idea almost simultaneously,
 and published a paper with the title 'A space necklace about the
-Earth'[20](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn20).
+Earth'[20](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn20).
 However, as I might have guessed, we were both anticipated by Professor
 Buckminster Fuller. To quote from the notes he wrote for the sleeve of
 my Fountains of Paradise recording (Caedmon TC 1606):
@@ -580,32 +580,32 @@ Test": AIAA/AAS Astrodynamics Conference, Palo Alto, 7-9 August, 1978.
 
 \[10\] Arthur C. Clarke, The Fountains of Paradise. Harcourt Brace
 Jovanovich, N.Y.; Gollancz, London (1979).
-[11](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn11)
+[11](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn11)
 These include G. C. Weiffenbach, G. Colombo, E. M. Gaposchkin and M. D.
 Grossi, who arrived at the concept as a result of their work on tethered
 satellites, and T. Logsdon and R. Africano \[see T. Logsdon, The Rush to
 the Stars, Franklin (1970)\].
-[12](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn12)
+[12](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn12)
 Professor Harry O. Ruppe, Hyperfilament's First Strand. 15\
 February (1979) (Personal Communication).\
-[13](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn13)
+[13](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn13)
 For a classic example, see my Profiles of the Future Chapt. 1. Harper &
 Row, N.Y. (1973); Gollancz, London (1974).
-[14](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn14)
+[14](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn14)
 Willy Ley, Rockets, Missiles and Men In Space, Chap 5. Viking (1968).
-[15](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn15)
+[15](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn15)
 Charles Sheffield, How to Build a Beanstalk, in press
-[16](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn16)
+[16](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn16)
 NSF Press Release PR 79-15, 2 March, (1979).
-[17](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn17)
+[17](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn17)
 Hans Moravec, A non-synchronous orbital skyhook. J. Astronaut. Sci. XXV,
 No. 4, 307-322 (1977).
-[18](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn18)
+[18](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn18)
 Charles Sheffield, The Web Between the Worlds. ACE (1979). Ll9\] Space
 escalator, a quasi permanent engine in space. Tsuotomu Iwata, National
 Space Development Agency of Japan. Application to the XXX IAC, 8 March
 (1979).\
-[20](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html#fn20)
+[20](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/#fn20)
 G. Polyakov, A space 'Necklace' about the earth, (Kosmicheskoye
 ozherel'ye zemli). Teknika Molodezhi, No. 4 41-43 (1977). (NASA
 TM-75174).

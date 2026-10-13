@@ -22,7 +22,7 @@ en [Slashdot](http://it.slashdot.org/article.pl?sid=05%2F09%2F23%2F0618252&tid=
 y en [Kriptópolis](http://www.kriptopolis.org/explotando-las-colisiones-de-md5).
 
 Mi artículo original está en inglés y hay un (muy
-breve) [resumen](http://www.lnds.net/2005/09/explotando_las_colisiones_de_m.html)
+breve) [resumen](/blog/lnds/2005/09/15/explotando_las/)
 en este mismo blog.
 
 La verdad es que no me preocupé much más del tema, y no estaba enterado

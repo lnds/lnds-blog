@@ -16,7 +16,7 @@ tags:
 - OSX
 ---
 
-Una nota antes de la notica, por favor recuerden que este es un proyecto educativo, no es el desarollo de un notebook más barato, el proyecto es [para los niños](s/2005/11/ulpn.html#more), por favor lean el [FAQ ](http://laptop.media.mit.edu/faq.html)del proyecto antes de opinar.
+Una nota antes de la notica, por favor recuerden que este es un proyecto educativo, no es el desarollo de un notebook más barato, el proyecto es [para los niños](/blog/lnds/2005/11/04/ulpn/), por favor lean el [FAQ ](http://laptop.media.mit.edu/faq.html)del proyecto antes de opinar.
 
 ## Jobs y Gates se involucran
 

@@ -21,7 +21,7 @@ categories:
 
 [Carlos](http://www.chato.cl/blog/) es chileno, estudió en la escuela de ingeniería de la U. de Chile (¿donde más?) y actualmente está trabajando en yahoo Barcelona. Seguramente lo recordarán por su sitio [tejedores de la web](http://www.tejedoresdelweb.com/307/channel.html), y es socio fundador y director de tecnología en [Newtemberg](http://www.newtenberg.com/1765/article-68140.html).
 
-Felicitaciones a Carlos, y lo genial es que [PhotoSoup](http://next.yahoo.net/photosoup/es) un juego que puedes incorporar a tus propias páginas, a través de la opción embed, [acá les dejo un ejemplo](http://www.lnds.net/sopa_de_letras.html) que me armé para este sitio ( también pueden hacer click en la imagen que acompaña este artículo).
+Felicitaciones a Carlos, y lo genial es que [PhotoSoup](http://next.yahoo.net/photosoup/es) un juego que puedes incorporar a tus propias páginas, a través de la opción embed, [acá les dejo un ejemplo](/blog/lnds/2008/01/26/sopa-de-letras-o-de-fotos/) que me armé para este sitio ( también pueden hacer click en la imagen que acompaña este artículo).
 
 El juego está disponible como beta, y se llama [PhotoSoup](http://next.yahoo.net/photosoup/), utiliza las APIs de Flickr, en el sitio del juego pueden crear sus propios puzles e incorporarlos en sus páginas.
 

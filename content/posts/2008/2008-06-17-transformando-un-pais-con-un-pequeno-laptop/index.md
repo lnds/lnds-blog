@@ -17,22 +17,22 @@ El tema de qué hacer con la educación en Chile es complejo, y por supuesto est
 
 [CEIBAL ](http://www.ceibal.edu.uy/portal/), en Uruguay, es el más ambicioso de los proyectos que está siendo desplegado usando esta tecnología. Pero no se trata de entregar computadores a los chicos uruguayos. Es un proyecto más ambicioso, y que se propone transformar la sociedad uruguaya e integrarla verdaderamente en la sociedad de la información.
 
-La fotografía muestra uno de los tantos encuentros de formación de docentes realizados por el proyecto CEIBAL. Ya antes publiqué [una presentación con la experiencia piloto](/2007/11/el_proyecto_ceibal_midiendo_el_impacto_d.html), que llevó a una de las conclusiones más importantes, es vital preparar al docente.
+La fotografía muestra uno de los tantos encuentros de formación de docentes realizados por el proyecto CEIBAL. Ya antes publiqué [una presentación con la experiencia piloto](/blog/lnds/2007/11/03/el-proyecto-ceibal-midiendo-el-impacto-del-olpc-en-la-educacion/), que llevó a una de las conclusiones más importantes, es vital preparar al docente.
 
-Uruguay está dando un ejemplo de cómo se deben implementar este tipo de programas. Sin improvisaciones que [sólo generan bochornos](http://www.lnds.net/2008/07/un_computador_por_nino_el_caso_rumano.html), y en una maravillosa publicación, preparada para orientar a padres y educadores nos enteramos cómo se está implantando este proyecto.
+Uruguay está dando un ejemplo de cómo se deben implementar este tipo de programas. Sin improvisaciones que [sólo generan bochornos](/blog/lnds/2008/07/01/un-computador-por-nino-el-caso-rumano/), y en una maravillosa publicación, preparada para orientar a padres y educadores nos enteramos cómo se está implantando este proyecto.
 
 Se trata del libro [CEIBAL En la Sociedad del Siglo XXI](http://www.ceibal.edu.uy/gobiernoelectronico/pdf_libro/Libro_CEIBAL_en_la_sociedad_del_siglo_XXI.pdf), disponible para ser descargado desde el sitio oficial del proyecto.
 
 A través de esta publicación no sólo nos enteramos del plan de implantación del proyecto, sus lineas de acción, objetivos, sino que también vemos una visión que pretende aprovechar esta oportunidad para llevar a toda la sociedad uruguaya hacia la sociedad de la información y presenta a los padres y educ
 adores todas las posibilidades que se abren con el uso apropiado de las TI.
 
-Porque no se trata de [regalarle notebooks a los niños más aplicados y estudiosos](http://www.lnds.net/2008/05/una_playstation_por_nino.html). Para muchas familas este programa significa integrarse realmente a los servicios de e-government. Tal como [está pasando en Perú](http://www.lnds.net/2008/02/laptops_para_escolares_peruanos_se_distr.html), muchos niños uruguayos guiarán a sus padres y los introducirán en las ventajas de usar la red para mejorar su calidad de vida, accediendo a información, realizando trámites, y participando de las posibilidades que está brindando la web cada día.
+Porque no se trata de [regalarle notebooks a los niños más aplicados y estudiosos](/blog/lnds/2008/05/22/una-playstation-por-nino/). Para muchas familas este programa significa integrarse realmente a los servicios de e-government. Tal como [está pasando en Perú](/blog/lnds/2008/02/29/laptops-para-escolares-peruanos-se-distribuiran-a-partir-del-10-de-marzo/), muchos niños uruguayos guiarán a sus padres y los introducirán en las ventajas de usar la red para mejorar su calidad de vida, accediendo a información, realizando trámites, y participando de las posibilidades que está brindando la web cada día.
 
 Porque los computadores no sólo sirven para que los niños jueguen, o hagan sus tareas. Además son dispositivos que estarán transformando a esas familias, convirtiéndolos en usuarios activos, cultos, dominando los mínimos necesarios, dejando de ser analfabetos tecnológicos. Se convierten en personas más preparadas para aprovechar las ventajas de las nuevas tecnologías, que no pierden su identidad, y no tienen por qué, pero que amplían su mundo, y tienen mayores posibilidades, gracias a estas.
 
 El gobierno uruguayo es valiente y decidido. Por que entregarle estas herramientas de coordinación, comunicación masiva a la gente puede ser "peligroso", los políticos le tienen miedo a este tipo de cosas, darle a la gente la oportunidad de comunicarse y expresar sus ideas, manifestar su descontento, a través de las redes sociales, y otros medios, requiere coraje.
 
-A mi me gustaría que nuestras autoridades leyeran esta referencia uruguaya, que aprendieran y se dieran cuenta de lo ridículas que resultan [las promesas presidenciales del 21 de mayo](http://www.lnds.net/2008/05/una_playstation_por_nino.html).
+A mi me gustaría que nuestras autoridades leyeran esta referencia uruguaya, que aprendieran y se dieran cuenta de lo ridículas que resultan [las promesas presidenciales del 21 de mayo](/blog/lnds/2008/05/22/una-playstation-por-nino/).
 
 Yo los invito a [leerlo](http://www.ceibal.edu.uy/gobiernoelectronico/pdf_libro/Libro_CEIBAL_en_la_sociedad_del_siglo_XXI.pdf), y a apreciar la experiencia uruguaya, a ver cómo este documento orienta y educa a los padres, para que entiendan las ventajas de internet, los problemas que podrán encontrar, y la forma en que el proyecto protege los contenidos que sus hijos accederán.
 

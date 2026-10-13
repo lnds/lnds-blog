@@ -29,7 +29,7 @@ Aunque mi novela favorita de Clarke es "El Fin de la Infancia", reconozco que 20
 
 ## **El Elevador Espacial**
 
-Otra idea notable promovida por Clarke (pero ya esbozada por el gran [Konstantin Tsiolkovsky](http://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky)) es el concepto del[ascensor espacial](http://www.lnds.net/2005/08/parece_que_estan_dejando_de_re.html), tal como dijo él una vez:
+Otra idea notable promovida por Clarke (pero ya esbozada por el gran [Konstantin Tsiolkovsky](http://en.wikipedia.org/wiki/Konstantin_Tsiolkovsky)) es el concepto del[ascensor espacial](/blog/lnds/2005/08/22/parece-que-estan-dejando-de-reirse/), tal como dijo él una vez:
 
 > "El elevador espacial se construirá 50 años despues que todos dejen de reirse"
 

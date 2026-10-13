@@ -115,7 +115,7 @@ Estoy seguro, que introducir SQUEAK o LOGO a niños de 10 años o más será
 un aporte muy superior y efectivo que cualquier tentativa de inventar
 supuestas nuevas tecnologías para la ed\
 ucación (o TECs como [tan patéticamente las
-llaman](http://www.lnds.net/2009/01/tec.html) nuestros genios en
+llaman](/blog/lnds/2009/01/30/tec/) nuestros genios en
 educación).
 
 Al menos en matemáticas las tecnologías en educación existen desde por

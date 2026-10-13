@@ -140,9 +140,9 @@ do por la farmaceutica Roche, usando una patente desarrollada por
 [GILEAD Sciences Inc](http://www.gilead.com/), patente que seguirá
 vigente hasta 2016.
 
-Un dato interesante, GILEAD fue fundada entre otros por [Ronald
+Un dato interesante, GILEAD fue fundada entre otros por [Donald
 Rumsfeld](http://en.wikipedia.org/wiki/Donald_Rumsfeld), quien fue
-miembro del directorio hasta que asumió como secretario de estado en el
+miembro del directorio hasta que asumió como secretario de Defensa en el
 gobierno de Bush hijo.
 
 Hay un hecho polémico que fue la decisión del gobierno de Bush de gastar

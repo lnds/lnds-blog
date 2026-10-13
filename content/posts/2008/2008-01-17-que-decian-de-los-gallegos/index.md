@@ -12,7 +12,7 @@ categories:
 - Usabilidad
 ---
 
-Resulta que tomando [las ideas de Johny Chung Lee](/2007/12/la_magia_de_innovar.html) un grupo de [profesores gallegos construyeron una pizarra electrónica](http://centros.edu.xunta.es/ceipdepalmeira/rato_pizarra.htm)usando un control remoto de una WII y un proyector. Tal como se muestra en el video:
+Resulta que tomando [las ideas de Johny Chung Lee](/blog/lnds/2007/12/24/la-magia-de-innovar/) un grupo de [profesores gallegos construyeron una pizarra electrónica](http://centros.edu.xunta.es/ceipdepalmeira/rato_pizarra.htm)usando un control remoto de una WII y un proyector. Tal como se muestra en el video:
 
 {{<youtube -R0cms89gJs>}}
 

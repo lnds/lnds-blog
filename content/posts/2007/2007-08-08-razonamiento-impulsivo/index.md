@@ -13,7 +13,7 @@ Ahora, si usted no entiende lo que lee, entonces su problema es más grave, esto
 
 Si usted no sabe que significa el número PI, entonces usted está en la misma situación del que no conoce las obras del Bardo Inglés. Pero si no es capaz de calcular el área de su terraza, entonces corre el peligro que termine comprando más baldosas de las necesarias, o que un maestro le cobre más caro por el trabajo de hermosear su jardín.
 
-Esto último se conoce como anumerismo, un término del que me hice conciente después de leer los excelentes libros del matemático inglés John Allen Paulos, de quién sugiero leer El Hombre Anumérico, un clásico para entender este problema.
+Esto último se conoce como anumerismo, un término del que me hice conciente después de leer los excelentes libros del matemático estadounidense John Allen Paulos, de quién sugiero leer El Hombre Anumérico, un clásico para entender este problema.
 
 Mi reciente crítica al error del Senador Girardi va en ese sentido, en un tono sarcástico, por supuesto[*].
 

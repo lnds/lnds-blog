@@ -29,7 +29,7 @@ Entendería esa actitud, pero me preocupa que se planteen cosas como:
 
 > "...paises como Uruguay, que incorporaron los computadores de Negroponte, quizas se verán sorprendidos con el hecho de que sus alumnos no aprendieron mas, sino que se distrajeron más, navegando y chateando durante la hora de clases. La Educación no está en condiciones de especular a ese nivel sin evidencia dura".
 
-Yo esperaría que el director de Enlaces conociera [algo del proyecto CEIBAL](/2007/11/el_proyecto_ceibal_midiendo_el_impacto_d.html), espero que sea así, y reconsidere _"las leseras"_ que anda diciendo...
+Yo esperaría que el director de Enlaces conociera [algo del proyecto CEIBAL](/blog/lnds/2007/11/03/el-proyecto-ceibal-midiendo-el-impacto-del-olpc-en-la-educacion/), espero que sea así, y reconsidere _"las leseras"_ que anda diciendo...
 
 Por mi parte, creo que Negroponte se equivocó, Chile no es un país tímido y curioso, lo que pasa es que tenemos autoridades temerosas y por lo mismo arrogantes.
 

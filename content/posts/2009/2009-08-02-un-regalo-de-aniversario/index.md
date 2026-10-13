@@ -12,7 +12,7 @@ categories:
 - Personajes
 ---
 
-Como [estamos de aniversario](/2009/07/cuatro.html), vamos a abrir los regalos.
+Como [estamos de aniversario](/blog/lnds/2009/07/30/cuatro-anos/), vamos a abrir los regalos.
 
 Esta es una brillante charla de Seth Godin, que espero que disfruten, es mi regalo de aniversario para todos los que leen este blog, en especial para todos aquellos que están en el negocio del software:
 

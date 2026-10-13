@@ -20,7 +20,7 @@ Lo que [hace la UDI](http://www.elfrancotirador.cl/2009/03/27/hasta-google-funa-
 
 Borrar un contenido de su sitio porque los puede comprometer en este momento en que las farmacias son los malos de la película.
 
-Lo he dicho antes, [no te puedes arrepentir de lo que dejaste registrado, y es mejor asumirlo](http://www.lnds.net/2009/02/tatuajes-digitales-1.html).
+Lo he dicho antes, [no te puedes arrepentir de lo que dejaste registrado, y es mejor asumirlo](/blog/lnds/2009/02/04/tatuajes-digitales/).
 
 La red es como [Funes, el memorioso](http://www.zap.cl/cuentos/cuento158.html), el personaje del famoso cuento de Jorge Luis Borges, quien, en una curiosa sincronía, [es recordado esta semana por Saramago](http://cuaderno.josesaramago.org/2009/03/23/funes-funes/):
 

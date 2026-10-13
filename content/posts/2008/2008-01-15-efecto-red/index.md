@@ -72,7 +72,7 @@ Esta combinación de factores lleva a la larga que una suite ofimática como Off
 
 
 
-De hecho, [la historia](http://www.lnds.net/2007/08/compromisos_precisiones_y_la_libertad_de.html) de cómo llegamos a esta situación en que Windows y Office son el monopolio ti
+De hecho, [la historia](/blog/lnds/2007/08/28/compromisos-precisiones-y-la-libertad-de-la-informacion/) de cómo llegamos a esta situación en que Windows y Office son el monopolio ti
 ene que ver con un habil manejo del efecto red.
 
 

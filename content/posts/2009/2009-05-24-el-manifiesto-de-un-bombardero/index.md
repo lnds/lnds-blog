@@ -82,7 +82,7 @@ Chicago, empezó a humear, lo que obligó a un aterrizaje de emergencias.
 Afortunadamente la bomba falló, de lo contrario podría haber destruido
 el avión en pleno vuelo, matando a 78 personas.
 
-En septiembre de 1996, el New York Times y el Washingto Post publican el
+En septiembre de 1995, el New York Times y el Washingto Post publican el
 manifiesto del unabomber, con la idea de poder identificar a la persona
 tras este escrito, y poder detener los atentados.
 
@@ -120,7 +120,7 @@ parece una posición razonable, y válida.
 Dicen que los locos, después de todo, tienen la virtud de decir
 verdades.
 
-Steve Joy, fundador de Sun Microsystems, publica la revista Wired, en el
+Bill Joy, fundador de Sun Microsystems, publica la revista Wired, en el
 2000 un interesante artículo, [Why the future doesn´t need
 us](http://www.wired.com/wired/archive/8.04/joy_pr.html) ("Por qué el
 futuro no nos necesita").

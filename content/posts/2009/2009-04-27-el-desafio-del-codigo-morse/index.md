@@ -10,7 +10,7 @@ categories:
 - Programación
 ---
 
-Este es el segundo desafío que voy a publicar, esperemos que tenga más participación que [el anterior](/2008/08/zig_zag_un_desafio.html) (sólo una respuesta).
+Este es el segundo desafío que voy a publicar, esperemos que tenga más participación que [el anterior](/blog/lnds/2008/08/04/zig-zag-un-desafio/) (sólo una respuesta).
 
 Hoy es el día que se celebra el natalicio de Samuel Morse, así que el desafío se compone de 2 partes.
 

@@ -37,4 +37,4 @@ Y ahí está, ahora es posible consultar [el archivo del New York Times](http:/
 ![](acomputerwanted.jpg)
 
 
-Por acá está la respuesta al [comentario de Patricio](/2008/11/web_20_y_cloud_computing.html#comments), el verdadero negocio del cloud computing no está en la nube, sino que en lo que se puede hacer con la nube.
+Por acá está la respuesta al [comentario de Patricio](/blog/lnds/2008/11/02/web-2-0-y-cloud-computing/#comments), el verdadero negocio del cloud computing no está en la nube, sino que en lo que se puede hacer con la nube.

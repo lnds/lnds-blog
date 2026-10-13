@@ -9,7 +9,7 @@ draft: false
 ---
 
 > "Desconfío del hombre de un sólo libro"\
-> -- Samuel Clemens
+> -- atribuida a Tomás de Aquino
 
 Disculpen si cito de memoria al autor de Tom Sawyer, pero es bueno
 ejercitar la memoria, retener viejas frases, y citas, leidas en buenos

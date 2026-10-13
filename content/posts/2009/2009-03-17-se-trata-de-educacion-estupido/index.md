@@ -23,7 +23,7 @@ Regresé a mis asuntos, pero pronto escuché su llamado desde la habitación con
 
 Hemos tenido diferencias sobre este tema con Christian, pero él la tiene clara, como me gustaría que otros la tuvieran igual de clara.
 
-No se trata de regalar computadores a los niños con mejores notas, ya he dicho que [mejor sería que les regalaran una PlayStation](/2008/05/una-playstation-por-nino.html).
+No se trata de regalar computadores a los niños con mejores notas, ya he dicho que [mejor sería que les regalaran una PlayStation](/blog/lnds/2008/05/22/una-playstation-por-nino/).
 
 Por eso que Walter Bender y otros se fueron del proyecto OLPC y formaron [Sugar Labs](http://www.sugarlabs.org/), porque el tema, se resuelve con software, no con hardware.
 

@@ -49,7 +49,7 @@ Si tu negocio depende de estos servicios gratuitos en la nube, y no tienes claro
 
 Yo no sé si el cloud computing es inevitable, si es seguro de que es evitable, pero tiene un costo. Hay un modelo propuesto por Berkeley, para calcular el momento en que le conviene a la empresa usar cloud computing, vale la pena revisarlo.
 
-En cuanto a las personas... Ahí yo creo que [Macleod ](http://www.lnds.net/2008/10/el-debate-sobre-negocio-del-cloud-comput.html)algo de razón tiene, [hay un efecto de red](http://www.lnds.net/2008/01/bob-metcalfe-es-uno-de.html), que está empujando a que las personas usen más y más servicios en la nube, y ahí si que se convierte en algo casi inevitable, es lo que está pasando con Facebook. A la gente no le importa si Facebook es usado por la CIA, porque están valorando otras cosas, que superan toda paranoia.
+En cuanto a las personas... Ahí yo creo que [Macleod ](/blog/lnds/2008/10/27/el-debate-sobre-negocio-del-cloud-computing-i/)algo de razón tiene, [hay un efecto de red](/blog/lnds/2008/01/15/bob_metcalfe_es_uno_de/), que está empujando a que las personas usen más y más servicios en la nube, y ahí si que se convierte en algo casi inevitable, es lo que está pasando con Facebook. A la gente no le importa si Facebook es usado por la CIA, porque están valorando otras cosas, que superan toda paranoia.
 
 O se trata de un efecto manada, o es un efecto red, como sea, la gente está usando más la nube, y se está volviendo casi inevitable. Al final, o las mismas personas logran que esto se regule para su beneficio, o la sociedad intervendrá. Así, que tampoco me preocuparía tanto.
 

@@ -136,7 +136,7 @@ Todo no es más que moda esteril, donde las especulaciones académicas
 sobre la conveniencia o no de usar software libre, o sobre esaentelequia
  [la neutralidad tecnológica](http://www.mop.cl/noticias/200907/090731_bitar.htm), han
 reemplazado el sentido común, que nos dice que [lo que importa es hacer
-las cosas](http://www.lnds.net/2008/08/la-leccion-de-ceramica.html), más
+las cosas](/blog/lnds/2008/08/03/la-leccion-de-ceramica/), más
 que discutir sobre cual es la mejor forma de hacerlas.
 
 Yo no creo que nada bueno puede surgir de la academia, al menos tal como

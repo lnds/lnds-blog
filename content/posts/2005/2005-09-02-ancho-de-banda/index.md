@@ -81,7 +81,7 @@ lenguaje). En una imagen, 1 punto de la imagen puede expresarse por
 1,2,3 ó 4 bytes (depende de la calidad de la imagen).
 
 1 Kilo byte corresponde a 1024 bytes (2 elevado a 10).\
-1 Mega byte corresponde a 1024 mega bytes (2 elevado a 20 bytes)
+1 Mega byte corresponde a 1024 kilo bytes (2 elevado a 20 bytes)
 
 Cuando decimos que tenemos un ancho de banda de 10 Megabits por segundo,
 significa qu\

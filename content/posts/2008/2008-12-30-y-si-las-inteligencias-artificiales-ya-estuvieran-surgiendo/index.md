@@ -25,7 +25,7 @@ Todo esto a propósito de que en la última edición de la [Communications of ](
 
 El relato que les menciono se llama "Pester Power", y es una bonita especulación sobre el origen del spam (*).
 
-Imaginen por un momento que todo el [SPAM](http://www.lnds.net/2008/05/30_anos_de_spam.html) que reciben en realidad son pruebas que realizan "proto inteligencias artificiales", para aprender y retroalimentarse, con el fin de superar el [Test de Turing](http://axxon.com.ar/rev/170/c-170divulgacion.htm) y llegar a pasar por inteligencias humanas.
+Imaginen por un momento que todo el [SPAM](/blog/lnds/2008/05/01/30-anos-de-spam/) que reciben en realidad son pruebas que realizan "proto inteligencias artificiales", para aprender y retroalimentarse, con el fin de superar el [Test de Turing](http://axxon.com.ar/rev/170/c-170divulgacion.htm) y llegar a pasar por inteligencias humanas.
 
 > ¿Pueden las máquinas pensar?
 >   

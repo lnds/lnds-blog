@@ -20,7 +20,7 @@ La Real Academia Española de la lengua define Esnob de la siguiente manera:
 
 Efectivamente, por ejemplo, un esnob se pone a comentar sobre el cine de Woody Allen, sin haber visto nunca una película de este director, simplemente porque ha escuchado a críticos, o intelectuales citar al realizador neoyorquino.
 
-Lo mismo pasa en tecnología, me [comenta Jens Hardings](http://www.lnds.net/2009/01/el-software-libre-un-nuevo-transantiago.html#comment-76845), a propósito del uso de ciertos términos por parte de los que se "supone son especialistas"
+Lo mismo pasa en tecnología, me [comenta Jens Hardings](/blog/lnds/2009/01/02/el-software-libre-un-nuevo-transantiago-tecnologico/#comment-76845), a propósito del uso de ciertos términos por parte de los que se "supone son especialistas"
 
 
 > Bueno, hoy en día se escucha de las TI, las TIC (TI + Comunicación), las TICA (TIC + Automatización) e incluso hay quien ha pronunciado las TICAR (TICA + Robótica). Parece ser que hay cierto prestigio asociado al hecho de acuñar términos, y eso en algunos casos tiene el efecto de que la gente se apresure a "inventar" términos para ser los primeros. Pero tiene el efecto contrario al deseado, al haber una proliferación de términos por un lado, y falta de definiciones y de entendimiento por otro, cuando cada uno usa los suyos propios para no dar crédito a quien acuñó el otro.

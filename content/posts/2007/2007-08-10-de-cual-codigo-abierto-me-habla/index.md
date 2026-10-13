@@ -12,7 +12,7 @@ Sucede que hay empresas que consideran al software libre sólo como un término 
 
 Pero los casos de BitTorrent y MySQL sorprenden, por lo representativo de estos proyectos.
 
-Sucede que BitTorrent no publica el código fuente del protocolo desde que fue adquirido por uTorrent, de hecho cuando se liberó la versión 6 de BitTorrent, en julio de 2006, una nota sorprendió a los desarrolladores:
+Sucede que BitTorrent no publica el código fuente del protocolo desde que adquirió uTorrent, de hecho cuando se liberó la versión 6 de BitTorrent, en julio de 2007, una nota sorprendió a los desarrolladores:
 "Lo sentimos, el código fuente de BitTorrent 6.0, como el código fuente de uTorrente, no será liberado. Sin embargo, las versiones 5 y anteriores seguirán liberadas bajo licencias open source, y permanecen disponibles para que ustedes las modifiquen y redistribuyan sujetas a los términos de sus respectivas licencias."
 
 Esto provoca preocupación, porque una de las consecuencias es que puedan surgir otros protocolos divergentes a BitTorrent original. De hecho, la definción del estándar Bittorrent sólo está disponible para los desarrolladores que compren el SDK.

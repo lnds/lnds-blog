@@ -13,7 +13,7 @@ categories:
 No sé si el comentario [_I thought Linux was secure](http://www.theregister.co.uk/2008/02/14/claranet_linux_security_hole/comments/#c_155656_), tomado aisladamente, es inocente, o provocador.  
 Pero deben haber usuarios que se sorprenderán al darse cuenta que linux sí puede ser atacado seriamente, y la seguridad se puede comprometer.
 
-Lo que pasó es que [un grupo de crackers británico](http://www.theregister.co.uk/2008/02/14/claranet_linux_security_hole/) usaron el exploit [vmsplice](http://www.lnds.net/2008/02/vmsplice_exploit_para_acceder_a_la_cuent.htmlpara) ganar el acceso a la cuenta root en varios servidores de Claranet, en Gran Bretaña.
+Lo que pasó es que [un grupo de crackers británico](http://www.theregister.co.uk/2008/02/14/claranet_linux_security_hole/) usaron el exploit [vmsplice](/blog/lnds/2008/02/11/vmsplice-exploit-para-acceder-a-la-cuenta-root-en-linux/) ganar el acceso a la cuenta root en varios servidores de Claranet, en Gran Bretaña.
 
 En realidad es bien sencillo, seguramente muchas personas tienen acceso a un servidor compartido (shared hosting), y desde sus cuentas ejecutan el código y ganan los privilegios de root.
 

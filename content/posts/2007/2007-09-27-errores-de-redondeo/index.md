@@ -18,9 +18,9 @@ tags:
 
 Aunque el bug de Excel **2007** ha tenido mucha cobertura, no es primer error de redondeo de la historia, y tampoco el más catastrófico. Y aunque todavía no sabemos que consecuencas pueda tener este nuevo bug de Excel, por lo menos todavía muere nadie por este error.
 
-Pero durante la primera guerra del golfo hubo un error de similar origen, que le costó la vida a 28 marines norteramericanos.
+Pero durante la primera guerra del golfo hubo un error de similar origen, que le costó la vida a 28 soldados norteamericanos.
 
-El origen del bug de excel y del error que mató a los marines es el mismo.
+El origen del bug de excel y del error que mató a los soldados es el mismo.
 
 Para los que no lo saben, el error en Excel **2007** consiste en que si ustedes multiplican 77,1 por 850 en vez de obtener 65.535, como debería ser, en la celda se refleja el valor 100.000.
 
@@ -36,7 +36,7 @@ Si se fijan bien la secuencia 0110 0110 0110 se repite. Esto es porque el 0,1 no
 Esta es una cifra decimal periódica, y tiene infinitos 3 "hacia la derecha", bueno, lo mismo pasa con el 0,1 en binario. Por eso que hay que tener cuidado cuando se trabaja con números en punto flotante.
 Examinemos las consecuencias trágicas de un bug de este tipo.
 
-El 25 de febrero de 1991 una batería de misiles patriot en Dharan, Arabia Saudita, no pudo detener un misil SCUD Iraquí impactando directamente en una barraca con 28 marines.
+El 25 de febrero de 1991 una batería de misiles patriot en Dharan, Arabia Saudita, no pudo detener un misil SCUD Iraquí impactando directamente en una barraca con 28 soldados.
 
 ![](patriot-photo1.jpg)
 

@@ -11,7 +11,7 @@ wordpress_id: 1498
 
 La idea de que se sólo se deben construir aplicaciones web, y de que esta es la forma moderna de resolver todas las necesidades de las empresas está provocando más problemas que soluciones. Es un paradigma que uno debe tratar de evitar.
 
-He visto aplicaciones de ingreso de formularios con 100 campos para llenar, con dos o tres pestañas que apuntan a páginas con más campos. Después de digitar penosamente estos formularios, los usuarios presionan el botón submit y sus requerimientos quedan en el [Limbo](http://www.lnds.net/2005/12/dante_se_equivocaba_el_limbo_no_existe.html), o donde sea que se vayan ahora.
+He visto aplicaciones de ingreso de formularios con 100 campos para llenar, con dos o tres pestañas que apuntan a páginas con más campos. Después de digitar penosamente estos formularios, los usuarios presionan el botón submit y sus requerimientos quedan en el [Limbo](/blog/lnds/2006/08/27/dante-se-equivocaba-el-limbo-no-existe/), o donde sea que se vayan ahora.
 
 ¿Por qué pasa esto?
 
@@ -21,7 +21,7 @@ He visto aplicaciones de ingreso de formularios con 100 campos para llenar, con 
 
 Hay ciertos mitos que han sido destacados en un interesante artículo por Paul Ballard, en su articulo [No Rob, Dumb Terminals are a Dumb Idea](http://weblogs.asp.net/paulballard/archive/2005/12/05/432323.aspx). En ese artículo Paul Ballard le responde a su colega Rob Howard q[quien escribe en contra de los llamados smart clients](http://weblogs.asp.net/rhoward/archive/2005/11/03/429355.aspx), en favor del uso dumb terminals (browsers) y aplicaciones web, usando Ajax como soporte para aumentar la riqueza de la experiencia de usuario.
 
-Los [smartclients ](http://msdn.microsoft.com/smartclient/)son una tecnología introducida por Microsoft recientemente, esencialmente son aplicaciones escritas sobre .Net que son distribuidas a través de la red. Estas aplicaciones pueden trabajar offline, y realizar actualizaciones sobre los servidores en forma posterior, es un concepto similar a las [aplicaciones tropicalmente tolerantes](http://www.lnds.net/2005/11/tropicalmente_tolerante.html), pero más sofisticadas, y mejor "marketeadas". :)
+Los [smartclients ](http://msdn.microsoft.com/smartclient/)son una tecnología introducida por Microsoft recientemente, esencialmente son aplicaciones escritas sobre .Net que son distribuidas a través de la red. Estas aplicaciones pueden trabajar offline, y realizar actualizaciones sobre los servidores en forma posterior, es un concepto similar a las [aplicaciones tropicalmente tolerantes](/blog/lnds/2005/11/07/tropicalmente-tolerante/), pero más sofisticadas, y mejor "marketeadas". :)
 
 
 ## Mitos de las aplicaciones web

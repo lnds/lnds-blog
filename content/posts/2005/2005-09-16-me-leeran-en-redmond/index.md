@@ -11,7 +11,7 @@ categories:
 - Seguridad
 ---
 
-Agradezco la elogiosa mención en [Kriptópolis](http://www.kriptopolis.org/node/1126), acerca de mi anterior post: [Explotando las colisiones de MD5](http://www.lnds.net/archives/2005/09/explotando_las.html).
+Agradezco la elogiosa mención en [Kriptópolis](http://www.kriptopolis.org/node/1126), acerca de mi anterior post: [Explotando las colisiones de MD5](/blog/lnds/2005/09/15/explotando_las/).
 
 Pero me entero a través del mismo sitio que Microsoft ha decidido abandonar el uso de las funciones de hash bajo ataque, e incluso la función criptográfica DES, mas detalles aquí: [http://www.kriptopolis.org/node/1126](http://www.kriptopolis.org/node/1126) y aquí:[http://www.eweek.com/article2/0,1759,1859751,00.asp](http://www.eweek.com/article2/0,1759,1859751,00.asp).
 

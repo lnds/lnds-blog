@@ -75,7 +75,7 @@ Hemos visto, que sólo en 2001 el héroe logra eliminar la amenaza de la IA. HAL
 
 ## Vida Artificial
 
-Actualmente se postula que  antes de construir una IA, debemos contruir niveles inferiores de inteligencia. Estos rdimentos de inteligencia artificial ya están disponibles, [incluso al alcance de cualquiera de nosotros](http://www.lnds.net/2009/03/el-sueno-de-las-ovejas-electricas.html). Estos rudimentos, constituyen los "instintos" de las IA.   
+Actualmente se postula que  antes de construir una IA, debemos contruir niveles inferiores de inteligencia. Estos rdimentos de inteligencia artificial ya están disponibles, [incluso al alcance de cualquiera de nosotros](/blog/lnds/2009/03/14/el-sueno-de-las-ovejas-electricas/). Estos rudimentos, constituyen los "instintos" de las IA.   
 Sin esos instintos básicos, que le permitan a la IA desarrollarse, no será posible que esta llegue a ser conciente.
 
 Una Inteligencia Artificial debería
@@ -90,7 +90,7 @@ La satisfacción de estas tres necesidades de las IAs son las que justificarían
 
 ¿Dónde surgirá la Inteligencia Artificial?
 
-Lo interesante, es saber si las inteligencias artificiales son capaces de desarrollarse fuera de su soporte físico, o antes de llegar a tenerlo, es decir, [¿pueden las IA surgir dentro de la red?](http://www.lnds.net/2008/12/y-si-las-inteligencias-artificiales-ya-e.html).
+Lo interesante, es saber si las inteligencias artificiales son capaces de desarrollarse fuera de su soporte físico, o antes de llegar a tenerlo, es decir, [¿pueden las IA surgir dentro de la red?](/blog/lnds/2008/12/30/y-si-las-inteligencias-artificiales-ya-estuvieran-surgiendo/).
 
 En Terminator, lo primero que se desarrolla es Skynet, una red informática, que empieza a controlar las factorías necesarias para desarrollar las armas y robots exterminadores.
 

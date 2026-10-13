@@ -16,7 +16,7 @@ La historia geológica de la tierra se ha dividido en cuatro grandes periodos, l
 
 Una de estas divisiones es la que empezó hace 10.000 años atrás, el Holoceno, que empezó con elfin la última glaciación y se extiende hasta nuestros días.
 
-Aunque para algunos geólogos [esta era ya se acabó](http://www.eurekalert.org/pub_releases/2008-01/uol-mcb012508.php), y están proponiendo que empecemos a hablar de una nueva éra, elANTROPOCENO, que sería algo así como la era del hombre[1](http://www.lnds.net/2008/01/adios-holoceno-bienvenido-antropoceno.html#fn1), y todo porque hemos afectado tanto nuestra tierra que nuestra presencia está dejando marcas geológicas importantes.
+Aunque para algunos geólogos [esta era ya se acabó](http://www.eurekalert.org/pub_releases/2008-01/uol-mcb012508.php), y están proponiendo que empecemos a hablar de una nueva éra, elANTROPOCENO, que sería algo así como la era del hombre[1](/blog/lnds/2008/01/25/adios-holoceno-bienvenido-antropoceno/#fn1), y todo porque hemos afectado tanto nuestra tierra que nuestra presencia está dejando marcas geológicas importantes.
 
 Este impacto geológico del hombre se notaría en:
 

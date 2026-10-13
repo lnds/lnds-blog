@@ -14,7 +14,7 @@ tags:
 - mujeres
 ---
 
-Sydney Padua respondió al llamado del [Día de Ada Lovelace](http://www.lnds.net/2009/03/mujeres-en-tecnologia-el-dia-de-ada-love.html) con una caricatura, la que posteriormente convirtió en una serie (en progreso) titulada [Las Emocionantes Aventuras de Lovelace y Babbage](http://sydneypadua.com/2dgoggles/).
+Sydney Padua respondió al llamado del [Día de Ada Lovelace](/blog/lnds/2009/03/24/mujeres-en-tecnología-el-día-de-ada-lovelace/) con una caricatura, la que posteriormente convirtió en una serie (en progreso) titulada [Las Emocionantes Aventuras de Lovelace y Babbage](http://sydneypadua.com/2dgoggles/).
 
 ![adacut.png](adacut.png)
 

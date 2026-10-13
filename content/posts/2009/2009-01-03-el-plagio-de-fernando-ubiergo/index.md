@@ -8,9 +8,9 @@ authors: [admin]
 wordpress_id: 318
 ---
 
-Hace 2 años atrás nos enterabamos del [incidente del plagio de Mago de Oz](/2007/01/el_plagio_de_mago_de_oz.html) a una canción de Fernando Ubiergo, tuve la ocurrencia (no se si buena), de publicar una comparación de las letras de las dos canciones (algo que parece es ilegal en Chile).
+Hace 2 años atrás nos enterabamos del [incidente del plagio de Mago de Oz](/blog/lnds/2007/01/04/el-plagio-de-mago-de-oz/) a una canción de Fernando Ubiergo, tuve la ocurrencia (no se si buena), de publicar una comparación de las letras de las dos canciones (algo que parece es ilegal en Chile).
 
-Ahora [los toscos defensores de Mago de Oz](/2007/01/el_plagio_de_mago_de_oz.html#comment-9544) no dejarán de sonreir, y llevar esta agua a su molino.
+Ahora [los toscos defensores de Mago de Oz](/blog/lnds/2007/01/04/el-plagio-de-mago-de-oz/#comment-9544) no dejarán de sonreir, y llevar esta agua a su molino.
 
 Porque fue feo lo que [le pasó en Antofagasta](http://www.elnortero.cl/admin/render/noticia/18164) al Presidente de la SCD (institución que debe desaparecer), tanto que el mismo ha decidido publicar una declaración en su sitio oficial:
 
@@ -24,7 +24,7 @@ Fernando Ubiergo
 SCD
 
 
-Yo también soy autor (en Chile escribir software es legalmente equivalente a escribir un libro, cosa que considero una estupidez), y [como artista](http://www.lnds.net/2008/11/tiene_sentido_hablar_de_arquitectura_del.html), me encuentro indignado por el incidente, y lo mínimo que espero de Ubiergo y de sus secuaces que admitan su error, hagan una auditoría pública a sus equipos, y a los de sus asesores, grandes sorpresas nos habríamos llevado, pero ya no va a ser así, porque un fin de semana es más que suficiente para tener los computadores en regla, ¿o no?
+Yo también soy autor (en Chile escribir software es legalmente equivalente a escribir un libro, cosa que considero una estupidez), y [como artista](/blog/lnds/2008/11/28/tiene-sentido-hablar-de-arquitectura-del-software/), me encuentro indignado por el incidente, y lo mínimo que espero de Ubiergo y de sus secuaces que admitan su error, hagan una auditoría pública a sus equipos, y a los de sus asesores, grandes sorpresas nos habríamos llevado, pero ya no va a ser así, porque un fin de semana es más que suficiente para tener los computadores en regla, ¿o no?
 
 
 Ceterum censeo SCD esse delendam

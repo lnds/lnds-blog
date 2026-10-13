@@ -145,7 +145,7 @@ Este tema se sigue discutiendo en:
 
 ## Referencias:
 
-[^1]: Wikipedia: [La ley de Amhdal](httpss://es.wikipedia.org/wiki/Ley_de_Amdahl).
+[^1]: Wikipedia: [La ley de Amhdal](https://es.wikipedia.org/wiki/Ley_de_Amdahl).
 
 [^2]: [Deducción de la Ley de Amhdal](https://jpscarpa.googlepages.com/leydeamdahl).
 

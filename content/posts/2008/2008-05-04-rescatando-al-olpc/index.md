@@ -18,7 +18,7 @@ Pero Stallman escribe sobre [las controversias](http://wiki.laptop.org/go/Contro
 
 ![olpc_in.jpg](P1070758.jpg)
 
-Esta actitud de Negroponte provocó fisuras y grandes [pérdidas para el OLPC](/2008/04/las_perdidas_del_olpc.html). Las críticas de Negroponte no sólo apuntan a este supuesto fundamentalismo, sino que a la falta de un arquitecto que guiara el desarrollo de la interfaz Sugar en forma más orgánica.
+Esta actitud de Negroponte provocó fisuras y grandes [pérdidas para el OLPC](/blog/lnds/2008/04/23/las-perdidas-del-olpc/). Las críticas de Negroponte no sólo apuntan a este supuesto fundamentalismo, sino que a la falta de un arquitecto que guiara el desarrollo de la interfaz Sugar en forma más orgánica.
 
 Finalmente, Negroponte ha tratado de imponer el soporte para windows XP dentro de los laptops de la OLPC.
 

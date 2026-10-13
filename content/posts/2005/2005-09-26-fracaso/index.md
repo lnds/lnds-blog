@@ -29,7 +29,7 @@ Por que no seguir con:
   * Desarrollo, pero de verdad
   * País digital, pero de verdad
 
-Por lo pronto hay otros desafios, como [Un Laptop para cada escolar](http://www.lnds.net/archives/2005/09/un_laptop_para.html), o mandar un equipo a la [IOI de 2006](http://www.lnds.net/archives/2005/09/cuba_los_mejore.html).
+Por lo pronto hay otros desafios, como [Un Laptop para cada escolar](/blog/lnds/2005/09/23/un-laptop-para-cada-escolar/), o mandar un equipo a la [IOI de 2006](/blog/lnds/2005/09/02/cuba-los-mejores-en-informatica/).
 
 Saludos a Francotirador, y no es tu mejor fracaso, quizá sea tu primer gran éxito.
 

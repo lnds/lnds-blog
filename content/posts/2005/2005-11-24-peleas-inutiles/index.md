@@ -21,7 +21,7 @@ La verdad es que no tengo ánimo de seguir discutiendo, porque mi mejor [amigo ]
 
 Yo sigo creyendo en el proyecto, tengo apostada 2 botellas de vino tinto, y no me voy a bajar, aunque sea una imposibilidad por culpa de la burrocracia.
 
-A continuación adjunto el post de Marco, les recuerdo que él [demostró](http://www.lnds.net/2005/09/un_laptop_para_cada_escolar.html) cómo se puede financiar este proyecto.
+A continuación adjunto el post de Marco, les recuerdo que él [demostró](/blog/lnds/2005/09/23/un-laptop-para-cada-escolar/) cómo se puede financiar este proyecto.
 
 
 

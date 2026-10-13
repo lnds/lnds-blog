@@ -57,8 +57,8 @@ mitólogos les gusté mucho.
 
 Resulta que el nombre Plutón fue sugerido por [Venetia Burney](http://replay.web.archive.org/20071028181216/http://en.wikipedia.org/wiki/Venetia_Burney),
 quien a los 11 años se lo propuso a su abuelo. El nombre tiene la
-particularidad que sus dos primeras letras PL,evocan las iniciales del
-descubridor del planeta, don [Percival Lowell](http://en.wikipedia.org/wiki/Percival_Lowell) (*vanidad mi pecado favorito*).
+particularidad que sus dos primeras letras PL, evocan las iniciales de
+don [Percival Lowell](http://en.wikipedia.org/wiki/Percival_Lowell), el astrónomo que impulsó su búsqueda (*vanidad mi pecado favorito*).
 
 [Venetia tiene en la actualidad 87 años](http://news.bbc.co.uk/1/hi/sci/tech/4596246.stm).
 

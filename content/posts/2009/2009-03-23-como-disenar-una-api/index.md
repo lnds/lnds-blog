@@ -151,7 +151,7 @@ Otros aspectos a considerar:
 
 -   No violar el principio del mínimo estupor. El usuario de una API no
     debe quedar sorprendido por el comportamiento de esta.
--   Falla rápido. Ya [hemos hablado de esto](/2008/07/deten-el-reloj-aplasta-el-bicho.html),
+-   Falla rápido. Ya [hemos hablado de esto](/blog/lnds/2010/05/27/deten-el-reloj-aplasta-al-bicho/),
     las malas noticias es mejor decirlas pronto, es decir, hay que
     reportar los errores tan pronto ocurran.
 -   Cuidado con sobrecargar. Hay que tener cuidado cuando sobrecargamos

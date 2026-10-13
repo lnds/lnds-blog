@@ -103,7 +103,7 @@ Hace poco se [anunció](http://www.theregister.co.uk/2008/08/29/45th_mersenne_p
 que el posible candidato al número de Mersenne número 45 se habría
 encontrado, pero habrá que esperar hasta la primera quincena septiembre
 para confirmarlo, y a ver si alcanza a romper la barrera impuesta por el
-premio de la FSF.
+premio de la EFF.
 
 Así que aún tienen tiempo, si les interesa cobrar una parte de esos
 100.000 dolares, y pasar al salón de la fama de las matemáticas, pueden
