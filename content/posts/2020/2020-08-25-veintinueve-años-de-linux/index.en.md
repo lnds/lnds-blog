@@ -44,7 +44,7 @@ The second celebration is October 5, when he made the first public release of th
 
 Either way, how time flies!
 
-I remember [those were my first years on the job](https://lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad/), but I was still attending my last years of university, and still in touch with several friends at the DCC, the Computer Science Department of the Universidad de Chile. It was someone there (probably Willy) who handed me a box (or several?) of floppy disks so I could install a Linux distribution. It was Slackware, and probably late 1993 or early 1994.
+I remember [those were my first years on the job](/en/blog/lnds/2019/03/17/the-end-of-agile/), but I was still attending my last years of university, and still in touch with several friends at the DCC, the Computer Science Department of the Universidad de Chile. It was someone there (probably Willy) who handed me a box (or several?) of floppy disks so I could install a Linux distribution. It was Slackware, and probably late 1993 or early 1994.
 
 {{<figure caption="Tux with a pipe, the original Slackware mascot" src="Slackware-mascot.jpg">}}
 

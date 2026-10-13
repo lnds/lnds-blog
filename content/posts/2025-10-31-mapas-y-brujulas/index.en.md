@@ -93,5 +93,5 @@ And if you generally like the content of this blog, I invite you to share it. If
 
 [^1]: See Psalm 18:33 and Habakkuk 3:19.
 [^2]: There are phrases in this prayer we should consider before arguing on social media.
-In my post [Anti-agile](https://lnds.net/blog/lnds/2018/07/01/anti-agil/) I also quote this
+In my post [Anti-agile](/en/blog/lnds/2018/07/01/anti-agile/) I also quote this
 prayer to talk about agility. Source: <https://www.oblatos.com/oracion-de-santo-tomas-de-aquino-para-ordenar-la-propia-vida/>

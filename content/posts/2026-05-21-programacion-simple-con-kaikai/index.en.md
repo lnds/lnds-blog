@@ -17,7 +17,7 @@ For many years I've been chewing on the idea of a general-purpose functional lan
 
 In 2017 I gave a talk titled "Esos raros lenguajes nuevos" ("Those weird new languages") where I explain, in an entertaining way, why there are so many programming languages; [the video is on YouTube](https://www.youtube.com/watch?v=Hp9HwLPYkjI).
 That's where I introduced Ogú, a language I designed that is really a prototype of the language I'm presenting today.
-The story of how I put that compiler together is written up in [Fake it till you make it](/blog/lnds/2017/03/01/fake-it-till-you-make-it/).
+The story of how I put that compiler together is written up in [Fake it till you make it](/en/blog/lnds/2017/03/01/fake-it-till-you-make-it/).
 
 Today I'm going to show you kaikai. First let's talk about the name.
 
@@ -84,7 +84,7 @@ Algebraic what?!
 
 I don't want to scare you. It's actually a very simple concept, but one with a lot of theory behind it, and kaikai is one of the few languages that implements this feature.
 
-In [Revelations](/blog/lnds/2015/10/01/revelaciones/) I explain, in mystical fashion, like an almost religious epiphany, that every useful program has to interact with the world. That breaks the purity functional languages promise.
+In [Revelations](/en/blog/lnds/2015/10/01/revelations/) I explain, in mystical fashion, like an almost religious epiphany, that every useful program has to interact with the world. That breaks the purity functional languages promise.
 
 The path taken by the creators of pure functional languages like Haskell was to bring in category theory: something fairly complicated that tries to encapsulate the effects that occur in a program.
 

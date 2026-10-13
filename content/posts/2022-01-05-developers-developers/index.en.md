@@ -68,7 +68,7 @@ I recommend reading how Google manages its gigantic monorepo in this paper: [Why
 
 Or this paper from Uber: [Keeping master green at scale](https://eng.uber.com/research/keeping-master-green-at-scale/) (there's also a video here: <https://vimeo.com/358691692>)
 
-Software [keeps eating the world](/blog/lnds/2016/08/30/toda-empresa-es-de-software-o-lo-sera/), and it has surely already eaten your business.
+Software [keeps eating the world](/en/blog/lnds/2016/08/30/every-company-is-a-software-company/), and it has surely already eaten your business.
 
 Now tell me, how many developers keep your business running, and why so few?
 

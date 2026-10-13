@@ -43,7 +43,7 @@ I had never stayed that long in a job. The years went by so fast, and I was havi
 
 Keep in mind that this blog is a little over fifteen years old, so a large share of the reflections I've written here came out of my work at Previred.
 
-I told a summary of my experience in the last articles of the series I called ["The End of Agile"](/blog/lnds/2019/03/17/el-fin-de-la-agilidad/).
+I told a summary of my experience in the last articles of the series I called ["The End of Agile"](/en/blog/lnds/2019/03/17/the-end-of-agile/).
 
 > Like a king without a castle\
 > Like a queen without a throne\

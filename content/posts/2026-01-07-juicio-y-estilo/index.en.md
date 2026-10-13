@@ -26,7 +26,7 @@ Nations works with a Netflix codebase of around a million lines of Java. Accordi
 
 The problem is that production systems always fail in unexpected ways. And when they fail, you'd better be able to understand the code you're debugging at 3 in the morning.
 
-This isn't a new argument. In 1986, Fred Brooks wrote the classic ["No Silver Bullet"](https://worrydream.com/refs/Brooks-NoSilverBullet.pdf), where he identified the **essential** difficulties of building software: complexity, conformity, changeability and invisibility. The **accidental** difficulties, like tools, languages and frameworks, can be solved over time. The essential ones can't. I've already written about this in ["Every company is a software company (or will be)"](/blog/lnds/2016/08/30/toda-empresa-es-de-software-o-lo-sera).
+This isn't a new argument. In 1986, Fred Brooks wrote the classic ["No Silver Bullet"](https://worrydream.com/refs/Brooks-NoSilverBullet.pdf), where he identified the **essential** difficulties of building software: complexity, conformity, changeability and invisibility. The **accidental** difficulties, like tools, languages and frameworks, can be solved over time. The essential ones can't. I've already written about this in ["Every company is a software company (or will be)"](/en/blog/lnds/2016/08/30/every-company-is-a-software-company/).
 
 {{<figure src="Fred_Brooks.jpg" caption="Fred Brooks" >}}
 
@@ -51,7 +51,7 @@ Nations puts it like this: conversational AI interfaces lead to complex context 
 
 We can tell the difference. Or at least we can when we stop long enough to think.
 
-As I wrote in ["Occam's Razor"](/blog/lnds/2017/08/29/occams-razor), quoting Hickey: simplicity is hard work. But whoever has a genuinely simple system is going to be able to make the biggest change with the least effort. They'll spend more time simplifying the problem instead of writing complex code, but when they have to debug their code, there will be less to debug.
+As I wrote in ["Occam's Razor"](/en/blog/lnds/2017/08/29/occams-razor/), quoting Hickey: simplicity is hard work. But whoever has a genuinely simple system is going to be able to make the biggest change with the least effort. They'll spend more time simplifying the problem instead of writing complex code, but when they have to debug their code, there will be less to debug.
 
 ## The compulsive programmer
 
@@ -193,6 +193,6 @@ Here's Jake Nations's talk:
 - [Creators of universes](/blog/lnds/2011/10/11/creadores-de-universos) (2011)
 - [What is programming?](/blog/lnds/2012/05/09/que-es-programar) (2012)
 - [We are not cooks](/blog/lnds/2013/03/08/no-somos-cocineros) (2013)
-- [Every company is a software company (or will be)](/blog/lnds/2016/08/30/toda-empresa-es-de-software-o-lo-sera) (2016)
-- [Occam's Razor](/blog/lnds/2017/08/29/occams-razor) (2017)
+- [Every company is a software company (or will be)](/en/blog/lnds/2016/08/30/every-company-is-a-software-company/) (2016)
+- [Occam's Razor](/en/blog/lnds/2017/08/29/occams-razor/) (2017)
 - [The end of artisanal software](/en/blog/lnds/2025/08/27/the-end-of-artisanal-software/) (2025)

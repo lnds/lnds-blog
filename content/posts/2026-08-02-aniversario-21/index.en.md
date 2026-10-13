@@ -33,7 +33,7 @@ By 1987 or 1988 I was already getting paid for my work, and it helped me pay for
 
 I was studying and working, and I joined a group of university classmates as a partner in their software development company. Curiously, the first job with them involved writing a user manual. I found a book on how to write a user manual in the university library, and I wrote a top-notch manual. I combined my two passions, writing and programming.
 
-The rest of what happened I told in a series of posts titled ["The End of Agile"](https://lnds.net/blog/lnds/2019/03/17/el-fin-de-la-agilidad/), in case you're interested in knowing some of my history as a programmer. Maybe that's worth putting in a book.
+The rest of what happened I told in a series of posts titled ["The End of Agile"](/en/blog/lnds/2019/03/17/the-end-of-agile/), in case you're interested in knowing some of my history as a programmer. Maybe that's worth putting in a book.
 
 In 2014 I published a book with a selection of articles from this blog. I'll probably publish another one in the next few years. Right now I'm busy with several things, and the time it takes to publish a book properly, one that isn't written by AI, is considerable. It's several months, believe me. Publishing the first one ate up my time: working with an editor, correcting, iterating. As complex as building software the traditional way.
 

@@ -50,11 +50,11 @@ Sixteen is how old this blog is turning. So to celebrate I've picked sixteen art
 8. ["Two out of three: the CAP theorem"](/blog/lnds/2012/05/25/dos-de-tres-el-teorema-cap), published in May 2012
 9. ["Defining the problem"](/blog/lnds/2013/04/28/definir-el-problema), published in April 2013
 10. ["Sex, pianos and wireless networks"](/blog/lnds/2014/03/10/sexo-pianos-y-wifi), published in March 2014
-11. ["Revelations"](/blog/lnds/2015/10/01/revelaciones), published in October 2015
-12. ["A profession for men only"](/blog/lnds/2016/07/23/profesion-solo-para-hombres), published in July 2016
-13. ["The 300 million dollar button"](/blog/lnds/2017/07/23/el-boton-de-los-300-millones-de-dolares), published in July 2017
-14. ["Who is responsible for quality?"](/blog/lnds/2018/05/06/quien-es-responsable-por-la-calidad), published in May 2018
-15. ["The End of Agile"](/blog/lnds/2019/03/17/el-fin-de-la-agilidad), published in March 2019
+11. ["Revelations"](/en/blog/lnds/2015/10/01/revelations/), published in October 2015
+12. ["A profession for men only"](/en/blog/lnds/2016/07/23/a-profession-for-men-only/), published in July 2016
+13. ["The 300 million dollar button"](/en/blog/lnds/2017/07/23/the-300-million-dollar-button/), published in July 2017
+14. ["Who is responsible for quality?"](/en/blog/lnds/2018/05/06/who-is-responsible-for-quality/), published in May 2018
+15. ["The End of Agile"](/en/blog/lnds/2019/03/17/the-end-of-agile/), published in March 2019
 16. ["I remember when all this was fields"](/en/blog/lnds/2021/07/11/when-all-this-was-fields/), published in July 2021
 
 If you like this blog and want to help me publish a new book, I invite you to support me through Ko-fi:

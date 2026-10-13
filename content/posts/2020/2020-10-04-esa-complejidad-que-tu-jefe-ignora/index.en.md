@@ -55,7 +55,7 @@ Maybe in 1995 this was very easy: a small application written on the LAMP stack[
 
 But that's no longer the reality. It turns out that today, to create a web form, you have to:
 
-- Worry about usability. If you fail at this you can cause frustration, confusion, or you can even end up [losing millions](https://lnds.net/blog/lnds/2017/07/23/el-boton-de-los-300-millones-de-dolares/)[^4].
+- Worry about usability. If you fail at this you can cause frustration, confusion, or you can even end up [losing millions](/en/blog/lnds/2017/07/23/the-300-million-dollar-button/)[^4].
 
 - Depending on the service, the form may be exposed to attacks by cybercriminals, or by vandals who will try to take down the site where you host your form. So you have to take measures to make sure the site withstands a series of attacks (from [Denial of Service](https://es.wikipedia.org/wiki/Ataque_de_denegaci%C3%B3n_de_servicio) to others like [SQL Injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL) or [Cross Site Scripting](https://es.wikipedia.org/wiki/Cross-site_scripting)). Just to name the most common ones (today we have hundreds of possible vulnerabilities[^5]).
 

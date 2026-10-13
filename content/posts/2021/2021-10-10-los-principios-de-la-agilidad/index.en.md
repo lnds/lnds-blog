@@ -235,7 +235,7 @@ Those are the twelve principles. As you can see, the four values derive from the
 
 The truth is I don't know any fully agile organizations.
 
-In the [final stretch of my tenure with my team at Previred](https://lnds.net/blog/lnds/2019/08/15/el-fin-de-la-agilidad/), I had a presentation that opened with the line: "WE ARE NOT AGILE".
+In the [final stretch of my tenure with my team at Previred](/en/blog/lnds/2019/08/15/the-end-of-agile-xii/), I had a presentation that opened with the line: "WE ARE NOT AGILE".
 
 I usually showed it to prospective vendors, or to people joining the team.
 It wasn't just a statement to grab attention. It was the admission of a great truth. Despite all your efforts, it's very hard to live up to all the values and principles of agile.

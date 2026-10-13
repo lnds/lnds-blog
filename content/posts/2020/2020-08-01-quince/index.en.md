@@ -118,39 +118,39 @@ And they reflect the problem of running a social-network kind of site: it eats u
 
 ## 2015
 
-- ["How much longer will this damn project last?"](/blog/lnds/2015/08/09/cuanto-mas-durara-este-maldito-proyecto): could we apply the principles laid out in this post to the length of the pandemic? The answer is no, but could you explain why?
+- ["How much longer will this damn project last?"](/en/blog/lnds/2015/08/09/how-much-longer-will-this-damn-project-last/): could we apply the principles laid out in this post to the length of the pandemic? The answer is no, but could you explain why?
 
-- ["Revelations"](/blog/lnds/2015/10/01/revelaciones): one night the "Angel of Categories" came to me in a dream and gave me a great revelation.
+- ["Revelations"](/en/blog/lnds/2015/10/01/revelations/): one night the "Angel of Categories" came to me in a dream and gave me a great revelation.
 
 ![](/blog/lnds/2015/10/01/revelaciones/featured.png)
 
 ## 2016
 
-- ["Those strange new languages"](/blog/lnds/2016/01/09/esos-raros-lenguajes-nuevos): the start of a series that I naively thought would take a few months :smile:.
+- ["Those strange new languages"](/en/blog/lnds/2016/01/09/those-strange-new-languages/): the start of a series that I naively thought would take a few months :smile:.
 
-- ["A profession for men only"](/blog/lnds/2016/07/23/profesion-solo-para-hombres): this post was born of the outrage I felt at the story of a young woman I interviewed, who told me how her dad forbade her to study computer engineering.
+- ["A profession for men only"](/en/blog/lnds/2016/07/23/a-profession-for-men-only/): this post was born of the outrage I felt at the story of a young woman I interviewed, who told me how her dad forbade her to study computer engineering.
 
 ![](https://d2dspjyoh5c79p.cloudfront.net/15d82cb1-50ff-11e6-aecf-c1145ad981b8-aa9f18b7)
 
 ## 2017
 
-- ["The 300 million dollar button"](/blog/lnds/2017/07/23/el-boton-de-los-300-millones-de-dolares): the importance of usability is measured in millions of dollars gained or lost.
+- ["The 300 million dollar button"](/en/blog/lnds/2017/07/23/the-300-million-dollar-button/): the importance of usability is measured in millions of dollars gained or lost.
 
-- ["The basic laws of human stupidity"](/blog/lnds/2017/11/26/las-leyes-fundamentales-de-la-estupidez-humana): or why stupid people are more dangerous than evil ones, as we have unfortunately been able to see these last few years.
+- ["The basic laws of human stupidity"](/en/blog/lnds/2017/11/26/the-basic-laws-of-human-stupidity/): or why stupid people are more dangerous than evil ones, as we have unfortunately been able to see these last few years.
 
 ## 2018
 
-- ["The Chain"](/blog/lnds/2018/01/06/the-chain): the start of a series about blockchain, but from a rather peculiar angle that may surprise you.
+- ["The Chain"](/en/blog/lnds/2018/01/06/the-chain/): the start of a series about blockchain, but from a rather peculiar angle that may surprise you.
 
-- ["Who is responsible for quality?"](/blog/lnds/2018/05/06/quien-es-responsable-por-la-calidad): the old and pointless argument over whether it's QA or Development gets settled when we go back to the origin of things.
+- ["Who is responsible for quality?"](/en/blog/lnds/2018/05/06/who-is-responsible-for-quality/): the old and pointless argument over whether it's QA or Development gets settled when we go back to the origin of things.
 
 ![](https://d2dspjyoh5c79p.cloudfront.net/9c87bf91-5147-11e8-a030-2b5831f8ecb5-aa9f18b7)
 
 ## 2019
 
-- ["The End of Agile: Part 1: Grunge"](/blog/lnds/2019/03/17/el-fin-de-la-agilidad): the start of the most personal series I've written, most of my professional life summed up in a few posts, whose last chapters are still being written. With a good dose of rock.
+- ["The End of Agile: Part 1: Grunge"](/en/blog/lnds/2019/03/17/the-end-of-agile/): the start of the most personal series I've written, most of my professional life summed up in a few posts, whose last chapters are still being written. With a good dose of rock.
 
-- ["The End of Agile - Part 8: Heavy Metal"](/blog/lnds/2019/04/21/el-fin-de-la-agilidad): on the hard problem of estimating software.
+- ["The End of Agile - Part 8: Heavy Metal"](/en/blog/lnds/2019/04/21/the-end-of-agile-viii/): on the hard problem of estimating software.
 
 ## 2020
 

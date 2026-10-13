@@ -116,7 +116,7 @@ That is what has happened with Cornershop. To understand how it works I think of
 I'll try to explain it through one of the aspects where the contrast is sharpest, and which is easy to explain.
 
 I've [told you before about my professional life](/category/el-fin-de-la-agilidad/), and about Previred in particular.
-As I've said, at Previred I was lucky enough to build, with a lot of freedom, [my own development unit](https://lnds.net/blog/lnds/2019/08/15/el-fin-de-la-agilidad/). So I got to try out different development processes, more or less agile. Over time, something came to characterize us as a team.
+As I've said, at Previred I was lucky enough to build, with a lot of freedom, [my own development unit](/en/blog/lnds/2019/08/15/the-end-of-agile-xii/). So I got to try out different development processes, more or less agile. Over time, something came to characterize us as a team.
 Even though we were a small team, we were focused on building several new products or services.
 
 We had some of this infinite game mentality, inside a finite game, mind you.

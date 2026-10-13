@@ -90,7 +90,7 @@ Among the researchers who stood out at Bell Labs was Claude Shannon, the father 
 
 In the early 1960s a computing research group was created. And in 1967 Brian Kernighan joined the Computing Science Research Center, under the guidance of Doug McIlroy.
 
-Kernighan says he was lucky to be very close to several giants of the field whose offices were right near his. Among the famous researchers working there at the time was Richard Hamming, author, among other things, of the [famous error-correcting code that bears his name](/blog/lnds/2018/10/21/corrigiendo-errores), which makes reliable high-speed communications possible.
+Kernighan says he was lucky to be very close to several giants of the field whose offices were right near his. Among the famous researchers working there at the time was Richard Hamming, author, among other things, of the [famous error-correcting code that bears his name](/en/blog/lnds/2018/10/21/correcting-errors/), which makes reliable high-speed communications possible.
 
 It was Hamming who pushed Kernighan to write. For Hamming the training of programmers was deficient; according to the author, he expressed his opinion of programmers' abilities with the following line:
 
@@ -104,7 +104,7 @@ This idea was the seed of the book that Kernighan and Plauger published in 1974:
 
 ## Operating systems
 
-[A computer](/blog/lnds/2018/12/09/que-es-un-computador) isn't much more than a calculator. The thing is, they can execute millions of arithmetic operations per second.
+[A computer](/en/blog/lnds/2018/12/09/what-is-a-computer/) isn't much more than a calculator. The thing is, they can execute millions of arithmetic operations per second.
 
 Programming consists of creating a sequence of operations for the computer to execute, using what we call a programming language. For example, if we want to compute the grade average for a class, one possible algorithm would be:
 
