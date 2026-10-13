@@ -16,7 +16,7 @@ el mundo debía ser racional. Supongo que no habría aceptado los
 resultados actuales de las ciencias cognitivas. También se dice que era
 un hombre tímido que vivía un tanto angustiado... Me pregunto ¿Cuál
 habría sido la respuesta de Gödel [al problema que planteamos el
-domingo](http://www.lnds.net/blog/2011/11/desafio.html)?
+domingo](/blog/lnds/2011/11/13/desafio/)?
 
 Acá está de nuevo:
 

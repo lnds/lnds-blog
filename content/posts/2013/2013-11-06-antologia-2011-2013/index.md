@@ -156,6 +156,6 @@ posts de la última parte del 2011. Acá vamos:
     ¿y yo que tengo que hacer?
 -   [¡No se puede!](/blog/2013/08/no-se-puede.html)
     el roce dev vs ops, y dos maneras de solucionarlo.
--   [Marte necesita mujeres](/blog/2013/09/marte-necesita-mujeres.html)
+-   [Marte necesita mujeres](/blog/lnds/2013/09/08/marte-necesita-mujeres/)
     ¿por qué hay tan pocas mujeres en computación? No hay explicación
     aceptable.

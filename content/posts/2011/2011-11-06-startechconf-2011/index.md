@@ -77,7 +77,7 @@ cualquier tipo, no necesariamente de desarrollo tecnológico, deberías
 preguntarte sobre cuáles son los motivadores intrínsecos de las
 personas. Y uno de estos es que las personas buscan ser felices (o estar
 felices el mayor tiempo posible, para ser 
-[coherente con mi visión de la felicidad](/blog/2010/10/ser-y-estar.html)).
+[coherente con mi visión de la felicidad](/blog/lnds/2010/10/02/ser-y-estar/)).
 
 El leitmotiv de la charla de
 [\@mojombo](https://twitter.com/#!/mojombo), está planteado en una

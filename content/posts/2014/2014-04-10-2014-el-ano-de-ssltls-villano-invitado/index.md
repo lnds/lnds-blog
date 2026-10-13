@@ -21,7 +21,7 @@ opinión como experto en seguridad. Este es su aporte:
 
 **por Cristián Rojas**
 
-Parto agradeciendo a Eduardo por dejarme intervenir [una vez más](/2012/11/disclosure-no-es-llegar-y-hacerlo.html)
+Parto agradeciendo a Eduardo por dejarme intervenir [una vez más](/blog/lnds/2012/11/20/disclosure-no-es-llegar-y-hacerlo/)
 como *guest villain* en su blog, esta vez por un tema que tiene bastante
 preocupada a la comunidad informática en su conjunto.
 

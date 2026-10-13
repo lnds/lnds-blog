@@ -30,7 +30,7 @@ el premio Nobel Richard Feynmann re descubrió y reformuló varias de sus
 ideas y pudieron ser  entendidas por el resto de la comunidad
 científica. La leyenda dice que ha sido visto en Argentina en la década
 de los 50 donde habría ejercido como humilde ingeniero. Hay más detalles
-misteriorosos sobre los que escribí en [esta entrada](/blog/2012/04/el-extrano-caso-de-ettore-majorana.html),
+misteriorosos sobre los que escribí en [esta entrada](/blog/lnds/2012/04/10/el-extrano-caso-de-ettore-majorana/),
 así que vayan y léanla con atención yo los espero aquí.
 
 (Pausa para que lean sobre Majorana\.....)

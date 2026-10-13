@@ -15,7 +15,7 @@ image:
 El [padre de la computación](/blog/2012/06/el-padre-de-a-computacion.html)
 era gay. El [hacker que descifró los códigos secretos de los Nazis](http://www.lnds.net/blog/2012/06/mi-nombre-es-turing-alan-turing.html) fue
 juzgado y condenado en base a una serie de prejuicios e intolerancia. El
-[genio matemático](/blog/2012/06/maquina-universal.html)
+[genio matemático](/blog/lnds/2012/06/23/maquina-universal/)
 murió cuando tenía apenas 41 años de edad, si fue empujado al suicido o
 por accidente, es [una pregunta abierta
 nuevamente](http://www.bbc.co.uk/news/science-environment-18561092).

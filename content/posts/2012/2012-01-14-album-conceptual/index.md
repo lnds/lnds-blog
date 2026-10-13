@@ -68,7 +68,7 @@ vieja máxima de que el pasado no sirve para explicar el futuro. Algo de
 lo que hemos hablado en "[causas
 imaginadas](http://www.lnds.net/blog/2011/07/causas-imaginadas.html)".
 El libro contiene muchos de los temas que hemos tratado
-[acá](http://www.lnds.net/blog/tag/sentido-comun), lo que no es de
+[acá](/tag/sentido-común/), lo que no es de
 extrañar, pues se suma a una lista de textos que están hablando de los
 mismo: el manejo de la complejidad, la irracionalidad humana, y nuestras
 limitaciones cognitivas para lidiar con la realidad.

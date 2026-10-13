@@ -29,7 +29,7 @@ experto](http://weblogs.asp.net/omarzabir/archive/2008/10/28/solving-common-prob
 citado por Attwood
 
 > "SI estás construyendo aplicaciones web ASP.NET, que van a tener
-> miles de hits por segudo, la sobrecarga de ejecución de las consultas
+> miles de hits por hora, la sobrecarga de ejecución de las consultas
 > Linq van a consumir demasiada CPU y harán tu sitio web lento. Hay un
 > costo en momento de ejecución asociado con con cada una de las
 > consultas Linq que escribes. Las consultas son analizadas y

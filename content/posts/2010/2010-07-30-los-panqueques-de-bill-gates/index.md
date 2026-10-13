@@ -24,7 +24,7 @@ Un ejercicio que se ha vuelto popular es: ¿cuál es la manera más
 eficiente de ordenar un millón de enteros de 32 bits? incluso como
 prueba de selección. La respuesta por supuesto depende de muchos
 supuesto. Al menos [Barack Obama sabe que bublesort no es el mejor
-algoritmo](/blog/2010/07/obama-sabe-computacion.html),
+algoritmo](/blog/lnds/2007/07/22/obama-sabe-computacion/),
 pero ¿un algoritmo "eficiente", como quicksort, o heapsort son  la
 mejor manera de resolver este problema?
 

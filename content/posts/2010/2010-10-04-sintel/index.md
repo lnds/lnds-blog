@@ -12,7 +12,7 @@ draft: false
 Bien, ahora que tengo algo de su atención con respecto al 
 [estado del software libre en Chile](/blog/2010/09/analisis-de-chileforge.html),
 déjenme hablarles de un par de casos que quizás traiga un poco de
-[entendimiento](/blog/2010/05/inteligencia-educacion-y-entendimiento.html)
+[entendimiento](/blog/lnds/2010/05/20/inteligencia-educacion-y-entendimiento/)
 con respecto al tema.
 
 Les quiero hablar de 2 proyectos que deben su existencia a esta idea

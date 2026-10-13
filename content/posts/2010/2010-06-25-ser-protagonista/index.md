@@ -21,7 +21,7 @@ Fue cuando dejé de decir "este país" y empecé a decir mí país, o
 **nuestro país**.
 
 Este equipo tiene otra actitud, una actitud positiva,
-[profesional](http://www.lnds.net/blog/2010/06/ser-profesional.html), y
+[profesional](/blog/lnds/2010/06/16/ser-profesional/), y
 ese ejemplo hay que aprovecharlo, en nuestra vida personal y profesiona,
 y destacarlo a los que trabajan con nosotros.\
 No más actuar en forma ratonil, hay que intentar protagonizar nuestra

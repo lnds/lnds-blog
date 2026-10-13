@@ -27,7 +27,7 @@ ha sido cubierto en diversos posts en este blog.
 Como referencia los temas cubiertos en mi charla corresponde a los
 siguientes posts:
 
--   [Marte necesita mujeres](/blog/2013/09/marte-necesita-mujeres.html)
+-   [Marte necesita mujeres](/blog/lnds/2013/09/08/marte-necesita-mujeres/)
 -   [Qué es programar](/blog/2012/05/que-es-programar.html)
 -   [Expectativas](/blog/2013/03/expectativas.html)
 -   [No se puede](/blog/2013/08/no-se-puede.html)

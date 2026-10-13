@@ -11,7 +11,7 @@ image:
 
 Han habido varias contribuciones al desafío del Zig Zag, si todavía no
 lo has leido, y te animas a contestar el test, entonces antes de
-seguir [lee el desafío](/blog/2011/01/un-test-mas-dificil.html) e
+seguir [lee el desafío](/blog/lnds/2011/01/05/un-test-mas-dificil/) e
 intenta resolverlo.
 
 La solución más concisa que conozco aparece en el sitio [Rosseta
@@ -27,7 +27,7 @@ pero antes de que emprendan la tarea de tratar de entenderla veamos que
 respondieron algunos lectores y después le voy  a mostrar mi solución.
 
 Si tuviera que elegir 3 finalistas me gustan las soluciones de  de [Luis
-Cárdenas](/blog/2011/01/un-test-mas-dificil.html#comment-959)
+Cárdenas](/blog/lnds/2011/01/05/un-test-mas-dificil/#comment-959)
 (en perl), la de [Javier
 Rovegno](http://code.activestate.com/recipes/577536-un-arreglo-zig-zag-es-un-arreglo-cuadrado-de-los-p/)
 (en python) y la de [Francisco

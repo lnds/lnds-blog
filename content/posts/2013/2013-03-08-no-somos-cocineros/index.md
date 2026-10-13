@@ -47,7 +47,7 @@ investiga, preocúpate de que lo que digas es veraz, y que esté bien
 argumentado. Preocúpate primero de lo **esencial**, que el tema sea
 interesante, e investígalo con la mayor profundidad que puedas
 dedicarle. También considera cuidadosamente lo **accidental**, como la
-[ortografía](http://www.lnds.net/blog/2012/10/mala-hortografia.html) y
+[ortografía](/blog/lnds/2012/10/30/mala-hortografia/) y
 la redacción, en eso debo reconocer que tengo fallos, pero creo que la
 solución se da en el tiempo.
 
@@ -308,7 +308,7 @@ que puedan sacar ustedes sus propias conclusiones.
 
 Pero para aclarar mi punto voy a citar a Donald Knuth que lo expone
 bastante bien en su hermoso discurso sobre 
-[el arte de la programación](/blog/2009/12/la-programacion-como-un-arte-parte-i.html).
+[el arte de la programación](/blog/lnds/2009/12/01/la-programacion-como-un-arte-parte-i/).
 
 > Si vamos a las raíces latinas, encontramos ars, artis
 que significan "habilidad". Quizás es significativo que la palabra

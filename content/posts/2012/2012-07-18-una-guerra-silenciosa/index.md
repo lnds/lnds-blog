@@ -9,7 +9,7 @@ math: false
 ---
 
 Soy un fan de GitHub ([como pueden
-comprobar](/blog/2012/02/el-senor-de-los-archivos.html)),
+comprobar](/blog/lnds/2012/02/22/el-senor-de-los-archivos/)),
 pero también me gusta mucho lo que hacen en Atlassian. Desde hace años
 uso y promuevo entre mis colegas el uso de
 [Jira](http://www.atlassian.com/es/software/jira/overview). Uso las

@@ -9,7 +9,7 @@ image:
   placement: 3
 ---
 
-El siguiente post es de un notable "[villano invitado](/tags/villano-invitado/)", se
+El siguiente post es de un notable "[villano invitado](/tag/villano-invitado/)", se
 trata del experto en seguridad, y gurú en cervezas ;-),  
 [Cristián Rojas.](http://injcristianrojas.github.com/about.html)
 

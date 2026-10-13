@@ -15,7 +15,7 @@ Imagen via
 -   Si te interesa puedes ver [la presentación](/blog/2010/09/que-es-cloud-computing-la-presentacion.html).
 
 Hemos hablado bastante de [cloud computing en este
-blog](/tags/cloud-computing/),
+blog](/tag/cloud-computing/),
  pero creo que no hemos precisado mucho que significa esto de la
 *computación en la nube*.
 

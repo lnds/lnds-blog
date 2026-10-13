@@ -42,7 +42,7 @@ escribir era la plataforma que decidí ocupar el año pasado.
 [Octopress](http://octopress.org/) es cool, es hipster. Una herramienta
 pensada por programadores para programadores. Pero ese también es el
 problema. Es lo mismo que pasa con
-[LaTeX](http://www.lnds.net/2008/01/14/latex/), por ejemplo.
+[LaTeX](/blog/lnds/2008/01/14/latex/), por ejemplo.
 
 Son herramientas maravillosas, pero te obligan a establecer un flujo de
 trabajo que no calza con el tipo de escritura que trato de hacer en este

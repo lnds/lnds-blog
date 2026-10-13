@@ -13,7 +13,7 @@ aniversario de este blog, porque soy un gran admirador del estilo de
 Aldrin Martoq, creo que tiene un gran talento para escribir y debería
 hacerlo más, lo que reafirma una observación que tengo de que los buenos
 informáticos son buenos comunicadores también, y de esto precisamente
-nos habla este nuevo "[villano invitado](https://lnds.net/tags/villano-invitado/)":
+nos habla este nuevo "[villano invitado](/tag/villano-invitado/)":
 
 A los buenos informáticos {#alosbuenosinformticos}
 =========================

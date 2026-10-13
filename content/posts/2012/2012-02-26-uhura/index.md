@@ -38,8 +38,8 @@ públicamente su inspiración en el personaje de Uhura. Cuando la serie
 Star Trek fue cancelada en 1969, Nichols trabajó de voluntaria para la
 NASA con el fin de reclutar personal femenino y perteneciente a
 minorías. Entre las personas reclutadas por su trabajo están   Sally
-Ride, la primera mujer astronauta norteamericana y a los primeros
-astronautas afroamericanos Judith Resnik y Ronald McNair.
+Ride, la primera mujer astronauta norteamericana, Judith Resnik y
+Ronald McNair, uno de los primeros astronautas afroamericanos.
 
 Lo que nos enseña esta historia es  que no se trata de \"mejorar la
 raza", se trata de inspirar a otros a tener confianza en si mismo, a

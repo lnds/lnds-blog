@@ -104,7 +104,7 @@ Para Remis Ramos la película no es espiritualista:
 Yo creo que hay algo que no está dicho en la película, y que tiene que
 ver con la clave de la que habla Remis Ramos. Yo sospecho que Cameron se
 las trae, y que en realidad está aplicando [la tercera de Ley de
-Clarke](http://www.lnds.net/2008/03/arthur-clarke.html): "Toda
+Clarke](/blog/lnds/2008/03/18/arthur-clarke/): "Toda
 tecnología suficientemente avanzada es indistinguible de la magia".
 
 Tengo la sensación, porque comparto [la sospecha de J.C.

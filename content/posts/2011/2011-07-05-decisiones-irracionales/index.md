@@ -13,7 +13,7 @@ En Estados Unidos los taxis ofrecen en su sistema de cobro la opción de
 pagar una propina de 15%, 20% ó 25%. No tengo la confirmación, pero
 sospecho que con la introducción de este sistema el valor promedio de la
 propina ha aumentado al 20%. La razón por la que se da esto es un
-fenómeno que tiene que ver con lo que hablábamos en el [artículo anterior](/blog/2011/06/29/valores-por-defecto).
+fenómeno que tiene que ver con lo que hablábamos en el [artículo anterior](/blog/lnds/2011/06/29/valores-por-defecto/).
 
 Al final del [video de Dan Ariely](https://www.ted.com/talks/lang/eng/dan_ariely_asks_are_we_in_control_of_our_own_decisions.html) se
 nos muestran varios casos de esta manipulación de las preferencias. Este

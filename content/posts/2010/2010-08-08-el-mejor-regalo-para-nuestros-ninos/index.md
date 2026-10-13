@@ -20,7 +20,7 @@ escuela para que aprendan, eso es importante, pero también es
 preocuparse de ver que aprenden, es darles cultura, valores, enseñarles
 a tolerar la frustración, a superar la adversidad, a ir más allá de lo
 superficial, es aprender a compartir, y sobretodo 
-[ayudarles a entender](/blog/2010/05/inteligencia-educacion-y-entendimiento.html).
+[ayudarles a entender](/blog/lnds/2010/05/20/inteligencia-educacion-y-entendimiento/).
 
 Educar, en latín es *ex ducere*, ex significa sacar, y ducere sería
 guiar, conducir, así que educar sería algo así como sacar lo mejor de

@@ -78,7 +78,7 @@ mensajes:
 
 > ![](https://www.gobforge.gob.cl/themes/gforge/images/ic/msg.png)rrrhh
 > sistema \
-> [responder]](httpss://www.gobforge.gob.cl/forum/message.php?msg_id=437)
+> [responder]](https://www.gobforge.gob.cl/forum/message.php?msg_id=437)
 > 2010-03-29 15:24
 
 > como descargo la aplicacion

@@ -16,7 +16,7 @@ Universos"](http://www.slideshare.net/EduardoDiazCortes/creadores-de-universos).
 La charla tenía un carácter motivacional, y refleja varias de las ideas
 expuestas en anteriores posts, en particular
 [estos](/blog/2012/05/que-es-programar.html)
-[tres](h/blog/2012/05/aprender-a-programar.html)
+[tres](/blog/lnds/2012/05/18/aprender-a-programar/)
 [artículos](/blog/2011/03/que-deberiamos-ensenar-a-los-nuevos-desarrolladores.html).
 Una de las cosas que más me gustó del contenido de la charla es que
 hablo de mi equipo, esas maravillosas personas  que trabajan conmigo en
@@ -46,13 +46,13 @@ no haber pisado muchos callos :wink: ).
 Esta charla fue mi forma de finalizar el séptimo aniversario de este
 blog, que estuvo muy bueno, gracias a la participación de los "villanos
 invitados" de este año, a los que aprovecho de agradecer: 
-[Daniel Molina Wegener](/blog/2012/08/prevenir-ataques-de-novatos-invitado.html),
-[Alejandro Barros](/blog/2012/08/lnds-esta-de-cumpleanos.html),
-[Álvaro Graves](/blog/2012/08/datos-como-artefactos-democraticos.html),
-[Marcos Malamud](/blog/2012/08/del-gobierno-abierto-al-gobierno-de-servicios.html),
-[Aldrin Martoq](/blog/2012/08/a-los-buenos-informaticos.html),
-[Franco Catrin](/blog/2012/09/el-ritual.html) y al
-gran [Cadaunante Enzo Abbagliati](/blog/2012/09/las-propias-unas.html).
+[Daniel Molina Wegener](/blog/lnds/2012/08/02/prevenir-ataques-de-novatos-invitado/),
+[Alejandro Barros](/blog/lnds/2012/08/15/lnds-está-de-cumpleanos/),
+[Álvaro Graves](/blog/lnds/2012/08/15/datos-como-artefactos-democraticos/),
+[Marcos Malamud](/blog/lnds/2012/08/19/del-gobierno-abierto-al-gobierno-de-servicios/),
+[Aldrin Martoq](/blog/lnds/2012/08/28/a-los-buenos-informaticos/),
+[Franco Catrin](/blog/lnds/2012/09/01/el-ritual/) y al
+gran [Cadaunante Enzo Abbagliati](/blog/lnds/2012/09/03/las-propias-unas/).
 
 Muchas gracias a todos, sobretodo  a mi familia y a mi mujer que saben
 lo importante que es este blog para mi, por su apoyo y paciencia.

@@ -14,7 +14,7 @@ pelo**" [nos aconseja Chato](http://manzanamecanica.org/2011/01/no_le_preguntes_
 y la reflexión nace de alguna conversación  con abogados de patentes.
 Bueno, es cierto que podemos considerar a muchos practicantes de la ley
 como [la causa de la mayoría de lo
-males](/blog/2006/01/la-raiz-de-todos-los-males.html),
+males](/blog/lnds/2006/01/27/la-raiz-de-todos-los-males/),
 pero no hay que perderse tampoco.
 
 Aunque Carlos escribió un [bonito post](http://manzanamecanica.org/2011/01/no_le_preguntes_al_peluquero.html),
@@ -113,7 +113,7 @@ diarias, comiendo dulces y bebidas gaseosas.
 Las ideas tienen valor cuando son secretas, eso lo saben muy bien los
 que pagan esos sueldos lucrativos a estas mentes brillantes, pero
 ingenuas, que gastan su tiempo alimentando estas ideas quiméricas de
-libertad. Pero, además, el [código fuente no importa](/blog/2010/09/no-es-el-codigo-estupido.html),
+libertad. Pero, además, el [código fuente no importa](/blog/lnds/2010/09/08/no-es-el-codigo-estupido/),
 porque ya no tiene valor, así que da lo mismo que se entregue, regale,
 reparta, do whatever you want with it.
 

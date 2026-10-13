@@ -9,7 +9,7 @@ image:
   placement: 3
 ---
 
-Nueva edición extendida de [frases problemáticas](frases-problematicas):
+Nueva edición extendida de [frases problemáticas](/blog/lnds/2006/10/12/frases-problematicas/):
 
 > Todo problema tiene solución, sino, no es problema\...
 

@@ -12,7 +12,7 @@ draft: false
 Recientemente un artículo mío fue enlazado , pero no directamente, sino
 que usando un link generado por el servicio bit.ly, un "acortador de
 urls".  He hablado antes del [problema con estos
-servicios](/blog/2009/04/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando.html)(\*),
+servicios](/blog/lnds/2010/07/31/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/)(\*),
 ahora, reflexionando me he dado cuenta que estos acortadores de urls
 están introduciendo un *problema  bibliográfico*, que no es menor.
 
@@ -52,6 +52,6 @@ Lo que va a pasar es que, parafraseando a Roy Batty, *"All those...
 **links** will be lost in time like tears in rain." ("Todos esos..
 enlaces se perderán en el tiempo como lágrimas en la lluvia.")*
 
-(\*) en ese [artículo](/blog/2009/04/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando.html)
+(\*) en ese [artículo](/blog/lnds/2010/07/31/el-problema-de-tinyurl-y-otros-servicios-similares-reciclando/)
 menciono a dev.cl que fue popular entre los twiteros chilenos y que
 ahora ya no da este servicio, esos enlces se perdieron.

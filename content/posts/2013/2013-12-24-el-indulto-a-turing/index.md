@@ -14,7 +14,7 @@ condenado en 1952 por los cargos de indecencia grave de acuerdo a una
 ley inglesa de 1885. En esencia, el padre de la computación fue
 condenado por ser homosexual.
 
-Ese mismo año, deprimido por el hecho de haber sido sometido a una
+Dos años después, deprimido por el hecho de haber sido sometido a una
 castración química, que le causó impotencia, aumento de los pechos, y
 otras molestias físicas, Turing decidió suicidarse mordiendo una manzana
 envenenada con cianuro.

@@ -121,7 +121,7 @@ esto: [http://www.proyectosalonhogar.com/Enciclopedia*Ilustrada/Ciencias/Movimi
 
 \(1\) [Decisiones Irracionales](/blog/lnds/2011/07/05/decisiones-irracionales)
 
-\(2\) [Valores por defecto](/blog/2011/06/29/valores-por-defecto.html).
+\(2\) [Valores por defecto](/blog/lnds/2011/06/29/valores-por-defecto/).
 
 \(3\) [Esta noticia](http://www.biobiochile.cl/2011/07/09/estudios-indican-que-fotos-de-advertencia-en-cajetillas-en-realidad-aumentan-el-deseo-de-fumar.shtml)
 en Bio Bio Chile.

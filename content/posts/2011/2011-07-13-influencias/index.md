@@ -11,7 +11,7 @@ image:
 ---
 
 Vimos que el éxito de una obra tan importante como la Mona Lisa
-probablemente se deba a una [razón accidental](/blog/2011/07/12/razonamiento-circular).
+probablemente se deba a una [razón accidental](/blog/lnds/2011/07/12/razonamiento-circular/).
 A lo mejor  si el robo de 1911 no se hubiera perpetrado, en la
 actualidad el objeto de arte más famoso del mundo sería otro, no podemos
 saberlo. Por lo tanto no podemos explicar el éxito de la Mona Lisa en

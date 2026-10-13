@@ -294,7 +294,7 @@ Tomado de Wikipedia:
 Este principio ha sido argumentado a favor de dejar de usar las vacunas.
 
 Este principio me recuerda mucho la discusión que tuvimos sobre 
-["la píldora del día después"](/2008/04/el-doctor-horacio-croxatto-y-la-pildora-del-dia-despues.html),
+["la píldora del día después"](/blog/lnds/2008/04/30/el-doctor-horacio-croxatto-y-la-pildora-del-d%C3%ADa-despu%C3%A9s/),
 porque se planteaba que esta píldora podría ser abortiva, y ante esto, y
 en base al principio de precautorio, debió haberse prohibido la
 distribución de este anticonceptivo.

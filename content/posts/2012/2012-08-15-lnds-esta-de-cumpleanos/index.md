@@ -11,7 +11,7 @@ math: false
 [Alejandro Barros](http://www.alejandrobarros.com/) es uno de los pocos
 blogueros persistentes de esa camada que surgió en 2005. Su blog es uno
 de los más importantes en temas tecnológicos en Latino América, él ha
-sido tan amable de unirse a esta banda de \"[villanos invitados](http://www.lnds.net/blog/villano-invitado/)\" que pasan a
+sido tan amable de unirse a esta banda de \"[villanos invitados](/tag/villano-invitado/)\" que pasan a
 saludar el aniversario de este blog. ¡Muchas Gracias Alejandro!
 
 # LNDS Está de Cumpleaños 

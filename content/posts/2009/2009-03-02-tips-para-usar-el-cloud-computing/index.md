@@ -10,7 +10,7 @@ image:
   placement: 3
 ---
 
-El World Privacy Forum, cuyo reporte les [presenté anteriormente](/2009/03/privacidad-y-confidencialidad-en-la-nube.html),
+El World Privacy Forum, cuyo reporte les [presenté anteriormente](/blog/lnds/2009/03/02/privacidad-y-confidencialidad-en-la-nube/),
 publica una serie de [consejos sobre cómo usar los servicios en la nube](http://www.worldprivacyforum.org/cloudprivacy.html), tanto para
 los consumidores, como para el gobierno y los negocios.
 

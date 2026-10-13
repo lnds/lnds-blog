@@ -8,7 +8,7 @@ draft: false
 ---
  
 > Hace un par de años nos quejábamos [del analfabetismo digital de un
-> ministro](/blog/2008/05/el-analfabetismo-digital-del-ministro.html),
+> ministro](/blog/lnds/2008/05/11/el-analfabetismo-digital-del-ministro/),
 > ahora parece que estamos ante una situación peor. Leo en [el blog de
 > Luis Ramirez](http://luisramirez.cl/blog/?p=3109) esta perla:
 

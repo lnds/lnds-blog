@@ -57,8 +57,8 @@ acuño](http://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en)):
 > una perspectiva diferente de él.
 >
 > El secreto del éxito de PARC fue diseñar la mejor máquina virtual que
-> podíamos y después construir el hardware que la optimizaba. Hemos
-> mantenido ese concepto hasta hoy día." (tomado [de esta transcripción
+> podíamos y después construir el hardware que la optimizaba. Hoy
+> tenemos ese concepto al revés." (tomado [de esta transcripción
 > de una charla de Alan
 > Kay](http://www.windley.com/archives/2006/02/alan_kay_is_com.shtml))
 

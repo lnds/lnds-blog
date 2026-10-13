@@ -41,7 +41,7 @@ Eso no funciona.
 Lo que dije es lo siguiente: ¡*\*la única forma de desarrollar software
 es programando, ctm! \**
 
-**El problema son las metáforas ([otra vez](/blog/2010/12/metaforas.html))**
+**El problema son las metáforas ([otra vez](/blog/lnds/2010/12/28/metaforas/))**
 
 ¡Ya!, asumamos por un rato la analogía de que la ingeniería de software
 es como la ingeniería civil. Lo que hacen los  ingenieros civiles es

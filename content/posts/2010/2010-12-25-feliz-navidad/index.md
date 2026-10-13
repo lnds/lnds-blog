@@ -10,6 +10,6 @@ draft: false
 Navidad significa nacimiento, lo que celebramos, en esencia, es eso, el
 surgimiento de nueva vida.\
 Este es mi regalo de navidad para este año, uno de los video de
-[Symphony of Science](www.symphonyofscience.com), The Unbroken Thread:
+[Symphony of Science](http://www.symphonyofscience.com), The Unbroken Thread:
 
 {{<youtube hOLAGYmUQV0>}}

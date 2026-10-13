@@ -8,7 +8,7 @@ draft: false
 ---
 
 Como crecí en
-[Chuquicamata](http://www.lnds.net/blog/2007/08/adios-chuquicamata.html),
+[Chuquicamata](/blog/lnds/2007/08/02/adios-chuquicamata/),
 durante una época en que la contaminación era bastante alta,
 principalmente por las emanaciones de las chimeneas en la fundición de
 cobre, siempre se me dijo que estuve expuesto a la contaminación por
@@ -79,7 +79,7 @@ El problema es que varios científicos han estudiado [el paper de los
 investigadores de la
 NASA](http://www.sciencemag.org/content/early/2010/12/01/science.1197258),
 y han sido bastante críticos. El profesor Rosie Redfield de la
-Universidad de Columbia [publicó en su
+Universidad de British Columbia [publicó en su
 blog](http://rrresearch.blogspot.com/2010/12/arsenic-associated-bacteria-nasas.html)
 un análisis del trabajo de la NASA, quien llega a afirmar que si los
 datos experimentales hubieran sido presentados por estudiantes de

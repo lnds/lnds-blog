@@ -7,7 +7,7 @@ tags: ['algoritmos', 'tecnología', 'amenazas']
 draft: false
 ---
  
-El 26 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un
+El 6 de mayo de 2010 a las 14:45 horas de Nueva York se produjo un
 crash de la bolsa que hizo caer el índice Dow Jones en 900 puntos (una
 caida del 9%) el que se recuperó completamente unos pocos minutos
 después. A este fenómeno se le denominó el 

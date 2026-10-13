@@ -21,7 +21,7 @@ sin explicar cuáles son esos límites y que significan para la salud.Y a
 pesar de que la explicación está al alcance de todos, parece que  hay
 pereza de los medios en investigar y explicar, o quizás no hay interés
 de poner las cosas en
-[perspectiva](/blog/2011/01/perspectiva.html)
+[perspectiva](/blog/lnds/2011/01/02/perspectiva/)
 (conspiranoicamente pensando, quizás es un buen negocio para alguien
 mantener la alarma pública).
 

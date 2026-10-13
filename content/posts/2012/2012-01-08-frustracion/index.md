@@ -38,4 +38,4 @@ las mejoras los que superan esta
 [locura](/blog/2011/03/locura.html), y logran el
 éxito. El éxito no es que todo salga bien y a la primera, o en forma
 perfecta, el éxito es superar los escollos y lograr vivir una 
-[vida plena](/blog/2011/09/vida-plena.html).
+[vida plena](/blog/lnds/2011/09/04/vida-plena/).

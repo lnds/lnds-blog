@@ -16,7 +16,7 @@ profundidad. Ese mensaje, tan simple, amarrado en el extremo de una
 sonda ha sido una de las noticias más alegres que he presenciado y que
 recuerde.
 
-Bien por los viejos. [Nací en zona minera](/blog/2007/08/adios-chuquicamata.html), mi
+Bien por los viejos. [Nací en zona minera](/blog/lnds/2007/08/02/adios-chuquicamata/), mi
 viejo, aunque no era minero, también a veces tenía que ingresar a la
 mina en Chuqui, me acuerdo de él en este momento, y de tantos otros
 "viejos" que he conocido.

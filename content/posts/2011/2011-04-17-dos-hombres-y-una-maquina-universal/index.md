@@ -13,7 +13,7 @@ draft: false
 
 {{<figure caption="Alan Turing el padre de la computación" src="Alan_Turing.jpg">}}
 
-En 1931 un joven de 24 años, Alan Turing decidió reformular ciertos
+En 1936 un joven de 24 años, Alan Turing decidió reformular ciertos
 resultados de la lógica matemática expresando las formulaciones de
 teoremas en términos de algoritmos que podían ser interpretados por una
 máquina teórica. Un algoritmo es "*un conjunto preescrito de

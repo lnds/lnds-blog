@@ -41,8 +41,7 @@ uno de los mejores libros que conozco sobre la historia de la
 computación.
 
 **["Turing's Cathedral: The Origins of the Digital Universe"](http://amzn.to/1iqpdPF)**, de George Dyson. El autor es hijo
-de Freeman Dyson, Premio Nobel de Física, otro gran científico que
-participó del proyecto Manhattan. Siendo niño George Dyson pudo conocer
+de Freeman Dyson, otro gran físico y matemático. Siendo niño George Dyson pudo conocer
 a Von Neumann y a varias personas que trabajaron en el Instituto de
 Estudios Avanzados de Princeton. Este libro es una historia del
 desarrollo de los primeros computadores en Estados Unidos, bajo la

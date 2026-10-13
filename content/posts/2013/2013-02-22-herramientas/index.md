@@ -106,7 +106,7 @@ etapa sólo eres un aprendiz en tu profesión.
 Los programadores tenemos la ventaja de que podemos construir
 herramientas poderosas usando algo parecido a espacio sagrado que
 describí anteriormente, con teclados y pixeles, podemos crear universo
-de infinita complejidad [como nos dice Weizenbaum](/blog/2011/10/creadores-de-universos.html),
+de infinita complejidad [como nos dice Weizenbaum](/blog/lnds/2011/10/11/creadores-de-universos/),
 herramientas que nos permiten realizar milagros, o automatizar tareas
 rutinarias, que nos permiten crear cosas que no existían.
 

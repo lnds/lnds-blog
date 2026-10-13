@@ -162,7 +162,7 @@ toparemos con problemas similares a los que enfrenté con mi pequeño
 ejercicio de datos del censo. Estamos ante el tradicional cambio de
 enfoque, pasamos del mundo transaccional, donde las bases de datos
 relacionales reinan, al problema del procesamiento masivo 
-([no es lo mismo 1 de 5.000 que 5.000 de 1](/blog/2010/04/1-de-5-000-o-5-000-de-1-batch-y-transaccional.html)).
+([no es lo mismo 1 de 5.000 que 5.000 de 1](/blog/lnds/2010/04/04/1-de-5-000-o-5-000-de-1-batch-y-transaccional/)).
 
 ## ¿Qué significa procesar gran cantidad de datos? 
 

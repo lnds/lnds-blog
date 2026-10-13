@@ -16,7 +16,7 @@ image:
 
 En todos los artículos anteriores la idea central era mostrar que mucho
 de lo que llamamos [sentido común](/blog/lnds/2011/06/28/la-paradoja-del-sentido-comun)
-es alguna forma de [razonamiento circular](/blog/lnds/2011/07/20/razonamiento-circular),
+es alguna forma de [razonamiento circular](/blog/lnds/2011/07/12/razonamiento-circular/),
 que muchas explicaciones de sentido común [están erradas](/blog/lnds/2011/07/10/intuicion) y eso se
 demuestra al confrontarla con experimentos o hechos derivados del
 estudio real del comportamiento de los grupos humanos.

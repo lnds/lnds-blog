@@ -14,7 +14,7 @@ computación.
 
 La historia del ajedrez jugado por una máquina es de larga data, famosa
 es la historia
-del [turco](/2005/11/inteligencia_artificial_artificial.html) [mecánico](http://www.portalajedrez.com/anecdotas/turco.php),
+del [turco](/blog/lnds/2005/11/04/inteligencia-artificial-artificial/) [mecánico](http://www.portalajedrez.com/anecdotas/turco.php),
 una máquina con aspecto de turco que se dice derrotó incluso a Napoleón
 Bonaparte, en realidad no había ningún mecanismo, sino que en su
 interior era operada por el campeón austriaco de ajedrez Johann

@@ -20,7 +20,7 @@ libros que esta misma revista editó a fines de los 1960's y comienzos
 de los 1970's.
 
 Con toda esa influencia era natural que quisiera ser astronauta, como
-Scott Glenn, Alan Sheppard o el mismisimo Neil Armstrong. Leí mucho
+John Glenn, Alan Shepard o el mismisimo Neil Armstrong. Leí mucho
 sobre las historias de estos astronautas cuando chico, y aunque suene
 ñoño soy fanático de películas como Apollo 13 o The Right Stuff (oh, soy
 muy fanático de esta, cuando me tomo el tiempo para preparar el equipo
