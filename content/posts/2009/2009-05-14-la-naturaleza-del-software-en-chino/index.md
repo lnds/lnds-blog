@@ -24,7 +24,6 @@ Una cosa es segura, esta persona no entendía lo que decía mi blog y necesitó 
 Me pregunto, ¿qué expresarán exactamente estos caracteres?:
 
   
-![lndsChino.JPG](file:///I:/documentos/blogs/lnds/La%20Naturaleza%20del%20Software%20%20Archivos%20Mayo%202009_files/lndsChino.JPG)
 
 Hasta donde entiendo del lenguaje chino (lo que es casi nada) estos signos pueden evocar una imagen que se asocie a la idea de la naturaleza del software.
 

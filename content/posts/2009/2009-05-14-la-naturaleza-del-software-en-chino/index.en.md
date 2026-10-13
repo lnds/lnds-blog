@@ -24,7 +24,6 @@ Extraordinary!
 I wonder, what exactly do these characters say?:
 
   
-![lndsChino.JPG](file:///I:/documentos/blogs/lnds/La%20Naturaleza%20del%20Software%20%20Archivos%20Mayo%202009_files/lndsChino.JPG)
 
 As far as my understanding of the Chinese language goes (which is next to nothing), these signs may evoke an image associated with the idea of the nature of software.
 
