@@ -8,7 +8,7 @@ authors: [admin]
 tags: [personajes, developers, género, héroes, 'mujeres en tecnología']
 categories: [Personajes]
 date: 2022-07-24T12:37:33-04:00
-lastmod: 2022-07-24T12:37:33-04:00
+lastmod: 2026-11-03T12:00:00-03:00
 featured: false
 draft: false
 
@@ -80,6 +80,6 @@ Cuando le preguntaron sobre qué lecciones de aquella época pueden aplicar los 
 > Recientemente hemos visto sistemas en los que un avión se estrelló y el piloto no tenía idea de lo que estaba pasando. ¡Es una buena idea que el piloto sepa cuáles son sus opciones! Además, lo que se hizo evidente con Apolo, aunque no es cómo funcionó, es que es mejor definir su sistema por adelantado para minimizar los errores, en lugar de producir un montón de código que luego debe corregirse con parches en los parches. Es un mensaje que parece haber pasado desapercibido: en este sentido, el software de hoy todavía se construye de la misma manera que hace 50 años.
 
 
-[^1]: De acuerdo a esta reseña de la NASA: https://www.nasa.gov/pdf/251093main_The_NASA_Heritage_Of_Creativity.pdf. La autoría del término se le atribuye también a Anthony Oettinger y Barry Boehm.
+[^1]: De acuerdo a esta reseña de la NASA: https://www.nasa.gov/pdf/251093main_The_NASA_Heritage_Of_Creativity.pdf. Hamilton no fue la primera en usar el término: Anthony Oettinger, presidente de la ACM, ya lo empleaba en 1966 en una carta a los socios, y la conferencia de la OTAN de Garmisch lo puso en su título en 1968. En una versión anterior de esta nota mencioné también a Barry Boehm, pero sus trabajos sobre ingeniería de software son posteriores, de 1976 en adelante.
 [^2]: Lunar Excursion Module, Módulo de Excursión Lunar, llamado Águila en el caso del Apolo 11.
 [^3]: Entrevista en The Guardian: https://www.theguardian.com/technology/2019/jul/13/margaret-hamilton-computer-scientist-interview-software-apollo-missions-1969-moon-landing-nasa-women
